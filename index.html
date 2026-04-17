@@ -1737,24 +1737,6 @@
   </noscript>
 
   
-  <div id="authPanel" style="position:fixed;top:16px;right:16px;z-index:9999;background:rgba(255,255,255,0.96);border:1px solid #d9e2ee;border-radius:16px;box-shadow:0 10px 24px rgba(15,23,42,0.12);padding:10px 12px;max-width:min(92vw,300px);font-family:Inter,Arial,sans-serif;display:grid;gap:6px;">
-    <div id="authPanelTitle" style="font-size:11px;color:#64748b;text-transform:uppercase;font-weight:700;letter-spacing:.08em;">Sincronização</div>
-    <div id="authStatus" style="font-size:13px;line-height:1.35;color:#0f172a;">
-      Painel carregado. Aguardando Firebase...
-    </div>
-    <div id="authSyncStatus" style="font-size:11px;line-height:1.35;color:#64748b;">
-      Inicializando...
-    </div>
-    <div id="authButtons" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:flex-start;">
-      <button id="btnGoogleLogin" style="flex:1 1 160px;min-height:38px;border:0;border-radius:999px;padding:8px 12px;background:#2f5bea;color:white;font-weight:700;cursor:pointer;">
-        Entrar com Google
-      </button>
-      <button id="btnGoogleLogout" style="min-height:34px;border:1px solid #d9e2ee;border-radius:999px;padding:6px 10px;background:white;color:#0f172a;font-weight:700;cursor:pointer;display:none;">
-        Sair
-      </button>
-    </div>
-  </div>
-
   <div class="shell">
     <header class="topbar" id="top">
       <div id="compatHint" style="display:none;padding:12px 14px;border:1px solid var(--warning);border-radius:16px;background:var(--warning-soft);color:var(--warning);font-size:14px;line-height:1.5;"></div>
@@ -1775,10 +1757,29 @@
         </div>
         <button class="btn btn-ghost" id="themeToggle" aria-label="Alternar tema">Tema</button>
         <button class="btn btn-ghost" id="recalcBtn">Recalcular</button>
+        <button class="btn btn-ghost" id="authToggleBtn" type="button">Conta</button>
         <div class="data-tools">
           <button class="btn btn-ghost" id="exportBtn">Exportar dados</button>
           <button class="btn btn-ghost" id="importBtn">Importar dados</button>
           <input type="file" id="importFileInput" accept="application/json" hidden />
+        </div>
+      </div>
+      <div id="authInlinePanel" hidden style="margin-top:14px;padding:14px 16px;border:1px solid var(--line);border-radius:18px;background:var(--bg-elevated);box-shadow:var(--shadow-soft);display:grid;gap:10px;">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;">
+          <div>
+            <div id="authPanelTitle" style="font-size:11px;color:var(--muted);text-transform:uppercase;font-weight:700;letter-spacing:.08em;">Conta e sincronização</div>
+            <div id="authStatus" style="font-size:14px;line-height:1.4;color:var(--text);margin-top:4px;">Painel carregado. Aguardando Firebase...</div>
+            <div id="authSyncStatus" style="font-size:12px;line-height:1.35;color:var(--muted);margin-top:2px;">Inicializando...</div>
+          </div>
+          <button class="btn btn-ghost" id="authCloseBtn" type="button" style="min-height:40px;">Fechar</button>
+        </div>
+        <div id="authButtons" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:flex-start;">
+          <button id="btnGoogleLogin" style="min-height:42px;border:0;border-radius:12px;padding:10px 14px;background:#2f5bea;color:white;font-weight:700;cursor:pointer;">
+            Entrar com Google
+          </button>
+          <button id="btnGoogleLogout" style="min-height:42px;border:1px solid #d9e2ee;border-radius:12px;padding:10px 14px;background:white;color:#0f172a;font-weight:700;cursor:pointer;display:none;">
+            Sair
+          </button>
         </div>
       </div>
     </header>
@@ -5636,47 +5637,9 @@ function bindDynamicActions() {
         onAuthStateChanged
       } = window.firebaseSync;
 
-      let panel = document.getElementById("authPanel");
-      if (!panel) {
-        panel = document.createElement("div");
-        panel.id = "authPanel";
-        panel.style.position = "fixed";
-        panel.style.top = "16px";
-        panel.style.right = "16px";
-        panel.style.zIndex = "9999";
-        panel.style.background = "rgba(255,255,255,0.96)";
-        panel.style.border = "1px solid #d9e2ee";
-        panel.style.borderRadius = "16px";
-        panel.style.boxShadow = "0 10px 24px rgba(15, 23, 42, 0.12)";
-        panel.style.padding = "10px 12px";
-        panel.style.maxWidth = "min(92vw, 300px)";
-        panel.style.fontFamily = "Inter, Arial, sans-serif";
-        panel.style.display = "grid";
-        panel.style.gap = "6px";
-
-        panel.innerHTML = `
-          <div id="authPanelTitle" style="font-size:11px;color:#64748b;text-transform:uppercase;font-weight:700;letter-spacing:.08em;">
-            Sincronização
-          </div>
-          <div id="authStatus" style="font-size:13px;line-height:1.35;color:#0f172a;">
-            Verificando login...
-          </div>
-          <div id="authSyncStatus" style="font-size:11px;line-height:1.35;color:#64748b;">
-            Firebase conectado.
-          </div>
-          <div id="authButtons" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:flex-start;">
-            <button id="btnGoogleLogin" style="flex:1 1 160px;min-height:38px;border:0;border-radius:999px;padding:8px 12px;background:#2f5bea;color:white;font-weight:700;cursor:pointer;">
-              Entrar com Google
-            </button>
-            <button id="btnGoogleLogout" style="min-height:34px;border:1px solid #d9e2ee;border-radius:999px;padding:6px 10px;background:white;color:#0f172a;font-weight:700;cursor:pointer;display:none;">
-              Sair
-            </button>
-          </div>
-        `;
-
-        document.body.appendChild(panel);
-      }
-
+      const panel = document.getElementById("authInlinePanel");
+      const toggleBtn = document.getElementById("authToggleBtn");
+      const closeBtn = document.getElementById("authCloseBtn");
       const titleEl = document.getElementById("authPanelTitle");
       const statusEl = document.getElementById("authStatus");
       const syncEl = document.getElementById("authSyncStatus");
@@ -5684,23 +5647,28 @@ function bindDynamicActions() {
       const loginBtn = document.getElementById("btnGoogleLogin");
       const logoutBtn = document.getElementById("btnGoogleLogout");
 
-      function setCompactLoggedPanel(isLogged) {
+      function setPanelOpen(isOpen) {
         if (!panel) return;
-        if (isLogged) {
-          panel.style.padding = "8px 10px";
-          panel.style.maxWidth = "min(92vw, 230px)";
-          if (titleEl) titleEl.style.display = "none";
-          if (buttonsEl) buttonsEl.style.justifyContent = "flex-end";
-          if (statusEl) statusEl.style.fontSize = "12px";
-          if (syncEl) syncEl.style.fontSize = "10px";
+        if (isOpen) {
+          panel.removeAttribute("hidden");
+          if (toggleBtn) toggleBtn.textContent = "Fechar conta";
         } else {
-          panel.style.padding = "10px 12px";
-          panel.style.maxWidth = "min(92vw, 300px)";
-          if (titleEl) titleEl.style.display = "block";
-          if (buttonsEl) buttonsEl.style.justifyContent = "flex-start";
-          if (statusEl) statusEl.style.fontSize = "13px";
-          if (syncEl) syncEl.style.fontSize = "11px";
+          panel.setAttribute("hidden", "");
+          if (toggleBtn) toggleBtn.textContent = auth.currentUser ? "Conta · " + ((auth.currentUser.displayName || "Usuário").split(" ")[0]) : "Conta";
         }
+      }
+
+      if (toggleBtn) {
+        toggleBtn.addEventListener("click", function () {
+          const isHidden = panel.hasAttribute("hidden");
+          setPanelOpen(isHidden);
+        });
+      }
+
+      if (closeBtn) {
+        closeBtn.addEventListener("click", function () {
+          setPanelOpen(false);
+        });
       }
 
       window.updateAuthPanelStatus = function (text, tone) {
@@ -5712,7 +5680,7 @@ function bindDynamicActions() {
             ? "#117a4d"
             : tone === "accent"
               ? "#2f5bea"
-              : "#64748b";
+              : "var(--muted)";
       };
 
       loginBtn.addEventListener("click", async function () {
@@ -5733,7 +5701,8 @@ function bindDynamicActions() {
           }
 
           alert("Erro no login com Google.\nCódigo: " + (err.code || "sem código") + "\nMensagem: " + (err.message || "sem mensagem"));
-          window.updateAuthPanelStatus(`Erro no login: ${err.code || "sem código"}`, "danger");
+          window.updateAuthPanelStatus("Erro no login: " + (err.code || "sem código"), "danger");
+          setPanelOpen(true);
         }
       });
 
@@ -5748,25 +5717,25 @@ function bindDynamicActions() {
 
       onAuthStateChanged(auth, function (user) {
         if (user) {
-          const nome = (user.displayName || "Usuário").split(" ")[0];
-          statusEl.innerHTML = `<strong>${nome}</strong>`;
+          const nomeCompleto = user.displayName || "Usuário";
+          const primeiroNome = nomeCompleto.split(" ")[0];
+          if (titleEl) titleEl.textContent = "Conta conectada";
+          statusEl.innerHTML = "<strong>" + primeiroNome + "</strong><br><span style=\"color:var(--muted);\">" + (user.email || "") + "</span>";
           loginBtn.style.display = "none";
           logoutBtn.style.display = "inline-block";
           window.updateAuthPanelStatus("Nuvem ativa", "success");
-          setCompactLoggedPanel(true);
-          console.log("Usuário autenticado:", user.uid);
+          if (toggleBtn) toggleBtn.textContent = "Conta · " + primeiroNome;
         } else {
-          statusEl.innerHTML = `
-            <strong>Não logado</strong><br>
-            <span style="color:#64748b;">Entre com Google para sincronizar seus dados.</span>
-          `;
+          if (titleEl) titleEl.textContent = "Conta e sincronização";
+          statusEl.innerHTML = "<strong>Não logado</strong><br><span style=\"color:var(--muted);\">Entre com Google para sincronizar seus dados.</span>";
           loginBtn.style.display = "inline-block";
           logoutBtn.style.display = "none";
           window.updateAuthPanelStatus("Sem sincronização: usuário não logado.", "neutral");
-          setCompactLoggedPanel(false);
-          console.log("Nenhum usuário autenticado.");
+          if (toggleBtn) toggleBtn.textContent = "Conta";
         }
       });
+
+      setPanelOpen(false);
     }
 
     waitForFirebase();
