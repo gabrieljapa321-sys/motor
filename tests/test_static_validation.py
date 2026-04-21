@@ -30,16 +30,36 @@ class StaticValidationTests(unittest.TestCase):
         self.assertIn('aria-keyshortcuts="Alt+ArrowLeft"', html)
         self.assertIn('aria-keyshortcuts="Alt+ArrowRight"', html)
 
+    def test_navigation_is_split_between_primary_and_study_levels(self):
+        html = INDEX_HTML.read_text(encoding="utf-8")
+        main_nav_block = re.search(r'<nav class="tb-nav".*?</nav>', html, flags=re.S).group(0)
+        self.assertEqual(re.findall(r'data-nav-page="([^"]+)"', main_nav_block), ["home", "studies", "news", "work"])
+        self.assertIn('id="studyNavBar"', html)
+        self.assertIn('data-study-page="dashboard"', html)
+        self.assertIn('data-study-page="week"', html)
+        self.assertIn('data-study-page="fc"', html)
+        self.assertIn('data-study-page="calendar"', html)
+        self.assertIn('data-study-page="grades"', html)
+
     def test_script_order_includes_new_architecture_layers(self):
         html = INDEX_HTML.read_text(encoding="utf-8")
         order = [
             "assets/js/store.js",
             "assets/js/dates.js",
+            "assets/js/work-domain.js",
             "assets/js/theme.js",
             "assets/js/backup.js",
             "assets/js/sync-service.js",
             "assets/js/app-core.js",
             "assets/js/app-pages.js",
+            "assets/js/week-planner.js",
+            "assets/js/study-features.js",
+            "assets/js/flashcards-exams.js",
+            "assets/js/app-actions.js",
+            "assets/js/work-planner.js",
+            "assets/js/news-feed.js",
+            "assets/js/ticker-tape.js",
+            "assets/js/app-init.js",
             "assets/js/firebase-init.js",
             "assets/js/auth-panel.js",
             "assets/js/firebase-sync.js",
@@ -49,11 +69,11 @@ class StaticValidationTests(unittest.TestCase):
 
     def test_app_css_imports_domain_files(self):
         css = (CSS_DIR / "app.css").read_text(encoding="utf-8")
-        for name in ["base.css", "dashboard.css", "calendar.css", "grades.css", "week.css", "flashcards.css"]:
+        for name in ["base.css", "dashboard.css", "calendar.css", "grades.css", "week.css", "flashcards.css", "news.css", "ticker.css", "work.css"]:
             self.assertIn(name, css)
 
     def test_json_data_files_exist_and_are_valid(self):
-        for name in ["study-data.json", "ui-config.json"]:
+        for name in ["study-data.json", "ui-config.json", "exercises.json", "news.json", "ticker-tape.json"]:
             payload = json.loads((DATA_DIR / name).read_text(encoding="utf-8"))
             self.assertIsInstance(payload, dict)
 

@@ -54,55 +54,12 @@
     return { touchedTasks: 0, logs: 0, deadlines: 0, deliveredDeadlines: 0, gradeEntries: 0, schemaVersion: 0 };
   }
 
-  function renderSummary(summary) {
-    return [
-      `<div><strong>Schema:</strong> ${summary.schemaVersion || "?"}</div>`,
-      `<div><strong>Tarefas tocadas:</strong> ${summary.touchedTasks || 0}</div>`,
-      `<div><strong>Logs:</strong> ${summary.logs || 0}</div>`,
-      `<div><strong>Entregas:</strong> ${summary.deadlines || 0}</div>`,
-      `<div><strong>Entregues:</strong> ${summary.deliveredDeadlines || 0}</div>`,
-      `<div><strong>Notas:</strong> ${summary.gradeEntries || 0}</div>`
-    ].join("");
-  }
-
   function requestConflictResolution(localState, cloudState) {
-    const backdrop = document.getElementById("syncConflictBackdrop");
-    const localSummary = document.getElementById("syncConflictLocalSummary");
-    const cloudSummary = document.getElementById("syncConflictCloudSummary");
-    const keepLocalBtn = document.getElementById("syncConflictKeepLocalBtn");
-    const mergeBtn = document.getElementById("syncConflictMergeBtn");
-    const useCloudBtn = document.getElementById("syncConflictUseCloudBtn");
-    const note = document.getElementById("syncConflictNote");
-
-    if (!backdrop || !localSummary || !cloudSummary || !keepLocalBtn || !mergeBtn || !useCloudBtn) {
-      return Promise.resolve("merge");
-    }
-
-    localSummary.innerHTML = renderSummary(getSummary(localState));
-    cloudSummary.innerHTML = renderSummary(getSummary(cloudState));
-    if (note) {
-      note.textContent = "Mesclar preserva o que for mais recente em cada lista e mantém preferências novas do schema atual.";
-    }
-
-    backdrop.dataset.open = "true";
-    backdrop.setAttribute("aria-hidden", "false");
-
-    return new Promise((resolve) => {
-      const cleanup = (choice) => {
-        keepLocalBtn.removeEventListener("click", onLocal);
-        mergeBtn.removeEventListener("click", onMerge);
-        useCloudBtn.removeEventListener("click", onCloud);
-        backdrop.dataset.open = "false";
-        backdrop.setAttribute("aria-hidden", "true");
-        resolve(choice);
-      };
-      const onLocal = () => cleanup("local");
-      const onMerge = () => cleanup("merge");
-      const onCloud = () => cleanup("cloud");
-      keepLocalBtn.addEventListener("click", onLocal, { once: true });
-      mergeBtn.addEventListener("click", onMerge, { once: true });
-      useCloudBtn.addEventListener("click", onCloud, { once: true });
+    console.info("[sync] conflito detectado; usando mesclagem silenciosa.", {
+      localSummary: getSummary(localState),
+      cloudSummary: getSummary(cloudState)
     });
+    return Promise.resolve("merge");
   }
 
   async function writeCloudPayload(payload, reason) {
@@ -145,7 +102,7 @@
 
     if (!user) {
       cloudLoaded = false;
-      emitStatus("Sem sincronização: usuário não logado.", "neutral");
+      emitStatus("Sem sincronizacao: usuario nao logado.", "neutral");
       return;
     }
 
@@ -190,7 +147,7 @@
           await writeCloudPayload(localState, "seed-from-local");
           emitStatus("Dados locais enviados para iniciar a nuvem.", "success");
         } else {
-          emitStatus("Conta conectada. A nuvem será criada quando houver dados seus.", "neutral");
+          emitStatus("Conta conectada. A nuvem sera criada quando houver dados seus.", "neutral");
         }
 
         suppressCloudWrite = false;
@@ -202,7 +159,7 @@
           await writeCloudPayload(localState, "first-cloud-save");
           emitStatus("Nuvem criada com seus dados locais.", "success");
         } else {
-          emitStatus("Conta conectada. A nuvem será criada quando você lançar notas, entregas ou progresso.", "neutral");
+          emitStatus("Conta conectada. A nuvem sera criada quando voce lancar notas, entregas ou progresso.", "neutral");
         }
         cloudLoaded = true;
       }
@@ -233,7 +190,7 @@
   }
 
   async function login() {
-    if (!provider) throw new Error("Firebase não inicializado.");
+    if (!provider) throw new Error("Firebase nao inicializado.");
     try {
       await provider.signInWithPopup(provider.auth, provider.provider);
     } catch (error) {
@@ -248,13 +205,13 @@
         await provider.signInWithRedirect(provider.auth, provider.provider);
         return;
       }
-      emitStatus("Erro no login: " + (error.code || "sem código"), "danger");
+      emitStatus("Erro no login: " + (error.code || "sem codigo"), "danger");
       throw error;
     }
   }
 
   async function logout() {
-    if (!provider) throw new Error("Firebase não inicializado.");
+    if (!provider) throw new Error("Firebase nao inicializado.");
     await provider.signOut(provider.auth);
   }
 

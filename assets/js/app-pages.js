@@ -74,6 +74,14 @@
 
         weight: Number(phase.weight || 0),
 
+        weightLabel: phase.weightLabel || null,
+
+        role: phase.gradeRole || null,
+
+        optional: phase.optional === true,
+
+        phaseId: phase.id,
+
         type: "phase"
 
       }));
@@ -88,6 +96,12 @@
 
         weight: Number(extra.weight || 0),
 
+        weightLabel: extra.weightLabel || null,
+
+        role: extra.gradeRole || null,
+
+        optional: extra.optional === true,
+
         type: "extra"
 
       }));
@@ -95,6 +109,382 @@
 
 
       return [...phases, ...extras];
+
+    }
+
+
+
+    function getComponentWeightText(component) {
+
+      if (!component) return "—";
+
+      if (component.weightLabel) return component.weightLabel;
+
+      return formatWeight(component.weight);
+
+    }
+
+
+
+    function getSubjectGradeModel(subject) {
+
+      return subject && subject.gradeModel && typeof subject.gradeModel === "object"
+
+        ? subject.gradeModel
+
+        : { type: "linear" };
+
+    }
+
+
+
+    function buildComponentScoreMap(components) {
+
+      return Object.fromEntries((components || []).map((component) => [
+
+        component.key,
+
+        component.score == null ? null : Number(component.score)
+
+      ]));
+
+    }
+
+
+
+    function clampGradeValue(value) {
+
+      if (!Number.isFinite(value)) return null;
+
+      return Math.max(0, Math.min(10, value));
+
+    }
+
+
+
+    function evaluatePme0100Formula(subject, scoreMap) {
+
+      const components = getSubjectGradeComponents(subject);
+
+      const byRole = Object.fromEntries(components.filter((component) => component.role).map((component) => [component.role, component.key]));
+
+      const p1 = Number(scoreMap[byRole.p1]);
+
+      const p2 = Number(scoreMap[byRole.p2]);
+
+      const p3 = Number(scoreMap[byRole.p3]);
+
+      const activity = Number(scoreMap[byRole.activityAverage]);
+
+      const psub = Number(scoreMap[byRole.substituteExam]);
+
+      const recovery = Number(scoreMap[byRole.recoveryExam]);
+
+      const hasP1 = Number.isFinite(p1);
+
+      const hasP2 = Number.isFinite(p2);
+
+      const hasP3 = Number.isFinite(p3);
+
+      let weightedExamAverage = null;
+
+      if (hasP1 && hasP2 && hasP3) {
+
+        const examEntries = [
+
+          { score: p1, weight: 2 },
+
+          { score: p2, weight: 2 },
+
+          { score: p3, weight: 3 }
+
+        ];
+
+        if (Number.isFinite(psub)) {
+
+          let lowestIndex = 0;
+
+          examEntries.forEach((entry, index) => {
+
+            if (entry.score < examEntries[lowestIndex].score) lowestIndex = index;
+
+          });
+
+          examEntries[lowestIndex] = {
+
+            ...examEntries[lowestIndex],
+
+            score: psub
+
+          };
+
+        }
+
+        const weightedSum = examEntries.reduce((sum, entry) => sum + entry.score * entry.weight, 0);
+
+        weightedExamAverage = weightedSum / 7;
+
+      }
+
+      let firstEvaluation = null;
+
+      if (weightedExamAverage != null) {
+
+        if (weightedExamAverage <= 3) {
+
+          firstEvaluation = weightedExamAverage;
+
+        } else if (Number.isFinite(activity)) {
+
+          firstEvaluation = (15 * weightedExamAverage - 3 * activity) / (12 + weightedExamAverage - activity);
+
+        }
+
+      }
+
+      const recoveryEligible = firstEvaluation != null && firstEvaluation >= 3 && firstEvaluation < 5;
+
+      const secondEvaluation = recoveryEligible && Number.isFinite(recovery)
+
+        ? Math.max(firstEvaluation, (firstEvaluation + recovery) / 2)
+
+        : null;
+
+      const finalGrade = secondEvaluation != null ? secondEvaluation : firstEvaluation;
+
+      const finalGradeClosed = finalGrade != null && (!recoveryEligible || secondEvaluation != null);
+
+      return {
+
+        weightedExamAverage: clampGradeValue(weightedExamAverage),
+
+        activityAverage: Number.isFinite(activity) ? clampGradeValue(activity) : null,
+
+        firstEvaluation: clampGradeValue(firstEvaluation),
+
+        recoveryEligible,
+
+        recoveryScore: Number.isFinite(recovery) ? clampGradeValue(recovery) : null,
+
+        secondEvaluation: clampGradeValue(secondEvaluation),
+
+        substituteScore: Number.isFinite(psub) ? clampGradeValue(psub) : null,
+
+        finalGrade: clampGradeValue(finalGrade),
+
+        finalGradeClosed
+
+      };
+
+    }
+
+
+
+    function getPme0100RequiredAverage(status, target, overrides = {}) {
+
+      const baseScores = buildComponentScoreMap(status.components);
+
+      Object.entries(overrides || {}).forEach(([key, value]) => {
+
+        const numeric = Number(value);
+
+        if (Number.isFinite(numeric)) baseScores[key] = numeric;
+
+      });
+
+      const remaining = (status.remainingComponents || []).filter((component) => !Number.isFinite(Number(overrides[component.key])));
+
+      const evaluateWithFill = (fillValue) => {
+
+        const scoreMap = { ...baseScores };
+
+        remaining.forEach((component) => {
+
+          scoreMap[component.key] = fillValue;
+
+        });
+
+        const evaluation = evaluatePme0100Formula(status.subject, scoreMap);
+
+        return evaluation.finalGrade;
+
+      };
+
+      if (!remaining.length) {
+
+        const evaluation = evaluatePme0100Formula(status.subject, baseScores);
+
+        return evaluation.finalGradeClosed ? null : 11;
+
+      }
+
+      const atZero = evaluateWithFill(0);
+
+      if (atZero != null && atZero >= target) return 0;
+
+      const atTen = evaluateWithFill(10);
+
+      if (atTen == null || atTen < target) return 11;
+
+      let low = 0;
+
+      let high = 10;
+
+      for (let step = 0; step < 40; step += 1) {
+
+        const mid = (low + high) / 2;
+
+        const current = evaluateWithFill(mid);
+
+        if (current == null || current < target) {
+
+          low = mid;
+
+        } else {
+
+          high = mid;
+
+        }
+
+      }
+
+      return high;
+
+    }
+
+
+
+    function getPme0100GradeStatus(subject) {
+
+      const components = getSubjectGradeComponents(subject).map((component) => {
+
+        const entries = getGradeEntriesForComponent(subject.code, component.key).slice().sort((a, b) => {
+
+          const aDate = a.entryDate || "9999-12-31";
+
+          const bDate = b.entryDate || "9999-12-31";
+
+          if (aDate === bDate) return a.createdAt > b.createdAt ? -1 : 1;
+
+          return aDate > bDate ? -1 : 1;
+
+        });
+
+        return {
+
+          ...component,
+
+          entries,
+
+          score: getWeightedEntryAverage(entries)
+
+        };
+
+      });
+
+      const evaluation = evaluatePme0100Formula(subject, buildComponentScoreMap(components));
+
+      const mandatoryComponents = components.filter((component) => !component.optional && component.role !== "recoveryExam" && component.role !== "substituteExam");
+
+      let remainingComponents = mandatoryComponents.filter((component) => component.score == null);
+
+      const recoveryComponent = components.find((component) => component.role === "recoveryExam");
+
+      if (!remainingComponents.length && evaluation.recoveryEligible && recoveryComponent && recoveryComponent.score == null) {
+
+        remainingComponents = [recoveryComponent];
+
+      }
+
+      const knownComponents = components.filter((component) => component.score != null);
+
+      const knownScores = mandatoryComponents.filter((component) => component.score != null).map((component) => Number(component.score));
+
+      const knownAverage = knownScores.length
+
+        ? knownScores.reduce((sum, score) => sum + score, 0) / knownScores.length
+
+        : null;
+
+      const zeroFilledScoreMap = buildComponentScoreMap(components);
+
+      mandatoryComponents.forEach((component) => {
+
+        if (zeroFilledScoreMap[component.key] == null) zeroFilledScoreMap[component.key] = 0;
+
+      });
+
+      const zeroFilledEvaluation = evaluatePme0100Formula(subject, zeroFilledScoreMap);
+
+      let projectedMaintain = null;
+
+      if (knownAverage != null) {
+
+        const projectedScoreMap = buildComponentScoreMap(components);
+
+        mandatoryComponents.forEach((component) => {
+
+          if (projectedScoreMap[component.key] == null) projectedScoreMap[component.key] = knownAverage;
+
+        });
+
+        const projectedEvaluation = evaluatePme0100Formula(subject, projectedScoreMap);
+
+        projectedMaintain = projectedEvaluation.finalGrade;
+
+      }
+
+      const requiredForFive = getPme0100RequiredAverage({ subject, components, remainingComponents }, 5);
+
+      const requiredForSix = getPme0100RequiredAverage({ subject, components, remainingComponents }, 6);
+
+      return {
+
+        modelType: "pme0100_formula_2026",
+
+        scenarioDisabled: true,
+
+        subject,
+
+        components,
+
+        knownComponents,
+
+        remainingComponents,
+
+        knownContribution: 0,
+
+        knownWeight: 0,
+
+        remainingWeight: 0,
+
+        currentLockedGrade: zeroFilledEvaluation.finalGrade == null ? 0 : zeroFilledEvaluation.finalGrade,
+
+        finalGrade: evaluation.finalGradeClosed ? evaluation.finalGrade : null,
+
+        knownAverage,
+
+        projectedMaintain,
+
+        requiredForFive,
+
+        requiredForSix,
+
+        weightedExamAverage: evaluation.weightedExamAverage,
+
+        activityAverage: evaluation.activityAverage,
+
+        firstEvaluation: evaluation.firstEvaluation,
+
+        secondEvaluation: evaluation.secondEvaluation,
+
+        recoveryEligible: evaluation.recoveryEligible,
+
+        substituteScore: evaluation.substituteScore,
+
+        recoveryScore: evaluation.recoveryScore
+
+      };
 
     }
 
@@ -170,6 +560,20 @@
 
 
 
+    function getRequiredAverageForStatus(target, status, overrides = {}) {
+
+      if (status && status.modelType === "pme0100_formula_2026") {
+
+        return getPme0100RequiredAverage(status, target, overrides);
+
+      }
+
+      return getRequiredAverageForTarget(target, status.knownContribution, status.remainingWeight);
+
+    }
+
+
+
     function getRequirementTone(requiredAverage) {
 
       if (requiredAverage == null) return "neutral";
@@ -237,6 +641,14 @@
 
 
     function getSubjectGradeStatus(subject) {
+
+      const gradeModel = getSubjectGradeModel(subject);
+
+      if (gradeModel.type === "pme0100_formula_2026") {
+
+        return getPme0100GradeStatus(subject);
+
+      }
 
       const components = getSubjectGradeComponents(subject).map((component) => {
 
@@ -614,7 +1026,7 @@ function renderGradeFormCard(referenceDate) {
 
             <select name="componentKey" id="gradeComponentSelect" required>
 
-              ${components.map((component) => `<option value="${component.key}" ${editing && editing.componentKey === component.key ? 'selected' : ''}>${escapeHtml(component.label)} · ${formatWeight(component.weight)}</option>`).join("")}
+              ${components.map((component) => `<option value="${component.key}" ${editing && editing.componentKey === component.key ? 'selected' : ''}>${escapeHtml(component.label)} · ${escapeHtml(getComponentWeightText(component))}</option>`).join("")}
 
             </select>
 
@@ -758,7 +1170,7 @@ function buildGradeScenarioPreset(status, target, strategy) {
 
   if (!components.length) return {};
 
-  const requiredAverage = getRequiredAverageForTarget(target, status.knownContribution, status.remainingWeight);
+  const requiredAverage = getRequiredAverageForStatus(target, status);
 
   if (requiredAverage == null) return {};
 
@@ -964,9 +1376,9 @@ function getGradeOverviewModel(subjectCode) {
 
   const status = getSubjectGradeStatus(subject);
 
-  const requiredPrimary = getRequiredAverageForTarget(targets.primary, status.knownContribution, status.remainingWeight);
+  const requiredPrimary = getRequiredAverageForStatus(targets.primary, status);
 
-  const requiredSecondary = getRequiredAverageForTarget(targets.secondary, status.knownContribution, status.remainingWeight);
+  const requiredSecondary = getRequiredAverageForStatus(targets.secondary, status);
 
 
 
@@ -988,11 +1400,11 @@ function getGradeOverviewModel(subjectCode) {
 
     remainingLabels: status.remainingComponents.length
 
-      ? status.remainingComponents.map((component) => `<span class="chip neutral">${escapeHtml(component.label)} · ${formatWeight(component.weight)}</span>`).join("")
+      ? status.remainingComponents.map((component) => `<span class="chip neutral">${escapeHtml(component.label)} · ${escapeHtml(getComponentWeightText(component))}</span>`).join("")
 
       : '<span class="chip success">Tudo lançado</span>',
 
-    scenario: getGradeScenarioStatus(status, subject.code)
+    scenario: status.scenarioDisabled ? null : getGradeScenarioStatus(status, subject.code)
 
   };
 
@@ -1001,6 +1413,12 @@ function getGradeOverviewModel(subjectCode) {
 
 
 function renderGradeScenarioInputs(model) {
+
+  if (model.status.scenarioDisabled) {
+
+    return '<div class="grade-empty">Simulador automático desativado para esta matéria: a nota usa fórmula própria com P, E, PSUB e PREC. Lance os componentes reais para ver o cálculo correto.</div>';
+
+  }
 
   if (!model.status.remainingComponents.length) {
 
@@ -1018,7 +1436,7 @@ function renderGradeScenarioInputs(model) {
 
         <label class="field">
 
-          <span>${escapeHtml(component.label)} · ${formatWeight(component.weight)}</span>
+          <span>${escapeHtml(component.label)} · ${escapeHtml(getComponentWeightText(component))}</span>
 
           <input type="number" min="0" max="10" step="0.1" data-sim-component="${component.key}" value="${model.scenario.draft[component.key] == null ? '' : escapeHtml(String(model.scenario.draft[component.key]).replace('.', ','))}" placeholder="${model.requiredPrimary != null && model.requiredPrimary > 0 && model.requiredPrimary <= 10 ? formatScore(model.requiredPrimary) : '0,0'}" />
 
@@ -1120,7 +1538,7 @@ function renderGradeComponentItem(component) {
 
         <div class="grade-inline-actions">
 
-          <span class="chip neutral">${formatWeight(component.weight)}</span>
+          <span class="chip neutral">${escapeHtml(getComponentWeightText(component))}</span>
 
           ${component.score == null ? '<span class="chip warning">pendente</span>' : `<span class="chip success">${formatScore(component.score)}</span>`}
 
@@ -1141,6 +1559,11 @@ function renderGradeComponentItem(component) {
 function renderGradeSubjectCard(model) {
 
   const { subject, status, targets, requiredPrimary, requiredSecondary, tonePrimary, toneSecondary, scenario, remainingLabels } = model;
+  if (status.modelType === "pme0100_formula_2026") {
+
+    return renderCustomGradeSubjectCard(model);
+
+  }
   const normalizedQuery = String(state.notesSearchTerm || "")
     .trim()
     .toLowerCase()
@@ -1323,6 +1746,282 @@ function renderGradeSubjectCard(model) {
         </div>
 
       </div>
+
+      <div class="chip-row">${remainingLabels}</div>
+
+      ${normalizedQuery ? `<div class="grade-filter-hint">Filtro ativo: <strong>${escapeHtml(state.notesSearchTerm)}</strong> · ${visibleComponents.length} componente${visibleComponents.length === 1 ? "" : "s"} visível${visibleComponents.length === 1 ? "" : "is"}</div>` : ""}
+
+      <div class="grade-component-list">
+
+        ${visibleComponents.length
+          ? visibleComponents.map((component) => renderGradeComponentItem(component)).join("")
+          : `<div class="grade-empty">Nenhum componente dessa matéria combina com o filtro atual.</div>`}
+
+      </div>
+
+    </article>
+
+  `;
+
+}
+
+
+
+function renderGradeScenarioBlock(model) {
+
+  const { status, targets, scenario } = model;
+
+  if (status.scenarioDisabled) {
+
+    const chips = [
+
+      status.weightedExamAverage == null ? "P em aberto" : `P ${formatScore(status.weightedExamAverage)}`,
+
+      status.activityAverage == null ? "E em aberto" : `E ${formatScore(status.activityAverage)}`,
+
+      status.firstEvaluation == null ? "M1 em aberto" : `M1 ${formatScore(status.firstEvaluation)}`
+
+    ];
+
+    if (status.finalGrade != null) {
+
+      chips.push(`Fechamento ${formatScore(status.finalGrade)}`);
+
+    } else if (status.recoveryEligible) {
+
+      chips.push("PREC ainda pode fechar a matéria");
+
+    }
+
+    return `
+
+      <div class="grade-component-item">
+
+        <div class="grade-component-top">
+
+          <div>
+
+            <h4>Fórmula especial da disciplina</h4>
+
+            <p>PME0100 usa P, E, PSUB e PREC. O app calcula o fechamento exato a partir dos lançamentos reais.</p>
+
+          </div>
+
+        </div>
+
+        <div class="grade-empty">Use os componentes abaixo para lançar P1, P2, P3, Atividades (E), PSUB e PREC. O simulador genérico foi ocultado para evitar projeção errada.</div>
+
+        <div class="chip-row" style="margin-top: 12px;">
+
+          ${chips.map((chip) => `<span class="chip neutral">${escapeHtml(chip)}</span>`).join("")}
+
+        </div>
+
+      </div>
+
+    `;
+
+  }
+
+  return `
+
+      <div class="grade-component-item">
+
+        <div class="grade-component-top">
+
+          <div>
+
+            <h4>Simulador de cenário</h4>
+
+            <p>Preencha só o que falta ou use um preset rápido para ver combinações menos pesadas.</p>
+
+          </div>
+
+          <div class="grade-inline-actions">
+
+            <span class="chip accent">Base do cenário ${formatScore(scenario.currentScenarioBase)}</span>
+
+            ${scenario.exactFinal == null ? `<span class="chip neutral">Faltam ${formatWeight(scenario.remainingAfterDraftWeight)}</span>` : `<span class="chip success">Final ${formatScore(scenario.exactFinal)}</span>`}
+
+          </div>
+
+        </div>
+
+        ${renderGradeScenarioInputs(model)}
+
+        <div class="scenario-summary">
+
+          <div class="grade-target-grid">
+
+            <div class="grade-target">
+
+              <span class="label">Cenário atual</span>
+
+              <strong>${scenario.exactFinal == null ? formatScore(scenario.currentScenarioBase) : formatScore(scenario.exactFinal)}</strong>
+
+              <p>${scenario.exactFinal == null ? `Cenário parcial: faltam ${formatWeight(scenario.remainingAfterDraftWeight)} para fechar a simulação completa.` : 'Cenário completo com nota final exata.'}</p>
+
+            </div>
+
+            <div class="grade-target">
+
+              <span class="label">Depois do cenário · meta ${formatScore(targets.primary)}</span>
+
+              <strong>${describeScenarioNeed(scenario.primaryNeedAfterDraft, targets.primary, scenario.exactFinal)}</strong>
+
+              <p>${buildBalancedPlanText(scenario.simulatedComponents.filter((component) => component.simulatedScore == null), scenario.primaryNeedAfterDraft)}</p>
+
+            </div>
+
+            <div class="grade-target">
+
+              <span class="label">Depois do cenário · meta ${formatScore(targets.secondary)}</span>
+
+              <strong>${describeScenarioNeed(scenario.secondaryNeedAfterDraft, targets.secondary, scenario.exactFinal)}</strong>
+
+              <p>${buildBalancedPlanText(scenario.simulatedComponents.filter((component) => component.simulatedScore == null), scenario.secondaryNeedAfterDraft)}</p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    `;
+
+}
+
+
+
+function renderCustomGradeSubjectCard(model) {
+
+  const { subject, status, targets, requiredPrimary, requiredSecondary, tonePrimary, toneSecondary, remainingLabels } = model;
+  const normalizedQuery = String(state.notesSearchTerm || "")
+    .trim()
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+  const visibleComponents = !normalizedQuery
+    ? status.components
+    : status.components.filter((component) => {
+        const haystack = [
+          subject.name,
+          subject.shortName,
+          subject.code,
+          component.label,
+          component.type,
+          ...(component.entries || []).map((entry) => `${entry.title || ""} ${entry.entryType || ""} ${entry.label || ""}`)
+        ]
+          .join(" ")
+          .toLowerCase()
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "");
+        return haystack.includes(normalizedQuery);
+      });
+
+  return `
+
+    <article class="grade-subject-card">
+
+      <div class="grade-subject-header">
+
+        <div>
+
+          <h3>${escapeHtml(subject.name)}</h3>
+
+          <p class="muted">${escapeHtml(subject.examSchemeNote)}</p>
+
+        </div>
+
+        <div class="chip-row">
+
+          <span class="chip accent">${status.weightedExamAverage == null ? 'P em aberto' : `P ${formatScore(status.weightedExamAverage)}`}</span>
+
+          <span class="chip neutral">${status.activityAverage == null ? 'E em aberto' : `E ${formatScore(status.activityAverage)}`}</span>
+
+          ${status.recoveryEligible ? '<span class="chip warning">Faixa de recuperação</span>' : ''}
+
+        </div>
+
+      </div>
+
+      <div class="grade-meta-grid">
+
+        <div class="grade-metric">
+
+          <span class="label">Base com faltantes zerados</span>
+
+          <strong>${formatScore(status.currentLockedGrade)}</strong>
+
+          <p>Piso da matéria se o que falta ficar zerado nos componentes obrigatórios.</p>
+
+        </div>
+
+        <div class="grade-metric">
+
+          <span class="label">Média simples dos itens lançados</span>
+
+          <strong>${status.knownAverage == null ? '—' : formatScore(status.knownAverage)}</strong>
+
+          <p>Referência simples para preencher o restante; não substitui a fórmula oficial.</p>
+
+        </div>
+
+        <div class="grade-metric">
+
+          <span class="label">Projeção repetindo a média atual</span>
+
+          <strong>${status.projectedMaintain == null ? '—' : formatScore(status.projectedMaintain)}</strong>
+
+          <p>Preenche os componentes obrigatórios pendentes com a sua média atual e aplica a regra real.</p>
+
+        </div>
+
+        <div class="grade-metric">
+
+          <span class="label">Fechamento atual</span>
+
+          <strong>${status.finalGrade == null ? 'Em aberto' : formatScore(status.finalGrade)}</strong>
+
+          <p>${status.finalGrade == null
+            ? (status.recoveryEligible ? 'M1 caiu na faixa de recuperação; PREC ainda pode definir o fechamento.' : 'Ainda faltam componentes determinantes para fechar a disciplina.')
+            : 'Regra oficial aplicada com PSUB/PREC quando lançados.'}</p>
+
+        </div>
+
+      </div>
+
+      <div class="grade-target-grid">
+
+        <div class="grade-target">
+
+          <span class="label">Meta ${formatScore(targets.primary)}</span>
+
+          <strong>${describeRequirement(requiredPrimary, targets.primary, status.finalGrade)}</strong>
+
+          <p>${buildBalancedPlanText(status.remainingComponents, requiredPrimary)}</p>
+
+          <div class="chip-row"><span class="chip ${tonePrimary}">Plano equilibrado</span></div>
+
+        </div>
+
+        <div class="grade-target">
+
+          <span class="label">Meta ${formatScore(targets.secondary)}</span>
+
+          <strong>${describeRequirement(requiredSecondary, targets.secondary, status.finalGrade)}</strong>
+
+          <p>${buildBalancedPlanText(status.remainingComponents, requiredSecondary)}</p>
+
+          <div class="chip-row"><span class="chip ${toneSecondary}">Plano equilibrado</span></div>
+
+        </div>
+
+      </div>
+
+      ${renderGradeScenarioBlock(model)}
 
       <div class="chip-row">${remainingLabels}</div>
 

@@ -1,10 +1,13 @@
-const CACHE_NAME = "motor-estudo-shell-v20260421";
+const CACHE_NAME = "motor-estudo-shell-v20260421-homepanel1";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
   "./assets/data/study-data.json",
   "./assets/data/ui-config.json",
+  "./assets/data/exercises.json",
+  "./assets/data/news.json",
+  "./assets/data/ticker-tape.json",
   "./assets/css/app.css",
   "./assets/css/base.css",
   "./assets/css/dashboard.css",
@@ -12,10 +15,14 @@ const APP_SHELL = [
   "./assets/css/grades.css",
   "./assets/css/week.css",
   "./assets/css/flashcards.css",
+  "./assets/css/news.css",
+  "./assets/css/ticker.css",
+  "./assets/css/work.css",
   "./assets/js/polyfills.js",
   "./assets/js/app-data.js",
   "./assets/js/store.js",
   "./assets/js/dates.js",
+  "./assets/js/work-domain.js",
   "./assets/js/theme.js",
   "./assets/js/backup.js",
   "./assets/js/sync-service.js",
@@ -25,6 +32,9 @@ const APP_SHELL = [
   "./assets/js/study-features.js",
   "./assets/js/flashcards-exams.js",
   "./assets/js/app-actions.js",
+  "./assets/js/work-planner.js",
+  "./assets/js/news-feed.js",
+  "./assets/js/ticker-tape.js",
   "./assets/js/app-init.js",
   "./assets/js/firebase-init.js",
   "./assets/js/auth-panel.js",
@@ -57,6 +67,27 @@ self.addEventListener("fetch", (event) => {
   if (request.mode === "navigate") {
     event.respondWith(
       fetch(request).catch(() => caches.match("./index.html"))
+    );
+    return;
+  }
+
+  const isNetworkFirstDataRequest =
+    /\/assets\/data\/news\.json$/i.test(url.pathname) ||
+    /\/assets\/data\/ticker-tape\.json$/i.test(url.pathname);
+  if (isNetworkFirstDataRequest) {
+    const cacheKey = /\/assets\/data\/ticker-tape\.json$/i.test(url.pathname)
+      ? "./assets/data/ticker-tape.json"
+      : "./assets/data/news.json";
+    event.respondWith(
+      fetch(request, { cache: "no-store" })
+        .then((response) => {
+          if (response && response.status === 200) {
+            const responseClone = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(cacheKey, responseClone));
+          }
+          return response;
+        })
+        .catch(() => caches.match(cacheKey))
     );
     return;
   }

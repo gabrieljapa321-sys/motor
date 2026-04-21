@@ -200,34 +200,67 @@
         "P3": 18
       },
       "programFile": "PROGRAMA_PME0100_2026103 - PROGRAMA_2025_2 (2).pdf",
-      "examSchemeNote": "Peso inferido para risco: P1/P2/P3 = 1/3 cada, porque o critério não ficou legível no PDF extraído.",
-      "outsideDependency": "Sem evidência clara de componente fora de prova no material enviado.",
+      "examSchemeNote": "P = (2·P1 + 2·P2 + 3·P3) / 7; se P ≤ 3, M1 = P; se P > 3, M1 = (15P - 3E) / (12 + P - E). PSUB substitui a menor prova e PREC fecha M2 = max(M1, (M1 + PREC) / 2).",
+      "outsideDependency": "E é a média das atividades definidas pela sua turma; sem lançar E a conta oficial fica incompleta quando P > 3.",
       "baseRisk": 0.62,
-      "inferred": true,
+      "inferred": false,
+      "gradeModel": {
+        "type": "pme0100_formula_2026"
+      },
       "phases": [
         {
           "id": "P1",
           "label": "P1",
           "start": "2026-03-02",
           "examDate": "2026-04-08",
-          "weight": 33.33
+          "weight": 28.57,
+          "weightLabel": "2/7 de P",
+          "gradeRole": "p1"
         },
         {
           "id": "P2",
           "label": "P2",
           "start": "2026-04-13",
           "examDate": "2026-05-19",
-          "weight": 33.33
+          "weight": 28.57,
+          "weightLabel": "2/7 de P",
+          "gradeRole": "p2"
         },
         {
           "id": "P3",
           "label": "P3",
           "start": "2026-05-25",
           "examDate": "2026-06-22",
-          "weight": 33.34
+          "weight": 42.86,
+          "weightLabel": "3/7 de P",
+          "gradeRole": "p3"
         }
       ],
-      "extras": [],
+      "extras": [
+        {
+          "label": "Atividades (E)",
+          "weight": 0,
+          "weightLabel": "entra como E na fórmula",
+          "until": "2026-06-22",
+          "gradeRole": "activityAverage"
+        },
+        {
+          "label": "PSUB",
+          "weight": 0,
+          "weightLabel": "substitui a menor prova",
+          "until": "2026-06-22",
+          "gradeRole": "substituteExam",
+          "optional": true
+        },
+        {
+          "label": "PREC",
+          "weight": 0,
+          "weightLabel": "só conta se 3 ≤ M1 < 5",
+          "until": "2026-07-06",
+          "gradeRole": "recoveryExam",
+          "optional": true
+        }
+      ],
       "coreTopics": [
         "Referencial, posição, velocidade e aceleração",
         "Cinemática do ponto e movimento circular",

@@ -26,9 +26,9 @@
       "subtitle": "Componentes lançados, notas acumuladas e simulação até a média de aprovação."
     },
     "news": {
-      "eyebrow": "Mercado financeiro",
-      "title": "Notícias",
-      "subtitle": "Últimas notícias do Valor Econômico — finanças, mercados e fundos de investimento."
+      "eyebrow": "Notícias",
+      "title": "Mercado em tempo quase real",
+      "subtitle": "Fluxo de manchetes de finanças, fundos e empresas com caixa de entrada para novidades."
     }
   },
   "modes": {
@@ -104,5 +104,10 @@
         "label": "Confortável"
       }
     ]
+  },
+  "news": {
+    "defaultPollMinutes": 5,
+    "newWindowMinutes": 180,
+    "maxInboxItems": 12
   }
 }

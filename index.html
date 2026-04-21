@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Motor de Estudo · Poli-USP</title>
   <meta name="theme-color" content="#171717" />
-  <link rel="manifest" href="manifest.webmanifest?v=20260421-ship1" />
+  <link rel="manifest" href="manifest.webmanifest?v=20260421-homepanel1" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/app.css?v=20260421-ship1" />
-  <script charset="utf-8" src="assets/js/polyfills.js?v=20260421-ship1"></script>
+  <link rel="stylesheet" href="assets/css/app.css?v=20260421-homepanel1" />
+  <script charset="utf-8" src="assets/js/polyfills.js?v=20260421-homepanel1"></script>
 
 </head>
 <body data-layout="browser">
@@ -29,13 +29,11 @@
         <span class="tb-logo-text">Motor de Estudo</span>
       </div>
 
-      <nav class="tb-nav">
-        <button type="button" class="tb-nav-btn active" data-nav-page="dashboard">Painel</button>
-        <button type="button" class="tb-nav-btn" data-nav-page="week">Semana</button>
-        <button type="button" class="tb-nav-btn" data-nav-page="fc">Flashcards</button>
-        <button type="button" class="tb-nav-btn" data-nav-page="calendar">Calendário</button>
-        <button type="button" class="tb-nav-btn" data-nav-page="grades">Notas</button>
-        <button type="button" class="tb-nav-btn" data-nav-page="news">Notícias</button>
+      <nav class="tb-nav" aria-label="Navegacao principal">
+        <button type="button" class="tb-nav-btn active" data-nav-page="home">Painel principal</button>
+        <button type="button" class="tb-nav-btn" data-nav-page="studies">Estudos</button>
+        <button type="button" class="tb-nav-btn" data-nav-page="news">Notícias <span class="tb-nav-badge" id="newsNavBadge" hidden>0</span></button>
+        <button type="button" class="tb-nav-btn" data-nav-page="work">Trabalho</button>
       </nav>
 
       <div class="tb-actions">
@@ -54,12 +52,17 @@
         <button class="tb-btn" id="tbRecalcBtn" title="Recalcular" aria-label="Recalcular">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
         </button>
-        <button class="tb-btn" id="tbExportBtn" title="Exportar dados" aria-label="Exportar">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-        </button>
-        <button class="tb-btn" id="tbImportBtn" title="Importar dados" aria-label="Importar">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
-        </button>
+
+        <div class="tb-sep"></div>
+
+        <div class="tb-btn-group tb-btn-group--secondary" aria-label="Backup de dados">
+          <button class="tb-btn tb-btn--secondary" id="tbExportBtn" title="Exportar dados" aria-label="Exportar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          </button>
+          <button class="tb-btn tb-btn--secondary" id="tbImportBtn" title="Importar dados" aria-label="Importar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+          </button>
+        </div>
 
         <div class="tb-sep"></div>
 
@@ -69,6 +72,14 @@
       </div>
     </div>
   </header>
+
+  <section class="ticker-tape-bar" aria-label="Ticker de mercado">
+    <div class="ticker-tape-inner">
+      <div class="ticker-tape-shell" id="tickerTapeShell" hidden>
+        <div class="ticker-tape-track" id="tickerTapeTrack"></div>
+      </div>
+    </div>
+  </section>
 
   
   <div class="shell">
@@ -107,17 +118,104 @@
     </div>
 
     
-    <main id="dashboardPage">
+    <main id="homePage">
+      <section class="home-dashboard" aria-label="Tela principal executiva">
+        <!-- Linha 1: FOCO DO DIA (hero, full width) -->
+        <article class="card home-card home-card--hero" id="homeTodayCard"></article>
 
-      
-      <div class="retention-card" id="retentionCard" style="display:none;"></div>
-      <div class="exam-history-card" id="examHistoryCard" style="display:none;"></div>
-      <div class="week-tracking-card" id="weekTrackingCard" style="display:none;"></div>
+        <!-- Linha 2: URGÊNCIAS / PRESSÕES EXTERNAS (prazos + aguardando, lado a lado) -->
+        <article class="card home-card home-card--deadlines" id="homeDeadlinesCard"></article>
+        <article class="card home-card home-card--queue" id="homeWaitingCard"></article>
+
+        <!-- Linha 3: PANORAMA CONSOLIDADO (estudos + trabalho) -->
+        <article class="card home-card home-card--study" id="homeWeekCard"></article>
+        <article class="card home-card home-card--work" id="homeOverdueCard"></article>
+
+        <!-- Linha 4: NAVEGAÇÃO + AÇÃO (empresas + captura rápida) -->
+        <article class="card home-card home-card--companies" id="homeCompaniesCard"></article>
+        <article class="card home-card home-card--capture" id="homeQuickCaptureCard"></article>
+      </section>
+    </main>
+
+    <main id="newsPage" hidden>
+      <section class="news-shell" aria-label="Notícias de mercado e investimentos">
+        <section class="card news-toolbar">
+          <div class="news-toolbar-main">
+            <div>
+              <p class="eyebrow">Caixa de entrada de mercado</p>
+              <h2>Últimas atualizações</h2>
+              <p>O feed é atualizado por arquivo externo e o app destaca o que chegou desde a última leitura.</p>
+            </div>
+            <div class="news-toolbar-actions">
+              <button type="button" class="btn btn-ghost" id="newsPermissionBtn">Ativar alertas</button>
+              <button type="button" class="btn btn-soft" id="newsRefreshBtn">Atualizar agora</button>
+            </div>
+          </div>
+          <div class="news-status-row">
+            <span class="chip neutral" id="newsUpdatedAtChip">Atualizando…</span>
+            <span class="chip accent" id="newsUnreadChip">0 novas</span>
+          </div>
+        </section>
+
+        <section class="news-layout">
+          <aside class="news-side-stack">
+            <article class="card news-filter-card">
+              <div class="news-side-heading">
+                <h3>Filtros</h3>
+                <p>Refine o fluxo por categoria e fonte.</p>
+              </div>
+              <div class="news-filter-grid">
+                <div class="news-filter-block">
+                  <span class="news-filter-label">Categoria</span>
+                  <div class="news-filter-row" id="newsCategoryFilters" aria-label="Categorias de notícias"></div>
+                </div>
+                <div class="news-filter-block">
+                  <span class="news-filter-label">Fontes</span>
+                  <div class="news-filter-row" id="newsSourceFilters" aria-label="Fontes de notícias"></div>
+                </div>
+              </div>
+            </article>
+            <article class="card news-inbox-card" id="newsInboxCard"></article>
+            <article class="card news-digest-card" id="newsDigestCard"></article>
+          </aside>
+
+          <div class="news-main-stack">
+            <article class="card news-lead-card" id="newsLeadCard"></article>
+            <article class="card news-feed-card">
+              <div class="news-feed-header">
+                <div>
+                  <h3>Feed</h3>
+                  <p>Manchetes recentes, ordenadas por horário de publicação.</p>
+                </div>
+              </div>
+              <div class="news-feed-list" id="newsFeedList"></div>
+            </article>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <section class="study-nav-shell" id="studyNavBar" hidden aria-label="Navegacao interna de estudos">
+      <button type="button" class="study-nav-btn active" data-study-page="dashboard" aria-selected="true">Painel</button>
+      <button type="button" class="study-nav-btn" data-study-page="week" aria-selected="false">Semana</button>
+      <button type="button" class="study-nav-btn" data-study-page="fc" aria-selected="false">Flashcards</button>
+      <button type="button" class="study-nav-btn" data-study-page="calendar" aria-selected="false">Calendario</button>
+      <button type="button" class="study-nav-btn" data-study-page="grades" aria-selected="false">Notas</button>
+    </section>
+
+    <main id="dashboardPage" hidden>
 
       <section class="hero-compact" id="focusSection">
         <article class="card card-focus" id="mainTaskCard"></article>
         <aside class="card card-summary sticky-card" id="executiveSummary"></aside>
       </section>
+
+      <!-- Insights contextuais: so aparecem quando ha sinal relevante -->
+      <div class="insights-stack">
+        <div class="retention-card" id="retentionCard" style="display:none;"></div>
+        <div class="exam-history-card" id="examHistoryCard" style="display:none;"></div>
+        <div class="week-tracking-card" id="weekTrackingCard" style="display:none;"></div>
+      </div>
 
       
       <section class="today-compact" id="todaySection">
@@ -178,6 +276,11 @@
             </section>
           </div>
         </section>
+
+        <!-- Separador: fim do conteudo de estudo, inicio da administracao do motor -->
+        <div class="collapse-divider" aria-hidden="true">
+          <span class="collapse-divider-label">Administração do motor</span>
+        </div>
 
         
         <section class="collapse-section" id="dataCollapse">
@@ -290,13 +393,18 @@
     <main id="fcPage" hidden>
       <div class="fc-header">
         <div>
-          <h2>Flashcards</h2>
+          <h2 id="fcPageTitle">Flashcards</h2>
           <p>Memorização ativa com repetição espaçada (algoritmo SM-2). Crie cartões de conceitos pontuais, revise quando o app agendar. Só estude o que está "para hoje" — o resto já consolidou ou ainda é cedo.</p>
         </div>
       </div>
 
       
-      <div class="fc-stats">
+      <div class="fc-view-toggle" id="fcSubviewToggle" role="tablist" aria-label="Modo de estudo em flashcards">
+        <button type="button" class="fc-view-btn" data-fc-view="flashcards" aria-selected="true">Flashcards</button>
+        <button type="button" class="fc-view-btn" data-fc-view="exercises" aria-selected="false">Exercicios</button>
+      </div>
+
+      <div class="fc-stats" id="fcFlashcardsStats">
         <div class="fc-stat fc-stat--due">
           <div class="fc-stat-label">Para hoje</div>
           <span class="fc-stat-value" id="fcStatDue">0</span>
@@ -319,6 +427,29 @@
         </div>
       </div>
 
+      <div class="fc-stats" id="fcExerciseStats" hidden>
+        <div class="fc-stat fc-stat--due">
+          <div class="fc-stat-label">Para atacar</div>
+          <span class="fc-stat-value" id="fcExerciseStatTodo">0</span>
+          <div class="fc-stat-sub">ainda sem desfecho</div>
+        </div>
+        <div class="fc-stat">
+          <div class="fc-stat-label">Tentando</div>
+          <span class="fc-stat-value" id="fcExerciseStatTrying">0</span>
+          <div class="fc-stat-sub">com pistas ou travados</div>
+        </div>
+        <div class="fc-stat">
+          <div class="fc-stat-label">Resolvidos</div>
+          <span class="fc-stat-value" id="fcExerciseStatSolved">0</span>
+          <div class="fc-stat-sub">sozinho ou com ajuda</div>
+        </div>
+        <div class="fc-stat">
+          <div class="fc-stat-label">Total</div>
+          <span class="fc-stat-value" id="fcExerciseStatTotal">0</span>
+          <div class="fc-stat-sub">na base atual</div>
+        </div>
+      </div>
+
       <div class="fc-layout">
 
         
@@ -328,8 +459,8 @@
 
         
         <div class="fc-aside">
-
-          <div class="fc-create-panel">
+          <div id="fcFlashcardsAside">
+            <div class="fc-create-panel">
             <h3 class="fc-panel-title">Criar cartão</h3>
             <form id="fcCreateForm" style="display:grid;gap:8px;">
               <div class="field">
@@ -352,11 +483,27 @@
 
           <div class="fc-deck-panel">
             <h3 class="fc-panel-title">Deck por matéria</h3>
-            <div class="fc-deck-list" id="fcDeckList">
-              
-            </div>
+            <div class="fc-deck-list" id="fcDeckList"></div>
+          </div>
           </div>
 
+          <div id="fcExercisesAside" hidden>
+            <div class="fc-filter-panel">
+              <h3 class="fc-panel-title">Filtro</h3>
+              <div class="field">
+                <span>Materia</span>
+                <select id="fcExerciseSubject">
+                  <option value="ALL">Todas</option>
+                </select>
+              </div>
+              <p class="fc-panel-help">Leia primeiro o enunciado. Revele pistas so quando travar e deixe a resolucao completa para o fim.</p>
+            </div>
+
+            <div class="fc-deck-panel">
+              <h3 class="fc-panel-title">Fila de exercicios</h3>
+              <div class="fc-exercise-list" id="fcExerciseList"></div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
@@ -412,8 +559,125 @@
       </section>
     </main>
 
-    <main id="newsPage" hidden>
-      <div id="newsContainer"></div>
+    <main id="workPage" hidden>
+      <section class="work-shell" aria-label="Planner executivo de trabalho">
+        <div class="work-hero card">
+          <div>
+            <p class="eyebrow">Planner semanal de trabalho</p>
+            <h2>FIPs, empresas investidas e proximas acoes</h2>
+            <p>Capture rapido, planeje a semana e mantenha atrasados e dependencias de terceiros sempre visiveis.</p>
+            <div class="work-week-range" id="workWeekRange">—</div>
+          </div>
+          <div class="work-week-controls">
+            <button type="button" class="btn btn-ghost" id="workPrevBtn" aria-keyshortcuts="Alt+Shift+ArrowLeft">← Semana anterior</button>
+            <button type="button" class="btn btn-soft" id="workTodayBtn" aria-keyshortcuts="Alt+Shift+0">Esta semana</button>
+            <button type="button" class="btn btn-primary" id="workNextBtn" aria-keyshortcuts="Alt+Shift+ArrowRight">Proxima semana →</button>
+          </div>
+        </div>
+
+        <div class="work-stats" id="workStats"></div>
+        <div class="work-filters" id="workFilters" aria-label="Filtros rapidos de trabalho"></div>
+
+        <section class="work-layout">
+          <article class="card work-capture-panel">
+            <div class="work-panel-heading">
+              <div>
+                <h3>Captura rapida de trabalho</h3>
+                <p>Todo item deve virar uma proxima acao objetiva.</p>
+              </div>
+              <span class="chip accent">Novo</span>
+            </div>
+            <form id="workTaskForm" class="work-task-form">
+              <div class="field field-full">
+                <span>Titulo</span>
+                <input type="text" id="workTaskTitle" name="title" maxlength="180" autocomplete="off" placeholder="Ex.: Revisar covenant da BENEVA" required />
+              </div>
+              <div class="field field-full">
+                <span>Proxima acao</span>
+                <input type="text" id="workTaskNextAction" name="nextAction" maxlength="220" autocomplete="off" placeholder="Ex.: Solicitar memoria de calculo ao financeiro" />
+              </div>
+              <div class="field field-full">
+                <span>Descricao / observacoes</span>
+                <textarea id="workTaskDescription" name="description" rows="3" maxlength="1000" placeholder="Contexto minimo, links ou notas"></textarea>
+              </div>
+              <div class="deadline-form-grid">
+                <div class="field">
+                  <span>Tipo</span>
+                  <select id="workTaskScope" name="scope">
+                    <option value="general">Geral</option>
+                    <option value="company">Empresa</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <span>Empresa</span>
+                  <select id="workTaskCompany" name="companyId">
+                    <option value="">—</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <span>Dia da semana</span>
+                  <select id="workTaskDay" name="scheduledDayIso">
+                    <option value="">Inbox (sem dia)</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <span>Prazo real</span>
+                  <input type="date" id="workTaskDueDate" name="dueDate" />
+                </div>
+                <div class="field">
+                  <span>Prioridade</span>
+                  <select id="workTaskPriority" name="priority"></select>
+                </div>
+                <div class="field">
+                  <span>Status</span>
+                  <select id="workTaskStatus" name="status"></select>
+                </div>
+                <div class="field">
+                  <span>Area / tag</span>
+                  <select id="workTaskArea" name="area"></select>
+                </div>
+              </div>
+              <div class="form-actions compact-actions">
+                <button type="button" class="btn btn-ghost" id="workClearFormBtn">Limpar</button>
+                <button type="submit" class="btn btn-primary">Capturar tarefa</button>
+              </div>
+            </form>
+          </article>
+
+          <aside class="work-side-stack">
+            <article class="card work-inbox-panel">
+              <div class="work-panel-heading compact">
+                <h3>Inbox de trabalho</h3>
+                <span class="chip neutral" id="workInboxCount">0</span>
+              </div>
+              <div class="work-list work-drop-zone" id="workInboxList" data-work-drop="inbox"></div>
+            </article>
+            <article class="card work-waiting-panel">
+              <div class="work-panel-heading compact">
+                <h3>Aguardando terceiros</h3>
+                <span class="chip warning" id="workWaitingCount">0</span>
+              </div>
+              <div class="work-list" id="workWaitingList"></div>
+            </article>
+          </aside>
+        </section>
+
+        <section class="card work-planner-panel">
+          <div class="work-panel-heading">
+            <div>
+              <h3>Planner semanal consolidado</h3>
+              <p>Arraste cards para planejar a semana por dia.</p>
+            </div>
+            <span class="chip accent">Semana inteira</span>
+          </div>
+          <div class="work-week-planner" id="workWeekPlanner"></div>
+        </section>
+
+        <section class="work-bottom-grid">
+          <article class="card" id="workCriticalCard"></article>
+          <article class="card work-company-summary" id="workCompanySummary"></article>
+        </section>
+      </section>
     </main>
 
   </div>
@@ -653,52 +917,26 @@
     </div>
   </div>
 
-  <div class="modal-backdrop" id="syncConflictBackdrop" aria-hidden="true">
-    <div class="modal sync-conflict-modal" role="dialog" aria-labelledby="syncConflictTitle">
-      <h3 class="modal-title" id="syncConflictTitle">Escolher versão dos dados</h3>
-      <div class="modal-body">
-        <div class="session-hint">
-          Encontramos dados locais e dados na nuvem. Escolha como quer reconciliar antes de continuar.
-        </div>
-        <div class="sync-conflict-grid">
-          <article class="sync-conflict-card">
-            <div class="sync-conflict-card__label">Este dispositivo</div>
-            <div class="sync-conflict-card__summary" id="syncConflictLocalSummary"></div>
-          </article>
-          <article class="sync-conflict-card">
-            <div class="sync-conflict-card__label">Nuvem</div>
-            <div class="sync-conflict-card__summary" id="syncConflictCloudSummary"></div>
-          </article>
-        </div>
-        <div class="sync-conflict-note" id="syncConflictNote">
-          Mesclar preserva o que for mais recente em cada bloco de dados.
-        </div>
-        <div class="modal-actions">
-          <button type="button" class="btn btn-ghost" id="syncConflictKeepLocalBtn">Manter local</button>
-          <button type="button" class="btn btn-soft" id="syncConflictMergeBtn">Mesclar</button>
-          <button type="button" class="btn btn-primary" id="syncConflictUseCloudBtn">Usar nuvem</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
   
-  <script charset="utf-8" src="assets/js/app-data.js?v=20260421-ship1"></script>
-  <script charset="utf-8" src="assets/js/store.js?v=20260421-ship1"></script>
-  <script charset="utf-8" src="assets/js/dates.js?v=20260421-ship1"></script>
-  <script charset="utf-8" src="assets/js/theme.js?v=20260421-ship1"></script>
-  <script charset="utf-8" src="assets/js/backup.js?v=20260421-ship1"></script>
-  <script charset="utf-8" src="assets/js/sync-service.js?v=20260421-ship1"></script>
-  <script charset="utf-8" src="assets/js/app-core.js?v=20260421-ship1"></script>
-  <script charset="utf-8" src="assets/js/app-pages.js?v=20260421-ship1"></script>
-  <script charset="utf-8" src="assets/js/week-planner.js?v=20260421-ship1"></script>
-  <script charset="utf-8" src="assets/js/study-features.js?v=20260421-ship1"></script>
-  <script charset="utf-8" src="assets/js/flashcards-exams.js?v=20260421-ship1"></script>
-  <script charset="utf-8" src="assets/js/app-actions.js?v=20260421-ship1"></script>
-  <script charset="utf-8" src="assets/js/app-init.js?v=20260421-ship1"></script>
-  <script charset="utf-8" type="module" src="assets/js/firebase-init.js?v=20260421-ship1"></script>
-  <script charset="utf-8" src="assets/js/auth-panel.js?v=20260421-ship1"></script>
-  <script charset="utf-8" src="assets/js/firebase-sync.js?v=20260421-ship1"></script>
-  <script charset="utf-8" src="assets/js/news.js?v=20260421-ship1"></script>
+  <script charset="utf-8" src="assets/js/app-data.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" src="assets/js/store.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" src="assets/js/dates.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" src="assets/js/work-domain.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" src="assets/js/theme.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" src="assets/js/backup.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" src="assets/js/sync-service.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" src="assets/js/app-core.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" src="assets/js/app-pages.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" src="assets/js/week-planner.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" src="assets/js/study-features.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" src="assets/js/flashcards-exams.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" src="assets/js/app-actions.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" src="assets/js/work-planner.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" src="assets/js/news-feed.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" src="assets/js/ticker-tape.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" src="assets/js/app-init.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" type="module" src="assets/js/firebase-init.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" src="assets/js/auth-panel.js?v=20260421-homepanel1"></script>
+  <script charset="utf-8" src="assets/js/firebase-sync.js?v=20260421-homepanel1"></script>
 </body>
 </html>

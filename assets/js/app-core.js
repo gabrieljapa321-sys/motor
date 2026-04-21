@@ -12,7 +12,7 @@
     const STUDY_DATA_API = window.StudyData || {};
     const STORAGE_KEY = STORE_API.STORAGE_KEY;
     const SCHEMA_VERSION = STORE_API.SCHEMA_VERSION;
-    const APP_VERSION = "etapa1-v13";
+    const APP_VERSION = "etapa1-v15-shell";
     const DATA = STUDY_DATA_API.data || globalThis.DATA || { subjects: [], tasks: [] };
     const UI_CONFIG = STUDY_DATA_API.config || globalThis.APP_CONFIG || {};
     const PAGE_META = UI_CONFIG.pageMeta || {};
@@ -21,6 +21,7 @@
     const CALENDAR_UI = UI_CONFIG.calendar || {};
     const GRADE_UI = UI_CONFIG.grades || {};
     const NOTES_UI = UI_CONFIG.notes || {};
+    const NEWS_UI = UI_CONFIG.news || {};
     const DEFAULT_STATE = STORE_API.DEFAULT_STATE;
 
     const {
@@ -53,6 +54,8 @@
       importFileInput: document.getElementById("importFileInput"),
       modeSelect: document.getElementById("tbModeSelect"),
       navButtons: Array.from(document.querySelectorAll(".tb-nav-btn[data-nav-page]")),
+      studyNavBar: document.getElementById("studyNavBar"),
+      studyNavButtons: Array.from(document.querySelectorAll(".study-nav-btn[data-study-page]")),
       pageEyebrow: document.getElementById("pageEyebrow"),
       pageTitle: document.getElementById("pageTitle"),
       pageSubtitle: document.getElementById("pageSubtitle"),
@@ -60,12 +63,14 @@
       pageModeTxt: document.getElementById("pageModeTxt"),
       deadlinesCount: document.getElementById("deadlinesCount"),
       subjectsCount: document.getElementById("subjectsCount"),
+      homePage: document.getElementById("homePage"),
+      newsPage: document.getElementById("newsPage"),
       dashboardPage: document.getElementById("dashboardPage"),
       weekPage: document.getElementById("weekPage"),
       fcPage: document.getElementById("fcPage"),
       calendarPage: document.getElementById("calendarPage"),
       gradesPage: document.getElementById("gradesPage"),
-      newsPage: document.getElementById("newsPage"),
+      workPage: document.getElementById("workPage"),
       monthPrevBtn: document.getElementById("monthPrevBtn"),
       monthTodayBtn: document.getElementById("monthTodayBtn"),
       monthNextBtn: document.getElementById("monthNextBtn"),
@@ -87,6 +92,13 @@
       subjectGrid: document.getElementById("subjectGrid"),
       sourcesBlock: document.getElementById("sourcesBlock"),
       notesBlock: document.getElementById("notesBlock"),
+      homeTodayCard: document.getElementById("homeTodayCard"),
+      homeWeekCard: document.getElementById("homeWeekCard"),
+      homeOverdueCard: document.getElementById("homeOverdueCard"),
+      homeWaitingCard: document.getElementById("homeWaitingCard"),
+      homeDeadlinesCard: document.getElementById("homeDeadlinesCard"),
+      homeCompaniesCard: document.getElementById("homeCompaniesCard"),
+      homeQuickCaptureCard: document.getElementById("homeQuickCaptureCard"),
       mobileFocusbar: document.getElementById("mobileFocusbar"),
       toast: document.getElementById("toast"),
       compatHint: document.getElementById("compatHint")
@@ -1247,7 +1259,32 @@ function renderDeadlineFormCard(referenceDate) {
     }
 
     function updatePageHeader(pageKey, referenceDate) {
-      const meta = PAGE_META[pageKey] || PAGE_META.dashboard || { eyebrow: "", title: "", subtitle: "" };
+      const fallbackMeta = pageKey === "work"
+        ? {
+            eyebrow: "Trabalho",
+            title: "Planner executivo de FIPs",
+            subtitle: "Tarefas gerais e por empresa, com semana, atrasados e dependencias em destaque."
+          }
+        : pageKey === "news"
+          ? {
+              eyebrow: "Notícias",
+              title: "Mercado em tempo quase real",
+              subtitle: "Fluxo contínuo de manchetes com caixa de entrada para novidades."
+            }
+        : pageKey === "home"
+          ? {
+              eyebrow: "Painel principal",
+              title: "Overview de estudos e trabalho",
+              subtitle: "Visao consolidada do que importa hoje e nesta semana."
+            }
+          : pageKey === "studies"
+            ? {
+                eyebrow: "Estudos",
+                title: "Motor de estudos",
+                subtitle: "Fluxo academico completo em uma area propria."
+              }
+            : PAGE_META.dashboard || { eyebrow: "", title: "", subtitle: "" };
+      const meta = PAGE_META[pageKey] || fallbackMeta;
       if (elements.pageEyebrow) elements.pageEyebrow.textContent = meta.eyebrow;
       if (elements.pageTitle) elements.pageTitle.textContent = meta.title;
       if (elements.pageSubtitle) elements.pageSubtitle.textContent = meta.subtitle;
@@ -1257,6 +1294,9 @@ function renderDeadlineFormCard(referenceDate) {
     function syncModeControls() {
       if (elements.modeSelect && elements.modeSelect.value !== state.mode) {
         elements.modeSelect.value = state.mode;
+      }
+      if (elements.modeSelect) {
+        elements.modeSelect.dataset.modeActive = state.mode && state.mode !== "normal" ? "true" : "false";
       }
       if (elements.pageModeTxt) {
         elements.pageModeTxt.textContent = MODE_LABELS[state.mode] || MODE_LABELS.normal || "Modo Normal";
@@ -1305,40 +1345,309 @@ function renderDeadlineFormCard(referenceDate) {
         .replaceAll("'", "&#39;");
     }
 
-    function renderPageVisibility(referenceDate) {
-      const currentPage = ["week", "fc", "calendar", "grades", "news"].includes(state.currentPage) ? state.currentPage : "dashboard";
-      const onCalendar = currentPage === "calendar";
-      const onGrades = currentPage === "grades";
-      const onWeek = currentPage === "week";
-      const onFc = currentPage === "fc";
-      const onDashboard = currentPage === "dashboard";
-      const onNews = currentPage === "news";
+    const STUDY_SECTIONS = ["dashboard", "week", "fc", "calendar", "grades"];
+const PRIMARY_PAGES = ["home", "studies", "news", "work"];
+    let routeHashLock = false;
 
-      if (elements.dashboardPage) elements.dashboardPage.hidden = !onDashboard;
-      if (elements.dashboardPage) elements.dashboardPage.dataset.focusMode = onDashboard && state.dashboardFocusMode ? "true" : "false";
+    function normalizePrimaryPage(value) {
+      if (PRIMARY_PAGES.includes(value)) return value;
+      if (STUDY_SECTIONS.includes(value)) return "studies";
+      return "home";
+    }
+
+    function normalizeStudySection(value, fallback) {
+      if (STUDY_SECTIONS.includes(value)) return value;
+      if (STUDY_SECTIONS.includes(fallback)) return fallback;
+      return "dashboard";
+    }
+
+    function getPrimaryPage() {
+      return normalizePrimaryPage(state.currentPage);
+    }
+
+    function getStudySection() {
+      return normalizeStudySection(state.studySection, state.currentPage);
+    }
+
+    function buildRouteHash(primaryPage = getPrimaryPage(), studySection = getStudySection()) {
+      if (primaryPage === "studies") return `#studies/${normalizeStudySection(studySection, "dashboard")}`;
+      return `#${normalizePrimaryPage(primaryPage)}`;
+    }
+
+    function syncHashFromState(options = {}) {
+      const nextHash = buildRouteHash();
+      if (window.location.hash === nextHash) return;
+      routeHashLock = true;
+      if (options.replace) {
+        window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}${nextHash}`);
+      } else {
+        window.location.hash = nextHash;
+      }
+      window.setTimeout(() => {
+        routeHashLock = false;
+      }, 0);
+    }
+
+    function applyRouteFromHash() {
+      const raw = String(window.location.hash || "").replace(/^#/, "").trim();
+      if (!raw) return false;
+      const [primary, section] = raw.split("/");
+      if (primary === "studies") {
+        state.currentPage = "studies";
+        state.studySection = normalizeStudySection(section, "dashboard");
+        return true;
+      }
+      if (PRIMARY_PAGES.includes(primary)) {
+        state.currentPage = primary;
+        return true;
+      }
+      return false;
+    }
+
+    function renderHomeList(items, emptyText) {
+      if (!items.length) return `<div class="empty-state">${escapeHtml(emptyText)}</div>`;
+      return `<div class="home-list">${items.map((item) => `
+        <div class="home-list-item">
+          <strong>${escapeHtml(item.title)}</strong>
+          <span>${escapeHtml(item.meta || "")}</span>
+        </div>
+      `).join("")}</div>`;
+    }
+
+    function renderHomeKpiGrid(items) {
+      return `<div class="home-kpi-grid">${items.map((item) => `
+        <div class="home-kpi">
+          <span class="home-kpi-label">${escapeHtml(item.label)}</span>
+          <strong class="home-kpi-value">${escapeHtml(String(item.value))}</strong>
+          <span class="home-kpi-subvalue">${escapeHtml(item.subvalue || "")}</span>
+        </div>
+      `).join("")}</div>`;
+    }
+
+    function renderHomeSectionMetrics(items) {
+      return `<div class="home-section-metrics">${items.map((item) => `
+        <div class="home-section-metric">
+          <span>${escapeHtml(item.label)}</span>
+          <strong>${escapeHtml(String(item.value))}</strong>
+        </div>
+      `).join("")}</div>`;
+    }
+
+    function formatWorkTaskMeta(task, todayIso) {
+      if (!task) return "";
+      const WD = window.WorkDomain;
+      const company = task.scope === "company" && WD ? WD.companyName(task.companyId) : "Geral";
+      const due = task.dueDate ? (task.dueDate < todayIso ? `atrasada desde ${task.dueDate}` : task.dueDate === todayIso ? "vence hoje" : `prazo ${task.dueDate}`) : "sem prazo";
+      const next = task.nextAction ? ` · ${task.nextAction}` : "";
+      return `${company} · ${due}${next}`;
+    }
+
+    function getStudyDeadlineItems(referenceDate) {
+      return (state.deadlines || [])
+        .filter((deadline) => deadline && !deadline.deliveredAt && deadline.dueDate)
+        .map((deadline) => {
+          const due = parseDate(deadline.dueDate);
+          const days = daysBetween(referenceDate, due);
+          return {
+            title: deadline.title || "Entrega",
+            meta: `${deadline.subjectCode || deadline.type || "Estudo"} · ${days < 0 ? "atrasada" : days === 0 ? "vence hoje" : `em ${days} dia${days === 1 ? "" : "s"}`}`,
+            dueDate: deadline.dueDate,
+            rank: days < 0 ? -10 + days : days
+          };
+        })
+        .sort((a, b) => a.rank - b.rank);
+    }
+
+    function renderHomeDashboard(plan, queue, referenceDate) {
+      const WD = window.WorkDomain;
+      const todayIso = toIsoDate(referenceDate);
+      const weekAnchor = state.workWeekAnchor || todayIso;
+      const buckets = WD ? WD.dashboardBuckets(state.workTasks || [], todayIso, weekAnchor) : { today: [], overdue: [], waiting: [], critical: [], companies: [] };
+      const studyFocus = plan ? `${plan.subject.shortName}: ${plan.task.title}` : "Sem tarefa academica pendente";
+      const workFocus = buckets.overdue[0] || buckets.today[0] || buckets.critical[0] || null;
+      const studyQueueItems = (queue || []).slice(0, 4).map((item) => ({
+        title: `${item.subject.shortName}: ${item.task.title}`,
+        meta: `${getTaskMinutes(item.task)} min | estudo`
+      }));
+      const workTodayItems = (buckets.today || []).slice(0, 5).map((task) => ({ title: task.title, meta: formatWorkTaskMeta(task, todayIso) }));
+      const overdueItems = (buckets.overdue || []).slice(0, 6).map((task) => ({ title: task.title, meta: formatWorkTaskMeta(task, todayIso) }));
+      const waitingItems = (buckets.waiting || []).slice(0, 6).map((task) => ({ title: task.title, meta: task.nextAction || "Aguardando retorno" }));
+      const studyDeadlines = getStudyDeadlineItems(referenceDate).slice(0, 4);
+      const workDeadlines = (buckets.critical || []).slice(0, 5).map((task) => ({ title: task.title, meta: formatWorkTaskMeta(task, todayIso), dueDate: task.dueDate || "9999-12-31" }));
+      const criticalItems = [...studyDeadlines, ...workDeadlines]
+        .sort((a, b) => String(a.dueDate || "9999-12-31").localeCompare(String(b.dueDate || "9999-12-31")))
+        .slice(0, 7);
+      const companyItems = (buckets.companies || []).map((summary) => ({
+        title: summary.company.name,
+        meta: `${summary.openCount} abertas | ${summary.weekCount} na semana | ${summary.overdueCount} atrasadas | ${summary.waitingCount} aguardando`,
+        id: summary.company.id
+      }));
+      const studyOverviewItems = [...studyQueueItems, ...studyDeadlines].slice(0, 5);
+      const workOverviewItems = [...overdueItems, ...workTodayItems].slice(0, 5);
+      const nextCritical = criticalItems[0] || null;
+      const nextCompany = companyItems[0] || null;
+      const companyOptions = WD ? WD.COMPANIES.map((company) => `<option value="${company.id}">${escapeHtml(company.name)}</option>`).join("") : "";
+      const priorityOptions = WD ? WD.PRIORITIES.map((priority) => `<option value="${priority.value}"${priority.value === "medium" ? " selected" : ""}>${escapeHtml(priority.label)}</option>`).join("") : "";
+
+      if (elements.homeTodayCard) {
+        const heroMetrics = [
+          { label: "Fila de estudo", value: studyQueueItems.length, subvalue: studyQueueItems.length ? "tarefas na fila curta" : "sem fila ativa" },
+          { label: "Prazos de estudo", value: studyDeadlines.length, subvalue: studyDeadlines.length ? "entregas abertas" : "sem entrega aberta" },
+          { label: "Trabalho hoje", value: workTodayItems.length, subvalue: workTodayItems.length ? "itens acionaveis" : "sem foco critico" },
+          { label: "Aguardando", value: waitingItems.length, subvalue: waitingItems.length ? "dependencias externas" : "caixa limpa" }
+        ];
+        elements.homeTodayCard.innerHTML = `
+          <div class="home-hero">
+            <div class="home-hero-top">
+              <div class="home-hero-copy">
+                <span class="home-hero-eyebrow">Painel do dia</span>
+                <h3>Hoje voce precisa manter estudo em movimento e trabalho fora do vermelho.</h3>
+                <p>Entrada unica para decidir rapido o que merece foco agora, sem misturar fila academica com demandas do portfolio.</p>
+              </div>
+              <span class="chip accent">${formatDate(referenceDate)}</span>
+            </div>
+            <div class="home-hero-grid">
+              <div class="home-focus-item" data-tone="study">
+                <span>Estudos</span>
+                <strong>${escapeHtml(studyFocus)}</strong>
+                <small>${studyDeadlines.length ? `${studyDeadlines.length} prazo${studyDeadlines.length === 1 ? "" : "s"} aberto${studyDeadlines.length === 1 ? "" : "s"} nesta janela.` : "Sem entrega academica critica agora."}</small>
+              </div>
+              <div class="home-focus-item" data-tone="work">
+                <span>Trabalho</span>
+                <strong>${workFocus ? escapeHtml(workFocus.title) : "Sem foco critico de trabalho"}</strong>
+                <small>${workFocus ? escapeHtml(workFocus.nextAction || formatWorkTaskMeta(workFocus, todayIso)) : "Capture ou planeje a proxima acao executiva."}</small>
+              </div>
+            </div>
+            ${renderHomeKpiGrid(heroMetrics)}
+            <div class="home-actions-row">
+              <button class="btn btn-primary" type="button" data-home-open-studies>Entrar em estudos</button>
+              <button class="btn btn-soft" type="button" data-open-work>Abrir trabalho</button>
+            </div>
+          </div>
+        `;
+      }
+      if (elements.homeWeekCard) {
+        const studyMetrics = [
+          { label: "Fila", value: studyQueueItems.length },
+          { label: "Entregas", value: studyDeadlines.length },
+          { label: "Critico", value: nextCritical && nextCritical.title ? nextCritical.title.slice(0, 18) : "estavel" }
+        ];
+        elements.homeWeekCard.innerHTML = `
+          <div class="home-section-stack">
+            <div class="home-card-header">
+              <div class="home-section-copy">
+                <span class="home-section-eyebrow">Estudos</span>
+                <h3>Visao academica</h3>
+                <p>Fila, entregas e o proximo ponto de tensao do semestre.</p>
+              </div>
+              <span class="chip neutral">${studyOverviewItems.length} itens</span>
+            </div>
+            ${renderHomeSectionMetrics(studyMetrics)}
+            ${renderHomeList(studyOverviewItems, "Sem demanda academica urgente agora.")}
+            <div class="home-actions-row"><button class="btn btn-soft" type="button" data-home-open-studies>Ir para estudos</button></div>
+          </div>`;
+      }
+      if (elements.homeOverdueCard) {
+        const workMetrics = [
+          { label: "Hoje", value: workTodayItems.length },
+          { label: "Atrasadas", value: overdueItems.length },
+          { label: "Empresa", value: nextCompany ? nextCompany.title : "geral" }
+        ];
+        elements.homeOverdueCard.innerHTML = `
+          <div class="home-section-stack">
+            <div class="home-card-header">
+              <div class="home-section-copy">
+                <span class="home-section-eyebrow">Trabalho</span>
+                <h3>Visao executiva</h3>
+                <p>O que ja deveria ter andado, o que cabe hoje e onde voce precisa destravar.</p>
+              </div>
+              <span class="chip danger">${overdueItems.length}</span>
+            </div>
+            ${renderHomeSectionMetrics(workMetrics)}
+            ${renderHomeList(workOverviewItems, "Sem tarefa executiva critica agora.")}
+            <div class="home-actions-row"><button class="btn btn-soft" type="button" data-open-work>Abrir trabalho</button></div>
+          </div>`;
+      }
+      if (elements.homeWaitingCard) elements.homeWaitingCard.innerHTML = `<div class="home-card-header"><div class="home-section-copy"><span class="home-section-eyebrow">Dependencias</span><h3>Aguardando terceiros</h3><p>Itens que nao podem sumir do radar enquanto outra ponta responde.</p></div><span class="chip warning">${waitingItems.length}</span></div>${renderHomeList(waitingItems, "Nenhum item aguardando terceiros.")}`;
+      if (elements.homeDeadlinesCard) elements.homeDeadlinesCard.innerHTML = `<div class="home-card-header"><div class="home-section-copy"><span class="home-section-eyebrow">Agenda</span><h3>Prazos criticos</h3><p>Entregas e vencimentos que pressionam a semana atual.</p></div><span class="chip accent">${criticalItems.length}</span></div>${renderHomeList(criticalItems, "Sem prazo critico nesta semana.")}`;
+      if (elements.homeCompaniesCard) {
+        elements.homeCompaniesCard.innerHTML = `<div class="home-card-header"><div class="home-section-copy"><span class="home-section-eyebrow">Portfolio</span><h3>Empresas em foco</h3><p>Entrada rapida para filtrar o trabalho por empresa investida.</p></div><span class="chip neutral">${companyItems.length} empresas</span></div><div class="home-company-list">${companyItems.map((item) => `<button type="button" class="home-company-row" data-home-work-filter="${item.id}"><strong>${escapeHtml(item.title)}</strong><span>${escapeHtml(item.meta)}</span></button>`).join("")}</div>`;
+      }
+      if (elements.homeQuickCaptureCard) {
+        elements.homeQuickCaptureCard.innerHTML = `
+          <div class="home-card-header"><div class="home-section-copy"><span class="home-section-eyebrow">Atalho</span><h3>Captura rapida</h3><p>Transforme demanda solta em proxima acao objetiva sem sair da home.</p></div><span class="chip accent">trabalho</span></div>
+          <form id="homeQuickCaptureForm" class="home-quick-form">
+            <input type="text" name="title" maxlength="180" placeholder="Titulo da tarefa" required />
+            <input type="text" name="nextAction" maxlength="220" placeholder="Proxima acao objetiva" />
+            <select name="companyId" aria-label="Empresa"><option value="">Geral</option>${companyOptions}</select>
+            <select name="target" aria-label="Destino"><option value="inbox">Inbox</option><option value="today">Hoje</option></select>
+            <input type="date" name="dueDate" aria-label="Prazo real" />
+            <select name="priority" aria-label="Prioridade">${priorityOptions}</select>
+            <button type="submit" class="btn btn-primary">Capturar</button>
+          </form>`;
+      }
+    }
+
+    function renderPageVisibility(referenceDate) {
+      const currentPage = getPrimaryPage();
+      const studySection = getStudySection();
+      const onHome = currentPage === "home";
+      const onStudies = currentPage === "studies";
+      const onWork = currentPage === "work";
+      const onNews = currentPage === "news";
+      const onStudyDashboard = onStudies && studySection === "dashboard";
+      const onWeek = onStudies && studySection === "week";
+      const onFc = onStudies && studySection === "fc";
+      const onCalendar = onStudies && studySection === "calendar";
+      const onGrades = onStudies && studySection === "grades";
+
+      if (elements.homePage) elements.homePage.hidden = !onHome;
+      if (elements.newsPage) elements.newsPage.hidden = !onNews;
+      if (elements.studyNavBar) elements.studyNavBar.hidden = !onStudies;
+      if (elements.workPage) elements.workPage.hidden = !onWork;
+      if (elements.dashboardPage) elements.dashboardPage.hidden = !onStudyDashboard;
+      if (elements.dashboardPage) elements.dashboardPage.dataset.focusMode = onStudyDashboard && state.dashboardFocusMode ? "true" : "false";
       if (elements.weekPage) elements.weekPage.hidden = !onWeek;
       if (elements.fcPage) elements.fcPage.hidden = !onFc;
       if (elements.calendarPage) elements.calendarPage.hidden = !onCalendar;
       if (elements.gradesPage) elements.gradesPage.hidden = !onGrades;
-      if (elements.newsPage) {
-        elements.newsPage.hidden = !onNews;
-        if (onNews && window.newsModule) window.newsModule.init();
-      }
       elements.navButtons.forEach((button) => {
         button.classList.toggle("active", button.dataset.navPage === currentPage);
       });
-      updatePageHeader(currentPage, referenceDate);
+      elements.studyNavButtons.forEach((button) => {
+        button.classList.toggle("active", button.dataset.studyPage === studySection);
+        button.setAttribute("aria-selected", button.dataset.studyPage === studySection ? "true" : "false");
+      });
+      updatePageHeader(onStudies ? studySection : currentPage, referenceDate);
 
-      if (!onDashboard && elements.mobileFocusbar) {
+      if (!onStudyDashboard && elements.mobileFocusbar) {
         elements.mobileFocusbar.innerHTML = "";
         elements.mobileFocusbar.setAttribute("hidden", "");
       }
     }
 
     function openPage(page) {
-      state.currentPage = ["week", "fc", "calendar", "grades", "news"].includes(page) ? page : "dashboard";
+      if (STUDY_SECTIONS.includes(page)) {
+        state.currentPage = "studies";
+        state.studySection = page;
+      } else if (PRIMARY_PAGES.includes(page)) {
+        state.currentPage = page;
+        if (page === "studies") state.studySection = getStudySection();
+      } else {
+        state.currentPage = "home";
+      }
       saveState();
       render();
+      syncHashFromState();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function openStudySection(section) {
+      state.currentPage = "studies";
+      state.studySection = normalizeStudySection(section, "dashboard");
+      saveState();
+      render();
+      syncHashFromState();
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
@@ -1353,14 +1662,16 @@ function renderDeadlineFormCard(referenceDate) {
       const nextMonth = addMonths(getCalendarAnchorDate(referenceDate), delta);
       const safeMonth = nextMonth < currentMonth ? currentMonth : nextMonth;
       setCalendarAnchorDate(safeMonth);
-      state.currentPage = "calendar";
+      state.currentPage = "studies";
+      state.studySection = "calendar";
       saveState();
       render();
     }
 
     function resetCalendarMonth(referenceDate) {
       setCalendarAnchorDate(startOfMonth(referenceDate));
-      state.currentPage = "calendar";
+      state.currentPage = "studies";
+      state.studySection = "calendar";
       saveState();
       render();
     }
@@ -1390,6 +1701,47 @@ function safeRenderStep(label, fn) {
         queue = buildTodayQueue(referenceDate, ignorePinned);
       });
 
+      const primaryPage = getPrimaryPage();
+      const studySection = getStudySection();
+
+      if (primaryPage === "home") {
+        safeRenderStep("tela principal", () => renderHomeDashboard(plan, queue, referenceDate));
+        safeRenderStep("contadores", () => updateCollapseCounts());
+        if (elements.mobileFocusbar) {
+          elements.mobileFocusbar.innerHTML = "";
+          elements.mobileFocusbar.setAttribute("hidden", "");
+        }
+        return;
+      }
+
+      if (primaryPage === "work") {
+        safeRenderStep("trabalho", () => {
+          if (window.WorkPlanner && typeof window.WorkPlanner.render === "function") window.WorkPlanner.render();
+        });
+        safeRenderStep("contadores", () => updateCollapseCounts());
+        if (elements.mobileFocusbar) {
+          elements.mobileFocusbar.innerHTML = "";
+          elements.mobileFocusbar.setAttribute("hidden", "");
+        }
+        return;
+      }
+
+      if (primaryPage === "news") {
+        safeRenderStep("notícias", () => {
+          if (window.NewsFeed && typeof window.NewsFeed.render === "function") window.NewsFeed.render();
+        });
+        safeRenderStep("contadores", () => updateCollapseCounts());
+        if (elements.mobileFocusbar) {
+          elements.mobileFocusbar.innerHTML = "";
+          elements.mobileFocusbar.setAttribute("hidden", "");
+        }
+        return;
+      }
+
+      const previousRenderPage = state.currentPage;
+      state.currentPage = studySection;
+      if (studySection !== "dashboard") plan = null;
+
       if (state.currentPage === "dashboard") {
         safeRenderStep("card principal", () => renderMainTask(plan, referenceDate));
         safeRenderStep("resumo executivo", () => renderExecutiveSummary(plan, referenceDate));
@@ -1414,6 +1766,7 @@ function safeRenderStep(label, fn) {
 
       safeRenderStep("barra de foco mobile", () => renderMobileFocusbar(plan));
       safeRenderStep("contadores", () => updateCollapseCounts());
+      state.currentPage = previousRenderPage;
     }
 
     function showCompatHint(message) {
@@ -1455,6 +1808,13 @@ function safeRenderStep(label, fn) {
       elements.navButtons.forEach((button) => {
         button.addEventListener("click", () => openPage(button.dataset.navPage));
       });
+      elements.studyNavButtons.forEach((button) => {
+        button.addEventListener("click", () => openStudySection(button.dataset.studyPage));
+      });
+      document.addEventListener("click", (event) => {
+        const studyBtn = event.target && event.target.closest ? event.target.closest("[data-home-open-studies]") : null;
+        if (studyBtn) openPage("studies");
+      });
 
       if (elements.themeToggle) elements.themeToggle.addEventListener("click", toggleTheme);
       if (elements.recalcBtn) elements.recalcBtn.addEventListener("click", recalcPlan);
@@ -1479,6 +1839,27 @@ function safeRenderStep(label, fn) {
       } else if (typeof mediaQuery.addListener === "function") {
         mediaQuery.addListener(handleThemeChange);
       }
+      window.addEventListener("hashchange", () => {
+        if (routeHashLock) return;
+        if (!applyRouteFromHash()) return;
+        saveState();
+        render();
+      });
+    }
+
+    function getStateSnapshot() {
+      return STORE_API.cloneState(state);
+    }
+
+    function commitState(updater, options = {}) {
+      if (typeof updater === "function") {
+        updater(state);
+      } else if (updater && typeof updater === "object") {
+        Object.assign(state, updater);
+      }
+      if (options.persist !== false) saveState();
+      if (options.render !== false) render();
+      return getStateSnapshot();
     }
 
     function bootStudyApp() {
@@ -1496,21 +1877,37 @@ function safeRenderStep(label, fn) {
       window.StudyApp = {
         ...(window.StudyApp || {}),
         openPage,
+        openStudySection,
         setStudyMode,
         render,
+        getStateSnapshot,
+        commitState,
         exportStateBackup,
         importStateBackupFromFile,
         applyPendingImport,
         cancelPendingImport,
         toggleCalendarLegend,
         toggleDashboardFocusMode,
-        setNotesSearchTerm
+        setNotesSearchTerm,
+        showToast,
+        newsConfig: {
+          pollMinutes: Number(NEWS_UI.defaultPollMinutes || 5),
+          newWindowMinutes: Number(NEWS_UI.newWindowMinutes || 180),
+          maxInboxItems: Number(NEWS_UI.maxInboxItems || 12)
+        }
       };
       window.openPage = openPage;
+      window.openStudySection = openStudySection;
       window.setStudyMode = setStudyMode;
       window.render = render;
       initEvents();
+      if (applyRouteFromHash()) {
+        saveState();
+      } else {
+        syncHashFromState({ replace: true });
+      }
       if (typeof setupAppActionDelegation === "function") setupAppActionDelegation();
+      if (window.NewsFeed && typeof window.NewsFeed.init === "function") window.NewsFeed.init();
       render();
     }
 
