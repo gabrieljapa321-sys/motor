@@ -1,0 +1,242 @@
+       CALENDÁRIO
+       ═══════════════════════════════════════════════════════════ */
+
+    .month-card { padding: var(--space-6); }
+
+    @media (max-width: 640px) {
+      .month-card { padding: var(--space-4); }
+    }
+
+    .month-header {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-4);
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: var(--space-5);
+      padding-bottom: var(--space-4);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .month-header h2 {
+      margin: 0 0 3px;
+      font-size: var(--text-xl);
+      letter-spacing: -0.02em;
+      font-weight: 700;
+    }
+
+    .month-header p {
+      margin: 0;
+      color: var(--muted);
+      font-size: var(--text-base);
+      max-width: 60ch;
+    }
+
+    .month-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-1);
+    }
+
+    .month-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-1);
+      margin-bottom: var(--space-4);
+    }
+
+    .month-calendar-wrap {
+      overflow-x: auto;
+      margin: 0 -6px;
+      padding: 0 6px;
+    }
+
+    .month-calendar-frame {
+      min-width: 820px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+    }
+
+    @media (min-width: 900px) {
+      .month-calendar-wrap {
+        overflow-x: visible;
+        margin: 0;
+        padding: 0;
+      }
+
+      .month-calendar-frame {
+        min-width: 0;
+      }
+    }
+
+    .month-weekdays {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      background: var(--bg-soft);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .month-weekday {
+      padding: var(--space-2) 10px;
+      font-family: var(--font-mono);
+      font-size: var(--text-2xs);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .month-grid {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      background: var(--line);
+      gap: 1px;
+    }
+
+    .month-cell {
+      background: var(--bg-elevated);
+      min-height: 112px;
+      padding: var(--space-2) 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      position: relative;
+    }
+
+    .month-cell--blank { background: var(--bg-soft); }
+
+    .month-cell__top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: var(--space-2);
+    }
+
+    .month-cell__date {
+      font-family: var(--font-mono);
+      font-size: var(--text-xs);
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .month-cell__weekday {
+      font-family: var(--font-mono);
+      font-size: var(--text-2xs);
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-weight: 600;
+    }
+
+    .month-cell__badges { display: none; }
+
+    .month-cell__markers {
+      display: inline-flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 4px;
+      min-height: 8px;
+      min-width: 18px;
+      flex-shrink: 0;
+    }
+
+    .month-marker {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: var(--line-strong);
+      box-shadow: inset 0 0 0 1px rgba(17, 17, 19, 0.04);
+    }
+
+    .month-marker--study { background: var(--accent); }
+    .month-marker--exam { background: var(--warning); }
+    .month-marker--deadline { background: var(--danger); }
+
+    .month-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .month-item {
+      padding: 4px 6px;
+      font-size: var(--text-2xs);
+      border-radius: 6px;
+      font-weight: 600;
+      line-height: 1.25;
+      display: grid;
+      gap: 1px;
+      border: 1px solid transparent;
+    }
+
+    .month-item strong,
+    .month-item span {
+      display: block;
+    }
+
+    .month-item span {
+      opacity: 0.78;
+    }
+
+    .month-item--study {
+      background: var(--bg-elevated);
+      color: var(--muted-strong);
+      border-color: var(--line);
+      border-left: 2px solid var(--accent);
+    }
+    .month-item--exam {
+      background: var(--warning-soft);
+      color: var(--warning);
+      font-weight: 600;
+      border-left: 2px solid var(--warning);
+    }
+    .month-item--deadline {
+      background: var(--danger-soft);
+      color: var(--danger);
+      font-weight: 600;
+      border-left: 2px solid var(--danger);
+    }
+    .month-item--done {
+      background: var(--success-soft);
+      color: var(--success);
+      text-decoration: line-through;
+      opacity: 0.7;
+      border-left: 2px solid var(--success);
+    }
+
+    .month-cell--past:not([data-today="true"]) {
+      background: var(--bg-soft);
+    }
+
+    .month-cell--past .month-cell__date,
+    .month-cell--past .month-cell__weekday,
+    .month-cell--past .month-cell__markers {
+      opacity: 0.62;
+    }
+
+    .month-cell--past .month-stack {
+      opacity: 0.76;
+    }
+
+    .month-cell[data-today="true"] {
+      background: var(--accent-soft);
+    }
+
+    .month-cell[data-today="true"] .month-cell__date {
+      color: var(--accent);
+    }
+
+    .month-cell[data-today="true"]::after {
+      content: "";
+      position: absolute;
+      top: 5px;
+      right: 6px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    /* ═══════════════════════════════════════════════════════════
