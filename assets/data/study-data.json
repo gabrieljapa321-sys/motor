@@ -1,0 +1,992 @@
+{
+  "profile": {
+    "title": "Engenharia Mecânica na Poli-USP",
+    "objective": "Passar com o mínimo seguro, sem sistema pesado.",
+    "reality": "Estágio + faculdade, estudo sozinho, baixa tolerância a cronograma rígido."
+  },
+  "subjects": [
+    {
+      "code": "PME3240",
+      "name": "Termodinâmica I",
+      "shortName": "Termo I",
+      "phaseNowHint": "P1 ainda aberta e é a prova mais próxima do pacote atual.",
+      "summary": "Mais crítica agora: P1 em 24/04, tabelas são gargalo e P3 pesa 2x na média de provas.",
+      "singularity": "Sem dominar estados, título e 1ª Lei, você sofre em P1, P2 e P3.",
+      "counts": {
+        "P1": 9,
+        "P2": 12,
+        "P3": 15
+      },
+      "programFile": "PME-3240 - TERMODINÂMICA I PROG. 2026.pdf",
+      "examSchemeNote": "A = 0,9 MP + 0,1 MR, com MP = (P1 + P2 + 2·P3) / 4.",
+      "outsideDependency": "10% vêm de relatórios/listas.",
+      "baseRisk": 0.88,
+      "inferred": false,
+      "phases": [
+        {
+          "id": "P1",
+          "label": "P1",
+          "start": "2026-03-02",
+          "examDate": "2026-04-24",
+          "weight": 22.5
+        },
+        {
+          "id": "P2",
+          "label": "P2",
+          "start": "2026-04-27",
+          "examDate": "2026-05-29",
+          "weight": 22.5
+        },
+        {
+          "id": "P3",
+          "label": "P3",
+          "start": "2026-06-01",
+          "examDate": "2026-06-29",
+          "weight": 45
+        }
+      ],
+      "extras": [
+        {
+          "label": "Relatórios/listas",
+          "weight": 10,
+          "until": "2026-06-29"
+        }
+      ],
+      "coreTopics": [
+        "Substância pura, saturação, título e tabelas",
+        "Trabalho, calor e 1ª Lei",
+        "Volume de controle e regime permanente",
+        "2ª Lei, Carnot, Clausius e entropia",
+        "Exergia e irreversibilidade",
+        "Rankine, Brayton, Otto, Diesel e refrigeração"
+      ],
+      "sources": [
+        {
+          "name": "PME-3240 - TERMODINÂMICA I PROG. 2026.pdf",
+          "kind": "programa",
+          "value": "alto",
+          "why": "ordem real do semestre e datas de P1/P2/P3"
+        },
+        {
+          "name": "Tabelas_Termodinâmicas (2).pdf",
+          "kind": "apoio",
+          "value": "alto",
+          "why": "gargalo operacional da disciplina"
+        },
+        {
+          "name": "P1 2025 - Resolvida.pdf",
+          "kind": "prova resolvida",
+          "value": "altíssimo",
+          "why": "treino direto para a P1 atual"
+        },
+        {
+          "name": "PME3240_P3_2020 v3.pdf",
+          "kind": "prova",
+          "value": "alto",
+          "why": "bom proxy para ciclos e refrigeração"
+        },
+        {
+          "name": "P3_2020 Q1 - Gabarito.pdf",
+          "kind": "gabarito",
+          "value": "alto",
+          "why": "fecha ciclos com exergia"
+        },
+        {
+          "name": "P3_2020 Q2_Gabarito.pdf",
+          "kind": "gabarito",
+          "value": "alto",
+          "why": "exergia e irreversibilidade em formato enxuto"
+        }
+      ]
+    },
+    {
+      "code": "PME3210",
+      "name": "Mecânica dos Sólidos I",
+      "shortName": "Sólidos I",
+      "phaseNowHint": "P1 passou há pouco; o bloco de torção e vigas já é o centro do risco.",
+      "summary": "Estrutura de cobrança estável e bem documentada. Boa cobertura de gabaritos recentes reduz o atrito.",
+      "singularity": "P2 e P3 costumam cobrar procedimento limpo: DCL, compatibilidade, diagrama, tensão e dimensão final.",
+      "counts": {
+        "P1": 19,
+        "P2": 19,
+        "P3": 20
+      },
+      "programFile": "Cronograma_PME0210_2026_v3 (1).pdf",
+      "examSchemeNote": "A = (P1 + P2 + P3) / 3. Há PSub, mas não há recuperação.",
+      "outsideDependency": "Sem dependência relevante fora das provas.",
+      "baseRisk": 0.7,
+      "inferred": false,
+      "phases": [
+        {
+          "id": "P1",
+          "label": "P1",
+          "start": "2026-03-03",
+          "examDate": "2026-04-09",
+          "weight": 33.33
+        },
+        {
+          "id": "P2",
+          "label": "P2",
+          "start": "2026-04-14",
+          "examDate": "2026-05-20",
+          "weight": 33.33
+        },
+        {
+          "id": "P3",
+          "label": "P3",
+          "start": "2026-05-26",
+          "examDate": "2026-06-23",
+          "weight": 33.34
+        }
+      ],
+      "extras": [],
+      "coreTopics": [
+        "Torção em barras circulares",
+        "Transmissão de potência",
+        "Tubos de parede fina",
+        "Centroides e momentos de inércia",
+        "Vigas, cortante e momento fletor",
+        "Flexão, cisalhamento e deflexão"
+      ],
+      "sources": [
+        {
+          "name": "Cronograma_PME0210_2026_v3 (1).pdf",
+          "kind": "cronograma",
+          "value": "alto",
+          "why": "mostra a ordem real de torção → vigas → flexão/deflexão"
+        },
+        {
+          "name": "PME3210 P2 2024_v3_Gabarito.pdf",
+          "kind": "gabarito",
+          "value": "altíssimo",
+          "why": "torção com compatibilidade em formato direto"
+        },
+        {
+          "name": "PME3210 P2 2025_vf_gabarito.pdf",
+          "kind": "gabarito",
+          "value": "altíssimo",
+          "why": "tubos, série/paralelo e torque"
+        },
+        {
+          "name": "PME3210 P3 2024_vf_Gabarito.pdf",
+          "kind": "gabarito",
+          "value": "altíssimo",
+          "why": "cortante e momento em viga"
+        },
+        {
+          "name": "PME3210 P3 2025_gabarito_v2.pdf",
+          "kind": "gabarito",
+          "value": "altíssimo",
+          "why": "dimensionamento por flexão"
+        },
+        {
+          "name": "PME3210 P1 2025_v1 - Gabarito (1).pdf",
+          "kind": "gabarito",
+          "value": "médio",
+          "why": "bom para lembrar axial/treliça quando faltar base"
+        }
+      ]
+    },
+    {
+      "code": "PME3100",
+      "name": "Mecânica I",
+      "shortName": "Mecânica I",
+      "phaseNowHint": "P1 já passou; agora o ganho real vem de cinemática bem feita para P2.",
+      "summary": "O melhor ponto do pacote é o próprio programa: ele já indica exercícios e provas antigas por tópico.",
+      "singularity": "Você não precisa inventar trilha: o programa curado já aponta o que reaparece.",
+      "counts": {
+        "P1": 21,
+        "P2": 21,
+        "P3": 18
+      },
+      "programFile": "PROGRAMA_PME0100_2026103 - PROGRAMA_2025_2 (2).pdf",
+      "examSchemeNote": "Peso inferido para risco: P1/P2/P3 = 1/3 cada, porque o critério não ficou legível no PDF extraído.",
+      "outsideDependency": "Sem evidência clara de componente fora de prova no material enviado.",
+      "baseRisk": 0.62,
+      "inferred": true,
+      "phases": [
+        {
+          "id": "P1",
+          "label": "P1",
+          "start": "2026-03-02",
+          "examDate": "2026-04-08",
+          "weight": 33.33
+        },
+        {
+          "id": "P2",
+          "label": "P2",
+          "start": "2026-04-13",
+          "examDate": "2026-05-19",
+          "weight": 33.33
+        },
+        {
+          "id": "P3",
+          "label": "P3",
+          "start": "2026-05-25",
+          "examDate": "2026-06-22",
+          "weight": 33.34
+        }
+      ],
+      "extras": [],
+      "coreTopics": [
+        "Referencial, posição, velocidade e aceleração",
+        "Cinemática do ponto e movimento circular",
+        "Movimento plano de corpo rígido",
+        "Composição de movimentos",
+        "Leis de Newton e teoremas da dinâmica",
+        "Energia cinética, momento de inércia e dinâmica de corpo rígido"
+      ],
+      "sources": [
+        {
+          "name": "PROGRAMA_PME0100_2026103 - PROGRAMA_2025_2 (2).pdf",
+          "kind": "programa",
+          "value": "altíssimo",
+          "why": "é um mapa curado de questões por tópico"
+        },
+        {
+          "name": "PME3100_P2_2024_2.pdf",
+          "kind": "prova",
+          "value": "alto",
+          "why": "treino recente de cinemática"
+        },
+        {
+          "name": "PME3100_P2_2025_2.pdf",
+          "kind": "prova",
+          "value": "altíssimo",
+          "why": "prova mais recente de P2"
+        },
+        {
+          "name": "PME3100_P3_2024_2.pdf",
+          "kind": "prova",
+          "value": "alto",
+          "why": "bom proxy de dinâmica"
+        },
+        {
+          "name": "PME3100_P3_2025_2.pdf",
+          "kind": "prova",
+          "value": "altíssimo",
+          "why": "prova mais recente de P3"
+        }
+      ]
+    },
+    {
+      "code": "PME3400",
+      "name": "Vibrações",
+      "shortName": "Vibrações",
+      "phaseNowHint": "P1 passou; agora o núcleo é 1 GL livre/forçada até P2.",
+      "summary": "O semestre pesa bastante em P3 e ainda reserva 25% para exercícios resolvidos. Para quem não vai à aula, isso sobe o risco.",
+      "singularity": "Não dá para ignorar 1 GL agora e tentar compensar depois: é a base de transmissibilidade, base excitante e resposta forçada.",
+      "counts": {
+        "P1": 24,
+        "P2": 36,
+        "P3": 3
+      },
+      "programFile": "PME3400 - 2026 - Programa - v3 (3).pdf",
+      "examSchemeNote": "MF = 0,75·[(2P1 + 3P2 + 5P3)/10] + 0,25·média dos exercícios.",
+      "outsideDependency": "25% vêm de exercícios resolvidos em classe.",
+      "baseRisk": 0.82,
+      "inferred": false,
+      "phases": [
+        {
+          "id": "P1",
+          "label": "P1",
+          "start": "2026-03-03",
+          "examDate": "2026-04-09",
+          "weight": 15
+        },
+        {
+          "id": "P2",
+          "label": "P2",
+          "start": "2026-04-14",
+          "examDate": "2026-05-21",
+          "weight": 22.5
+        },
+        {
+          "id": "P3",
+          "label": "P3",
+          "start": "2026-05-26",
+          "examDate": "2026-07-02",
+          "weight": 37.5
+        }
+      ],
+      "extras": [
+        {
+          "label": "Exercícios em classe",
+          "weight": 25,
+          "until": "2026-07-02"
+        }
+      ],
+      "coreTopics": [
+        "1 GL livre",
+        "Amortecimento viscoso, estrutural e de Coulomb",
+        "1 GL forçada e ressonância",
+        "Base excitante, desbalanceamento, transmissibilidade e isolamento",
+        "2 GL, modos e frequências naturais",
+        "Análise modal e absorvedor dinâmico"
+      ],
+      "sources": [
+        {
+          "name": "PME3400 - 2026 - Programa - v3 (3).pdf",
+          "kind": "programa",
+          "value": "alto",
+          "why": "define claramente a fronteira P1 / P2 / P3"
+        },
+        {
+          "name": "PME3400 - 2024 - P2_Res.pdf",
+          "kind": "resolvida",
+          "value": "altíssimo",
+          "why": "1 GL forçada em formato bem próximo da cobrança atual"
+        },
+        {
+          "name": "PME3400 - 2025 - P2_Res.pdf",
+          "kind": "resolvida",
+          "value": "altíssimo",
+          "why": "proxy mais recente para P2"
+        },
+        {
+          "name": "Questões - Forçadas em Sistemas com 1 grau de liberdade.pdf",
+          "kind": "lista temática",
+          "value": "alto",
+          "why": "custo-benefício excelente para P2"
+        },
+        {
+          "name": "PME3400 - 2024 - P3 - Res.pdf",
+          "kind": "resolvida",
+          "value": "alto",
+          "why": "2 GL e modos naturais"
+        },
+        {
+          "name": "PME3400 - 2025 - P3 - Res.pdf",
+          "kind": "resolvida",
+          "value": "alto",
+          "why": "P3 recente com resposta forçada em MGL"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "PME3240-P1-1",
+      "subjectCode": "PME3240",
+      "phaseId": "P1",
+      "title": "Substância pura + título sem enrolar",
+      "exact": "Abra a P1 2025 e resolva só os itens ligados a estados, saturação, título e uso de tabela. No final, anote 3 travas reais.",
+      "micro": "Leia a P1 2025 Parte I e responda 1 item de conceito; depois localize 3 estados nas tabelas sem tentar fechar a prova inteira.",
+      "minutes": {
+        "normal": 45,
+        "exausto": 20,
+        "m30": 30,
+        "foco": 55
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": true,
+      "priorityBase": 10,
+      "source": [
+        "PME-3240 - TERMODINÂMICA I PROG. 2026.pdf",
+        "P1 2025 - Resolvida.pdf",
+        "Tabelas_Termodinâmicas (2).pdf"
+      ],
+      "why": "Esse é o gargalo mais transversal da disciplina.",
+      "steps": [
+        "2 min: sem consulta, diga em voz baixa a diferença entre líquido comprimido, mistura saturada e vapor superaquecido.",
+        "25 min: resolva o bloco de estados/título da P1 2025.",
+        "8 min: volte apenas onde travou na leitura das tabelas.",
+        "5 min: registre um lembrete mínimo em linguagem sua."
+      ]
+    },
+    {
+      "id": "PME3240-P1-2",
+      "subjectCode": "PME3240",
+      "phaseId": "P1",
+      "title": "Trabalho, calor e 1ª Lei para sistemas",
+      "exact": "Faça uma passada enxuta em trabalho/calor e feche 1 questão de 1ª Lei para sistema fechado. Pare quando conseguir montar o balanço sem hesitar.",
+      "micro": "Revise as relações de trabalho e calor e escreva um balanço de energia para um sistema fechado sem consultar o livro.",
+      "minutes": {
+        "normal": 40,
+        "exausto": 18,
+        "m30": 28,
+        "foco": 50
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": true,
+      "priorityBase": 9,
+      "source": [
+        "PME-3240 - TERMODINÂMICA I PROG. 2026.pdf",
+        "P1 2025 - Resolvida.pdf"
+      ],
+      "why": "1ª Lei é estrutura, não detalhe; sem isso a P1 desanda.",
+      "steps": [
+        "5 min: liste em um rascunho quais termos entram no balanço de energia.",
+        "20 min: feche uma questão de sistema fechado da P1 2025.",
+        "5 min: compare só o balanço, não a prova inteira.",
+        "5 min: marque qual termo você costuma esquecer."
+      ]
+    },
+    {
+      "id": "PME3240-P1-3",
+      "subjectCode": "PME3240",
+      "phaseId": "P1",
+      "title": "Volume de controle e Reynolds",
+      "exact": "Treine conservação de massa + 1ª Lei em volume de controle até conseguir decidir, sem enrolar, o que entra e sai do balanço em regime permanente.",
+      "micro": "Pegue um caso simples de volume de controle e monte apenas o esquema de entradas/saídas + balanço de massa.",
+      "minutes": {
+        "normal": 45,
+        "exausto": 20,
+        "m30": 30,
+        "foco": 60
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": true,
+      "priorityBase": 9,
+      "source": [
+        "PME-3240 - TERMODINÂMICA I PROG. 2026.pdf",
+        "P1 2025 - Resolvida.pdf"
+      ],
+      "why": "É o bloco que conecta P1 à disciplina inteira.",
+      "steps": [
+        "3 min: desenhe um VC e marque fluxos.",
+        "22 min: resolva um item de massa + energia em regime permanente.",
+        "8 min: reescreva o balanço limpo, sem conta.",
+        "5 min: anote uma heurística para decidir sinais."
+      ]
+    },
+    {
+      "id": "PME3240-P1-4",
+      "subjectCode": "PME3240",
+      "phaseId": "P1",
+      "title": "P1 2025 Parte I: treino seco, sem formulário",
+      "exact": "Faça apenas a Parte I teórica da P1 2025 em ritmo de prova. O objetivo não é tirar nota; é medir o que você esquece sem apoio.",
+      "micro": "Responda 2 itens teóricos da Parte I da P1 2025 em 15 minutos e pare ali.",
+      "minutes": {
+        "normal": 35,
+        "exausto": 15,
+        "m30": 25,
+        "foco": 45
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": true,
+      "priorityBase": 8,
+      "source": [
+        "P1 2025 - Resolvida.pdf"
+      ],
+      "why": "Revisão embutida sem transformar o sistema numa rotina chata de revisão.",
+      "steps": [
+        "15-20 min: faça os itens teóricos sem consulta.",
+        "8 min: compare com a resolvida.",
+        "3 min: guarde só 2 correções."
+      ]
+    },
+    {
+      "id": "PME3240-P2-1",
+      "subjectCode": "PME3240",
+      "phaseId": "P2",
+      "title": "2ª Lei, Carnot e entropia sem texto demais",
+      "exact": "Feche um bloco mínimo: Carnot, desigualdade de Clausius, sentido físico da entropia e 1 exercício curto.",
+      "micro": "Escreva em 5 linhas o que muda entre 1ª e 2ª Lei e resolva 1 item curto de entropia.",
+      "minutes": {
+        "normal": 40,
+        "exausto": 18,
+        "m30": 28,
+        "foco": 50
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": false,
+      "priorityBase": 8,
+      "source": [
+        "PME-3240 - TERMODINÂMICA I PROG. 2026.pdf",
+        "2014p2.pdf",
+        "2015p2 (1).pdf"
+      ],
+      "why": "Base da P2; mantida aqui como próxima ação futura.",
+      "steps": [
+        "5 min: resuma Carnot/Clausius em linguagem sua.",
+        "20 min: ataque 1 exercício curto de entropia.",
+        "5 min: guarde uma regra operacional."
+      ]
+    },
+    {
+      "id": "PME3240-P3-1",
+      "subjectCode": "PME3240",
+      "phaseId": "P3",
+      "title": "Ciclos + refrigeração + exergia",
+      "exact": "Use o P3 2020 para fechar um bloco de ciclos de potência/refrigeração com foco em estados, balanços e destruição de exergia.",
+      "micro": "Faça só o esquema de estados do ciclo e identifique onde entram potência, calor e exergia destruída.",
+      "minutes": {
+        "normal": 55,
+        "exausto": 22,
+        "m30": 30,
+        "foco": 70
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": false,
+      "priorityBase": 8,
+      "source": [
+        "PME3240_P3_2020 v3.pdf",
+        "P3_2020 Q1 - Gabarito.pdf",
+        "P3_2020 Q2_Gabarito.pdf"
+      ],
+      "why": "A P3 carrega o maior peso da matéria.",
+      "steps": [
+        "5 min: desenhe o ciclo e nomeie os estados.",
+        "30 min: resolva a parte energética principal.",
+        "10 min: feche uma pergunta de exergia.",
+        "5 min: anote o padrão de resolução."
+      ]
+    },
+    {
+      "id": "PME3210-P2-1",
+      "subjectCode": "PME3210",
+      "phaseId": "P2",
+      "title": "Torção básica em barras circulares",
+      "exact": "Abra o gabarito de P2 2024 e feche o eixo com torques e compatibilidade de giro. O alvo é sair com a sequência padrão pronta.",
+      "micro": "Monte o DCL do eixo, escreva a compatibilidade e pare antes das contas longas.",
+      "minutes": {
+        "normal": 45,
+        "exausto": 18,
+        "m30": 30,
+        "foco": 55
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": false,
+      "priorityBase": 9,
+      "source": [
+        "PME3210 P2 2024_v3_Gabarito.pdf"
+      ],
+      "why": "P2 gira em torno de torção e procedimento limpo.",
+      "steps": [
+        "5 min: identifique trechos do eixo e sinais dos torques.",
+        "20 min: resolva o item principal da P2 2024.",
+        "8 min: reescreva a sequência DCL → equilíbrio → compatibilidade → giro.",
+        "5 min: guarde a forma geral."
+      ]
+    },
+    {
+      "id": "PME3210-P2-2",
+      "subjectCode": "PME3210",
+      "phaseId": "P2",
+      "title": "Série, paralelo e transmissão de potência",
+      "exact": "Pegue a P2 2025 e resolva a comparação série/paralelo com foco em como o torque se reparte e como a deformação entra.",
+      "micro": "Faça só o raciocínio de como o torque se divide em série e em paralelo, sem fechar todas as contas.",
+      "minutes": {
+        "normal": 40,
+        "exausto": 18,
+        "m30": 28,
+        "foco": 50
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": false,
+      "priorityBase": 8,
+      "source": [
+        "PME3210 P2 2025_vf_gabarito.pdf"
+      ],
+      "why": "Excelente custo-benefício: muito padrão com gabarito recente.",
+      "steps": [
+        "5 min: classifique série vs paralelo.",
+        "20 min: resolva o item de partição de torque.",
+        "5 min: transforme o processo em 3 frases operacionais."
+      ]
+    },
+    {
+      "id": "PME3210-P2-3",
+      "subjectCode": "PME3210",
+      "phaseId": "P2",
+      "title": "Tubos de parede fina + tensão que realmente cai",
+      "exact": "Feche 1 bloco de tubos de parede fina e tensão de cisalhamento, sem tentar cobrir a teoria inteira.",
+      "micro": "Revise só a expressão de tensão média em parede fina e aplique em 1 exemplo.",
+      "minutes": {
+        "normal": 35,
+        "exausto": 15,
+        "m30": 25,
+        "foco": 45
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": false,
+      "priorityBase": 7,
+      "source": [
+        "Cronograma_PME0210_2026_v3 (1).pdf",
+        "PME3210 P2 2025_vf_gabarito.pdf"
+      ],
+      "why": "É um tópico curto e de bom retorno dentro do bloco de P2.",
+      "steps": [
+        "5 min: anote a relação central.",
+        "15 min: aplique em 1 item curto.",
+        "5 min: registre o tipo de dado que você tende a esquecer."
+      ]
+    },
+    {
+      "id": "PME3210-P2-4",
+      "subjectCode": "PME3210",
+      "phaseId": "P2",
+      "title": "Centroides, inércia e ponte para vigas",
+      "exact": "Faça uma rodada curta em centroides/momentos de inércia e já conecte isso com a leitura inicial de vigas.",
+      "micro": "Revise 1 seção simples e recupere a lógica de I sem entrar em derivação longa.",
+      "minutes": {
+        "normal": 35,
+        "exausto": 15,
+        "m30": 25,
+        "foco": 45
+      },
+      "core": true,
+      "recurring": false,
+      "carryForward": false,
+      "priorityBase": 6,
+      "source": [
+        "Cronograma_PME0210_2026_v3 (1).pdf",
+        "PME3210 P2 2023.pdf"
+      ],
+      "why": "Ponte necessária para o início do bloco de vigas.",
+      "steps": [
+        "10 min: revise uma seção básica.",
+        "15 min: relacione com uso em flexão.",
+        "5 min: guarde a estrutura, não a dedução."
+      ]
+    },
+    {
+      "id": "PME3210-P3-1",
+      "subjectCode": "PME3210",
+      "phaseId": "P3",
+      "title": "Vigas: cortante e momento fletor",
+      "exact": "Faça a P3 2024 até fechar reações, diagrama de cortante e diagrama de momento sem perder o sinal.",
+      "micro": "Monte só DCL + reações + trechos do diagrama, sem buscar a apresentação perfeita.",
+      "minutes": {
+        "normal": 50,
+        "exausto": 22,
+        "m30": 30,
+        "foco": 60
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": false,
+      "priorityBase": 8,
+      "source": [
+        "PME3210 P3 2024_vf_Gabarito.pdf"
+      ],
+      "why": "Formato extremamente recorrente em P3.",
+      "steps": [
+        "5 min: marque apoios, cargas e tramos.",
+        "25 min: feche reações e diagramas.",
+        "8 min: compare só trechos onde errou sinal.",
+        "5 min: guarde a ordem de ataque."
+      ]
+    },
+    {
+      "id": "PME3210-P3-2",
+      "subjectCode": "PME3210",
+      "phaseId": "P3",
+      "title": "Flexão e dimensionamento mínimo",
+      "exact": "Use a P3 2025 para fechar o ciclo: reações, diagrama e largura mínima da seção por flexão.",
+      "micro": "Faça só a parte de dimensionamento a partir do momento máximo já encontrado.",
+      "minutes": {
+        "normal": 45,
+        "exausto": 20,
+        "m30": 30,
+        "foco": 55
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": false,
+      "priorityBase": 8,
+      "source": [
+        "PME3210 P3 2025_gabarito_v2.pdf"
+      ],
+      "why": "Ótimo treino de alta recompensa para passar.",
+      "steps": [
+        "5 min: recupere o momento crítico.",
+        "20 min: feche a condição de tensão admissível.",
+        "5 min: guarde a fórmula enxuta que você realmente usa."
+      ]
+    },
+    {
+      "id": "PME3100-P2-1",
+      "subjectCode": "PME3100",
+      "phaseId": "P2",
+      "title": "Referencial, posição, velocidade e aceleração",
+      "exact": "Abra a P2 mais recente e resolva um bloco curto de cinemática do ponto. O alvo é montar o esquema sem travar no desenho.",
+      "micro": "Faça só o desenho cinemático e escreva as relações de velocidade/aceleração.",
+      "minutes": {
+        "normal": 40,
+        "exausto": 18,
+        "m30": 28,
+        "foco": 50
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": false,
+      "priorityBase": 8,
+      "source": [
+        "PROGRAMA_PME0100_2026103 - PROGRAMA_2025_2 (2).pdf",
+        "PME3100_P2_2025_2.pdf"
+      ],
+      "why": "É o primeiro bloco real da P2 e o programa já o trata como núcleo.",
+      "steps": [
+        "5 min: desenhe o referencial e marque dados.",
+        "20 min: resolva um item de velocidade/aceleração.",
+        "5 min: anote a relação que você mais confunde."
+      ]
+    },
+    {
+      "id": "PME3100-P2-2",
+      "subjectCode": "PME3100",
+      "phaseId": "P2",
+      "title": "Movimento plano de corpo rígido",
+      "exact": "Feche 1 questão de movimento plano de corpo rígido usando uma prova 2024/2025. Pare quando o encadeamento ficar claro.",
+      "micro": "Monte só a relação entre pontos do corpo rígido e o sentido das velocidades.",
+      "minutes": {
+        "normal": 45,
+        "exausto": 18,
+        "m30": 30,
+        "foco": 55
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": false,
+      "priorityBase": 9,
+      "source": [
+        "PROGRAMA_PME0100_2026103 - PROGRAMA_2025_2 (2).pdf",
+        "PME3100_P2_2024_2.pdf",
+        "PME3100_P2_2025_2.pdf"
+      ],
+      "why": "Bloco central de P2, com padrão recorrente na curadoria do programa.",
+      "steps": [
+        "5 min: identifique centro instantâneo / relação entre pontos.",
+        "25 min: resolva a parte principal da questão.",
+        "5 min: registre a ordem de ataque."
+      ]
+    },
+    {
+      "id": "PME3100-P2-3",
+      "subjectCode": "PME3100",
+      "phaseId": "P2",
+      "title": "Composição de movimentos e campos de velocidades",
+      "exact": "Faça uma questão que force composição de movimentos e campo de velocidades; não tente cobrir o capítulo inteiro.",
+      "micro": "Escreva só a decomposição dos termos e resolva a primeira etapa.",
+      "minutes": {
+        "normal": 40,
+        "exausto": 16,
+        "m30": 28,
+        "foco": 50
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": false,
+      "priorityBase": 8,
+      "source": [
+        "PROGRAMA_PME0100_2026103 - PROGRAMA_2025_2 (2).pdf",
+        "PME3100_P2_2025_1.pdf"
+      ],
+      "why": "O programa sugere exatamente esse tipo de questão como treino de alto retorno.",
+      "steps": [
+        "5 min: separe velocidade relativa, de arraste e absoluta.",
+        "20 min: resolva a parte mecânica principal.",
+        "5 min: transforme em um pequeno roteiro."
+      ]
+    },
+    {
+      "id": "PME3100-P3-1",
+      "subjectCode": "PME3100",
+      "phaseId": "P3",
+      "title": "Leis de Newton e teoremas da dinâmica",
+      "exact": "Feche um problema curto de dinâmica sem cair na armadilha de sair calculando antes de escrever o teorema certo.",
+      "micro": "Escolha qual teorema usar, escreva-o limpo e pare antes da conta longa.",
+      "minutes": {
+        "normal": 40,
+        "exausto": 16,
+        "m30": 28,
+        "foco": 50
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": false,
+      "priorityBase": 7,
+      "source": [
+        "PROGRAMA_PME0100_2026103 - PROGRAMA_2025_2 (2).pdf",
+        "PME3100_P3_2024_2.pdf"
+      ],
+      "why": "A P3 passa por escolher o teorema certo antes da álgebra.",
+      "steps": [
+        "5 min: identifique o teorema mais econômico.",
+        "20 min: resolva um item.",
+        "5 min: registre o critério de escolha."
+      ]
+    },
+    {
+      "id": "PME3100-P3-2",
+      "subjectCode": "PME3100",
+      "phaseId": "P3",
+      "title": "Energia cinética, momento de inércia e matriz de inércia",
+      "exact": "Faça um bloco mínimo de inércia e energia cinética em corpo rígido. O objetivo é tirar a trava conceitual cedo.",
+      "micro": "Revise as definições e identifique quando entra momento versus matriz de inércia.",
+      "minutes": {
+        "normal": 45,
+        "exausto": 18,
+        "m30": 30,
+        "foco": 55
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": false,
+      "priorityBase": 7,
+      "source": [
+        "PROGRAMA_PME0100_2026103 - PROGRAMA_2025_2 (2).pdf",
+        "PME3100_P3_2025_2.pdf"
+      ],
+      "why": "Tende a aparecer como parte decisiva da P3.",
+      "steps": [
+        "5 min: recupere as definições mínimas.",
+        "25 min: aplique em 1 questão recente.",
+        "5 min: anote onde errou conceitualmente."
+      ]
+    },
+    {
+      "id": "PME3400-P2-1",
+      "subjectCode": "PME3400",
+      "phaseId": "P2",
+      "title": "1 GL livre: equação do movimento e frequência natural",
+      "exact": "Feche um exercício de 1 GL livre até sair da figura para a EDO sem hesitar. Esse é o primeiro gargalo real da P2.",
+      "micro": "Monte só a EDO e a frequência natural, sem avançar para resposta completa.",
+      "minutes": {
+        "normal": 45,
+        "exausto": 18,
+        "m30": 30,
+        "foco": 55
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": false,
+      "priorityBase": 9,
+      "source": [
+        "PME3400 - 2026 - Programa - v3 (3).pdf",
+        "PME3400 - 2024 - P2_Res.pdf"
+      ],
+      "why": "Sem isso, vibração forçada vira decoreba frágil.",
+      "steps": [
+        "5 min: identifique coordenada, forças restauradoras e massa equivalente.",
+        "20 min: monte a EDO e obtenha wn.",
+        "5 min: registre a receita em 3 passos."
+      ]
+    },
+    {
+      "id": "PME3400-P2-2",
+      "subjectCode": "PME3400",
+      "phaseId": "P2",
+      "title": "Amortecimento sem teatro: viscoso, estrutural e Coulomb",
+      "exact": "Resolva um bloco curto para distinguir os tipos de amortecimento e saber onde cada um muda a resposta.",
+      "micro": "Escreva apenas o que muda na resposta para cada amortecimento e faça 1 exemplo curto.",
+      "minutes": {
+        "normal": 40,
+        "exausto": 16,
+        "m30": 28,
+        "foco": 50
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": false,
+      "priorityBase": 8,
+      "source": [
+        "PME3400 - 2026 - Programa - v3 (3).pdf",
+        "PME3400 - 2025 - P2_Res.pdf"
+      ],
+      "why": "É o tipo de confusão que custa ponto fácil.",
+      "steps": [
+        "8 min: monte um quadro comparativo mínimo.",
+        "18 min: resolva 1 item do tipo de amortecimento.",
+        "5 min: guarde só o que muda operacionalmente."
+      ]
+    },
+    {
+      "id": "PME3400-P2-3",
+      "subjectCode": "PME3400",
+      "phaseId": "P2",
+      "title": "1 GL forçada, ressonância e base excitante",
+      "exact": "Use uma prova recente ou a lista temática para fechar um problema de resposta harmônica e ler a curva sem travar.",
+      "micro": "Faça só o bloco de amplitude em regime permanente e identifique a região de ressonância.",
+      "minutes": {
+        "normal": 50,
+        "exausto": 20,
+        "m30": 30,
+        "foco": 60
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": false,
+      "priorityBase": 10,
+      "source": [
+        "PME3400 - 2024 - P2_Res.pdf",
+        "PME3400 - 2025 - P2_Res.pdf",
+        "Questões - Forçadas em Sistemas com 1 grau de liberdade.pdf"
+      ],
+      "why": "Esse é o coração da P2 em Vibrações.",
+      "steps": [
+        "5 min: escreva a forma padrão da resposta.",
+        "25 min: resolva um exercício de excitação harmônica/base excitante.",
+        "5 min: resuma quando a transmissibilidade ajuda ou atrapalha."
+      ]
+    },
+    {
+      "id": "PME3400-P2-4",
+      "subjectCode": "PME3400",
+      "phaseId": "P2",
+      "title": "Resposta a excitação qualquer: Fourier e Duhamel do jeito útil",
+      "exact": "Feche uma rodada mínima em série de Fourier e integral de Duhamel sem tentar virar especialista. O objetivo é reconhecer quando usar.",
+      "micro": "Escreva em quais situações entram Fourier e Duhamel e faça só o início de 1 item.",
+      "minutes": {
+        "normal": 35,
+        "exausto": 15,
+        "m30": 25,
+        "foco": 45
+      },
+      "core": true,
+      "recurring": false,
+      "carryForward": false,
+      "priorityBase": 6,
+      "source": [
+        "PME3400 - 2026 - Programa - v3 (3).pdf",
+        "Questões - Forçadas em Sistemas com 1 grau de liberdade.pdf"
+      ],
+      "why": "Não é o primeiro bloco para hoje, mas evita surpresa perto da prova.",
+      "steps": [
+        "10 min: reconheça o gatilho de uso.",
+        "15 min: comece 1 item sem buscar acabamento total.",
+        "5 min: anote a decisão de ferramenta."
+      ]
+    },
+    {
+      "id": "PME3400-P3-1",
+      "subjectCode": "PME3400",
+      "phaseId": "P3",
+      "title": "2 GL: equações, frequências e modos naturais",
+      "exact": "Pegue a P3 2024 ou 2025 e feche o bloco clássico de 2 GL até obter as frequências e o formato modal.",
+      "micro": "Monte só as equações acopladas e a matriz do problema modal.",
+      "minutes": {
+        "normal": 55,
+        "exausto": 22,
+        "m30": 30,
+        "foco": 70
+      },
+      "core": true,
+      "recurring": true,
+      "carryForward": false,
+      "priorityBase": 8,
+      "source": [
+        "PME3400 - 2024 - P3 - Res.pdf",
+        "PME3400 - 2025 - P3 - Res.pdf"
+      ],
+      "why": "P3 tem peso alto e costuma abrir por aqui.",
+      "steps": [
+        "5 min: escolha coordenadas.",
+        "25 min: monte equações e problema modal.",
+        "10 min: interprete os modos.",
+        "5 min: guarde a estrutura matricial."
+      ]
+    }
+  ]
+}

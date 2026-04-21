@@ -1,0 +1,1506 @@
+       PLANNER SEMANAL (página #weekPage)
+       ═══════════════════════════════════════════════════════════ */
+
+    .week-header {
+      display: grid;
+      gap: var(--space-3);
+      grid-template-columns: minmax(0, 1fr);
+      align-items: start;
+      margin-bottom: var(--space-4);
+      padding-bottom: var(--space-4);
+      border-bottom: 1px solid var(--line);
+    }
+
+    @media (min-width: 960px) {
+      .week-header {
+        grid-template-columns: minmax(0, 1fr) auto;
+      }
+    }
+
+    .week-header > div:first-child {
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-2);
+    }
+
+    .week-header > div:first-child::before {
+      content: "Planejamento semanal";
+      font-family: var(--font-mono);
+      font-size: var(--text-2xs);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .week-header h2 {
+      margin: 0 0 4px;
+      font-size: var(--text-xl);
+      letter-spacing: -0.02em;
+      font-weight: 700;
+    }
+
+    .week-header p {
+      margin: 0;
+      color: var(--muted);
+      font-size: var(--text-sm);
+      line-height: 1.5;
+      max-width: 58ch;
+    }
+
+    .week-range {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 0 10px;
+      width: fit-content;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--bg-softer);
+      font-family: var(--font-mono);
+      font-size: var(--text-xs);
+      color: var(--muted-strong);
+      white-space: nowrap;
+    }
+
+    .week-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 8px 10px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      background: var(--bg-softer);
+    }
+
+    .week-controls::before {
+      content: "Controles";
+      font-family: var(--font-mono);
+      font-size: var(--text-2xs);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 600;
+      margin-right: 2px;
+    }
+
+    .week-density-select {
+      min-height: 34px;
+      padding: 0 10px;
+      border-radius: 6px;
+      border: 1px solid var(--line);
+      background: var(--bg-elevated);
+      color: var(--text);
+      font-size: var(--text-sm);
+      font-family: inherit;
+    }
+
+    @media (max-width: 959px) {
+      .week-controls {
+        justify-content: flex-start;
+      }
+    }
+
+    /* ─── Layout principal: inbox à esquerda + kanban à direita ─── */
+
+    .week-layout {
+      display: grid;
+      gap: var(--space-4);
+      grid-template-columns: 1fr;
+    }
+
+    @media (min-width: 1100px) {
+      .week-layout {
+        grid-template-columns: 208px minmax(0, 1fr);
+      }
+    }
+
+    /* ─── Inbox (lista de to-dos gerais) ─── */
+
+    .week-inbox {
+      background: var(--bg-elevated);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-2);
+      max-height: calc(100vh - 228px);
+      min-height: 320px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    @media (max-width: 1099px) {
+      .week-inbox { max-height: none; min-height: 0; }
+    }
+
+    .week-inbox-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-2);
+      padding: 0 0 6px;
+      border-bottom: 1px dashed var(--line);
+    }
+
+    .week-inbox-title {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      font-size: 0;
+      line-height: 1;
+    }
+
+    .week-inbox-title::before {
+      content: "Captura rápida";
+      font-family: var(--font-mono);
+      font-size: var(--text-2xs);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .week-inbox-title::after {
+      content: "Inbox";
+      font-size: var(--text-sm);
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: var(--text);
+    }
+
+    .week-inbox-count {
+      font-family: var(--font-mono);
+      font-size: var(--text-2xs);
+      color: var(--muted-strong);
+      padding: 2px 7px;
+      background: var(--bg-soft);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+    }
+
+    .week-inbox-list {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      overflow-y: auto;
+      flex: 1;
+      min-height: var(--control-md);
+      padding: 2px;
+      margin: -2px;
+    }
+
+    /* ─── Adicionar tarefa (compact form) ─── */
+
+    .week-add-form {
+      display: flex;
+      gap: 6px;
+      padding: var(--space-1) 0;
+      border-top: 1px dashed var(--line);
+      padding-top: var(--space-2);
+      width: 100%;
+      min-width: 0;
+      align-items: stretch;
+    }
+
+    .week-add-form input {
+      flex: 1;
+      min-width: 0;
+      width: 100%;
+      min-height: 34px;
+      padding: 0 10px;
+      border-radius: 6px;
+      border: 1px solid var(--line);
+      background: var(--bg-elevated);
+      outline: none;
+      color: var(--text);
+      font-size: var(--text-sm);
+      transition: all 0.12s ease;
+      font-family: inherit;
+      box-sizing: border-box;
+    }
+
+    .week-add-form input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-soft);
+    }
+
+    .week-add-form button {
+      padding: 0;
+      width: 32px;
+      height: 32px;
+      border-radius: 5px;
+      background: var(--accent);
+      color: white;
+      border: 0;
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      transition: background 0.12s ease;
+      flex-shrink: 0;
+    }
+
+    .week-add-form button:hover { background: var(--accent-strong); }
+    .week-add-form button svg { width: 16px; height: 16px; }
+
+    .week-empty-inbox {
+      display: grid;
+      place-items: center;
+      min-height: 96px;
+      padding: var(--space-3);
+      border: 1px dashed var(--line);
+      border-radius: var(--radius-md);
+      background: var(--bg-soft);
+      color: var(--muted);
+      text-align: center;
+      font-size: var(--text-sm);
+      line-height: 1.5;
+    }
+
+    /* ─── Kanban (7 colunas) ─── */
+
+    .week-kanban-wrap {
+      overflow-x: auto;
+      margin: 0 -6px;
+      padding: 0 6px;
+    }
+
+    .week-kanban {
+      display: grid;
+      grid-template-columns: repeat(7, minmax(150px, 1fr));
+      gap: var(--space-1);
+      min-width: 980px;
+    }
+
+    @media (max-width: 640px) {
+      .week-kanban {
+        grid-template-columns: repeat(7, 160px);
+      }
+    }
+
+    @media (min-width: 900px) {
+      #weekPage[data-density="compact"] .week-kanban-wrap {
+        overflow-x: visible;
+        margin: 0;
+        padding: 0;
+      }
+
+      #weekPage[data-density="compact"] .week-kanban {
+        grid-template-columns: repeat(7, minmax(0, 1fr));
+        min-width: 0;
+        gap: 4px;
+      }
+
+      #weekPage[data-density="compact"] .week-col {
+        min-width: 0;
+        padding: 7px 5px;
+      }
+
+      #weekPage[data-density="compact"] .week-col-header {
+        padding: 2px 2px 6px;
+      }
+
+      #weekPage[data-density="compact"] .week-col-date {
+        font-size: var(--text-sm);
+      }
+
+      #weekPage[data-density="compact"] .week-col-add {
+        padding: 6px;
+        font-size: var(--text-2xs);
+      }
+
+      #weekPage[data-density="comfortable"] .week-kanban-wrap {
+        overflow-x: visible;
+        margin: 0;
+        padding: 0;
+      }
+
+      #weekPage[data-density="comfortable"] .week-kanban {
+        grid-template-columns: repeat(7, minmax(0, 1fr));
+        min-width: 0;
+        gap: var(--space-2);
+      }
+    }
+
+    .week-col {
+      background: var(--bg-softer);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      padding: var(--space-2) 6px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      min-height: 380px;
+      transition: background 0.15s ease, border-color 0.15s ease;
+    }
+
+    .week-col[data-drag-over="true"] {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+    }
+
+    .week-col[data-today="true"] {
+      border-color: var(--accent);
+    }
+
+    .week-col-header {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+      padding: 1px 2px 6px;
+      border-bottom: 1px dashed var(--line);
+    }
+
+    .week-col-weekday {
+      font-family: var(--font-mono);
+      font-size: var(--text-2xs);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .week-col[data-today="true"] .week-col-weekday {
+      color: var(--accent);
+    }
+
+    .week-col-date {
+      font-size: var(--text-sm);
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 4px;
+    }
+
+    .week-col-count {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--muted);
+      font-weight: 500;
+      padding: 1px 5px;
+      border-radius: 999px;
+      background: var(--bg-soft);
+      white-space: nowrap;
+      flex-shrink: 0;
+      font-variant-numeric: tabular-nums;
+    }
+
+    #weekPage[data-density="compact"] .week-col-date {
+      font-size: var(--text-sm);
+    }
+
+    #weekPage[data-density="comfortable"] .week-col-date {
+      font-size: var(--text-base);
+    }
+
+    #weekPage[data-density="comfortable"] .week-col {
+      padding: var(--space-3) 8px;
+      gap: var(--space-2);
+    }
+
+    #weekPage[data-density="comfortable"] .week-col-header {
+      padding: 2px 4px 6px;
+    }
+
+    .week-col-list {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-1);
+      flex: 1;
+      min-height: 20px;
+    }
+
+    .week-col-add {
+      width: 100%;
+      background: transparent;
+      border: 1px dashed var(--line-strong);
+      color: var(--muted);
+      padding: 7px 6px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: var(--text-2xs);
+      font-weight: 500;
+      transition: all 0.12s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-1);
+      min-height: 32px;
+    }
+
+    .week-col-add:hover {
+      background: var(--bg-elevated);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .week-col-add svg { width: 12px; height: 12px; }
+
+    /* ─── Cartão de tarefa ─── */
+
+    .week-todo {
+      background: var(--bg-elevated);
+      border: 1px solid var(--line);
+      border-radius: 5px;
+      padding: 7px 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      cursor: grab;
+      transition: all 0.12s ease;
+      position: relative;
+    }
+
+    .week-todo:hover {
+      border-color: var(--line-strong);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .week-todo[data-dragging="true"] {
+      opacity: 0.35;
+      cursor: grabbing;
+    }
+
+    .week-todo[data-done="true"] {
+      opacity: 0.55;
+    }
+
+    .week-todo[data-done="true"] .week-todo-text {
+      text-decoration: line-through;
+      color: var(--muted);
+    }
+
+    .week-todo-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+    }
+
+    .week-todo-check {
+      appearance: none;
+      width: 13px;
+      height: 13px;
+      border: 1.5px solid var(--line-strong);
+      border-radius: 3px;
+      background: transparent;
+      cursor: pointer;
+      flex-shrink: 0;
+      margin-top: 1px;
+      transition: all 0.12s ease;
+      display: grid;
+      place-items: center;
+    }
+
+    .week-todo-check:hover {
+      border-color: var(--accent);
+    }
+
+    .week-todo-check:checked {
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+
+    .week-todo-check:checked::after {
+      content: "";
+      width: 7px;
+      height: 7px;
+      background: white;
+      clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    }
+
+    .week-todo-text {
+      font-size: var(--text-xs);
+      line-height: 1.3;
+      color: var(--text);
+      flex: 1;
+      min-width: 0;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      cursor: text;
+    }
+
+    .week-todo-text[contenteditable="true"] {
+      outline: 1px solid var(--accent);
+      outline-offset: 2px;
+      background: var(--bg-softer);
+      border-radius: 3px;
+    }
+
+    .week-todo-meta {
+      display: flex;
+      gap: 4px;
+      flex-wrap: wrap;
+      padding-left: 19px;
+    }
+
+    .week-todo-subject {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--muted);
+      padding: 1px 4px;
+      background: var(--bg-soft);
+      border-radius: 3px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .week-todo-subject.week-todo-subject--accent { color: var(--accent-text); background: var(--accent-soft); }
+    html[data-theme="dark"] .week-todo-subject--accent { color: var(--accent); }
+
+    .week-todo-delete {
+      position: absolute;
+      top: 3px;
+      right: 3px;
+      width: 16px;
+      height: 16px;
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      border-radius: 3px;
+      padding: 0;
+      display: grid;
+      place-items: center;
+      opacity: 0;
+      transition: all 0.12s ease;
+    }
+
+    .week-todo:hover .week-todo-delete { opacity: 1; }
+
+    .week-todo-delete:hover {
+      background: var(--danger-soft);
+      color: var(--danger);
+    }
+
+    .week-todo-delete svg { width: 10px; height: 10px; }
+
+    #weekPage[data-density="comfortable"] .week-todo {
+      padding: var(--space-2) 9px;
+      gap: var(--space-1);
+    }
+
+    #weekPage[data-density="comfortable"] .week-todo-text {
+      font-size: var(--text-sm);
+      line-height: 1.35;
+    }
+
+    #weekPage[data-density="comfortable"] .week-todo-meta {
+      gap: var(--space-1);
+      padding-left: var(--space-5);
+    }
+
+    /* ─── Estado vazio ─── */
+
+    .week-empty-col {
+      color: var(--muted);
+      font-size: var(--text-xs);
+      text-align: center;
+      padding: var(--space-4) 4px;
+      font-style: italic;
+    }
+
+    .week-empty-inbox {
+      color: var(--muted);
+      font-size: var(--text-xs);
+      text-align: center;
+      padding: 18px 8px;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+      line-height: 1.5;
+    }
+
+    /* ─── KPIs da semana ─── */
+
+    .week-stats {
+      display: grid;
+      gap: 1px;
+      background: var(--line);
+      border-radius: var(--radius-md);
+      grid-template-columns: repeat(4, 1fr);
+      overflow: hidden;
+      margin-bottom: var(--space-5);
+    }
+
+    @media (max-width: 640px) {
+      .week-stats { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    .week-stat {
+      background: var(--bg-elevated);
+      padding: var(--space-3) 14px;
+    }
+
+    .week-stat-label {
+      font-family: var(--font-mono);
+      font-size: var(--text-2xs);
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-weight: 600;
+    }
+
+    .week-stat-value {
+      margin-top: var(--space-1);
+      font-size: var(--text-xl);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      display: block;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .week-stat-subvalue {
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: var(--text-xs);
+    }
+
+    /* Scrollbar da inbox list */
+    .week-inbox-list::-webkit-scrollbar { width: 6px; }
+    .week-inbox-list::-webkit-scrollbar-track { background: transparent; }
+    .week-inbox-list::-webkit-scrollbar-thumb {
+      background: var(--line-strong);
+      border-radius: 999px;
+    }
+
+
+    /* ═══════════════════════════════════════════════════════════
+       PLANNER v2 · melhorias
+       - Mini-card de deadline na coluna
+       - Chip de idade (aging) na inbox
+       - Modal de nova tarefa
+       - Toast com undo
+       - Menu "Mover pra..." (mobile fallback)
+       ═══════════════════════════════════════════════════════════ */
+
+    /* Mini-card de deadline dentro da coluna */
+    .week-col-deadlines {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      margin-bottom: 0;
+    }
+
+    .week-col-deadline {
+      padding: 4px 6px;
+      border-radius: 5px;
+      background: var(--bg-elevated);
+      color: var(--text);
+      font-size: 10px;
+      font-weight: 600;
+      line-height: 1.25;
+      cursor: pointer;
+      transition: all 0.12s ease;
+      border: 1px solid var(--line);
+      border-left: 2px solid var(--warning);
+      display: flex;
+      align-items: flex-start;
+      gap: 4px;
+    }
+
+    .week-col-deadline:hover {
+      background: var(--warning-soft);
+      box-shadow: none;
+    }
+
+    .week-col-deadline--done {
+      background: var(--bg-elevated);
+      color: var(--success);
+      border-color: var(--line);
+      border-left-color: var(--success);
+      opacity: 0.7;
+      text-decoration: line-through;
+    }
+
+    .week-col-deadline-icon {
+      font-size: 10px;
+      line-height: 1;
+      padding-top: 1px;
+      flex-shrink: 0;
+    }
+
+    .week-col-deadline-text {
+      min-width: 0;
+      word-break: break-word;
+    }
+
+    .week-col-deadline-subj {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      opacity: 0.7;
+      margin-top: 0;
+      display: block;
+      text-decoration: none;
+      letter-spacing: 0.04em;
+    }
+
+    #weekPage[data-density="comfortable"] .week-col-deadline {
+      padding: var(--space-1) 7px;
+      font-size: var(--text-2xs);
+      line-height: 1.3;
+    }
+
+    /* Chip de aging (idade) na inbox */
+    .week-todo-age {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--muted);
+      padding: 1px 4px;
+      background: var(--bg-soft);
+      border-radius: 3px;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+    }
+
+    .week-todo-age--old {
+      background: var(--warning-soft);
+      color: var(--warning);
+    }
+
+    /* ─── Modal (pra nova tarefa) ─── */
+
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(17, 17, 19, 0.45);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      z-index: var(--z-modal);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: var(--space-5);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.18s ease;
+    }
+
+    .modal-backdrop[data-open="true"] {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    html[data-theme="dark"] .modal-backdrop {
+      background: rgba(0, 0, 0, 0.65);
+    }
+
+    .modal {
+      background: var(--bg-elevated);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      width: 100%;
+      max-width: 440px;
+      padding: var(--space-6);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+      transform: translateY(10px) scale(0.98);
+      transition: transform 0.2s cubic-bezier(.2,.9,.3,1);
+    }
+
+    .modal-backdrop[data-open="true"] .modal {
+      transform: translateY(0) scale(1);
+    }
+
+    .modal-title {
+      font-size: var(--text-lg);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin: 0 0 16px;
+    }
+
+    .modal-body {
+      display: grid;
+      gap: var(--space-3);
+    }
+
+    .modal-actions {
+      display: flex;
+      gap: var(--space-2);
+      justify-content: flex-end;
+      margin-top: var(--space-5);
+    }
+
+    .sync-conflict-modal {
+      max-width: 720px;
+    }
+
+    .sync-conflict-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--space-3);
+    }
+
+    .sync-conflict-card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      background: var(--bg-soft);
+      padding: var(--space-4);
+      display: grid;
+      gap: var(--space-2);
+    }
+
+    .sync-conflict-card__label {
+      font-size: var(--text-sm);
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .sync-conflict-card__summary {
+      display: grid;
+      gap: 6px;
+      font-size: var(--text-sm);
+      color: var(--text);
+    }
+
+    .sync-conflict-note {
+      padding: 12px 14px;
+      border-radius: var(--radius-md);
+      background: var(--accent-soft);
+      color: var(--text-muted);
+      font-size: var(--text-sm);
+    }
+
+    @media (max-width: 720px) {
+      .sync-conflict-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ─── Toast com botão de undo ─── */
+
+    .toast-undo {
+      position: fixed;
+      left: 50%;
+      bottom: 24px;
+      transform: translateX(-50%) translateY(20px);
+      background: var(--text);
+      color: var(--text-inverse);
+      border-radius: 8px;
+      padding: var(--space-3) 10px 10px 16px;
+      font-size: var(--text-base);
+      font-weight: 500;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.2s ease;
+      z-index: var(--z-toast);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      max-width: calc(100vw - 32px);
+    }
+
+    .toast-undo[data-open="true"] {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    .toast-undo-btn {
+      background: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: inherit;
+      padding: var(--space-1) 10px;
+      border-radius: 5px;
+      font-size: var(--text-sm);
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.12s ease;
+      min-height: var(--control-sm);
+    }
+
+    html[data-theme="dark"] .toast-undo-btn {
+      border-color: rgba(0, 0, 0, 0.25);
+    }
+
+    .toast-undo-btn:hover {
+      background: rgba(255, 255, 255, 0.12);
+    }
+
+    html[data-theme="dark"] .toast-undo-btn:hover {
+      background: rgba(0, 0, 0, 0.15);
+    }
+
+    /* ─── Menu "Mover pra..." (aparece ao tocar em tarefa no mobile) ─── */
+
+    .move-menu-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(17, 17, 19, 0.4);
+      z-index: var(--z-toast);
+      display: flex;
+      align-items: flex-end;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.15s ease;
+    }
+
+    .move-menu-backdrop[data-open="true"] {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .move-menu {
+      background: var(--bg-elevated);
+      border-top-left-radius: 14px;
+      border-top-right-radius: 14px;
+      width: 100%;
+      padding: var(--space-2) 8px 20px;
+      box-shadow: 0 -8px 40px rgba(0, 0, 0, 0.2);
+      transform: translateY(20px);
+      transition: transform 0.2s cubic-bezier(.2,.9,.3,1);
+      max-height: 70vh;
+      overflow-y: auto;
+    }
+
+    .move-menu-backdrop[data-open="true"] .move-menu {
+      transform: translateY(0);
+    }
+
+    .move-menu-title {
+      font-size: var(--text-xs);
+      font-family: var(--font-mono);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 600;
+      padding: var(--space-3) 14px 8px;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: var(--space-1);
+    }
+
+    .move-menu-item {
+      width: 100%;
+      padding: var(--space-3) 14px;
+      background: transparent;
+      border: 0;
+      color: var(--text);
+      font-size: var(--text-md);
+      font-weight: 500;
+      cursor: pointer;
+      border-radius: 7px;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-3);
+      transition: background 0.12s ease;
+    }
+
+    .move-menu-item:hover,
+    .move-menu-item:active {
+      background: var(--bg-soft);
+    }
+
+    .move-menu-item[data-current="true"] {
+      color: var(--muted);
+      cursor: default;
+    }
+
+    .move-menu-item[data-current="true"]::after {
+      content: "atual";
+      font-family: var(--font-mono);
+      font-size: var(--text-2xs);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+    }
+
+    .move-menu-item-date {
+      font-family: var(--font-mono);
+      font-size: var(--text-xs);
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    /* Menu de contexto desktop (clique direito ou long-press) */
+    @media (hover: none) and (pointer: coarse) {
+      .week-todo-delete { opacity: 1; }
+    }
+
+    /* Touch drag — durante o drag */
+    .week-todo[data-touch-dragging="true"] {
+      position: fixed;
+      z-index: var(--z-toast);
+      pointer-events: none;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+      opacity: 0.92;
+      max-width: 220px;
+      transform: rotate(-1.5deg);
+    }
+
+    /* Botão "+ Planner" no mainTaskCard */
+    .btn-add-planner {
+      background: var(--accent-soft);
+      color: var(--accent-text);
+      border-color: transparent;
+      font-weight: 600;
+    }
+
+    html[data-theme="dark"] .btn-add-planner {
+      color: var(--accent);
+    }
+
+    .btn-add-planner:hover {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+    }
+
+    /* ═══════════════════════════════════════════════════════════
+       FEATURES DE APRENDIZAGEM
+       Modal pós-sessão · Pomodoro bar · Retenção · Revisão espaçada
+       ═══════════════════════════════════════════════════════════ */
+
+    /* ─── Timer Pomodoro (barra fixa no topo quando ativo) ─── */
+
+    .pomo-bar {
+      position: fixed;
+      top: var(--topbar-h);
+      left: 0;
+      right: 0;
+      z-index: var(--z-dropdown);
+      background: var(--accent);
+      color: white;
+      padding: var(--space-2) 16px;
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-3);
+      font-size: var(--text-base);
+      font-weight: 500;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transform: translateY(-100%);
+      transition: transform 0.25s cubic-bezier(.2,.9,.3,1);
+    }
+
+    .pomo-bar[data-active="true"] {
+      display: flex;
+      transform: translateY(0);
+    }
+
+    .pomo-bar-text {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      overflow: hidden;
+    }
+
+    .pomo-bar-time {
+      font-family: var(--font-mono);
+      font-size: var(--text-md);
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      flex-shrink: 0;
+      min-width: 58px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .pomo-bar-label {
+      font-size: var(--text-sm);
+      opacity: 0.9;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .pomo-bar-actions {
+      display: flex;
+      gap: var(--space-2);
+      flex-shrink: 0;
+    }
+
+    .pomo-bar-btn {
+      background: rgba(255, 255, 255, 0.18);
+      color: white;
+      border: 0;
+      padding: var(--space-1) 10px;
+      border-radius: 6px;
+      font-size: var(--text-sm);
+      font-weight: 600;
+      cursor: pointer;
+      min-height: var(--control-sm);
+      transition: background 0.12s;
+    }
+
+    .pomo-bar-btn:hover {
+      background: rgba(255, 255, 255, 0.28);
+    }
+
+    .pomo-bar-btn--primary {
+      background: white;
+      color: var(--accent);
+    }
+
+    .pomo-bar-btn--primary:hover {
+      background: rgba(255, 255, 255, 0.9);
+    }
+
+    /* Quando pomo está ativo, empurra shell pra baixo */
+    body[data-pomo="true"] .shell {
+      padding-top: var(--space-6);
+    }
+
+    body[data-pomo="true"] .topbar-new {
+      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+    }
+
+    /* Break mode */
+    .pomo-bar[data-mode="break"] {
+      background: var(--success);
+    }
+
+    .pomo-bar[data-mode="break"] .pomo-bar-btn--primary {
+      color: var(--success);
+    }
+
+    /* ─── Modal pós-sessão (auto-avaliação honesta) ─── */
+
+    .session-modal-ex-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-2);
+    }
+
+    .session-rating {
+      display: grid;
+      gap: var(--space-2);
+    }
+
+    .session-rating-label {
+      font-family: var(--font-mono);
+      font-size: var(--text-2xs);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .session-rating-opts {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--space-1);
+    }
+
+    .session-rating-opt {
+      padding: var(--space-2) 6px;
+      border: 1px solid var(--line);
+      background: var(--bg-elevated);
+      color: var(--text);
+      border-radius: 7px;
+      cursor: pointer;
+      font-size: var(--text-sm);
+      font-weight: 500;
+      text-align: center;
+      transition: all 0.12s ease;
+      min-height: var(--control-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1.2;
+    }
+
+    .session-rating-opt:hover {
+      border-color: var(--line-strong);
+      background: var(--bg-soft);
+    }
+
+    .session-rating-opt[data-selected="true"] {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+      font-weight: 600;
+    }
+
+    .session-rating-opt--danger[data-selected="true"] {
+      background: var(--danger);
+      border-color: var(--danger);
+    }
+
+    .session-rating-opt--warning[data-selected="true"] {
+      background: var(--warning);
+      border-color: var(--warning);
+    }
+
+    .session-rating-opt--success[data-selected="true"] {
+      background: var(--success);
+      border-color: var(--success);
+    }
+
+    .session-hint {
+      font-size: var(--text-xs);
+      color: var(--muted);
+      line-height: 1.45;
+      padding: var(--space-2) 10px;
+      background: var(--bg-softer);
+      border-radius: 6px;
+      border-left: 2px solid var(--line-strong);
+    }
+
+    .session-summary {
+      padding: var(--space-3) 12px;
+      background: var(--accent-soft);
+      border-radius: 6px;
+      border-left: 2px solid var(--accent);
+      font-size: var(--text-sm);
+      line-height: 1.5;
+    }
+
+    .session-summary strong {
+      display: block;
+      font-size: var(--text-md);
+      font-weight: 700;
+      letter-spacing: -0.015em;
+      margin-bottom: 3px;
+      color: var(--accent-text);
+    }
+
+    html[data-theme="dark"] .session-summary strong { color: var(--accent); }
+
+    /* ─── Retenção / Horas reais vs planejadas (card no dashboard) ─── */
+
+    .retention-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5) 20px;
+      margin-bottom: var(--space-5);
+    }
+
+    .retention-title {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-family: var(--font-mono);
+      font-size: var(--text-2xs);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-weight: 600;
+      margin: 0 0 14px;
+    }
+
+    .retention-title::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--line);
+    }
+
+    .retention-list {
+      display: grid;
+      gap: var(--space-2);
+    }
+
+    .retention-item {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      padding: var(--space-3) 12px;
+      border-radius: var(--radius-md);
+      background: var(--bg-softer);
+      border-left: 2px solid var(--line-strong);
+    }
+
+    .retention-item--warning { border-left-color: var(--warning); background: var(--warning-soft); }
+    .retention-item--danger { border-left-color: var(--danger); background: var(--danger-soft); }
+    .retention-item--ok { border-left-color: var(--success); }
+
+    .retention-icon {
+      font-size: var(--text-lg);
+      flex-shrink: 0;
+    }
+
+    .retention-body {
+      flex: 1;
+      min-width: 0;
+      display: grid;
+      gap: 2px;
+    }
+
+    .retention-subj {
+      font-size: var(--text-base);
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      display: flex;
+      align-items: baseline;
+      gap: var(--space-2);
+      flex-wrap: wrap;
+    }
+
+    .retention-code {
+      font-family: var(--font-mono);
+      font-size: var(--text-2xs);
+      color: var(--muted);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+    }
+
+    .retention-msg {
+      font-size: var(--text-xs);
+      color: var(--muted-strong);
+      line-height: 1.4;
+    }
+
+    .retention-action {
+      flex-shrink: 0;
+    }
+
+    /* ─── Histórico de exercícios (no resumo executivo) ─── */
+
+    .exercise-log {
+      display: grid;
+      gap: var(--space-1);
+      padding: var(--space-3) 12px;
+      background: var(--bg-softer);
+      border-radius: var(--radius-sm);
+      margin-top: var(--space-3);
+    }
+
+    .exercise-log-label {
+      font-family: var(--font-mono);
+      font-size: var(--text-2xs);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .exercise-log-value {
+      font-size: var(--text-md);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .exercise-log-sub {
+      font-size: var(--text-xs);
+      color: var(--muted);
+      font-family: var(--font-mono);
+    }
+
+    /* ─── Botão "Agendar revisão" em provas antigas ─── */
+
+    .source-review-btn {
+      background: var(--accent-soft);
+      color: var(--accent-text);
+      border: 0;
+      padding: 3px 8px;
+      font-size: var(--text-xs);
+      font-weight: 600;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: var(--space-2);
+      font-family: var(--font-sans);
+    }
+
+    html[data-theme="dark"] .source-review-btn { color: var(--accent); }
+
+    .source-review-btn:hover {
+      background: var(--accent);
+      color: white;
+    }
+
+    /* Badge "revisão" em to-dos criados pelo sistema de revisão */
+    .week-todo-review-badge {
+      font-family: var(--font-mono);
+      font-size: var(--text-2xs);
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 1px 5px;
+      border-radius: 3px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    html[data-theme="dark"] .week-todo-review-badge { color: var(--accent); }
+
+    /* Weekly tracking: planejadas vs. reais */
+    .week-tracking-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5) 20px;
+      margin-bottom: var(--space-5);
+    }
+
+    .week-tracking-list {
+      display: grid;
+      gap: var(--space-3);
+    }
+
+    .week-tracking-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: var(--space-2);
+      align-items: baseline;
+    }
+
+    .week-tracking-subj {
+      font-size: var(--text-sm);
+      font-weight: 600;
+      display: flex;
+      align-items: baseline;
+      gap: var(--space-2);
+    }
+
+    .week-tracking-nums {
+      font-family: var(--font-mono);
+      font-size: var(--text-xs);
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .week-tracking-nums strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .week-tracking-bar {
+      grid-column: 1 / -1;
+      height: 4px;
+      background: var(--bg-soft);
+      border-radius: 999px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .week-tracking-bar-fill {
+      height: 100%;
+      background: var(--accent);
+      border-radius: 999px;
+      transition: width 0.35s ease;
+    }
+
+    .week-tracking-bar-fill--over { background: var(--success); }
+    .week-tracking-bar-fill--low { background: var(--warning); }
+
+    .week-tracking-summary {
+      padding: var(--space-3) 12px;
+      background: var(--bg-softer);
+      border-radius: var(--radius-sm);
+      font-size: var(--text-sm);
+      color: var(--muted-strong);
+      line-height: 1.5;
+      margin-top: var(--space-3);
+    }
+
+    .week-tracking-summary strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    /* ═══════════════════════════════════════════════════════════
+       FEATURES AVANÇADAS · Flashcards + Modo Prova
+       ═══════════════════════════════════════════════════════════ */
+
+    /* ────────────────────────────────────────────────────────

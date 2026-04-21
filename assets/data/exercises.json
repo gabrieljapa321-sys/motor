@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "seed": "demo",
+  "notes": "MVP de exercicios. Estes itens sao demonstrativos e servem para validar o fluxo de enunciado, pistas e resolucao antes de alimentar a base com recortes reais de provas antigas.",
+  "exercises": [
+    {
+      "id": "PME3240-P1-2025-Q1",
+      "subjectCode": "PME3240",
+      "sourceLabel": "P1 2025",
+      "sourceFile": "P1 2025 - Resolvida.pdf",
+      "questionLabel": "Q1",
+      "year": 2025,
+      "difficulty": 3,
+      "demo": true,
+      "topics": ["substancia pura", "saturacao", "1a Lei"],
+      "statementText": "Um cilindro-pistao contem agua inicialmente como mistura saturada a 200 kPa com titulo conhecido. O sistema recebe calor ate atingir vapor superaquecido. Determine a variacao de energia interna e o trabalho de fronteira por unidade de massa.",
+      "hints": [
+        "Comece identificando o estado inicial nas tabelas de saturacao.",
+        "Use o titulo para obter propriedades especificas da mistura antes de aplicar a 1a Lei."
+      ],
+      "finalAnswer": "A resposta final depende do titulo inicial, mas o caminho correto passa por u1, u2 e pela integral de p dv no processo.",
+      "solutionSteps": [
+        "Localize o estado inicial nas tabelas saturadas para obter v1 e u1 a partir do titulo informado.",
+        "Identifique o estado final como superaquecido e extraia u2 e v2 na tabela adequada.",
+        "Calcule o trabalho de fronteira pelo processo descrito ou pela aproximacao pedida no enunciado.",
+        "Aplique a 1a Lei ao sistema fechado para encontrar Q - W = Delta U."
+      ],
+      "commonMistakes": [
+        "Usar tabela de superaquecido para o estado inicial.",
+        "Confundir titulo com fracao volumetrica."
+      ]
+    },
+    {
+      "id": "PME3240-P3-2020-Q2",
+      "subjectCode": "PME3240",
+      "sourceLabel": "P3 2020",
+      "sourceFile": "P3_2020 Q2_Gabarito.pdf",
+      "questionLabel": "Q2",
+      "year": 2020,
+      "difficulty": 4,
+      "demo": true,
+      "topics": ["exergia", "irreversibilidade"],
+      "statementText": "Considere um trocador operando em regime permanente entre duas correntes. Determine a destruicao de exergia do equipamento e comente se o valor encontrado e coerente com a diferenca de temperatura media entre os fluxos.",
+      "hints": [
+        "Monte primeiro o balanco de energia em regime permanente.",
+        "Depois passe para o balanco de entropia e relacione geracao de entropia com destruicao de exergia."
+      ],
+      "finalAnswer": "A destruicao de exergia e dada por T0 multiplicado pela geracao de entropia do volume de controle.",
+      "solutionSteps": [
+        "Defina o volume de controle envolvendo o trocador e escreva o balanco de energia.",
+        "Use as propriedades nas entradas e saidas para calcular a variacao total de entropia das correntes.",
+        "Obtenha a geracao de entropia do equipamento a partir do balanco de entropia.",
+        "Multiplique Sger por T0 para encontrar a destruicao de exergia."
+      ],
+      "commonMistakes": [
+        "Trocar exergia destruida por exergia transferida com calor.",
+        "Esquecer de usar a temperatura ambiente T0."
+      ]
+    },
+    {
+      "id": "PME3210-P2-2024-Q1",
+      "subjectCode": "PME3210",
+      "sourceLabel": "P2 2024",
+      "sourceFile": "PME3210 P2 2024_v3_Gabarito.pdf",
+      "questionLabel": "Q1",
+      "year": 2024,
+      "difficulty": 3,
+      "demo": true,
+      "topics": ["torcao", "compatibilidade", "angulo de torcao"],
+      "statementText": "Dois trechos circulares estao acoplados em serie e submetidos a um torque total. Sabendo que um trecho possui modulo de cisalhamento diferente do outro, determine a distribuicao interna de torque e o angulo de torcao total da extremidade livre.",
+      "hints": [
+        "Verifique se o torque interno e o mesmo em todos os trechos ou se ha ramificacao.",
+        "Use theta = T L / G J em cada parte e some as contribuicoes."
+      ],
+      "finalAnswer": "O torque interno segue o equilibrio do eixo e o angulo total e a soma das rotacoes de cada trecho.",
+      "solutionSteps": [
+        "Trace o diagrama de torque interno ao longo do eixo.",
+        "Calcule J para cada trecho conforme a geometria fornecida.",
+        "Obtenha a rotacao de cada segmento pela relacao de torcao.",
+        "Some as rotacoes e compare com qualquer restricao de compatibilidade do enunciado."
+      ],
+      "commonMistakes": [
+        "Usar o mesmo G para materiais diferentes.",
+        "Esquecer que J muda com o diametro."
+      ]
+    },
+    {
+      "id": "PME3210-P3-2025-Q2",
+      "subjectCode": "PME3210",
+      "sourceLabel": "P3 2025",
+      "sourceFile": "PME3210 P3 2025_gabarito_v2.pdf",
+      "questionLabel": "Q2",
+      "year": 2025,
+      "difficulty": 4,
+      "demo": true,
+      "topics": ["flexao", "dimensionamento", "tensao normal"],
+      "statementText": "Uma viga de secao retangular deve resistir a um momento fletor maximo sem ultrapassar a tensao admissivel do material. Determine a altura minima da secao e verifique se a flecha permanece dentro do limite informado.",
+      "hints": [
+        "Comece pela tensao de flexao maxima sigma = M c / I.",
+        "Depois use a expressao de flecha correspondente ao carregamento indicado."
+      ],
+      "finalAnswer": "A altura minima vem do criterio de tensao; a validacao final depende de comparar a flecha calculada com o limite de servico.",
+      "solutionSteps": [
+        "Encontre o momento maximo no diagrama da viga.",
+        "Escreva a tensao de flexao para a secao retangular em funcao da altura.",
+        "Isole a altura minima pelo criterio de tensao admissivel.",
+        "Com a altura encontrada, calcule a flecha e compare com o limite dado."
+      ],
+      "commonMistakes": [
+        "Dimensionar pela flecha sem antes atender a tensao.",
+        "Trocar base por altura no momento de inercia."
+      ]
+    },
+    {
+      "id": "PME3100-P2-MODELO-Q1",
+      "subjectCode": "PME3100",
+      "sourceLabel": "Modelo cinemática",
+      "sourceFile": "PROGRAMA_PME0100_2026103 - PROGRAMA_2025_2 (2).pdf",
+      "questionLabel": "Q1",
+      "year": 2026,
+      "difficulty": 2,
+      "demo": true,
+      "topics": ["cinematica", "movimento plano", "velocidade relativa"],
+      "statementText": "Uma barra gira em torno de um apoio fixo com velocidade angular conhecida. Um ponto na extremidade aciona um cursor em guia retilinea. Determine a velocidade e a aceleracao do cursor no instante mostrado.",
+      "hints": [
+        "Escreva primeiro a velocidade do ponto de contato usando corpo rigido.",
+        "Projete essa velocidade na direcao permitida pela guia."
+      ],
+      "finalAnswer": "A resposta sai da combinacao entre v = omega x r e a decomposicao compatível com a restricao do cursor.",
+      "solutionSteps": [
+        "Desenhe a geometria e identifique o vetor posicao do ponto da barra.",
+        "Calcule a velocidade do ponto pela relacao de corpo rigido.",
+        "Projete a velocidade na direcao da guia para obter a velocidade do cursor.",
+        "Repita o raciocinio com a aceleracao, incluindo termos normal e tangencial."
+      ],
+      "commonMistakes": [
+        "Esquecer que a guia elimina uma componente de movimento.",
+        "Usar apenas aceleracao tangencial e ignorar a normal."
+      ]
+    }
+  ]
+}

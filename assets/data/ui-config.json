@@ -1,0 +1,103 @@
+{
+  "pageMeta": {
+    "dashboard": {
+      "eyebrow": "Painel do dia",
+      "title": "Motor de estudo",
+      "subtitle": "Foco no CORE das provas próximas, priorizando o mínimo seguro para aprovação."
+    },
+    "week": {
+      "eyebrow": "Planner semanal",
+      "title": "Semana",
+      "subtitle": "To-dos por dia num kanban. Arraste entre colunas, clique no texto pra editar, use a inbox pra tarefas sem data."
+    },
+    "fc": {
+      "eyebrow": "Flashcards · SRS",
+      "title": "Revisão espaçada",
+      "subtitle": "Memorização ativa baseada em algoritmo SM-2. Só revise o que o app agendou — repetir além disso é desperdício."
+    },
+    "calendar": {
+      "eyebrow": "Calendário",
+      "title": "Visão mensal",
+      "subtitle": "Datas de prova, entregas e projeção diária de estudo. Navegue entre os meses."
+    },
+    "grades": {
+      "eyebrow": "Notas e metas",
+      "title": "O que falta pra passar",
+      "subtitle": "Componentes lançados, notas acumuladas e simulação até a média de aprovação."
+    }
+  },
+  "modes": {
+    "long": {
+      "normal": "Modo Normal",
+      "exausto": "Modo Exausto",
+      "m30": "Sessão de 30 min",
+      "foco": "Foco extremo"
+    },
+    "short": {
+      "normal": "Normal",
+      "exausto": "Exausto",
+      "m30": "30 min",
+      "foco": "Foco extremo"
+    }
+  },
+  "calendar": {
+    "monthSubtitle": "Mostra o mês selecionado com blocos de estudo, provas oficiais e entregas.",
+    "markerLabels": {
+      "study": "Estudo",
+      "exam": "Prova",
+      "deadline": "Entrega"
+    }
+  },
+  "grades": {
+    "emptySubject": "Nenhuma matéria disponível.",
+    "heroLabel": "Notas e metas",
+    "heroTitle": "Selecione a matéria para analisar notas e simular cenários",
+    "heroSubtitle": "A análise detalhada agora fica focada em uma matéria por vez, reduzindo ruído visual sem perder o simulador e as metas.",
+    "guideTitle": "Como usar sem se perder",
+    "guideItems": [
+      "Escolha uma matéria em foco e atualize só o que já saiu.",
+      "Use a meta principal como alvo de aprovação e a secundária como margem.",
+      "Preencha o simulador apenas para os componentes que ainda faltam."
+    ]
+  },
+  "notes": {
+    "items": [
+      {
+        "title": "O que foi encontrado de fato",
+        "body": "O pacote trouxe quatro disciplinas com grande histórico de P1/P2/P3 e programas/cronogramas atuais para o semestre de 2026/1. Isso permitiu usar datas reais e não um planner genérico."
+      },
+      {
+        "title": "PME3100",
+        "body": "O programa já referencia exercícios e provas antigas por tópico. Isso virou uma das bases da priorização. O peso P1/P2/P3 foi inferido como igual apenas para cálculo de risco, porque o critério exato não ficou legível no PDF extraído."
+      },
+      {
+        "title": "PME3240 e PME3400",
+        "body": "Essas duas matérias carregam componentes fora das provas no cronograma/programa. Como seu perfil não vai às aulas, o sistema aumenta o risco delas e deixa isso explícito em vez de esconder."
+      },
+      {
+        "title": "Resiliência a falhas",
+        "body": "Se você atrasar, o sistema não abre uma dívida infinita. Ele mantém a tarefa no topo e reduz o escopo quando percebe travamento. Agora, quando um dia passa sem nenhum registro, entra apenas um atraso leve: a tarefa sobe de prioridade sem contar como skip pesado."
+      },
+      {
+        "title": "Calendário mensal",
+        "body": "O calendário agora fica em uma página própria, mostra apenas o mês selecionado e explicita a data de estudo prevista, a data de prova e as entregas cadastradas com horário. Também foi adicionada uma aba de notas para lançar provas, trabalhos, listas e exercícios por componente da disciplina."
+      },
+      {
+        "title": "Entregas com prazo",
+        "body": "O painel principal ganhou um bloco de alertas de prazo. Trabalhos, listas e relatórios podem ser cadastrados com data e hora, aparecem no calendário e sobem de urgência conforme o vencimento se aproxima."
+      }
+    ]
+  },
+  "week": {
+    "densityOptions": [
+      {
+        "value": "compact",
+        "label": "Compacto"
+      },
+      {
+        "value": "comfortable",
+        "label": "Confortável"
+      }
+    ]
+  }
+}
