@@ -1,14 +1,704 @@
-$ErrorActionPreference = "Stop"
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Motor de Estudo · Poli-USP</title>
+  <meta name="theme-color" content="#171717" />
+  <link rel="manifest" href="manifest.webmanifest?v=20260421-ship1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/app.css?v=20260421-ship1" />
+  <script charset="utf-8" src="assets/js/polyfills.js?v=20260421-ship1"></script>
 
-$repoRoot = Resolve-Path (Join-Path $PSScriptRoot "..")
-Push-Location $repoRoot
+</head>
+<body data-layout="browser">
 
-try {
-  & py -m unittest tests.test_browser_smoke -v
-  if ($LASTEXITCODE -ne 0) {
-    throw "Falha nos testes de navegador."
-  }
-}
-finally {
-  Pop-Location
-}
+  <noscript>
+    <div style="max-width:900px;margin:24px auto;padding:16px 20px;border:1px solid #d6d6d1;border-radius:10px;background:#fff7ed;color:#b45309;font-family:system-ui,sans-serif;line-height:1.5;">
+      Este arquivo precisa de JavaScript para mostrar os conteúdos. Abra em um navegador moderno (Chrome, Safari, Edge, Firefox).
+    </div>
+  </noscript>
+
+  
+  <header class="topbar-new">
+    <div class="topbar-inner">
+      <div class="tb-logo">
+        <div class="tb-logo-mark">M</div>
+        <span class="tb-logo-text">Motor de Estudo</span>
+      </div>
+
+      <nav class="tb-nav">
+        <button type="button" class="tb-nav-btn active" data-nav-page="dashboard">Painel</button>
+        <button type="button" class="tb-nav-btn" data-nav-page="week">Semana</button>
+        <button type="button" class="tb-nav-btn" data-nav-page="fc">Flashcards</button>
+        <button type="button" class="tb-nav-btn" data-nav-page="calendar">Calendário</button>
+        <button type="button" class="tb-nav-btn" data-nav-page="grades">Notas</button>
+        <button type="button" class="tb-nav-btn" data-nav-page="news">Notícias</button>
+      </nav>
+
+      <div class="tb-actions">
+        <select class="tb-mode-select" id="tbModeSelect" aria-label="Modo de uso">
+          <option value="normal">Normal</option>
+          <option value="exausto">Exausto</option>
+          <option value="m30">30 min</option>
+          <option value="foco">Foco extremo</option>
+        </select>
+
+        <div class="tb-sep"></div>
+
+        <button class="tb-btn" id="tbThemeBtn" title="Alternar tema" aria-label="Alternar tema">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="tb-btn" id="tbRecalcBtn" title="Recalcular" aria-label="Recalcular">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+        </button>
+        <button class="tb-btn" id="tbExportBtn" title="Exportar dados" aria-label="Exportar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        </button>
+        <button class="tb-btn" id="tbImportBtn" title="Importar dados" aria-label="Importar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+        </button>
+
+        <div class="tb-sep"></div>
+
+        <button class="tb-auth-btn" id="tbAuthBtn" data-state="idle" aria-haspopup="dialog" aria-expanded="false">
+          <span id="tbAuthLabel">Conta</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  
+  <div class="shell">
+
+    
+    <div class="page-header">
+      <div class="page-header-text">
+        <div class="page-eyebrow" id="pageEyebrow">Painel do dia</div>
+        <h1 class="page-title" id="pageTitle">Motor de estudo</h1>
+        <p class="page-subtitle" id="pageSubtitle">Foco no CORE das provas próximas, priorizando o mínimo seguro para aprovação.</p>
+      </div>
+      <div class="page-header-meta">
+        <strong id="pageDateTxt">—</strong>
+        <span id="pageModeTxt">Modo Normal</span>
+      </div>
+    </div>
+
+    
+    <div id="compatHint" style="display:none;"></div>
+    <input type="file" id="importFileInput" accept="application/json" hidden />
+
+    
+    <div id="authInlinePanel" class="auth-panel" hidden>
+      <div class="auth-panel-row">
+        <div>
+          <div id="authPanelTitle" class="auth-panel-title">Conta e sincronização</div>
+          <div id="authStatus" class="auth-panel-status">Painel carregado. Aguardando Firebase...</div>
+          <div id="authSyncStatus" class="auth-panel-sync" role="status" aria-live="polite" aria-atomic="true">Inicializando...</div>
+        </div>
+        <button class="btn btn-ghost" id="authCloseBtn" type="button">Fechar</button>
+      </div>
+      <div id="authButtons" class="auth-panel-buttons">
+        <button id="btnGoogleLogin" class="auth-btn auth-btn-primary">Entrar com Google</button>
+        <button id="btnGoogleLogout" class="auth-btn auth-btn-secondary" style="display:none;">Sair</button>
+      </div>
+    </div>
+
+    
+    <main id="dashboardPage">
+
+      
+      <div class="retention-card" id="retentionCard" style="display:none;"></div>
+      <div class="exam-history-card" id="examHistoryCard" style="display:none;"></div>
+      <div class="week-tracking-card" id="weekTrackingCard" style="display:none;"></div>
+
+      <section class="hero-compact" id="focusSection">
+        <article class="card card-focus" id="mainTaskCard"></article>
+        <aside class="card card-summary sticky-card" id="executiveSummary"></aside>
+      </section>
+
+      
+      <section class="today-compact" id="todaySection">
+        <article class="card card-queue" id="todayQueue"></article>
+        <article class="card card-whatif" id="whatIfCard"></article>
+      </section>
+
+      
+      <div class="collapse-stack">
+
+        
+        <section class="collapse-section" id="deadlinesCollapse">
+          <button class="collapse-toggle" data-target="deadlinesBody">
+            <span class="collapse-title">
+              <h2>Prazos e entregas</h2>
+              <span class="collapse-count" id="deadlinesCount">—</span>
+            </span>
+            <span class="collapse-hint">Adicionar, editar ou marcar como entregue</span>
+            <svg class="collapse-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+          <div class="collapse-body" id="deadlinesBody">
+            <section class="today-compact" id="deadlinesSection" style="margin-bottom:0;">
+              <article class="card" id="deadlinesCard"></article>
+              <article class="card" id="deadlineFormCard"></article>
+            </section>
+          </div>
+        </section>
+
+        
+        <section class="collapse-section" id="subjectsCollapse">
+          <button class="collapse-toggle" data-target="subjectsBody">
+            <span class="collapse-title">
+              <h2>Matérias</h2>
+              <span class="collapse-count" id="subjectsCount">—</span>
+            </span>
+            <span class="collapse-hint">Risco, prova próxima, peso pendente e CORE de cada uma</span>
+            <svg class="collapse-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+          <div class="collapse-body" id="subjectsBody">
+            <section class="section" id="subjectsSection" style="margin-bottom:0;">
+              <div class="subject-grid" id="subjectGrid"></div>
+            </section>
+          </div>
+        </section>
+
+        
+        <section class="collapse-section" id="sourcesCollapse">
+          <button class="collapse-toggle" data-target="sourcesBody">
+            <span class="collapse-title">
+              <h2>Fontes</h2>
+            </span>
+            <span class="collapse-hint">Arquivos agrupados por disciplina e retorno prático</span>
+            <svg class="collapse-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+          <div class="collapse-body" id="sourcesBody">
+            <section class="section" id="sourcesSection" style="margin-bottom:0;">
+              <div class="details-group" id="sourcesBlock"></div>
+            </section>
+          </div>
+        </section>
+
+        
+        <section class="collapse-section" id="dataCollapse">
+          <button class="collapse-toggle" data-target="dataBody">
+            <span class="collapse-title">
+              <h2>Backup e dados</h2>
+            </span>
+            <span class="collapse-hint">Exportar, importar e status da sincronização</span>
+            <svg class="collapse-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+          <div class="collapse-body" id="dataBody">
+            <section class="today-compact" id="dataSection" style="margin-bottom:0;">
+              <article class="card" id="backupStatusCard"></article>
+              <article class="card" id="importPreviewCard"></article>
+            </section>
+          </div>
+        </section>
+
+        
+        <section class="collapse-section" id="notesCollapse">
+          <button class="collapse-toggle" data-target="notesBody">
+            <span class="collapse-title">
+              <h2>Notas do motor</h2>
+            </span>
+            <span class="collapse-hint">O que veio do pacote e o que foi inferido</span>
+            <svg class="collapse-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+          <div class="collapse-body" id="notesBody">
+            <section class="section" id="notesSection" style="margin-bottom:0;">
+              <div class="card footer-card" id="notesBlock"></div>
+            </section>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    
+
+    
+    <main id="weekPage" hidden>
+      <div class="week-header">
+        <div>
+          <h2 id="weekTitle">Esta semana</h2>
+          <p>Arraste to-dos da inbox pra um dia, ou crie direto na coluna. Clique no texto pra editar, no ✓ pra marcar feito.</p>
+          <div class="week-range" id="weekRange">—</div>
+        </div>
+        <div class="week-controls">
+          <select id="weekDensitySelect" class="week-density-select" aria-label="Densidade da semana"></select>
+          <button class="btn btn-ghost" id="weekPrevBtn" aria-keyshortcuts="Alt+ArrowLeft">← Anterior</button>
+          <button class="btn btn-soft" id="weekTodayBtn" aria-keyshortcuts="Alt+0">Esta semana</button>
+          <button class="btn btn-primary" id="weekNextBtn" aria-keyshortcuts="Alt+ArrowRight">Próxima →</button>
+        </div>
+      </div>
+
+      
+      <div class="week-stats" id="weekStats">
+        <div class="week-stat">
+          <div class="week-stat-label">Total</div>
+          <span class="week-stat-value" id="weekStatTotal">0</span>
+          <div class="week-stat-subvalue">tarefas da semana</div>
+        </div>
+        <div class="week-stat">
+          <div class="week-stat-label">Feitas</div>
+          <span class="week-stat-value" id="weekStatDone">0</span>
+          <div class="week-stat-subvalue" id="weekStatDonePct">—</div>
+        </div>
+        <div class="week-stat">
+          <div class="week-stat-label">Pendentes</div>
+          <span class="week-stat-value" id="weekStatPending">0</span>
+          <div class="week-stat-subvalue" id="weekStatPendingToday">—</div>
+        </div>
+        <div class="week-stat">
+          <div class="week-stat-label">Inbox</div>
+          <span class="week-stat-value" id="weekStatInbox">0</span>
+          <div class="week-stat-subvalue">sem dia atribuído</div>
+        </div>
+      </div>
+
+      <div class="week-layout">
+        
+        <aside class="week-inbox" id="weekInbox">
+          <div class="week-inbox-header">
+            <span class="week-inbox-title">📥 Inbox</span>
+            <span class="week-inbox-count" id="weekInboxCount">0</span>
+          </div>
+          <div class="week-inbox-list" id="weekInboxList"
+               data-drop-target="inbox"
+               aria-label="Lista de to-dos sem dia atribuído"></div>
+          <form class="week-add-form" id="weekInboxAddForm">
+            <input type="text"
+                   id="weekInboxAddInput"
+                   placeholder="Nova tarefa na inbox…"
+                   maxlength="200"
+                   autocomplete="off" />
+            <button type="submit" title="Adicionar">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+          </form>
+        </aside>
+
+        
+        <div class="week-kanban-wrap">
+          <div class="week-kanban" id="weekKanban"></div>
+        </div>
+      </div>
+    </main>
+
+    
+    <main id="fcPage" hidden>
+      <div class="fc-header">
+        <div>
+          <h2>Flashcards</h2>
+          <p>Memorização ativa com repetição espaçada (algoritmo SM-2). Crie cartões de conceitos pontuais, revise quando o app agendar. Só estude o que está "para hoje" — o resto já consolidou ou ainda é cedo.</p>
+        </div>
+      </div>
+
+      
+      <div class="fc-stats">
+        <div class="fc-stat fc-stat--due">
+          <div class="fc-stat-label">Para hoje</div>
+          <span class="fc-stat-value" id="fcStatDue">0</span>
+          <div class="fc-stat-sub">cartões agendados</div>
+        </div>
+        <div class="fc-stat">
+          <div class="fc-stat-label">Novos</div>
+          <span class="fc-stat-value" id="fcStatNew">0</span>
+          <div class="fc-stat-sub">nunca revisados</div>
+        </div>
+        <div class="fc-stat">
+          <div class="fc-stat-label">Aprendidos</div>
+          <span class="fc-stat-value" id="fcStatLearned">0</span>
+          <div class="fc-stat-sub">intervalo ≥ 7 dias</div>
+        </div>
+        <div class="fc-stat">
+          <div class="fc-stat-label">Total</div>
+          <span class="fc-stat-value" id="fcStatTotal">0</span>
+          <div class="fc-stat-sub">na coleção</div>
+        </div>
+      </div>
+
+      <div class="fc-layout">
+
+        
+        <div class="fc-study-panel" id="fcStudyPanel">
+          
+        </div>
+
+        
+        <div class="fc-aside">
+
+          <div class="fc-create-panel">
+            <h3 class="fc-panel-title">Criar cartão</h3>
+            <form id="fcCreateForm" style="display:grid;gap:8px;">
+              <div class="field">
+                <span>Frente (pergunta)</span>
+                <textarea class="field-input" id="fcCreateFront" placeholder="Ex: Qual a condição de equilíbrio para viga biapoiada?" required></textarea>
+              </div>
+              <div class="field">
+                <span>Verso (resposta)</span>
+                <textarea class="field-input" id="fcCreateBack" placeholder="Ex: Soma de forças = 0 e soma de momentos = 0 em qualquer ponto" required></textarea>
+              </div>
+              <div class="field">
+                <span>Matéria</span>
+                <select id="fcCreateSubject" required>
+                  <option value="">—</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width:100%;">Criar cartão</button>
+            </form>
+          </div>
+
+          <div class="fc-deck-panel">
+            <h3 class="fc-panel-title">Deck por matéria</h3>
+            <div class="fc-deck-list" id="fcDeckList">
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <main id="calendarPage" hidden>
+      <section class="section" id="calendarPageSection">
+        <article class="card month-card">
+          <div class="month-header">
+            <div>
+              <h2 id="calendarMonthTitle">Calendário mensal</h2>
+              <p id="calendarMonthSubtitle">Datas de prova, entregas e projeção diária de estudo.</p>
+            </div>
+            <div class="month-controls">
+              <button class="btn btn-ghost" id="monthPrevBtn">← Anterior</button>
+              <button class="btn btn-soft" id="monthTodayBtn">Hoje</button>
+              <button class="btn btn-ghost" id="calendarLegendToggleBtn" aria-pressed="false">Mostrar legenda</button>
+              <button class="btn btn-primary" id="monthNextBtn">Próximo →</button>
+            </div>
+          </div>
+
+          <div class="month-legend" id="monthLegend" hidden>
+            <span class="chip accent">Estudo</span>
+            <span class="chip warning">Prova</span>
+            <span class="chip danger">Entrega</span>
+            <span class="chip neutral">Hoje</span>
+          </div>
+
+          <div class="month-calendar-wrap">
+            <div class="month-calendar-frame">
+              <div class="month-weekdays">
+                <div class="month-weekday">Dom</div>
+                <div class="month-weekday">Seg</div>
+                <div class="month-weekday">Ter</div>
+                <div class="month-weekday">Qua</div>
+                <div class="month-weekday">Qui</div>
+                <div class="month-weekday">Sex</div>
+                <div class="month-weekday">Sáb</div>
+              </div>
+              <div class="month-grid" id="monthCalendarGrid"></div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    
+    <main id="gradesPage" hidden>
+      <section class="section" id="gradesPageSection">
+        <div class="grades-layout">
+          <article class="card" id="gradesSummaryCard"></article>
+          <aside class="card" id="gradeFormCard"></aside>
+        </div>
+      </section>
+    </main>
+
+    <main id="newsPage" hidden>
+      <div id="newsContainer"></div>
+    </main>
+
+  </div>
+
+  <div class="mobile-focusbar" id="mobileFocusbar" hidden></div>
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  
+
+  
+  <div class="modal-backdrop" id="todoModalBackdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-labelledby="todoModalTitle">
+      <h3 class="modal-title" id="todoModalTitle">Nova tarefa</h3>
+      <form id="todoModalForm" class="modal-body">
+        <div class="field">
+          <span>O que fazer?</span>
+          <input type="text" id="todoModalText" maxlength="300" autocomplete="off" required />
+        </div>
+        <div class="deadline-form-grid">
+          <div class="field">
+            <span>Dia</span>
+            <select id="todoModalDay">
+              <option value="">Inbox (sem dia)</option>
+            </select>
+          </div>
+          <div class="field">
+            <span>Matéria (opcional)</span>
+            <select id="todoModalSubject">
+              <option value="">—</option>
+            </select>
+          </div>
+        </div>
+        <div class="modal-actions">
+          <button type="button" class="btn btn-ghost" id="todoModalCancel">Cancelar</button>
+          <button type="submit" class="btn btn-primary" id="todoModalSave">Salvar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  
+  <div class="toast-undo" id="toastUndo" role="status" aria-live="polite">
+    <span id="toastUndoText">Item excluído</span>
+    <button class="toast-undo-btn" id="toastUndoBtn">Desfazer</button>
+  </div>
+
+  
+  <div class="move-menu-backdrop" id="moveMenuBackdrop" aria-hidden="true">
+    <div class="move-menu" role="dialog" aria-labelledby="moveMenuTitleId">
+      <div class="move-menu-title" id="moveMenuTitleId">Mover tarefa para</div>
+      <div id="moveMenuItems"></div>
+    </div>
+  </div>
+
+  
+  <div class="pomo-bar" id="pomoBar" data-mode="focus" aria-live="polite">
+    <div class="pomo-bar-text">
+      <span class="pomo-bar-time" id="pomoTime">25:00</span>
+      <span class="pomo-bar-label" id="pomoLabel">—</span>
+    </div>
+    <div class="pomo-bar-actions">
+      <button class="pomo-bar-btn" id="pomoPauseBtn" type="button">Pausar</button>
+      <button class="pomo-bar-btn pomo-bar-btn--primary" id="pomoFinishBtn" type="button">Concluí</button>
+      <button class="pomo-bar-btn" id="pomoStopBtn" type="button" aria-label="Cancelar">✕</button>
+    </div>
+  </div>
+
+  
+  <div class="modal-backdrop" id="sessionModalBackdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-labelledby="sessionModalTitle">
+      <h3 class="modal-title" id="sessionModalTitle">Como foi essa sessão?</h3>
+      <form id="sessionModalForm" class="modal-body">
+
+        <div class="session-summary" id="sessionModalSummary">—</div>
+
+        <div class="session-modal-ex-grid">
+          <div class="field">
+            <span>Exercícios feitos</span>
+            <input type="number" id="sessionModalExDone" min="0" max="99" placeholder="0" />
+          </div>
+          <div class="field">
+            <span>Dos quais consultei solução</span>
+            <input type="number" id="sessionModalExHelp" min="0" max="99" placeholder="0" />
+          </div>
+        </div>
+
+        <div class="session-rating">
+          <span class="session-rating-label">Consegui resolver sozinho?</span>
+          <div class="session-rating-opts" data-rating-group="solo">
+            <button type="button" class="session-rating-opt session-rating-opt--danger" data-rating-value="no">Quase nada</button>
+            <button type="button" class="session-rating-opt session-rating-opt--warning" data-rating-value="part">Em parte</button>
+            <button type="button" class="session-rating-opt session-rating-opt--success" data-rating-value="yes">Sim, tranquilo</button>
+          </div>
+        </div>
+
+        <div class="session-rating">
+          <span class="session-rating-label">Sei explicar em voz alta?</span>
+          <div class="session-rating-opts" data-rating-group="explain">
+            <button type="button" class="session-rating-opt session-rating-opt--danger" data-rating-value="no">Travei</button>
+            <button type="button" class="session-rating-opt session-rating-opt--warning" data-rating-value="part">Com dificuldade</button>
+            <button type="button" class="session-rating-opt session-rating-opt--success" data-rating-value="yes">Sim</button>
+          </div>
+        </div>
+
+        <div class="session-hint" id="sessionModalHint">
+          Resposta honesta aqui vale mais que resposta "bonita". Isso só você vê.
+        </div>
+
+        <div class="field">
+          <span>Notas rápidas (opcional)</span>
+          <input type="text" id="sessionModalNotes" placeholder="ex: travei na parte de integração por substituição" maxlength="200" />
+        </div>
+
+        <div class="modal-actions">
+          <button type="button" class="btn btn-ghost" id="sessionModalSkip">Pular</button>
+          <button type="submit" class="btn btn-primary" id="sessionModalSave">Registrar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  
+  <div class="exam-overlay" id="examOverlay" aria-hidden="true">
+    <div class="exam-header">
+      <div class="exam-header-info">
+        <h3 class="exam-header-title" id="examTitle">—</h3>
+        <span class="exam-header-subj" id="examSubj">—</span>
+      </div>
+      <div class="exam-timer-wrap">
+        <span class="exam-timer" id="examTimerSmall">00:00</span>
+        <span class="exam-timer-label">restante</span>
+      </div>
+    </div>
+
+    <div class="exam-body">
+      <div class="exam-body-inner">
+        <div class="exam-big-timer" id="examBigTimer">00:00</div>
+        <div class="exam-progress-bar">
+          <div class="exam-progress-bar-fill" id="examProgressFill" style="width:0%;"></div>
+        </div>
+        <p class="exam-instruction">
+          <strong>Simulação em andamento.</strong>
+          Resolva a prova no papel (ou num editor separado), sem pausar o app.
+          Use os botões abaixo pra marcar quando termina cada questão — isso te dá
+          tempo por questão no final.
+        </p>
+      </div>
+    </div>
+
+    <div class="exam-controls">
+      <div class="exam-question-marker" id="examQMarker">
+        
+      </div>
+      <div class="exam-controls-right">
+        <button class="btn btn-ghost" id="examCancelBtn" type="button">Cancelar</button>
+        <button class="btn btn-primary" id="examFinishBtn" type="button">Encerrar</button>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="modal-backdrop exam-result-modal" id="examResultBackdrop" aria-hidden="true">
+    <div class="modal" role="dialog">
+      <h3 class="modal-title">Como foi a simulação?</h3>
+      <form id="examResultForm" class="modal-body">
+        <div class="session-summary" id="examResultSummary">—</div>
+
+        <div class="field">
+          <span>Sua nota (0 a 10, estimada)</span>
+          <div class="exam-result-grade">
+            <input type="number" id="examResultGrade" class="exam-result-grade-input" min="0" max="10" step="0.5" placeholder="—" />
+            <span class="mini">sem ver gabarito antes</span>
+          </div>
+        </div>
+
+        <div class="session-rating">
+          <span class="session-rating-label">Ritmo foi</span>
+          <div class="session-rating-opts" data-rating-group="pace">
+            <button type="button" class="session-rating-opt session-rating-opt--danger" data-rating-value="slow">Lento demais</button>
+            <button type="button" class="session-rating-opt session-rating-opt--success" data-rating-value="ok">No tempo</button>
+            <button type="button" class="session-rating-opt session-rating-opt--warning" data-rating-value="fast">Apertado</button>
+          </div>
+        </div>
+
+        <div class="field">
+          <span>Onde travou mais (opcional)</span>
+          <input type="text" id="examResultNotes" placeholder="Ex: Q3 de exergia, não lembrei da fórmula" maxlength="300" />
+        </div>
+
+        <div class="session-hint">
+          Anota honesto. Depois, confira o gabarito e corrija sua estimativa se precisar — o importante é identificar padrão nos travamentos.
+        </div>
+
+        <div class="modal-actions">
+          <button type="button" class="btn btn-ghost" id="examResultSkip">Descartar</button>
+          <button type="submit" class="btn btn-primary">Registrar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  
+  <div class="modal-backdrop exam-picker-modal" id="examPickerBackdrop" aria-hidden="true">
+    <div class="modal" role="dialog">
+      <h3 class="modal-title" id="examPickerTitle">Simular prova</h3>
+      <div class="modal-body">
+        <div class="session-hint">
+          Escolha uma prova antiga do seu pacote pra simular. Pegue o arquivo físico/digital, tenha uma folha/editor pra resolver. O timer trava o app até você encerrar.
+        </div>
+        <div class="exam-picker-list" id="examPickerList">
+          
+        </div>
+        <div>
+          <span class="session-rating-label" style="display:block;margin-bottom:6px;">Duração</span>
+          <div class="exam-picker-duration" id="examPickerDuration">
+            <button type="button" class="exam-picker-duration-btn" data-min="60">60 min</button>
+            <button type="button" class="exam-picker-duration-btn" data-min="90">90 min</button>
+            <button type="button" class="exam-picker-duration-btn" data-selected="true" data-min="120">2h</button>
+            <button type="button" class="exam-picker-duration-btn" data-min="180">3h</button>
+          </div>
+        </div>
+        <div>
+          <span class="session-rating-label" style="display:block;margin-bottom:6px;">Número de questões (pra marcar tempos)</span>
+          <div class="exam-picker-duration" id="examPickerNq">
+            <button type="button" class="exam-picker-duration-btn" data-nq="2">2</button>
+            <button type="button" class="exam-picker-duration-btn" data-nq="3">3</button>
+            <button type="button" class="exam-picker-duration-btn" data-selected="true" data-nq="4">4</button>
+            <button type="button" class="exam-picker-duration-btn" data-nq="5">5</button>
+            <button type="button" class="exam-picker-duration-btn" data-nq="6">6</button>
+          </div>
+        </div>
+        <div class="modal-actions">
+          <button type="button" class="btn btn-ghost" id="examPickerCancel">Cancelar</button>
+          <button type="button" class="btn btn-primary" id="examPickerStart">Começar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="syncConflictBackdrop" aria-hidden="true">
+    <div class="modal sync-conflict-modal" role="dialog" aria-labelledby="syncConflictTitle">
+      <h3 class="modal-title" id="syncConflictTitle">Escolher versão dos dados</h3>
+      <div class="modal-body">
+        <div class="session-hint">
+          Encontramos dados locais e dados na nuvem. Escolha como quer reconciliar antes de continuar.
+        </div>
+        <div class="sync-conflict-grid">
+          <article class="sync-conflict-card">
+            <div class="sync-conflict-card__label">Este dispositivo</div>
+            <div class="sync-conflict-card__summary" id="syncConflictLocalSummary"></div>
+          </article>
+          <article class="sync-conflict-card">
+            <div class="sync-conflict-card__label">Nuvem</div>
+            <div class="sync-conflict-card__summary" id="syncConflictCloudSummary"></div>
+          </article>
+        </div>
+        <div class="sync-conflict-note" id="syncConflictNote">
+          Mesclar preserva o que for mais recente em cada bloco de dados.
+        </div>
+        <div class="modal-actions">
+          <button type="button" class="btn btn-ghost" id="syncConflictKeepLocalBtn">Manter local</button>
+          <button type="button" class="btn btn-soft" id="syncConflictMergeBtn">Mesclar</button>
+          <button type="button" class="btn btn-primary" id="syncConflictUseCloudBtn">Usar nuvem</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script charset="utf-8" src="assets/js/app-data.js?v=20260421-ship1"></script>
+  <script charset="utf-8" src="assets/js/store.js?v=20260421-ship1"></script>
+  <script charset="utf-8" src="assets/js/dates.js?v=20260421-ship1"></script>
+  <script charset="utf-8" src="assets/js/theme.js?v=20260421-ship1"></script>
+  <script charset="utf-8" src="assets/js/backup.js?v=20260421-ship1"></script>
+  <script charset="utf-8" src="assets/js/sync-service.js?v=20260421-ship1"></script>
+  <script charset="utf-8" src="assets/js/app-core.js?v=20260421-ship1"></script>
+  <script charset="utf-8" src="assets/js/app-pages.js?v=20260421-ship1"></script>
+  <script charset="utf-8" src="assets/js/week-planner.js?v=20260421-ship1"></script>
+  <script charset="utf-8" src="assets/js/study-features.js?v=20260421-ship1"></script>
+  <script charset="utf-8" src="assets/js/flashcards-exams.js?v=20260421-ship1"></script>
+  <script charset="utf-8" src="assets/js/app-actions.js?v=20260421-ship1"></script>
+  <script charset="utf-8" src="assets/js/app-init.js?v=20260421-ship1"></script>
+  <script charset="utf-8" type="module" src="assets/js/firebase-init.js?v=20260421-ship1"></script>
+  <script charset="utf-8" src="assets/js/auth-panel.js?v=20260421-ship1"></script>
+  <script charset="utf-8" src="assets/js/firebase-sync.js?v=20260421-ship1"></script>
+  <script charset="utf-8" src="assets/js/news.js?v=20260421-ship1"></script>
+</body>
+</html>

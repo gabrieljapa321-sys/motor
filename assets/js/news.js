@@ -30,7 +30,8 @@
     },
   ];
 
-  const RSS2JSON = "https://api.rss2json.com/v1/api.json?rss_url=";
+  // AllOrigins: proxy CORS-free, funciona em localhost e produção
+  const ALLORIGINS = "https://api.allorigins.win/get?url=";
   const CACHE_KEY = "motor_news_cache";
   const CACHE_TTL = 60 * 60 * 1000; // 60 minutos
   let refreshTimer = null;
