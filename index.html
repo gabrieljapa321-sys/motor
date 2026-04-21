@@ -139,49 +139,43 @@
 
     <main id="newsPage" hidden>
       <section class="news-shell" aria-label="Notícias de mercado e investimentos">
-        <section class="card news-toolbar">
-          <div class="news-toolbar-main">
-            <div>
-              <p class="eyebrow">Caixa de entrada de mercado</p>
+
+        <!-- Hero da pagina de noticias: titulo, acoes, status e filtros integrados -->
+        <section class="news-hero">
+          <div class="news-hero-top">
+            <div class="news-hero-copy">
+              <p class="news-hero-eyebrow">Caixa de entrada de mercado</p>
               <h2>Últimas atualizações</h2>
-              <p>O feed é atualizado por arquivo externo e o app destaca o que chegou desde a última leitura.</p>
+              <p class="news-hero-sub">Feed atualizado por arquivo externo; o app destaca o que chegou desde a última leitura.</p>
             </div>
-            <div class="news-toolbar-actions">
-              <button type="button" class="btn btn-ghost" id="newsPermissionBtn">Ativar alertas</button>
-              <button type="button" class="btn btn-soft" id="newsRefreshBtn">Atualizar agora</button>
+            <div class="news-hero-actions">
+              <div class="news-hero-status">
+                <span class="chip neutral" id="newsUpdatedAtChip">Atualizando…</span>
+                <span class="chip accent" id="newsUnreadChip">0 novas</span>
+              </div>
+              <div class="news-hero-buttons">
+                <button type="button" class="btn btn-ghost" id="newsPermissionBtn">Ativar alertas</button>
+                <button type="button" class="btn btn-primary" id="newsRefreshBtn">Atualizar agora</button>
+              </div>
             </div>
           </div>
-          <div class="news-status-row">
-            <span class="chip neutral" id="newsUpdatedAtChip">Atualizando…</span>
-            <span class="chip accent" id="newsUnreadChip">0 novas</span>
+
+          <div class="news-hero-filters">
+            <div class="news-filter-block news-filter-block--categories">
+              <span class="news-filter-label">Categoria</span>
+              <div class="news-filter-row" id="newsCategoryFilters" aria-label="Categorias de notícias"></div>
+            </div>
+            <div class="news-filter-block news-filter-block--source">
+              <span class="news-filter-label">Fonte</span>
+              <div class="news-filter-row" id="newsSourceFilters" aria-label="Fontes de notícias"></div>
+            </div>
           </div>
         </section>
 
         <section class="news-layout">
-          <aside class="news-side-stack">
-            <article class="card news-filter-card">
-              <div class="news-side-heading">
-                <h3>Filtros</h3>
-                <p>Refine o fluxo por categoria e fonte.</p>
-              </div>
-              <div class="news-filter-grid">
-                <div class="news-filter-block">
-                  <span class="news-filter-label">Categoria</span>
-                  <div class="news-filter-row" id="newsCategoryFilters" aria-label="Categorias de notícias"></div>
-                </div>
-                <div class="news-filter-block">
-                  <span class="news-filter-label">Fontes</span>
-                  <div class="news-filter-row" id="newsSourceFilters" aria-label="Fontes de notícias"></div>
-                </div>
-              </div>
-            </article>
-            <article class="card news-inbox-card" id="newsInboxCard"></article>
-            <article class="card news-digest-card" id="newsDigestCard"></article>
-          </aside>
-
           <div class="news-main-stack">
-            <article class="card news-lead-card" id="newsLeadCard"></article>
-            <article class="card news-feed-card">
+            <article class="news-lead-card" id="newsLeadCard"></article>
+            <article class="news-feed-card">
               <div class="news-feed-header">
                 <div>
                   <h3>Feed</h3>
@@ -191,6 +185,11 @@
               <div class="news-feed-list" id="newsFeedList"></div>
             </article>
           </div>
+
+          <aside class="news-side-stack">
+            <article class="news-inbox-card" id="newsInboxCard"></article>
+            <article class="news-digest-card" id="newsDigestCard"></article>
+          </aside>
         </section>
       </section>
     </main>
