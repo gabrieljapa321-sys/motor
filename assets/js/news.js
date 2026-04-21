@@ -1,32 +1,16 @@
 /* ═══════════════════════════════════════════════════════════
      MOTOR DE ESTUDO · Notícias Financeiras
-     Feeds RSS públicos: InfoMoney, Investing.com BR, B3
+     Feeds: InfoMoney + MoneyTimes (RSS públicos confirmados)
      Atualiza a cada 60 minutos automaticamente.
    ═══════════════════════════════════════════════════════════ */
 
 (function () {
 
   const FEEDS = [
-    {
-      label: "InfoMoney · Mercados",
-      url: "https://www.infomoney.com.br/mercados/feed/",
-      tag: "mercados",
-    },
-    {
-      label: "InfoMoney · Finanças",
-      url: "https://www.infomoney.com.br/minhas-financas/feed/",
-      tag: "finanças",
-    },
-    {
-      label: "Investing.com · Brasil",
-      url: "https://br.investing.com/rss/news.rss",
-      tag: "investing",
-    },
-    {
-      label: "InfoMoney · Fundos",
-      url: "https://www.infomoney.com.br/onde-investir/fundos/feed/",
-      tag: "fundos",
-    },
+    { label: "InfoMoney · Mercados",    url: "https://www.infomoney.com.br/mercados/feed",       tag: "mercados"  },
+    { label: "InfoMoney · Onde Investir", url: "https://www.infomoney.com.br/onde-investir/feed", tag: "fundos"    },
+    { label: "InfoMoney · Economia",    url: "https://www.infomoney.com.br/economia/feed",        tag: "economia"  },
+    { label: "MoneyTimes · Mercados",   url: "https://moneytimes.com.br/mercados/feed",           tag: "bolsa"     },
   ];
 
   const PROXY     = "https://api.allorigins.win/get?url=";
@@ -52,32 +36,42 @@
   /* ── fetch um feed ── */
   async function fetchFeed(feed) {
     const res = await fetch(`${PROXY}${encodeURIComponent(feed.url)}`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status} em ${feed.label}`);
     const json = await res.json();
-    if (!json.contents) throw new Error("Resposta vazia");
+    if (!json.contents) throw new Error(`Resposta vazia: ${feed.label}`);
+
+    // tenta XML (RSS padrão)
     const xml   = new DOMParser().parseFromString(json.contents, "text/xml");
-    const items = Array.from(xml.querySelectorAll("item"));
-    if (!items.length) throw new Error("Feed vazio");
+    let items = Array.from(xml.querySelectorAll("item"));
+
+    // fallback: Atom
+    if (!items.length) items = Array.from(xml.querySelectorAll("entry"));
+    if (!items.length) throw new Error(`Feed vazio: ${feed.label}`);
+
     return items.slice(0, 15).map((el) => {
-      const t = (tag) => el.querySelector(tag)?.textContent?.trim() || "";
+      const t  = (tag) => el.querySelector(tag)?.textContent?.trim() || "";
+      const tA = (tag, attr) => el.querySelector(tag)?.getAttribute(attr)?.trim() || "";
       return {
         title:       t("title"),
-        link:        t("link") || t("guid"),
-        pubDate:     t("pubDate"),
-        description: stripHtml(t("description")),
+        link:        t("link") || tA("link", "href") || t("guid"),
+        pubDate:     t("pubDate") || t("published") || t("updated"),
+        description: stripHtml(t("description") || t("summary") || t("content")),
         tag:         feed.tag,
         source:      feed.label,
       };
-    });
+    }).filter(i => i.title);
   }
 
-  /* ── fetch todos ── */
+  /* ── fetch todos — continua mesmo se alguns falharem ── */
   async function fetchAllFeeds() {
     const results = await Promise.allSettled(FEEDS.map(fetchFeed));
     const items = [];
-    results.forEach((r) => {
-      if (r.status === "fulfilled") items.push(...r.value);
-      else console.warn("[news] feed falhou:", r.reason);
+    results.forEach((r, i) => {
+      if (r.status === "fulfilled") {
+        items.push(...r.value);
+      } else {
+        console.warn(`[news] ${FEEDS[i].label} falhou:`, r.reason?.message);
+      }
     });
     items.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
     return items;
@@ -91,6 +85,7 @@
   }
   function timeAgo(dateStr) {
     const min = Math.floor((Date.now() - new Date(dateStr)) / 60000);
+    if (isNaN(min) || min < 0) return "";
     if (min < 1)  return "agora";
     if (min < 60) return `há ${min} min`;
     const h = Math.floor(min / 60);
@@ -98,7 +93,7 @@
     return `há ${Math.floor(h / 24)}d`;
   }
   function tagColor(tag) {
-    return { mercados: "var(--success)", finanças: "var(--accent)", investing: "#e11d48", fundos: "#9333ea" }[tag] || "var(--muted)";
+    return { mercados: "var(--success)", fundos: "#9333ea", economia: "var(--accent)", bolsa: "#e11d48" }[tag] || "var(--muted)";
   }
 
   /* ── skeleton ── */
@@ -141,9 +136,7 @@
     c.innerHTML = `
       <div class="news-header">
         <div class="news-filters-wrap" role="group" aria-label="Filtrar por categoria">
-          ${tags.map((t) => `
-            <button class="news-filter-btn${currentFilter === t ? " active" : ""}" data-tag="${t}">${t}</button>
-          `).join("")}
+          ${tags.map((t) => `<button class="news-filter-btn${currentFilter === t ? " active" : ""}" data-tag="${t}">${t}</button>`).join("")}
         </div>
         <span class="news-updated">↻ ${timeStr}</span>
       </div>
@@ -175,12 +168,12 @@
     renderSkeleton();
     try {
       const items = await fetchAllFeeds();
-      if (!items.length) throw new Error("Nenhum item retornado");
+      if (!items.length) throw new Error("Nenhum item retornado de nenhum feed");
       const ts = Date.now();
       saveCache({ items, ts });
       renderNews(items, ts);
     } catch (err) {
-      console.warn("[news] erro:", err);
+      console.warn("[news] erro geral:", err);
       renderError("Não foi possível carregar as notícias. Verifique sua conexão.");
     }
     scheduleRefresh();
