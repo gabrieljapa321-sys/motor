@@ -65,6 +65,7 @@
       fcPage: document.getElementById("fcPage"),
       calendarPage: document.getElementById("calendarPage"),
       gradesPage: document.getElementById("gradesPage"),
+      newsPage: document.getElementById("newsPage"),
       monthPrevBtn: document.getElementById("monthPrevBtn"),
       monthTodayBtn: document.getElementById("monthTodayBtn"),
       monthNextBtn: document.getElementById("monthNextBtn"),
@@ -1305,12 +1306,13 @@ function renderDeadlineFormCard(referenceDate) {
     }
 
     function renderPageVisibility(referenceDate) {
-      const currentPage = ["week", "fc", "calendar", "grades"].includes(state.currentPage) ? state.currentPage : "dashboard";
+      const currentPage = ["week", "fc", "calendar", "grades", "news"].includes(state.currentPage) ? state.currentPage : "dashboard";
       const onCalendar = currentPage === "calendar";
       const onGrades = currentPage === "grades";
       const onWeek = currentPage === "week";
       const onFc = currentPage === "fc";
       const onDashboard = currentPage === "dashboard";
+      const onNews = currentPage === "news";
 
       if (elements.dashboardPage) elements.dashboardPage.hidden = !onDashboard;
       if (elements.dashboardPage) elements.dashboardPage.dataset.focusMode = onDashboard && state.dashboardFocusMode ? "true" : "false";
@@ -1318,6 +1320,10 @@ function renderDeadlineFormCard(referenceDate) {
       if (elements.fcPage) elements.fcPage.hidden = !onFc;
       if (elements.calendarPage) elements.calendarPage.hidden = !onCalendar;
       if (elements.gradesPage) elements.gradesPage.hidden = !onGrades;
+      if (elements.newsPage) {
+        elements.newsPage.hidden = !onNews;
+        if (onNews && window.newsModule) window.newsModule.init();
+      }
       elements.navButtons.forEach((button) => {
         button.classList.toggle("active", button.dataset.navPage === currentPage);
       });
@@ -1330,7 +1336,7 @@ function renderDeadlineFormCard(referenceDate) {
     }
 
     function openPage(page) {
-      state.currentPage = ["week", "fc", "calendar", "grades"].includes(page) ? page : "dashboard";
+      state.currentPage = ["week", "fc", "calendar", "grades", "news"].includes(page) ? page : "dashboard";
       saveState();
       render();
       window.scrollTo({ top: 0, behavior: "smooth" });

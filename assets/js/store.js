@@ -2,7 +2,7 @@
   "use strict";
 
   const STORAGE_KEY = "poli-study-motor-v1";
-  const SCHEMA_VERSION = 4;
+  const SCHEMA_VERSION = 3;
 
   const DEFAULT_STATE = {
     schemaVersion: SCHEMA_VERSION,
@@ -22,12 +22,6 @@
     gradeTargets: { primary: 5, secondary: 6 },
     gradeScenarioDrafts: {},
     weekDensity: "compact",
-    flashcards: [],
-    examSimulations: [],
-    fcSubview: "flashcards",
-    exerciseProgress: {},
-    exerciseSubjectFilter: "ALL",
-    currentExerciseId: null,
     backupMeta: {
       lastExportedAt: null,
       lastImportedAt: null,
@@ -79,36 +73,6 @@
     return value === "comfortable" ? "comfortable" : "compact";
   }
 
-  function normalizeFcSubview(value) {
-    return value === "exercises" ? "exercises" : "flashcards";
-  }
-
-  function normalizeExerciseSubjectFilter(value) {
-    return typeof value === "string" && value.trim() ? value : "ALL";
-  }
-
-  function normalizeExerciseStatus(value) {
-    return ["trying", "stuck", "solvedSolo", "solvedWithHelp"].includes(value) ? value : null;
-  }
-
-  function sanitizeExerciseProgress(progress) {
-    const safeProgress = progress && typeof progress === "object" ? progress : {};
-    const output = {};
-    Object.entries(safeProgress).forEach(([exerciseId, value]) => {
-      if (!exerciseId || !value || typeof value !== "object") return;
-      const hintsViewed = Number(value.hintsViewed);
-      output[exerciseId] = {
-        status: normalizeExerciseStatus(value.status),
-        hintsViewed: Number.isFinite(hintsViewed) && hintsViewed > 0 ? Math.max(0, Math.floor(hintsViewed)) : 0,
-        finalAnswerViewed: Boolean(value.finalAnswerViewed),
-        solutionViewed: Boolean(value.solutionViewed),
-        lastOpenedAt: typeof value.lastOpenedAt === "string" ? value.lastOpenedAt : null,
-        updatedAt: typeof value.updatedAt === "string" ? value.updatedAt : null
-      };
-    });
-    return output;
-  }
-
   function normalizeBoolean(value, fallback) {
     return typeof value === "boolean" ? value : fallback;
   }
@@ -132,15 +96,6 @@
       safe.calendarLegendVisible = false;
       safe.dashboardFocusMode = false;
       safe.notesSearchTerm = "";
-    }
-
-    if (version < 4) {
-      safe.flashcards = Array.isArray(safe.flashcards) ? safe.flashcards : [];
-      safe.examSimulations = Array.isArray(safe.examSimulations) ? safe.examSimulations : [];
-      safe.fcSubview = safe.fcSubview || "flashcards";
-      safe.exerciseProgress = safe.exerciseProgress || {};
-      safe.exerciseSubjectFilter = safe.exerciseSubjectFilter || "ALL";
-      safe.currentExerciseId = safe.currentExerciseId || null;
     }
 
     safe.schemaVersion = SCHEMA_VERSION;
@@ -171,12 +126,6 @@
       },
       gradeScenarioDrafts: sanitizeGradeScenarioDrafts(parsed.gradeScenarioDrafts),
       weekDensity: normalizeWeekDensity(parsed.weekDensity),
-      flashcards: Array.isArray(parsed.flashcards) ? parsed.flashcards : [],
-      examSimulations: Array.isArray(parsed.examSimulations) ? parsed.examSimulations : [],
-      fcSubview: normalizeFcSubview(parsed.fcSubview),
-      exerciseProgress: sanitizeExerciseProgress(parsed.exerciseProgress),
-      exerciseSubjectFilter: normalizeExerciseSubjectFilter(parsed.exerciseSubjectFilter),
-      currentExerciseId: typeof parsed.currentExerciseId === "string" ? parsed.currentExerciseId : null,
       backupMeta: sanitizeBackupMeta(parsed.backupMeta),
       editingDeadlineId: parsed.editingDeadlineId || null,
       editingGradeEntryId: parsed.editingGradeEntryId || null
@@ -214,15 +163,13 @@
       logs: safeState.logs.length,
       deadlines: safeState.deadlines.length,
       deliveredDeadlines,
-      gradeEntries: safeState.gradeEntries.length,
-      flashcards: safeState.flashcards.length,
-      examSimulations: safeState.examSimulations.length
+      gradeEntries: safeState.gradeEntries.length
     };
   }
 
   function getRecordTimestamp(record) {
     if (!record || typeof record !== "object") return 0;
-    const candidates = [record.updatedAt, record.deliveredAt, record.createdAt, record.entryDate, record.date, record.completedAt, record.lastTouched, record.lastOpenedAt, record.startedAt]
+    const candidates = [record.updatedAt, record.deliveredAt, record.createdAt, record.entryDate, record.date, record.completedAt, record.lastTouched]
       .filter(Boolean)
       .map((value) => new Date(value).getTime())
       .filter((value) => Number.isFinite(value));
@@ -281,29 +228,6 @@
     return merged;
   }
 
-  function mergeExerciseProgress(currentProgress, incomingProgress) {
-    const currentSafe = sanitizeExerciseProgress(currentProgress);
-    const incomingSafe = sanitizeExerciseProgress(incomingProgress);
-    const keys = new Set([...Object.keys(currentSafe), ...Object.keys(incomingSafe)]);
-    const merged = {};
-    keys.forEach((key) => {
-      const current = currentSafe[key] || {};
-      const incoming = incomingSafe[key] || {};
-      const currentTime = getRecordTimestamp(current);
-      const incomingTime = getRecordTimestamp(incoming);
-      const latest = incomingTime >= currentTime ? incoming : current;
-      merged[key] = {
-        status: latest.status || current.status || incoming.status || null,
-        hintsViewed: Math.max(Number(current.hintsViewed || 0), Number(incoming.hintsViewed || 0)),
-        finalAnswerViewed: Boolean(current.finalAnswerViewed || incoming.finalAnswerViewed),
-        solutionViewed: Boolean(current.solutionViewed || incoming.solutionViewed),
-        lastOpenedAt: pickLatestIso(current.lastOpenedAt, incoming.lastOpenedAt),
-        updatedAt: pickLatestIso(current.updatedAt, incoming.updatedAt)
-      };
-    });
-    return merged;
-  }
-
   function mergeImportedState(currentState, importedState, options = {}) {
     const defaultState = options.defaultState || DEFAULT_STATE;
     const hydrateFn = options.hydrateStateFromRaw || ((value) => hydrateStateFromRaw(value, defaultState));
@@ -327,12 +251,6 @@
         ...(incomingSafe.gradeScenarioDrafts || {})
       },
       weekDensity: incomingSafe.weekDensity || currentSafe.weekDensity,
-      flashcards: mergeRecordsById(currentSafe.flashcards, incomingSafe.flashcards, "flashcard"),
-      examSimulations: mergeRecordsById(currentSafe.examSimulations, incomingSafe.examSimulations, "exam"),
-      fcSubview: normalizeFcSubview(incomingSafe.fcSubview || currentSafe.fcSubview),
-      exerciseProgress: mergeExerciseProgress(currentSafe.exerciseProgress, incomingSafe.exerciseProgress),
-      exerciseSubjectFilter: normalizeExerciseSubjectFilter(incomingSafe.exerciseSubjectFilter || currentSafe.exerciseSubjectFilter),
-      currentExerciseId: incomingSafe.currentExerciseId || currentSafe.currentExerciseId,
       backupMeta: currentSafe.backupMeta
     });
   }
@@ -355,8 +273,6 @@
     sanitizeBackupMeta,
     sanitizeGradeScenarioDrafts,
     normalizeWeekDensity,
-    normalizeFcSubview,
-    sanitizeExerciseProgress,
     hydrateStateFromRaw,
     loadState,
     saveState,
