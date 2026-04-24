@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-04-23T23:06:48Z",
-  "generatedAt": "2026-04-23T23:06:48Z",
+  "updatedAt": "2026-04-24T00:03:00Z",
+  "generatedAt": "2026-04-24T00:03:00Z",
   "categories": [
     {
       "id": "all",
@@ -65,12 +65,24 @@
       "label": "Campo Grande News"
     },
     {
+      "id": "cartacapital",
+      "label": "CartaCapital"
+    },
+    {
       "id": "cnn-brasil",
       "label": "CNN Brasil"
     },
     {
       "id": "comex-do-brasil",
       "label": "Comex do Brasil"
+    },
+    {
+      "id": "consultor-jur-dico",
+      "label": "Consultor Jurídico"
+    },
+    {
+      "id": "correio-braziliense",
+      "label": "Correio Braziliense"
     },
     {
       "id": "esquerda-di-rio",
@@ -117,6 +129,10 @@
       "label": "ICL Notícias"
     },
     {
+      "id": "investing-com-brasil-finan-as-c-mbio-e-investimentos",
+      "label": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
+    },
+    {
       "id": "jornal-do-com-rcio",
       "label": "Jornal do Comércio"
     },
@@ -137,12 +153,12 @@
       "label": "Monitor do Mercado"
     },
     {
-      "id": "mpf-mp-br",
-      "label": "mpf.mp.br"
+      "id": "monitor-mercantil",
+      "label": "Monitor Mercantil"
     },
     {
-      "id": "nova-iguassu-online",
-      "label": "Nova Iguassu Online"
+      "id": "mpf-mp-br",
+      "label": "mpf.mp.br"
     },
     {
       "id": "o-cafezinho",
@@ -153,8 +169,8 @@
       "label": "OAB"
     },
     {
-      "id": "poder360",
-      "label": "Poder360"
+      "id": "pagina1mt",
+      "label": "Pagina1mt"
     },
     {
       "id": "portal-contabeis",
@@ -167,6 +183,10 @@
     {
       "id": "segs-portal-nacional",
       "label": "SEGS Portal Nacional"
+    },
+    {
+      "id": "sicredi",
+      "label": "Sicredi"
     },
     {
       "id": "sitepd",
@@ -223,11 +243,104 @@
   ],
   "items": [
     {
-      "id": "latest-b0b51819d46bb1f386bde63d",
-      "title": "Dólar sobe 0,58% a R$ 5,0028 com tensão no Oriente Médio",
+      "id": "macro-9d74080f147e17fe928502b6",
+      "title": "Inflação no Japão acelera em março, mas núcleo segue abaixo da meta do BOJ",
+      "summary": "Corte valida regras e reforça controle sobre aquisição de imóveis rurais no país",
+      "details": "Corte valida regras e reforça controle sobre aquisição de imóveis rurais no país",
+      "url": "https://www.correiobraziliense.com.br/politica/2026/04/7404717-stf-mantem-restricoes-a-compra-de-terras-brasileiras-por-estrangeiros.html",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-04-23T23:47:00Z",
+      "updatedAt": "2026-04-23T23:47:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/04/12/675x450/1_stf-e-congresso-jota-scaled-66103722.jpg?20260413071403?20260413071403"
+    },
+    {
+      "id": "macro-6ba49c97ee810375a19ac41c",
+      "title": "Mercosul: RGC lança plataforma de IA para classificação fiscal de mercadorias",
+      "summary": "Atualizacao de macro capturada em Monitor Mercantil.",
+      "details": "",
+      "url": "https://monitormercantil.com.br/mercosul-rgc-lanca-plataforma-de-ia-para-classificacao-fiscal-de-mercadorias/",
+      "source": "Monitor Mercantil",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-04-23T23:43:00Z",
+      "updatedAt": "2026-04-23T23:43:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "companies-bc94758a420d1555f9a85e55",
+      "title": "STF mantém restrições à compra de terras com capital estrangeiro",
+      "summary": "Ministros debateram se a Constituição permite tratar empresas brasileiras como estrangeiras para a imposição de limitações fundiárias",
+      "details": "Ministros debateram se a Constituição permite tratar empresas brasileiras como estrangeiras para a imposição de limitações fundiárias",
+      "url": "https://www.conjur.com.br/2026-abr-23/stf-mantem-restricoes-a-compra-de-terras-por-empresas-controlados-por-capital-estrangeiro/",
+      "source": "Consultor Jurídico",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-04-23T23:15:00Z",
+      "updatedAt": "2026-04-23T23:15:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://www.conjur.com.br/wp-content/uploads/2026/01/herd-cows-grazing-pasture-daytime-scaled.jpg"
+    },
+    {
+      "id": "companies-4092d74c16c47edeeb97d185",
+      "title": "STF confirma restrições à compra de terras por empresas brasileiras controladas por estrangeiros",
       "summary": "O Ibovespa encerrou o pregão desta quinta-feira (23) em queda, em um movimento de realização de lucros após renovar máximas.",
       "details": "O Ibovespa encerrou o pregão desta quinta-feira (23) em queda, em um movimento de realização de lucros após renovar máximas.",
       "url": "https://bmcnews.com.br/mercados/ibovespa-recua-078-e-fecha-aos-191-mil-pontos-com-realizacao-de-lucros/",
+      "source": "CartaCapital",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-04-23T23:10:00Z",
+      "updatedAt": "2026-04-23T23:10:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://bmcnews.com.br/wp-content/uploads/2024/08/2021-10-19t201855z_568797206_rc26dq9w4tlc_rtrmadp_3_brazil-economy.webp"
+    },
+    {
+      "id": "companies-f84c786afb4c5092900a4b93",
+      "title": "STF mantém restrições à compra de terras brasileiras por estrangeiros",
+      "summary": "Atualizacao de empresas capturada em Correio Braziliense.",
+      "details": "",
+      "url": "https://br.investing.com/news/economic-indicators/inflacao-no-japao-acelera-em-marco-mas-nucleo-segue-abaixo-da-meta-do-boj-1908842",
+      "source": "Correio Braziliense",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-04-23T23:07:00Z",
+      "updatedAt": "2026-04-23T23:07:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "latest-b0b51819d46bb1f386bde63d",
+      "title": "Dólar sobe 0,58% a R$ 5,0028 com tensão no Oriente Médio",
+      "summary": "Governador Eduardo Riedel alerta para momento fiscal delicado em Mato Grosso do Sul, com déficit de R$ 170 mi. Economia positiva, mas contas pressionadas pela reforma tributária. Equilíbrio é prioridade.",
+      "details": "Governador Eduardo Riedel alerta para momento fiscal delicado em Mato Grosso do Sul, com déficit de R$ 170 mi. Economia positiva, mas contas pressionadas pela reforma tributária. Equilíbrio é prioridade.",
+      "url": "https://www.campograndenews.com.br/economia/sem-aumentar-imposto-governo-tenta-segurar-deficit-em-ms",
       "source": "Campo Grande News",
       "category": "latest",
       "tags": [
@@ -239,14 +352,14 @@
       "updatedAt": "2026-04-23T23:00:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://bmcnews.com.br/wp-content/uploads/2024/08/2021-10-19t201855z_568797206_rc26dq9w4tlc_rtrmadp_3_brazil-economy.webp"
+      "imageUrl": "https://cdn6.campograndenews.com.br/uploads/noticias/2026/04/23/1yzh9kr2ro3oo.png"
     },
     {
       "id": "macro-a62f8711b5ade86dda577124",
       "title": "Riedel: MS enfrenta déficit fiscal de R$ 170 mi apesar de economia forte",
-      "summary": "Governador Eduardo Riedel alerta para momento fiscal delicado em Mato Grosso do Sul, com déficit de R$ 170 mi. Economia positiva, mas contas pressionadas pela reforma tributária. Equilíbrio é prioridade.",
-      "details": "Governador Eduardo Riedel alerta para momento fiscal delicado em Mato Grosso do Sul, com déficit de R$ 170 mi. Economia positiva, mas contas pressionadas pela reforma tributária. Equilíbrio é prioridade.",
-      "url": "https://www.campograndenews.com.br/economia/sem-aumentar-imposto-governo-tenta-segurar-deficit-em-ms",
+      "summary": "Atualizacao de macro capturada em Campo Grande News.",
+      "details": "",
+      "url": "https://www.cartacapital.com.br/justica/stf-confirma-restricoes-a-compra-de-terras-por-empresas-brasileiras-controladas-por-estrangeiros/",
       "source": "Campo Grande News",
       "category": "macro",
       "tags": [
@@ -257,15 +370,14 @@
       "publishedAt": "2026-04-23T22:55:00Z",
       "updatedAt": "2026-04-23T22:55:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://cdn6.campograndenews.com.br/uploads/noticias/2026/04/23/1yzh9kr2ro3oo.png"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-91f74ea93f5e18fd813cbd1a",
       "title": "Ibovespa recua 0,78% e fecha aos 191 mil pontos com realização de lucros",
-      "summary": "Dólar fecha em alta de 0,58% a R$ 5,0028 nesta quinta (23), pressionado por tensão no Estreito de Ormuz. Ibovespa cai 0,78% para 191.378 pts. Petróleo sobe 3,78%.",
-      "details": "Dólar fecha em alta de 0,58% a R$ 5,0028 nesta quinta (23), pressionado por tensão no Estreito de Ormuz. Ibovespa cai 0,78% para 191.378 pts. Petróleo sobe 3,78%.",
-      "url": "https://www.campograndenews.com.br/economia/dolar-sobe-a-r-5-com-tensao-no-oriente-medio-e-queda-na-bolsa",
+      "summary": "Para a Corte, limitações a empresas com capital estrangeiro levam em conta a proteção da soberania nacional",
+      "details": "Para a Corte, limitações a empresas com capital estrangeiro levam em conta a proteção da soberania nacional",
+      "url": "https://noticias.stf.jus.br/postsnoticias/stf-valida-restricoes-a-compra-de-terras-por-empresas-brasileiras-controladas-por-estrangeiros/",
       "source": "BM&C News",
       "category": "latest",
       "tags": [
@@ -277,14 +389,14 @@
       "updatedAt": "2026-04-23T22:51:33Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://cdn6.campograndenews.com.br/uploads/noticias/2026/04/23/stbn28rkiz60.png"
+      "imageUrl": "https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2026/03/02125426/Fachada-do-STF-Antonio-18-scaled.jpg"
     },
     {
       "id": "companies-b5197924d3d2fbfd2758c4ce",
       "title": "STF valida restrições à compra de terras por empresas brasileiras controladas por estrangeiros",
-      "summary": "Para a Corte, limitações a empresas com capital estrangeiro levam em conta a proteção da soberania nacional",
-      "details": "Para a Corte, limitações a empresas com capital estrangeiro levam em conta a proteção da soberania nacional",
-      "url": "https://noticias.stf.jus.br/postsnoticias/stf-valida-restricoes-a-compra-de-terras-por-empresas-brasileiras-controladas-por-estrangeiros/",
+      "summary": "Dólar fecha em alta de 0,58% a R$ 5,0028 nesta quinta (23), pressionado por tensão no Estreito de Ormuz. Ibovespa cai 0,78% para 191.378 pts. Petróleo sobe 3,78%.",
+      "details": "Dólar fecha em alta de 0,58% a R$ 5,0028 nesta quinta (23), pressionado por tensão no Estreito de Ormuz. Ibovespa cai 0,78% para 191.378 pts. Petróleo sobe 3,78%.",
+      "url": "https://www.campograndenews.com.br/economia/dolar-sobe-a-r-5-com-tensao-no-oriente-medio-e-queda-na-bolsa",
       "source": "stf noticias",
       "category": "companies",
       "tags": [
@@ -296,7 +408,7 @@
       "updatedAt": "2026-04-23T22:46:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2026/03/02125426/Fachada-do-STF-Antonio-18-scaled.jpg"
+      "imageUrl": "https://cdn6.campograndenews.com.br/uploads/noticias/2026/04/23/stbn28rkiz60.png"
     },
     {
       "id": "latest-56f5d204a30f54afa7a3b46d",
@@ -320,9 +432,9 @@
     {
       "id": "latest-6db0ff079d21b92f4f37ee51",
       "title": "Por que setor financeiro selou apoio a Jorge Messias para o STF; veja bastidores",
-      "summary": "Avanço da moeda ocorre após aumento da aversão ao risco e alta do petróleo no mercado internacional",
-      "details": "Avanço da moeda ocorre após aumento da aversão ao risco e alta do petróleo no mercado internacional",
-      "url": "https://www.folhabv.com.br/economia/dolar-volta-a-subir-supera-r-500-e-reflete-tensao-no-oriente-medio/",
+      "summary": "Quando a nota conjunta de três instituições foi divulgada, Corte corria o risco de ter empate em um julgamento de impacto bilionário sobre o crédito consignado, o que acendeu mais um alerta no setor",
+      "details": "Quando a nota conjunta de três instituições foi divulgada, Corte corria o risco de ter empate em um julgamento de impacto bilionário sobre o crédito consignado, o que acendeu mais um alerta no setor",
+      "url": "https://www.estadao.com.br/politica/coluna-do-estadao/por-que-setor-financeiro-selou-apoio-a-jorge-messias-para-o-stf-veja-bastidores/",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -334,14 +446,14 @@
       "updatedAt": "2026-04-23T22:36:15Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.folhabv.com.br/wp-content/uploads/2026/02/give-money-united-states-dollar-usd-scaled.jpg"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/ZLYUXVKQZVAC5ORMGMWF74P3IM.JPG?quality=80&auth=76db3040248563067b5affac293c22658e1ae2949c2456ec6aaa73bbd1e6ea82&width=1200&height=630&smart=true"
     },
     {
       "id": "latest-6a2b91a861c1f38f9fb3ede7",
       "title": "Ibovespa perde tração, cai aos 191 mil e amplia correção com pressão externa",
-      "summary": "Quando a nota conjunta de três instituições foi divulgada, Corte corria o risco de ter empate em um julgamento de impacto bilionário sobre o crédito consignado; o que acendeu mais um alerta no setor",
-      "details": "Quando a nota conjunta de três instituições foi divulgada, Corte corria o risco de ter empate em um julgamento de impacto bilionário sobre o crédito consignado; o que acendeu mais um alerta no setor",
-      "url": "https://www.estadao.com.br/politica/coluna-do-estadao/por-que-setor-financeiro-selou-apoio-a-jorge-messias-para-o-stf-veja-bastidores/",
+      "summary": "Ibovespa recua aos 191 mil com pressão externa, dólar acima de R$ 5 e aumento da aversão ao risco global. Entenda",
+      "details": "Ibovespa recua aos 191 mil com pressão externa, dólar acima de R$ 5 e aumento da aversão ao risco global. Entenda",
+      "url": "https://www.suno.com.br/noticias/ibovespa-cai-191-mil-pressao-externa-correcao-mt/",
       "source": "suno.com.br",
       "category": "latest",
       "tags": [
@@ -353,14 +465,14 @@
       "updatedAt": "2026-04-23T22:35:14Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/ZLYUXVKQZVAC5ORMGMWF74P3IM.JPG?quality=80&auth=76db3040248563067b5affac293c22658e1ae2949c2456ec6aaa73bbd1e6ea82&width=1200&height=630&smart=true"
+      "imageUrl": "http://files.sunoresearch.com.br/n/uploads/2026/04/776ea9d9-noticia-de-hoje-19.08-1-jpg.webp"
     },
     {
       "id": "latest-e03ed18b47c6989769a82d10",
       "title": "Dólar volta a subir, supera R$ 5,00 e reflete tensão no Oriente Médio",
-      "summary": "Ibovespa recua aos 191 mil com pressão externa, dólar acima de R$ 5 e aumento da aversão ao risco global. Entenda",
-      "details": "Ibovespa recua aos 191 mil com pressão externa, dólar acima de R$ 5 e aumento da aversão ao risco global. Entenda",
-      "url": "https://www.suno.com.br/noticias/ibovespa-cai-191-mil-pressao-externa-correcao-mt/",
+      "summary": "Avanço da moeda ocorre após aumento da aversão ao risco e alta do petróleo no mercado internacional",
+      "details": "Avanço da moeda ocorre após aumento da aversão ao risco e alta do petróleo no mercado internacional",
+      "url": "https://www.folhabv.com.br/economia/dolar-volta-a-subir-supera-r-500-e-reflete-tensao-no-oriente-medio/",
       "source": "Folha BV",
       "category": "latest",
       "tags": [
@@ -372,14 +484,14 @@
       "updatedAt": "2026-04-23T22:23:26Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "http://files.sunoresearch.com.br/n/uploads/2026/04/776ea9d9-noticia-de-hoje-19.08-1-jpg.webp"
+      "imageUrl": "https://www.folhabv.com.br/wp-content/uploads/2026/02/give-money-united-states-dollar-usd-scaled.jpg"
     },
     {
       "id": "macro-e515d799eebbca73735f159e",
       "title": "Impacto fiscal do fim da escala 6x1 vai pressionar juro, diz Firpo",
-      "summary": "Professor de economia do Insper destaca que eventual desoneração para compensar custos da redução da jornada pode agravar problema fiscal do governo e elevar taxa de juros",
-      "details": "Professor de economia do Insper destaca que eventual desoneração para compensar custos da redução da jornada pode agravar problema fiscal do governo e elevar taxa de juros",
-      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/impacto-fiscal-do-fim-da-escala-6x1-vai-pressionar-juro-diz-firpo/",
+      "summary": "Correção do Ibovespa é influenciada por commodities e saída de capital",
+      "details": "Correção do Ibovespa é influenciada por commodities e saída de capital",
+      "url": "https://www.jornaldocomercio.com/economia/2026/04/1246051-com-ny-na-sessao-ibovespa-segue-em-baixa-no-menor-nivel-desde-8-de-abril.html",
       "source": "CNN Brasil",
       "category": "macro",
       "tags": [
@@ -391,14 +503,14 @@
       "updatedAt": "2026-04-23T22:21:13Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/ChatGPT-Image-9-de-fev.-de-2026-16_46_20.png?w=1200&h=630&crop=1"
+      "imageUrl": "https://www.jornaldocomercio.com/_midias/jpg/2023/12/19/artes_materias_site_brasil-10420954.jpg"
     },
     {
       "id": "companies-47804b935af5f59167fd2de4",
       "title": "STF valida por unanimidade restrições à compra de terras por empresas brasileiras com capital estrangeiro",
-      "summary": "A Ordem dos Advogados do Brasil é a entidade de representação e regulamentação da advocacia e defensora da Constituição Federal",
-      "details": "A Ordem dos Advogados do Brasil é a entidade de representação e regulamentação da advocacia e defensora da Constituição Federal",
-      "url": "https://www.oab.org.br/noticia/64110/stf-valida-por-unanimidade-restricoes-a-compra-de-terras-por-empresas-brasileiras-com-capital-estrangeiro",
+      "summary": "Atualizacao de empresas capturada em OAB.",
+      "details": "",
+      "url": "https://tiinside.com.br/23/04/2026/98-das-empresas-brasileiras-tem-dificuldade-para-contratar-talentos-em-tecnologia-apoonta-estudo/",
       "source": "OAB",
       "category": "companies",
       "tags": [
@@ -409,15 +521,14 @@
       "publishedAt": "2026-04-23T22:21:00Z",
       "updatedAt": "2026-04-23T22:21:00Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://www.oab.org.br/noticias/downloadmidia?idenMidiObje=313614"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "macro-3b5cacaea1dfec8de9485271",
       "title": "Concursos Abertos: milhares de vagas e inicial até R$ 32 mil",
-      "summary": "Concursos Abertos: oportunidades em todo o país! Milhares de vagas em diversas áreas. Confira os editais, requisitos e inscreva-se já!",
-      "details": "Concursos Abertos: oportunidades em todo o país! Milhares de vagas em diversas áreas. Confira os editais, requisitos e inscreva-se já!",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-abertos/",
+      "summary": "A Ordem dos Advogados do Brasil é a entidade de representação e regulamentação da advocacia e defensora da Constituição Federal",
+      "details": "A Ordem dos Advogados do Brasil é a entidade de representação e regulamentação da advocacia e defensora da Constituição Federal",
+      "url": "https://www.oab.org.br/noticia/64110/stf-valida-por-unanimidade-restricoes-a-compra-de-terras-por-empresas-brasileiras-com-capital-estrangeiro",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -429,14 +540,14 @@
       "updatedAt": "2026-04-23T22:14:42Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2024/10/04165957/concursos-abertos.jpg"
+      "imageUrl": "https://www.oab.org.br/noticias/downloadmidia?idenMidiObje=313614"
     },
     {
       "id": "companies-b5460e0f9dcd7c1879e119b3",
       "title": "98% das empresas brasileiras têm dificuldade para contratar talentos em tecnologia, aponta estudo",
-      "summary": "Atualizacao de empresas capturada em TI INSIDE Online.",
-      "details": "",
-      "url": "https://tiinside.com.br/23/04/2026/98-das-empresas-brasileiras-tem-dificuldade-para-contratar-talentos-em-tecnologia-apoonta-estudo/",
+      "summary": "O Ibovespa, principal índice da Bolsa brasileira, fechou esta quinta-feira (23) em queda de 0,78%, aos 191.378,43 pontos, atingindo o",
+      "details": "O Ibovespa, principal índice da Bolsa brasileira, fechou esta quinta-feira (23) em queda de 0,78%, aos 191.378,43 pontos, atingindo o",
+      "url": "https://monitordomercado.com.br/noticias/377242-ibovespa-tensao-no-exterior-derruba-bolsa-para-191-mil-pontos/",
       "source": "TI INSIDE Online",
       "category": "companies",
       "tags": [
@@ -447,14 +558,15 @@
       "publishedAt": "2026-04-23T22:12:44Z",
       "updatedAt": "2026-04-23T22:12:44Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://monitordomercado.com.br/wp-content/uploads/2025/04/Materias-TAMANHO-NOVO.png"
     },
     {
       "id": "latest-87bd5a4b4bf38269f37a89ab",
       "title": "Com NY na sessão, Ibovespa segue em baixa, no menor nível desde 8 de abril",
-      "summary": "Correção do Ibovespa é influenciada por commodities e saída de capital",
-      "details": "Correção do Ibovespa é influenciada por commodities e saída de capital",
-      "url": "https://www.jornaldocomercio.com/economia/2026/04/1246051-com-ny-na-sessao-ibovespa-segue-em-baixa-no-menor-nivel-desde-8-de-abril.html",
+      "summary": "Especialista em Direito Internacional alerta para a necessidade de empresas brasileiras se adaptarem às complexas regras de acordos comerciais globais.",
+      "details": "Especialista em Direito Internacional alerta para a necessidade de empresas brasileiras se adaptarem às complexas regras de acordos comerciais globais.",
+      "url": "https://www.contabeis.com.br/artigos/76322/empresas-brasileiras-precisam-se-adaptar-a-novas-regras-globais/",
       "source": "Jornal do Comércio",
       "category": "latest",
       "tags": [
@@ -466,14 +578,14 @@
       "updatedAt": "2026-04-23T22:07:23Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.jornaldocomercio.com/_midias/jpg/2023/12/19/artes_materias_site_brasil-10420954.jpg"
+      "imageUrl": "https://www.contabeis.com.br/assets/img/news/pexels-gustavo-fring-6285139.jpg"
     },
     {
       "id": "latest-0836a13e676f1653700f15df",
       "title": "Ibovespa: Tensão no exterior derruba Bolsa para 191 mil pontos",
-      "summary": "O Ibovespa, principal índice da Bolsa brasileira, fechou esta quinta-feira (23) em queda de 0,78%, aos 191.378,43 pontos, atingindo o",
-      "details": "O Ibovespa, principal índice da Bolsa brasileira, fechou esta quinta-feira (23) em queda de 0,78%, aos 191.378,43 pontos, atingindo o",
-      "url": "https://monitordomercado.com.br/noticias/377242-ibovespa-tensao-no-exterior-derruba-bolsa-para-191-mil-pontos/",
+      "summary": "Concursos Abertos: oportunidades em todo o país! Milhares de vagas em diversas áreas. Confira os editais, requisitos e inscreva-se já!",
+      "details": "Concursos Abertos: oportunidades em todo o país! Milhares de vagas em diversas áreas. Confira os editais, requisitos e inscreva-se já!",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-abertos/",
       "source": "Monitor do Mercado",
       "category": "latest",
       "tags": [
@@ -485,14 +597,14 @@
       "updatedAt": "2026-04-23T22:02:56Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://monitordomercado.com.br/wp-content/uploads/2025/04/Materias-TAMANHO-NOVO.png"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2024/10/04165957/concursos-abertos.jpg"
     },
     {
       "id": "companies-44caa1662cfadd0984b60759",
       "title": "Empresas brasileiras precisam se adaptar a novas regras globais",
-      "summary": "Corte reafirmou possibilidade de limitar aquisição de terras por capital estrangeiro com base na soberania nacional.",
-      "details": "Corte reafirmou possibilidade de limitar aquisição de terras por capital estrangeiro com base na soberania nacional.",
-      "url": "https://www.migalhas.com.br/quentes/454523/stf-mantem-limitacoes-para-compra-de-imoveis-rurais-por-estrangeiros",
+      "summary": "Professor de economia do Insper destaca que eventual desoneração para compensar custos da redução da jornada pode agravar problema fiscal do governo e elevar taxa de juros",
+      "details": "Professor de economia do Insper destaca que eventual desoneração para compensar custos da redução da jornada pode agravar problema fiscal do governo e elevar taxa de juros",
+      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/impacto-fiscal-do-fim-da-escala-6x1-vai-pressionar-juro-diz-firpo/",
       "source": "Portal Contabeis",
       "category": "companies",
       "tags": [
@@ -504,14 +616,14 @@
       "updatedAt": "2026-04-23T22:00:02Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://medproc.migalhas.com.br/https__img5.migalhas.com.br__SL__gf_base__SL__empresas__SL__MIGA__SL__imagens__SL__2026__SL__04__SL__23__SL__cropped_zwwfzpf3.0s2.png._PROC_CP75CCH31622400.png"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/ChatGPT-Image-9-de-fev.-de-2026-16_46_20.png?w=1200&h=630&crop=1"
     },
     {
       "id": "macro-bdc448b5bdaf10683d6d5c69",
       "title": "Concursos Fiscais 2026: salários acima dos R$ 30 mil!",
-      "summary": "Especialista em Direito Internacional alerta para a necessidade de empresas brasileiras se adaptarem às complexas regras de acordos comerciais globais.",
-      "details": "Especialista em Direito Internacional alerta para a necessidade de empresas brasileiras se adaptarem às complexas regras de acordos comerciais globais.",
-      "url": "https://www.contabeis.com.br/artigos/76322/empresas-brasileiras-precisam-se-adaptar-a-novas-regras-globais/",
+      "summary": "Fique por dentro dos Concursos 2026: mais de 10 mil vagas previstas para as áreas fiscal, de controle, tribunais, policial, saúde e etc...",
+      "details": "Fique por dentro dos Concursos 2026: mais de 10 mil vagas previstas para as áreas fiscal, de controle, tribunais, policial, saúde e etc...",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-2026/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -523,7 +635,44 @@
       "updatedAt": "2026-04-23T21:54:37Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.contabeis.com.br/assets/img/news/pexels-gustavo-fring-6285139.jpg"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/05/05161312/concursos-2026.jpg"
+    },
+    {
+      "id": "macro-d22061d8fe4ca3d13d5b9c9c",
+      "title": "Concursos 2026: mais de 160 mil vagas; salários de até R$ 30 mil!",
+      "summary": "Melhores fundos de investimento: escolha o ideal para você",
+      "details": "Melhores fundos de investimento: escolha o ideal para você",
+      "url": "https://www.sicredi.com.br/site/blog/investimentos/melhores-fundos-de-investimento-escolha-o-ideal-para-voce/",
+      "source": "Estratégia Concursos",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-04-23T21:54:36Z",
+      "updatedAt": "2026-04-23T21:54:36Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.sicredi.com.br/media/produtos/filer_public/2026/04/23/diversificar-carteira-de-investimentos.jpg"
+    },
+    {
+      "id": "funds-38cd76132859a11e16345923",
+      "title": "Melhores fundos de investimento: escolha o ideal para você",
+      "summary": "Atualizacao de fundos capturada em Sicredi.",
+      "details": "",
+      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/04/23/fechamento-do-mercado-financeiro.htm",
+      "source": "Sicredi",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-04-23T21:53:37Z",
+      "updatedAt": "2026-04-23T21:53:37Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "companies-4d883622bc82b7132043551c",
@@ -547,9 +696,9 @@
     {
       "id": "macro-4d7a50cf6303bec3d2361d93",
       "title": "MS inicia 2026 com déficit fiscal de R$ 170 milhões",
-      "summary": "Atualizacao de macro capturada em Campo Grande News.",
-      "details": "",
-      "url": "https://amp.campograndenews.com.br/economia/contas-de-ms-comecam-2026-sob-pressao-mas-resultado-primario-melhora",
+      "summary": "Mato Grosso do Sul enfrenta pressão fiscal em 2026, com folha de pagamento consumindo 76% da receita e alta de 27% nas despesas, aponta Tesouro Nacional.",
+      "details": "Mato Grosso do Sul enfrenta pressão fiscal em 2026, com folha de pagamento consumindo 76% da receita e alta de 27% nas despesas, aponta Tesouro Nacional.",
+      "url": "https://www.campograndenews.com.br/economia/contas-de-ms-comecam-2026-sob-pressao-mas-resultado-primario-melhora",
       "source": "Campo Grande News",
       "category": "macro",
       "tags": [
@@ -560,33 +709,16 @@
       "publishedAt": "2026-04-23T21:51:00Z",
       "updatedAt": "2026-04-23T21:51:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://cdn6.campograndenews.com.br/uploads/noticias/2026/04/23/1zyfzzsrqobos.jpeg"
     },
     {
       "id": "latest-b33c12b7d5d88441b2667274",
       "title": "Fechamento do mercado financeiro",
-      "summary": "Atualizacao de ultima hora capturada em UOL Economia.",
-      "details": "",
-      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/04/23/fechamento-do-mercado-financeiro.htm",
-      "source": "UOL Economia",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-04-23T21:40:00Z",
-      "updatedAt": "2026-04-23T21:40:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-0cacbb69bf612c278f240e1b",
-      "title": "Principais índices fecham em queda; dólar sobe e bolsas internacionais acompanham movimento",
       "summary": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
       "details": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
       "url": "https://www.tribunadoagreste.com.br/geral/2026/04/23/891549-principais-indices-fecham-em-queda-dolar-sobe-e-bolsas-internacionais-acompanham-movimento",
-      "source": "Tribuna do Agreste",
+      "source": "UOL Economia",
       "category": "latest",
       "tags": [
         "mercado",
@@ -600,11 +732,30 @@
       "imageUrl": "https://img.dhost.cloud/7EdLJ8UhqSg9MwOV6HE4QyQmWoU=/1200x630/smart/https://tdan.nyc3.digitaloceanspaces.com/images/9f09a/6c10919311b945db3004cfbf6deb258a586.webp"
     },
     {
+      "id": "latest-0cacbb69bf612c278f240e1b",
+      "title": "Principais índices fecham em queda; dólar sobe e bolsas internacionais acompanham movimento",
+      "summary": "Corte reafirmou possibilidade de limitar aquisição de terras por capital estrangeiro com base na soberania nacional.",
+      "details": "Corte reafirmou possibilidade de limitar aquisição de terras por capital estrangeiro com base na soberania nacional.",
+      "url": "https://www.migalhas.com.br/quentes/454523/stf-mantem-limitacoes-para-compra-de-imoveis-rurais-por-estrangeiros",
+      "source": "Tribuna do Agreste",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-04-23T21:40:00Z",
+      "updatedAt": "2026-04-23T21:40:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://medproc.migalhas.com.br/https__img5.migalhas.com.br__SL__gf_base__SL__empresas__SL__MIGA__SL__imagens__SL__2026__SL__04__SL__23__SL__cropped_zwwfzpf3.0s2.png._PROC_CP75CCH31622400.png"
+    },
+    {
       "id": "macro-5f6387e90f50b85554c04672",
       "title": "Juros futuros saltam com estresse sobre guerra, leilão do Tesouro e política fiscal",
-      "summary": "Atualizacao de macro capturada em Valor Econômico.",
-      "details": "",
-      "url": "https://midiamax.com.br/politica/2026/riedel-diz-ms-deve-fechar-2026-deficit-fiscal-momento-delicado-transitorio/",
+      "summary": "A taxa do DI com vencimento para janeiro de 2027 subiu de 13,98%, do ajuste da véspera, para 14,14% e a do DI de janeiro de 2031 aumentou de 13,36% a 13,625%",
+      "details": "A taxa do DI com vencimento para janeiro de 2027 subiu de 13,98%, do ajuste da véspera, para 14,14% e a do DI de janeiro de 2031 aumentou de 13,36% a 13,625%",
+      "url": "https://valor.globo.com/financas/noticia/2026/04/23/juros-futuros-saltam-com-estresse-sobre-guerra-leilao-do-tesouro-e-politica-fiscal.ghtml",
       "source": "Valor Econômico",
       "category": "macro",
       "tags": [
@@ -615,14 +766,15 @@
       "publishedAt": "2026-04-23T21:39:33Z",
       "updatedAt": "2026-04-23T21:39:33Z",
       "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s2-valor.glbimg.com/KhrOFVaxqWF_x-E9kyoMtH9fhDA=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2022/J/m/3ygaGBSiy5GjtOpCH6yg/taxas-juros-percentual-karolina-grabowska-pexels.jpg"
     },
     {
       "id": "companies-957f07913466d70408df66c6",
       "title": "STF valida restrições à compra de imóveis rurais por empresas controladas por estrangeiros",
-      "summary": "Mercado financeiro brasileiro encerrou a sessão desta quinta-feira (23) em baixa",
-      "details": "Mercado financeiro brasileiro encerrou a sessão desta quinta-feira (23) em baixa",
-      "url": "https://gpsbrasilia.com.br/ibovespa-cai-e-dolar-volta-ao-patamar/",
+      "summary": "Atualizacao de empresas capturada em Globo Rural.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNajNjTUMwMmotT2FkMHhxX0pHTFYtUVpmX3BaVEZaaGVNNVpubEhLUEg4cFFla0dzR0J4RTU4ZVI2T0RCMGJUWU82ZEFtSmlpYTYzWGxHRGNiVlhHSDZxaXo2WHpuVjBxLWoyQ3dIazZkRjRsLTNqMDltNUpEcmwwbTczNkd1OEJTbzR5ZkdEcTBWeGxwVXdVSmhqdmxHVUxMNmdOTkZveEhjMS1DUlZOWDVJOXA2ZDdlUF9ETlVOZXkxbVhwR01lel93Qm9EZHBEdTJZOTktcFpOY1VFVklWUTg0TTdpbzRKdzczSTUtMUNVRm4w0gGDAkFVX3lxTE9IM3otVEQ2dmhDWmhrNzVWalZKdW1XWVk2LVRRajhkSHRZYTcxV1BxVU1QajNCSE9TNGVRMDQtYjFhMXNTazBMQktBYXZxdWZXNEc3QUlndmpNUHY3VnREenZmUUlxV05rbXZEVThKeVhxeHh4d1ppUU51WGo1MlFrQ2FoeWZMOF9WblVZT3BpN3Ffay1qMjlfcVkwclNMdmNfcjh3YzZzdzNRM1BuVE1uTThXREZTYVJqa3BoaFBBMFRIeU1yUmdzT3plc0JWQm5ZZzg1OTFEc1pEdlQtYnBpN2NtdVdNOXFyczBkRWRnSDFhRzVPUzQ2blRLM0lXMEM3S1U?oc=5",
       "source": "Globo Rural",
       "category": "companies",
       "tags": [
@@ -633,15 +785,14 @@
       "publishedAt": "2026-04-23T21:37:06Z",
       "updatedAt": "2026-04-23T21:37:06Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://gpsbrasilia.com.br/wp-content/uploads/2026/01/gpsbrasilia-15-1.jpg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "latest-c9cf77274bf3596db92f12f9",
       "title": "Ibovespa cai e dólar volta ao patamar dos R$ 5 com tensão externa",
-      "summary": "A taxa do DI com vencimento para janeiro de 2027 subiu de 13,98%, do ajuste da véspera, para 14,14% e a do DI de janeiro de 2031 aumentou de 13,36% a 13,625%",
-      "details": "A taxa do DI com vencimento para janeiro de 2027 subiu de 13,98%, do ajuste da véspera, para 14,14% e a do DI de janeiro de 2031 aumentou de 13,36% a 13,625%",
-      "url": "https://valor.globo.com/financas/noticia/2026/04/23/juros-futuros-saltam-com-estresse-sobre-guerra-leilao-do-tesouro-e-politica-fiscal.ghtml",
+      "summary": "Atualizacao de ultima hora capturada em GPS Brasília.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9lbEszUDBISExZalpYZmJoTHBmSFZHT3MzWENibExvOXI1cDZCVHJpRDFrWHh4cnJuVDNLc19wc1ZLTzh4SlQ1aGE5UEJYUU9DVVgxVDlJQy1qU042R2NUWnFISnQtOUdwZWh1NW1PcFUzRkE?oc=5",
       "source": "GPS Brasília",
       "category": "latest",
       "tags": [
@@ -652,15 +803,14 @@
       "publishedAt": "2026-04-23T21:36:24Z",
       "updatedAt": "2026-04-23T21:36:24Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://s2-valor.glbimg.com/KhrOFVaxqWF_x-E9kyoMtH9fhDA=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2022/J/m/3ygaGBSiy5GjtOpCH6yg/taxas-juros-percentual-karolina-grabowska-pexels.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-2fdc09d8081150b698e8d695",
       "title": "Riedel diz que MS deve fechar 2026 em déficit fiscal: ‘Momento delicado e transitório’",
-      "summary": "Pela norma, aquisições recebem o mesmo tratamento que nos casos quando a compra é feita por empresas estrangeiras",
-      "details": "Pela norma, aquisições recebem o mesmo tratamento que nos casos quando a compra é feita por empresas estrangeiras",
-      "url": "https://globorural.globo.com/politica/noticia/2026/04/stf-valida-restricoes-a-compra-de-imoveis-rurais-por-empresas-brasileiras-controladas-por-estrangeiros.ghtml",
+      "summary": "Atualizacao de macro capturada em Midiamax.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdEVqOHo3M25sUVFPd095bkdaaFgwYlp2b1lDR2gxbFhTMFFGclpGbndvNmIzdk4teElSRjdIOFU2emthdDR1ZXRXeVZ4WFNZMFlwZHpvSms0bTVkZ0tkMXZJNTBUTzVXSzVuc0pYWTd3WGpCbjJLSFZxZ2xpaUZ4SFlHMDlTOEhlTnZPaTMzMC1VTEhZOWVVVGZQV1Z6YXBhaTBHREVpY1d6dnd5RWQ0ckpkdw?oc=5",
       "source": "Midiamax",
       "category": "macro",
       "tags": [
@@ -671,15 +821,14 @@
       "publishedAt": "2026-04-23T21:34:00Z",
       "updatedAt": "2026-04-23T21:34:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-globorural.glbimg.com/2uFGiFHbXouedMH_0HEEvKEbuiM=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_afe5c125c3bb42f0b5ae633b58923923/internal_photos/bs/2024/s/U/5KJzgwQ6ScqMQ8bMxJYw/33681481465-b76feb6aa7-k.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-37ed9889267ace0138009034",
       "title": "O que acontece com quem não declara o Imposto de Renda? Entenda o que a lei pode fazer com você",
-      "summary": "Com o prazo para a entrega da declaração do Imposto de Renda de 2026 se encerrando em 29 de maio,",
-      "details": "Com o prazo para a entrega da declaração do Imposto de Renda de 2026 se encerrando em 29 de maio,",
-      "url": "https://www.tnh1.com.br/variedades/o-que-acontece-com-quem-nao-declara-o-imposto-de-renda-entenda-o-que-a-lei-pode-fazer-com-voce/",
+      "summary": "Atualizacao de macro capturada em TNH1.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxON1NOOF82clBhS2VGdW8zMUVtSVdHcTladTJqU0JLdmwtVW1NTGNNc212dlk5ZjdmR1BPb2lUb2s0a1UtcHF5alh3Ykh0VHFteFhZdVhfN240QVM3cjF1eXZkR21EWkVZS3hsUlJLMWw0R3MxSEVGRDN0d0JwUTEzMzJPcHFRT292VTk0X0g2MFE0YjlJTVA5WEVaLVRvWER4Vm1rRjZPa3pyakl1Q2FnYmh3c3BZRjlYZE1mTWVxLWlVMmpUN1QwRjRn?oc=5",
       "source": "TNH1",
       "category": "macro",
       "tags": [
@@ -690,15 +839,14 @@
       "publishedAt": "2026-04-23T21:33:00Z",
       "updatedAt": "2026-04-23T21:33:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.tnh1.com.br/variedades/wp-content/uploads/2025/09/mcam20022020-4.webp"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-659b8062448dcc12b4dd9771",
       "title": "Ruídos no Oriente Médio e altas do petróleo derrubam mercados globais",
-      "summary": "Fique por dentro das últimas notícias sobre a Bolsa, Mercado Financeiro e dinheiro. Confira também dicas de investimentos e educação financeira no E-Investidor.",
-      "details": "Fique por dentro das últimas notícias sobre a Bolsa, Mercado Financeiro e dinheiro. Confira também dicas de investimentos e educação financeira no E-Investidor.",
-      "url": "https://einvestidor.estadao.com.br/videos/ruidos-oriente-medio-altas-petroleo-aversao-risco-tom-defensivo-mercados-globais-ibovespa-hoje/?amp",
+      "summary": "Atualizacao de ultima hora capturada em Estadão E-Investidor.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMzdfXzZtU25icXBjdEFLcFZISmFqRXJ0NWdac1daTGU3QTdmXzJRRWQ2RE9VZlFsRkpqOS1nR0lqZzJBLWprbHNuNWI0aTVXS2YySnZMWkNvcktLRVE5NnNLRDItZW01ZlF6WmhzLUU4YlpnRV9hX0dtdWx2X1U2eFNnclBlT1dpUEVPbjhLMlVYUWllS05rM2R3VlNWRXR4bXV2blA1TklnakIyLXYwSHk3ZVVxYmV6ZlVoLTB6QU5tUmt2NkE4bXNCWWxGZHBDXzRfQkZUaEHSAdgBQVVfeXFMTTM3X182bVNuYnFwY3RBS3BWSEphakVydDVnWnNXWkxlN0E3Zl8yUUVkNkRPVWZRbEZKajktZ0dJamcyQS1qa2xzbjViNGk1V0tmMkp2TFpDb3JLS0VROTZzS0QyLWVtNWZRelpocy1FOGJaZ0VfYV9HbXVsdl9VNnhTZ3JQZU9XaVBFT244SzJVWFFpZUtOazNkd1ZTVkV0eG11dm5QNU5JZ2pCMi12MEh5N2VVcWJlemZVaC0wekFObVJrdjZBOG1zQllsRmRwQ180X0JGVGhB?oc=5",
       "source": "Estadão E-Investidor",
       "category": "latest",
       "tags": [
@@ -709,15 +857,14 @@
       "publishedAt": "2026-04-23T21:32:01Z",
       "updatedAt": "2026-04-23T21:32:01Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://einvestidor.estadao.com.br/wp-content/themes/e-investidor/assets/img/card-share-large-1200x631.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-2c413fc194e1639970ab4f75",
       "title": "Gasolina dispara 4,59% em março e volta a pressionar inflação após meses de alívio",
-      "summary": "O preço da gasolina voltou a acelerar com força em março, subindo 4,59% no mês, segundo dados do IBGE compilados no O Globo. O avanço interrompeu a",
-      "details": "O preço da gasolina voltou a acelerar com força em março, subindo 4,59% no mês, segundo dados do IBGE compilados no O Globo. O avanço interrompeu a",
-      "url": "https://www.ocafezinho.com/2026/04/23/gasolina-dispara-459-em-marco-e-volta-a-pressionar-inflacao-apos-meses-de-alivio/",
+      "summary": "Atualizacao de macro capturada em O Cafezinho.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcjVlb0hQeTg1MlBSendDRFM1Rk91cnNLWElWVDk2ZG9DXy1FelJDazUxOEthRUNRV1JrZi1yWnp1LThHQ2hWTHZmNnQtRGVRaS10Wlh5R2NZdWluX0FfUmxLb21Jb0FOeUt5eUFwTi1MekhnaFkxaWZya05ncUVaZFFQTW9nT1IxYlRaQUxtbnY3eEJSa2pueXVrRXV2MEl3ZWhTdnc2b1YweFRtSXNydXNXd2k3M2RIaHBB0gHAAUFVX3lxTE9rMEpGSFNSMWVURF9WU2NsYXNDZXZORkI0RmkyNlFjQ0x5bXRJaWxZNWh3SDNlb1FFNHRBQV83dHpzM1ZjUEdsOW1XZFZWV2FvWUNsVW5FT3dYTG1OdG81VC1GMjlWZW5RNUYtdUIyblVBbWZNNXh1dVBxSjdrSG9fWEpEaF9tX0JNX1Y0WjVzaWxpYXdSRl9zcGxFTlcyRUg5LTdBRy1fX1FXb25wbmc1ZjlvOFVxWFJrVjl3VE5rUw?oc=5",
       "source": "O Cafezinho",
       "category": "macro",
       "tags": [
@@ -733,9 +880,9 @@
     {
       "id": "latest-7de63ad3dfd8b888a69b0c8b",
       "title": "Ibovespa recua e dólar volta ao nível de 5 reais nesta quinta-feira",
-      "summary": "Mercados reagem às novas ameaças de Trump em relação ao cessar-fogo com Irã, o que eleva preço do petróleo e reacende riscos inflacionários",
-      "details": "Mercados reagem às novas ameaças de Trump em relação ao cessar-fogo com Irã, o que eleva preço do petróleo e reacende riscos inflacionários",
-      "url": "https://veja.abril.com.br/economia/ibovespa-recua-e-dolar-volta-ao-nivel-de-5-reais-nesta-quinta-feira/",
+      "summary": "Atualizacao de ultima hora capturada em VEJA.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOc2pWMFJ6VEsybjloZEpCd3VGYWRsZU43bkVieHpIY3ZWcXFMNWQtdVpTWlMzaVJqRG9vbzIxRXVtVzduRk1WcEU1enJBTHdWZWR0UmNzUnZuVkJoRXpPZGMtX3pwWGhsdFZxc1dEQ09XYkNzMVVSRzFhNnRWb1JIZXREOF8wNktOWGVzUUNjcVVpWFp6VnlMNkdIQ0U3WURzZ3ZDZnlB?oc=5",
       "source": "VEJA",
       "category": "latest",
       "tags": [
@@ -746,8 +893,7 @@
       "publishedAt": "2026-04-23T21:29:39Z",
       "updatedAt": "2026-04-23T21:29:39Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2022/06/vista-superior-da-pilha-de-notas-de-cinco-dolares-dos-estados-unidos_76000-8346.jpg?quality=70&strip=info&resize=1080,565&crop=1"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-7059e55bc014d9f02f80855b",
@@ -822,24 +968,6 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "macro-7f11f21d0780934bf5033357",
-      "title": "Concursos 2026: mais de 160 mil vagas; salários de até R$ 30 mil!",
-      "summary": "Atualizacao de macro capturada em Estratégia Concursos.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5iLUJTOXJENkVDSTBLc2tSZnZRY3FFd1JOVlYxcUpISkF2eFlmOEZiUDMxZ3lmaUVlUndvb0swSmUtUTZSREk5akVwWHV2NEZ0WDNlc0YtbXZrbnA2SkhVYUE1UUZJcmZXZk1j0gFwQVVfeXFMTS0tZkFJRWxPWXFoYXlyNFBOZ2JwLWpXRkRzalhVX0FVc0hydWFpOFRKNnJPdFRvN0tVZmJ5ekEtSUh3V0ZBV1ZlU0pVZVZMcWJBaEtzZENuNUNocFF2WTlSbjJBSXdlaGRmS25uTWpibA?oc=5",
-      "source": "Estratégia Concursos",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-04-23T20:54:27Z",
-      "updatedAt": "2026-04-23T20:54:27Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
       "id": "macro-bb6051ec1fa0222fe07dea8f",
       "title": "NavegantesPrev abre inscrições para eleição dos conselhos Deliberativo e Fiscal",
       "summary": "Prefeitura de Navegantes",
@@ -854,24 +982,6 @@
       ],
       "publishedAt": "2026-04-23T20:50:28Z",
       "updatedAt": "2026-04-23T20:50:28Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-300d4018f9a52a7524a52429",
-      "title": "Governo recua e descarta reduzir imposto federal sobre gasolina",
-      "summary": "Atualizacao de macro capturada em Poder360.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdEQwWWpBZGlNamM4QUhRaUJYWlNKNUJBX3ZEMGhzaFFTUzNZZVp2eVJFTlJkMmg5NmF2WjRXODVndW02UDh6akFZZW4tSGhLTmtHUDRZTlktM2tzTWhuM1ZtLXJUYktHb0pUa1RSNlhjUEpZdElHcU1WTndob1BUNDd5WjV5MDZxcVFTaXB6dTBad0NBQjRXSXF6RHhqQXdBUTJmR0htV0ZBQVU?oc=5",
-      "source": "Poder360",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-04-23T20:44:27Z",
-      "updatedAt": "2026-04-23T20:44:27Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
@@ -1056,24 +1166,6 @@
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "macro-d8841692216d5e07ce21afd8",
-      "title": "Receita Federal já recebeu mais de 15 milhões de declarações do Imposto de Renda 2026",
-      "summary": "Atualizacao de macro capturada em www.gov.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOVWswNTFFZ0hYU2k2blkzcER2bDljYzRSNVU3bGZLOFhQQzFHNmlLdVZjNXRYdWJxWGJ2QkJZeHJVQWRicV9OajFuS21XWjhtVEJGMzRmS1lwVFRuOTRzLWVNZVVWTHZMSzhUSFgyQmpkWl9vZGR4V0VJUVNQODlEMm4tSkRHTmJyOE4zU2ZQRHdFVi1LZHkyaTZqdnpldnQzWlZqRFF4bmVHbVhPQjRrbjY0b29HTzNwZ0RQZXJuMVh2RFVkTC1YcmxGbWJLYlpwS3dPdi1sOU45YUtYUW9nbW1sWVM4dC13U1E?oc=5",
-      "source": "www.gov.br",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-04-23T19:43:00Z",
-      "updatedAt": "2026-04-23T19:43:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
       "id": "companies-bfbfd46a85c62f7c3063de9b",
       "title": "Crédito sob pressão: como a alta dos juros, a guerra e o endividamento corporativo redefinem os riscos jurídicos para empresas brasileiras",
       "summary": "Atualizacao de empresas capturada em Valor Econômico.",
@@ -1182,24 +1274,6 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "companies-1ff110e0c8e86886272bc1e1",
-      "title": "Exportações brasileiras ao Golfo Pérsico caem 31% com guerra no Irã",
-      "summary": "Atualizacao de empresas capturada em Brasil 247.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTzVLU0lpdDV6cEVGemw3QVdkLUtaRWYtbXRGR3VPM3pydnRHSTBjRmJDbE5GMnhFaGV5RXJmOTMzOXFEOTBqTFljWEV6MG9EcldoMmdHUW56U3JTRUxQX3YxSEpWMUl2V1Zua2VNYTBfdkEwU0JCQ2JCSUhRRXhtWW41MTBoUjljZDlfdkN6T21NYmRaUDRiRWNfYnExem52b3Q4?oc=5",
-      "source": "Brasil 247",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-04-23T17:53:01Z",
-      "updatedAt": "2026-04-23T17:53:01Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
       "id": "funds-08d1920254969f09a2b54769",
       "title": "“A Tasca da Tina” aposta em petiscos, grelhados e espírito tradicional português",
       "summary": "Atualizacao de fundos capturada em averdade.com.",
@@ -1218,75 +1292,21 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "companies-272c989e5db03b7c59816c8e",
-      "title": "Guerra no Irã derruba em mais de 30% exportações brasileiras ao Golfo Pérsico",
-      "summary": "Atualizacao de empresas capturada em Nova Iguassu Online.",
+      "id": "funds-196af683de41f595481567c3",
+      "title": "Everysk e Octante aceleram operações digitais de FIDCs",
+      "summary": "Atualizacao de fundos capturada em Pagina1mt.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVGM2ZHhlZ0lUUnNSa2Y2azBva211VHNkUGs1UWRnR09WdjllMDJwSHNwYTFhbXNjSjFNdlUxd0REcld5SXY2R01ndFpYU0hJNl9NYjZYSk1ncUctNkNsN3hZWUJIamdVRFFzMjYyU3NoamZMNXpGdHFtOUlrYkZyTjBuMU1kLVJvemlmaGN3d19aMWlUeHFPM2dtUjAzV19hYnFCU1Z2OHdSa2IzNTA40gG0AUFVX3lxTE55M2JCTVp2Wkh4MlgwcThDejFKcThDTUc4dHV5a1VoY19Zc19Dem9xR0p3ME1mcG1NN0MtLU5VSmx5NHZrUWtBbjJHdlZhLURqeTR6WHk2aEJ2cFc3S29ZYkVDWlo4Y2pGMFNXS2Q2VlNPZll3OU52VTJnd3Q0UkVmZ0szVEdLWXZWdWIzcjd6eTJqUG5kbGptU1VieXNuNVBPUlRrQ3hRYnFDTDNiY0ZZNTdJXw?oc=5",
-      "source": "Nova Iguassu Online",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-04-23T16:41:01Z",
-      "updatedAt": "2026-04-23T16:41:01Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-3a98b673a64a69600387b3cf",
-      "title": "Quase todas as empresas brasileiras têm dificuldades para contratar profissionais de tecnologia",
-      "summary": "Atualizacao de empresas capturada em Valor Econômico.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcV9RSXFMUjVnbThUenUxTzE4ZEgxbVZuMmlEUHctUzVtSjNyVnhVa2p0UVMxTDZXVWVMWVJTdVBlM1B1NHg0dzNYNmQyTm1INTlIUjE3RjQ0UkZUWEcxbHU3cUJpQ3JOczVoVXBISVlzM3Ntc2FQSnk5czVycHlBOG1HMFFPZnhXci1iM1FRR2hzc29JU1dtaGhrSnBQR29Zck51aU1xa0pwSlhpNXNVeDNDalF0WHZOZjdQTDBISmVJbVl1X2hUaGQyR1dBdG5vQktGOV9zY3FMam9aTWpF0gHuAUFVX3lxTE9FcV9ncHk0QXNiYjRuQXpKX2N0eTk2ZlA0TThRSVo4WnF1T3Z3ZFU3VFBjMmdRdmxhWGExVGRXcFlDc0ZWTEF2WEpPd3Q4eVk3bTY5Q3JrYzNvYTFIcGpzWThlaXZlcE1ES0YtaFhpeVJoVnVBc3VrUlpPVUIzVFNMS29hWUhqM2thMXpBNlJLWEhweVg4c2RvdE9uQ2FqWGNxRlBKSnB3SmxYQkVBdXl2X3NYMFNfWkpWSkNTaWNFUHZBTy1tMFFRLUkwZlM4elFfSG9QdWQ3bF9rUS1Zd1dSUlY5TjZCZVV0R3pCNEE?oc=5",
-      "source": "Valor Econômico",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-04-23T15:07:52Z",
-      "updatedAt": "2026-04-23T15:07:52Z",
-      "premium": true,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "funds-2d47b9dc753dc9861a46d91d",
-      "title": "Estrelas do Marco conquistam três vitórias e vários pódios no Corta-Mato Curto da AMA em Lousada",
-      "summary": "Atualizacao de fundos capturada em averdade.com.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVExZWHc5SHg0ZkZDaEUzblFPSjJld0dRYnY4WXVCY3JETkxJa2huajdsTWtzUHlzc0FvNTlSeGFhZFJSclJwSkF5ckJsOVd6NnJFalQ0TTh0ejk3cHdsT0pYVWNsanZhdTBNWF9NU25yMmFrOW1mTzF3V2M4LV9jdFYxR1p2Ykx4RFh6N1NIOUtDbEVLTWFFdWxhSnJiU25VQXRsVWE3YThuel9TR3kwQU1lMFk3Nnh4M19Fa3BXOV9TM0JfM0ZqSw?oc=5",
-      "source": "averdade.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbjBXSjJ1TFlqTmJwNk5jNDZpT1NRRWFZSGZpcHZmWng4MVhBTzc2c3RFcTNCbDV4NmtGcWR4ZWQ1aktNWGV4MUdsTG1yM3F3T1ZUVmd1R0ozd3JEU01EbVVod0ViUTBERzRkNDM1T3N6OGJlRnJicVZQellxQTM5SW9LV2NfTjRiaGFpRkVWcUU2azQ?oc=5",
+      "source": "Pagina1mt",
       "category": "funds",
       "tags": [
         "fundos",
         "asset",
         "fiis"
       ],
-      "publishedAt": "2026-04-23T14:28:43Z",
-      "updatedAt": "2026-04-23T14:28:43Z",
+      "publishedAt": "2026-04-23T14:31:00Z",
+      "updatedAt": "2026-04-23T14:31:00Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-451ff3128cbe7eb9bb1dbd3c",
-      "title": "Everysk e Octante aceleram operações digitais de FIDCs",
-      "summary": "Atualizacao de fundos capturada em Valor Econômico.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQb3c5c3lxSVN5R2ZHUldocmxOWElxX2lfYzExV0ZPV3pnUDV1NTF6UkJyVzIwRl9UM2FrZ0Rybi01OGI3LXdzR1JuMFV2TDhxS2g3TkZYTkltTmVUdEFzaC0xb2xBaVB0ZWtZdVZwZEhzWmF1Y2F5UFJSU0Vwc1Z6RVRUS1FCcXNvQUtXVjJkMVBQanpyOVNpcFFMM3lYZ01aRjB2eU9Db0FCazFQb0RSUkgwaXByVE9RYXBmS01TUjRrVmhKM3lxV3VzTnhFd9IBzgFBVV95cUxQb3c5c3lxSVN5R2ZHUldocmxOWElxX2lfYzExV0ZPV3pnUDV1NTF6UkJyVzIwRl9UM2FrZ0Rybi01OGI3LXdzR1JuMFV2TDhxS2g3TkZYTkltTmVUdEFzaC0xb2xBaVB0ZWtZdVZwZEhzWmF1Y2F5UFJSU0Vwc1Z6RVRUS1FCcXNvQUtXVjJkMVBQanpyOVNpcFFMM3lYZ01aRjB2eU9Db0FCazFQb0RSUkgwaXByVE9RYXBmS01TUjRrVmhKM3lxV3VzTnhFdw?oc=5",
-      "source": "Valor Econômico",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-04-23T14:11:13Z",
-      "updatedAt": "2026-04-23T14:11:13Z",
-      "premium": true,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
@@ -1326,42 +1346,6 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "funds-e88b52f47122ae3877390c2d",
-      "title": "ESQ: Net income rose 7% to $12.2M, with strong growth, asset quality, and Signature merger progress",
-      "summary": "Atualizacao de fundos capturada em TradingView.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQYjZ2alJGWTEtcnlFSlUwWWw1YU5aZDEwR3RmRk1CdVlOSjNJRl9nZi1LSk9HZVNWRzJ1RW40QThWY2tQUmZTcnA5cW0zOFhmdW9HQjMtSVhDdXJfd1phQnZVSTVtU1FSR0VHcy1OUEl6UFJTd3FVd0diSFpaNHVpSXVTT0lkcEtSd0lVdU1vZnk2VzNIVHZZOF9iSnp6WlJWREpvNlNzeUhwN3VPN0wtQ2l0MTNGMVdNcEpNSDNkY2ljX0YzbDdGeWZ4SEstaU13aUJFUGFsWjB3UnVWLUtERW1zZ2N0MlB3eUZwQ1NReDBDNWR2NHVsc1NGeGo0QjZYQUZWbkdn?oc=5",
-      "source": "TradingView",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-04-23T12:33:57Z",
-      "updatedAt": "2026-04-23T12:33:57Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-ffa6a641929bfcca1d16af98",
-      "title": "UTIAMC: Net profit declined year-over-year due to exceptional employee costs; ₹40/share dividend proposed",
-      "summary": "Atualizacao de fundos capturada em TradingView.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPUDRjc0RDRXFaY3hINXJmZnNJdjhOenBjOEYxOGpVYnNNYkh0V0FCZDd2UUlqRzE2YVlmM01oZ3BFT2xScTJ1U254YWp3ZXZQaHA0ZUZxWjBSNVZqamNMTmc2OTVWOVpoOVc4dmN6U3VnVGpXU0xvT3BiSGJaRk1ldlNKOHhlRm04dW56WHhHajdiM1gtVUhKbDJ0VEk0Ny15dDE1Mjl0NnJvT2NsdENFVGVHeWc1WEJxamJHd09IVXg5S0U2RTVSRG1BRFp5bElkWko3MlgyazZFN2J2RngyY3RzaWVTelBudzFoSlJuS1kwVnVlbmU5Q1k5ZXZkQ3Z0S2pmSGs5M05kYWFPU2F3Q0pB?oc=5",
-      "source": "TradingView",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-04-23T12:20:37Z",
-      "updatedAt": "2026-04-23T12:20:37Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
       "id": "funds-84bd305f3881122bb842b604",
       "title": "15º Seminário de Investimentos nas EFPC prepara dois dias de conteúdo técnico e networking estratégico",
       "summary": "Atualizacao de fundos capturada em Abrapp.",
@@ -1394,6 +1378,42 @@
       ],
       "publishedAt": "2026-04-23T11:05:31Z",
       "updatedAt": "2026-04-23T11:05:31Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "funds-6e89a5a4434fcac6c77ea28a",
+      "title": "O vice-presidente do Comitê Popular da Província de An Giang, Ngo Cong Thuc, inspeciona a distribuição de fundos de investimento público em 2026.",
+      "summary": "Atualizacao de fundos capturada em Vietnam.vn.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc2hOZGZYOXJmV2Q4Sm04MU1YRDhBVmU1aWFzclJzNnZoQWE2WE8yWlVIZzlwdFh4Qy1na3RMaEhiMjByUjZ4LXN1S2V0YWU2b3BzaU9RRk5TVDRILWVXcUNKSzJhS0VYU3F6LXVtdFBVZ1ZfbnR5V2JEMjFQMW1vaHBkVjFPQ19scDVYWVNXS3ZyaVRtTlVWUjdfS0c4cFdGZnpRamZfdG9wYUVQclV0aDJxU2NQMkhCZkFycVlsRVZmOTA?oc=5",
+      "source": "Vietnam.vn",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-04-23T08:14:15Z",
+      "updatedAt": "2026-04-23T08:14:15Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "funds-c157e343ccd612460ae42be6",
+      "title": "Bitcoin Rally Catches Shorts Offside—$200M Liquidated As Price Hits $79,000",
+      "summary": "Atualizacao de fundos capturada em TradingView.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcC1TMzY5NTM3T3hITHVXTmlTZVU5Zk93dHU0WmoyM0wzT05wR3ctZ2I5bGRDMmc4aU1reXp5Q25jcF9xYTVWZFFLSlYzZU9ZVDNXVGJ3OU5YeEpUQkdvWjljdXMwTW50bkJiOUN3S1VpX0NGeGxwTkhGZS1qWldKY3JnTGlxc1YwQS04U2ZKWUtiRTZ5WTBLcmt5WDRVMnA4ZTgzRnZSN1pqWkJRa3c0WjZWdTVzeHpHS0J3cG1JRTdCa2NCZzAyeW9lZDByTlE?oc=5",
+      "source": "TradingView",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-04-23T07:00:50Z",
+      "updatedAt": "2026-04-23T07:00:50Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     }
