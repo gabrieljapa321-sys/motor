@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-04-24T22:10:08Z",
-  "generatedAt": "2026-04-24T22:10:08Z",
+  "updatedAt": "2026-04-24T22:58:27Z",
+  "generatedAt": "2026-04-24T22:58:27Z",
   "categories": [
     {
       "id": "all",
@@ -25,8 +25,16 @@
   ],
   "sources": [
     {
+      "id": "ac24horas",
+      "label": "ac24horas"
+    },
+    {
       "id": "ametropolesorocabana-com-br",
       "label": "ametropolesorocabana.com.br"
+    },
+    {
+      "id": "arevista-com-br",
+      "label": "arevista.com.br"
     },
     {
       "id": "blog-do-prisco",
@@ -37,8 +45,8 @@
       "label": "Bora Investir"
     },
     {
-      "id": "cidade-conecta",
-      "label": "Cidade Conecta"
+      "id": "brasil-de-fato",
+      "label": "Brasil de Fato"
     },
     {
       "id": "claudio-dantas",
@@ -51,10 +59,6 @@
     {
       "id": "comprerural",
       "label": "CompreRural"
-    },
-    {
-      "id": "contadores-cnt-br",
-      "label": "Contadores.cnt.br"
     },
     {
       "id": "correio-braziliense",
@@ -77,20 +81,8 @@
       "label": "Fiis"
     },
     {
-      "id": "folha-de-s-paulo",
-      "label": "Folha de S.Paulo"
-    },
-    {
-      "id": "gazeta-mercantil",
-      "label": "Gazeta Mercantil"
-    },
-    {
       "id": "gps-bras-lia",
       "label": "GPS Brasília"
-    },
-    {
-      "id": "gzh",
-      "label": "GZH"
     },
     {
       "id": "infomoney",
@@ -143,6 +135,10 @@
     {
       "id": "o-bastidor",
       "label": "O Bastidor"
+    },
+    {
+      "id": "portal-do-agroneg-cio",
+      "label": "Portal do Agronegócio"
     },
     {
       "id": "portal-do-servidor-alece",
@@ -235,11 +231,86 @@
   ],
   "items": [
     {
+      "id": "latest-aba1dd7a416fbebe6559055f",
+      "title": "Mercado nacional: o risco que pode mudar o rumo da economia brasileira",
+      "summary": "Mercado nacional enfrenta risco oculto com pressão fiscal e política, mesmo com alta das commodities e juros elevados no Brasil.",
+      "details": "Mercado nacional enfrenta risco oculto com pressão fiscal e política, mesmo com alta das commodities e juros elevados no Brasil.",
+      "url": "https://arevista.com.br/economia/mercado-nacional-o-risco-que-pode-mudar-o-rumo-da-economia-brasileira/",
+      "source": "arevista.com.br",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-04-24T22:50:49Z",
+      "updatedAt": "2026-04-24T22:50:49Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://arevista.com.br/wp-content/uploads/2026/04/be32109e-87bc-49af-8f80-ad01a2e7e350-1024x618.png"
+    },
+    {
+      "id": "latest-7f2837f697052cd30b6e0f7f",
+      "title": "Ibovespa perde 2,55% na semana e fica mais longe dos 200 mil pontos",
+      "summary": "Atualizacao de ultima hora capturada em Correio Braziliense.",
+      "details": "",
+      "url": "https://obastidor.com.br/economia/um-muro-entre-bets-e-bolsa/",
+      "source": "Correio Braziliense",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-04-24T22:31:00Z",
+      "updatedAt": "2026-04-24T22:31:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "macro-0af6fc990c7c0cbb1cffdbb3",
+      "title": "Variação da Selic impacta precificação de ativos na B3",
+      "summary": "Ibovespa avança com fluxo estrangeiro, mas sente impacto dos juros elevados",
+      "details": "Ibovespa avança com fluxo estrangeiro, mas sente impacto dos juros elevados",
+      "url": "https://www.cnnbrasil.com.br/economia/mercado/variacao-da-selic-impacta-precificacao-de-ativos-na-b3/",
+      "source": "CNN Brasil",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-04-24T22:30:26Z",
+      "updatedAt": "2026-04-24T22:30:26Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/mrp-inclui-derivativos-de-balcao-e-amplia-operacoes-com-protecao-contra-falhas-operacionais-em-investimentos.webp?w=1200&h=630&crop=1"
+    },
+    {
+      "id": "latest-4afe561131fdb913503ea950",
+      "title": "Trump usa narrativa da guerra para impactar o mercado financeiro, diz analista",
+      "summary": "Especialistas atribuem queda da bolsa brasileira a movimento de correção após alta mais expressiva na semana após a Páscoa",
+      "details": "Especialistas atribuem queda da bolsa brasileira a movimento de correção após alta mais expressiva na semana após a Páscoa",
+      "url": "https://www.correiobraziliense.com.br/economia/2026/04/7405613-ibovespa-perde-255-na-semana-e-fica-mais-longe-dos-200-mil-pontos.html",
+      "source": "Brasil de Fato",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-04-24T22:28:00Z",
+      "updatedAt": "2026-04-24T22:28:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/01/27/675x450/1_1535-63691348.jpg?20260321002519?20260321002519"
+    },
+    {
       "id": "latest-39678342e45426d15b08f085",
       "title": "Ibovespa: Bolsa cai e termina a semana aos 190 mil pontos",
-      "summary": "O Ibovespa, principal índice da Bolsa brasileira, fechou esta sexta-feira (24) em queda de 0,33%, aos 190.745,02 pontos, no menor",
-      "details": "O Ibovespa, principal índice da Bolsa brasileira, fechou esta sexta-feira (24) em queda de 0,33%, aos 190.745,02 pontos, no menor",
-      "url": "https://monitordomercado.com.br/noticias/377638-ibovespa-bolsa-cai-e-termina-a-semana-aos-190-mil-pontos/",
+      "summary": "Para Amanda Harumy, narrativa de continuidade da conflito serve para projetar estabilidade",
+      "details": "Para Amanda Harumy, narrativa de continuidade da conflito serve para projetar estabilidade",
+      "url": "https://www.brasildefato.com.br/2026/04/24/trump-usa-narrativa-da-guerra-para-impactar-o-mercado-financeiro-diz-analista/",
       "source": "Monitor do Mercado",
       "category": "latest",
       "tags": [
@@ -251,14 +322,14 @@
       "updatedAt": "2026-04-24T22:06:15Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://monitordomercado.com.br/wp-content/uploads/2025/04/Materias-TAMANHO-NOVO.png"
+      "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2026/02/AFP__20260211__96YG7JJ__v1__MidRes__IranPoliticsAnniversary.webp"
     },
     {
       "id": "latest-67b3be5ae8f7d5389edf797d",
       "title": "Um muro entre bets e bolsa",
-      "summary": "Atualizacao de ultima hora capturada em O Bastidor.",
-      "details": "",
-      "url": "https://obastidor.com.br/economia/um-muro-entre-bets-e-bolsa/",
+      "summary": "O Ibovespa, principal índice da Bolsa brasileira, fechou esta sexta-feira (24) em queda de 0,33%, aos 190.745,02 pontos, no menor",
+      "details": "O Ibovespa, principal índice da Bolsa brasileira, fechou esta sexta-feira (24) em queda de 0,33%, aos 190.745,02 pontos, no menor",
+      "url": "https://monitordomercado.com.br/noticias/377638-ibovespa-bolsa-cai-e-termina-a-semana-aos-190-mil-pontos/",
       "source": "O Bastidor",
       "category": "latest",
       "tags": [
@@ -269,7 +340,8 @@
       "publishedAt": "2026-04-24T21:54:26Z",
       "updatedAt": "2026-04-24T21:54:26Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://monitordomercado.com.br/wp-content/uploads/2025/04/Materias-TAMANHO-NOVO.png"
     },
     {
       "id": "macro-568adab73567ed1580faed30",
@@ -293,9 +365,9 @@
     {
       "id": "latest-996b737634bfaead8b8441c9",
       "title": "Ibovespa hoje: Hapvida (HAPV3) salta com aumento de participação de controladores; Brava (BRAV3) afunda",
-      "summary": "Descaminho: Justiça Federal na Paraíba condena cinco réus por fraude fiscal com empresa de turismo. Entenda a operação, as penas e o impacto.",
-      "details": "Descaminho: Justiça Federal na Paraíba condena cinco réus por fraude fiscal com empresa de turismo. Entenda a operação, as penas e o impacto.",
-      "url": "https://jurinews.com.br/destaque-nacional/justica-federal-na-paraiba-condena-grupo-por-fraude-fiscal",
+      "summary": "Fique por dentro das últimas notícias sobre a Bolsa, Mercado Financeiro e dinheiro. Confira também dicas de investimentos e educação financeira no E-Investidor.",
+      "details": "Fique por dentro das últimas notícias sobre a Bolsa, Mercado Financeiro e dinheiro. Confira também dicas de investimentos e educação financeira no E-Investidor.",
+      "url": "https://einvestidor.estadao.com.br/mercado/ibovespa-hoje-hapvida-hapv3-salta-participacao-controladores-brava-brav3-cai/",
       "source": "Estadão E-Investidor",
       "category": "latest",
       "tags": [
@@ -307,14 +379,52 @@
       "updatedAt": "2026-04-24T21:45:46Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://jurinews.com.br/storage/uploads/featured-image-cropped-1777066473.jpg"
+      "imageUrl": "https://einvestidor.estadao.com.br/wp-content/themes/e-investidor/assets/img/card-share-large-1200x631.jpg"
+    },
+    {
+      "id": "latest-858507f8beeb637bacc076e0",
+      "title": "Apostas não financeiras em plataformas de previsões são proibidas",
+      "summary": "A partir do início de maio, apostas sobre temas como esportes, política e entretenimento passam a ser proibidas em plataformas de mercado de previsões no",
+      "details": "A partir do início de maio, apostas sobre temas como esportes, política e entretenimento passam a ser proibidas em plataformas de mercado de previsões no",
+      "url": "https://ac24horas.com/2026/04/24/apostas-nao-financeiras-em-plataformas-de-previsoes-sao-proibidas/",
+      "source": "ac24horas",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-04-24T21:41:04Z",
+      "updatedAt": "2026-04-24T21:41:04Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://ac24horas.com/wp-content/uploads/2026/04/trbr2591.webp"
+    },
+    {
+      "id": "latest-0c3fdc13f9358d97695f976e",
+      "title": "Mercados globais fecham sem direção única com aversão ao risco e volatilidade do petróleo",
+      "summary": "Fique por dentro das últimas notícias sobre a Bolsa, Mercado Financeiro e dinheiro. Confira também dicas de investimentos e educação financeira no E-Investidor.",
+      "details": "Fique por dentro das últimas notícias sobre a Bolsa, Mercado Financeiro e dinheiro. Confira também dicas de investimentos e educação financeira no E-Investidor.",
+      "url": "https://einvestidor.estadao.com.br/videos/mercados-globais-sem-direcao-unica-aversao-risco-volatilidade-petroleo-progredindo-ibovespa-hoje/?amp",
+      "source": "Estadão E-Investidor",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-04-24T21:37:53Z",
+      "updatedAt": "2026-04-24T21:37:53Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://einvestidor.estadao.com.br/wp-content/themes/e-investidor/assets/img/card-share-large-1200x631.jpg"
     },
     {
       "id": "macro-3ade5dcf0a0b61f14557882c",
       "title": "Justiça Federal condena grupo por descaminho com empresa de turismo de fachada na PB",
-      "summary": "Fique por dentro das últimas notícias sobre a Bolsa, Mercado Financeiro e dinheiro. Confira também dicas de investimentos e educação financeira no E-Investidor.",
-      "details": "Fique por dentro das últimas notícias sobre a Bolsa, Mercado Financeiro e dinheiro. Confira também dicas de investimentos e educação financeira no E-Investidor.",
-      "url": "https://einvestidor.estadao.com.br/mercado/ibovespa-hoje-hapvida-hapv3-salta-participacao-controladores-brava-brav3-cai/",
+      "summary": "Ibovespa cai aos 190 mil e amplia perdas na semana, com pressão externa, dólar forte e cautela global nos mercados.",
+      "details": "Ibovespa cai aos 190 mil e amplia perdas na semana, com pressão externa, dólar forte e cautela global nos mercados.",
+      "url": "https://www.suno.com.br/noticias/ibovespa-cai-190-mil-amplia-perdas-semana-mt/",
       "source": "Jurinews",
       "category": "macro",
       "tags": [
@@ -326,14 +436,14 @@
       "updatedAt": "2026-04-24T21:34:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://einvestidor.estadao.com.br/wp-content/themes/e-investidor/assets/img/card-share-large-1200x631.jpg"
+      "imageUrl": "https://files.sunoresearch.com.br/n/uploads/2025/12/30169c1a-ifix-2-png.webp"
     },
     {
       "id": "latest-18e630ca637ed053200aa39e",
       "title": "Fechamento do mercado financeiro",
-      "summary": "Nesta sexta, o índice da B3 oscilou de 189.962,93 a 191.390,33 pontos entre os extremos do dia e, ao fim, marcava 190.745,02 pontos",
-      "details": "Nesta sexta, o índice da B3 oscilou de 189.962,93 a 191.390,33 pontos entre os extremos do dia e, ao fim, marcava 190.745,02 pontos",
-      "url": "https://www.jornaldocomercio.com/economia/2026/04/1246198-ibovespa-cai-033-no-dia-aos-1907-mil-pontos-e-recua-255-na-semana.html",
+      "summary": "Descaminho: Justiça Federal na Paraíba condena cinco réus por fraude fiscal com empresa de turismo. Entenda a operação, as penas e o impacto.",
+      "details": "Descaminho: Justiça Federal na Paraíba condena cinco réus por fraude fiscal com empresa de turismo. Entenda a operação, as penas e o impacto.",
+      "url": "https://jurinews.com.br/destaque-nacional/justica-federal-na-paraiba-condena-grupo-por-fraude-fiscal",
       "source": "UOL Economia",
       "category": "latest",
       "tags": [
@@ -345,14 +455,14 @@
       "updatedAt": "2026-04-24T21:31:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.jornaldocomercio.com/_midias/jpg/2023/12/19/artes_materias_site_brasil-10420954.jpg"
+      "imageUrl": "https://jurinews.com.br/storage/uploads/featured-image-cropped-1777066473.jpg"
     },
     {
       "id": "macro-505bc5f96b7fbb3431330058",
       "title": "Ex-corregedor da Fazenda de SP é demitido sob acusação de vazar ações fiscais a empresários",
       "summary": "Atualizacao de macro capturada em UOL Notícias.",
       "details": "",
-      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/04/24/fechamento-do-mercado-financeiro.htm",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/04/24/ex-corregedor-da-fazenda-de-sp-e-demitido-sob-acusacao-de-vazar-acoes-fiscais-a-empresarios.htm?uol_app=uolnoticias%3Ft",
       "source": "UOL Notícias",
       "category": "macro",
       "tags": [
@@ -368,9 +478,9 @@
     {
       "id": "latest-faaf615b75e26caff496447a",
       "title": "Ibovespa cai 0,33% no dia, aos 190,7 mil pontos, e recua 2,55% na semana",
-      "summary": "Atualizacao de ultima hora capturada em Jornal do Comércio.",
-      "details": "",
-      "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/04/24/ex-corregedor-da-fazenda-de-sp-e-demitido-sob-acusacao-de-vazar-acoes-fiscais-a-empresarios.htm?uol_app=uolnoticias%3Ft",
+      "summary": "Nesta sexta, o índice da B3 oscilou de 189.962,93 a 191.390,33 pontos entre os extremos do dia e, ao fim, marcava 190.745,02 pontos",
+      "details": "Nesta sexta, o índice da B3 oscilou de 189.962,93 a 191.390,33 pontos entre os extremos do dia e, ao fim, marcava 190.745,02 pontos",
+      "url": "https://www.jornaldocomercio.com/economia/2026/04/1246198-ibovespa-cai-033-no-dia-aos-1907-mil-pontos-e-recua-255-na-semana.html",
       "source": "Jornal do Comércio",
       "category": "latest",
       "tags": [
@@ -381,14 +491,15 @@
       "publishedAt": "2026-04-24T21:27:42Z",
       "updatedAt": "2026-04-24T21:27:42Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.jornaldocomercio.com/_midias/jpg/2023/12/19/artes_materias_site_brasil-10420954.jpg"
     },
     {
       "id": "latest-b50aa21efb024e325452df92",
       "title": "Ibovespa perde os 190 mil no intradia e fecha semana em queda com pressão global",
-      "summary": "A fome não é apenas uma crise humanitária, mas também um significativo dreno na economia global. Relatórios de organismos como",
-      "details": "A fome não é apenas uma crise humanitária, mas também um significativo dreno na economia global. Relatórios de organismos como",
-      "url": "https://www.correiobraziliense.com.br/aqui/2026/04/24/o-impacto-da-fome-no-pib-global-quanto-o-mundo-perde-com-a-crise/",
+      "summary": "A medida foi apresentada por ministros em Brasília e foi protocolada no Congresso Nacional para apreciação da Casa",
+      "details": "A medida foi apresentada por ministros em Brasília e foi protocolada no Congresso Nacional para apreciação da Casa",
+      "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/abril/governo-federal-detalha-proposta-para-minorar-o-impacto-da-guerra-na-economia-brasileira",
       "source": "suno.com.br",
       "category": "latest",
       "tags": [
@@ -400,14 +511,14 @@
       "updatedAt": "2026-04-24T21:26:25Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.correiobraziliense.com.br/aqui/wp-content/uploads/2026/04/fome_1777065506419.jpg"
+      "imageUrl": "https://www.gov.br/fazenda/logo.png"
     },
     {
       "id": "macro-d52c50868c2a4ae4710ffc72",
       "title": "O impacto da fome no PIB global: quanto o mundo perde com a crise",
-      "summary": "Ibovespa cai aos 190 mil e amplia perdas na semana, com pressão externa, dólar forte e cautela global nos mercados.",
-      "details": "Ibovespa cai aos 190 mil e amplia perdas na semana, com pressão externa, dólar forte e cautela global nos mercados.",
-      "url": "https://www.suno.com.br/noticias/ibovespa-cai-190-mil-amplia-perdas-semana-mt/",
+      "summary": "Atualizacao de macro capturada em Correio Braziliense.",
+      "details": "",
+      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/04/24/fechamento-do-mercado-financeiro.htm",
       "source": "Correio Braziliense",
       "category": "macro",
       "tags": [
@@ -418,15 +529,14 @@
       "publishedAt": "2026-04-24T21:18:40Z",
       "updatedAt": "2026-04-24T21:18:40Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://files.sunoresearch.com.br/n/uploads/2025/12/30169c1a-ifix-2-png.webp"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-57dade0344bec0268844cc6f",
       "title": "Ibovespa e dólar recuam de olho em negociação entre EUA e Irã",
-      "summary": "O impacto da reforma tributária, o crédito e investimentos foram alguns temas dos debates que ocorreram no encontro exclusivo com especialistas do UBS BB Investement Bank e Parceiros Estratégicos",
-      "details": "O impacto da reforma tributária, o crédito e investimentos foram alguns temas dos debates que ocorreram no encontro exclusivo com especialistas do UBS BB Investement Bank e Parceiros Estratégicos",
-      "url": "https://movimentoeconomico.com.br/eventos/2026/04/24/reforma-tributaria-traz-mudancas-que-obrigam-empresas-a-alterarem-rotinas/",
+      "summary": "A fome não é apenas uma crise humanitária, mas também um significativo dreno na economia global. Relatórios de organismos como",
+      "details": "A fome não é apenas uma crise humanitária, mas também um significativo dreno na economia global. Relatórios de organismos como",
+      "url": "https://www.correiobraziliense.com.br/aqui/2026/04/24/o-impacto-da-fome-no-pib-global-quanto-o-mundo-perde-com-a-crise/",
       "source": "VEJA",
       "category": "latest",
       "tags": [
@@ -438,14 +548,14 @@
       "updatedAt": "2026-04-24T21:16:44Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://movimentoeconomico.com.br/wp-content/uploads/2026/04/palestra-Guilherme-Coelho-e-Romulo.jpeg"
+      "imageUrl": "https://www.correiobraziliense.com.br/aqui/wp-content/uploads/2026/04/fome_1777065506419.jpg"
     },
     {
       "id": "latest-842647f941ec0c0f6af18553",
       "title": "Taxas de juros recuam levemente com negociações entre EUA e Irã no radar",
-      "summary": "Notícias business : Participação no in-cosmetics Global 2026, em Paris, gera contratos imediatos e novas oportunidades para o setor",
-      "details": "Notícias business : Participação no in-cosmetics Global 2026, em Paris, gera contratos imediatos e novas oportunidades para o setor",
-      "url": "https://br.fashionnetwork.com/news/Empresas-brasileiras-projetam-mais-de-15-milhoes-de-dolares-em-negocios-apos-feira-global-de-cosmeticos,1827004.html",
+      "summary": "Enquanto bolsa realiza lucros, cotação do dólar alivia com leve otimismo em relação à guerra no Oriente Médio",
+      "details": "Enquanto bolsa realiza lucros, cotação do dólar alivia com leve otimismo em relação à guerra no Oriente Médio",
+      "url": "https://veja.abril.com.br/economia/ibovespa-e-dolar-recuam-de-olho-em-negociacao-entre-eua-e-ira/",
       "source": "Tribuna do Agreste",
       "category": "latest",
       "tags": [
@@ -457,14 +567,14 @@
       "updatedAt": "2026-04-24T21:11:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://media.fashionnetwork.com/cdn-cgi/image/fit=cover,width=600,height=600,format=auto/m/ac08/390e/a663/7c70/e96c/47d9/1b95/c7ee/694a/bd7f/bd7f.png"
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2025/01/b3-ibovespa-alta-acumulada-janeiro-205-tendencia-onde-investir-acoes-renda-variavel-1.jpg?quality=70&strip=info&resize=1080,565&crop=1"
     },
     {
       "id": "macro-c7fadd6dc576f7ee8816956b",
       "title": "Reforma tributária traz mudanças que obrigam empresas a alterarem rotinas",
-      "summary": "Enquanto bolsa realiza lucros, cotação do dólar alivia com leve otimismo em relação à guerra no Oriente Médio",
-      "details": "Enquanto bolsa realiza lucros, cotação do dólar alivia com leve otimismo em relação à guerra no Oriente Médio",
-      "url": "https://veja.abril.com.br/economia/ibovespa-e-dolar-recuam-de-olho-em-negociacao-entre-eua-e-ira/",
+      "summary": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
+      "details": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
+      "url": "https://www.tribunadoagreste.com.br/geral/2026/04/24/892081-taxas-de-juros-recuam-levemente-com-negociacoes-entre-eua-e-ira-no-radar",
       "source": "Movimento Econômico",
       "category": "macro",
       "tags": [
@@ -476,14 +586,14 @@
       "updatedAt": "2026-04-24T21:10:12Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2025/01/b3-ibovespa-alta-acumulada-janeiro-205-tendencia-onde-investir-acoes-renda-variavel-1.jpg?quality=70&strip=info&resize=1080,565&crop=1"
+      "imageUrl": "https://img.dhost.cloud/A0gmR_0UkbA3dbvZXeRsf8RTeos=/1200x630/smart/https://tdan.nyc3.digitaloceanspaces.com/images/4ee2c/823cbd4fa6c445b9779f46a2146129123f0.webp"
     },
     {
       "id": "macro-06b61867cf76687447184614",
       "title": "Governo Federal detalha proposta para minorar o impacto da guerra na economia brasileira",
-      "summary": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
-      "details": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
-      "url": "https://www.tribunadoagreste.com.br/geral/2026/04/24/892081-taxas-de-juros-recuam-levemente-com-negociacoes-entre-eua-e-ira-no-radar",
+      "summary": "O impacto da reforma tributária, o crédito e investimentos foram alguns temas dos debates que ocorreram no encontro exclusivo com especialistas do UBS BB Investement Bank e Parceiros Estratégicos",
+      "details": "O impacto da reforma tributária, o crédito e investimentos foram alguns temas dos debates que ocorreram no encontro exclusivo com especialistas do UBS BB Investement Bank e Parceiros Estratégicos",
+      "url": "https://movimentoeconomico.com.br/eventos/2026/04/24/reforma-tributaria-traz-mudancas-que-obrigam-empresas-a-alterarem-rotinas/",
       "source": "www.gov.br",
       "category": "macro",
       "tags": [
@@ -495,14 +605,33 @@
       "updatedAt": "2026-04-24T21:08:10Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://img.dhost.cloud/A0gmR_0UkbA3dbvZXeRsf8RTeos=/1200x630/smart/https://tdan.nyc3.digitaloceanspaces.com/images/4ee2c/823cbd4fa6c445b9779f46a2146129123f0.webp"
+      "imageUrl": "https://movimentoeconomico.com.br/wp-content/uploads/2026/04/palestra-Guilherme-Coelho-e-Romulo.jpeg"
+    },
+    {
+      "id": "companies-2c96a6ed639be5914ee14064",
+      "title": "STF confirma restrições à compra de terras por estrangeiros e empresas com capital externo no Brasil",
+      "summary": "Decisão unânime valida Lei nº 5.709/71 e reforça segurança jurídica, soberania territorial e controle sobre aquisição de imóveis rurais",
+      "details": "Decisão unânime valida Lei nº 5.709/71 e reforça segurança jurídica, soberania territorial e controle sobre aquisição de imóveis rurais",
+      "url": "https://www.portaldoagronegocio.com.br/politica-rural/assuntos-juridicos/noticias/stf-confirma-restricoes-a-compra-de-terras-por-estrangeiros-e-empresas-com-capital-externo-no-brasil",
+      "source": "Portal do Agronegócio",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-04-24T21:03:01Z",
+      "updatedAt": "2026-04-24T21:03:01Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://www.portaldoagronegocio.com.br/storage/images/notices/69eb9aaaef571.jpg"
     },
     {
       "id": "latest-2f345e14f00253d6880509a6",
       "title": "Ibovespa perde força, cai pela 3ª vez e encosta nos 190 mil pontos",
-      "summary": "A medida foi apresentada por ministros em Brasília e foi protocolada no Congresso Nacional para apreciação da Casa",
-      "details": "A medida foi apresentada por ministros em Brasília e foi protocolada no Congresso Nacional para apreciação da Casa",
-      "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/abril/governo-federal-detalha-proposta-para-minorar-o-impacto-da-guerra-na-economia-brasileira",
+      "summary": "Veja como se comportaram o Ibovespa e o dólar nesta sexta-feira (24) e o que movimentou os ativos. Acesse na íntegra no Bora Investir.",
+      "details": "Veja como se comportaram o Ibovespa e o dólar nesta sexta-feira (24) e o que movimentou os ativos. Acesse na íntegra no Bora Investir.",
+      "url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-recua-25-na-semana-com-incertezas-geopoliticas-dolar-fica-em-r-5/",
       "source": "GPS Brasília",
       "category": "latest",
       "tags": [
@@ -514,7 +643,7 @@
       "updatedAt": "2026-04-24T21:00:33Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.gov.br/fazenda/logo.png"
+      "imageUrl": "https://cdn.borainvestir.b3.com.br/2026/04/24174843/ibovespa-b3-recua-25-na-semana-com-incertezas-geopoliticas-dolar-fica-em-r-5.webp"
     },
     {
       "id": "macro-5b482037d6050d61c50f9649",
@@ -536,30 +665,11 @@
       "imageUrl": "https://gpsbrasilia.com.br/wp-content/uploads/2026/01/gpsbrasilia-15-1.jpg"
     },
     {
-      "id": "latest-dea43c2823d781d423a25d14",
-      "title": "Líderes debatem resiliência financeira durante encontro em BH",
-      "summary": "Líderes debatem resiliência financeira e estratégias de valor em encontro promovido pelo IBEF-MG, em cenário de alta volatilidade econômica.",
-      "details": "Líderes debatem resiliência financeira e estratégias de valor em encontro promovido pelo IBEF-MG, em cenário de alta volatilidade econômica.",
-      "url": "https://www.cidadeconecta.com/noticias/atualidades/lideres-debatem-resiliencia-financeira-durante-encontro-em-bh/",
-      "source": "Cidade Conecta",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-04-24T20:57:34Z",
-      "updatedAt": "2026-04-24T20:57:34Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.cidadeconecta.com/wp-content/uploads/2026/04/678601811_27245859455000278_7773189878281660831_n-e1777056388499.jpg"
-    },
-    {
       "id": "companies-20911491d7f68bc0efacaf56",
       "title": "Empresas brasileiras projetam mais de 15 milhões de dólares em negócios após feira global de cosméticos",
-      "summary": "Concurso Público 2026: xx editais saíram ao longo desta semana (20 a 24/04). Confira o número de oportunidades, remuneração e datas",
-      "details": "Concurso Público 2026: xx editais saíram ao longo desta semana (20 a 24/04). Confira o número de oportunidades, remuneração e datas",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-editais-semana-20-24-04/",
+      "summary": "Por Lewis KrauskopfA forte valorização das ações americanas enfrenta um teste em uma semana gigantesca de resultados corporativos, liderada por grandes empresas de tecnologia, juntamente com uma reunião do Federal Reserve que pode marcar o fim do mandato de Jerome Powell como pre",
+      "details": "Por Lewis KrauskopfA forte valorização das ações americanas enfrenta um teste em uma semana gigantesca de resultados corporativos, liderada por grandes empresas de tecnologia, juntamente com uma reunião do Federal Reserve que pode marcar o fim do mandato de Jerome Powell como presidente do banco ce…",
+      "url": "https://br.tradingview.com/news/reuters.com,2026:newsml_L1N41716M:0/",
       "source": "FashionNetwork Brasil",
       "category": "companies",
       "tags": [
@@ -571,14 +681,14 @@
       "updatedAt": "2026-04-24T20:49:04Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/05/05161312/concursos-2026.jpg"
+      "imageUrl": "https://s.tradingview.com/static/images/illustrations/news-story.jpg"
     },
     {
       "id": "latest-fb82a6e665ebc2cbe062ed15",
       "title": "Ibovespa B3 recua 2,5% na semana, com incertezas geopolíticas; dólar fica em R$ 5",
-      "summary": "Veja como se comportaram o Ibovespa e o dólar nesta sexta-feira (24) e o que movimentou os ativos. Acesse na íntegra no Bora Investir.",
-      "details": "Veja como se comportaram o Ibovespa e o dólar nesta sexta-feira (24) e o que movimentou os ativos. Acesse na íntegra no Bora Investir.",
-      "url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-recua-25-na-semana-com-incertezas-geopoliticas-dolar-fica-em-r-5/",
+      "summary": "Concurso Público 2026: xx editais saíram ao longo desta semana (20 a 24/04). Confira o número de oportunidades, remuneração e datas",
+      "details": "Concurso Público 2026: xx editais saíram ao longo desta semana (20 a 24/04). Confira o número de oportunidades, remuneração e datas",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-editais-semana-20-24-04/",
       "source": "Bora Investir",
       "category": "latest",
       "tags": [
@@ -590,7 +700,25 @@
       "updatedAt": "2026-04-24T20:49:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://cdn.borainvestir.b3.com.br/2026/04/24174843/ibovespa-b3-recua-25-na-semana-com-incertezas-geopoliticas-dolar-fica-em-r-5.webp"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/05/05161312/concursos-2026.jpg"
+    },
+    {
+      "id": "macro-c6fa0e72f7a04981e283392d",
+      "title": "Ações dos EUA em alta enfrentam semana crucial de balanços de tecnologia e reunião do Fed",
+      "summary": "Atualizacao de macro capturada em TradingView.",
+      "details": "",
+      "url": "https://br.fashionnetwork.com/news/Empresas-brasileiras-projetam-mais-de-15-milhoes-de-dolares-em-negocios-apos-feira-global-de-cosmeticos,1827004.html",
+      "source": "TradingView",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-04-24T20:47:06Z",
+      "updatedAt": "2026-04-24T20:47:06Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-f54a986f113fb767747e4eb5",
@@ -614,9 +742,9 @@
     {
       "id": "macro-ce2d11e5250398095ea7bc31",
       "title": "A cidade que virou lar da primeira universidade federal do interior do Brasil",
-      "summary": "CMN proíbe apostas em política e esportes em mercados preditivos e limita contratos a indicadores econômicos.",
-      "details": "CMN proíbe apostas em política e esportes em mercados preditivos e limita contratos a indicadores econômicos.",
-      "url": "https://melhorinvestimento.net/noticias/cmn-proibe-apostas-politica-esportes-mercado-preditivo",
+      "summary": "No centro geográfico do Rio Grande do Sul, Santa Maria reúne 282 mil habitantes, três universidades e a Universidade Federal",
+      "details": "No centro geográfico do Rio Grande do Sul, Santa Maria reúne 282 mil habitantes, três universidades e a Universidade Federal",
+      "url": "https://revistaoeste.com/oestegeral/2026/04/24/a-cidade-que-virou-lar-da-primeira-universidade-federal-do-interior-do-brasil/",
       "source": "Revista Oeste",
       "category": "macro",
       "tags": [
@@ -628,14 +756,14 @@
       "updatedAt": "2026-04-24T20:45:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://melhorinvestimento.net/wp-content/uploads/2026/04/cmn-proibe-apostas-politica-esportes-mercado-preditivo.jpg"
+      "imageUrl": "https://revistaoeste.com/oestegeral/wp-content/uploads/2026/04/University_campus_in_202604240408.jpg"
     },
     {
       "id": "latest-4450aea6399c947ed18c7de7",
       "title": "Maiores altas e baixas do Ibovespa na semana",
-      "summary": "Na semana de 19 a 24 de abril de 2026, o mercado financeiro brasileiro foi pressionado pela escalada militar entre Estados Unidos e Irã, que levou o petróleo Brent a superar os US$ 100 por barril e elevou as projeções de inflação, com o IPCA alcançando 4,80% no Boletim Focus. Nos",
-      "details": "Na semana de 19 a 24 de abril de 2026, o mercado financeiro brasileiro foi pressionado pela escalada militar entre Estados Unidos e Irã, que levou o petróleo Brent a superar os US$ 100 por barril e elevou as projeções de inflação, com o IPCA alcançando 4,80% no Boletim Focus. Nos Estados Unidos, entrou em […]",
-      "url": "https://trademap.com.br/agencia/mercados/maiores-altas-e-baixas-do-ibovespa-na-semana-37",
+      "summary": "Atualizacao de ultima hora capturada em trademap.com.br.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVkNxNWNBb3VFYVhyU0FrX1U0OXlGbHFuQk5pMHZjaFRDamZmZHpjWlJ6X1dvOUVOT3RuallsenRfYnZ3dFN1ekVWRTREcE1VMndYUFlUVTVEckQ4eGtZaWxuQ1ROSllERl9vWnVSQmN4XzM1NW9pVUlhdDI2czMxU3QxZTI1blE4UmJDR2FUZUNRQQ?oc=5",
       "source": "trademap.com.br",
       "category": "latest",
       "tags": [
@@ -646,15 +774,14 @@
       "publishedAt": "2026-04-24T20:39:00Z",
       "updatedAt": "2026-04-24T20:39:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://trademap.com.br/wp-content/uploads/2026/04/shutterstock_1177260355.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-c384df257504969b48ea03bc",
       "title": "Governo anuncia bloqueio de plataformas de mercado preditivo",
       "summary": "Atualizacao de ultima hora capturada em ametropolesorocabana.com.br.",
       "details": "",
-      "url": "https://ametropolesorocabana.com.br/governo-anuncia-bloqueio-de-plataformas-de-mercado-preditivo/",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNlBzM3lyVzFBT2lORDZ3SEIyeEtXc3dpLUlTUWNNQTZGUGxqWl9rYzNYeFJTeFlnZDhaQU82QUg2Q04tMklJRFZxczN4bFNmanZEWDhZRmFVZGhjMllrMXdSREExVXloYVRPX3NJLW1GdFU0ZHpTcHRMMXZ5aWs0VHdqZ2U2U3VQd0d5U0pfVUFmNUU5QThTRkZYalhTUQ?oc=5",
       "source": "ametropolesorocabana.com.br",
       "category": "latest",
       "tags": [
@@ -670,9 +797,9 @@
     {
       "id": "latest-0cd96ae04ee27cb748971ec1",
       "title": "CMN proíbe apostas em política, esportes e entretenimento em mercados preditivos no Brasil",
-      "summary": "No centro geográfico do Rio Grande do Sul, Santa Maria reúne 282 mil habitantes, três universidades e a Universidade Federal",
-      "details": "No centro geográfico do Rio Grande do Sul, Santa Maria reúne 282 mil habitantes, três universidades e a Universidade Federal",
-      "url": "https://revistaoeste.com/oestegeral/2026/04/24/a-cidade-que-virou-lar-da-primeira-universidade-federal-do-interior-do-brasil/",
+      "summary": "Atualizacao de ultima hora capturada em melhorinvestimento.net.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbi1mM0ZMLUgwM3VOTU5zVmpmUlk5NW1vMGxSNFlXLWJzNGFzT09MLXNMcUdwVFl0Yk40YjNwb2VybEhRaWhFUE9IRG9hWm1laGFlbFpIMXlMNGZGdEw1VUxiQVk1NFNmeHhta3FOazhJdnJ3UEFVM01vOTNOeG54UmhCWmZxb2xCTEcwMlBFRzh4d0VmRkZxM2Fn?oc=5",
       "source": "melhorinvestimento.net",
       "category": "latest",
       "tags": [
@@ -683,34 +810,14 @@
       "publishedAt": "2026-04-24T20:33:39Z",
       "updatedAt": "2026-04-24T20:33:39Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://revistaoeste.com/oestegeral/wp-content/uploads/2026/04/University_campus_in_202604240408.jpg"
-    },
-    {
-      "id": "latest-9caf6dd48100c73a36c55385",
-      "title": "Ibovespa hoje cai com dólar acima de R$ 5 e tensão global pressiona mercado",
-      "summary": "Ibovespa hoje fecha em queda pressionado por tensões globais, dólar acima de R$ 5 e volatilidade nas commodities, impactando ações na B3.",
-      "details": "Ibovespa hoje fecha em queda pressionado por tensões globais, dólar acima de R$ 5 e volatilidade nas commodities, impactando ações na B3.",
-      "url": "https://gazetamercantil.com/ibovespa-hoje-queda-dolar-5-reais-tensao-global",
-      "source": "Gazeta Mercantil",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-04-24T20:32:09Z",
-      "updatedAt": "2026-04-24T20:32:09Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://gazetamercantil.com/wp-content/uploads/2026/04/Ibovespa-cede-a-pressao-externa-e-cai-aos-191-mil.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-eecf2c2b7f49bf366d5104cd",
       "title": "Expectativa para a próxima reunião do Copom",
       "summary": "Atualizacao de macro capturada em Monitor Mercantil.",
       "details": "",
-      "url": "https://monitormercantil.com.br/expectativa-para-a-proxima-reuniao-do-copom-10/",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMnl3aGdQeGV0Z0Ryc1FEUUJNa2V5R2lYNC1QWHpMdHUwMnd2eEdKMHZoRDEwZkx0cmF1Q3lsSkZfbF9MMGV0ZXBCbXN4X3hoNzYwZVZlR2xsRWVKVjAteEF1NU5ZeXZrQWF5Q2VfNXRTbVlJYWxYc3Qzb1ByaTdqTDVCTkl4Zw?oc=5",
       "source": "Monitor Mercantil",
       "category": "macro",
       "tags": [
@@ -724,30 +831,11 @@
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "latest-68e1639888373c216ca7e40f",
-      "title": "Dólar volta a menos de R$ 5 e bolsa cai com petróleo cravado em US$ 105",
-      "summary": "Depois de subir um patamar na véspera, moeda americana retornou a R$ 4,997 nesta sexta-feira",
-      "details": "Depois de subir um patamar na véspera, moeda americana retornou a R$ 4,997 nesta sexta-feira",
-      "url": "https://gauchazh.clicrbs.com.br/colunistas/marta-sfredo/noticia/2026/04/dolar-volta-a-menos-de-r-5-e-bolsa-cai-com-petroleo-cravado-em-us-105-cmodcn14v023s015b3732fi29.html",
-      "source": "GZH",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-04-24T20:21:49Z",
-      "updatedAt": "2026-04-24T20:21:49Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.rbsdirect.com.br/filestore/6/7/1/5/9/1/5_fe46a5ef541910e/5195176_e67cd27c586ec3e.jpg?w=1024&h=512&a=c&version=1575255600"
-    },
-    {
       "id": "companies-933d037be71a676818d0a5ee",
       "title": "Cerco à “estrangeirização de terras” cresce no Brasil",
       "summary": "Atualizacao de empresas capturada em Claudio Dantas.",
       "details": "",
-      "url": "https://claudiodantas.com.br/cerco-estrangeirizacao-terras-brasil/",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5SajFYclhDYjQ0YS1LelFjZTdlRVYtZnZWNzF3M29SSC1KVWk5NThrUW5Fa3RZbmE0ZEJMTkRiOENhbWIxMUUwUzdKdlYzVkptT2tsc1dBdlFlUDBrSk5mdFlkRmU4V2ljd2t6OGNDNmxwNWVp?oc=5",
       "source": "Claudio Dantas",
       "category": "companies",
       "tags": [
@@ -759,24 +847,6 @@
       "updatedAt": "2026-04-24T20:20:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "latest-519bba8a358148a996f4ca64",
-      "title": "Agregação de valor à proteína brasileira e olhar do mercado financeiro serão discutidos em Fórum sobre bem-estar animal",
-      "summary": "Atualizacao de ultima hora capturada em CompreRural.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNlBsYjYzMUlFUzFSSURoMnB2anpQNWpGMU0xZl9qeHVWaUswa1dvTzhxNC1uSjNxQWsyUFViWHZ1TnByWWZBV3E3ZmwyT05XUzh2anlVcEpINFY5ZmpEZnQya2NSZ1Q0NlFVMjM5UkRUNDNQbGpSeWQ5VFRZZzFBUUhzWW9BaTFKZlYwbnJoYktZamh5LXhxNUk2UTFTdGZSeVc0cno3MzNoakZMNFlDR3ZOZVhDYVpaUHNaTWQ0TllYa0FJMDVlY19JbmRmdmxqcWdxN0NNYW5iUlhqb01xQUJR?oc=5",
-      "source": "CompreRural",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-04-24T19:58:16Z",
-      "updatedAt": "2026-04-24T19:58:16Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-c52f7e474cb965ada69f40c8",
@@ -831,24 +901,6 @@
       "updatedAt": "2026-04-24T19:41:19Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "latest-f26af02303014e0a9974a61f",
-      "title": "Ministério define regras para limitar juros do crédito consignado do trabalhador; entenda",
-      "summary": "Atualizacao de ultima hora capturada em Folha de S.Paulo.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUTBhQjk3czBSbWJyX0dWNVR0dm4zazd4SG9oV2NJaUl0MWwzaUFKTHlZOU5IUHoxdnFWSGViSEJYbS03VVRGRUJqV3RBc1Z1OVY5WjR5bjc2dFFOZkdsQjhqOENMYzU4WVNxaFNlQ0xKbVlWQ1QtZkNTekdmbkdNN2JvNDRDa0k2amtXN0piUF9ZMHlLRWJQMnpGcldhdXpFdTlRN19pOUwyTTNoQXI5dE1GLVZpc1BVclZCWkpjZVFnYmFEQVdiWTAwRFlEeWJKd1hPVkRKQdIB3AFBVV95cUxOdmp4dTkxMWxZN0lnMTdGSUhreGgwMnhCRnlYbXNLWVAwalZGMWdqX0hHeElYR3hhOUJpcXBUWmx0YXZKb1VfcVFJbXJWdFBDMlZPQ0dMZksxeWg5aTV2VVc3dU9yNm1fX3RzTUNZYlBKaUp5a3hwNVNieFFlV0Fvc0NVajdQaExoUWlrNmRxSnk1OW9VSXlnYmRhcnh4aDB4TGp6WU9yQldUZnpXMjFKVTZkVU5ST3pwVEVLMFdXa1JpX3V1dVpKZWNWVE5CbVhlek5Va0JxU21GWlB3?oc=5",
-      "source": "Folha de S.Paulo",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-04-24T19:39:00Z",
-      "updatedAt": "2026-04-24T19:39:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-e99dacafa38327f8fbe537a8",
@@ -995,24 +1047,6 @@
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "macro-03fd2ec33fd5d76891521e21",
-      "title": "Brilhou entre os emergentes: UBS WM destaca 3 fatores que fortalecem o Brasil; confira",
-      "summary": "Atualizacao de macro capturada em Money Times.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONUc3SFUxVlBDb00zU203NlNlc0pQdVZNeHktcW1jZEVXcVFxUFp1WDNvQWtNZnV6SERLVG85eGdXaHo4WTlIWEkwbXhGY25DYWNqamNmRnpENTJFOUpFbW91SEdnS0hkTFI2OFFRYVpDWjZPc1JmeXBtMDdkRXRZc2syYmpTb2xrM3kzMktfcllzWm5SaDV4U1RvQWtqMmZ4aXZoMVd4Q0NUcEhNSXhwRA?oc=5",
-      "source": "Money Times",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-04-24T18:37:00Z",
-      "updatedAt": "2026-04-24T18:37:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
       "id": "companies-f45b66f25f8dea59cbf5c18a",
       "title": "Interrupção de negócios e alta das commodities são os principais riscos corporativos no Brasil | SEGS...",
       "summary": "Atualizacao de empresas capturada em SEGS Portal Nacional.",
@@ -1065,24 +1099,6 @@
       "updatedAt": "2026-04-24T18:32:29Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "macro-af6058dbaa1def37187d6866",
-      "title": "Receita Federal retém 22 quilos de cocaína em Paranaguá",
-      "summary": "Atualizacao de macro capturada em www.gov.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLTZqVy1NV1dYZmR4RTRaNDBvQ2c5eG82UU54MnZvYkFma3NNV0Z5dkEwaWxzcFN4eGR3cmZrVzFkTktPcXFMdUkteDRJRndlQ1llbHhYdEF3RkFObkV4dFRSd0VDYzNwQldSRFRmWUQzNWFrTkI5NW5FOXpLRUhydUQ3ekpiMVFzbEpVZFVUTW5udldyU2NNSnhqbG0wWGxONVZVRmRPLXVUM3hUN1Vpb3ZQUzA2TDBKdU94d28za1dkZw?oc=5",
-      "source": "www.gov.br",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-04-24T18:20:05Z",
-      "updatedAt": "2026-04-24T18:20:05Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "companies-9a23bcb7379ce9585bcc24a8",
@@ -1371,24 +1387,6 @@
       "updatedAt": "2026-04-24T11:58:27Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-6f21b0960e55a7566006ab3c",
-      "title": "Dados não estruturados são desafio para incorporação da IA agêntica no Brasil",
-      "summary": "Atualizacao de empresas capturada em Contadores.cnt.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRk5rbHpYa0NLRkphQ1ZWaEYxQno4c2MtZWxvX0NVYVg2YjF3dTJNSi1ZbHpXX3RVQjFpbFZ4MU9uRXNfbEkxMjYzYlhSZnZLbHo2WDZaSlVpYXRTR2lQcVZvOHU5QW9xWXdKU2pQMzczZVNGTjRCa3JUeldyVnFHVWZxZkNYanRKbjQ2T1l4TlpwTFJ4VG5DZ2JGMm5iWm4xX3U3RnNMQjY2bUZNOGRNZFJYUFdJTnNWYUFKOVRLTDZSdlo0cVJNQ3M0Z2NzVkljdnpQWUNOVQ?oc=5",
-      "source": "Contadores.cnt.br",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-04-24T11:42:00Z",
-      "updatedAt": "2026-04-24T11:42:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "funds-babde01fd060ed8341d4d503",
