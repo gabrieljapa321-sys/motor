@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-04-26T15:57:40Z",
-  "generatedAt": "2026-04-26T15:57:40Z",
+  "updatedAt": "2026-04-26T16:46:31Z",
+  "generatedAt": "2026-04-26T16:46:31Z",
   "categories": [
     {
       "id": "all",
@@ -25,16 +25,16 @@
   ],
   "sources": [
     {
+      "id": "acionista-com-br",
+      "label": "Acionista.com.br"
+    },
+    {
+      "id": "averdade-com",
+      "label": "averdade.com"
+    },
+    {
       "id": "band-news-fm-curitiba",
       "label": "Band News FM Curitiba"
-    },
-    {
-      "id": "band-com-br",
-      "label": "band.com.br"
-    },
-    {
-      "id": "bol",
-      "label": "BOL"
     },
     {
       "id": "brasilemfolhas-com-br",
@@ -45,12 +45,16 @@
       "label": "Brazilian Times"
     },
     {
-      "id": "correio-braziliense",
-      "label": "Correio Braziliense"
+      "id": "capmad-com",
+      "label": "Capmad.com"
     },
     {
       "id": "cpg-click-petr-leo-e-g-s",
       "label": "CPG Click Petróleo e Gás"
+    },
+    {
+      "id": "diariodigital-com-br",
+      "label": "diariodigital.com.br"
     },
     {
       "id": "diplomacia-business",
@@ -69,12 +73,12 @@
       "label": "diário do estado"
     },
     {
-      "id": "em-com-br",
-      "label": "em.com.br"
-    },
-    {
       "id": "es-hoje",
       "label": "ES HOJE"
+    },
+    {
+      "id": "estado-de-minas",
+      "label": "Estado de Minas"
     },
     {
       "id": "estad-o-e-investidor",
@@ -89,12 +93,16 @@
       "label": "FOLHAMAX"
     },
     {
+      "id": "gazeta-de-limeira",
+      "label": "Gazeta de Limeira"
+    },
+    {
       "id": "gazeta-do-povo",
       "label": "Gazeta do Povo"
     },
     {
-      "id": "infomoney-com-br",
-      "label": "infomoney.com.br"
+      "id": "infomoney",
+      "label": "InfoMoney"
     },
     {
       "id": "investing-com-brasil-finan-as-c-mbio-e-investimentos",
@@ -109,16 +117,12 @@
       "label": "Jornal Onze de Maio"
     },
     {
-      "id": "jota",
-      "label": "JOTA"
-    },
-    {
       "id": "jovempan-com-br",
       "label": "jovempan.com.br"
     },
     {
-      "id": "monitor-mercantil",
-      "label": "Monitor Mercantil"
+      "id": "midianews",
+      "label": "MidiaNews"
     },
     {
       "id": "msn",
@@ -157,16 +161,12 @@
       "label": "Público"
     },
     {
-      "id": "radar-digital-bras-lia",
-      "label": "RADAR DIGITAL BRASÍLIA"
-    },
-    {
       "id": "radiomaringa-com-br",
       "label": "radiomaringa.com.br"
     },
     {
-      "id": "sergipenoticias-com",
-      "label": "sergipenoticias.com"
+      "id": "spacemoney",
+      "label": "SpaceMoney"
     },
     {
       "id": "traders-union",
@@ -175,6 +175,10 @@
     {
       "id": "tradingview",
       "label": "TradingView"
+    },
+    {
+      "id": "tribuna-da-internet",
+      "label": "Tribuna da Internet"
     },
     {
       "id": "tribuna-de-minas",
@@ -197,26 +201,75 @@
       "label": "veja.abril.com.br"
     },
     {
-      "id": "vero-not-cias",
-      "label": "Vero Notícias"
-    },
-    {
       "id": "vietnam-vn",
       "label": "Vietnam.vn"
-    },
-    {
-      "id": "webitcoin",
-      "label": "Webitcoin"
     }
   ],
   "items": [
     {
-      "id": "macro-b3f8f735c08cd8a8e9a02e6b",
+      "id": "macro-415cd05c11f082a13ee1a833",
+      "title": "Gazeta de Limeira",
+      "summary": "A partir de 1º de janeiro de 2027, o Brasil introduzirá um novo salário mínimo, estipulado em R$ 1.717, conforme",
+      "details": "A partir de 1º de janeiro de 2027, o Brasil introduzirá um novo salário mínimo, estipulado em R$ 1.717, conforme",
+      "url": "https://diariodocomercio.com.br/mix/governo-antecipa-aumento-no-salario-minimo-e-brasileiros-ja-sentem-a-nova-realidade/",
+      "source": "Gazeta de Limeira",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-04-26T16:37:48Z",
+      "updatedAt": "2026-04-26T16:37:48Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://diariodocomercio.com.br/mix/wp-content/uploads/2025/06/20072011_dinheirobancousp002-810x540-1.jpg"
+    },
+    {
+      "id": "macro-5a4b396617d752c84d7a949e",
+      "title": "Governo antecipa aumento no salário mínimo e brasileiros já sentem a nova realidade",
+      "summary": "Senador Tillis retira bloqueio após DOJ encerrar investigação sobre Powell; Warsh avança no Senado.",
+      "details": "Senador Tillis retira bloqueio após DOJ encerrar investigação sobre Powell; Warsh avança no Senado.",
+      "url": "https://www.spacemoney.com.br/noticias/warsh-ganha-forca-para-liderar-fed-apos-caso-powell/",
+      "source": "Diário do Comércio",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-04-26T16:12:00Z",
+      "updatedAt": "2026-04-26T16:12:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/04/pexels-photo-7849903-2.jpg"
+    },
+    {
+      "id": "macro-37f4a00fb245f6f86cc63045",
+      "title": "Warsh ganha força para liderar o Fed após caso Powell",
+      "summary": "Senador Thom Tillis retira bloqueio após garantias do Departamento de Justiça; Trump segue pressionando sobre estouro de custos, e Powell pode permanecer no board até 2028",
+      "details": "Senador Thom Tillis retira bloqueio após garantias do Departamento de Justiça; Trump segue pressionando sobre estouro de custos, e Powell pode permanecer no board até 2028",
+      "url": "https://www.infomoney.com.br/mercados/apos-fim-de-investigacao-sobre-powell-warsh-ganha-impulso-para-assumir-o-fed/",
+      "source": "SpaceMoney",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-04-26T16:09:39Z",
+      "updatedAt": "2026-04-26T16:09:39Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/04/454636206.jpg?quality=70"
+    },
+    {
+      "id": "macro-544fd3264e1513ac9d174689",
       "title": "Após fim de investigação sobre Powell, Warsh ganha impulso para assumir o Fed",
-      "summary": "Carteira da modalidade de crédito atinge R$ 3,2 bi em 2025, crescimento de 31,24% em relação ao ano anterior",
-      "details": "Carteira da modalidade de crédito atinge R$ 3,2 bi em 2025, crescimento de 31,24% em relação ao ano anterior",
-      "url": "https://www1.folha.uol.com.br/mercado/2026/04/disparada-do-ouro-selic-alta-e-endividamento-recorde-dao-impulso-a-penhor-de-joias-na-caixa.shtml",
-      "source": "infomoney.com.br",
+      "summary": "Portal de notícias Gazeta de Limeira.",
+      "details": "Portal de notícias Gazeta de Limeira.",
+      "url": "https://www.gazetadelimeira.com.br/noticia/economia/2026/04/onde-investir-r-57-milhoes-especialista-analisa-o-melhor-destino/AE6b?preview=",
+      "source": "InfoMoney",
       "category": "macro",
       "tags": [
         "macro",
@@ -226,8 +279,7 @@
       "publishedAt": "2026-04-26T15:43:29Z",
       "updatedAt": "2026-04-26T15:43:29Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2021/03/15/1615809484604f4bcc1412e_1615809484_3x2_rt.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-46db920b50fc245197f79302",
@@ -251,9 +303,9 @@
     {
       "id": "macro-39874f3375b25739f841f83c",
       "title": "Análise: Fed se reúne sob expectativa de cortes de juros marginais e tardios ao longo de 2026",
-      "summary": "Senador Thom Tillis retira bloqueio após garantias do Departamento de Justiça; Trump segue pressionando sobre estouro de custos, e Powell pode permanecer no board até 2028",
-      "details": "Senador Thom Tillis retira bloqueio após garantias do Departamento de Justiça; Trump segue pressionando sobre estouro de custos, e Powell pode permanecer no board até 2028",
-      "url": "https://www.infomoney.com.br/mercados/apos-fim-de-investigacao-sobre-powell-warsh-ganha-impulso-para-assumir-o-fed/",
+      "summary": "Reuniões do Fed, BCE, BoE, BoJ e BC do Canadá devem repetir tom duro, sem cortes, em meio a inflação pressionada por energia e crescimento ainda frágil",
+      "details": "Reuniões do Fed, BCE, BoE, BoJ e BC do Canadá devem repetir tom duro, sem cortes, em meio a inflação pressionada por energia e crescimento ainda frágil",
+      "url": "https://www.infomoney.com.br/economia/g-7-congela-juros-sob-pressao-do-petroleo-e-espera-sinal-da-inflacao-global/",
       "source": "Valor Econômico",
       "category": "macro",
       "tags": [
@@ -265,7 +317,7 @@
       "updatedAt": "2026-04-26T15:33:49Z",
       "premium": true,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/04/454636206.jpg?quality=70"
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/04/454628768.jpg?fit=4000%2C2668&quality=70&strip=all"
     },
     {
       "id": "macro-cf67cbaef4296ef4d2dea5dd",
@@ -288,9 +340,9 @@
     {
       "id": "macro-96920e45aaad1cfea2803235",
       "title": "Powell lidera última reunião como presidente do Fed em meio a preocupações com a inflação",
-      "summary": "Decisão encerra meses de incerteza para Kevin Warsh e abre caminho para sua aprovação no Senado até 15 de maio, data em que termina o mandato de Jerome Powell",
-      "details": "Decisão encerra meses de incerteza para Kevin Warsh e abre caminho para sua aprovação no Senado até 15 de maio, data em que termina o mandato de Jerome Powell",
-      "url": "https://valor.globo.com/financas/noticia/2026/04/26/senador-diz-que-est-pronto-para-levar-adiante-aprovao-de-warsh-como-presidente-do-fed.ghtml",
+      "summary": "Em meio a incertezas intensificadas pela guerra no Irã, discussão dominante deixou de ser o início do ciclo de redução das taxas e passou a girar em torno da duração de uma política monetária restritiva",
+      "details": "Em meio a incertezas intensificadas pela guerra no Irã, discussão dominante deixou de ser o início do ciclo de redução das taxas e passou a girar em torno da duração de uma política monetária restritiva",
+      "url": "https://valor.globo.com/financas/noticia/2026/04/26/analise-fed-se-reune-sob-expectativa-de-cortes-marginais-e-tardios-dos-juros-ao-longo-de-2026.ghtml",
       "source": "MSN",
       "category": "macro",
       "tags": [
@@ -302,15 +354,15 @@
       "updatedAt": "2026-04-26T15:13:20Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/jfMbL-RaYTTSN4WwD3qhcTO28kY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/E/F/L3yORERjevCLqL9OOBsg/431928163.jpg"
+      "imageUrl": "https://s2-valor.glbimg.com/GL-F97DQFCHXXEDE8vWiUqz_9M8=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/4/J/HHdf5tRGu6pBxp2GR1bA/442947780.jpg"
     },
     {
-      "id": "macro-b22ae2ea56f9af2110f9601b",
+      "id": "macro-fbd41a08ca02ffc0b1d27643",
       "title": "G7 congela juros sob pressão do petróleo e espera sinal da inflação global",
-      "summary": "Reuniões do Fed, BCE, BoE, BoJ e BC do Canadá devem repetir tom duro, sem cortes, em meio a inflação pressionada por energia e crescimento ainda frágil",
-      "details": "Reuniões do Fed, BCE, BoE, BoJ e BC do Canadá devem repetir tom duro, sem cortes, em meio a inflação pressionada por energia e crescimento ainda frágil",
-      "url": "https://www.infomoney.com.br/economia/g-7-congela-juros-sob-pressao-do-petroleo-e-espera-sinal-da-inflacao-global/",
-      "source": "infomoney.com.br",
+      "summary": "Decisão encerra meses de incerteza para Kevin Warsh e abre caminho para sua aprovação no Senado até 15 de maio, data em que termina o mandato de Jerome Powell",
+      "details": "Decisão encerra meses de incerteza para Kevin Warsh e abre caminho para sua aprovação no Senado até 15 de maio, data em que termina o mandato de Jerome Powell",
+      "url": "https://valor.globo.com/financas/noticia/2026/04/26/senador-diz-que-est-pronto-para-levar-adiante-aprovao-de-warsh-como-presidente-do-fed.ghtml",
+      "source": "InfoMoney",
       "category": "macro",
       "tags": [
         "macro",
@@ -321,14 +373,14 @@
       "updatedAt": "2026-04-26T15:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/04/454628768.jpg?fit=4000%2C2668&quality=70&strip=all"
+      "imageUrl": "https://s2-valor.glbimg.com/jfMbL-RaYTTSN4WwD3qhcTO28kY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/E/F/L3yORERjevCLqL9OOBsg/431928163.jpg"
     },
     {
       "id": "macro-e66ebc6515b3c453daf7eba5",
       "title": "Disparada do ouro, Selic alta e endividamento recorde dão impulso a penhor de joias na Caixa",
-      "summary": "Descubra as novas regras do governo federal para o crédito consignado de trabalhadores CLT. Entenda como o Ministério do Trabalho e Emprego vai restringir juros abusivos e garantir mais transparência e proteção ao consumidor.",
-      "details": "Descubra as novas regras do governo federal para o crédito consignado de trabalhadores CLT. Entenda como o Ministério do Trabalho e Emprego vai restringir juros abusivos e garantir mais transparência e proteção ao consumidor.",
-      "url": "https://portaln10.com.br/economiabr/governo-passa-a-limitar-juros-abusivos-no-consignado-de-trabalhadores-clt-330828/",
+      "summary": "Carteira da modalidade de crédito atinge R$ 3,2 bi em 2025, crescimento de 31,24% em relação ao ano anterior",
+      "details": "Carteira da modalidade de crédito atinge R$ 3,2 bi em 2025, crescimento de 31,24% em relação ao ano anterior",
+      "url": "https://www1.folha.uol.com.br/mercado/2026/04/disparada-do-ouro-selic-alta-e-endividamento-recorde-dao-impulso-a-penhor-de-joias-na-caixa.shtml",
       "source": "Folha de S.Paulo",
       "category": "macro",
       "tags": [
@@ -340,14 +392,33 @@
       "updatedAt": "2026-04-26T15:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://portaln10.com.br/wp-content/uploads/2025/05/consignado-clt-impulsionado-pela-troca-de-dividas-alcanca-r-101-bilhoes-em-liberacoes-scaled.jpg"
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2021/03/15/1615809484604f4bcc1412e_1615809484_3x2_rt.jpg"
+    },
+    {
+      "id": "macro-af4b4d6a32660ddb4dd2e8aa",
+      "title": "Parque industrial escolhido por gigante chinesa concentra 2% do PIB de SC",
+      "summary": "O Perini Business Park abriga gigantes da indústria e concentra 2% do Produto Interno Bruto (PIB) de Santa Catarina.",
+      "details": "O Perini Business Park abriga gigantes da indústria e concentra 2% do Produto Interno Bruto (PIB) de Santa Catarina.",
+      "url": "https://www.nsctotal.com.br/noticias/parque-industrial-escolhido-por-gigante-chinesa-concentra-2-do-pib-de-sc",
+      "source": "NSC Total",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-04-26T15:00:00Z",
+      "updatedAt": "2026-04-26T15:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/04/Parque-industrial-escolhido-por-gigante-chinesa-concentra-2-do-PIB-de-SC.jpg"
     },
     {
       "id": "latest-a7b90473e4c5334a247e4ce0",
       "title": "Governo limita juros abusivos no consignado para CLT",
-      "summary": "O déficit de R$ 61,7 bilhões registrado pelo governo central em 2025 vai provocar o acionamento inédito dos gatilhos automáticos do arcabouço fiscal a partir de 2027. Os gastos com pessoal ficarão limitados a crescimento real de 0,6%, abaixo do teto geral de 2,5%, e ficará proibi",
-      "details": "O déficit de R$ 61,7 bilhões registrado pelo governo central em 2025 vai provocar o acionamento inédito dos gatilhos automáticos do arcabouço fiscal a partir de 2027. Os gastos com pessoal ficarão limitados a crescimento real de 0,6%, abaixo do teto geral de 2,5%, e ficará proibida a criação ou ampliação de benefícios ",
-      "url": "https://clickpetroleoegas.com.br/o-rombo-de-r-617-bilhoes-nas-contas-do-governo-em-2025-vai-acionar-pela-primeira-vez-os-gatilhos-do-arcabouco-fiscal-e-a-partir-de-2027-os-gastos-com-pessoal-so-poderao-crescer-06-aci-mhbb01/",
+      "summary": "Atualizacao de ultima hora capturada em Portal N10.",
+      "details": "",
+      "url": "https://www.msn.com/pt-br/dinheiro/economia-e-negocios/an%C3%A1lise-mercado-reage-mal-a-plano-do-governo-para-combust%C3%ADvel/ar-AA21Lxnd",
       "source": "Portal N10",
       "category": "latest",
       "tags": [
@@ -358,15 +429,14 @@
       "publishedAt": "2026-04-26T14:55:05Z",
       "updatedAt": "2026-04-26T14:55:05Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://clickpetroleoegas.com.br/wp-content/uploads/2026/04/O-rombo-de-R-617-bilhoes-nas-contas-do-governo.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-4245a088128c69725dc737b2",
       "title": "Powell lidera última reunião como presidente do Fed em meio a preocupações com a inflação",
-      "summary": "Atualizacao de macro capturada em UOL Notícias.",
-      "details": "",
-      "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/04/26/powell-lidera-ultima-reuniao-como-presidente-do-fed-em-meio-a-preocupacoes-com-a-inflacao.htm",
+      "summary": "Governo federal planeja acionar gatilhos do arcabouço fiscal a partir de 2027 para frear despesas obrigatórias e conter o rombo nas contas públicas.",
+      "details": "Governo federal planeja acionar gatilhos do arcabouço fiscal a partir de 2027 para frear despesas obrigatórias e conter o rombo nas contas públicas.",
+      "url": "https://www.nsctotal.com.br/noticias/governo-prepara-trava-em-salarios-e-beneficios-a-partir-de-2027",
       "source": "UOL Notícias",
       "category": "macro",
       "tags": [
@@ -377,14 +447,15 @@
       "publishedAt": "2026-04-26T14:48:31Z",
       "updatedAt": "2026-04-26T14:48:31Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/03/dinheiro-10.jpg"
     },
     {
       "id": "macro-445927ee41f689d153830ad6",
       "title": "O rombo de R$ 61,7 bilhões nas contas do governo em 2025 vai acionar pela primeira vez os gatilhos do arcabouço fiscal, e a partir de 2027 os gastos com pessoal só poderão crescer 0,6% acima da inflação, o que pode travar reajustes salariais e concurso",
-      "summary": "Em meio a incertezas intensificadas pela guerra no Irã, discussão dominante deixou de ser o início do ciclo de redução das taxas e passou a girar em torno da duração de uma política monetária restritiva",
-      "details": "Em meio a incertezas intensificadas pela guerra no Irã, discussão dominante deixou de ser o início do ciclo de redução das taxas e passou a girar em torno da duração de uma política monetária restritiva",
-      "url": "https://valor.globo.com/financas/noticia/2026/04/26/analise-fed-se-reune-sob-expectativa-de-cortes-marginais-e-tardios-dos-juros-ao-longo-de-2026.ghtml",
+      "summary": "Atualizacao de macro capturada em CPG Click Petróleo e Gás.",
+      "details": "",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/04/26/powell-lidera-ultima-reuniao-como-presidente-do-fed-em-meio-a-preocupacoes-com-a-inflacao.htm",
       "source": "CPG Click Petróleo e Gás",
       "category": "macro",
       "tags": [
@@ -395,15 +466,14 @@
       "publishedAt": "2026-04-26T14:47:00Z",
       "updatedAt": "2026-04-26T14:47:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/GL-F97DQFCHXXEDE8vWiUqz_9M8=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/4/J/HHdf5tRGu6pBxp2GR1bA/442947780.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-51e294156fa81b3f0cd2b4d3",
       "title": "Análise: Mercado reage mal a plano do governo para combustível",
-      "summary": "Atualizacao de ultima hora capturada em MSN.",
-      "details": "",
-      "url": "https://www.msn.com/pt-br/dinheiro/economia-e-negocios/an%C3%A1lise-mercado-reage-mal-a-plano-do-governo-para-combust%C3%ADvel/ar-AA21Lxnd",
+      "summary": "O déficit de R$ 61,7 bilhões registrado pelo governo central em 2025 vai provocar o acionamento inédito dos gatilhos automáticos do arcabouço fiscal a partir de 2027. Os gastos com pessoal ficarão limitados a crescimento real de 0,6%, abaixo do teto geral de 2,5%, e ficará proibi",
+      "details": "O déficit de R$ 61,7 bilhões registrado pelo governo central em 2025 vai provocar o acionamento inédito dos gatilhos automáticos do arcabouço fiscal a partir de 2027. Os gastos com pessoal ficarão limitados a crescimento real de 0,6%, abaixo do teto geral de 2,5%, e ficará proibida a criação ou ampliação de benefícios ",
+      "url": "https://clickpetroleoegas.com.br/o-rombo-de-r-617-bilhoes-nas-contas-do-governo-em-2025-vai-acionar-pela-primeira-vez-os-gatilhos-do-arcabouco-fiscal-e-a-partir-de-2027-os-gastos-com-pessoal-so-poderao-crescer-06-aci-mhbb01/",
       "source": "MSN",
       "category": "latest",
       "tags": [
@@ -414,14 +484,15 @@
       "publishedAt": "2026-04-26T14:43:30Z",
       "updatedAt": "2026-04-26T14:43:30Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://clickpetroleoegas.com.br/wp-content/uploads/2026/04/O-rombo-de-R-617-bilhoes-nas-contas-do-governo.jpg"
     },
     {
       "id": "macro-f86c0f9673c6e8a83614586d",
       "title": "Governo prepara \"trava\" em salários e benefícios a partir de 2027",
-      "summary": "Agropecuária cresce 12,4% e impulsiona PIB da Bahia no fim de 2025, com safra recorde, exportações históricas e forte expansão da pecuária, segundo dados da SEI e Seagri.",
-      "details": "Agropecuária cresce 12,4% e impulsiona PIB da Bahia no fim de 2025, com safra recorde, exportações históricas e forte expansão da pecuária, segundo dados da SEI e Seagri.",
-      "url": "https://jornalgrandebahia.com.br/2026/04/agropecuaria-cresce-124-e-impulsiona-pib-da-bahia-no-quarto-trimestre-de-2025-aponta-boletim-da-sei/",
+      "summary": "Proposta do governo para subsidiar preços dos combustíveis gera desconfiança entre investidores. Saiba mais sobre os impactos no mercado.",
+      "details": "Proposta do governo para subsidiar preços dos combustíveis gera desconfiança entre investidores. Saiba mais sobre os impactos no mercado.",
+      "url": "https://diariodoestadogo.com.br/mercado-reage-negativamente-ao-plano-do-governo-para-combustiveis-o-que-esperar/",
       "source": "NSC Total",
       "category": "macro",
       "tags": [
@@ -433,7 +504,7 @@
       "updatedAt": "2026-04-26T14:40:28Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://i0.wp.com/jornalgrandebahia.com.br/wp-content/uploads/2026/04/Agropecuaria-cresce-124-e-impulsiona-PIB-da-Bahia-no-quarto-trimestre-de-2025.jpg?fit=1200%2C800&quality=30&ssl=1"
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/04/mercado-reage-negativamente-ao-plano-do-governo-para-combustiveis3A-o-que-esperar3F.jpg"
     },
     {
       "id": "macro-1a222e36387b69744b65f41b",
@@ -457,9 +528,9 @@
     {
       "id": "latest-6e4683384b565c306dd8595f",
       "title": "Mercado reage negativamente ao plano do governo para combustíveis: o que esperar?",
-      "summary": "Governo federal planeja acionar gatilhos do arcabouço fiscal a partir de 2027 para frear despesas obrigatórias e conter o rombo nas contas públicas.",
-      "details": "Governo federal planeja acionar gatilhos do arcabouço fiscal a partir de 2027 para frear despesas obrigatórias e conter o rombo nas contas públicas.",
-      "url": "https://www.nsctotal.com.br/noticias/governo-prepara-trava-em-salarios-e-beneficios-a-partir-de-2027",
+      "summary": "Descubra as novas regras do governo federal para o crédito consignado de trabalhadores CLT. Entenda como o Ministério do Trabalho e Emprego vai restringir juros abusivos e garantir mais transparência e proteção ao consumidor.",
+      "details": "Descubra as novas regras do governo federal para o crédito consignado de trabalhadores CLT. Entenda como o Ministério do Trabalho e Emprego vai restringir juros abusivos e garantir mais transparência e proteção ao consumidor.",
+      "url": "https://portaln10.com.br/economiabr/governo-passa-a-limitar-juros-abusivos-no-consignado-de-trabalhadores-clt-330828/",
       "source": "diário do estado",
       "category": "latest",
       "tags": [
@@ -471,14 +542,14 @@
       "updatedAt": "2026-04-26T14:01:10Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/03/dinheiro-10.jpg"
+      "imageUrl": "https://portaln10.com.br/wp-content/uploads/2025/05/consignado-clt-impulsionado-pela-troca-de-dividas-alcanca-r-101-bilhoes-em-liberacoes-scaled.jpg"
     },
     {
       "id": "macro-ed001600a900ab3b95b3ce14",
       "title": "Agropecuária cresce 12,4% e impulsiona PIB da Bahia no quarto trimestre de 2025, aponta boletim da SEI",
-      "summary": "Proposta do governo para subsidiar preços dos combustíveis gera desconfiança entre investidores. Saiba mais sobre os impactos no mercado.",
-      "details": "Proposta do governo para subsidiar preços dos combustíveis gera desconfiança entre investidores. Saiba mais sobre os impactos no mercado.",
-      "url": "https://diariodoestadogo.com.br/mercado-reage-negativamente-ao-plano-do-governo-para-combustiveis-o-que-esperar/",
+      "summary": "Agropecuária cresce 12,4% e impulsiona PIB da Bahia no fim de 2025, com safra recorde, exportações históricas e forte expansão da pecuária, segundo dados da SEI e Seagri.",
+      "details": "Agropecuária cresce 12,4% e impulsiona PIB da Bahia no fim de 2025, com safra recorde, exportações históricas e forte expansão da pecuária, segundo dados da SEI e Seagri.",
+      "url": "https://jornalgrandebahia.com.br/2026/04/agropecuaria-cresce-124-e-impulsiona-pib-da-bahia-no-quarto-trimestre-de-2025-aponta-boletim-da-sei/",
       "source": "Jornal Grande Bahia",
       "category": "macro",
       "tags": [
@@ -490,15 +561,15 @@
       "updatedAt": "2026-04-26T14:00:07Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/04/mercado-reage-negativamente-ao-plano-do-governo-para-combustiveis3A-o-que-esperar3F.jpg"
+      "imageUrl": "https://i0.wp.com/jornalgrandebahia.com.br/wp-content/uploads/2026/04/Agropecuaria-cresce-124-e-impulsiona-PIB-da-Bahia-no-quarto-trimestre-de-2025.jpg?fit=1200%2C800&quality=30&ssl=1"
     },
     {
-      "id": "latest-875e1f92788cb698c599b690",
+      "id": "latest-ef6f3ffbb5e14181081d074d",
       "title": "Maioria dos brasileiros investe para comprar imóvel, aponta pesquisa",
       "summary": "Principal destino dos recursos aplicados no mercado é a compra da casa própria, especialmente na classe C",
       "details": "Principal destino dos recursos aplicados no mercado é a compra da casa própria, especialmente na classe C",
       "url": "https://www.infomoney.com.br/onde-investir/maioria-dos-brasileiros-investe-para-comprar-imovel-aponta-pesquisa/",
-      "source": "infomoney.com.br",
+      "source": "InfoMoney",
       "category": "latest",
       "tags": [
         "mercado",
@@ -512,12 +583,30 @@
       "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2025/12/19907.jpg?quality=70"
     },
     {
-      "id": "macro-421a38f228411dab1e0c8413",
+      "id": "latest-8a68b8b7d3910d323dda8fac",
+      "title": "PT tensiona Banco Central e reposiciona discurso econômico para 2026",
+      "summary": "Atualizacao de ultima hora capturada em Tribuna da Internet.",
+      "details": "",
+      "url": "https://tribunadainternet.com.br/2026/04/26/pt-tensiona-banco-central-e-reposiciona-discurso-economico-para-2026/",
+      "source": "Tribuna da Internet",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-04-26T13:37:02Z",
+      "updatedAt": "2026-04-26T13:37:02Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "macro-f0353a16ce3af189d86eeb4c",
       "title": "Minas Gerais tem mais de R$ 1 trilhão em riqueza e só 25 cidades concentram mais da metade: veja quais são",
-      "summary": "O Instituto Brasileiro de Geografia e Estatística (IBGE) divulgou em 19 de dezembro de 2025 a pesquisa PIB dos Municípios",
-      "details": "O Instituto Brasileiro de Geografia e Estatística (IBGE) divulgou em 19 de dezembro de 2025 a pesquisa PIB dos Municípios",
-      "url": "https://www.em.com.br/emfoco/2026/04/26/minas-gerais-tem-mais-de-r-1-trilhao-em-riqueza-e-so-25-cidades-concentram-mais-da-metade-veja-quais-sao/",
-      "source": "em.com.br",
+      "summary": "Retomada das negociações EUA-Irã incerta após cancelamento de viagem de emissários, impactando a economia global.",
+      "details": "Retomada das negociações EUA-Irã incerta após cancelamento de viagem de emissários, impactando a economia global.",
+      "url": "https://diariodoestadogo.com.br/eua-e-ira-dialogos-em-suspenso-premeditam-aumento-de-tensao/",
+      "source": "Estado de Minas",
       "category": "macro",
       "tags": [
         "macro",
@@ -528,14 +617,14 @@
       "updatedAt": "2026-04-26T13:35:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.em.com.br/emfoco/wp-content/uploads/2026/04/Juiz_de_Fora_202604251851-1.jpg"
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/04/eua-e-ira3A-dialogos-em-suspenso-premeditam-aumento-de-tensao.png"
     },
     {
       "id": "latest-56f288e9f09372a1a75dc610",
       "title": "Clube do Valor inaugura escritório em Belo Horizonte: Como impacta seus investimentos?",
-      "summary": "Clube do Valor abre nova unidade em Belo Horizonte, mudando panorama financeiro brasileiro. Saiba mais sobre essa expansão estratégica.",
-      "details": "Clube do Valor abre nova unidade em Belo Horizonte, mudando panorama financeiro brasileiro. Saiba mais sobre essa expansão estratégica.",
-      "url": "https://diariodoestadogo.com.br/clube-do-valor-inaugura-escritorio-em-belo-horizonte-como-impacta-seus-investimentos/",
+      "summary": "Atualizacao de ultima hora capturada em diário do estado.",
+      "details": "",
+      "url": "https://br.investing.com/news/economy-news/um-novo-presidente-do-fed-sempre-traz-turbulencia-ao-mercado-1910509",
       "source": "diário do estado",
       "category": "latest",
       "tags": [
@@ -546,8 +635,7 @@
       "publishedAt": "2026-04-26T13:01:13Z",
       "updatedAt": "2026-04-26T13:01:13Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/04/clube-do-valor-inaugura-escritorio-em-belo-horizonte3A-como-impacta-seus-investimentos3F.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-49aa89768075f304f177e5e6",
@@ -571,9 +659,9 @@
     {
       "id": "macro-2eeb33c8320ecff40757bde3",
       "title": "Um novo presidente do Fed sempre traz turbulência ao mercado?",
-      "summary": "Atualizacao de macro capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
-      "details": "",
-      "url": "https://br.investing.com/news/economy-news/um-novo-presidente-do-fed-sempre-traz-turbulencia-ao-mercado-1910509",
+      "summary": "Clube do Valor abre nova unidade em Belo Horizonte, mudando panorama financeiro brasileiro. Saiba mais sobre essa expansão estratégica.",
+      "details": "Clube do Valor abre nova unidade em Belo Horizonte, mudando panorama financeiro brasileiro. Saiba mais sobre essa expansão estratégica.",
+      "url": "https://diariodoestadogo.com.br/clube-do-valor-inaugura-escritorio-em-belo-horizonte-como-impacta-seus-investimentos/",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "macro",
       "tags": [
@@ -584,26 +672,45 @@
       "publishedAt": "2026-04-26T13:01:00Z",
       "updatedAt": "2026-04-26T13:01:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/04/clube-do-valor-inaugura-escritorio-em-belo-horizonte3A-como-impacta-seus-investimentos3F.jpg"
     },
     {
-      "id": "macro-c0cdb91926fa82aa2f69d4eb",
-      "title": "IR 2026: o que fazer se for morar no exterior",
-      "summary": "Entenda comunicação e declaração de saída definitiva e como muda a tributação para não residentes",
-      "details": "Entenda comunicação e declaração de saída definitiva e como muda a tributação para não residentes",
-      "url": "https://www.band.com.br/economia/noticias/ir-2026-o-que-fazer-se-for-morar-no-exterior-202604091832",
-      "source": "band.com.br",
-      "category": "macro",
+      "id": "funds-4744bf8c86f3a025dd88b754",
+      "title": "MidiaNews",
+      "summary": "Atualizacao de fundos capturada em MidiaNews.",
+      "details": "",
+      "url": "https://www.midianews.com.br/amp/politica/master-sabotou-controles-para-crescer-bancos-tentam-corrigir/518925",
+      "source": "MidiaNews",
+      "category": "funds",
       "tags": [
-        "macro",
-        "juros",
-        "inflacao"
+        "fundos",
+        "asset",
+        "fiis"
       ],
-      "publishedAt": "2026-04-26T13:00:03Z",
-      "updatedAt": "2026-04-26T13:00:03Z",
+      "publishedAt": "2026-04-26T13:00:00Z",
+      "updatedAt": "2026-04-26T13:00:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://img.band.com.br/image/2025/03/12/imposto-de-renda-2025-16563.jpg"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "latest-a2334c28c05706943d72198f",
+      "title": "EUA e Irã: Diálogos em Suspenso Premeditam Aumento de Tensão",
+      "summary": "O Instituto Brasileiro de Geografia e Estatística (IBGE) divulgou em 19 de dezembro de 2025 a pesquisa PIB dos Municípios",
+      "details": "O Instituto Brasileiro de Geografia e Estatística (IBGE) divulgou em 19 de dezembro de 2025 a pesquisa PIB dos Municípios",
+      "url": "https://www.em.com.br/emfoco/2026/04/26/minas-gerais-tem-mais-de-r-1-trilhao-em-riqueza-e-so-25-cidades-concentram-mais-da-metade-veja-quais-sao/",
+      "source": "diário do estado",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-04-26T12:48:40Z",
+      "updatedAt": "2026-04-26T12:48:40Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.em.com.br/emfoco/wp-content/uploads/2026/04/Juiz_de_Fora_202604251851-1.jpg"
     },
     {
       "id": "latest-634a874d5de1e3d088988ab7",
@@ -627,9 +734,9 @@
     {
       "id": "latest-ab5b3470dcb6cc4380c5bc84",
       "title": "Pacote dos combustíveis não dará conta da crise",
-      "summary": "Novas regras da transação da RFB causaram retrocesso, com migração de um modelo de consensualidade para um focado em créditos irrecuperáveis ou teses.",
-      "details": "Novas regras da transação da RFB causaram retrocesso, com migração de um modelo de consensualidade para um focado em créditos irrecuperáveis ou teses.",
-      "url": "https://www.jota.info/opiniao-e-analise/colunas/pauta-fiscal/o-retrocesso-da-consensualidade",
+      "summary": "Atualizacao de ultima hora capturada em Diário Causa Operária.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQd1lQbVlubFN1LXcySkFidlNZU2RoTm1KTHpreFh4VTRVcFdiR1BIMXZJa3BveU4zM1hXQU11VjBBemU1cmhzUlRRNFRRN1ViTHhac19UWXYwRW81NEpuLVZETkg4ZTNMampLWm1aaVgtNGNQRExVY2xicDh4LUhYemlTQ0hIdHIwNUE?oc=5",
       "source": "Diário Causa Operária",
       "category": "latest",
       "tags": [
@@ -640,53 +747,14 @@
       "publishedAt": "2026-04-26T12:25:07Z",
       "updatedAt": "2026-04-26T12:25:07Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://images.jota.info/wp-content/uploads/2026/04/dimitri-karastelev-zh4fuyiaczy-unsplash.jpg"
-    },
-    {
-      "id": "macro-c7baf057d88f7f867836cb06",
-      "title": "O retrocesso da consensualidade",
-      "summary": "O governo Lula anunciou um pacote para conter a alta dos combustíveis diante do novo choque internacional do petróleo. A medida é apresentada em artigo do",
-      "details": "O governo Lula anunciou um pacote para conter a alta dos combustíveis diante do novo choque internacional do petróleo. A medida é apresentada em artigo do",
-      "url": "https://causaoperaria.org.br/2026/pacote-dos-combustiveis-nao-dara-conta-da-crise/",
-      "source": "JOTA",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-04-26T12:22:30Z",
-      "updatedAt": "2026-04-26T12:22:30Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://causaoperaria.org.br/wp-content/uploads/2026/04/petrobras-2026.webp"
-    },
-    {
-      "id": "macro-afa0647f8dc69334a46d9ee8",
-      "title": "Senado avalia indicação de Warsh para comando do Fed",
-      "summary": "A votação acontece após o Departamento de Justiça encerrar investigação sobre Jerome Powell, que apurava gastos com reformas.",
-      "details": "A votação acontece após o Departamento de Justiça encerrar investigação sobre Jerome Powell, que apurava gastos com reformas.",
-      "url": "https://veronoticias.com/economia/senado-avalia-indicacao-de-warsh-para-comando-do-fed/",
-      "source": "Vero Notícias",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-04-26T12:20:00Z",
-      "updatedAt": "2026-04-26T12:20:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://veronoticias.com/wp-content/uploads/2026/02/trump-indica-kevin-warsh-para-o-comando-do-federal-reserve-trends-ce-1110x624-1.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-0635502a57fdfebc115417af",
       "title": "A ‘Maldição Ghibli’: Quando a Animação Japonesa Encontra as Flutuações da Bolsa",
-      "summary": "Um fenômeno peculiar intriga o mercado financeiro japonês e os entusiastas da cultura pop: a chamada 'Maldição Ghibli'. Esta lenda urbana sugere uma correlação entre as exibições televisivas de filmes do renomado Studio Ghibli e quedas no índice Nikkei 225, o principal termômetro",
-      "details": "Um fenômeno peculiar intriga o mercado financeiro japonês e os entusiastas da cultura pop: a chamada 'Maldição Ghibli'. Esta lenda urbana sugere uma correlação entre as exibições televisivas de filmes do renomado Studio Ghibli e quedas no índice Nikkei 225, o principal termômetro da Bolsa de Valores de Tóquio. Apesar d",
-      "url": "https://portalf5.com.br/a-maldicao-ghibli-quando-a-animacao-japonesa-encontra-as-flutuacoes-da-bolsa/",
+      "summary": "Atualizacao de ultima hora capturada em portalf5.com.br.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTnQtSVpmTUVFWkxIRnZVYW9HVGZCdEJybVh0N3ZEX3o2VDBKcDlxcUMtZUZ3V3R4VXdNdW9rUEhUS3Z3RkhSdFZfNW1FNERqX0pXQlRpVzhwYXY0dUMtTFJjM2tRa1BlVnZNLTR3NDVtWjRrdllMekhkb1lYbTI0aEt1Y0U4WW1XTlY1T2FXb21UWGRiR0IxWHhQU3ZlaURQMXc4?oc=5",
       "source": "portalf5.com.br",
       "category": "latest",
       "tags": [
@@ -697,34 +765,32 @@
       "publishedAt": "2026-04-26T12:04:34Z",
       "updatedAt": "2026-04-26T12:04:34Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://portalf5.com.br/v2017/content/uploads/2026/04/Logo-Academia-Nerds-8.png"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "macro-880ee5f663ccbc94cd39c041",
-      "title": "Qual é a ameaça real da inflação?",
-      "summary": "Qual é a ameaça real da inflação?",
-      "details": "Qual é a ameaça real da inflação?",
-      "url": "https://br.investing.com/news/economy-news/qual-e-a-ameaca-real-da-inflacao-1910501",
-      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "category": "macro",
+      "id": "latest-362eda3ab41cec56ac3c1c76",
+      "title": "Brava Energia Recebe Oferta de R$ 23 por Ação",
+      "summary": "Atualizacao de ultima hora capturada em Acionista.com.br.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6RkgwU1lJNkFMcnVnNmdZWnpPYXFPRGdQUW42R0lWQnRYWF9HNllqSkU0UmcxSGI4cW5KTWliUlR3MVdfalp3VmJuVXpRWnV1VXNFOEdtX0dyUWY4RDcxUEhUYXdYZ1ZGUDhMSFJmQVVNV081NXBHbThR?oc=5",
+      "source": "Acionista.com.br",
+      "category": "latest",
       "tags": [
-        "macro",
-        "juros",
-        "inflacao"
+        "mercado",
+        "bolsa",
+        "macro"
       ],
-      "publishedAt": "2026-04-26T11:58:00Z",
-      "updatedAt": "2026-04-26T11:58:00Z",
+      "publishedAt": "2026-04-26T12:04:01Z",
+      "updatedAt": "2026-04-26T12:04:01Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://i-invdn-com.investing.com/news/moved_LYNXNPEL1J0NY_L.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-e525e826c49a5ffd960b02f3",
       "title": "O sinal de maturidade das empresas brasileiras na bolsa",
-      "summary": "As boas práticas de gestão se enraízam cada vez mais nas empresas brasileiras",
-      "details": "As boas práticas de gestão se enraízam cada vez mais nas empresas brasileiras",
-      "url": "https://veja.abril.com.br/economia/o-sinal-de-maturidade-das-empresas-brasileiras-na-bolsa/",
+      "summary": "Atualizacao de empresas capturada em veja.abril.com.br.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMmh0bEx3a3ROYTNxMGltWlBWdVhkZHpwQjNuWnE3V3dINDJMbktfb3k2RWctcE93WXJyS2pIOVRvR0NrSUNCNnNabGZKWDNWRk9zRXRDQkxycGh4U0NJVVFoQS1XeGpZbi1MRzdzT3JITnNYWFgwMEx6WFdZMW1OV090QzJvX1lieEk0ZmF3NXpIWTR4aXc?oc=5",
       "source": "veja.abril.com.br",
       "category": "companies",
       "tags": [
@@ -735,8 +801,7 @@
       "publishedAt": "2026-04-26T11:00:28Z",
       "updatedAt": "2026-04-26T11:00:28Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/01/GRAFICO-DA-BOLSA-DE-VALORES-SP-IA-2026.jpg.jpg?quality=70&strip=info&resize=1080,565&crop=1"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-fee7d6dac43a822187c602ab",
@@ -773,6 +838,42 @@
       "updatedAt": "2026-04-26T10:52:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "latest-8a8b9cac7dddc1f799a2ae8a",
+      "title": "Apostas não financeiras em plataformas de previsões são proibidas",
+      "summary": "Atualizacao de ultima hora capturada em diariodigital.com.br.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOelI0TUVFV0pLMHdqNlR5ZFdJaTdsSmc1ejVMRVUydVZJR1dSTHdjM2o1cjN1SEJ5NGhyOEl0NUpPLXdYMzR0eUpEMTVXalU4WVBVN0lBZDBQcFBkRjNxcHRxM2djUGVtWk9pYnhPcklxZ2VMRWpYN3M5MTkxQTNnQ1R3LUdYUldqdG9sYkxzTFdtTEN1Ym5pWFlKbm8xS0xBUTlFWmhBYmVWLW_SAasBQVVfeXFMTnpSNE1FRVdKSzB3ajZUeWRXSWk3bEpnNXo1TEVVMnVWSUdXUkx3YzNqNXIzdUhCeTRocjhJdDVKTy13WDM0dHlKRDE1V2pVOFlQVTdJQWQwUHBQZEYzcXB0cTNnY1BlbVpPaWJ4T3JJcWdlTEVqWDdzOTE5MUEzZ0NUdy1HWFJXanRvbGJMc0xXbUxDdWJuaVhZSm5vMUtMQVE5RVpoQWJlVi1v?oc=5",
+      "source": "diariodigital.com.br",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-04-26T10:50:00Z",
+      "updatedAt": "2026-04-26T10:50:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "latest-4c65cafdd64bd0c9f360eddb",
+      "title": "Escritora Cidinha da Silva lança obra reveladora sobre resistência de mulheres negras no mercado editorial",
+      "summary": "Atualizacao de ultima hora capturada em diário do estado.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUEJNX2p4U3JKTnJqMkVicHM2WHVaMmJBaGI5QTdQdE1YNjJNRlVqNnpGQU9veU9KRHFjd2NpWXlIVFE5Wm9vYm5yaGtwWWk5WnRjV3NQendrMlhRYnJHckdWeE9Dc1BYbmJoOVlGZlRFeVZkTFN4TmlnZ3BkUWNkWmVTYTBLS0V4d1JEQXQ2cEoyYTVvN0M5c2R5WEpEYkQ3QjJkZlhvcXE4RkpQZG9tSkJlZXU4bG9WMFUwRjNKNHJDNzMxSjFvYWJkZG9rNzQ0SkloUDFn?oc=5",
+      "source": "diário do estado",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-04-26T10:31:09Z",
+      "updatedAt": "2026-04-26T10:31:09Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-33e44893554ccab5b45e9e5c",
@@ -847,78 +948,6 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-cb62c9815c6f755f565bd80b",
-      "title": "Uso de receita extra do petróleo para baratear combustíveis frustra mercado",
-      "summary": "Atualizacao de ultima hora capturada em BOL.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPY0o1YURvRkljQTY0WlJlOFlWa0RtSE8tSlVHd29JS2NwWlI2NkFzTTgwbE1qMmU0NDNKRmFGdk9sYWRLallvRUVFU3lhRy1NZncxbnJGTld0aGdOelBLU0FlSkhqMV8wRGtNRExGbzZrTWthN2JkNlAyVlVqcGZketIBgAFBVV95cUxPY0o1YURvRkljQTY0WlJlOFlWa0RtSE8tSlVHd29JS2NwWlI2NkFzTTgwbE1qMmU0NDNKRmFGdk9sYWRLallvRUVFU3lhRy1NZncxbnJGTld0aGdOelBLU0FlSkhqMV8wRGtNRExGbzZrTWthN2JkNlAyVlVqcGZkeg?oc=5",
-      "source": "BOL",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-04-26T08:30:00Z",
-      "updatedAt": "2026-04-26T08:30:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-b8ce102fec6de974dcb8b797",
-      "title": "ILM critica proibição de mercados de previsão no Brasil",
-      "summary": "Atualizacao de ultima hora capturada em Webitcoin.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaHIwSjRhOERXVWdZZUdMMDF4RUt4OF9nX20teEVhYnV3SHRNSlVlYUhJNVRORlZLd1RMWnlfRW5zbzctM0M4bmxGQ1VZMjNsR0JtTWFSVkdjc2RUWkJQeFF4bXpxSGRjUkZjdndMN2kxOHZSMm5GOXM0cUhNVUN2Y1ZSbEJ2Q2VB?oc=5",
-      "source": "Webitcoin",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-04-26T08:23:45Z",
-      "updatedAt": "2026-04-26T08:23:45Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-8c25fe07f51b2c0f0e7e553f",
-      "title": "'Faltou governança na crise do BRB', detalham especialistas",
-      "summary": "Atualizacao de ultima hora capturada em Correio Braziliense.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaHcxWm5vMUcyczcyd1doSEFVelZXRmgxU0o1bHZLYjJ6a1pMdEV1SHZ4RG91d3pheWw1eHpuQlo1M1V3TzIybXlCakNfbE00WWJ3RmJuVkRrMnIxTEg0OEJiVmZCMWJxeGhnQTZoRGJoR2IzRHlycVc5M1BqUUI5WlF4TTRmd3dKTng5ZUVIVElJLWZiVHFBcGdRVnByM0tYaHhOdmlYbzEwczU1d00ydHluM1RMQjl1ZUpfMjVnN2VtMDYw0gHKAUFVX3lxTE44b3hJUjRlZXpfT1FlbzJrZ1lpMk9MM3NEcVBoYy14MkRfQ0hiNUlybjc0X3p3WlRlU3h0bEtPeW8yb1VFdTRvemZBR0trMmI2MmpMaWlfQUNBQ2xOa2VFLTVQdWphTV9iM2tpSmlhbDZreEc4RFVoaHdIR3ppdG5pM1I4TW92Qk5aZFo1VEM3eXl1SVRKR2lkb2JWSGlSRGdKU2R6Wmt6TFNQb1NHSXlDTkx2eWE1elJKSVRBT2V3N1o1VmhRY0RBVEE?oc=5",
-      "source": "Correio Braziliense",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-04-26T08:00:00Z",
-      "updatedAt": "2026-04-26T08:00:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-b96d757336caa024efcaa17d",
-      "title": "Gangue do ‘Quebra-Vidro’ lidera roubos de celular em vias da cidade: Impactos no mercado",
-      "summary": "Atualizacao de ultima hora capturada em diário do estado.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVUFLcjdLQ1dqMHNZSnRFcll4YW4teFpvOGh0OHgxX0hVSVV0YkJDc09UTjd1QjA2dUZqLWhkMF9kZUlPZmlhWDRYajM5ekxwTU9wRnF3VXFPMVVfUHBHSDYzR25TTXU4NG5QNVBZa00zMUJEakpoVkU1TzRac251Z0t4QXd6aXp4ZmpQSl93TXFySzFUTHEwNERrYkdXQVNSMG93aXhkMmZiaTBMenJIdzItbGFuaTBIV0E?oc=5",
-      "source": "diário do estado",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-04-26T07:01:24Z",
-      "updatedAt": "2026-04-26T07:01:24Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "funds-a301bfa68309461b8286c49b",
       "title": "A oposição dos grupos bancários à Digital Asset Market Clarity Act faz com que o site TRUMP caia 9,75%",
       "summary": "Atualizacao de fundos capturada em Traders Union.",
@@ -935,24 +964,6 @@
       "updatedAt": "2026-04-26T06:06:21Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "latest-1206f9401a5caf708a5737f1",
-      "title": "Apostas não financeiras em plataformas de previsões são proibidas",
-      "summary": "Atualizacao de ultima hora capturada em sergipenoticias.com.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOFJsQjVqT2tjSjBwcDlGQmtXNHBOY01YN0pvTjNMM3JTUDNyTFRBS0pHRWZQXzREMndKV08yWHVlME5GdEFoV2dNQVp0SDJIbVR1Uk1jV1RpTkM0Zk5rOGZtZmFmZEoySm9Ha3ZvTmc5YkVMS25aQmtxa3p3M1V3Nms1R21ZYnZOUm15bzRIWFNESHVMUXBjSmw1R2hISENJUmJNU3Q5V3YzeUJmMXJfeklraGdPamFMOHc?oc=5",
-      "source": "sergipenoticias.com",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-04-26T06:03:00Z",
-      "updatedAt": "2026-04-26T06:03:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-3e82939dec3c3c1c231938a1",
@@ -1009,6 +1020,24 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
+      "id": "funds-4546332b4126b808bdcc5b5c",
+      "title": "Marième Youm Kobar : Appointed Managing Director of Impaxis Asset Management West Africa",
+      "summary": "Atualizacao de fundos capturada em Capmad.com.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxPc2w4ZDllTGdTUWowYjQ4SmZyYjJJRDJzNGFmYVBCbU1oTjZ1UWhqcVdYYy1rZzJyOHlYc25vMGtsWWlnU01odnl0cFZSc1FOd1VQQmx4M05PZllVUzJTajVYVWp5M0JjTk5Kb3U2UXEtc3h2U3JGUDJSc0ZlWE45aW8tdFQtc05zTGJMMTNUNDUzeFNaQnBMbkpvU2lERWFzSVlJZndIWjRZMHQ2enpsdzFWYVp0OGxfNFZoTHdyWmhZZVE4VU5zdkdDWkJnb0FtVDV2ZWdmMDR5c1JjajVzRGFIWFRSTGktYVozeE1VYUJnX29DOHlMbnNJMHhZZnhMbWFYa1BBdTNHYk9qTjVTS0c5dUthV2hubE03MnpvQ1FzZi00Nm0wc1FFQWNfV244aGdjMWZ3YllYaGN0WWlDQ1JrQVFTbF9IamtfLVRpNnE2NUNsZWNn?oc=5",
+      "source": "Capmad.com",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-04-25T22:57:52Z",
+      "updatedAt": "2026-04-25T22:57:52Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
       "id": "funds-e047b30a993455a62bdbf423",
       "title": "Sem citar Lula, Tarcísio diz que há ‘lideranças envelhecidas’ que não percebem a hora de parar",
       "summary": "Atualizacao de fundos capturada em jovempan.com.br.",
@@ -1041,6 +1070,24 @@
       ],
       "publishedAt": "2026-04-25T22:05:00Z",
       "updatedAt": "2026-04-25T22:05:00Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "funds-0e3c04852522d62873650661",
+      "title": "Livro \"A Clarinha e as Estrelas\" de Joana Matos apresentado no Museu Carmen Miranda",
+      "summary": "Atualizacao de fundos capturada em averdade.com.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQkFhelpHbkhZcHpOd0hGNXFCQVowdEc5dWRJa0VCR0dJTWV0TFJZZDZzYllGclZWcVpURTBzMVhNMnNmb19TQjdyZG13UHNUZFdiWDl3dVJmZnFETmxGaEpuaFNqcWx5X0pJZXpVa0NvZllYWERZRXRVem1pMHBzbUtyWExUOVl2Wk9VcFRKWndKU0JXV2xaVHV3b3M0RUVtMTEwZjlaOWxqS2dWRzc4M0RaV04?oc=5",
+      "source": "averdade.com",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-04-25T18:49:47Z",
+      "updatedAt": "2026-04-25T18:49:47Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
@@ -1279,12 +1326,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "funds-9294c32b7ca9ba74440ee63d",
+      "id": "funds-065f1878e7fd31ba53fd43d3",
       "title": "Bons e baratos: ETFs crescem 70% e viram a nova febre do mercado brasileiro",
-      "summary": "Atualizacao de fundos capturada em infomoney.com.br.",
+      "summary": "Atualizacao de fundos capturada em InfoMoney.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSWNwQ2VKdXlUc3RuLTlZSXZHdUl1djNjUGkxNEl5LXJvaEpvR2szT2p4aGRQUDdYTjVPSlZpakxad2JmWXRxUDZfdFd4bDZMWlpYVEV0QUllaDVZR0xNT0FiNUdSNVJtMGV4amIxNXFRQ3hza0NRTGxfbWVfTS1CUGViQm42S0RXNERHQkZqR3RQZ1hqNV9HdlZYdEZPZnRmTVNzUk9fMHVSQWI3VDhCNEpaR25JXy1lSERQWFp30gG-AUFVX3lxTE9JY3BDZUp1eVRzdG4tOVlJdkd1SXV2M2NQaTE0SXktcm9oSm9HazNPanhoZFBQN1hONU9KVmlqTFp3YmZZdHFQNl90V3hsNkxaWlhURXRBSWVoNVlHTE1PQWI1R1I1Um0wZXhqYjE1cVFDeHNrQ1FMbF9tZV9NLUJQZWJCbjZLRFc0REdCRmpHdFBnWGo1X0d2Vlh0Rk9mdGZNU3NST18wdVJBYjdUOEI0SlpHbklfLWVIRFBYWnc?oc=5",
-      "source": "infomoney.com.br",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTFl5VWc0M0REak0xZDBsVEt3cDktTlpPSzJHUFRpN3ZhQTVWWWVmdnV2c0xXM0pNZGg2NnJyMnczM0xxZ0hsUzRmd3NjWjRVaGQtZ3hDNG4yb2h1Vk05UHpKUmYwZmRfbzhhM0g5TUdYN2RPVGdmeVA1ejNXbk4tZmpNRzhocDltdjE3eEdSLS1CRzFhck9HVWx1N1dfd1ZtcjFCU0prcmdnU1ZaT0stR0hQbi1UV0st0gG-AUFVX3lxTE9JY3BDZUp1eVRzdG4tOVlJdkd1SXV2M2NQaTE0SXktcm9oSm9HazNPanhoZFBQN1hONU9KVmlqTFp3YmZZdHFQNl90V3hsNkxaWlhURXRBSWVoNVlHTE1PQWI1R1I1Um0wZXhqYjE1cVFDeHNrQ1FMbF9tZV9NLUJQZWJCbjZLRFc0REdCRmpHdFBnWGo1X0d2Vlh0Rk9mdGZNU3NST18wdVJBYjdUOEI0SlpHbklfLWVIRFBYWnc?oc=5",
+      "source": "InfoMoney",
       "category": "funds",
       "tags": [
         "fundos",
@@ -1331,60 +1378,6 @@
       "updatedAt": "2026-04-25T07:03:16Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-ac930f85e6a42b55b3b6efd1",
-      "title": "Hyperliquid whale holds $38M short against Bitcoin, but does it matter?",
-      "summary": "Atualizacao de fundos capturada em TradingView.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZ2RSQkVOTkVNSmh2X0VEd2gyMHBnZ05MUjRXdjA5MkZGWlY1TktFanZLQVdlN2gwWl93ZmFLYlcxMGZDZnBLUW90QkVRTWVMZ1c0Nm91TTZyY0RFTFV0RGFWTUtrM0pVNFk5OU01d2wzT0xwbm9aT2VhZUtqNHI3cnVNdERkeHhJal9ycDJzQVNRNnlSR3FFdjZ3d2lBd3A0TlJFN0twSzJBa3ItVi1zQV84X1NIZTdNYlY3cnc4Z1pGMS13Q1JNaEpTSVZtdGpK?oc=5",
-      "source": "TradingView",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-04-25T02:35:00Z",
-      "updatedAt": "2026-04-25T02:35:00Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-00923b4aad83023c2a3b11bc",
-      "title": "Empresas brasileiras de saúde e farmacêuticas devem seguir com rating negativo",
-      "summary": "Atualizacao de empresas capturada em Monitor Mercantil.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNzh3U2lnVjJYLTJ2TVA4ZDJIeWg4UDRSMjA3dVR3dW13UWxGWlo1S3ZuU3c2VTNxQmVoMmJtb0szNXN1ZDFiaTdvM1gzaFRkcEt1ODVYX3NSclFEeFE5cVk3aGZzaEN2X2M3MlRoWXlVQjROTjY2Z0JTdTRvTFJTT2dzMEFsSmpOczZINkxJZ0pKeUJPbGZ4a3pZRGNfZmFzUWh4Z3VPTEJGOExqQVJEUA?oc=5",
-      "source": "Monitor Mercantil",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-04-25T00:12:03Z",
-      "updatedAt": "2026-04-25T00:12:03Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-ca119b87ef374741257533d2",
-      "title": "STF confirma restrições à compra de terras por estrangeiros e empresas com capital externo no Brasil",
-      "summary": "Atualizacao de empresas capturada em RADAR DIGITAL BRASÍLIA.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQOS03WEIzVXFqYU1XT240bzhXdkRySjZDbG1xTkxtbEJDd1RrYWRldVlSSlh3UEpoeXRIWDBNVnpqSGJaQjlQLWtsdldKZE12OGptYUdHLTZYcXM1aGJDUkJYeEc1NkJrdUptaUtPRnV6VTM0ejFqZkh1WWhkb2dSSTY3bGc3Y24wQ3QzTFh2Z0ZfWFBqQ01DTXZRT0VzVE9pd0p1aks4VERKYklFRmt5alQ0b1NqZzF3eGdGQi1VblBYVDZmRll3dktxUnlsaFZoelJTXzJDTjF1bTBCWER2Yl9jOA?oc=5",
-      "source": "RADAR DIGITAL BRASÍLIA",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-04-25T00:05:31Z",
-      "updatedAt": "2026-04-25T00:05:31Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     }
   ]
 }
