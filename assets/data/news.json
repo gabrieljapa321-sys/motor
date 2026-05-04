@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-04T21:05:56Z",
-  "generatedAt": "2026-05-04T21:05:56Z",
+  "updatedAt": "2026-05-04T22:15:10Z",
+  "generatedAt": "2026-05-04T22:15:10Z",
   "categories": [
     {
       "id": "all",
@@ -25,6 +25,10 @@
   ],
   "sources": [
     {
+      "id": "comsefaz",
+      "label": "- Comsefaz"
+    },
+    {
       "id": "40graus-com-br",
       "label": "40graus.com.br"
     },
@@ -37,28 +41,28 @@
       "label": "Acionista.com.br"
     },
     {
-      "id": "advfn",
-      "label": "ADVFN"
-    },
-    {
       "id": "averdade-com",
       "label": "averdade.com"
+    },
+    {
+      "id": "bm-c-news",
+      "label": "BM&C News"
+    },
+    {
+      "id": "bol",
+      "label": "BOL"
     },
     {
       "id": "bora-investir",
       "label": "Bora Investir"
     },
     {
-      "id": "bpmoney",
-      "label": "BPMoney"
-    },
-    {
       "id": "brasil-247",
       "label": "Brasil 247"
     },
     {
-      "id": "carta-de-not-cias",
-      "label": "Carta de Notícias"
+      "id": "brasil-de-fato",
+      "label": "Brasil de Fato"
     },
     {
       "id": "cdl-divin-polis",
@@ -85,28 +89,20 @@
       "label": "diário do estado"
     },
     {
-      "id": "es-brasil",
-      "label": "ES Brasil"
-    },
-    {
       "id": "estad-o",
       "label": "Estadão"
-    },
-    {
-      "id": "estad-o-blue-studio",
-      "label": "Estadão Blue Studio"
     },
     {
       "id": "estad-o-e-investidor",
       "label": "Estadão E-Investidor"
     },
     {
-      "id": "exame",
-      "label": "Exame"
-    },
-    {
       "id": "folha-de-s-paulo",
       "label": "Folha de S.Paulo"
+    },
+    {
+      "id": "folhamax",
+      "label": "FOLHAMAX"
     },
     {
       "id": "g1",
@@ -117,32 +113,28 @@
       "label": "Gazeta do Povo"
     },
     {
+      "id": "gov-br",
+      "label": "GOV.BR"
+    },
+    {
       "id": "icl-not-cias",
       "label": "ICL Notícias"
-    },
-    {
-      "id": "imirante-com",
-      "label": "Imirante.com"
-    },
-    {
-      "id": "investidor10",
-      "label": "Investidor10"
     },
     {
       "id": "jornal-classivale",
       "label": "Jornal Classivale"
     },
     {
+      "id": "jornal-do-br-s",
+      "label": "Jornal do Brás"
+    },
+    {
+      "id": "jornal-do-com-rcio",
+      "label": "Jornal do Comércio"
+    },
+    {
       "id": "legisweb",
       "label": "LegisWeb"
-    },
-    {
-      "id": "migalhas",
-      "label": "Migalhas"
-    },
-    {
-      "id": "money-times",
-      "label": "Money Times"
     },
     {
       "id": "monitor-do-mercado",
@@ -157,14 +149,6 @@
       "label": "Muita Informação"
     },
     {
-      "id": "o-brasilianista",
-      "label": "O Brasilianista"
-    },
-    {
-      "id": "o-globo",
-      "label": "O Globo"
-    },
-    {
       "id": "pagina1mt",
       "label": "Pagina1mt"
     },
@@ -177,20 +161,16 @@
       "label": "Petronotícias"
     },
     {
-      "id": "portal-do-agroneg-cio",
-      "label": "Portal do Agronegócio"
-    },
-    {
       "id": "portal-tela",
       "label": "Portal Tela"
     },
     {
-      "id": "portal-uai",
-      "label": "Portal Uai"
-    },
-    {
       "id": "revista-ap-lice",
       "label": "Revista Apólice"
+    },
+    {
+      "id": "safra",
+      "label": "Safra"
     },
     {
       "id": "segs-portal-nacional",
@@ -205,12 +185,20 @@
       "label": "Times Brasil | CNBC"
     },
     {
+      "id": "trademap-com-br",
+      "label": "trademap.com.br"
+    },
+    {
       "id": "tradingview",
       "label": "TradingView"
     },
     {
       "id": "tribuna-do-norte",
       "label": "Tribuna do Norte"
+    },
+    {
+      "id": "tribuna-do-sert-o",
+      "label": "Tribuna do Sertão"
     },
     {
       "id": "uol-economia",
@@ -221,17 +209,441 @@
       "label": "UOL Notícias"
     },
     {
-      "id": "www-gov-br",
-      "label": "www.gov.br"
+      "id": "valor-investe",
+      "label": "Valor Investe"
+    },
+    {
+      "id": "veja",
+      "label": "VEJA"
+    },
+    {
+      "id": "vero-not-cias",
+      "label": "Vero Notícias"
+    },
+    {
+      "id": "wscom",
+      "label": "WSCOM"
     }
   ],
   "items": [
     {
+      "id": "macro-eb1b81a9586395ffc2bb2f19",
+      "title": "Prêmio Nacional de Educação Fiscal 2026 é lançado na sede do Comsefaz em Brasília",
+      "summary": "Comsefaz",
+      "details": "Flávio Dino questiona Banco Central e CVM sobre falhas na fiscalização de fundos de investimento usados para lavagem de dinheiro. Entenda o caso.",
+      "url": "https://diario.dopovo.com.br/2026/05/04/dino-cobra-bc-e-cvm-sobre-falhas-na-fiscalizacao-de-fundos/",
+      "source": "- Comsefaz",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-04T22:03:52Z",
+      "updatedAt": "2026-05-04T22:03:52Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://diario.dopovo.com.br/i/media/2026/05/3cc514ca16600db1.dino-cobra-bc-e-cvm-sobre-falhas-na-fiscalizacao-de-fundos"
+    },
+    {
+      "id": "funds-417380a0d93cbe8d0bc4216f",
+      "title": "Dino cobra BC e CVM sobre falhas na fiscalização de fundos",
+      "summary": "Iniciativa da Febrafite, em parceria com o GT de Educação Fiscal do Confaz, reconhece projetos que fortalecem a cidadania tributária no país",
+      "details": "Iniciativa da Febrafite, em parceria com o GT de Educação Fiscal do Confaz, reconhece projetos que fortalecem a cidadania tributária no país",
+      "url": "https://comsefaz.org.br/novo/premio-nacional-de-educacao-fiscal-2026-e-lancado-na-sede-do-comsefaz-em-brasilia/",
+      "source": "diario.dopovo.com.br",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-05-04T22:02:46Z",
+      "updatedAt": "2026-05-04T22:02:46Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://comsefaz.org.br/novo/wp-content/uploads/2026/05/Captura-de-Tela-2026-05-04-as-18.59.26-1.png"
+    },
+    {
+      "id": "latest-0dfdd733f10519a4e8abab65",
+      "title": "Entenda os movimentos do mercado financeiro e seus impactos nos investimentos",
+      "summary": "O presidente do STF, Edson Fachin, afirmou que escândalos recentes no mercado financeiro são consequência da falta de limites e de fiscalização adequada.",
+      "details": "O presidente do STF, Edson Fachin, afirmou que escândalos recentes no mercado financeiro são consequência da falta de limites e de fiscalização adequada.",
+      "url": "https://veronoticias.com/politica/fachin-liga-escandalos-a-falta-de-controle-no-mercado-financeiro/",
+      "source": "diário do estado",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-04T22:01:23Z",
+      "updatedAt": "2026-05-04T22:01:23Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://veronoticias.com/wp-content/uploads/2025/04/fachin.jpeg"
+    },
+    {
+      "id": "latest-0d976f80b527eb1a635fd35d",
+      "title": "Mercado Financeiro: Quedas e Estabilidade em Meio a Flutuações",
+      "summary": "Confira as últimas variações nos principais índices e ações do mercado financeiro.",
+      "details": "Confira as últimas variações nos principais índices e ações do mercado financeiro.",
+      "url": "https://diariodoestadogo.com.br/mercado-financeiro-quedas-e-estabilidade-em-meio-a-flutuacoes/",
+      "source": "diário do estado",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-04T22:00:57Z",
+      "updatedAt": "2026-05-04T22:00:57Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/mercado-financeiro3A-quedas-e-estabilidade-em-meio-a-flutuacoes.png"
+    },
+    {
+      "id": "latest-b5eee881b7d550a366a951de",
+      "title": "Ibovespa: Bolsa cai com escalada no Oriente Médio e avanço do petróleo",
+      "summary": "O Ibovespa encerrou a sessão desta segunda-feira (4) em queda, refletindo um ambiente ainda dominado por incertezas no cenário internacional.",
+      "details": "O Ibovespa encerrou a sessão desta segunda-feira (4) em queda, refletindo um ambiente ainda dominado por incertezas no cenário internacional.",
+      "url": "https://bmcnews.com.br/mercados/ibovespa-recua-no-inicio-de-maio-em-meio-a-incertezas-globais/",
+      "source": "Monitor do Mercado",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-04T21:54:51Z",
+      "updatedAt": "2026-05-04T21:54:51Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://bmcnews.com.br/wp-content/uploads/2025/12/ibovespa-_1764881213818.jpg"
+    },
+    {
+      "id": "latest-f413621d835fdfd6dc1ed4bb",
+      "title": "Ibovespa recua no início de maio em meio a incertezas globais",
+      "summary": "No STF, Flávio Dino levanta dúvidas sobre a capacidade do Estado e do mercado financeiro em prevenir futuras fraudes de grande escala.",
+      "details": "No STF, Flávio Dino levanta dúvidas sobre a capacidade do Estado e do mercado financeiro em prevenir futuras fraudes de grande escala.",
+      "url": "https://www.pagina1.com.br/noticia/ministro-dino-questiona-fiscalizacao-de-fraudes-em-fundos-de-investimento-pelo-bc-e-cvm",
+      "source": "BM&C News",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-04T21:49:14Z",
+      "updatedAt": "2026-05-04T21:49:14Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.pagina1.com.br/uploads/images/2026/05/dino-questiona-atuacao-conjunta-da-cvm-e-bc-para-impedir-fraudes1777930333.jpg"
+    },
+    {
+      "id": "macro-dbaaede5dce42467c32561bd",
+      "title": "Brasil fica para trás e amplia distância de PIB per capita em relação ao mundo",
+      "summary": "Descubra as últimas variações do mercado financeiro, incluindo Ibovespa, dólar e movimentos de ativos como Petrobras e Vale.",
+      "details": "Descubra as últimas variações do mercado financeiro, incluindo Ibovespa, dólar e movimentos de ativos como Petrobras e Vale.",
+      "url": "https://diariodoestadogo.com.br/entenda-os-movimentos-do-mercado-financeiro-e-seus-impactos-nos-investimentos/",
+      "source": "Estadão",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-04T21:42:06Z",
+      "updatedAt": "2026-05-04T21:42:06Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/Ibovespa-fecha.jpg.webp"
+    },
+    {
+      "id": "latest-99ad16ef8119dbbb09d317f9",
+      "title": "Fachin liga escândalos à falta de controle no mercado financeiro",
+      "summary": "Após um alívio registrado na última quinta-feira (30), antes do feriado do Dia do Trabalhador, o Ibovespa, principal índice da",
+      "details": "Após um alívio registrado na última quinta-feira (30), antes do feriado do Dia do Trabalhador, o Ibovespa, principal índice da",
+      "url": "https://monitordomercado.com.br/noticias/380581-ibovespa-bolsa-cai-com-escalada-no-oriente-medio-e-avanco-do-petroleo/",
+      "source": "Vero Notícias",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-04T21:41:04Z",
+      "updatedAt": "2026-05-04T21:41:04Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://monitordomercado.com.br/wp-content/uploads/2025/04/Materias-TAMANHO-NOVO.png"
+    },
+    {
+      "id": "latest-765218fd8c4cd570971a2845",
+      "title": "Fechamento do mercado financeiro",
+      "summary": "País deixou de acompanhar o avanço global desde os anos 1980 e hoje tem renda per capita abaixo da média mundial",
+      "details": "País deixou de acompanhar o avanço global desde os anos 1980 e hoje tem renda per capita abaixo da média mundial",
+      "url": "https://www.estadao.com.br/economia/brasil-fica-para-tras-e-amplia-distancia-de-pib-per-capita-em-relacao-ao-mundo/",
+      "source": "UOL Economia",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-04T21:39:00Z",
+      "updatedAt": "2026-05-04T21:39:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/IHZIBAGHZVEB3IQYFBHXY7CQIQ.jpg?quality=80&auth=aa28540e1dc5b972a86d29402fa97d33962b130d22c3889b684a25174972319c&width=1200&height=630&smart=true"
+    },
+    {
+      "id": "funds-3b6bb8a319ed1a20febd63e8",
+      "title": "Ministro Dino questiona fiscalização de fraudes em fundos de investimento pelo BC e CVM",
+      "summary": "Atualizacao de fundos capturada em Pagina1mt.",
+      "details": "",
+      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/05/04/fechamento-do-mercado-financeiro.htm",
+      "source": "Pagina1mt",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-05-04T21:31:00Z",
+      "updatedAt": "2026-05-04T21:31:00Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "companies-78011302f9fbf2db75502875",
+      "title": "Crescimento sem previsibilidade financeira aumenta risco e desgaste nas empresas de serviços",
+      "summary": "“Gabriel Galípolo é um traidor”, disparou Bresser-Pereira há poucos dias. Não iria tão longe, ainda tenho uma esperança (minguante) de que Galípolo possa…",
+      "details": "“Gabriel Galípolo é um traidor”, disparou Bresser-Pereira há poucos dias. Não iria tão longe, ainda tenho uma esperança (minguante) de que Galípolo possa…",
+      "url": "https://www.brasildefato.com.br/colunista/paulo-nogueira-batista-jr/2026/05/04/a-politica-de-juros-do-banco-central-e-um-desastre/",
+      "source": "Jornal do Brás",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-05-04T21:30:42Z",
+      "updatedAt": "2026-05-04T21:30:42Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2026/04/galipolo.webp"
+    },
+    {
+      "id": "latest-de6ff3dd695372dc799d4024",
+      "title": "Mercado eleva previsão da inflação para 2026 e mantém juros em trajetória de queda",
+      "summary": "Atualizacao de ultima hora capturada em WSCOM.",
+      "details": "",
+      "url": "https://wscom.com.br/economia/2026/05/04/inflacao-2026-projecao-focus-selic-pib/",
+      "source": "WSCOM",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-04T21:28:38Z",
+      "updatedAt": "2026-05-04T21:28:38Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "latest-dd0dcd2152231c754d8b83bf",
+      "title": "A política de juros do Banco Central é um desastre",
+      "summary": "Atualizacao de ultima hora capturada em Brasil de Fato.",
+      "details": "",
+      "url": "https://oespecialista.safra.com.br/safra-report-maio-2026-recomendacoes/",
+      "source": "Brasil de Fato",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-04T21:25:00Z",
+      "updatedAt": "2026-05-04T21:25:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "macro-a6f11cbf0109eb7600e17c3c",
+      "title": "Safra Report de maio: onde investir no atual cenário",
+      "summary": "Sem o apoio de Petrobras (ON -0,80%, PN +0,53%), o índice da B3 caiu 0,92% nesta segunda-feira",
+      "details": "Sem o apoio de Petrobras (ON -0,80%, PN +0,53%), o índice da B3 caiu 0,92% nesta segunda-feira",
+      "url": "https://www.jornaldocomercio.com/economia/2026/05/1247289-ibovespa-cai-quase-1-aos-1856-mil-com-retomada-do-risco-geopolitico.html",
+      "source": "Safra",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-04T21:23:39Z",
+      "updatedAt": "2026-05-04T21:23:39Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.jornaldocomercio.com/_midias/jpg/2023/12/19/artes_materias_site_brasil-10420954.jpg"
+    },
+    {
+      "id": "macro-743f41b9589d772f732f232d",
+      "title": "Curso Reforma Tributária do Consumo - Inscrições abertas no Sistema de Inscrições do Conselho Federal de Contabilidade (CFC)",
+      "summary": "Atualizacao de macro capturada em GOV.BR.",
+      "details": "",
+      "url": "https://www.bol.uol.com.br/economia/2026/05/04/stf-debate-taxa-cvm-tributo-contas-do-governo-audiencia-publica.amp.htm",
+      "source": "GOV.BR",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-04T21:18:00Z",
+      "updatedAt": "2026-05-04T21:18:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "latest-e9781442d4776daa4ff7e0bd",
+      "title": "Ibovespa desvaloriza quase 1% com novas tensões no Estreito de Ormuz",
+      "summary": "Conflito no Oriente Médio e alta do petróleo pressionam juros longos e elevam expectativas de inflação",
+      "details": "Conflito no Oriente Médio e alta do petróleo pressionam juros longos e elevam expectativas de inflação",
+      "url": "https://www.tribunadosertao.com.br/geral/2026/05/04/896471-taxas-de-juros-futuras-disparam-e-curva-ganha-inclinacao-com-escalada-do-petroleo",
+      "source": "VEJA",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-04T21:17:22Z",
+      "updatedAt": "2026-05-04T21:17:22Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://img.dhost.cloud/ti9AqSTmwTr_EL1V78ZQlMT2osc=/1200x630/smart/https://tdan.nyc3.digitaloceanspaces.com/images/b4d26/9d8114e17906cc73ed0ee24b0a3fa824f8b.png"
+    },
+    {
+      "id": "latest-0f5f8a34f2dff67b8f0b1eb6",
+      "title": "Falta de estrutura da CVM atrai facções ao mercado, diz presidente do Coaf",
+      "summary": "Acesse o cronograma completo e mais informações sobre o curso ao fim da notícia.",
+      "details": "Acesse o cronograma completo e mais informações sobre o curso ao fim da notícia.",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/maio/curso-reforma-tributaria-do-consumo-inscricoes-abertas-no-sistema-de-inscricoes-do-conselho-federal-de-contabilidade-cfc",
+      "source": "BOL",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-04T21:17:10Z",
+      "updatedAt": "2026-05-04T21:17:10Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/maio/curso-reforma-tributaria-do-consumo-inscricoes-abertas-no-sistema-de-inscricoes-do-conselho-federal-de-contabilidade-cfc/reforma-tributaria-consumo.png/@@images/61711952-4dae-4700-8ac1-38984aa0b045.png"
+    },
+    {
+      "id": "latest-958970f7e41d1f2143a9fe63",
+      "title": "Ibovespa cai quase 1%, aos 185,6 mil, com retomada do risco geopolítico",
+      "summary": "Mercado financeiro opera em movimento de aversão ao risco com pressão nos preços do petróleo e seus riscos inflacionários",
+      "details": "Mercado financeiro opera em movimento de aversão ao risco com pressão nos preços do petróleo e seus riscos inflacionários",
+      "url": "https://veja.abril.com.br/economia/ibovespa-desvaloriza-quase-1-com-novas-tensoes-no-estreito-de-ormuz/",
+      "source": "Jornal do Comércio",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-04T21:13:51Z",
+      "updatedAt": "2026-05-04T21:13:51Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2021/02/GettyImages-1229674447.jpg.jpg?quality=70&strip=info&resize=1080,565&crop=1"
+    },
+    {
+      "id": "latest-10cc6552d396605ef6103589",
+      "title": "Taxas de juros futuras disparam e curva ganha inclinação com escalada do petróleo",
+      "summary": "Atualizacao de ultima hora capturada em Tribuna do Sertão.",
+      "details": "",
+      "url": "https://jornaldobras.com.br/noticia/119131/crescimento-sem-previsibilidade-financeira-aumenta-risco-e-desgaste-nas-empresas-de-servicos/amp",
+      "source": "Tribuna do Sertão",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-04T21:09:00Z",
+      "updatedAt": "2026-05-04T21:09:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "latest-db497501b331ba0a7885aa91",
+      "title": "Ibovespa recua com escalada de tensão no Estreito de Ormuz e elevação da projeção do Focus para o IPCA",
+      "summary": "O Ibovespa encerrou o pregão desta segunda-feira (4) com recuo de 0,92%, aos 185.600 pontos. O desempenho do principal índice da bolsa brasileira refletiu o cenário de aversão ao risco no exterior, motivado pela escalada das tensões geopolíticas no Oriente Médio e seus impactos d",
+      "details": "O Ibovespa encerrou o pregão desta segunda-feira (4) com recuo de 0,92%, aos 185.600 pontos. O desempenho do principal índice da bolsa brasileira refletiu o cenário de aversão ao risco no exterior, motivado pela escalada das tensões geopolíticas no Oriente Médio e seus impactos diretos sobre as perspectivas de inflação",
+      "url": "https://trademap.com.br/agencia/ibovespa-recua-com-escalada-de-tensao-no-estreito-de-ormuz-e-elevacao-da-projecao-do-focus-para-o-ipca",
+      "source": "trademap.com.br",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-04T21:06:00Z",
+      "updatedAt": "2026-05-04T21:06:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://trademap.com.br/wp-content/uploads/2026/05/shutterstock_2179447083-3.jpg"
+    },
+    {
+      "id": "latest-8c1ca891887efa0ac5a0eb71",
+      "title": "Ibovespa hoje aumenta queda com tensão em Ormuz e disparada do petróleo a US$ 115; dólar sobe",
+      "summary": "Fique por dentro das últimas notícias sobre a Bolsa, Mercado Financeiro e dinheiro. Confira também dicas de investimentos e educação financeira no E-Investidor.",
+      "details": "Fique por dentro das últimas notícias sobre a Bolsa, Mercado Financeiro e dinheiro. Confira também dicas de investimentos e educação financeira no E-Investidor.",
+      "url": "https://einvestidor.estadao.com.br/mercado/ibovespa-hoje-boletim-focus-pmis-mercados-globais/",
+      "source": "Estadão E-Investidor",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-04T21:04:39Z",
+      "updatedAt": "2026-05-04T21:04:39Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://einvestidor.estadao.com.br/wp-content/themes/e-investidor/assets/img/card-share-large-1200x631.jpg"
+    },
+    {
+      "id": "macro-86d6adace5a7e164e05dbef0",
+      "title": "Alckmin critica taxa de juros alta e defende modelo de inflação do Fed, que exclui energia e alimentação",
+      "summary": "Atualizacao de macro capturada em MSN.",
+      "details": "",
+      "url": "https://www.msn.com/pt-br/dinheiro/economia-e-negocios/alckmin-critica-taxa-de-juros-alta-e-defende-modelo-de-infla%C3%A7%C3%A3o-do-fed-que-exclui-energia-e-alimenta%C3%A7%C3%A3o/ar-AA22o36p",
+      "source": "MSN",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-04T21:03:28Z",
+      "updatedAt": "2026-05-04T21:03:28Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
       "id": "latest-6c9a7dfef9b8e87b03076c6a",
       "title": "Boletim Focus eleva projeção da inflação para 2026 e mantém juros elevados no Brasil",
-      "summary": "Mercado ajusta expectativas diante de incertezas externas e pressão sobre commodities Projeções do Focus indicam alta da inflação para 2026, juros elevados, crescimento moderado do PIB e estabilidade do dólar diante de incertezas globais.",
-      "details": "Mercado ajusta expectativas diante de incertezas externas e pressão sobre commodities Projeções do Focus indicam alta da inflação para 2026, juros elevados, crescimento moderado do PIB e estabilidade do dólar diante de incertezas globais.",
-      "url": "https://muitainformacao.com.br/negocios/focus-eleva-projecao-da-inflacao-para-2026-e-mantem-juros-elevados-no-brasil/",
+      "summary": "Ao longo da audiência, Flávio Dino também expressou preocupação com a aparente facilidade de ocorrência de fraudes no sistema financeiro, sugerindo que",
+      "details": "Ao longo da audiência, Flávio Dino também expressou preocupação com a aparente facilidade de ocorrência de fraudes no sistema financeiro, sugerindo que",
+      "url": "https://cenariomt.com.br/cenario-politico/direto-de-brasilia/no-stf/fraude-dino-questiona-atuacao-conjunta-da-cvm-e-bc-em-audiencia-no-stf/",
       "source": "Muita Informação",
       "category": "latest",
       "tags": [
@@ -243,14 +655,33 @@
       "updatedAt": "2026-05-04T21:01:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://muitainformacao.com.br/wp-content/uploads/2026/03/Fachada-Banco-Central-do-Brasil.jpg"
+      "imageUrl": "https://cenariomt.com.br/wp-content/uploads/2026/05/10fdfc3f0f_Dino_profere_segundo_voto_contra_lei_de_SC_que_proibiu_cotas_raciais.webp"
+    },
+    {
+      "id": "macro-211672e4e8cf0a0b9eaa2021",
+      "title": "Comida mais cara: ‘tempestade perfeita’ pressiona preços de alimentos e pode afetar meta do BC",
+      "summary": "O Ibovespa encerrou o primeiro pregão de maio com queda de 0,92%, aos 185.600 pontos; o dólar avançou 0,30%, cotado a R$ 4,9677.",
+      "details": "O Ibovespa encerrou o primeiro pregão de maio com queda de 0,92%, aos 185.600 pontos; o dólar avançou 0,30%, cotado a R$ 4,9677.",
+      "url": "https://iclnoticias.com.br/economia/ibovespa-recua-092-com-aversao-risco/",
+      "source": "Estadão",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-04T21:00:00Z",
+      "updatedAt": "2026-05-04T21:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://iclnoticias.com.br/app/uploads/2024/11/investment-stockbroker-stock-trading-2022-02-02-03-57-56-utc-960x540-1.webp"
     },
     {
       "id": "funds-640a0963d678a2e7c74a79d1",
       "title": "Fraude: Dino questiona atuação conjunta da CVM e BC em audiência no STF",
-      "summary": "O Ibovespa encerrou o primeiro pregão de maio com queda de 0,92%, aos 185.600 pontos; o dólar avançou 0,30%, cotado a R$ 4,9677.",
-      "details": "O Ibovespa encerrou o primeiro pregão de maio com queda de 0,92%, aos 185.600 pontos; o dólar avançou 0,30%, cotado a R$ 4,9677.",
-      "url": "https://iclnoticias.com.br/economia/ibovespa-recua-092-com-aversao-risco/",
+      "summary": "A Justiça do Rio Grande do Norte determinou que o município de Natal recalcule uma dívida de IPTU e Taxa de Limpeza Pública utilizando a taxa Selic como índice de atualização. A decisão é da juíza Francisca Maria Tereza Maia Diógenes, da 5ª Vara de Execução Fiscal e Tributária da",
+      "details": "A Justiça do Rio Grande do Norte determinou que o município de Natal recalcule uma dívida de IPTU e Taxa de Limpeza Pública utilizando a taxa Selic como índice de atualização. A decisão é da juíza Francisca Maria Tereza Maia Diógenes, da 5ª Vara de Execução Fiscal e Tributária da capital, que reconheceu excesso na form",
+      "url": "https://tribunadonorte.com.br/natal/justica-determina-recalculo-de-divida-de-iptu-em-natal-com-base-na-taxa-selic/",
       "source": "CenárioMT",
       "category": "funds",
       "tags": [
@@ -262,14 +693,14 @@
       "updatedAt": "2026-05-04T20:58:23Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://iclnoticias.com.br/app/uploads/2024/11/investment-stockbroker-stock-trading-2022-02-02-03-57-56-utc-960x540-1.webp"
+      "imageUrl": "https://tribunadonorte.com.br/wp-content/uploads/2024/12/Vista-pacial-de-Natal-2.jpg"
     },
     {
       "id": "macro-8c6538f39d596ec56a00744d",
       "title": "Justiça determina recálculo de dívida de IPTU em Natal com base na taxa Selic",
-      "summary": "Ao longo da audiência, Flávio Dino também expressou preocupação com a aparente facilidade de ocorrência de fraudes no sistema financeiro, sugerindo que",
-      "details": "Ao longo da audiência, Flávio Dino também expressou preocupação com a aparente facilidade de ocorrência de fraudes no sistema financeiro, sugerindo que",
-      "url": "https://cenariomt.com.br/cenario-politico/direto-de-brasilia/no-stf/fraude-dino-questiona-atuacao-conjunta-da-cvm-e-bc-em-audiencia-no-stf/",
+      "summary": "Além dos efeitos indiretos da guerra, com a alta dos preços do petróleo e fertilizantes, El Niño também deve elevar inflação de alimentos",
+      "details": "Além dos efeitos indiretos da guerra, com a alta dos preços do petróleo e fertilizantes, El Niño também deve elevar inflação de alimentos",
+      "url": "https://www.estadao.com.br/economia/comida-mais-cara-tempestade-perfeita-pressiona-precos-de-alimentos-e-pode-afetar-meta-do-bc/",
       "source": "Tribuna do Norte",
       "category": "macro",
       "tags": [
@@ -281,14 +712,14 @@
       "updatedAt": "2026-05-04T20:57:21Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://cenariomt.com.br/wp-content/uploads/2026/05/10fdfc3f0f_Dino_profere_segundo_voto_contra_lei_de_SC_que_proibiu_cotas_raciais.webp"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/PU7YCVIK6FDB7EQTBGYRGKTNLA.jpg?quality=80&auth=3a8a95092d0c904de173c88ee853b792512e1aa2e69e54ffbcbd19e8f8dcd5b1&width=1200&height=630&smart=true"
     },
     {
       "id": "latest-b6df69f461fb8e6817bc7c0f",
       "title": "Fachin liga escândalos recentes à falta de limites no mercado financeiro",
-      "summary": "A Justiça do Rio Grande do Norte determinou que o município de Natal recalcule uma dívida de IPTU e Taxa de Limpeza Pública utilizando a taxa Selic como índice de atualização. A decisão é da juíza Francisca Maria Tereza Maia Diógenes, da 5ª Vara de Execução Fiscal e Tributária da",
-      "details": "A Justiça do Rio Grande do Norte determinou que o município de Natal recalcule uma dívida de IPTU e Taxa de Limpeza Pública utilizando a taxa Selic como índice de atualização. A decisão é da juíza Francisca Maria Tereza Maia Diógenes, da 5ª Vara de Execução Fiscal e Tributária da capital, que reconheceu excesso na form",
-      "url": "https://tribunadonorte.com.br/natal/justica-determina-recalculo-de-divida-de-iptu-em-natal-com-base-na-taxa-selic/",
+      "summary": "Mercado ajusta expectativas diante de incertezas externas e pressão sobre commodities Projeções do Focus indicam alta da inflação para 2026, juros elevados, crescimento moderado do PIB e estabilidade do dólar diante de incertezas globais.",
+      "details": "Mercado ajusta expectativas diante de incertezas externas e pressão sobre commodities Projeções do Focus indicam alta da inflação para 2026, juros elevados, crescimento moderado do PIB e estabilidade do dólar diante de incertezas globais.",
+      "url": "https://muitainformacao.com.br/negocios/focus-eleva-projecao-da-inflacao-para-2026-e-mantem-juros-elevados-no-brasil/",
       "source": "Gazeta do Povo",
       "category": "latest",
       "tags": [
@@ -300,7 +731,7 @@
       "updatedAt": "2026-05-04T20:56:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://tribunadonorte.com.br/wp-content/uploads/2024/12/Vista-pacial-de-Natal-2.jpg"
+      "imageUrl": "https://muitainformacao.com.br/wp-content/uploads/2026/03/Fachada-Banco-Central-do-Brasil.jpg"
     },
     {
       "id": "latest-e2910187094dc179a28638b7",
@@ -324,9 +755,9 @@
     {
       "id": "latest-61e6bb3bd371333d19b43909",
       "title": "Ibovespa fecha em queda com Vale e bancos entre as maiores pressões",
-      "summary": "O Ibovespa fechou em queda com impacto de blue chips e geopolítica. Embraer se destacou positivamente. Saiba mais detalhes.",
-      "details": "O Ibovespa fechou em queda com impacto de blue chips e geopolítica. Embraer se destacou positivamente. Saiba mais detalhes.",
-      "url": "https://diariodocomercio.com.br/financas/ibovespa-fecha-em-queda-com-vale-e-bancos-entre-as-maiores-pressoes/",
+      "summary": "Atualizacao de ultima hora capturada em Diário do Comércio.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS3dKdDBDQnVNQXRPUElwT0gtRS03VEFONUNjRWVjZFg1a2dzcVI2d1Z4STVWZVo5S0ZUSHNRMTJ0WGxoTFVabEJaczU1R0lZZzlyZjRPRUtnRjdvN2IxSFlXMTVBQVBYbzdkbWdVSmlVcEJfdjRxbEs3QVYzY0ZsYUFNNDFMZ2NvbDNXYXFZQThCWmRFeGI0d09KMzZNcGlMTEYwTFJTV1FBNVc5T3c?oc=5",
       "source": "Diário do Comércio",
       "category": "latest",
       "tags": [
@@ -337,15 +768,14 @@
       "publishedAt": "2026-05-04T20:50:00Z",
       "updatedAt": "2026-05-04T20:50:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://diariodocomercio.com.br/wp-content/uploads/2023/02/Ibovespa.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-b3653b05e1381a850b13ea33",
       "title": "'Tarde demais': Trump publica imagem do presidente do banco central dos EUA sendo jogado no lixo",
-      "summary": "Postagem pode marcar ponto final nas críticas de Trump à Powell, que deixa a presidência do Fed em 15 de maio.",
-      "details": "Postagem pode marcar ponto final nas críticas de Trump à Powell, que deixa a presidência do Fed em 15 de maio.",
-      "url": "https://g1.globo.com/economia/noticia/2026/05/04/tarde-demais-trump-publica-imagem-do-presidente-do-banco-central-dos-eua-sendo-jogado-no-lixo.ghtml",
+      "summary": "Atualizacao de macro capturada em G1.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOaFY2YU1fVDdWYnUyaFJQLVBNR1o2UW83eFlHOWFwY1lnMFpubG9PRFpfTXlkTlRKQ1NhMjdJUDVqLUlNRW1NOUhvZGU2WDJYQ1FyU0wyUDhQOWJvLVhPR2dwR2hrSDF3b1FLal9fQWxiNl9hSUxHeWhwa3ZqUFM1c3hxbTZtdmprNEVuSUp1eWNHUEN0dTFIR0FIZWsyQ3Q2Vmhta2VJRnNNT2RSeHg1aENWcmstX1Y3OFBTcGNsQWZoRnZBQ29IVlBKYTFLVzgxYmJGLUlsSngyZXl4TU5LYUtR0gHwAUFVX3lxTE5MYVo4LWx3eDlHbk1ITWoyQjBvTEFlWFVvUC0zMkRIYjJlbmpQVEVhS2VWRE9PcjdWSVhwc2dtRWMxbHR2OWQzNTBsSkZUQ2w3SFo1YjlkSHNqZ0xfb1BJRzJIZ0p0STVsdkszTTVtWVpSaUFCRllhdElYU1FrNTdRSU1pWWJuZDlLT09vVUhrMHdzamJndVN4dlZKcFZvZ09MWVRCSGpMc2ZPRmdMTHR1SlE5akhMR2xBZUg0TllOV0RyYVpRclZlTkJCRGVDVlNTdDRaY1pUMVE4bkRyVm1PdU9xcFNQVXhpdWhMbnVxaQ?oc=5",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -356,34 +786,14 @@
       "publishedAt": "2026-05-04T20:46:36Z",
       "updatedAt": "2026-05-04T20:46:36Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-g1.glbimg.com/nSvJe-4cTVIQPaBg0ZNpFrIG8wc=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/C/W/QSiGP9Q5CXuFJzxazUvQ/imagem-1200w-1-.jpg"
-    },
-    {
-      "id": "latest-3b9077dbeb6061ad16567804",
-      "title": "Ibovespa B3 recua 0,92%, com nova escalada de conflito no Estreito de Ormuz; dólar vai a R$ 4,96",
-      "summary": "Veja como se comportaram o Ibovespa e o dólar nesta segunda-feira (4) e o que movimentou os ativos. Acesse na íntegra no Bora Investir.",
-      "details": "Veja como se comportaram o Ibovespa e o dólar nesta segunda-feira (4) e o que movimentou os ativos. Acesse na íntegra no Bora Investir.",
-      "url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-recua-092-com-nova-escalada-de-conflito-no-estreito-de-ormuz-dolar-vai-a-r-496/",
-      "source": "Bora Investir",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-04T20:42:00Z",
-      "updatedAt": "2026-05-04T20:42:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://cdn.borainvestir.b3.com.br/2026/05/04174106/ibovespa-b3-recua-092-com-nova-escalada-de-conflito-no-estreito-de-ormuz-dolar-vai-a-r-496.webp"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "companies-05f9bbeaf55daab581e1fc9c",
       "title": "Bett Brasil deve evidenciar avanço do uso de dados e IA na gestão educacional no país",
       "summary": "Atualizacao de empresas capturada em ABC da Comunicação.",
       "details": "",
-      "url": "https://www.abcdacomunicacao.com.br/bett-brasil-deve-evidenciar-avanco-do-uso-de-dados-e-ia-na-gestao-educacional-no-pais/",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbHNDSGNnVmcxQW5sRHhBeXN0QU5kTXFWX1Vtenp2VWVPMktNNWp1Qm1wZEI2a21FTWFITGR3LTY3VzdRMkdwRU5EOE1Nd1c2eWVYUUhVS0JsVUhGc0RzWktNUEZ0WlQ4M3FnRjZ6R1BtejA0Z3lDVmtEN2x2RlNsRGh4YXZmUzZ1d1pPTEJTdkRCZjA0RHhTZk9aOU5DVzhkQndhTjZaN01HQ3VQMU91LU5sR0FhTXZSaVJsQ3Vraw?oc=5",
       "source": "ABC da Comunicação",
       "category": "companies",
       "tags": [
@@ -399,9 +809,9 @@
     {
       "id": "macro-33fce078a35755bdf24dc084",
       "title": "Alckmin critica taxa de juros alta e defende modelo de inflação do Fed, que exclui energia e alimentação",
-      "summary": "\"Deveríamos verificar o modelo do Fed, que exclui energia e alimentação da análise da inflação para definição da taxa de juros\", disse o vice-presidente",
-      "details": "\"Deveríamos verificar o modelo do Fed, que exclui energia e alimentação da análise da inflação para definição da taxa de juros\", disse o vice-presidente",
-      "url": "https://www.brasil247.com/economia/alckmin-critica-taxa-de-juros-alta-e-defende-modelo-de-inflacao-do-fed-que-exclui-energia-e-alimentacao",
+      "summary": "Atualizacao de macro capturada em Brasil 247.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOFVVU2hITks1QVFLMk8tZlVVZkRjY0NVRWg0dExaa01ORFdKb3hXbjRUeWJoaWhtYzBxbnh4TkVuY3R2TFhlS3VtekRYYXNETmtZUVJDWmp5V0FzYk1UYkJkOEpBM2lGd3ViODlfTjN1bjFFRFN4ajFhaU1fRFR1RTRiQmkxZ3BMdjBTaVF0YmZocEh1LWRVSTFTcDA3dkxzMDdCWlN2b0ttVXR2aXV6WEYwZjVXWkFpQmk3TXVfLTFnclpSUi1QLWxHQUljQl9NNTNlZw?oc=5",
       "source": "Brasil 247",
       "category": "macro",
       "tags": [
@@ -412,15 +822,32 @@
       "publishedAt": "2026-05-04T20:38:17Z",
       "updatedAt": "2026-05-04T20:38:17Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://cdn.brasil247.com/pb-b247gcp/swp/jtjeq9/media/20260504170536_c7586ed5053102ce267431bda3ea3444e65a85954c6a17e0460417b7ffe0e418.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-3c712da33dec2603ce01d6fc",
+      "title": "Fiscal da Fazenda-SP ganhou salários de R$ 186 mil mesmo foragido por operar ‘fura-fila’ do ICMS",
+      "summary": "Atualizacao de macro capturada em Estadão.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNc3dFV2VNUmtVRDRFRk5HTTNvaGtyVjNWZ24zMFVwVHlNNHZIU0VfbTNmc0RoWlJxRzdEeGVXTzFMWnRuUE1qWlRRS0pZY3FhbGN1OVQyWmFoajgzd3JKelBaREdPYy1Kb0JCUFdtSEo0Y1o1Z2VoVnRYWEQ5dE9OUWdLaHplN1JOOGphNjlaSWYtOUJ2ckxEam5ZZUtONktvRm1WNFVJZ0hwYkFNWmVoZTI2UGY5amFoLVFoSk1YYmQyMjgxUVdsWUlZVmsyS1lHbm5GNU1lLUFrS0FtR1U4MkwxVWxhSm_SAewBQVVfeXFMUFdKejl1ZGtreHhYNThDNF9ZUFVqSUtWZEhXZ0hwOERLbWZQV2dXZFBUZ2hRMlZZLXA4VnljMGJkVlNCdWNjanBfRXFkMFhvUjdwMEMwVzdqazVlc0VfSkNuVm44bXBQN3FaRHJ3YVRjdTFxSEI1RndmYXBCUHRHUExKTzNRTG1ZTlRNUElZZDd1dGUyOTBuYjZqVnNqOEhpYzE5QlA5QXFzdmhXZXF1Y2hQYWtMb0lkMmVSbnRQY054RHlaU0ZtbXFVczlmZXZGOThZSUlocDlZRGQ0cXg4SlJ2djktSEhFbWdOams?oc=5",
+      "source": "Estadão",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-04T20:38:05Z",
+      "updatedAt": "2026-05-04T20:38:05Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-5e95cd751aafd9812da7ed05",
       "title": "Com críticas a juros altos, Trump ataca Powell e publica montagem do presidente do Fed em lixeira",
-      "summary": "Dólar fechou em alta de 0,32%, a R$ 4,96, com sessão volátil marcada por oscilações entre R$ 4,95 e R$ 4,98",
-      "details": "Dólar fechou em alta de 0,32%, a R$ 4,96, com sessão volátil marcada por oscilações entre R$ 4,95 e R$ 4,98",
-      "url": "https://timesbrasil.com.br/mundo/dolar/dolar-avanca-com-focus-prevendo-fim-da-queda-da-selic-e-piora-nas-expectativas-para-guerra-no-oriente-medio/",
+      "summary": "Atualizacao de macro capturada em Times Brasil | CNBC.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaGF6aUpUaGJEU29Sa1BzY2kwS0tzTFJ0b0dBN0Zmb1ZBTXBBaWhZU2Ftb3VuZjRpQUs2RWhXaXhtdHVmUHMyM1ZxOTZIcnJvU3NISDhlRFljaWsyaFF1dzgzdE5kZEx5OEJ0N25nSjRndnFidXFhVGpHODRnY0hyd1hQOFNaQlRRb3ZYT3ZMZ3ZNUnR2YzBYeFF3RXJ0Z2V3a0R4bUV2UDlNOGRuYW9RUHJFbVRGdUlUMC1xS3MzMkVReDV5OTFlTzVn?oc=5",
       "source": "Times Brasil | CNBC",
       "category": "macro",
       "tags": [
@@ -431,15 +858,14 @@
       "publishedAt": "2026-05-04T20:28:00Z",
       "updatedAt": "2026-05-04T20:28:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2025/09/657d86d4-foto-site.webp"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-6b45e944c4151c55ce01fa79",
       "title": "Dólar avança com Focus prevendo fim da queda da Selic e piora nas expectativas para guerra no Oriente Médio",
-      "summary": "Akad Seguros e Verta lançam seguro cyber com contratação em até 30 minutos e análise de risco digital em tempo real.",
-      "details": "Akad Seguros e Verta lançam seguro cyber com contratação em até 30 minutos e análise de risco digital em tempo real.",
-      "url": "https://revistaapolice.com.br/2026/05/akad-seguros-apresenta-novo-produto-cyber/",
+      "summary": "Atualizacao de macro capturada em Times Brasil | CNBC.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTGxfc3RMdHp0WlFYLUVPc1pMMFNlNnYyMDd1MU5mblNQT0dXNkdrd1JCdDF0TzdwaGdYNnl5S3UweWxzNUhjMVp5ZlJQTTBoTzFoamVMSDJkRTJhMzR3T2x0dThmOU1VNEwyX1FzemJEbmV3UDZhV0FmR1ZISWh6aGROUnRVRHNzWTVlZXpwS0JqbGZZeTA0YUhBb2lkcEk0SDNDMUw0amdleEJUWEtBUHRzUzR6SFFZcFpVdGtETC1paWRvTG1HT0ZJWGdRajFtR25oSlRCVUxlMk5NMW9ZRA?oc=5",
       "source": "Times Brasil | CNBC",
       "category": "macro",
       "tags": [
@@ -450,34 +876,14 @@
       "publishedAt": "2026-05-04T20:24:00Z",
       "updatedAt": "2026-05-04T20:24:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://revistaapolice.com.br/wp-content/uploads/2026/05/Captura-de-tela-2026-05-04-170812.png"
-    },
-    {
-      "id": "latest-25bc2f431bee2007399b6a7f",
-      "title": "Ibovespa cai 0,92% e fecha aos 185,6 mil pontos; Vale recua 3% e dólar sobe a R$ 4,96",
-      "summary": "O Ibovespa caiu 0,92% e fechou aos 185.600 pontos, com Vale em queda de 3% e Hapvida recuando forte. O dólar subiu 0,32%, a R$ 4,96",
-      "details": "O Ibovespa caiu 0,92% e fechou aos 185.600 pontos, com Vale em queda de 3% e Hapvida recuando forte. O dólar subiu 0,32%, a R$ 4,96",
-      "url": "https://bpmoney.com.br/mercado/ibovespa-cai-092-e-fecha-aos-1856-mil-pontos-vale-recua-3-e-dolar-sobe-a-r-496/",
-      "source": "BPMoney",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-04T20:22:35Z",
-      "updatedAt": "2026-05-04T20:22:35Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://bpmoney.com.br/wp-content/uploads/2024/01/Runway-2024-01-16T21_34_53.017Z-Upscale-Image-Upscaled-Image-1920-x-1280.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "companies-b326ade377e679bbf4872086",
       "title": "Akad Seguros apresenta novo produto cyber",
-      "summary": "O presidente dos Estados Unidos, Donald Trump, voltou a elevar o tom contra Jerome Powell, presidente do Federal Reserve (Fed), ao classificá-lo como um “desastre para os EUA” e afirmar que os juros estão “altos demais”, em publicação na Truth Social acompanhada de uma imagem edi",
-      "details": "O presidente dos Estados Unidos, Donald Trump, voltou a elevar o tom contra Jerome Powell, presidente do Federal Reserve (Fed), ao classificá-lo como um “desastre para os EUA” e afirmar que os juros estão “altos demais”, em publicação na Truth Social acompanhada de uma imagem editada com teor simbólico. O presidente do",
-      "url": "https://timesbrasil.com.br/mundo/com-criticas-a-juros-altos-trump-ataca-powell-e-publica-montagem-do-presidente-do-fed-em-lixeira/",
+      "summary": "Atualizacao de empresas capturada em Revista Apólice.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbjZPeUMwTkRCaWp1eTNPYjFoUGpiOWI5eWxySWlSd0hSRVkwSkJ6dUlsRERldzQzTjlHc3NyYnFqTXhJVUw2eHdJblNMcDBuYVVON2hjeWpCMlg4cFlJRlFmU05qb2pZaThqTm1MS0NTVUlnV2hOWG5KZDZQalBFZEJ4S01ISWc?oc=5",
       "source": "Revista Apólice",
       "category": "companies",
       "tags": [
@@ -488,34 +894,14 @@
       "publishedAt": "2026-05-04T20:13:38Z",
       "updatedAt": "2026-05-04T20:13:38Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/05/eaaa19bd-17a.webp"
-    },
-    {
-      "id": "latest-ea9394e4eb619a267b917e08",
-      "title": "Especialista em finanças, Cezario Soares, cria sistemas para investidores",
-      "summary": "Automao avana na Bolsa com uso de dados e algoritmos, ampliando eficincia e disciplina nas operaes e reforando a gesto de risco",
-      "details": "Automao avana na Bolsa com uso de dados e algoritmos, ampliando eficincia e disciplina nas operaes e reforando a gesto de risco",
-      "url": "https://www.uai.com.br/app/noticia/negocios/2026/05/04/noticia-negocios,382231/especialista-em-financas-cezario-soares-cria-sistemas-para-investidores.shtml",
-      "source": "Portal Uai",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-04T20:11:00Z",
-      "updatedAt": "2026-05-04T20:11:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://i.uai.com.br/7xPq0A4onp7fB44o7F6a_dHFRZE=/1200x800/smart/imgsapp2.uai.com.br/app/noticia_133890394703/2026/05/04/382231/automacao-ganha-espaco-no-mercado-financeiro-com-apoio-de-dados-e-tecnologia_1_84398.jpg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-4e841b0c171ce3ad3364c667",
       "title": "Empresas mineiras deixam de aproveitar milhões em incentivos à inovação",
-      "summary": "CDL Divinópolis soluções para o comércio varejista e os setores de serviços da cidade.",
-      "details": "CDL Divinópolis soluções para o comércio varejista e os setores de serviços da cidade.",
-      "url": "https://cdldivinopolis.com.br/c/noticias/empresas-mineiras-deixam-de-aproveitar-milhoes-em-incentivos-a-inovacao",
+      "summary": "Atualizacao de empresas capturada em CDL Divinópolis.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeUJ4MjFzLVpaVl8zdlltT2tnNU9MZmpxMlVSREZjT2F2d1EwUVUzbzl3ZXAzeXRuYzEwYk9GNWNtSVItV2tPQ085eDdQSzRqcTA2WGU0dnhGa2h6ZnVCR3E3OEJEVW95R2FxZC15ZWZJRUtrWjVaYmxMd1VtVlZZdV9WcnBrb3RBbHQtN0d3UFFjRk9VOU5ZUy1mQXhuOW9aMktDbG1fRHRDMERYZURncW9B?oc=5",
       "source": "CDL Divinópolis",
       "category": "companies",
       "tags": [
@@ -526,15 +912,32 @@
       "publishedAt": "2026-05-04T20:02:40Z",
       "updatedAt": "2026-05-04T20:02:40Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://cdldivinopolis.com.br/imagens/2653/empresas-mineiras-deixam-de-aproveitar-milhoes-em-incentivos-a-inovacao_452026170310.jpg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "macro-9fc38b6db36b52019c9afc16",
+      "title": "Trump publica montagem do presidente do BC dos EUA caindo em lixeira e critica juros nos EUA",
+      "summary": "Atualizacao de macro capturada em Valor Investe.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOTzRnMHcxb1dPUFg3NFJfZUVZa2Y0SXplekZDYXJ1dUE5bUo4ejBNbl9fdzk1THBhMjZmR0V4OWttdmd6SWlwZXVuWWdUakZ6TGZQWnFUWGNVUElsUUZWWjBYMTF0MnRNT082LW1wb253ZmRTX0xNWDU2Vm9rbjJSQ1YyRGtDblBhTDNRekUwSW0takxnc3p5N3dHZDVmYnNIc0pGQWFrS2cyQW1IclRpMjItOWxJZEhzYnBtc0JVQXRXSURsSWFlQ2gwNnMzRWlYZ2FuUTVwc3ByR0Y4OWlFbm5BZTU3SjllVUp2NlhFN0t0Q2c2T0J0c0VtMm5Ud1dod2FfU2Z6WXlPME1vWWJZ0gGeAkFVX3lxTE1kRW1FQUVUeEx3T3A2VVFZTEg4alR6RWxKcGlnc0FKNWVXZUp6T2ZxZ2F3ZXRwVHRMQ081LWRZQU5YQTZxakFScjhieXlHblNIVWpXc284MVRyMHJVM1h1SFJZa0Ewb0QtZGRXRkx1UkJqbGlUQmctRUdBcU84dHVZWHFTRWhjYllXdkJFcTZIZU15dnVscWZXb0pFU3RTYVJHNGdHdlJKemZCVnJCSUpnT0hlUzdLVlVLQk9DdFpRd1JCb1JIY0FMWmFnNDFCNUxmc3NhX2pLLVlTRFFsSzRuSnhubTcwUi10bnQ2Q0o3cElvM2ZRd1lpdkMxZ2FhZHR6YnA0M0pMUVpYUlpfT0RpSUJJeU1vZ1JDcS0zTmc?oc=5",
+      "source": "Valor Investe",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-04T20:01:15Z",
+      "updatedAt": "2026-05-04T20:01:15Z",
+      "premium": true,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-6bf905aaedb0218e955354aa",
       "title": "Trump ataca novamente presidente do Fed e divulga imagem de Powell caindo em lixeira",
-      "summary": "Representação simbólica de descarte foi publicada pelo presidente americano nesta segunda, 4, nas rede sociais",
-      "details": "Representação simbólica de descarte foi publicada pelo presidente americano nesta segunda, 4, nas rede sociais",
-      "url": "https://www.terra.com.br/economia/trump-ataca-novamente-presidente-do-fed-e-divulga-imagem-de-powell-caindo-em-lixeira,b5495944e12cc654d1d801708872817di0xm7djr.html",
+      "summary": "Atualizacao de macro capturada em Terra.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNUFg4SDNNUWlQbWpKanJHeFdoOFIyLVB0Q0daMWk4TElzTVRFOVF5THl6bzIxaTJNd19uZWE0MG01TlI0b2haV0E1ZUZKak1SSTBBZUluQVFTbGFaaWFzQm5kTEZBT0V3Q1FudnNCdUx6bE5JQTRXcnJXSlRJdFRaMmZsNUVwY2xGWEFWOWQ2Uk5FNFlBazlHR3ZjYk1VSmw3a0VJZHZUOFVoOFlHOW5fRlR5bmNHdFVGLWlnRmx5OC1GX1BTTmtKRFdXcWQyUzVKSmtBeGlWZy1qbGxJZTJlOUtEQ0JxbnIxdVF3VHFFV0ZuR1RGSWdj?oc=5",
       "source": "Terra",
       "category": "macro",
       "tags": [
@@ -545,53 +948,14 @@
       "publishedAt": "2026-05-04T20:01:00Z",
       "updatedAt": "2026-05-04T20:01:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/05/04/673205996-msqgamrwtfg4vllsxgtpzu3f74.jpg"
-    },
-    {
-      "id": "latest-8fc93f841ce3f97cf3a8457b",
-      "title": "Fachin critica mercado financeiro e cita falta de controle",
-      "summary": "Ministro do STF afirma que escândalos no mercado financeiro refletem ausência de limites e defende debate sobre fiscalização e atuação da CVM.",
-      "details": "Ministro do STF afirma que escândalos no mercado financeiro refletem ausência de limites e defende debate sobre fiscalização e atuação da CVM.",
-      "url": "https://imirante.com/noticias/brasil/2026/05/04/ipolitica-fachin-critica-mercado-financeiro-e-cita-falta-de-controle",
-      "source": "Imirante.com",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-04T20:00:00Z",
-      "updatedAt": "2026-05-04T20:00:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://imagens.imirante.com.br/imagens/noticias/2024/03/07/upKIgvmivx05tcfI1VcATyykqvycB8YmXJx8pc01.jpg?w=896&h=448&crop=960%2C+480%2C+0%2C+30&fit=crop&s=69ee76622aa8bc28adc1cd9322de4532"
-    },
-    {
-      "id": "latest-f0f5687ea593e6d2beb23700",
-      "title": "Fachin aponta falta de limites no mercado financeiro como causa de escândalos",
-      "summary": "Presidente do STF, Fachin, associa escândalos financeiros à falta de controle. Discussão sobre CVM e regulação ganha destaque no Supremo.",
-      "details": "Presidente do STF, Fachin, associa escândalos financeiros à falta de controle. Discussão sobre CVM e regulação ganha destaque no Supremo.",
-      "url": "https://diario.dopovo.com.br/2026/05/04/fachin-aponta-falta-de-limites-no-mercado-financeiro-como-causa-de-escandalos/",
-      "source": "diario.dopovo.com.br",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-04T19:57:00Z",
-      "updatedAt": "2026-05-04T19:57:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://diario.dopovo.com.br/i/media/2026/05/5a345e1b8d73d15e.fachin-aponta-falta-de-limites-no-mercado-financeiro-como-causa-de-escandalos"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-b7324cc0bb4a270b1485c221",
       "title": "Brasil deve olhar para modelo de inflação do Fed, que exclui alimentos e energia, diz Alckmin",
       "summary": "Atualizacao de macro capturada em Folha de S.Paulo.",
       "details": "",
-      "url": "https://www1.folha.uol.com.br/amp/mercado/2026/05/brasil-deve-olhar-para-modelo-de-inflacao-do-fed-que-exclui-alimentos-e-energia-diz-alckmin.shtml",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYWJURTRRU29FdkFNS0xrUEdlS0RlRHFtRUg5cndpWFlZQXBKYTNZRWpOWFk1T2FKNnFnM01sLVhETUxlR0o1REU1R1hHLUlUZUJFTGpqZlh4eE04TkJ6RGpPTEg1OElneU1NSkhNT1JGeEYxTW1kNEZnY2ktRDZoMk9XSHdpSS0tYmhjV29HaDgxeHg3R2JNcUNrcHRtSXZJN2pDLUpRU2xhNXhFZjJfdDZIWHBsazBVY3ZFOTE4aXdHV3Y4am1HelUtcklGa3JkMmYxbkloVjRpcmvSAeABQVVfeXFMTjcxOWNWQS0wZ2duRnJvaExJU0JzLUR4NlE0NEZjakpMM3B1NE9pZVI2LVdEM3pSbGFHa1Z5NmpsNmdWMy1ZaE1YMUtXUGxuendlTGpndE9pRHhab0JmZUxWaXNEMks0YzlaQjhVVEdzVV8zbVNmQkZER1o5SFBpU1ljMkhRLVlab0o2eDJlUmVqYVI0d0hYcDl0aHJQMWxvMzkzdVdIbUxEcmtnYWtrY0pQT3IzbE1QNGVZZkV4SFRRMmc5QzJHMGhsZVlOR3dCN21oLWQtOG5pemptSEFvaF8?oc=5",
       "source": "Folha de S.Paulo",
       "category": "macro",
       "tags": [
@@ -607,9 +971,9 @@
     {
       "id": "macro-0c7292572a19cf3fd5837d45",
       "title": "Brasil perde sistematicamente espaço na economia mundial",
-      "summary": "A Secretaria Especial da Receita Federal do Brasil publicou a Portaria RFB nº 676, de 27 de abril de 2026, que altera a Portaria RFB nº 555/2025,...",
-      "details": "A Secretaria Especial da Receita Federal do Brasil publicou a Portaria RFB nº 676, de 27 de abril de 2026, que altera a Portaria RFB nº 555/2025,...",
-      "url": "https://www.legisweb.com.br/noticia/?id=33344",
+      "summary": "Atualizacao de macro capturada em Estadão.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWUVIUG52dWkzcDlmQWhra2xxLW1BSUFJSEZEX0RwM1NlX3JPYzhKZ25sVTVOaUpJRC1ETkVPSlBBcW90S3JsNzdzb3VHQ2pTb29KUVFIcWdnRHp2MGt0RTFQa0FDbXdMQmcxUXM3eXBZR0dzX2NLSGFtb09KaHNrNWJFMWxhZG9JdHJoT2xiNGlaanNxUGJGNHYtTzY3YUJ3YnpBRFdQX204LWdjMF9nZk00a9IBuAFBVV95cUxPUEtMUmtidjJZY1BoQW10LVJKbWMxVThtQl9FTmFzRU5xanVnRU44ZmR4UlhiRWxpYm5WVzhMTWZZLUJFZ3o1dVJOcUpRbG5wbGFCMXdPVmwyUWhtTVU2VmUyVmNhTnA4aXhScUNEbm9vc3UyNW5zSWFwdnpOTXR6Xzd2QWF1VnIxWTZnUjhvMHByUjF3U29sOHBKTENmVGhpQzNoQTktUnpBTm9QNXRWTy1PSm9EVEtB?oc=5",
       "source": "Estadão",
       "category": "macro",
       "tags": [
@@ -620,34 +984,14 @@
       "publishedAt": "2026-05-04T19:50:29Z",
       "updatedAt": "2026-05-04T19:50:29Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.legisweb.com.br/img/noticias/icms-ipi-iss-outros.jpg"
-    },
-    {
-      "id": "latest-384a03e72572dc5c1db3e621",
-      "title": "Ouro cai 2% com escalada no Oriente Médio e dólar forte",
-      "summary": "Ouro recua 2% e prata quase 4% com dólar forte e escalada de conflito no Oriente Médio. Impactos nos investimentos e juros",
-      "details": "Ouro recua 2% e prata quase 4% com dólar forte e escalada de conflito no Oriente Médio. Impactos nos investimentos e juros",
-      "url": "https://esbrasil.com.br/ouro-cai-2-com-escalada-no-oriente-medio-e-dolar-forte/",
-      "source": "ES Brasil",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-04T19:40:58Z",
-      "updatedAt": "2026-05-04T19:40:58Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://cdn.esbrasil.com.br/wp-content/uploads/2026/05/article_142885_8008a48b.webp"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-c3e69d05b3407c65ff452d81",
       "title": "Trump volta a criticar Powell e divulga imagem editada de presidente do Fed caindo em lixeira",
-      "summary": "A ‘desbrasilização’ do PIB global deveria ser o grande tema das nossas eleições",
-      "details": "A ‘desbrasilização’ do PIB global deveria ser o grande tema das nossas eleições",
-      "url": "https://www.estadao.com.br/economia/pedro-fernando-nery/brasil-perde-sistematicamente-espaco-na-economia-mundial/",
+      "summary": "Atualizacao de macro capturada em UOL Economia.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPelFmRVBFTHQ0bUszZ3Y1NWYxcU5mY2l2ME43X1E5dlRfV09WdWpjeTI1MTBFcGZHcHhQNnkybkZNanFOb3hjT2xfSkZGUEtyNTM0cXZoQWZzNkhpWkRQUlVnMDFOVjVlQlhyZTNkS0xMS3J2N2JlelRVcXQzV2txQkxTU2phdHRvMGUxY19EeGFVQTkwcUZJU1pOeFNwamFSa1hhcVI5T2Z5M3k3cXBjS2xUaWJKaXk3Umx4aGhCd0RPakdtNGhJZWIwOHhHLWg5aUFWOG9oeERBdEd5WWNLVm82TWl1cTVqNW13Y1JJZm0wWlZm?oc=5",
       "source": "UOL Economia",
       "category": "macro",
       "tags": [
@@ -658,15 +1002,14 @@
       "publishedAt": "2026-05-04T19:39:00Z",
       "updatedAt": "2026-05-04T19:39:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/MMJHOCAHLFAQLOVMN5XZDVHRJ4.jpg?quality=80&auth=a338c7bb1bf0aac6a95e6f788ca6cdfbf1b938097f5aeca047a1762ed00be726&width=1200&height=630&smart=true"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "companies-173cea672daeb2daae09210e",
       "title": "Polpanorte lidera mercado de açaí e se consolida em diferentes regiões",
       "summary": "Atualizacao de empresas capturada em ABC da Comunicação.",
       "details": "",
-      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/05/04/trump-volta-a-criticar-powell-e-divulga-imagem-editada-de-presidente-do-fed-caindo-em-lixeira.htm",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbzNldHQ1cng3bDdZZDRsX2VoNUFGTlF5UkRXcS1wNXB6VU16Um01TjdPYWo4Y3N4M2pKT0FURGlhTkNVQ0dUYjh6WmlJWE1neWVVYzR5Wmo0MW50aTlOOUFEenBYWWdmZW1CeFBpbFRjalExaGNXbVVva0JNLXRoS2JIX2x0bEI0WWctNUUxelM2eEJWb1JmU1NkRWcxWWFYZlFYSXg1b0t2bzQ?oc=5",
       "source": "ABC da Comunicação",
       "category": "companies",
       "tags": [
@@ -684,7 +1027,7 @@
       "title": "Parceria entre NürnbergMesse e ApexBrasil garante número recorde de empresas brasileiras em feira no exterior",
       "summary": "Atualizacao de empresas capturada em ABC da Comunicação.",
       "details": "",
-      "url": "https://www.abcdacomunicacao.com.br/polpanorte-lidera-mercado-de-acai-e-se-consolida-em-diferentes-regioes/",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNY2NaQ2RoWml6MGhYOExleFdHRnNIbDdXb2VWNHY1c0lZX0lUeWVvcER1anpQUGR3SWhQdGxJZDA4cDU5QWdfZ0NQcHlrUHpoNzA4ZlRzUW9pZDkxczFWZXZrUkxzZ0h0YmVnUE52MEFDUjBRYjJ6SDZHODZ3YlRrMXVQa2JHLVdITlYyaDZtTkQ1SnhUaUxvbXFWZ21Ed2J3aHlTR0g4M0RJejRNOXR6d1hSN1drMmFDdjVEd01UNkpXVUF4eWtNTk04TW1nWXNMSTBkMzFtenZIUzlSUmxR?oc=5",
       "source": "ABC da Comunicação",
       "category": "companies",
       "tags": [
@@ -698,48 +1041,11 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "latest-54e83174cded33f0db06251c",
-      "title": "Açúcar registra forte volatilidade em abril e fecha mês em queda na Bolsa de Nova York",
-      "summary": "Atualizacao de ultima hora capturada em Portal do Agronegócio.",
-      "details": "",
-      "url": "https://www.abcdacomunicacao.com.br/parceria-entre-nurnbergmesse-e-apexbrasil-garante-numero-recorde-de-empresas-brasileiras-em-feira-no-exterior/",
-      "source": "Portal do Agronegócio",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-04T19:32:16Z",
-      "updatedAt": "2026-05-04T19:32:16Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-9750749b2108847ce01aee3d",
-      "title": "Fachin diz que escândalos recentes são 'consequência nefasta da ausência de limites e controle' no mercado financeiro",
-      "summary": "Oscilações foram impulsionadas pelo petróleo, cenário geopolítico e perspectivas para etanol e clima global",
-      "details": "Oscilações foram impulsionadas pelo petróleo, cenário geopolítico e perspectivas para etanol e clima global",
-      "url": "https://www.portaldoagronegocio.com.br/economia/mercado-financeiro/noticias/acucar-registra-forte-volatilidade-em-abril-e-fecha-mes-em-queda-na-bolsa-de-nova-york",
-      "source": "O Globo",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-04T19:28:52Z",
-      "updatedAt": "2026-05-04T19:28:52Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.portaldoagronegocio.com.br/storage/images/notices/69f3abb7c7b34.jpg"
-    },
-    {
       "id": "macro-62d0d8a57bc2a06faecc69d6",
       "title": "Receita Federal atualiza regras sobre utilização de créditos na transação tributária",
-      "summary": "Fachin diz que escândalos recentes são",
-      "details": "Fachin diz que escândalos recentes são",
-      "url": "https://oglobo.globo.com/politica/noticia/2026/05/04/fachin-diz-que-escandalos-recentes-sao-consequencia-nefasta-da-ausencia-de-limites-e-controle.ghtml",
+      "summary": "Atualizacao de macro capturada em LegisWeb.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJWU9XOWRmbTZsQ29ydFZwWVh4UVVFLW4tajJlNHhHZHFuVFRlNEhlZFprQmNDa1pyS0VxNFVZSTFwUjlzUjcySlpOWVV3VTJxQWhscVZ6bEs?oc=5",
       "source": "LegisWeb",
       "category": "macro",
       "tags": [
@@ -750,258 +1056,23 @@
       "publishedAt": "2026-05-04T19:24:41Z",
       "updatedAt": "2026-05-04T19:24:41Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-oglobo.glbimg.com/pSRiim0B_vYZMpabNSCwIKGTcI0=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/v/4/1AOX2vRAA1g82IxHQNjg/55226661589-1036bdbd98-k.jpg"
-    },
-    {
-      "id": "macro-9b68bb6a5ada7759b159f023",
-      "title": "Williams, do Fed, afirma que os efeitos das tarifas devem diminuir em breve.",
-      "summary": "Atualizacao de macro capturada em ADVFN.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZkhidTFqaXA1V1hEOU0wLTJTbXQ3bmlwUFlVclJ4bXd4cHY4UXVWNnQxTW0xZ3RySVRqc2J6dWd4U2JJR2tXUEhDOVZvQ3lYbkRkM3lQc3RVYnFXZUVMNXg0QTIxRklEQjRYdE04UWhvbFdrMFVySkhGbUFNSmdWdXhCc3FKZ0NNRWJoSk9HckZMOV9fLU9OOTFSOFEtVlg1WUd3c3hwcjNFeTlMN0E?oc=5",
-      "source": "ADVFN",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-04T19:20:48Z",
-      "updatedAt": "2026-05-04T19:20:48Z",
-      "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "macro-062412b09d9e733a905925ff",
-      "title": "Fiscal da Fazenda-SP ganhou salários de R$ 186 mil mesmo foragido por operar ‘fura-fila’ do ICMS",
-      "summary": "Atualizacao de macro capturada em Estadão.",
+      "id": "companies-4696ac75cd3e25b5196a53a8",
+      "title": "Empresas sem controle de caixa podem quebrar na Reforma Tributária",
+      "summary": "Atualizacao de empresas capturada em FOLHAMAX.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQV0p6OXVka2t4eFg1OEM0X1lQVWpJS1ZkSFdnSHA4REttZlBXZ1dkUFRnaFEyVlktcDhWeWMwYmRWU0J1Y2NqcF9FcWQwWG9SN3AwQzBXN2prNWVzRV9KQ25WbjhtcFA3cVpEcndhVGN1MXFIQjVGd2ZhcEJQdEdQTEpPM1FMbVlOVE1QSVlkN3V0ZTI5MG5iNmpWc2o4SGljMTlCUDlBcXN2aFdlcXVjaFBha0xvSWQyZVJudFBjTnhEeVpTRm1tcVVzOWZldkY5OFlJSWhwOVlEZDRxeDhKUnZ2OS1ISEVtZ05qa9IB7AFBVV95cUxQV0p6OXVka2t4eFg1OEM0X1lQVWpJS1ZkSFdnSHA4REttZlBXZ1dkUFRnaFEyVlktcDhWeWMwYmRWU0J1Y2NqcF9FcWQwWG9SN3AwQzBXN2prNWVzRV9KQ25WbjhtcFA3cVpEcndhVGN1MXFIQjVGd2ZhcEJQdEdQTEpPM1FMbVlOVE1QSVlkN3V0ZTI5MG5iNmpWc2o4SGljMTlCUDlBcXN2aFdlcXVjaFBha0xvSWQyZVJudFBjTnhEeVpTRm1tcVVzOWZldkY5OFlJSWhwOVlEZDRxeDhKUnZ2OS1ISEVtZ05qaw?oc=5",
-      "source": "Estadão",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-04T19:20:47Z",
-      "updatedAt": "2026-05-04T19:20:47Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "latest-68f8496d204cd5466994e085",
-      "title": "Ibovespa recua com petróleo a US$ 114 e aversão ao risco global; Embraer (EMBJ3) dispara",
-      "summary": "Atualizacao de ultima hora capturada em Estadão E-Investidor.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYm9yYnd3Y0tlUHc1N0t1S09DQUwzS1pPYWMxaEdJZVo2dEJDRlFUOFNOcHNMRFAxR3FIQV9pQ2JIZXNxTGYtTDE2ekdVOGpRZkR0Q2lEbWViWUFJcE1FbS1FclJYQks3cTZJWlZUWjhUczZMRVBtSUcycFhBbW12emUwM0VINjIwQmd6X1EybW1laF9Qb1UxQmJ0cUtiMGQ4MlhNRFVsRVA0bHBU0gGsAUFVX3lxTE5ib3Jid3djS2VQdzU3S3VLT0NBTDNLWk9hYzFoR0llWjZ0QkNGUVQ4U05wc0xEUDFHcUhBX2lDYkhlc3FMZi1MMTZ6R1U4alFmRHRDaURtZWJZQUlwTUVtLUVyUlhCSzdxNklaVlRaOFRzNkxFUG1JRzJwWEFtbXZ6ZTAzRUg2MjBCZ3pfUTJtbWVoX1BvVTFCYnRxS2IwZDgyWE1EVWxFUDRscFQ?oc=5",
-      "source": "Estadão E-Investidor",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-04T19:12:22Z",
-      "updatedAt": "2026-05-04T19:12:22Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "macro-ba40a984d183e3b276360f2c",
-      "title": "Presidente do Fed de Nova York alerta sobre ambiente de incerteza com a guerra no Irã e cita elevados níveis de inflação",
-      "summary": "Atualizacao de macro capturada em Estadão E-Investidor.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUUwwd2w3ZUpYajNZWTRWYXpIU1E1UVA5Slc1bGx3TlVxRUhvYVhFazhCNVpnb0VObldsbXk1VjFma25wU1B1ZHZ6aUowRENJek1GSjYzQldnSDRFbDhJSGtFMzcyT0trdC01MDYtTnY3U0c0d1pWSG8wOGExSkNseUhHMzI2bDJHdXlJZGJHRVczajc0eVBvTkNzYUgta3prUzBvSDFhSDlIN0gzSXl6ZnB6Sm9FTEpWTjRfU1pHUTVGRC15ODhr0gHMAUFVX3lxTFBxLWRPZTJpV1pzWjMwakVaTUNjMk51ZGFyVGpmaHEyY2hEN0Z4TlFxLTl3V0xpYXRyTUZ2aW8xVXVMemFhMWVtelozUWFLUlZkN19pRVk5SUJPVDRSTk5Ncml4MGJiR1F2cnNvODZyYjdoOXZPQm9Qa2o1Nzd4c3dURzNBTndhUFpEeE5raFNGSWtoNFJkT09lSkxWaER5WTU2THRuUlZ4VktldDlvRkkxU2FKOWxtVmEzejFhNnZuNFAtQkFpTE53Q0dDeQ?oc=5",
-      "source": "Estadão E-Investidor",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-04T19:10:45Z",
-      "updatedAt": "2026-05-04T19:10:45Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "latest-9ce7c5dd44dc28f4c66857dd",
-      "title": "Governo lança novo Desenrola Brasil com juros de até 1,99%, mas uso do FGTS acende alerta",
-      "summary": "Atualizacao de ultima hora capturada em Monitor do Mercado.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTGp2ZDRFVDBKU0NjOUZQSWZUdFhoZVZkUXBsRU5SZjVOY2F2WVFPUkRCaTZ1RjBaXzVDSDJRSGZVSmItWmdoSTlCdWxNYXZFUVJHcmlVaDBFY3Y2LXJ0TU45TTJmUDJDWFlxbHNmTU84RWo3Qks2RU1HNnVrTHhuNzktR0o3M3NkNjFJVjgxbWtXdTVhdUgzVVJMWW44WjBGWE5EY1dqeVFhU0gxcW5DaEtXSjQ5dDZNTmQ0SFgzYkpKWjlmLVNYLUo1N05fZUMyYlRmYXBXQTlVdTFG?oc=5",
-      "source": "Monitor do Mercado",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-04T18:49:59Z",
-      "updatedAt": "2026-05-04T18:49:59Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-1c586516acc2448332422c55",
-      "title": "Inflação segue em alta nas projeções e mercado mantém juros elevados, aponta Focus",
-      "summary": "Atualizacao de ultima hora capturada em Carta de Notícias.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQU3VMM0NVX0RoVkNnMUpHWVc0Vk5tb054UlR3WFp1czluaXo2Rk1lMHNiSjkteXZ1RUFCV0hpd04wWjZBR0tJUkt1aEVKVTQ0SWotZ3pSSFVmX0Myal92cHdTNUpkS1ZsRjN2ZjlYbjUyLVBvYmxzWW9fU09tUGFVdHNfcHVuczFkbUROOEl0dGw3N1RIajN5S05zUEQyMktuNU5HZWpOZnF0YXhWS2JHcFl1Q1NFNTFvZVhVQ3Z4eHdPZnJBakE?oc=5",
-      "source": "Carta de Notícias",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-04T18:44:31Z",
-      "updatedAt": "2026-05-04T18:44:31Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "macro-089226499de5fac7df848bc1",
-      "title": "Copom reduz Selic para 14,5%; o que esperar da economia nos próximos 45 dias?",
-      "summary": "Atualizacao de macro capturada em O Brasilianista.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMnZyekM0cUxDZW5iRnJVaHFRTkpBbmdpc0thSThDdTNubmROSVZVaUdTTkpHb0UwbVVtTGttOXl5dVhJR2Z4X01Jai1BQ2w1bnd5YWRxQzBicFhlVmJUbEc3QU1aanVlelc3cDhVel9NWml2bE1hWENwUWQ0X3h5bTV5ZzJYRkIySS1aY0MxNWY?oc=5",
-      "source": "O Brasilianista",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-04T18:43:01Z",
-      "updatedAt": "2026-05-04T18:43:01Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-5d9fb35f53fe4e3859c0ee2e",
-      "title": "Brasil fica para trás e amplia distância de PIB per capita em relação ao mundo",
-      "summary": "Atualizacao de macro capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVmNzdlF5YUcyU2QwanRJTWFjZTdtYWNUUG9SSkVldEZkVWVLWUVUSjZNcEE4MkdOUmo1NVBSZURXdEp0Z19GWWFxS1U1OWFoalFaSWRsYXo5X09OanJnM2taQkJSVHg2XzNTNjhRdWpuVE5zQml2eGpXZlJEZ2l4Uzl3Q21mMXJ6eXFXZE5lRUY3a3RGTGxfOU5NZzJMdndSRmdqR19GUTBSUUt5Z240NXdoN2NDd9IBuwFBVV95cUxQSC1wWDFnczFOeFVuOTFhdWh1dkhhREpIekUzRVllY29iSmh1eDZUUVJDbGg0eUF5Q05EWnV0bFdOSVlRUHo4Y3VMY2s0YnBaV2MzSFNjZVV3bmVTZ2JMR2gzSTVKRDA5ZlVCMVRDSlBEeVdPR0xzWmJQeVptdWdRbUl1dGctYVoydDFvRXU1cXpKTE80cVFERDdqUmF0YmNRQy1lek10N0cyUkUySjhTbGNvSXNVX3BPb1BF?oc=5",
-      "source": "Estadão",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-04T18:39:47Z",
-      "updatedAt": "2026-05-04T18:39:47Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-ae3ad87d0cf6d4653594f5b7",
-      "title": "LLCs: Uma leitura crítica da Solução Cosit 56/26",
-      "summary": "Atualizacao de macro capturada em Migalhas.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbWtSNXc4SUZNV0VnOEcwWTlRTUlvWEJnaFFvYUg4c1dqVUJ5czVxSHg5WHM3UVJLd3R0REpMLWd6bkNsU3RnOFRLZUpRNkp1aFZ2U3BhTE1MOHVYa2Y0ZE9QekQxb19ZbmlXODhWMGY5ZHYtTUlBekd1TkJtZDNzNzgzcTY4N2pwd195aVhmUnBZVGs?oc=5",
-      "source": "Migalhas",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-04T18:38:08Z",
-      "updatedAt": "2026-05-04T18:38:08Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "latest-7a4f92895e83ee2fc5ace20c",
-      "title": "Juros nos EUA: mercado retoma apostas de alta e precifica movimento em março",
-      "summary": "Atualizacao de ultima hora capturada em Money Times.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWFZYNG1yN2lLdEhwSmpwcFJTSG8zdXVyMjdJaFU5MGhmVDJEVnQtRlhkcXRrMFhNWlI2UWxTNktHMG9sMmhObUFnRXByNVc5VGRfQmNTNTZnblFHallXWi1QbXpuMGdNUGFNYWgxV2QxdFRYRndVc3pzV3haTlJiZzM2TzJuaHR3Q0pDLUNSTmZvSGh4V25wbVVpb01iMXdUZWlyVW5EQnk2aTl0MUJlOQ?oc=5",
-      "source": "Money Times",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-04T18:34:00Z",
-      "updatedAt": "2026-05-04T18:34:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-758e9a8e08375473897e562e",
-      "title": "Especialista chama Petrobras de “queridinha”, mas acha difícil Dividend Yield a 20%; veja os destaques do Giro do Mercado desta segunda (4)",
-      "summary": "Atualizacao de ultima hora capturada em Money Times.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPOE5lNEdHeEw3SkxXb2ExMzdzQUdwTHVJeHNpZ3dadHVEV0JJYzNDUGF2WUJMc2taVlEwd2JPc0RQTnkyeHE3dFZyZXhRN3ZFVGtld05TcHM4TmxWeFFoS3hHX0UyRkItSHh0MS1oZ0NtVjhOTzBIaEhUbnh3QXN4MmJuY3BhUXZDNHhNdDc0VDl1WGYxQzN5a2szX25EREJTZ0x6eWhNWGxKeEg5VmZoRXZUcVBTWF9HdjNzdHpjSlNacTJUelc5RGdERk44TkYtTjJSMWRYMmJFc0NqZkpKY003QWJPMUUwTk9KWGxqV2RucmhBVlduc1JuelcyXzJKZjRMU1NJVQ?oc=5",
-      "source": "Money Times",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-04T18:34:00Z",
-      "updatedAt": "2026-05-04T18:34:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-534db268063f88395aa8605a",
-      "title": "Crédito rural e renegociação de dívidas ganham destaque com juros elevados e linhas a partir de 2% ao ano",
-      "summary": "Atualizacao de ultima hora capturada em Portal do Agronegócio.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPVEhUMElreUZ4MGZDam41WVhOWk1OT3pQaWtkYV9PLV9qTXY2d0NYaUU0dmhIZnlNWEVGcmtobTY5LXRLR1FoTUxHc3V6VkhabGZzMGEwUVB3NmlLeUhUNEl1YWNtM2MybTRMYS1JVzFMNGlmanR6MGNiY0tzenBRaWk2aGRleGtQbTUyVEtyaDJhT0xfRkxMV1NYUWVzRlQza3UyRXVEV0EtRHQ1M0VlTzJ4T0l3TlJtbHRQaGNaV3o3Y2ZoZWFKa1VIaXl3ZUNtX3AtM0g3RTV6cFJHZGV4UzJYclF2QlpybzBoX3BlX2pmekZRRUk2WDBkaUZ6UzVlTlFUR3VEQmNuZw?oc=5",
-      "source": "Portal do Agronegócio",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-04T18:33:47Z",
-      "updatedAt": "2026-05-04T18:33:47Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "macro-d036d374889cd582d7ab8839",
-      "title": "Focus: mercado aumenta projeção do IPCA em 2026 pela 8ª semana consecutiva",
-      "summary": "Atualizacao de macro capturada em Exame.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNb0IyLXdicURENTVmUjBSa1Q3anhOaG1LY0w2aDNiZ3R6Y3VISkhJUERfdDFhemxCeU1BbFd6ZEJUODdQLXpVek81OURLR2lCZm91UHIwempxbUc2MUxMQUF1bG5RSENLdGZRbXBmdFhTYUt6eTU0S3VzSlA4MjV3UExtYy02Zm1I?oc=5",
-      "source": "Exame",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-04T18:30:38Z",
-      "updatedAt": "2026-05-04T18:30:38Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "companies-526b472ac321661a07fc8b43",
-      "title": "Com peso dos juros, 47% das PMEs relatam pressão nos custos, diz pesquisa",
-      "summary": "Atualizacao de empresas capturada em MSN.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPMDM0a2VhSEt0NzdaTmN0eURudFBaTlJ6TkhsYVRDdGhzUGhjSkwzeDZ3MzgtZFdpSS16c1ZpaUVHQl9pb2lxbUl2VTFBXzBVU3E3d3BZVUpWTXJKaWpfRXh4LU5PQzlqTGJDYXhfaGZ2Q1dIdHMyS0x6Y043RFBoN04yWW1LUkZEYlZXVGVFYVRHMnNRaTk2V0ZtNC12ZnRRbjRJWGp5WWRZYWhSTUVBNHZuMjNCT1I2dVdxS3paeGluRWRhZmdpckhtYkltVl9uc1p1aloyUXlTQWwtTG1uUXBvS0p0dU15NTI4djh5dHRSYm1SalpUODVBNXlXVWNUai1ZeU54UkFHeE92T1o1TnBSMTdzMVJfQ1pIWWtMQXVzWE9uZkhwaFhna2c4UTl1Rk9UNTJkNXFmMEZ2U0JBclUzNlZ1bWlHa0VjbnB0SDBiR0dfWG1hWjVpeUlLYV9GdnRLUlM4Z1FLTng3aFVwNQ?oc=5",
-      "source": "MSN",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMEU2VkdjcG5lUUZDVFdEVHZNN21ZT2R6YllObndBZUtKN2FyZWE1cjh5YTNSVjFXNDZxZEtlQk1kNzl2WU5LLURFXzNwdnFaSkoyZDF2SDhoQUtNR1RwRTl1SV95aEUyNl9iM1VuM3E3bzRveDN2U1R4OHpzYm5lY09sNmZlcnVDd2JuaE9tU2pqLXg3bkNTSG1Uc21BTmQ5V0JsUDBjUHBlczB1U2V3?oc=5",
+      "source": "FOLHAMAX",
       "category": "companies",
       "tags": [
         "empresas",
         "resultados",
         "m&a"
       ],
-      "publishedAt": "2026-05-04T18:02:15Z",
-      "updatedAt": "2026-05-04T18:02:15Z",
+      "publishedAt": "2026-05-04T18:53:46Z",
+      "updatedAt": "2026-05-04T18:53:46Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
@@ -1010,7 +1081,7 @@
       "title": "Dia do Trabalho: 70% das mulheres relatam sentimentos negativos no ambiente profissional | SEGS Portal...",
       "summary": "Atualizacao de empresas capturada em SEGS Portal Nacional.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVUJteXYyeWpmdUF5eGEteWhuOTdaWmtxSW5zeklsanJWSUZ6ZmcyaFVmU2JHWEtUZnliemxtVTQ0cGJmT1hLZkk4UjRQeHVYdWFSOUFoeTJBV2dxVW9YREFLbVdOUmRwSEUxallUa0dlX05taHlOMFFQT2gwNXJqYWJqLXUwSG53aTlkdFliSGVyVDlSQkpGQjhmb0xOUU5teDI0QVlXWlUzZWRkYXhnNk5nVG1LV0dGMTZjQTdqLTFPT19NODJkadIByAFBVV95cUxQVUJteXYyeWpmdUF5eGEteWhuOTdaWmtxSW5zeklsanJWSUZ6ZmcyaFVmU2JHWEtUZnliemxtVTQ0cGJmT1hLZkk4UjRQeHVYdWFSOUFoeTJBV2dxVW9YREFLbVdOUmRwSEUxallUa0dlX05taHlOMFFQT2gwNXJqYWJqLXUwSG53aTlkdFliSGVyVDlSQkpGQjhmb0xOUU5teDI0QVlXWlUzZWRkYXhnNk5nVG1LV0dGMTZjQTdqLTFPT19NODJkaQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNkhzVVlwREg0Sm9IeE5Yc1NEU2FOZzkyWnpVb1FraFRoTlJFRkI2U3hWMHdsUlpFMmlKTWlfUC05NHQxcVgwNHN4bzQ5MklJTnlxRzZ6VDVvanFZZlFwbjQ3OEVFUDJNRkZTZVQyZVp1ZDhTQlB5VmVSVzh2SDVWUWRHSmNXUXNUZlhOV0VMMkN5X2Jyc2I1b19PblNBbHpZaWpnN1RwQkZiUUhMSXJNNU40OUhJenFlZjBrb09EdWNPSjDSAcgBQVVfeXFMUFVCbXl2MnlqZnVBeXhhLXlobjk3WlprcUluc3pJbGpyVklGemZnMmhVZlNiR1hLVGZ5YnpsbVU0NHBiZk9YS2ZJOFI0UHh1WHVhUjlBaHkyQVdncVVvWERBS21XTlJkcEhFMWpZVGtHZV9ObWh5TjBRUE9oMDVyamFiai11MEhud2k5ZHRZYkhlclQ5UkJKRkI4Zm9MTlFObXgyNEFZV1pVM2VkZGF4ZzZOZ1RtS1dHRjE2Y0E3ai0xT09fTTgyZGk?oc=5",
       "source": "SEGS Portal Nacional",
       "category": "companies",
       "tags": [
@@ -1024,11 +1095,11 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "companies-22facd603498a340a84145d0",
-      "title": "Reforma tributária impacta contratos e fornecedores já em 2026 | SEGS Portal Nacional de Seguros, Saúde,...",
+      "id": "companies-cb5aed1f18637c2c08063267",
+      "title": "Avanço das marcas próprias redefine cadeia de distribuição no país | SEGS Portal Nacional de Seguros,...",
       "summary": "Atualizacao de empresas capturada em SEGS Portal Nacional.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNS3hKenRMN2paSllnSGNVYzdrbkJndHkzZkR5b1hmUkctZmtMMDBLcGxMdDNObENOZjRjb1dWZzRwRHBzdTQyeDV6OTV4MGxJT0Z1ZGhPNUxyekRmQ1hzZC1RMWtfRUh3X1ZZeGl3c3hQZGFjWm11UlFtcldjTzNrc1FidE9sRjd0WC11bFNCUEtjM0M1c2lZd29xUC1SLW4tcXRB0gGoAUFVX3lxTE4ySzc5MmI2MTVNaWFmT0RyV0d3ekpHMnlFS2FCOXpSaTF6NzhQT1VuYm13NERGWVY5aEZ3NjRETk4wN2JMZ3loVU5DcHNmamJuTkNoY1BPcEhVa0RiRGFJV0RLWnBuUjBmelQycHl4dVIxV2tuYnA4X1dHZUt6YmRhWGRlZ3Z2T01sbGZjUFRzQURpcnR3c2QtdjZrc045TkRuaHpGekJZdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb1JhTmZ6Zi1ZbEMzQkZBSFVkTi1NQ0pSVmtFMXBtQXhUUGV6dmw3ekx3X0QtWVBNTWp4Y0ZpNzlnQTZiSWgtaTB2dG44Q1BCYzloQ0RpXzdFVy1pX3J4RlFkTlVTQ2k1ZjliTnlZaDBOWnUwU3JRUVhRdzNjcEtfbEZ5VUZzbXRuYXh0WFZTaGhKNU55SjNsS09aMWJHUnZLb0pEZC1sakxTekdJa0HSAa4BQVVfeXFMTW9SYU5memYtWWxDM0JGQUhVZE4tTUNKUlZrRTFwbUF4VFBlenZsN3pMd19ELVlQTU1qeGNGaTc5Z0E2YkloLWkwdnRuOENQQmM5aENEaV83RVctaV9yeEZRZE5VU0NpNWY5Yk55WWgwTlp1MFNyUVFYUXczY3BLX2xGeVVGc210bmF4dFhWU2hoSjVOeUozbEtPWjFiR1J2S29KRGQtbGpMU3pHSWtB?oc=5",
       "source": "SEGS Portal Nacional",
       "category": "companies",
       "tags": [
@@ -1036,8 +1107,8 @@
         "resultados",
         "m&a"
       ],
-      "publishedAt": "2026-05-04T17:56:20Z",
-      "updatedAt": "2026-05-04T17:56:20Z",
+      "publishedAt": "2026-05-04T17:56:33Z",
+      "updatedAt": "2026-05-04T17:56:33Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
@@ -1110,24 +1181,6 @@
       ],
       "publishedAt": "2026-05-04T17:00:00Z",
       "updatedAt": "2026-05-04T17:00:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-349f4c4484aff7124f932250",
-      "title": "Efeitos da gestão Trump na economia do Brasil em 2026",
-      "summary": "Atualizacao de empresas capturada em Gazeta do Povo.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZXlYYzM3ODdDMUVVclE3TTk4SWgtVTZvQVRabWJyeFl0d2l2RjduMUNqNC0wb0xEcDE0TTBISWdhSkpJQzJ1V0JpUlY2RnJOS2NmSUg1SE1YZFV0dFpnN3FncV92QlFHWlhpZUh2WjhzbHJCb05KNkx5d2lyd0tuRGhjLWY1YTVNbVRqNUFsWGgxT0IxZ2ttVHI5U0dtb2RKTTl6Wk1WVHE?oc=5",
-      "source": "Gazeta do Povo",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-05-04T16:46:00Z",
-      "updatedAt": "2026-05-04T16:46:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
@@ -1240,12 +1293,12 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "companies-108a3a23ba960f4a177f22b7",
+      "id": "companies-3f2b03ec7d2d578897663055",
       "title": "Receita Federal torna disponível Painel Receita para empresas — Ministério da Fazenda",
-      "summary": "Atualizacao de empresas capturada em www.gov.br.",
+      "summary": "Atualizacao de empresas capturada em GOV.BR.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTHpKUTA4ZnZwUmFDZXRYOFpsS1JxTnZ0UDVDMlplWlV4WVpxTVBtSmxuV1lDbmhZRWNvRFg2Z0UyV1JRUGZWYXF3em1FWXkxNEFoNmxYd3RFT0lGUHFxM3hTdmFxMzBYcE96MlJTUzRsMFVFeW5wTnJiU1NTMGFxTG1hSEpVU2U1WWVqZ3Q5VU82aTNMdDEwY0FfMG5yWEE3RTNFRWVaRkVGbWUyM3I3Sld5ZXVVNG5Ic3VRcl9fYw?oc=5",
-      "source": "www.gov.br",
+      "source": "GOV.BR",
       "category": "companies",
       "tags": [
         "empresas",
@@ -1346,60 +1399,6 @@
       "updatedAt": "2026-05-04T14:45:28Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-b353b4c016f68b1321067f1f",
-      "title": "A nova carteira do Ibovespa já está em vigor; veja como ficou",
-      "summary": "Atualizacao de empresas capturada em Investidor10.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZEhKNnl1dDgzX01QZWI2RVhtQWVHOHJsVFQwcktoRGl5UWZORExrOXpiZjNIeUpTdnpsd0JzTWxKckozSnRpMlQyMUtJWE5uRU9ISVppRGlfWEZUWjdsWFdaVTItYnREc3pWZXZVdF91SmhiaUZETnVySXBLZW1QMUQ4ZjlMdXlIQi1JN2ZfQjQxczB1S2dtdFR3dVZhZndJSlczV2Q4OXFlek9qQ1HSAa4BQVVfeXFMTWRISjZ5dXQ4M19NUGViNkVYbUFlRzhybFRUMHJLaERpeVFmTkRMazl6YmYzSHlKU3Z6bHdCc01sSnJKM0p0aTJUMjFLSVhObkVPSElaaURpX1hGVFo3bFhXWlUyLWJ0RHN6VmV2VXRfdUpoYmlGRE51cklwS2VtUDFEOGY5THV5SEItSTdmX0I0MXMwdUtnbXRUd3VWYWZ3SUpXM1dkODlxZXpPakNR?oc=5",
-      "source": "Investidor10",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-05-04T14:24:22Z",
-      "updatedAt": "2026-05-04T14:24:22Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-4d08baba312c800a883ca199",
-      "title": "Marfrig e BRF lançam Sadia Halal e avançam com IPO na Arábia Saudita de olho em mercado de 350 milhões de consumidores",
-      "summary": "Atualizacao de empresas capturada em Portal do Agronegócio.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOSlNHSm0zTlZfZnR2ZDh6eFBSeUdCZ2YxQkRLaXZ6Nm9IMDZwLXJWRTV1OWtOTFdZZlJyX1F6dE1URFd3Mng3WEp5UkM5T2syNWZ2cmFIVXE2VWZZZm1hdk1seWRvSkl1UlB6LXZWeDRqTFJyVnNwU19pYnNZVnhWTHFGa3BRV0FvdHNkdU9iVXZVUGZzUTFsTFFiR2E3VUt6NjJyMzEtUS1XRTl5eHN0X3M3YXc2R2JmTnoyTjUyLUxVWVA3ZEtoSThIU25HQW9QdmZ5RWk2alJhX2FCVzlEX2p0TkVxa1FtVm14NVIyRm13Yy1qR0hiZEk0VXg4S09KaFFwdDVBeWVQUW54NTF5alNuLW9nVTdqQVhiNldmZw?oc=5",
-      "source": "Portal do Agronegócio",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-05-04T14:18:21Z",
-      "updatedAt": "2026-05-04T14:18:21Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-62d042ebe547d6a0b2326910",
-      "title": "Agência de Comunicação - Bepay integra pagamentos, remessas e cartões em internet banking global",
-      "summary": "Atualizacao de empresas capturada em Estadão Blue Studio.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSjVOeExIdzY3VGthZ3YtNWUzSGo1c3BPR1BDdVhKa2diTFBpLVZQSkQ1eGpwM044UGJpZEpRTEJ0NkM1MzhhUG9ZcEJPVjFqNUJFR2NGQkJqZ1hPMFZMOTR0ZlJ4OEg5NGRKSjlsck1nUldfODdrckxyd2E0QzlJRlhXVElHQkpORzNYQzc1dGtsb3o0QWtocGNiUGV6TG1wZXI0aG9fSGl5a1EzUHRoRHU3cXE3RFpoNEZxOXVCUnFFR3dLMWQ3UlhRUkJWTVlrc29KQlNKQmlPUVFDWlI0Mkp4YTVUcE1pNEpn?oc=5",
-      "source": "Estadão Blue Studio",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-05-04T14:14:15Z",
-      "updatedAt": "2026-05-04T14:14:15Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     }
   ]
 }
