@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-10T23:36:21Z",
-  "generatedAt": "2026-05-10T23:36:21Z",
+  "updatedAt": "2026-05-11T01:30:59Z",
+  "generatedAt": "2026-05-11T01:30:59Z",
   "categories": [
     {
       "id": "all",
@@ -24,6 +24,10 @@
     }
   ],
   "sources": [
+    {
+      "id": "academia-concursos",
+      "label": "Academia Concursos"
+    },
     {
       "id": "agorams-com-br",
       "label": "agorams.com.br"
@@ -57,16 +61,20 @@
       "label": "Campo Grande News"
     },
     {
-      "id": "canaltech",
-      "label": "Canaltech"
-    },
-    {
       "id": "capitalnews-com-br",
       "label": "capitalnews.com.br"
     },
     {
+      "id": "cen-riomt",
+      "label": "CenárioMT"
+    },
+    {
       "id": "cnn-brasil",
       "label": "CNN Brasil"
+    },
+    {
+      "id": "correio-braziliense",
+      "label": "Correio Braziliense"
     },
     {
       "id": "correio-de-caraj-s",
@@ -89,20 +97,12 @@
       "label": "Diario de Cuiabá"
     },
     {
-      "id": "di-rio-carioca",
-      "label": "Diário Carioca"
-    },
-    {
       "id": "di-rio-do-estado",
       "label": "diário do estado"
     },
     {
       "id": "economic-news-brasil",
       "label": "Economic News Brasil"
-    },
-    {
-      "id": "estad-o",
-      "label": "Estadão"
     },
     {
       "id": "forbes-portugal",
@@ -113,6 +113,10 @@
       "label": "Gazeta da Semana"
     },
     {
+      "id": "gazeta-do-paran",
+      "label": "Gazeta do Paraná"
+    },
+    {
       "id": "gazeta-do-povo",
       "label": "Gazeta do Povo"
     },
@@ -121,20 +125,12 @@
       "label": "Gazeta Mercantil"
     },
     {
-      "id": "infomoney",
-      "label": "InfoMoney"
-    },
-    {
       "id": "instituto-dos-auditores-fiscais-do-estado-da-bahia",
       "label": "Instituto dos Auditores Fiscais do Estado da Bahia"
     },
     {
       "id": "investidor10",
       "label": "Investidor10"
-    },
-    {
-      "id": "investing-com-brasil-finan-as-c-mbio-e-investimentos",
-      "label": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
     },
     {
       "id": "jornal-correio",
@@ -169,12 +165,16 @@
       "label": "Olhar Digital"
     },
     {
-      "id": "plantaobrasil-net",
-      "label": "plantaobrasil.net"
-    },
-    {
       "id": "poder360",
       "label": "Poder360"
+    },
+    {
+      "id": "portal-do-bitcoin",
+      "label": "Portal do Bitcoin"
+    },
+    {
+      "id": "portal-g",
+      "label": "Portal G"
     },
     {
       "id": "portal-nosso-dia",
@@ -201,8 +201,8 @@
       "label": "Seu Crédito Digital"
     },
     {
-      "id": "seu-dinheiro",
-      "label": "Seu Dinheiro"
+      "id": "sou-enfermagem",
+      "label": "Sou Enfermagem"
     },
     {
       "id": "spacemoney",
@@ -215,6 +215,10 @@
     {
       "id": "times-brasil-cnbc",
       "label": "Times Brasil | CNBC"
+    },
+    {
+      "id": "tnh1",
+      "label": "TNH1"
     },
     {
       "id": "ubirataonline",
@@ -231,11 +235,124 @@
   ],
   "items": [
     {
+      "id": "latest-e67d3c3ca9319afe5e6d36a2",
+      "title": "Futuros de Wall Street caem com investidores atentos à guerra no Irã",
+      "summary": "Muita gente ainda registra o CPF na nota fiscal apenas por hábito, sem imaginar que esse simples gesto pode render",
+      "details": "Muita gente ainda registra o CPF na nota fiscal apenas por hábito, sem imaginar que esse simples gesto pode render",
+      "url": "https://www.tnh1.com.br/variedades/colocar-o-cpf-nas-notas-fiscais-das-suas-compras-pode-render-muito-dinheiro/",
+      "source": "Gazeta Mercantil",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-11T00:40:42Z",
+      "updatedAt": "2026-05-11T00:40:42Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.tnh1.com.br/variedades/wp-content/uploads/2026/05/Colocar-o-CPF-nas-notas-fiscais-das-suas-compras-pode-render-muito-dinheiro.png"
+    },
+    {
+      "id": "macro-39e03a4d90591f66d5f8d651",
+      "title": "Prefeitura Boa Esperança PR abre concurso Fiscal de Tributos",
+      "summary": "Bitcoin ganha destaque em meio à pressão de Trump sobre o Fed, elevando a busca por ativos descentralizados com cenário tenso.",
+      "details": "Bitcoin ganha destaque em meio à pressão de Trump sobre o Fed, elevando a busca por ativos descentralizados com cenário tenso.",
+      "url": "https://webitcoin.com.br/bitcoin-ganha-forca-com-pressao-de-trump-sobre-o-fed/",
+      "source": "Sou Enfermagem",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-11T00:26:22Z",
+      "updatedAt": "2026-05-11T00:26:22Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://webitcoin.b-cdn.net/wp-content/uploads/2026/05/221050-federal-reserve-8217-s-jerome-powell-defends-central-bank-independence-amid-trump-pressure-scaled.jpeg"
+    },
+    {
+      "id": "macro-9bc292c126a0fd28d9bb3309",
+      "title": "Colocar o CPF nas notas fiscais das suas compras pode render muito dinheiro",
+      "summary": "Futuros de Wall Street caem com realização de lucros e cautela sobre guerra no Irã, petróleo e negociações de paz.",
+      "details": "Futuros de Wall Street caem com realização de lucros e cautela sobre guerra no Irã, petróleo e negociações de paz.",
+      "url": "https://gazetamercantil.com/futuros-wall-street-caem-guerra-ira-negociacoes-petroleo",
+      "source": "TNH1",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-11T00:06:00Z",
+      "updatedAt": "2026-05-11T00:06:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://gazetamercantil.com/wp-content/uploads/2026/05/1778291716_Wall-Street-avanca-com-payroll-forte-e-acoes-ligadas-a.jpg"
+    },
+    {
+      "id": "macro-9c5724ddab168b56ff02a429",
+      "title": "Bitcoin ganha força com pressão de Trump sobre o Fed",
+      "summary": "Boa Esperança-PR abre concurso para Fiscal de Tributos (nível superior). Salário de R$ 4.494,23. Inscrições de 04/05 a 18/05/2026. Prova em 31/05.",
+      "details": "Boa Esperança-PR abre concurso para Fiscal de Tributos (nível superior). Salário de R$ 4.494,23. Inscrições de 04/05 a 18/05/2026. Prova em 31/05.",
+      "url": "https://www.souenfermagem.com.br/noticias/prefeitura-boa-esperanca-pr-abre-concurso-fiscal-de-tributos/",
+      "source": "Webitcoin",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-11T00:03:06Z",
+      "updatedAt": "2026-05-11T00:03:06Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.souenfermagem.com.br/wp-content/uploads/2026/05/92d6c60d608aa3d68cd8b4ae8c502f59.png"
+    },
+    {
+      "id": "macro-b197ec84cbf103b024bf5218",
+      "title": "Por que o Super El Niño de 2026 ameaça os preços dos alimentos no Brasil?",
+      "summary": "Entenda como o Super El Niño de 2026 pode prejudicar a produção agrícola no Brasil e elevar o preço dos alimentos devido às mudanças climáticas extremas.",
+      "details": "Entenda como o Super El Niño de 2026 pode prejudicar a produção agrícola no Brasil e elevar o preço dos alimentos devido às mudanças climáticas extremas.",
+      "url": "https://www.gazetadopovo.com.br/economia/por-que-o-super-el-nino-de-2026-ameaca-os-precos-dos-alimentos-no-brasil/",
+      "source": "Gazeta do Povo",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-10T23:57:00Z",
+      "updatedAt": "2026-05-10T23:57:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/05/10205707/el-nino-2015-estiagem-1.jpg"
+    },
+    {
+      "id": "latest-d93f6f997e6df70aabe999d0",
+      "title": "Impacto das Restrições no Estreito de Hormuz na Cotação do Petróleo",
+      "summary": "Neste sábado (9/5), o projeto Vale do Lítio, iniciativa do Governo de Minas para estabelecer o estado como protagonista na cadeia de valor",
+      "details": "Neste sábado (9/5), o projeto Vale do Lítio, iniciativa do Governo de Minas para estabelecer o estado como protagonista na cadeia de valor",
+      "url": "https://primeiroasaber.com.br/2026/05/10/vale-do-litio-completa-tres-anos-marcados-por-avanco-no-pib-de-municipios-do-jequitinhonha-2/",
+      "source": "diário do estado",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-10T23:45:39Z",
+      "updatedAt": "2026-05-10T23:45:39Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
       "id": "companies-9fd4e48f2f8d8acb3f3dfcdb",
       "title": "Empresas ainda precisam guardar documentos físicos por até 30 anos mesmo na era digital",
-      "summary": "Hospitais, cartórios, instituições financeiras e empresas seguem obrigados por lei a manter arquivos físicos e digitais para garantir segurança jurídica e rastreabilidade das informações",
-      "details": "Hospitais, cartórios, instituições financeiras e empresas seguem obrigados por lei a manter arquivos físicos e digitais para garantir segurança jurídica e rastreabilidade das informações",
-      "url": "https://lerunica.com.br/geral/empresas-ainda-precisam-guardar-documentos-fisicos-por-ate-30-anos-mesmo-na-era-digital-15177",
+      "summary": "Gabarito Fiscal de Saúde SES GO 2026 publicado hoje pelo IADES. Primeiro concurso em 16 anos. Resultado final previsto para 2 de julho de 2026.",
+      "details": "Gabarito Fiscal de Saúde SES GO 2026 publicado hoje pelo IADES. Primeiro concurso em 16 anos. Resultado final previsto para 2 de julho de 2026.",
+      "url": "https://academiaconcursos.com.br/gabarito-fiscal-de-saude-ses-go-2026-iades-divulga-respostas-ainda-neste-domingo/",
       "source": "lerunica.com.br",
       "category": "companies",
       "tags": [
@@ -247,14 +364,14 @@
       "updatedAt": "2026-05-10T23:19:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://lerunica.com.br//img/lerunica/noticias/15177/destaque-G.v1778454656.jpg?v=1509530654"
+      "imageUrl": "https://academiaconcursos.com.br/wp-content/uploads/2026/05/Pessoa_corringindo_prova_202605101734-3-convertido-de-jpeg.webp"
     },
     {
       "id": "macro-ef2cae330df49238762fa636",
       "title": "Vale do Lítio completa três anos marcados por avanço no PIB de municípios do Jequitinhonha",
-      "summary": "Atualizacao de macro capturada em Primeiro a Saber.",
-      "details": "",
-      "url": "https://www.ubirataonline.com.br/numeros-sorteados-veja-as-duas-rodadas-da-103a-edicao-loterias-estadao-e-investidor-as-principais-noticias-do-mercado-financeiro/",
+      "summary": "Hospitais, cartórios, instituições financeiras e empresas seguem obrigados por lei a manter arquivos físicos e digitais para garantir segurança jurídica e rastreabilidade das informações",
+      "details": "Hospitais, cartórios, instituições financeiras e empresas seguem obrigados por lei a manter arquivos físicos e digitais para garantir segurança jurídica e rastreabilidade das informações",
+      "url": "https://lerunica.com.br/geral/empresas-ainda-precisam-guardar-documentos-fisicos-por-ate-30-anos-mesmo-na-era-digital-15177",
       "source": "Primeiro a Saber",
       "category": "macro",
       "tags": [
@@ -265,7 +382,27 @@
       "publishedAt": "2026-05-10T23:02:46Z",
       "updatedAt": "2026-05-10T23:02:46Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://lerunica.com.br//img/lerunica/noticias/15177/destaque-G.v1778454656.jpg?v=1959638567"
+    },
+    {
+      "id": "macro-41afaf065a9938048ae15b7d",
+      "title": "Gabarito Fiscal de Saúde SES GO 2026: IADES divulga respostas ainda neste domingo",
+      "summary": "Conflitos no Estreito de Hormuz elevam preços do petróleo, pressionando a economia global.",
+      "details": "Conflitos no Estreito de Hormuz elevam preços do petróleo, pressionando a economia global.",
+      "url": "https://diariodoestadogo.com.br/impacto-das-restricoes-no-estreito-de-hormuz-na-cotacao-do-petroleo/",
+      "source": "Academia Concursos",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-10T22:58:52Z",
+      "updatedAt": "2026-05-10T22:58:52Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/impacto-das-restricoes-no-estreito-de-hormuz-na-cotacao-do-petroleo.jpg"
     },
     {
       "id": "macro-79bf31f106e1969d04886c1f",
@@ -289,9 +426,9 @@
     {
       "id": "latest-f7473479947e804ca8018e43",
       "title": "NÚMEROS SORTEADOS; veja as duas rodadas da 103ª edição – Loterias – Estadão E-Investidor – As principais notícias do mercado financeiro",
-      "summary": "A Xtb viu o número de clientes crescer a ritmo recorde, a Trade Republic e a eToro registaram maior procura por ativos ligados à crise energética, enquanto a Degiro aponta para mudanças nos setores nos quais os portugueses investem. O conflito está a levar a mais investimentos e ",
-      "details": "A Xtb viu o número de clientes crescer a ritmo recorde, a Trade Republic e a eToro registaram maior procura por ativos ligados à crise energética, enquanto a Degiro aponta para mudanças nos setores nos quais os portugueses investem. O conflito está a levar a mais investimentos e ajustamentos de posições.",
-      "url": "https://www.jornaldenegocios.pt/mercados/fundos-de-investimento/detalhe/guerra-no-irao-gera-corrida-de-investidores-portugueses-as-corretoras-low-cost",
+      "summary": "Secretário afirma que governo dos EUA avalia medidas para conter alta dos preços da gasolina.",
+      "details": "Secretário afirma que governo dos EUA avalia medidas para conter alta dos preços da gasolina.",
+      "url": "https://diariodoestadogo.com.br/eua-consideram-suspensao-de-imposto-sobre-combustiveis/",
       "source": "ubirataonline",
       "category": "latest",
       "tags": [
@@ -303,14 +440,14 @@
       "updatedAt": "2026-05-10T22:46:53Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://cdn.jornaldenegocios.pt/images/2023-02/img_1200x676uu2023-02-20-18-49-14-446880.jpg"
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/eua-consideram-suspensao-de-imposto-sobre-combustiveis.jpg"
     },
     {
       "id": "latest-c7c31f48b0bad93efd7a5f7b",
       "title": "EUA Consideram Suspensão de Imposto sobre Combustíveis",
-      "summary": "Secretário afirma que governo dos EUA avalia medidas para conter alta dos preços da gasolina.",
-      "details": "Secretário afirma que governo dos EUA avalia medidas para conter alta dos preços da gasolina.",
-      "url": "https://diariodoestadogo.com.br/eua-consideram-suspensao-de-imposto-sobre-combustiveis/",
+      "summary": "Atualizacao de ultima hora capturada em diário do estado.",
+      "details": "",
+      "url": "https://www.ubirataonline.com.br/numeros-sorteados-veja-as-duas-rodadas-da-103a-edicao-loterias-estadao-e-investidor-as-principais-noticias-do-mercado-financeiro/",
       "source": "diário do estado",
       "category": "latest",
       "tags": [
@@ -321,15 +458,33 @@
       "publishedAt": "2026-05-10T22:45:52Z",
       "updatedAt": "2026-05-10T22:45:52Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/eua-consideram-suspensao-de-imposto-sobre-combustiveis.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "funds-b23cc249e6496e445fcdbe96",
+      "id": "funds-2ba28aaa5548870c2949aa0f",
+      "title": "O que você pode fazer com R$ 97 milhões da Mega-Sena? - CenárioMT Loterias",
+      "summary": "A Xtb viu o número de clientes crescer a ritmo recorde, a Trade Republic e a eToro registaram maior procura por ativos ligados à crise energética, enquanto a Degiro aponta para mudanças nos setores nos quais os portugueses investem. O conflito está a levar a mais investimentos e ",
+      "details": "A Xtb viu o número de clientes crescer a ritmo recorde, a Trade Republic e a eToro registaram maior procura por ativos ligados à crise energética, enquanto a Degiro aponta para mudanças nos setores nos quais os portugueses investem. O conflito está a levar a mais investimentos e ajustamentos de posições.",
+      "url": "https://www.jornaldenegocios.pt/mercados/fundos-de-investimento/detalhe/guerra-no-irao-gera-corrida-de-investidores-portugueses-as-corretoras-low-cost",
+      "source": "CenárioMT",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-05-10T22:39:03Z",
+      "updatedAt": "2026-05-10T22:39:03Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://cdn.jornaldenegocios.pt/images/2023-02/img_1200x676uu2023-02-20-18-49-14-446880.jpg"
+    },
+    {
+      "id": "funds-c011502ee16fbf2a4e16813b",
       "title": "Guerra no Irão gera corrida de investidores portugueses às corretoras \"low cost\"",
-      "summary": "Neste sábado (9/5), o projeto Vale do Lítio, iniciativa do Governo de Minas para estabelecer o estado como protagonista na cadeia de valor",
-      "details": "Neste sábado (9/5), o projeto Vale do Lítio, iniciativa do Governo de Minas para estabelecer o estado como protagonista na cadeia de valor",
-      "url": "https://primeiroasaber.com.br/2026/05/10/vale-do-litio-completa-tres-anos-marcados-por-avanco-no-pib-de-municipios-do-jequitinhonha-2/",
+      "summary": "A chance de ganhar o prêmio de R$ 97 milhões da Mega-Sena está aí! O sorteio do concurso 2691 será realizado no dia 22 de fevereiro de 2024, às 20h. As",
+      "details": "A chance de ganhar o prêmio de R$ 97 milhões da Mega-Sena está aí! O sorteio do concurso 2691 será realizado no dia 22 de fevereiro de 2024, às 20h. As",
+      "url": "https://cenariomt.com.br/loteria/noticias/o-que-voce-pode-fazer-com-r-97-milhoes-da-mega-sena/amp/",
       "source": "Jornal de Negócios",
       "category": "funds",
       "tags": [
@@ -337,17 +492,18 @@
         "asset",
         "fiis"
       ],
-      "publishedAt": "2026-05-10T22:30:25Z",
-      "updatedAt": "2026-05-10T22:30:25Z",
+      "publishedAt": "2026-05-10T22:30:00Z",
+      "updatedAt": "2026-05-10T22:30:00Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://cenariomt.com.br/loteria/wp-content/uploads/2024/02/Uma-Linda-Casa-com-Garagem-Perto-do-Quintal-Fotos-do-Canva1.jpg"
     },
     {
       "id": "macro-deb456cedf71ac31d647080b",
       "title": "Fiscalização apreende duas escavadeiras sem documentação fiscal no sul do Pará | Pará | O Liberal",
-      "summary": "...",
-      "details": "...",
-      "url": "https://investidor10.com.br/amp/noticias/agenda-da-semana-inflacao-no-brasil-nos-eua-e-pib-europeu-sao-destaques-120299/",
+      "summary": "Máquinas estavam sendo transportadas sem documentação fiscal adequada; operação resultou em cobrança de mais de R$ 243 mil em imposto e multa",
+      "details": "Máquinas estavam sendo transportadas sem documentação fiscal adequada; operação resultou em cobrança de mais de R$ 243 mil em imposto e multa",
+      "url": "https://www.oliberal.com/para/fiscalizacao-apreende-duas-escavadeiras-sem-documentacao-fiscal-no-sul-do-para-1.1119716",
       "source": "O Liberal",
       "category": "macro",
       "tags": [
@@ -359,7 +515,7 @@
       "updatedAt": "2026-05-10T22:23:34Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://investidor10.com.br/storage/news/6a0101dae4cd1.jpg"
+      "imageUrl": "https://www.oliberal.com/image/contentid/policy:1.1119723:1778451732/image.jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=e3c1d56"
     },
     {
       "id": "macro-7985df587f4998e0b383a57c",
@@ -383,9 +539,9 @@
     {
       "id": "macro-86e30ed35aa4f440d52f7ed9",
       "title": "Agenda da semana: Inflação no Brasil, nos EUA e PIB europeu são destaques",
-      "summary": "Máquinas estavam sendo transportadas sem documentação fiscal adequada; operação resultou em cobrança de mais de R$ 243 mil em imposto e multa",
-      "details": "Máquinas estavam sendo transportadas sem documentação fiscal adequada; operação resultou em cobrança de mais de R$ 243 mil em imposto e multa",
-      "url": "https://www.oliberal.com/para/fiscalizacao-apreende-duas-escavadeiras-sem-documentacao-fiscal-no-sul-do-para-1.1119716",
+      "summary": "...",
+      "details": "...",
+      "url": "https://investidor10.com.br/amp/noticias/agenda-da-semana-inflacao-no-brasil-nos-eua-e-pib-europeu-sao-destaques-120299/",
       "source": "Investidor10",
       "category": "macro",
       "tags": [
@@ -397,14 +553,33 @@
       "updatedAt": "2026-05-10T22:17:19Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.oliberal.com/image/contentid/policy:1.1119723:1778451732/image.jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=e3c1d56"
+      "imageUrl": "https://investidor10.com.br/storage/news/6a0101dae4cd1.jpg"
+    },
+    {
+      "id": "macro-d61d8acf68891744d4af0d8d",
+      "title": "El Niño 2026 aumenta pressão sobre inflação de alimentos e agro",
+      "summary": "O Super El Niño de 2026 pode manter a inflação de alimentos em alta, com previsão de até 0,8 ponto percentual a mais no IPCA de 2026. O Pacífico Centro‑Leste...",
+      "details": "O Super El Niño de 2026 pode manter a inflação de alimentos em alta, com previsão de até 0,8 ponto percentual a mais no IPCA de 2026. O Pacífico Centro‑Leste...",
+      "url": "https://www.portaltela.com/noticias/economia/2026/05/10/el-nino-2026-aumenta-pressao-sobre-inflacao-de-alimentos-e-agro/",
+      "source": "Portal Tela",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-10T22:05:55Z",
+      "updatedAt": "2026-05-10T22:05:55Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/05/el-nino-2015-estiagem.jpg.webp"
     },
     {
       "id": "macro-e6fbb39031967981ccfe4491",
       "title": "Super El Niño de 2026 joga mais pressão na inflação de alimentos e no agro",
-      "summary": "Super El Niño ameaça safra 2026/7 e preços. Veja os impactos no agro e na inflação. Leia mais na Gazeta do Povo",
-      "details": "Super El Niño ameaça safra 2026/7 e preços. Veja os impactos no agro e na inflação. Leia mais na Gazeta do Povo",
-      "url": "https://www.gazetadopovo.com.br/economia/super-el-nino-agro-inflacao/",
+      "summary": "Novo manual do FGTS Digital traz mudanças importantes para empresas, contadores e recolhimentos trabalhistas em 2026.",
+      "details": "Novo manual do FGTS Digital traz mudanças importantes para empresas, contadores e recolhimentos trabalhistas em 2026.",
+      "url": "https://seucreditodigital.com.br/fgts-novo-manual-recolhimentos/",
       "source": "Gazeta do Povo",
       "category": "macro",
       "tags": [
@@ -416,14 +591,14 @@
       "updatedAt": "2026-05-10T21:56:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/05/07074630/el-nino-2015-estiagem.jpg"
+      "imageUrl": "https://seucreditodigital.com.br/wp-content/uploads/2026/05/FGTS-7.png"
     },
     {
       "id": "companies-3d2803ad966c13462a9d51e4",
       "title": "Manual do FGTS Digital 1.60 já está disponível aos empregadores",
-      "summary": "Novo manual do FGTS Digital traz mudanças importantes para empresas, contadores e recolhimentos trabalhistas em 2026.",
-      "details": "Novo manual do FGTS Digital traz mudanças importantes para empresas, contadores e recolhimentos trabalhistas em 2026.",
-      "url": "https://seucreditodigital.com.br/fgts-novo-manual-recolhimentos/",
+      "summary": "Super El Niño ameaça safra 2026/7 e preços. Veja os impactos no agro e na inflação. Leia mais na Gazeta do Povo",
+      "details": "Super El Niño ameaça safra 2026/7 e preços. Veja os impactos no agro e na inflação. Leia mais na Gazeta do Povo",
+      "url": "https://www.gazetadopovo.com.br/economia/super-el-nino-agro-inflacao/",
       "source": "Seu Crédito Digital",
       "category": "companies",
       "tags": [
@@ -435,14 +610,14 @@
       "updatedAt": "2026-05-10T21:40:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://seucreditodigital.com.br/wp-content/uploads/2026/05/FGTS-7.png"
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/05/07074630/el-nino-2015-estiagem.jpg"
     },
     {
       "id": "macro-b3c1c0d8fd82a05932304709",
       "title": "Inflação e câmbio elevam o custo de roupas na Argentina",
-      "summary": "Atualizacao de macro capturada em Portal Tela.",
-      "details": "",
-      "url": "https://amp.campograndenews.com.br/lado-rural/inadimplencia-cresce-no-campo-e-ja-atinge-8-3-dos-produtores",
+      "summary": "Inflação alta e desvalorização do peso elevam o preço de roupas na Argentina. O governo de Javier Milei tem adotado medidas para facilitar compras no exterio...",
+      "details": "Inflação alta e desvalorização do peso elevam o preço de roupas na Argentina. O governo de Javier Milei tem adotado medidas para facilitar compras no exterio...",
+      "url": "https://www.portaltela.com/noticias/economia/2026/05/10/inflacao-e-cambio-elevam-o-custo-de-roupas-na-argentina/",
       "source": "Portal Tela",
       "category": "macro",
       "tags": [
@@ -453,14 +628,15 @@
       "publishedAt": "2026-05-10T21:20:52Z",
       "updatedAt": "2026-05-10T21:20:52Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/05/cover_ae5192db46e54ecba0f2e60dec3fe0a3.jpg"
     },
     {
       "id": "macro-3ff35b044a82d3247da612a5",
       "title": "Agenda da semana: inflação no Brasil e nos EUA, PIB europeu e varejo global entram no radar do mercado",
-      "summary": "Inflação alta e desvalorização do peso elevam o preço de roupas na Argentina. O governo de Javier Milei tem adotado medidas para facilitar compras no exterio...",
-      "details": "Inflação alta e desvalorização do peso elevam o preço de roupas na Argentina. O governo de Javier Milei tem adotado medidas para facilitar compras no exterio...",
-      "url": "https://www.portaltela.com/noticias/economia/2026/05/10/inflacao-e-cambio-elevam-o-custo-de-roupas-na-argentina/",
+      "summary": "IPCA no Brasil, inflação dos EUA, PIB da Zona do Euro e dados de varejo entram no radar dos investidores nesta semana.",
+      "details": "IPCA no Brasil, inflação dos EUA, PIB da Zona do Euro e dados de varejo entram no radar dos investidores nesta semana.",
+      "url": "https://bpmoney.com.br/mercado/agenda-da-semana-inflacao-no-brasil-e-nos-eua-pib-europeu-e-varejo-global-entram-no-radar-do-mercado/",
       "source": "BPMoney",
       "category": "macro",
       "tags": [
@@ -472,14 +648,14 @@
       "updatedAt": "2026-05-10T21:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/05/cover_ae5192db46e54ecba0f2e60dec3fe0a3.jpg"
+      "imageUrl": "https://bpmoney.com.br/wp-content/uploads/2026/02/2151977852.jpg"
     },
     {
       "id": "companies-7f93c38876493698f65b8644",
       "title": "Paraguai avança em tecnologia e indústria enquanto Brasil perde competitividade",
-      "summary": "Atualizacao de empresas capturada em Revista Oeste.",
-      "details": "",
-      "url": "https://www.portalgiro.com/noticia/24652/petropolis/economia/alta-dos-alimentos-pode-pressionar-inflacao-no-brasil-ate-2027.html",
+      "summary": "País vizinho atrai empresas brasileiras, projetos bilionários de IA e interesse dos EUA em energia barata",
+      "details": "País vizinho atrai empresas brasileiras, projetos bilionários de IA e interesse dos EUA em energia barata",
+      "url": "https://revistaoeste.com/politica/paraguai-avanca-em-tecnologia-e-industria-enquanto-brasil-perde-competitividade/",
       "source": "Revista Oeste",
       "category": "companies",
       "tags": [
@@ -490,14 +666,15 @@
       "publishedAt": "2026-05-10T20:59:58Z",
       "updatedAt": "2026-05-10T20:59:58Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/05/paraguai.jpg"
     },
     {
       "id": "funds-bf6c8e0f17dc9e59e487688c",
       "title": "Inadimplência no Agro Atinge 8,3% no 3º Tri de 2025",
-      "summary": "IPCA no Brasil, inflação dos EUA, PIB da Zona do Euro e dados de varejo entram no radar dos investidores nesta semana.",
-      "details": "IPCA no Brasil, inflação dos EUA, PIB da Zona do Euro e dados de varejo entram no radar dos investidores nesta semana.",
-      "url": "https://bpmoney.com.br/mercado/agenda-da-semana-inflacao-no-brasil-e-nos-eua-pib-europeu-e-varejo-global-entram-no-radar-do-mercado/",
+      "summary": "Atualizacao de fundos capturada em Campo Grande News.",
+      "details": "",
+      "url": "https://amp.campograndenews.com.br/lado-rural/inadimplencia-cresce-no-campo-e-ja-atinge-8-3-dos-produtores",
       "source": "Campo Grande News",
       "category": "funds",
       "tags": [
@@ -508,15 +685,51 @@
       "publishedAt": "2026-05-10T20:49:00Z",
       "updatedAt": "2026-05-10T20:49:00Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://bpmoney.com.br/wp-content/uploads/2026/02/2151977852.jpg"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "latest-320cb87e958ca9c2db782775",
+      "title": "Documento confidencial vende Celepar como “mina de ouro” para investidores da Faria Lima",
+      "summary": "Atualizacao de ultima hora capturada em Gazeta do Paraná.",
+      "details": "",
+      "url": "https://www.portalgiro.com/noticia/24652/petropolis/economia/alta-dos-alimentos-pode-pressionar-inflacao-no-brasil-ate-2027.html",
+      "source": "Gazeta do Paraná",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-10T20:39:41Z",
+      "updatedAt": "2026-05-10T20:39:41Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "companies-7c702735cab2420e5cb1dae1",
+      "title": "Movida usa febre da Copa do Mundo de 2026 para levar bolas Adidas a clientes",
+      "summary": "Documento confidencial do Bradesco BBI revela lucro recorde da Celepar em 2025 e contradiz narrativa de obsolescência do Governo do PR. Oposição aponta falta de transparência.",
+      "details": "Documento confidencial do Bradesco BBI revela lucro recorde da Celepar em 2025 e contradiz narrativa de obsolescência do Governo do PR. Oposição aponta falta de transparência.",
+      "url": "https://gazetadoparana.com.br/artigo/documento-confidencial-vende-celepar-como-mina-de-ouro-para-investidores-da-faria-lima",
+      "source": "Portal G",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-05-10T20:37:05Z",
+      "updatedAt": "2026-05-10T20:37:05Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://gazetadoparana.com.br/images/20250320081619_ogImage_22.jpg"
     },
     {
       "id": "macro-8b43122ac3a69ad95ce1cc65",
       "title": "Alta dos alimentos pode pressionar inflação no Brasil até 2027",
-      "summary": "País vizinho atrai empresas brasileiras, projetos bilionários de IA e interesse dos EUA em energia barata",
-      "details": "País vizinho atrai empresas brasileiras, projetos bilionários de IA e interesse dos EUA em energia barata",
-      "url": "https://revistaoeste.com/politica/paraguai-avanca-em-tecnologia-e-industria-enquanto-brasil-perde-competitividade/",
+      "summary": "Semana traz IPCA no Brasil e CPI nos EUA, com impacto direto em juros, câmbio e bolsa.",
+      "details": "Semana traz IPCA no Brasil e CPI nos EUA, com impacto direto em juros, câmbio e bolsa.",
+      "url": "https://www.spacemoney.com.br/noticias/inflacao-brasil-eua-calendario-economico-semana/",
       "source": "portalgiro.com",
       "category": "macro",
       "tags": [
@@ -528,33 +741,51 @@
       "updatedAt": "2026-05-10T20:36:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/05/paraguai.jpg"
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/05/pexels-photo-6928996.jpg"
     },
     {
-      "id": "macro-e8f8a8e76a06f50c3ca974bd",
+      "id": "latest-a154cdfca8cf0dc62ab4ced9",
       "title": "Inflação no Brasil e nos EUA dominam a semana",
-      "summary": "Neste 10 de maio, nove municípios do sul e sudeste do Pará celebram seus aniversários de emancipação política e administrativa. A data marca não apenas a autonomia dessas localidades, mas também suas contribuições para a economia e o desenvolvimento regional. Todos esses municípi",
-      "details": "Neste 10 de maio, nove municípios do sul e sudeste do Pará celebram seus aniversários de emancipação política e administrativa. A data marca não apenas a autonomia dessas localidades, mas também suas contribuições para a economia e o desenvolvimento regional. Todos esses municípios nasceram do processo de reordenamento",
-      "url": "https://correiodecarajas.com.br/parauapebas-curionopolis-e-outros-7-municipios-da-regiao-aniversariam-neste-dia-10/",
+      "summary": "A Movida iniciou uma ação nacional inspirada na Copa de 2026 e começou a distribuir bolas Adidas para clientes em aeroportos e lojas selecionadas pelo Brasil",
+      "details": "A Movida iniciou uma ação nacional inspirada na Copa de 2026 e começou a distribuir bolas Adidas para clientes em aeroportos e lojas selecionadas pelo Brasil",
+      "url": "https://portalg.com.br/movida-copa-2026-bolas-adidas/",
       "source": "SpaceMoney",
-      "category": "macro",
+      "category": "latest",
       "tags": [
-        "macro",
-        "juros",
-        "inflacao"
+        "mercado",
+        "bolsa",
+        "macro"
       ],
       "publishedAt": "2026-05-10T20:21:55Z",
       "updatedAt": "2026-05-10T20:21:55Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://correiodecarajas.com.br/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-10-at-16.44.49.jpeg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://portalg.com.br/wp-content/uploads/2026/05/Movida-usa-febre-da-Copa-de-2026-para-levar-bolas-Adidas-a-clientes-em-aeroportos.webp"
+    },
+    {
+      "id": "latest-ac1a3aa23936428733a23f4f",
+      "title": "Bitcoin supera ouro e S&P 500 ao valorizar 24% desde início da guerra EUA-Irã",
+      "summary": "Atualizacao de ultima hora capturada em Portal do Bitcoin.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMlk4a1pyZ2F0VEFfNlhLOFZiQVF2M2ZsTUo4R3VueEtmdUhUam1wVkJsNnBrNy1KMVdZWjNtZTAzX0VkcEJDejlMNzJYWTBhN2FvWHpWVnJDeTctU05EclFrZ0wwQkctay1FNVRwWDZTellMWm1OVXFaVXppWGVaaDBXcVIyYzJaYkF6LTdqQmJ4QXVfNHdWVEdwLVRQNXdqMnZNX2ZCMERVTDdIcGYxT9IBtgFBVV95cUxNd21UX1BOYkNtbEEwX2dqWHBza3JUT1M5bUsxU09rajVhTTlKeHdzOERFUnJZM255X0xmaDQ4OTZnSjNEZWRCemNNRUdMQ2ZrR05fR3dILXlKY0RoU2xMNHU1OXBDQW5FOUhFbWYycGgyZmpCRXFBTWJvbEtudjA1SnhIaUNOYVQ2dTlVMGZpb04zempDZk9XSHRaZ0tZVS1pX1AxR1ViUV9nUkFnRG1ZVDFSclJzUQ?oc=5",
+      "source": "Portal do Bitcoin",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-10T20:20:00Z",
+      "updatedAt": "2026-05-10T20:20:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-5774213db2cb1985edafd782",
       "title": "Petróleo volta a ultrapassar a faixa dos US$ 100 e causa tensão no mercado global",
-      "summary": "Semana traz IPCA no Brasil e CPI nos EUA, com impacto direto em juros, câmbio e bolsa.",
-      "details": "Semana traz IPCA no Brasil e CPI nos EUA, com impacto direto em juros, câmbio e bolsa.",
-      "url": "https://www.spacemoney.com.br/noticias/inflacao-brasil-eua-calendario-economico-semana/",
+      "summary": "Atualizacao de ultima hora capturada em Jornal Impresso Brasil.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSmR1Y2k3YzFIUnRFdm5RRi1kdUZldnNudGczOElHdmxud19VaWpiQ3R2MlU3UGc3TS0weEVHbHNyN3hLM0xJWWZEZTVKVEc0WGJFdk4tUm93N2JwYWhfQjBsLU8yZHctMWd4ZW4zU3R3TUt2aUM4T3UwaUE4Z2YxZ1l2RUc4WnJ4ZDIybE0yUTNyUWlmSFdxbXhJbW92RjQydTlqa05SRlU3QkxMYllHd1QzdG1iVEJM?oc=5",
       "source": "Jornal Impresso Brasil",
       "category": "latest",
       "tags": [
@@ -565,15 +796,14 @@
       "publishedAt": "2026-05-10T20:13:00Z",
       "updatedAt": "2026-05-10T20:13:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/05/pexels-photo-6928996.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-a2fc0a97880c2336e0f8b410",
       "title": "Parauapebas, Curionópolis e outros 7 municípios da região aniversariam neste dia 10",
-      "summary": "&Eacute; com profundo pesar que o IAF Sindical comunica o falecimento, aos 69 anos, de nosso estimado filiado Jaime Raimundo Nascimento Filho, Auditor Fiscal que marcou sua trajet&oacute;ria pela c...",
-      "details": "&Eacute; com profundo pesar que o IAF Sindical comunica o falecimento, aos 69 anos, de nosso estimado filiado Jaime Raimundo Nascimento Filho, Auditor Fiscal que marcou sua trajet&oacute;ria pela c...",
-      "url": "https://iaf.org.br/conteudo/10244/morre-69-anos-auditor-fiscal-jaime-raimundo-nascimento-filho",
+      "summary": "Atualizacao de macro capturada em Correio de Carajás.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdVk4SG1nUXlsdzJ1NjBxdHFuY3JHQ1duZlhNNHhGcEd3V2p0dFNZUnprM2o4d0lkR2cySDJ3TEF2N1F2LWhYMjFPbkhlM2g5cEItbTdBdTNaaVFjdHhQekVXZV9oYldNZkJhc1BtSDZrVmZlZ2hxYVV1LXV3TXdzQUJFMVBMUEJra0VFZHZyREE0amM4SFRxM090LWc0Z2U4a2x1UVlEU3dxbjJhSXM5SDU5dm5hZw?oc=5",
       "source": "Correio de Carajás",
       "category": "macro",
       "tags": [
@@ -584,15 +814,14 @@
       "publishedAt": "2026-05-10T20:07:00Z",
       "updatedAt": "2026-05-10T20:07:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://sindicalizi-public.s3.amazonaws.com/iafba/gerenciadorconteudo/imagens/430_300_jaime-destaque17784430146a00e306a338f.png"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-4c0580d1a0c03cf24fd82365",
       "title": "Morre, 69 anos, auditor fiscal Jaime Raimundo Nascimento Filho",
-      "summary": "JIB - O seu jornal impresso e portal de Notícias",
-      "details": "JIB - O seu jornal impresso e portal de Notícias",
-      "url": "https://jornalimpressobrasil.com.br/petroleo-volta-a-ultrapassar-a-faixa-dos-us-100-e-causa-tensao-no-mercado-global/",
+      "summary": "Atualizacao de macro capturada em Instituto dos Auditores Fiscais do Estado da Bahia.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeHEtcV93ZFd6Y2NHdUNUMDE3bnYzbHRHdTFmdEhBU1hlVmxrNjRaRW1rVThsR0VERi1xV1c4V0ZnM2FLZllMOGFTQmNIVDJpNlQ1V1BaMlhBdVlxLXpoaFRiZWNNNUR2bUVRazRrTUhVMFkxMVR6YnJkdU5QMjlSMGYyQW05bHRSbC1nUExvR2pIbzJNMFdrQ1lB?oc=5",
       "source": "Instituto dos Auditores Fiscais do Estado da Bahia",
       "category": "macro",
       "tags": [
@@ -603,127 +832,14 @@
       "publishedAt": "2026-05-10T20:02:13Z",
       "updatedAt": "2026-05-10T20:02:13Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://jornalimpressobrasil.com.br/wp-content/uploads/2026/05/EUA-e-Ira-sinalizam-acordo-e-petroleo-cai-8.png"
-    },
-    {
-      "id": "macro-22718ad6b09adc4110347c4d",
-      "title": "Calendário econômico da semana: Dados de inflação no Brasil e nos EUA são foco",
-      "summary": "Lan&ccedil;ado no Brasil no final de junho de 2012, o Hyundai Veloster desembarcou por aqui importado da Coreia do Sul com um visual agressivo e uma proposta ou",
-      "details": "Lan&ccedil;ado no Brasil no final de junho de 2012, o Hyundai Veloster desembarcou por aqui importado da Coreia do Sul com um visual agressivo e uma proposta ou",
-      "url": "https://canaltech.com.br/carros/quanto-custaria-um-hyundai-veloster-hoje-com-a-inflacao/",
-      "source": "InfoMoney",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-10T20:00:00Z",
-      "updatedAt": "2026-05-10T20:00:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://t.ctcdn.com.br/V9TNc37vrRrWF43AWDUAm2CsTkg=/1200x675/smart/i1122803.jpeg"
-    },
-    {
-      "id": "macro-3526380c2e8cec5950d6c539",
-      "title": "Quanto custaria um Hyundai Veloster hoje, com a inflação?",
-      "summary": "Atualizacao de macro capturada em Canaltech.",
-      "details": "",
-      "url": "https://www.mixvale.com.br/2026/05/10/royal-navy-deploys-hms-dragon-to-middle-east-poised-for-strait-of-hormuz-safeguarding-mission/",
-      "source": "Canaltech",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-10T20:00:00Z",
-      "updatedAt": "2026-05-10T20:00:00Z",
-      "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-2d646a7817714fa9729b9629",
-      "title": "O aperto de mão de 40% do PIB: o que Trump e Xi Jinping podem decidir (e como isso mexe com você)",
-      "summary": "Atualizacao de macro capturada em Seu Dinheiro.",
-      "details": "",
-      "url": "https://br.investing.com/news/economy-news/inflacao-de-energia-alimenta-incertezas-em-uma-economia-em-formato-k-1932004",
-      "source": "Seu Dinheiro",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-10T19:51:33Z",
-      "updatedAt": "2026-05-10T19:51:33Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-61d564adb0b06a8860ad3b57",
-      "title": "Juro real de 8% ao ano é considerado insustentável para o Brasil",
-      "summary": "Juros reais de títulos públicos longos atrelados ao IPCA estão próximos de oito por cento ao ano; no futuro, com inflação média de quatro por cento, chegam a...",
-      "details": "Juros reais de títulos públicos longos atrelados ao IPCA estão próximos de oito por cento ao ano; no futuro, com inflação média de quatro por cento, chegam a...",
-      "url": "https://www.portaltela.com/noticias/economia/2026/05/10/juro-real-de-8-ao-ano-e-considerado-insustentavel-para-o-brasil/",
-      "source": "Portal Tela",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-10T19:50:07Z",
-      "updatedAt": "2026-05-10T19:50:07Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/05/KSM4WSHGMNEJXA7B6EBDSORKDY.jpg"
-    },
-    {
-      "id": "macro-33d94bf2b08518d9819dfeca",
-      "title": "Inflação de energia alimenta incertezas em uma economia em formato K",
-      "summary": "Trump e Xi Jinping se reúnem nos próximos dias em Pequim. Entre tréguas comerciais e a guerra no Irã, saiba o que está em jogo",
-      "details": "Trump e Xi Jinping se reúnem nos próximos dias em Pequim. Entre tréguas comerciais e a guerra no Irã, saiba o que está em jogo",
-      "url": "https://www.seudinheiro.com/2026/internacional/o-aperto-de-mao-de-40-do-pib-o-que-trump-e-xi-jinping-podem-decidir-e-como-isso-mexe-com-voce-ccgg/",
-      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-10T19:48:00Z",
-      "updatedAt": "2026-05-10T19:48:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.seudinheiro.com/uploads/2025/07/Acordo-China-EUA.jpg"
-    },
-    {
-      "id": "macro-488122605b4d34647e55384a",
-      "title": "8% ao ano: o juro real que o Brasil não sustenta",
-      "summary": "Agenda da semana tem IPCA no Brasil, inflação nos Estados Unidos e PIB europeu, com indicadores que podem mexer com juros e mercados.",
-      "details": "Agenda da semana tem IPCA no Brasil, inflação nos Estados Unidos e PIB europeu, com indicadores que podem mexer com juros e mercados.",
-      "url": "https://gazetamercantil.com/agenda-economica-ipca-inflacao-eua-pib-europeu",
-      "source": "Estadão",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-10T19:42:58Z",
-      "updatedAt": "2026-05-10T19:42:58Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://gazetamercantil.com/wp-content/uploads/2026/04/Agenda-do-dia-Fed-e-Copom-sao-destaque.avif.webp"
     },
     {
       "id": "funds-266220cd97d0ab63cdea58ac",
       "title": "Royal Navy deploys HMS Dragon to Middle East, poised for Strait of Hormuz safeguarding mission",
-      "summary": "Tudo o que o investidor precisa saber antes de operar na semana",
-      "details": "Tudo o que o investidor precisa saber antes de operar na semana",
-      "url": "https://www.infomoney.com.br/mercados/calendario-economico-da-semana-dados-de-inflacao-no-brasil-e-nos-eua-sao-foco/",
+      "summary": "Atualizacao de fundos capturada em Mix Vale.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMmhDYlN3MEpTNFozd0NoZlNhVjk4Nlo5RG9VTGtkVi1VYTVHenl4WF9fM2dGZzR4T3JCZ0VSdHRUOElWYnVTV2RYczB0R0hTbS1ENVgwU2ZKNHZ6S0FiS3gzQnF4Z25Zd3Q1RU5Zc25xZXFkTWxxQXdOc3I5TDM5VnVOOEU4RWpzOUlOSGctYmlFTE9VSVFvWXkzY1pwVEx6YkdrN3VzTWVaQmxKaEZPNE9zWUpaVklpT1otTXRrSzZCbzI4OTJSbGNwWU3SAcwBQVVfeXFMTjJoQ2JTdzBKUzRaM3dDaGZTYVY5ODZaOURvVUxrZFYtVWE1R3p5eFhfXzNnRmc0eE9yQmdFUnR0VDhJVmJ1U1dkWHMwdEdIU20tRDVYMFNmSjR2ektBYkt4M0JxeGduWXd0NUVOWXNucWVxZE1scUF3TnNyOUwzOVZ1TjhFOEVqczlJTkhnLWJpRUxPVUlRb1l5M2NacFRMemJHazd1c01lWkJsSmhGTzRPc1lKWlZJaU9aLU10a0s2Qm8yODkyUmxjcFlN?oc=5",
       "source": "Mix Vale",
       "category": "funds",
       "tags": [
@@ -734,15 +850,14 @@
       "publishedAt": "2026-05-10T19:40:09Z",
       "updatedAt": "2026-05-10T19:40:09Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/04/30070.jpg?fit=1000%2C698&quality=70&strip=all"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "latest-dbc5ede33af7cd134f32fe1a",
       "title": "IPCA, inflação dos EUA e PIB europeu movimentam agenda econômica da semana",
-      "summary": "História mostra que desequilíbrios dessa natureza se resolvem por dois caminhos, nenhum agradável: em um, o BC perde a capacidade de ancorar a inflação; no outro, os ativos brasileiros se deterioram",
-      "details": "História mostra que desequilíbrios dessa natureza se resolvem por dois caminhos, nenhum agradável: em um, o BC perde a capacidade de ancorar a inflação; no outro, os ativos brasileiros se deterioram",
-      "url": "https://www.estadao.com.br/amp/economia/claudio-adilson-goncalez/8-ao-ano-o-juro-real-que-o-brasil-nao-sustenta/",
+      "summary": "Atualizacao de ultima hora capturada em Gazeta Mercantil.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FY1p2REpnQ2FBbDJ6TDhPbnRWQnlnaUFNVVRUS3lyTmJHS1ZieW5nTUNvY0tfeUt4a0lXZFVFblc4YjVlNkk5YklGZzdPYjlqRWswOEdObkcyVElHOVZMNHpfcXZiVHcwbWhlelM5UTVBQWNPdTlQOHFnMWp6Q1k?oc=5",
       "source": "Gazeta Mercantil",
       "category": "latest",
       "tags": [
@@ -753,8 +868,7 @@
       "publishedAt": "2026-05-10T19:36:50Z",
       "updatedAt": "2026-05-10T19:36:50Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/KSM4WSHGMNEJXA7B6EBDSORKDY.jpg?quality=80&auth=f9091e35fc3097e9135ff81c7f46558e927416747311538c2f41233d17ac1c65&width=1200"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-ad0bd09c1b524c111612338e",
@@ -793,6 +907,24 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
+      "id": "latest-dad6a847a216cac81f6ea6d4",
+      "title": "Nintendo lança nove jogos em maio de 2026 divididos entre Switch e novo console",
+      "summary": "Atualizacao de ultima hora capturada em Mix Vale.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRWRKbWxJNnNseENNc3JjZi1EV0hIc3NPXzBfRE9tQ1B0WVJaTjkzal9jUlVMV1lLVXRmSGtRWmZ3R25HbTc4bGI3Q3ZiWkxCQVBfeXoxdDRZVHBLdkFvTHhEWnk1bFdFdHd5YmtMaHhOZDJGLVllajBncFVkNW92ZGdsdVYtUWpfbmZCXzI5T2taM1QzWmJxaXl1aHlNQVVmYW9BN2psU1p6WW1mekhGckRoei1FYVQ5OFHSAboBQVVfeXFMT0VkSm1sSTZzbHhDTXNyY2YtRFdISHNzT18wX0RPbUNQdFlSWk45M2pfY1JVTFdZS1V0ZkhrUVpmd0duR203OGxiN0N2YlpMQkFQX3l6MXQ0WVRwS3ZBb0x4RFp5NWxXRXR3eWJrTGh4TmQyRi1ZZWowZ3BVZDVvdmRnbHVWLVFqX25mQl8yOU9rWjNUM1picWl5dWh5TUFVZmFvQTdqbFNaelltZnpIRnJEaHotRWFUOThR?oc=5",
+      "source": "Mix Vale",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-10T17:59:14Z",
+      "updatedAt": "2026-05-10T17:59:14Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
       "id": "latest-357d8d5d4ea1d5789c511ad9",
       "title": "Avanço da IA gera riscos para infraestrutura financeira global, diz Banco Central Europeu",
       "summary": "Atualizacao de ultima hora capturada em Olhar Digital.",
@@ -809,24 +941,6 @@
       "updatedAt": "2026-05-10T17:57:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "funds-040d477df1545ab03c0da0b1",
-      "title": "Os \"cura-pés\": Gémeos Ferreira apoiam milhares de peregrinos na Redinha",
-      "summary": "Atualizacao de fundos capturada em averdade.com.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ3NiQmRCQkM5ZnNPS3pTTzBLM3NHWXp5YzJ4UGtOay1Zdjk1N1dYUUlyYTNyal82a2VMNWQ5MFREMXpjOXAzUUFMQnVtSFUxalNIZzEySnZvUTA5em50R1VpcHMwTXB4bGtYTFFBeFlOU0IzbTV6YmdqeDJYdU5ORzFzZ3RaRHZNSEd5MzNEYlgzakpoaFdDbk05V3lFWWp1Q053?oc=5",
-      "source": "averdade.com",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-05-10T17:52:48Z",
-      "updatedAt": "2026-05-10T17:52:48Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "latest-2284bca0c036092a140b4ca6",
@@ -937,24 +1051,6 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "latest-8e0aeb0624417c484d04f2fa",
-      "title": "O que vai mudar no seu bolso: o BTG Pactual faz as contas do Brasil para 2026 e prevê dólar a R$ 4,90",
-      "summary": "Atualizacao de ultima hora capturada em Seu Dinheiro.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZzJZYy01V2xjY09BQ3hHbzhGaElnSnA4TktPZXJSeEpxelBpQU14TG53Z3FkdFFkb2NXZzJXUHU0S0kzb19wLVhwanNOT0FCWGVWaV9iM3F6S1YtdzZ0VTBVNEF0cTJWYVhmYTJIRzE5ODM1X0d3TjZnNENFZFp4bEx0MjFySUphLWYzZmFZSlRGbGxMX0ZzZTF2TXZaS1MtSnZwRUdvRjFpSy1qUjZIdUNmTHZyTzFSZF9zZG5QN0M2TkxRQ2NmNUoyWEI2aTdqOFpFZVNJNUdvQTRva05N?oc=5",
-      "source": "Seu Dinheiro",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-10T16:46:39Z",
-      "updatedAt": "2026-05-10T16:46:39Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "funds-4d97c4c14c14408f5880aea1",
       "title": "Gestora Golden Wealth Management atinge dois mil milhões de euros de ativos sob gestão",
       "summary": "Atualizacao de fundos capturada em Forbes Portugal.",
@@ -971,24 +1067,6 @@
       "updatedAt": "2026-05-10T16:37:16Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "latest-fd6ca8dcd964e601e4f513fb",
-      "title": "Dario Durigan assume Fazenda no lugar de Haddad e mercado reage",
-      "summary": "Atualizacao de ultima hora capturada em Diário Carioca.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZHFoTTFKNEluaWIwZlQyWkE5bjdfUnZGRWRsSXdSeV8xcFd2VkdCRFZVVVJtTWwxN0xpMURKTFV4bVMxOFcxN1VheWRGdFg5ZVdMWl91dkpsdEFfa1FuZWtnRVhXMjVJQ2U3UGg1dHNQZmN1QXgwWG1BcDlZSnBlRGxURFo4RjdwbGlycTZQVXNyOWp4NHYyeXZvLUE2c1nSAZ8BQVVfeXFMTmRxaE0xSjRJbmliMGZUMlpBOW43X1J2RkVkbEl3UnlfMXBXdlZHQkRWVVVSbU1sMTdMaTFESkxVeG1TMThXMTdVYXlkRnRYOWVXTFpfdXZKbHRBX2tRbmVrZ0VYVzI1SUNlN1BoNXRzUGZjdUF4MFhtQXA5WUpwZURsVERaOEY3cGxpcnE2UFVzcjlqeDR2Mnl2by1BNnNZ?oc=5",
-      "source": "Diário Carioca",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-10T16:19:40Z",
-      "updatedAt": "2026-05-10T16:19:40Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-25e0c92c2e819f7390caadd4",
@@ -1045,40 +1123,22 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "latest-f044fe83a92bdb8fc4417521",
-      "title": "Apesar dos bancos terem reduzido as taxas de juros dos depósitos, os compradores de imóveis ainda não estão livres de seus encargos.",
-      "summary": "Atualizacao de ultima hora capturada em Vietnam.vn.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOXzIxZjRuUVBmR0JSR3QxRU15QUVkeUdmSzdsWGJDQ2VmLTRjZ3Y5SUFzR2JRZG90ZlhUamI5b0xscmIzeHdLd1R0OEt2X01uNEpmcVZlUEVWU2tTRlIxcW1MeTYwU2xxY0dHM1MzOVl3SVVKT2pxdDVoemtiUm9YYzA4U1ZXbTZRS0hLbUVpMWpWRVZvSW9FYkpYaXk?oc=5",
-      "source": "Vietnam.vn",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-10T15:21:36Z",
-      "updatedAt": "2026-05-10T15:21:36Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-ca76f7bc2bb295a7bfa84980",
+      "id": "funds-9f7d731bbc94cf1ef70999aa",
       "title": "Digital Asset Holdings atinge US$ 2 bi com a16z",
-      "summary": "Atualizacao de ultima hora capturada em Webitcoin.",
+      "summary": "Atualizacao de fundos capturada em Webitcoin.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBtNTF1amhvLTZSWGlaR3M3QVY1S0lXa0Nkb1NQNGI0aVZUNlV0MFppM0VDbFpxRnhwTXZzTmx5Ym1DdVhPX2d0ak01ZlJFVlhSSUJJcTloc0FNS1ROSVF4WEF2SzlFN0pISWtYZF9YMTl6UHB4bC00TmR6R1g?oc=5",
       "source": "Webitcoin",
-      "category": "latest",
+      "category": "funds",
       "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
+        "fundos",
+        "asset",
+        "fiis"
       ],
       "publishedAt": "2026-05-10T15:13:19Z",
       "updatedAt": "2026-05-10T15:13:19Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "funds-fc3d658256f4ac15123363c8",
@@ -1115,42 +1175,6 @@
       "updatedAt": "2026-05-10T15:02:03Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "latest-22cb8e5675ba99bf27bd5093",
-      "title": "Como declarar investimentos no Imposto de Renda 2026?",
-      "summary": "Atualizacao de ultima hora capturada em diário do estado.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQXzY3cHN2SzRHV1ozQ1k1cFZFcmtoRnNESlA1MDhSalVRMDFLX1VoVk8ycWVJMlVwcEhfN0VGeFQyeTRzMjBVeEhNcGJIcnVnMWJKa0lGd041MkVEdC1jWFBvS0thd0ZuV2VfbGRTWFpkT2YzTnVpbi1RejNlU2M4TmtjTjhxa0hMdHlmSnJR?oc=5",
-      "source": "diário do estado",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-10T15:00:49Z",
-      "updatedAt": "2026-05-10T15:00:49Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-a6d0dcf8819fa06d33c63249",
-      "title": "Polícia Federal investiga Vorcaro por atuação em iniciativas ligadas à energia e créditos de carbono",
-      "summary": "Atualizacao de ultima hora capturada em plantaobrasil.net.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBwZkZoOVlPOTRGYUpaUDdOVzNfb2JIMlBZVXZ1bnBsWWU2TVJmQ2c2bUhMM0NaME9tM2oxM0prQTNzczFHRXZpaEtlZVZNaU9RQmowSGlWaGtaU2hPcWc?oc=5",
-      "source": "plantaobrasil.net",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-10T14:01:11Z",
-      "updatedAt": "2026-05-10T14:01:11Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-3ff304d2b9ace1022fa5e7c2",
@@ -1223,42 +1247,6 @@
       "updatedAt": "2026-05-10T12:05:54Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "funds-c38a5b02732e6d542cb9b915",
-      "title": "Paredes: Cerca de mil peregrinos rumam a Fátima com o apoio de instituições locais",
-      "summary": "Atualizacao de fundos capturada em averdade.com.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNN29sTl93bm5aZHVVWm5RS3B2MzJOMTVsMkFEQ085S29XNjU2SU5keVlRdE92YmJKeHpxTHp1aVlPRzFhTlRjMUsyLUJHcFY0b1Y5WjhTWVc3dkwyU2Y1dFlRRXdFWVFpdnliWHRfVVNyRjgwZ2FCYUtHYl9nSW5rTE5fSlV1c1FvMUloNHhyVmpGTmJCaDVJcGJCQ05RRTlZTVEzamVVaU9qTEpldUZGUzZkTDU?oc=5",
-      "source": "averdade.com",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-05-10T12:03:24Z",
-      "updatedAt": "2026-05-10T12:03:24Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-a02d259bb8f9c0082274d055",
-      "title": "Celorico: Município lança campanha \"Diz Não ao Bullying\" nos recintos desportivos",
-      "summary": "Atualizacao de fundos capturada em averdade.com.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTlh0MXRiR3NUZkxYOGFPeFFidmlMVGNMaE5uZi1SY1BfcEstQXA2THNxanJMN3JDQ3dfTEg4WmRlVWtnLTNQU2dLdi1DTEJ0X2JHOGozclVua21CY0dsZlc2WmVIOXQ1S2hobFN2WmlqSDFpbU5kd2thUV9LTTA4TDJMaEl3QjNLRk1JcWVPb3dBbkxHNUdDT3hHRUtrcWItNGVhcGdONmlfQ3dNZmZpOQ?oc=5",
-      "source": "averdade.com",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-05-10T11:03:15Z",
-      "updatedAt": "2026-05-10T11:03:15Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "companies-e3bfa5e3c3f312986f6f4854",
@@ -1349,6 +1337,24 @@
       "updatedAt": "2026-05-10T09:28:08Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "companies-df398252fcd9499877ac1a09",
+      "title": "Mães e filhos viram sócios em empreendimentos bem-sucedidos em Brasília",
+      "summary": "Atualizacao de empresas capturada em Correio Braziliense.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPRFAycHVUTThialpPYkZpWW01RjJ2bWdHcjZGTEpEb2trUWJOOGdObDFiRHpLbl9CbVNnSmRySGpQRmdYSjVmd212RU5jZV9aNnhORVB5X2EtbHhFX25VNUFqdTJMR1dPUnZaeVF1UnVMc0lMcDJsVTdDVDFGbUdqdVgzQ2RaTV9zdlF6ZGdxVkViQVpuVU9odHljT1M4Rk5MWDNKbXNCczFrbTFDWElvRGxNS3FZa050WnNxUmFtNDNPMHRSZGlYR0N3ZnEwNmt2ZnI0MWFmNENETHJiVVRhSXdVQnJvWDBFNTFyekVEUDd3a3Nu?oc=5",
+      "source": "Correio Braziliense",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-05-10T09:00:00Z",
+      "updatedAt": "2026-05-10T09:00:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-4468f46c426b06e5abf56d6e",
