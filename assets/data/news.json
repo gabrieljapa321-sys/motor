@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-17T21:08:31Z",
-  "generatedAt": "2026-05-17T21:08:31Z",
+  "updatedAt": "2026-05-17T22:08:16Z",
+  "generatedAt": "2026-05-17T22:08:16Z",
   "categories": [
     {
       "id": "all",
@@ -24,6 +24,10 @@
     }
   ],
   "sources": [
+    {
+      "id": "a-tarde",
+      "label": "A TARDE"
+    },
     {
       "id": "ag-ncia-de-not-cias-brasil-rabe-anba",
       "label": "Agência de Notícias Brasil-Árabe - ANBA"
@@ -49,8 +53,8 @@
       "label": "Bitcoin News"
     },
     {
-      "id": "bitget-com",
-      "label": "bitget.com"
+      "id": "bitget",
+      "label": "Bitget"
     },
     {
       "id": "blocktrends",
@@ -95,10 +99,6 @@
     {
       "id": "consultor-jur-dico",
       "label": "Consultor Jurídico"
-    },
-    {
-      "id": "diego-emir",
-      "label": "Diego Emir"
     },
     {
       "id": "di-rio-do-centro-do-mundo",
@@ -169,10 +169,6 @@
       "label": "Pelotas 13 Horas"
     },
     {
-      "id": "plant-o-dos-lagos",
-      "label": "Plantão dos Lagos"
-    },
-    {
       "id": "poder360",
       "label": "Poder360"
     },
@@ -213,8 +209,12 @@
       "label": "TNH1"
     },
     {
-      "id": "tribuna-do-sert-o",
-      "label": "Tribuna do Sertão"
+      "id": "tradenews-com-br",
+      "label": "tradenews.com.br"
+    },
+    {
+      "id": "tribuna-de-minas",
+      "label": "Tribuna de Minas"
     },
     {
       "id": "tv-foco",
@@ -231,15 +231,95 @@
     {
       "id": "visor-not-cias",
       "label": "Visor Notícias"
+    },
+    {
+      "id": "webitcoin",
+      "label": "Webitcoin"
     }
   ],
   "items": [
     {
-      "id": "macro-c9d3e283606c731ea290396f",
+      "id": "latest-842e136cef7f589b0782d83a",
+      "title": "Itaú no Desenrola: entenda o que representa cifra de R$ 21 bilhões",
+      "summary": "Entenda a relação entre o Itaú, o Desenrola Brasil e o aumento das dívidas e inadimplência no sistema bancário.",
+      "details": "Entenda a relação entre o Itaú, o Desenrola Brasil e o aumento das dívidas e inadimplência no sistema bancário.",
+      "url": "https://seucreditodigital.com.br/itau-desenrola-divida-bilionaria/",
+      "source": "Seu Crédito Digital",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-17T22:00:00Z",
+      "updatedAt": "2026-05-17T22:00:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://seucreditodigital.com.br/wp-content/uploads/2026/05/Itau.png"
+    },
+    {
+      "id": "companies-f7aace7452f5c2261c31ad06",
+      "title": "Projeto promete acabar com emaranhado de fios nas cidades brasileiras",
+      "summary": "Prévia do PIB do BC e ata do Fomc são os eventos-chave da semana para mercados.",
+      "details": "Prévia do PIB do BC e ata do Fomc são os eventos-chave da semana para mercados.",
+      "url": "https://www.spacemoney.com.br/noticias/pib-bc-ata-fomc-agenda-semana/",
+      "source": "Tribuna de Minas",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-05-17T22:00:00Z",
+      "updatedAt": "2026-05-17T22:00:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/05/pexels-photo-7887850.jpg"
+    },
+    {
+      "id": "latest-998d009ac9aba32caf0e2d2d",
+      "title": "BB descarta pagamento extraordinário a acionistas, afirma CFO",
+      "summary": "Banco do Brasil descarta dividendo extraordinário e sinaliza cautela no cenário bancário; entenda os impactos.",
+      "details": "Banco do Brasil descarta dividendo extraordinário e sinaliza cautela no cenário bancário; entenda os impactos.",
+      "url": "https://seucreditodigital.com.br/banco-do-brasil-descarta-dividendo/",
+      "source": "Seu Crédito Digital",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-17T21:40:00Z",
+      "updatedAt": "2026-05-17T21:40:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://seucreditodigital.com.br/wp-content/uploads/2026/05/Banco-do-Brasil.png"
+    },
+    {
+      "id": "macro-51df2192622f4cb505d3c084",
+      "title": "Nvidia fecha semana histórica de balanços nos EUA",
+      "summary": "Agenda da semana (18 a 22 de maio)",
+      "details": "Agenda da semana (18 a 22 de maio)",
+      "url": "https://www.tradenews.com.br/p/nvidia-fecha-semana-historica-de",
+      "source": "tradenews.com.br",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-17T21:14:55Z",
+      "updatedAt": "2026-05-17T21:14:55Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!bJpw!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F87624630-90b8-4826-a400-8da86df82085_1125x592.png"
+    },
+    {
+      "id": "macro-0212907d5348db81b7b2dc04",
       "title": "Agenda da semana: China, Fed e inflação no radar dos mercados",
-      "summary": "A agenda da semana começa com dados da China — varejo, produção industrial, desemprego, investimento em ativos fixos e coletiva de imprensa do DNE — para med...",
-      "details": "A agenda da semana começa com dados da China — varejo, produção industrial, desemprego, investimento em ativos fixos e coletiva de imprensa do DNE — para med...",
-      "url": "https://www.portaltela.com/noticias/economia/2026/05/17/agenda-da-semana-china-fed-e-inflacao-no-radar-dos-mercados/",
+      "summary": "A falta de padronização e fiscalização na ocupação de postes urbanos favorece a presença de cabos irregulares, associados à poluição",
+      "details": "A falta de padronização e fiscalização na ocupação de postes urbanos favorece a presença de cabos irregulares, associados à poluição",
+      "url": "https://tribunademinas.com.br/colunas/maistendencias/projeto-promete-acabar-com-emaranhado-de-fios-nas-cidades-brasileiras/",
       "source": "Portal Tela",
       "category": "macro",
       "tags": [
@@ -247,18 +327,18 @@
         "juros",
         "inflacao"
       ],
-      "publishedAt": "2026-05-17T21:06:32Z",
-      "updatedAt": "2026-05-17T21:06:32Z",
+      "publishedAt": "2026-05-17T21:06:14Z",
+      "updatedAt": "2026-05-17T21:06:14Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/05/YvCV4olS-NOTAS-13-768x432-1.webp"
+      "imageUrl": "https://tribunademinas.com.br/colunas/maistendencias/wp-content/uploads/2026/05/000000-37.jpg"
     },
     {
-      "id": "macro-96a37b59552fc55ac4c47eb1",
+      "id": "macro-86ee0a49ebfb6ce9b147bc5b",
       "title": "Comissão aprova corrigir faturamento do MEI pela inflação",
-      "summary": "Além do teto anual, reajuste automático pelo INPC valerá para impostos mensais e MEI Caminhoneiro. Leia no Poder360.",
-      "details": "Além do teto anual, reajuste automático pelo INPC valerá para impostos mensais e MEI Caminhoneiro. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-economia/comissao-aprova-corrigir-faturamento-do-mei-pela-inflacao/",
+      "summary": "A agenda da semana começa com dados da China — varejo, produção industrial, desemprego, investimento em ativos fixos e coletiva de imprensa do DNE — para med...",
+      "details": "A agenda da semana começa com dados da China — varejo, produção industrial, desemprego, investimento em ativos fixos e coletiva de imprensa do DNE — para med...",
+      "url": "https://www.portaltela.com/noticias/economia/2026/05/17/agenda-da-semana-china-fed-e-inflacao-no-radar-dos-mercados/",
       "source": "Poder360",
       "category": "macro",
       "tags": [
@@ -266,18 +346,18 @@
         "juros",
         "inflacao"
       ],
-      "publishedAt": "2026-05-17T21:03:22Z",
-      "updatedAt": "2026-05-17T21:03:22Z",
+      "publishedAt": "2026-05-17T21:03:37Z",
+      "updatedAt": "2026-05-17T21:03:37Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://static.poder360.com.br/2026/05/kschneider2991-money-2180330-848x477.jpg"
+      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/05/YvCV4olS-NOTAS-13-768x432-1.webp"
     },
     {
       "id": "latest-0461a2cdcc491a9bbdf7542a",
       "title": "Ata do Fed, PIB dos EUA e IGP-10: o que os dados desta semana significam para seus investimentos",
-      "summary": "Agenda da semana reúne dados da China, EUA, Europa e Brasil, com foco em inflação, juros e indicadores de atividade global.",
-      "details": "Agenda da semana reúne dados da China, EUA, Europa e Brasil, com foco em inflação, juros e indicadores de atividade global.",
-      "url": "https://bpmoney.com.br/economia/agenda-da-semana-china-eua-europa-e-brasil-no-radar-dos-mercados/",
+      "summary": "Além do teto anual, reajuste automático pelo INPC valerá para impostos mensais e MEI Caminhoneiro. Leia no Poder360.",
+      "details": "Além do teto anual, reajuste automático pelo INPC valerá para impostos mensais e MEI Caminhoneiro. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-economia/comissao-aprova-corrigir-faturamento-do-mei-pela-inflacao/",
       "source": "BlockTrends",
       "category": "latest",
       "tags": [
@@ -289,14 +369,14 @@
       "updatedAt": "2026-05-17T21:03:14Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://bpmoney.com.br/wp-content/uploads/2024/12/YvCV4olS-NOTAS-13-1536x864.webp"
+      "imageUrl": "https://static.poder360.com.br/2026/05/kschneider2991-money-2180330-848x477.jpg"
     },
     {
       "id": "macro-39714ccdb60fb55ae6a51409",
       "title": "Agenda da semana: China, EUA, Europa e Brasil no radar dos mercados",
-      "summary": "Salário de R$ 1.621 fica para trás e novo valor projetado para o INSS em 2027 movimenta aposentados com expectativa de aumento",
-      "details": "Salário de R$ 1.621 fica para trás e novo valor projetado para o INSS em 2027 movimenta aposentados com expectativa de aumento",
-      "url": "https://tvfoco.uai.com.br/salario-do-inss-em-2027-pode-superar-r-1-621",
+      "summary": "Semana carregada de indicadores inclui ata do Fed, PIB americano e IGP-10 no Brasil. Veja como cada dado pode mexer com juros, câmbio e bolsa.",
+      "details": "Semana carregada de indicadores inclui ata do Fed, PIB americano e IGP-10 no Brasil. Veja como cada dado pode mexer com juros, câmbio e bolsa.",
+      "url": "https://blocktrends.com.br/ata-fed-pib-eua-igp10-mercados-semana/",
       "source": "BPMoney",
       "category": "macro",
       "tags": [
@@ -308,14 +388,14 @@
       "updatedAt": "2026-05-17T21:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://statics.otvfoco.com.br/2025/12/salario-minimo-inss.jpg"
+      "imageUrl": "https://blocktrends.com.br/wp-content/uploads/2026/05/bt-148966-1779051801.jpg"
     },
     {
       "id": "macro-ede01c79b1125c010071e940",
       "title": "PIB do BC e ata do Fed dominam agenda",
-      "summary": "Semana carregada de indicadores inclui ata do Fed, PIB americano e IGP-10 no Brasil. Veja como cada dado pode mexer com juros, câmbio e bolsa.",
-      "details": "Semana carregada de indicadores inclui ata do Fed, PIB americano e IGP-10 no Brasil. Veja como cada dado pode mexer com juros, câmbio e bolsa.",
-      "url": "https://blocktrends.com.br/ata-fed-pib-eua-igp10-mercados-semana/",
+      "summary": "Agenda da semana reúne dados da China, EUA, Europa e Brasil, com foco em inflação, juros e indicadores de atividade global.",
+      "details": "Agenda da semana reúne dados da China, EUA, Europa e Brasil, com foco em inflação, juros e indicadores de atividade global.",
+      "url": "https://bpmoney.com.br/economia/agenda-da-semana-china-eua-europa-e-brasil-no-radar-dos-mercados/",
       "source": "SpaceMoney",
       "category": "macro",
       "tags": [
@@ -327,14 +407,14 @@
       "updatedAt": "2026-05-17T20:53:12Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://blocktrends.com.br/wp-content/uploads/2026/05/bt-148966-1779051801.jpg"
+      "imageUrl": "https://bpmoney.com.br/wp-content/uploads/2024/12/YvCV4olS-NOTAS-13-1536x864.webp"
     },
     {
       "id": "macro-aa44fffb03ffea3da0aa06fa",
       "title": "R$ 1.621 para trás: Novo salário do INSS previsto em 2027 chega aos aposentados",
-      "summary": "Prévia do PIB do BC e ata do Fomc são os eventos-chave da semana para mercados.",
-      "details": "Prévia do PIB do BC e ata do Fomc são os eventos-chave da semana para mercados.",
-      "url": "https://www.spacemoney.com.br/noticias/pib-bc-ata-fomc-agenda-semana/",
+      "summary": "Salário de R$ 1.621 fica para trás e novo valor projetado para o INSS em 2027 movimenta aposentados com expectativa de aumento",
+      "details": "Salário de R$ 1.621 fica para trás e novo valor projetado para o INSS em 2027 movimenta aposentados com expectativa de aumento",
+      "url": "https://tvfoco.uai.com.br/salario-do-inss-em-2027-pode-superar-r-1-621",
       "source": "TV Foco",
       "category": "macro",
       "tags": [
@@ -346,7 +426,7 @@
       "updatedAt": "2026-05-17T20:15:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/05/pexels-photo-7887850.jpg"
+      "imageUrl": "https://statics.otvfoco.com.br/2025/12/salario-minimo-inss.jpg"
     },
     {
       "id": "funds-35b63f354c9c90174069227c",
@@ -389,9 +469,9 @@
     {
       "id": "macro-fe86752b18fe90dc3344ba9b",
       "title": "Calendário econômico da semana: prévia do PIB do BC e ata do Fomc são destaques",
-      "summary": "Tudo o que o investidor precisa saber antes de operar na semana",
-      "details": "Tudo o que o investidor precisa saber antes de operar na semana",
-      "url": "https://www.infomoney.com.br/mercados/calendario-economico-da-semana-previa-do-pib-do-bc-e-ata-do-fomc-sao-destaques/",
+      "summary": "Na visão dos economistas e executivos de finanças, o juro voltará a níveis civilizados de forma sustentável quando o Brasil estiver em situação de superávit fiscal e menor relação dívida/PIB menor",
+      "details": "Na visão dos economistas e executivos de finanças, o juro voltará a níveis civilizados de forma sustentável quando o Brasil estiver em situação de superávit fiscal e menor relação dívida/PIB menor",
+      "url": "https://www.estadao.com.br/amp/economia/luiz-carlos-trabuco-cappi/a-bola-esta-com-o-brasil-para-atrair-capital-estrangeiro-mas-o-que-falta/",
       "source": "InfoMoney",
       "category": "macro",
       "tags": [
@@ -403,53 +483,15 @@
       "updatedAt": "2026-05-17T20:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2025/09/BC-Brasil.png"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/DTS6YPNWGRCWBNS3M3TTJ2ADIE.jpg?quality=80&auth=0aa031ecd377c7a405c0056d76b9028cb37fa05bd6191ec6470c94f64579ab12&width=1200"
     },
     {
-      "id": "macro-1590a3fc4b1186ea21e47b9f",
-      "title": "Opinião | A bola está com o Brasil para atrair capital estrangeiro, mas o que falta?",
-      "summary": "Na visão dos economistas e executivos de finanças, o juro voltará a níveis civilizados de forma sustentável quando o Brasil estiver em situação de superávit fiscal e menor relação dívida/PIB menor",
-      "details": "Na visão dos economistas e executivos de finanças, o juro voltará a níveis civilizados de forma sustentável quando o Brasil estiver em situação de superávit fiscal e menor relação dívida/PIB menor",
-      "url": "https://www.estadao.com.br/economia/luiz-carlos-trabuco-cappi/a-bola-esta-com-o-brasil-para-atrair-capital-estrangeiro-mas-o-que-falta/",
-      "source": "Estadão",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-17T20:00:00Z",
-      "updatedAt": "2026-05-17T20:00:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/DTS6YPNWGRCWBNS3M3TTJ2ADIE.jpg?quality=80&auth=0aa031ecd377c7a405c0056d76b9028cb37fa05bd6191ec6470c94f64579ab12&width=1200&height=630&smart=true"
-    },
-    {
-      "id": "macro-3cb0caa3fefdbf18fa83456b",
-      "title": "Inflação do carro eletrificado acelera (na China)",
-      "summary": "A Palio Weekend &eacute; um tipo de carro que, atualmente, est&aacute; em extin&ccedil;&atilde;o no mercado brasileiro. Afinal, estamos falando da varia&ccedil;",
-      "details": "A Palio Weekend &eacute; um tipo de carro que, atualmente, est&aacute; em extin&ccedil;&atilde;o no mercado brasileiro. Afinal, estamos falando da varia&ccedil;",
-      "url": "https://canaltech.com.br/carros/quanto-custaria-uma-palio-weekend-hoje-com-a-inflacao/",
-      "source": "AutoPapo",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-17T20:00:00Z",
-      "updatedAt": "2026-05-17T20:00:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://t.ctcdn.com.br/Eps7eFUe7jvEZuB6_nvqBeGaVzc=/1200x675/smart/i1123299.jpeg"
-    },
-    {
-      "id": "macro-698c1d5104265ecd5d64fbcc",
-      "title": "Quanto custaria uma Palio Weekend hoje, com a inflação?",
+      "id": "macro-8011ac615b4348d87673e821",
+      "title": "A bola está com o Brasil para atrair capital estrangeiro, mas o que falta?",
       "summary": "Encarecimento da energia e insumos provoca uma onda de inflação do carro elétrico e híbrido no maior mercado do planeta",
       "details": "Encarecimento da energia e insumos provoca uma onda de inflação do carro elétrico e híbrido no maior mercado do planeta",
       "url": "https://autopapo.com.br/noticia/inflacao-do-carro-eletrificado-acelera-na-china/",
-      "source": "Canaltech",
+      "source": "Estadão",
       "category": "macro",
       "tags": [
         "macro",
@@ -463,11 +505,49 @@
       "imageUrl": "https://cdn.autopapo.com.br/box/uploads/2026/05/15210013/transito-chines-shutterstock.jpg"
     },
     {
+      "id": "macro-3cb0caa3fefdbf18fa83456b",
+      "title": "Inflação do carro eletrificado acelera (na China)",
+      "summary": "Tudo o que o investidor precisa saber antes de operar na semana",
+      "details": "Tudo o que o investidor precisa saber antes de operar na semana",
+      "url": "https://www.infomoney.com.br/mercados/calendario-economico-da-semana-previa-do-pib-do-bc-e-ata-do-fomc-sao-destaques/",
+      "source": "AutoPapo",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-17T20:00:00Z",
+      "updatedAt": "2026-05-17T20:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2025/09/BC-Brasil.png"
+    },
+    {
+      "id": "macro-698c1d5104265ecd5d64fbcc",
+      "title": "Quanto custaria uma Palio Weekend hoje, com a inflação?",
+      "summary": "A Palio Weekend &eacute; um tipo de carro que, atualmente, est&aacute; em extin&ccedil;&atilde;o no mercado brasileiro. Afinal, estamos falando da varia&ccedil;",
+      "details": "A Palio Weekend &eacute; um tipo de carro que, atualmente, est&aacute; em extin&ccedil;&atilde;o no mercado brasileiro. Afinal, estamos falando da varia&ccedil;",
+      "url": "https://canaltech.com.br/carros/quanto-custaria-uma-palio-weekend-hoje-com-a-inflacao/",
+      "source": "Canaltech",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-17T20:00:00Z",
+      "updatedAt": "2026-05-17T20:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://t.ctcdn.com.br/Eps7eFUe7jvEZuB6_nvqBeGaVzc=/1200x675/smart/i1123299.jpeg"
+    },
+    {
       "id": "companies-6b7be1b258a480d0f1b655ad",
       "title": "Suspensão do vale-alimentação pega trabalhadores de surpresa em 2026",
-      "summary": "Em 2026, empresas brasileiras deverão se ajustar às novas regras do vale-alimentação, definidas pelo governo federal. Essas mudanças determinam que",
-      "details": "Em 2026, empresas brasileiras deverão se ajustar às novas regras do vale-alimentação, definidas pelo governo federal. Essas mudanças determinam que",
-      "url": "https://diariodocomercio.com.br/mix/suspensao-do-vale-alimentacao-pega-trabalhadores-de-surpresa-em-2026/",
+      "summary": "Coluna Brasília-DF publicada no domingo, 17 de maio de 2026, por Rosana Hessel com Eduarda Esposito Enquanto a corrida eleitoral para as eleições presidenciais deste ano parece dar sinais de que vai ter tiro, porrada e bomba, investidores estrangeiros estão mesmo de olho no que o",
+      "details": "Coluna Brasília-DF publicada no domingo, 17 de maio de 2026, por Rosana Hessel com Eduarda Esposito Enquanto a corrida eleitoral para as eleições presidenciais deste ano parece dar sinais de que vai ter tiro, porrada e bomba, investidores estrangeiros estão mesmo de olho no que o vencedor das urnas pretende fazer para ",
+      "url": "https://blogs.correiobraziliense.com.br/denise/reformas-estruturais-na-saida-para-2027/",
       "source": "Diário do Comércio",
       "category": "companies",
       "tags": [
@@ -479,14 +559,14 @@
       "updatedAt": "2026-05-17T19:48:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://diariodocomercio.com.br/mix/wp-content/uploads/2025/11/2410.jpg"
+      "imageUrl": "https://blogs.correiobraziliense.com.br/denise/wp-content/uploads/sites/12/2026/05/imagem_2026-05-17_153551385.png"
     },
     {
       "id": "companies-77c4986341becbd9e4a7cbb6",
       "title": "Falta de profissionais de IA desafia empresas brasileiras",
-      "summary": "Mulher sorridente com óculos e laptop em ambiente de trabalho com monitores. (Foto: cartacapital.com.br)A crescente demanda por profissionais de",
-      "details": "Mulher sorridente com óculos e laptop em ambiente de trabalho com monitores. (Foto: cartacapital.com.br)A crescente demanda por profissionais de",
-      "url": "https://www.ocafezinho.com/2026/05/17/falta-de-profissionais-de-ia-desafia-empresas-brasileiras/",
+      "summary": "Em 2026, empresas brasileiras deverão se ajustar às novas regras do vale-alimentação, definidas pelo governo federal. Essas mudanças determinam que",
+      "details": "Em 2026, empresas brasileiras deverão se ajustar às novas regras do vale-alimentação, definidas pelo governo federal. Essas mudanças determinam que",
+      "url": "https://diariodocomercio.com.br/mix/suspensao-do-vale-alimentacao-pega-trabalhadores-de-surpresa-em-2026/",
       "source": "O Cafezinho",
       "category": "companies",
       "tags": [
@@ -498,14 +578,14 @@
       "updatedAt": "2026-05-17T19:19:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://www.ocafezinho.com/wp-content/uploads/2026/05/trend-art-963c28f035.webp"
+      "imageUrl": "https://diariodocomercio.com.br/mix/wp-content/uploads/2025/11/2410.jpg"
     },
     {
       "id": "macro-0361d3f13d5f97b56c77b13a",
       "title": "Reformas estruturais na saída para 2027",
-      "summary": "Coluna Brasília-DF publicada no domingo, 17 de maio de 2026, por Rosana Hessel com Eduarda Esposito Enquanto a corrida eleitoral para as eleições presidenciais deste ano parece dar sinais de que vai ter tiro, porrada e bomba, investidores estrangeiros estão mesmo de olho no que o",
-      "details": "Coluna Brasília-DF publicada no domingo, 17 de maio de 2026, por Rosana Hessel com Eduarda Esposito Enquanto a corrida eleitoral para as eleições presidenciais deste ano parece dar sinais de que vai ter tiro, porrada e bomba, investidores estrangeiros estão mesmo de olho no que o vencedor das urnas pretende fazer para ",
-      "url": "https://blogs.correiobraziliense.com.br/denise/reformas-estruturais-na-saida-para-2027/",
+      "summary": "Mulher sorridente com óculos e laptop em ambiente de trabalho com monitores. (Foto: cartacapital.com.br)A crescente demanda por profissionais de",
+      "details": "Mulher sorridente com óculos e laptop em ambiente de trabalho com monitores. (Foto: cartacapital.com.br)A crescente demanda por profissionais de",
+      "url": "https://www.ocafezinho.com/2026/05/17/falta-de-profissionais-de-ia-desafia-empresas-brasileiras/",
       "source": "blogs.correiobraziliense.com.br",
       "category": "macro",
       "tags": [
@@ -517,7 +597,7 @@
       "updatedAt": "2026-05-17T18:45:34Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://blogs.correiobraziliense.com.br/denise/wp-content/uploads/sites/12/2026/05/imagem_2026-05-17_153551385.png"
+      "imageUrl": "https://www.ocafezinho.com/wp-content/uploads/2026/05/trend-art-963c28f035.webp"
     },
     {
       "id": "macro-b749e8dde4eb4a22cd709554",
@@ -541,9 +621,9 @@
     {
       "id": "macro-f9686f1505407223c27dd2b8",
       "title": "Nova lei vai aumentar o limite de faturamento anual de quem é MEI",
-      "summary": "Os microempreendedores individuais podem ganhar um novo fôlego financeiro nos próximos anos. Isso porque a Comissão de Indústria, Comércio e",
-      "details": "Os microempreendedores individuais podem ganhar um novo fôlego financeiro nos próximos anos. Isso porque a Comissão de Indústria, Comércio e",
-      "url": "https://www.tnh1.com.br/variedades/nova-lei-vai-aumentar-o-limite-de-faturamento-anual-de-quem-e-mei/",
+      "summary": "Presidente Lula aconselha Daniel Vorcaro a manter o Banco Master em vez de vender para o BTG Pactual por valor simbólico.",
+      "details": "Presidente Lula aconselha Daniel Vorcaro a manter o Banco Master em vez de vender para o BTG Pactual por valor simbólico.",
+      "url": "https://diariodoestadogo.com.br/lula-orienta-banqueiro-a-nao-vender-banco-master-ao-btg-pactual/",
       "source": "TNH1",
       "category": "macro",
       "tags": [
@@ -555,14 +635,14 @@
       "updatedAt": "2026-05-17T18:37:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.tnh1.com.br/variedades/wp-content/uploads/2026/05/Faturamento.jpg"
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/lula-orienta-banqueiro-a-nao-vender-banco-master-ao-btg-pactual.jpg"
     },
     {
       "id": "latest-167e9938d03e3602c94d5033",
       "title": "JORNALISMO DE MERCADO MENTE PARA SOCIEDADE, DEFENDE JUROS EXTORSIVOS, LUCRO PREDATÓRIO E DISTORCE A REALIDADE",
-      "summary": "Confira notícias atualizadas sobre sua cidade, estado e região. Informação rápida, confiável e relevante no Grupo Portal de Notícias.",
-      "details": "Confira notícias atualizadas sobre sua cidade, estado e região. Informação rápida, confiável e relevante no Grupo Portal de Notícias.",
-      "url": "https://grupoportaldenoticias.com.br/jornalismo-de-mercado-mente-para-sociedade-defende-juros-extorsivos-e-lucro-predatorio-e-distorce-a-realidade/",
+      "summary": "Os microempreendedores individuais podem ganhar um novo fôlego financeiro nos próximos anos. Isso porque a Comissão de Indústria, Comércio e",
+      "details": "Os microempreendedores individuais podem ganhar um novo fôlego financeiro nos próximos anos. Isso porque a Comissão de Indústria, Comércio e",
+      "url": "https://www.tnh1.com.br/variedades/nova-lei-vai-aumentar-o-limite-de-faturamento-anual-de-quem-e-mei/",
       "source": "Grupo Portal de Notícias",
       "category": "latest",
       "tags": [
@@ -574,14 +654,14 @@
       "updatedAt": "2026-05-17T18:12:16Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://grupoportaldenoticias.com.br/wp-content/uploads/2026/05/investigacao-jornalistica.jpg"
+      "imageUrl": "https://www.tnh1.com.br/variedades/wp-content/uploads/2026/05/Faturamento.jpg"
     },
     {
       "id": "latest-5b84d510de560e51ed812c44",
       "title": "Lula orienta banqueiro a não vender Banco Master ao BTG Pactual",
-      "summary": "Presidente Lula aconselha Daniel Vorcaro a manter o Banco Master em vez de vender para o BTG Pactual por valor simbólico.",
-      "details": "Presidente Lula aconselha Daniel Vorcaro a manter o Banco Master em vez de vender para o BTG Pactual por valor simbólico.",
-      "url": "https://diariodoestadogo.com.br/lula-orienta-banqueiro-a-nao-vender-banco-master-ao-btg-pactual/",
+      "summary": "Lei que reestrutura cargos da ALECE é sancionada; edital do novo concurso deve ser publicado na próxima semana! Veja os detalhes!",
+      "details": "Lei que reestrutura cargos da ALECE é sancionada; edital do novo concurso deve ser publicado na próxima semana! Veja os detalhes!",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-alece-edital-proxima-semana-600-vagas/amp/",
       "source": "diário do estado",
       "category": "latest",
       "tags": [
@@ -593,7 +673,7 @@
       "updatedAt": "2026-05-17T17:46:14Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/lula-orienta-banqueiro-a-nao-vender-banco-master-ao-btg-pactual.jpg"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2026/03/06153734/concurso-alece.jpg"
     },
     {
       "id": "macro-d8ceca672192bd0d1943bdcc",
@@ -617,9 +697,9 @@
     {
       "id": "macro-e745a984588b5e1f719ad88a",
       "title": "Agenda da semana: Ata do Fed domina o exterior e IGP-10 abre a semana no Brasil",
-      "summary": "Brasil alcançou 27,4 mil assessores de investimento em abril de 2026, segundo levantamento da ANCORD. São Paulo lidera em número.",
-      "details": "Brasil alcançou 27,4 mil assessores de investimento em abril de 2026, segundo levantamento da ANCORD. São Paulo lidera em número.",
-      "url": "https://bpmoney.com.br/premio-abai/brasil-ganha-mais-de-mil-novos-assessores-de-investimento-em-2026-diz-ancord/",
+      "summary": "Confira notícias atualizadas sobre sua cidade, estado e região. Informação rápida, confiável e relevante no Grupo Portal de Notícias.",
+      "details": "Confira notícias atualizadas sobre sua cidade, estado e região. Informação rápida, confiável e relevante no Grupo Portal de Notícias.",
+      "url": "https://grupoportaldenoticias.com.br/jornalismo-de-mercado-mente-para-sociedade-defende-juros-extorsivos-e-lucro-predatorio-e-distorce-a-realidade/",
       "source": "Investidor10",
       "category": "macro",
       "tags": [
@@ -631,7 +711,7 @@
       "updatedAt": "2026-05-17T17:12:23Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://uploads.bpmoney.com.br/2026/05/479-1320x880.jpg"
+      "imageUrl": "https://grupoportaldenoticias.com.br/wp-content/uploads/2026/05/investigacao-jornalistica.jpg"
     },
     {
       "id": "macro-5f2a0a785108c57a5da686ac",
@@ -655,9 +735,9 @@
     {
       "id": "latest-eff4c099db17d6a4b035dad9",
       "title": "Brasil ganha mais de mil novos assessores de investimento em 2026, diz ANCORD",
-      "summary": "Lei que reestrutura cargos da ALECE é sancionada; edital do novo concurso deve ser publicado na próxima semana! Veja os detalhes!",
-      "details": "Lei que reestrutura cargos da ALECE é sancionada; edital do novo concurso deve ser publicado na próxima semana! Veja os detalhes!",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-alece-edital-proxima-semana-600-vagas/amp/",
+      "summary": "Após crise com Daniel Vorcaro, Flávio Bolsonaro busca empresários para acalmar mercado e sustentar sua candidatura - Jornal O Sul",
+      "details": "Após crise com Daniel Vorcaro, Flávio Bolsonaro busca empresários para acalmar mercado e sustentar sua candidatura - Jornal O Sul",
+      "url": "https://www.osul.com.br/apos-crise-com-daniel-vorcaro-flavio-busca-empresarios-para-acalmar-mercado-e-sustentar-sua-candidatura/amp/",
       "source": "BPMoney",
       "category": "latest",
       "tags": [
@@ -669,14 +749,14 @@
       "updatedAt": "2026-05-17T17:00:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2026/03/06153734/concurso-alece.jpg"
+      "imageUrl": "https://www.osul.com.br/wp-content/uploads/2026/03/flavio-bolsonaro.jpg"
     },
     {
       "id": "latest-5777ed910529cf2a08343147",
       "title": "Após crise com Daniel Vorcaro, Flávio busca empresários para acalmar mercado e sustentar sua candidatura",
-      "summary": "A 1ª vara Gabinete JEF de Dourados, em Mato Grosso do Sul, reconheceu o direito de um posto de combustíveis usar crédito judicial transitado em julgado para ...",
-      "details": "A 1ª vara Gabinete JEF de Dourados, em Mato Grosso do Sul, reconheceu o direito de um posto de combustíveis usar crédito judicial transitado em julgado para ...",
-      "url": "https://www.portaltela.com/noticias/economia/2026/05/17/posto-de-combustiveis-pode-usar-credito-judicial-para-compensar-debito-fiscal/",
+      "summary": "Brasil alcançou 27,4 mil assessores de investimento em abril de 2026, segundo levantamento da ANCORD. São Paulo lidera em número.",
+      "details": "Brasil alcançou 27,4 mil assessores de investimento em abril de 2026, segundo levantamento da ANCORD. São Paulo lidera em número.",
+      "url": "https://bpmoney.com.br/premio-abai/brasil-ganha-mais-de-mil-novos-assessores-de-investimento-em-2026-diz-ancord/",
       "source": "Jornal O Sul",
       "category": "latest",
       "tags": [
@@ -688,33 +768,14 @@
       "updatedAt": "2026-05-17T16:36:05Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/05/https__img5.migalhas.com_.br__SL__gf_base__SL__empresas__SL__miga__SL__imagens__SL__2026__SL__05__SL__11__SL__cropped_jb4odov4.152.jpg"
-    },
-    {
-      "id": "macro-2de452262c711765a98f8f77",
-      "title": "Posto de combustíveis pode usar crédito judicial para compensar débito fiscal",
-      "summary": "Mercado e direita veem Flávio Bolsonaro em crise após caso Vorcaro e já discutem Michelle como alternativa para 2026.",
-      "details": "Mercado e direita veem Flávio Bolsonaro em crise após caso Vorcaro e já discutem Michelle como alternativa para 2026.",
-      "url": "https://www.diariodocentrodomundo.com.br/mercado-ja-descarta-flavio-bolsonaro-apos-crise-afetar-dolar-e-bolsa/",
-      "source": "Portal Tela",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-17T16:18:33Z",
-      "updatedAt": "2026-05-17T16:18:33Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/05/flavio-1.jpg"
+      "imageUrl": "https://uploads.bpmoney.com.br/2026/05/479-1320x880.jpg"
     },
     {
       "id": "latest-64b4e7da393386d3024fe152",
       "title": "Mercado já descarta Flávio Bolsonaro após crise afetar dólar e Bolsa",
-      "summary": "Após crise com Daniel Vorcaro, Flávio Bolsonaro busca empresários para acalmar mercado e sustentar sua candidatura - Jornal O Sul",
-      "details": "Após crise com Daniel Vorcaro, Flávio Bolsonaro busca empresários para acalmar mercado e sustentar sua candidatura - Jornal O Sul",
-      "url": "https://www.osul.com.br/apos-crise-com-daniel-vorcaro-flavio-busca-empresarios-para-acalmar-mercado-e-sustentar-sua-candidatura/amp/",
+      "summary": "Atualizacao de ultima hora capturada em Diário do Centro do Mundo.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeWxQMGZyU0xBVnVManBZT0swYnoxU0twaWpSWTdjckJQMzRVanU1cl9BWTZEeExnUHFzczZKMlFZVW1xcFVJMmdvMzBQM3EyZW8xLWlTQnNhbHVRNlkxWDk3UHJHQ1AtOTVDMHg2T1FhQWFQWFVlRWRBN1h0OTViRmtzM2d3WVRjMWhUNXBIMEhKZ1FlTWtJdEp6dkZVVTFyLUR2Q1gtNkVGRXluN0pB?oc=5",
       "source": "Diário do Centro do Mundo",
       "category": "latest",
       "tags": [
@@ -725,15 +786,14 @@
       "publishedAt": "2026-05-17T16:13:00Z",
       "updatedAt": "2026-05-17T16:13:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.osul.com.br/wp-content/uploads/2026/03/flavio-bolsonaro.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-09ed3ea5c99a0da0addd9f49",
+      "id": "latest-be2bffc5afa283f847299bdc",
       "title": "Ministro Gilmar Mendes defende cautela sobre áudio envolvendo senador e aponta falhas no mercado financeiro",
       "summary": "Atualizacao de ultima hora capturada em CircuitoMT.",
       "details": "",
-      "url": "https://www.capitalnews.com.br/colunistas/tecnologia/trabalho-hibrido-exige-novas-infraestruturas-tecnologicas/440618",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNGxtbk9XSU56VWIxZHlGaVVrdUFEdVpIak9JWEZwMXlPYVpLcGQ3SGRYRlpIVVB4Y0lTMlhpZ1RxTHljS3lLX085eVNlUE5zYnJIWUhwWWRSVUlXOG90N2FLVl9pb0VnVUx6WVc5MjY3T0Z2OUI5Ny1vSlptMnpYVzc5WTExd3VyRlJpUkQ2OXRycW5SMHdTRkZxUGx3ZWtCeFNQUDd5ZEsxSGR3Nlp4N0ZpZWNzaTl4TjdreFVYQmpYVWpjZFFxeTZENFg4ajA?oc=5",
       "source": "CircuitoMT",
       "category": "latest",
       "tags": [
@@ -741,17 +801,17 @@
         "bolsa",
         "macro"
       ],
-      "publishedAt": "2026-05-17T16:02:21Z",
-      "updatedAt": "2026-05-17T16:02:21Z",
+      "publishedAt": "2026-05-17T16:04:27Z",
+      "updatedAt": "2026-05-17T16:04:27Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-23091d31563ecde460646759",
       "title": "Trabalho híbrido exige novas infraestruturas tecnológicas",
-      "summary": "Durante participação em um evento realizado no Tribunal Regional do Trabalho de Mato Grosso, em Cuiabá, o ministro do Supremo Tribunal Federal, Gilmar Mendes, preferiu não antecipar juízo de valor a respeito do áudio envolvendo o senador Flávio Bolsonaro e o banqueiro Daniel Vorc",
-      "details": "Durante participação em um evento realizado no Tribunal Regional do Trabalho de Mato Grosso, em Cuiabá, o ministro do Supremo Tribunal Federal, Gilmar Mendes, preferiu não antecipar juízo de valor a respeito do áudio envolvendo o senador Flávio Bolsonaro e o banqueiro Daniel Vorcaro. O conteúdo, divulgado recentemente,",
-      "url": "https://circuitomt.com.br/ministro-gilmar-mendes-defende-cautela-sobre-audio-envolvendo-senador-e-aponta-falhas-no-mercado-financeiro/",
+      "summary": "Atualizacao de empresas capturada em capitalnews.com.br.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMXZ1VTdZa3Ffd2RSblF6d1ZzN1M4UHd5OVQxT0VFTmdZWkJKSkJqUU5nMkE0NkJpc3ptdUowV3NLNXRkcDVOck1ra3B5dE43UnNEV25hUUhNclBqcjZZNHI3empRcXFqVXB4UWVPdkItQng1d3JlNzQ1alZiTlRnZmFOcU5hQUhLSXZ0U2Ruay1NVV9ndVk4UjdVTjlWSklJcU4xT29ZNV8wREY1dEtDUXBJS09XSldJ?oc=5",
       "source": "capitalnews.com.br",
       "category": "companies",
       "tags": [
@@ -762,8 +822,7 @@
       "publishedAt": "2026-05-17T16:00:00Z",
       "updatedAt": "2026-05-17T16:00:00Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://circuitomt.com.br/wp-content/uploads/2017/10/gilmar-mendes-1-ebc.jpg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "latest-d6cef567436974a346347fd8",
@@ -798,6 +857,24 @@
       ],
       "publishedAt": "2026-05-17T14:47:00Z",
       "updatedAt": "2026-05-17T14:47:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "companies-d639e71f16aa0f9215de80a0",
+      "title": "Fim do ambiente tóxico? Nova regra equipara assédio e sobrecarga a acidentes",
+      "summary": "Atualizacao de empresas capturada em A TARDE.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR1B3WHVSVVhCM0xqUnRNQ2pSVU91c1FOckt2dkphYmpSTzhZdXZOSUVoWlBtQkJfa2VKSnhhVUJwN0ljNUNqZTc0UkN1Vlhtc0hkak9VZmxuVHNScTJFWFI5Sjh0ZUdsYTBEcjk3RVpSb2xOS3lTdjR0NTdTRThhdTRQY1dqRE9OY1NNNGNaQzJaVHZ2MnNJUUdjT0p5MkY4NHN1M0I3NTZ6VVZOQ0JWeTkxSUfSAbwBQVVfeXFMTTVvcnBzMnZFbFFJaDZqei1KendZbWFDWS1tbTF5VlZzNU01QmNtbW1yZnJiS195dGxkalpEUXVpczdnN2JHVE90WWlsSE1RV2k3QVFXUFhPeDNSOGViX2g5NG9XMjMzOU5ESlFhT2FwX2NMVC1XZV9IYmxwN1cyc2JGSUotZGVvYjlmUE5MaVZYRnZHQUF0cy1DOHlmNnR3QUx2MjVFUXdkM1N2YXlHWWxtT3M0SzJuZHN3LTU?oc=5",
+      "source": "A TARDE",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-05-17T14:43:13Z",
+      "updatedAt": "2026-05-17T14:43:13Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
@@ -1054,6 +1131,24 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
+      "id": "latest-d2a15c76720dc9aa39cd6d46",
+      "title": "Bitcoin reage à distensão EUA-China após cúpula",
+      "summary": "Atualizacao de ultima hora capturada em Webitcoin.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5LdDc3dVpkZ2ZzbUJSSXF0d1VodFR2THEtSDJfT2gyMFFiTDNfUlpNM0Z1ZEFLNlB0S0NtU2FIWVRXaGljQ2QwdWlmc3hzY2ZJWlJKRWdkdVBUN3ZEQ0lRY0RsajZZMzJUNEZ2S1NwbGkwMWNuYmNTcU14MVdYdw?oc=5",
+      "source": "Webitcoin",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-17T12:24:21Z",
+      "updatedAt": "2026-05-17T12:24:21Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
       "id": "funds-3be4e71db65be319da5b701d",
       "title": "A SBI Securities do Japão e a Rakuten Securities planejam oferecer fundos de investimento em criptomoedas",
       "summary": "Atualizacao de fundos capturada em CoinDesk.",
@@ -1198,24 +1293,6 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "latest-3c4fd2594e39b6f9abbd9676",
-      "title": "Grupo Mateus demite mais de 6 mil funcionários e fecha lojas; Varejista teve mais R$2 bilhões de lucro no 1º trimestre de 2026",
-      "summary": "Atualizacao de ultima hora capturada em Diego Emir.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNM3hyOV93OXpxaUhMVF84Qm9hT3REOUZ1MzNzOVQ2TjlBUEo2Y2doSXRHYmlBX1JIVG9TY092R0Jya0hMbnpDeW5GMWhHa2N6S3hvbWRxNjVkYjBLT0hBdUNDTjdlVFVXLVBzZWtlZUZZZ1B5bDNEcUw2UkdkdjBuT0k5ekVtSnpGUVJSNWN2SWZUbi1NbFdKZjFRU0VNNk45ZzVKYS0yUjFoYkdmNHRyYVNoZ0F0bnR2cVhJbUdEcktJVnpzaThJa1dDTzN4ZVh6ZjR3WWRqQWVnMHZET3RzekNlOFZOT29EN2RR?oc=5",
-      "source": "Diego Emir",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-17T09:50:55Z",
-      "updatedAt": "2026-05-17T09:50:55Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "funds-c0f2e7bd6ca7d692d6936abe",
       "title": "Fundos cessionários, IDPJ e captura do empresário pela engenharia do crédito podre",
       "summary": "Atualizacao de fundos capturada em Consultor Jurídico.",
@@ -1232,42 +1309,6 @@
       "updatedAt": "2026-05-17T09:31:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "latest-ad0ceb7728c5a1735e9f2e62",
-      "title": "Crise da direita abre espaço para uma agenda mais populista de Lula e preocupa mercado",
-      "summary": "Atualizacao de ultima hora capturada em Plantão dos Lagos.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdnA2VDVfck9VLXBkMG5zU3AwR3NTVjJOMy1sTS1INms1UE10WkRObnVFTHVScXJMelNNd3FuUkVCMGVhSXp4UGhpRmtPa2E0OWlvVHF5djhXQWMyMS1qVDdvTG9xSGRCVTBDNmVQcGMzVWV6OTBZV3JzNHpGbFdmUFhqSUJ4OFRGSlJDVllyWWJXYXhJYlFLcFdqSlRqYlFBOTY4RlpRVHpwdE9CcTh5ZG9zRW9PU1FjNHdwUG5vcnlLSVJoVkhQMFdURWtScmxOTkRF?oc=5",
-      "source": "Plantão dos Lagos",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-17T09:30:23Z",
-      "updatedAt": "2026-05-17T09:30:23Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-0cac22c9b76f3efe395073d3",
-      "title": "Após crise com Vorcaro, Flávio busca empresários da Faria Lima para acalmar mercado e sustentar candidatura",
-      "summary": "Atualizacao de ultima hora capturada em Tribuna do Sertão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNQmxfaWpmM3NFQnZleXNEUW56OFJKMWdrR1ZxeWVzZDdqVmlDY3AxaXppMUx0cG1HQUVLQU5pZDdhdmRJcGV5RW42cFNIQjNFUjBQdkNsOWZvSUF4XzRvUGZ5bEN2cUlwbVl2ZGl4WjhROXYyOEtjb2NpeFlSNlprWFZfQUVGbmhIRjFzZG9tbDI1c1JhYlZHRTNFR24xQ2thbkZoU05DR2VYeC1sZjJzSV9WaFNzRnEwTHQ5dnZLaXVQWmpnRk5TcEk0a2V2SjRnU19ENGtIOWZKcnhkOG50YUM3cnVyM3l2akJMYXFtd2xQWE0wMi1YbE14TXlfVTdINVdLZFNn?oc=5",
-      "source": "Tribuna do Sertão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-17T09:30:00Z",
-      "updatedAt": "2026-05-17T09:30:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "funds-a146ab4cffa1a2495249091f",
@@ -1342,30 +1383,30 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "funds-543c1786bb32caba293bfc59",
-      "title": "As corretoras japonesas SBI Securities e Rakuten Securities planeiam desenvolver independentemente produtos de fundos de investimento em criptomoedas.",
-      "summary": "Atualizacao de fundos capturada em bitget.com.",
+      "id": "funds-c0336ce80bd72b894f4aeeeb",
+      "title": "191,43 | COINUSDT USDⓈ-Margined Perpetual Chart | Binance Futures",
+      "summary": "Atualizacao de fundos capturada em Binance.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mRVlJM29NMFJ0cm1EN1VkOFk4ekZ2MmJDMzRUcTVpdkRGR202MUhIOEk2TWI3R2ZLR19VdzJxMXlBMGZnSEdLS2UwNkZHNnFYNHJJNEs3QlFuZEVrRTdTOVhiS1JGcHFUSTBj0gFrQVVfeXFMT2ZFWUkzb00wUnRybUQ3VWQ4WTh6RnYyYkMzNFRxNWl2REZHbTYxSEg4STZNYjdHZktHX1V3MnExeUEwZmdIR0tLZTA2Rkc2cVg0ckk0SzdCUW5kRWtFN1M5WGJLUkZwcVRJMGM?oc=5",
-      "source": "bitget.com",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5HTWp4NWhyUzdIdFBvaWoyQUc2bFE0U1BYbnZIWmk3b3dBT1RyZEh3NUlwWC1DbWtXLVRvTG1uZ2FJMkpWZUdMT05XeVdwYzhSWFc5TGFnVHZIU0hkSjBMSzgtSF9CSFAwV0tRVVQ2ZkY3ckhiQm9BSDdIUDQ?oc=5",
+      "source": "Binance",
       "category": "funds",
       "tags": [
         "fundos",
         "asset",
         "fiis"
       ],
-      "publishedAt": "2026-05-17T01:49:16Z",
-      "updatedAt": "2026-05-17T01:49:16Z",
+      "publishedAt": "2026-05-17T03:40:55Z",
+      "updatedAt": "2026-05-17T03:40:55Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "funds-8f3b8a17e303709092393c19",
+      "id": "funds-85329793000946473d567d6f",
       "title": "Dados: Nas últimas 24 horas, a liquidação total no mercado atingiu 459 milhões de dólares, sendo 436 milhões de dólares em posições longas e 23,8 milhões de dólares em posições curtas.",
-      "summary": "Atualizacao de fundos capturada em bitget.com.",
+      "summary": "Atualizacao de fundos capturada em Bitget.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RUjhoUXRRaVNmTktjeWhUTHZ1aFgxazRjcWs5WncyRndUUnlyTEZWdW84NzJDNklsbFdfZFVWemMzbXdVYzhWcmFXTUhmYTJENTdJc1RSR3dabjBGZEJteWNwSG1ISGRqbGM40gFrQVVfeXFMT1FSOGhRdFFpU2ZOS2N5aFRMdnVoWDFrNGNxazladzJGd1RSeXJMRlZ1bzg3MkM2SWxsV19kVVZ6YzNtd1VjOFZyYVdNSGZhMkQ1N0lzVFJHd1puMEZkQm15Y3BIbUhIZGpsYzg?oc=5",
-      "source": "bitget.com",
+      "source": "Bitget",
       "category": "funds",
       "tags": [
         "fundos",
@@ -1376,42 +1417,6 @@
       "updatedAt": "2026-05-17T01:41:21Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-794d3816af515bfee7ecc209",
-      "title": "Corretoras Japonesas Planejam Lançar Fundos de Investimento em Criptomoedas",
-      "summary": "Atualizacao de fundos capturada em Binance.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRcUh0aGRyQ1FuUnVCcTNZM1lJTFpNMmFwVDh3VVQxTWZhYlNQeHA1dEhiQlk1d0hjeUVQOEIycVJoQ0hnRlRlbkRWbDdYUXR4MXJLYXd1YUhCZ3RVZWtoU2o2Z1FSSTFx?oc=5",
-      "source": "Binance",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-05-17T01:33:35Z",
-      "updatedAt": "2026-05-17T01:33:35Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-489548dfe3a95871b11551b5",
-      "title": "Nova plataforma do INSS facilitará consulta de afastamentos",
-      "summary": "Atualizacao de empresas capturada em Seu Crédito Digital.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MNXFjdEx6WWdEeUViRDFoWWNFSjdLMEs2VU0wb1VhV3NHcDJSaFUzSUEyZ2s3TS1xckFWWFNtNFA0OEMwUHA1alRpT0RyRUZjV3pUNnJtYlUzcVdfWncwVGlMb3pRdGk4bTJqTmxkY24?oc=5",
-      "source": "Seu Crédito Digital",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-05-16T23:40:00Z",
-      "updatedAt": "2026-05-16T23:40:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     }
   ]
 }
