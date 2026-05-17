@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-17T17:57:36Z",
-  "generatedAt": "2026-05-17T17:57:36Z",
+  "updatedAt": "2026-05-17T19:13:11Z",
+  "generatedAt": "2026-05-17T19:13:11Z",
   "categories": [
     {
       "id": "all",
@@ -25,8 +25,20 @@
   ],
   "sources": [
     {
+      "id": "ag-ncia-de-not-cias-brasil-rabe-anba",
+      "label": "Agência de Notícias Brasil-Árabe - ANBA"
+    },
+    {
+      "id": "alagoas-24-horas",
+      "label": "Alagoas 24 Horas"
+    },
+    {
       "id": "averdade-com",
       "label": "averdade.com"
+    },
+    {
+      "id": "balada-in",
+      "label": "Balada IN"
     },
     {
       "id": "binance",
@@ -81,10 +93,6 @@
       "label": "Consultor Jurídico"
     },
     {
-      "id": "diego-emir",
-      "label": "Diego Emir"
-    },
-    {
       "id": "di-rio-de-justi-a",
       "label": "Diário de Justiça"
     },
@@ -109,12 +117,16 @@
       "label": "GP1"
     },
     {
+      "id": "grupo-portal-de-not-cias",
+      "label": "Grupo Portal de Notícias"
+    },
+    {
       "id": "investidor10",
       "label": "Investidor10"
     },
     {
-      "id": "jornal-da-chapada",
-      "label": "Jornal da Chapada"
+      "id": "jornal-extra-de-alagoas",
+      "label": "Jornal Extra de Alagoas"
     },
     {
       "id": "jornal-grande-bahia",
@@ -139,10 +151,6 @@
     {
       "id": "nord-investimentos",
       "label": "Nord Investimentos"
-    },
-    {
-      "id": "noticiasdoplanalto-com-br",
-      "label": "noticiasdoplanalto.com.br"
     },
     {
       "id": "o-gon-alense",
@@ -173,10 +181,6 @@
       "label": "Portal Tempo Novo"
     },
     {
-      "id": "revista-oeste",
-      "label": "Revista Oeste"
-    },
-    {
       "id": "revista-sociedade-militar",
       "label": "Revista Sociedade Militar"
     },
@@ -187,6 +191,10 @@
     {
       "id": "seu-dinheiro",
       "label": "Seu Dinheiro"
+    },
+    {
+      "id": "spacemoney",
+      "label": "SpaceMoney"
     },
     {
       "id": "times-brasil-cnbc",
@@ -231,11 +239,49 @@
   ],
   "items": [
     {
-      "id": "latest-5b84d510de560e51ed812c44",
-      "title": "Lula orienta banqueiro a não vender Banco Master ao BTG Pactual",
+      "id": "macro-f9686f1505407223c27dd2b8",
+      "title": "Nova lei vai aumentar o limite de faturamento anual de quem é MEI",
+      "summary": "Presidente Lula aconselha Daniel Vorcaro a manter o Banco Master em vez de vender para o BTG Pactual por valor simbólico.",
+      "details": "Presidente Lula aconselha Daniel Vorcaro a manter o Banco Master em vez de vender para o BTG Pactual por valor simbólico.",
+      "url": "https://diariodoestadogo.com.br/lula-orienta-banqueiro-a-nao-vender-banco-master-ao-btg-pactual/",
+      "source": "TNH1",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-17T18:37:00Z",
+      "updatedAt": "2026-05-17T18:37:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/lula-orienta-banqueiro-a-nao-vender-banco-master-ao-btg-pactual.jpg"
+    },
+    {
+      "id": "latest-167e9938d03e3602c94d5033",
+      "title": "JORNALISMO DE MERCADO MENTE PARA SOCIEDADE, DEFENDE JUROS EXTORSIVOS, LUCRO PREDATÓRIO E DISTORCE A REALIDADE",
       "summary": "Mesmo após medidas do governo federal desde o início da guerra no Irã os preços dos combustíveis já acumulam alta média de 6,8% no Brasil.",
       "details": "Mesmo após medidas do governo federal desde o início da guerra no Irã os preços dos combustíveis já acumulam alta média de 6,8% no Brasil.",
       "url": "https://98fmnatal.com.br/economia/alta-dos-combustiveis-pressiona-inflacao-e-pode-frear-queda-dos-juros-no-brasil/333621/",
+      "source": "Grupo Portal de Notícias",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-17T18:12:16Z",
+      "updatedAt": "2026-05-17T18:12:16Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://98fmnatal.com.br/98-storage/2024/01/diesel-gasolina-posto.jpg"
+    },
+    {
+      "id": "latest-5b84d510de560e51ed812c44",
+      "title": "Lula orienta banqueiro a não vender Banco Master ao BTG Pactual",
+      "summary": "Os microempreendedores individuais podem ganhar um novo fôlego financeiro nos próximos anos. Isso porque a Comissão de Indústria, Comércio e",
+      "details": "Os microempreendedores individuais podem ganhar um novo fôlego financeiro nos próximos anos. Isso porque a Comissão de Indústria, Comércio e",
+      "url": "https://www.tnh1.com.br/variedades/nova-lei-vai-aumentar-o-limite-de-faturamento-anual-de-quem-e-mei/",
       "source": "diário do estado",
       "category": "latest",
       "tags": [
@@ -247,14 +293,14 @@
       "updatedAt": "2026-05-17T17:46:14Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://98fmnatal.com.br/98-storage/2024/01/diesel-gasolina-posto.jpg"
+      "imageUrl": "https://www.tnh1.com.br/variedades/wp-content/uploads/2026/05/Faturamento.jpg"
     },
     {
       "id": "macro-d8ceca672192bd0d1943bdcc",
       "title": "Alta dos combustíveis pressiona inflação e pode frear queda dos juros no Brasil",
-      "summary": "Presidente Lula aconselha Daniel Vorcaro a manter o Banco Master em vez de vender para o BTG Pactual por valor simbólico.",
-      "details": "Presidente Lula aconselha Daniel Vorcaro a manter o Banco Master em vez de vender para o BTG Pactual por valor simbólico.",
-      "url": "https://diariodoestadogo.com.br/lula-orienta-banqueiro-a-nao-vender-banco-master-ao-btg-pactual/",
+      "summary": "Confira notícias atualizadas sobre sua cidade, estado e região. Informação rápida, confiável e relevante no Grupo Portal de Notícias.",
+      "details": "Confira notícias atualizadas sobre sua cidade, estado e região. Informação rápida, confiável e relevante no Grupo Portal de Notícias.",
+      "url": "https://grupoportaldenoticias.com.br/jornalismo-de-mercado-mente-para-sociedade-defende-juros-extorsivos-e-lucro-predatorio-e-distorce-a-realidade/",
       "source": "Portal 98 FM Natal",
       "category": "macro",
       "tags": [
@@ -266,14 +312,14 @@
       "updatedAt": "2026-05-17T17:31:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/lula-orienta-banqueiro-a-nao-vender-banco-master-ao-btg-pactual.jpg"
+      "imageUrl": "https://grupoportaldenoticias.com.br/wp-content/uploads/2026/05/investigacao-jornalistica.jpg"
     },
     {
       "id": "macro-e745a984588b5e1f719ad88a",
       "title": "Agenda da semana: Ata do Fed domina o exterior e IGP-10 abre a semana no Brasil",
-      "summary": "...",
-      "details": "...",
-      "url": "https://investidor10.com.br/noticias/agenda-da-semana-ata-do-fed-domina-o-exterior-e-igp-10-abre-a-semana-no-brasil-120437/",
+      "summary": "Lei que reestrutura cargos da ALECE é sancionada; edital do novo concurso deve ser publicado na próxima semana! Veja os detalhes!",
+      "details": "Lei que reestrutura cargos da ALECE é sancionada; edital do novo concurso deve ser publicado na próxima semana! Veja os detalhes!",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-alece-edital-proxima-semana-600-vagas/amp/",
       "source": "Investidor10",
       "category": "macro",
       "tags": [
@@ -285,14 +331,14 @@
       "updatedAt": "2026-05-17T17:12:23Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://investidor10.com.br/storage/news/6a09f67c11871.jpg"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2026/03/06153734/concurso-alece.jpg"
     },
     {
       "id": "macro-5f2a0a785108c57a5da686ac",
       "title": "Concurso ALECE: edital na próxima semana; 600 vagas",
-      "summary": "Lei que reestrutura cargos da ALECE é sancionada; edital do novo concurso deve ser publicado na próxima semana! Veja os detalhes!",
-      "details": "Lei que reestrutura cargos da ALECE é sancionada; edital do novo concurso deve ser publicado na próxima semana! Veja os detalhes!",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-alece-edital-proxima-semana-600-vagas/amp/",
+      "summary": "...",
+      "details": "...",
+      "url": "https://investidor10.com.br/noticias/agenda-da-semana-ata-do-fed-domina-o-exterior-e-igp-10-abre-a-semana-no-brasil-120437/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -304,7 +350,7 @@
       "updatedAt": "2026-05-17T17:08:12Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2026/03/06153734/concurso-alece.jpg"
+      "imageUrl": "https://investidor10.com.br/storage/news/6a09f67c11871.jpg"
     },
     {
       "id": "latest-eff4c099db17d6a4b035dad9",
@@ -328,9 +374,9 @@
     {
       "id": "latest-5777ed910529cf2a08343147",
       "title": "Após crise com Daniel Vorcaro, Flávio busca empresários para acalmar mercado e sustentar sua candidatura",
-      "summary": "Após crise com Daniel Vorcaro, Flávio Bolsonaro busca empresários para acalmar mercado e sustentar sua candidatura - Jornal O Sul",
-      "details": "Após crise com Daniel Vorcaro, Flávio Bolsonaro busca empresários para acalmar mercado e sustentar sua candidatura - Jornal O Sul",
-      "url": "https://www.osul.com.br/apos-crise-com-daniel-vorcaro-flavio-busca-empresarios-para-acalmar-mercado-e-sustentar-sua-candidatura/",
+      "summary": "Mercado e direita veem Flávio Bolsonaro em crise após caso Vorcaro e já discutem Michelle como alternativa para 2026.",
+      "details": "Mercado e direita veem Flávio Bolsonaro em crise após caso Vorcaro e já discutem Michelle como alternativa para 2026.",
+      "url": "https://www.diariodocentrodomundo.com.br/mercado-ja-descarta-flavio-bolsonaro-apos-crise-afetar-dolar-e-bolsa/",
       "source": "Jornal O Sul",
       "category": "latest",
       "tags": [
@@ -342,14 +388,14 @@
       "updatedAt": "2026-05-17T16:36:05Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.osul.com.br/wp-content/uploads/2026/03/flavio-bolsonaro.jpg"
+      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/05/flavio-1.jpg"
     },
     {
       "id": "macro-2de452262c711765a98f8f77",
       "title": "Posto de combustíveis pode usar crédito judicial para compensar débito fiscal",
-      "summary": "A 1ª vara Gabinete JEF de Dourados, em Mato Grosso do Sul, reconheceu o direito de um posto de combustíveis usar crédito judicial transitado em julgado para ...",
-      "details": "A 1ª vara Gabinete JEF de Dourados, em Mato Grosso do Sul, reconheceu o direito de um posto de combustíveis usar crédito judicial transitado em julgado para ...",
-      "url": "https://www.portaltela.com/noticias/economia/2026/05/17/posto-de-combustiveis-pode-usar-credito-judicial-para-compensar-debito-fiscal/",
+      "summary": "Após crise com Daniel Vorcaro, Flávio Bolsonaro busca empresários para acalmar mercado e sustentar sua candidatura - Jornal O Sul",
+      "details": "Após crise com Daniel Vorcaro, Flávio Bolsonaro busca empresários para acalmar mercado e sustentar sua candidatura - Jornal O Sul",
+      "url": "https://www.osul.com.br/apos-crise-com-daniel-vorcaro-flavio-busca-empresarios-para-acalmar-mercado-e-sustentar-sua-candidatura/amp/",
       "source": "Portal Tela",
       "category": "macro",
       "tags": [
@@ -361,14 +407,14 @@
       "updatedAt": "2026-05-17T16:18:33Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/05/https__img5.migalhas.com_.br__SL__gf_base__SL__empresas__SL__miga__SL__imagens__SL__2026__SL__05__SL__11__SL__cropped_jb4odov4.152.jpg"
+      "imageUrl": "https://www.osul.com.br/wp-content/uploads/2026/03/flavio-bolsonaro.jpg"
     },
     {
       "id": "latest-64b4e7da393386d3024fe152",
       "title": "Mercado já descarta Flávio Bolsonaro após crise afetar dólar e Bolsa",
-      "summary": "Mercado e direita veem Flávio Bolsonaro em crise após caso Vorcaro e já discutem Michelle como alternativa para 2026.",
-      "details": "Mercado e direita veem Flávio Bolsonaro em crise após caso Vorcaro e já discutem Michelle como alternativa para 2026.",
-      "url": "https://www.diariodocentrodomundo.com.br/mercado-ja-descarta-flavio-bolsonaro-apos-crise-afetar-dolar-e-bolsa/",
+      "summary": "A 1ª vara Gabinete JEF de Dourados, em Mato Grosso do Sul, reconheceu o direito de um posto de combustíveis usar crédito judicial transitado em julgado para ...",
+      "details": "A 1ª vara Gabinete JEF de Dourados, em Mato Grosso do Sul, reconheceu o direito de um posto de combustíveis usar crédito judicial transitado em julgado para ...",
+      "url": "https://www.portaltela.com/noticias/economia/2026/05/17/posto-de-combustiveis-pode-usar-credito-judicial-para-compensar-debito-fiscal/",
       "source": "Diário do Centro do Mundo",
       "category": "latest",
       "tags": [
@@ -380,7 +426,7 @@
       "updatedAt": "2026-05-17T16:13:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/05/flavio-1.jpg"
+      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/05/https__img5.migalhas.com_.br__SL__gf_base__SL__empresas__SL__miga__SL__imagens__SL__2026__SL__05__SL__11__SL__cropped_jb4odov4.152.jpg"
     },
     {
       "id": "macro-54a5e5db14a018ad8082f4ef",
@@ -421,11 +467,30 @@
       "imageUrl": "https://circuitomt.com.br/wp-content/uploads/2017/10/gilmar-mendes-1-ebc.jpg"
     },
     {
+      "id": "companies-23091d31563ecde460646759",
+      "title": "Trabalho híbrido exige novas infraestruturas tecnológicas",
+      "summary": "Novo Desenrola mira 82,8 milhões de inadimplentes e divide economistas sobre potencial impacto na inflação e na política monetária do BC",
+      "details": "Novo Desenrola mira 82,8 milhões de inadimplentes e divide economistas sobre potencial impacto na inflação e na política monetária do BC",
+      "url": "https://timesbrasil.com.br/brasil/novo-desenrola-inadimplentes-economistas-inflacao/",
+      "source": "capitalnews.com.br",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-05-17T16:00:00Z",
+      "updatedAt": "2026-05-17T16:00:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/04/83a732a7-imposto-de-renda-2026-por-quanto-tempo-voce-deve-guardar-seus-comprovantes.webp"
+    },
+    {
       "id": "latest-d6cef567436974a346347fd8",
       "title": "Risco Brasil sobe no Governo Lula e mercado financeiro teme calote",
-      "summary": "Especialistas atribuem resultado a política monetária restritiva do Banco Central, porém ano eleitoral tende a trazer estímulos fiscais que podem disfarçar impacto",
-      "details": "Especialistas atribuem resultado a política monetária restritiva do Banco Central, porém ano eleitoral tende a trazer estímulos fiscais que podem disfarçar impacto",
-      "url": "https://valor.globo.com/brasil/noticia/2026/05/17/queda-dos-servicos-mostra-que-desaceleracao-chegou-mas-nao-afetara-pib-do-primeiro-trimestre-dizem-economistas.ghtml",
+      "summary": "Atualizacao de ultima hora capturada em GP1.",
+      "details": "",
+      "url": "https://www.capitalnews.com.br/colunistas/tecnologia/trabalho-hibrido-exige-novas-infraestruturas-tecnologicas/440618",
       "source": "GP1",
       "category": "latest",
       "tags": [
@@ -436,15 +501,14 @@
       "publishedAt": "2026-05-17T15:59:09Z",
       "updatedAt": "2026-05-17T15:59:09Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://s2-valor.glbimg.com/LFK64yHWy-MM4PVrxBrJJEn3cg0=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2022/b/L/MKfoIXQaeU2B4KpKGiCg/100119ibre17.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-1ab1290770b1bc32a70d86ec",
       "title": "Queda dos serviços mostra que desaceleração chegou, mas não afetará PIB do primeiro trimestre, dizem economistas",
-      "summary": "Novo Desenrola mira 82,8 milhões de inadimplentes e divide economistas sobre potencial impacto na inflação e na política monetária do BC",
-      "details": "Novo Desenrola mira 82,8 milhões de inadimplentes e divide economistas sobre potencial impacto na inflação e na política monetária do BC",
-      "url": "https://timesbrasil.com.br/brasil/novo-desenrola-inadimplentes-economistas-inflacao/",
+      "summary": "O risco Brasil voltou a registrar alta e fechou o pregão desse sábado (16) em 124,07 pontos durante o governo do presidente Luiz Inácio Lula da Silva (PT). O m…",
+      "details": "O risco Brasil voltou a registrar alta e fechou o pregão desse sábado (16) em 124,07 pontos durante o governo do presidente Luiz Inácio Lula da Silva (PT). O m…",
+      "url": "https://www.gp1.com.br/economia-e-negocios/noticia/2026/5/17/risco-brasil-sobe-no-governo-lula-e-mercado-financeiro-teme-calote-623096.html",
       "source": "Valor Econômico",
       "category": "macro",
       "tags": [
@@ -456,14 +520,14 @@
       "updatedAt": "2026-05-17T15:53:38Z",
       "premium": true,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/04/83a732a7-imposto-de-renda-2026-por-quanto-tempo-voce-deve-guardar-seus-comprovantes.webp"
+      "imageUrl": "https://www.gp1.com.br/media/watermarks/623096_580872.jpg?1779045172.885764"
     },
     {
       "id": "macro-09025d6bb9234d7f32555121",
       "title": "AGENDA DE MERCADOS: IBC-Br e ata do Fed são destaque na semana",
-      "summary": "O risco Brasil voltou a registrar alta e fechou o pregão desse sábado (16) em 124,07 pontos durante o governo do presidente Luiz Inácio Lula da Silva (PT). O m…",
-      "details": "O risco Brasil voltou a registrar alta e fechou o pregão desse sábado (16) em 124,07 pontos durante o governo do presidente Luiz Inácio Lula da Silva (PT). O m…",
-      "url": "https://www.gp1.com.br/economia-e-negocios/noticia/2026/5/17/risco-brasil-sobe-no-governo-lula-e-mercado-financeiro-teme-calote-623096.html",
+      "summary": "Um novo projeto de lei já está expondo o novo salário que poderá entrar em vigor no Brasil e merece atenção de quem recebe o valor",
+      "details": "Um novo projeto de lei já está expondo o novo salário que poderá entrar em vigor no Brasil e merece atenção de quem recebe o valor",
+      "url": "https://tvfoco.uai.com.br/projeto-de-lei-preve-aumento-no-salario-minimo",
       "source": "Valor Econômico",
       "category": "macro",
       "tags": [
@@ -475,14 +539,14 @@
       "updatedAt": "2026-05-17T15:18:01Z",
       "premium": true,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.gp1.com.br/media/watermarks/623096_580872.jpg?1779040648.733574"
+      "imageUrl": "https://statics.otvfoco.com.br/2026/05/Salarios.jpg"
     },
     {
       "id": "macro-a857b1cf6d9e5aa92d06e452",
       "title": "Novo Desenrola mira 82,8 milhões de inadimplentes e divide economistas sobre efeito na inflação",
-      "summary": "Um novo projeto de lei já está expondo o novo salário que poderá entrar em vigor no Brasil e merece atenção de quem recebe o valor",
-      "details": "Um novo projeto de lei já está expondo o novo salário que poderá entrar em vigor no Brasil e merece atenção de quem recebe o valor",
-      "url": "https://tvfoco.uai.com.br/projeto-de-lei-preve-aumento-no-salario-minimo",
+      "summary": "Especialistas atribuem resultado a política monetária restritiva do Banco Central, porém ano eleitoral tende a trazer estímulos fiscais que podem disfarçar impacto",
+      "details": "Especialistas atribuem resultado a política monetária restritiva do Banco Central, porém ano eleitoral tende a trazer estímulos fiscais que podem disfarçar impacto",
+      "url": "https://valor.globo.com/brasil/noticia/2026/05/17/queda-dos-servicos-mostra-que-desaceleracao-chegou-mas-nao-afetara-pib-do-primeiro-trimestre-dizem-economistas.ghtml",
       "source": "Times Brasil | CNBC",
       "category": "macro",
       "tags": [
@@ -494,7 +558,7 @@
       "updatedAt": "2026-05-17T15:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://statics.otvfoco.com.br/2026/05/Salarios.jpg"
+      "imageUrl": "https://s2-valor.glbimg.com/LFK64yHWy-MM4PVrxBrJJEn3cg0=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2022/b/L/MKfoIXQaeU2B4KpKGiCg/100119ibre17.jpg"
     },
     {
       "id": "macro-35d02963afd8b8e4e306328e",
@@ -535,11 +599,30 @@
       "imageUrl": "https://cdn.cassilandianoticias.com.br/uploads/noticias/2026/05/13/1d2jecof8ku8v.jpg"
     },
     {
+      "id": "companies-1330782345b80eebd5eb85d6",
+      "title": "Emprego formal em Alagoas cresce 22,7% em quatro anos, aponta ministério",
+      "summary": "O número de empregos formais em Alagoas – englobando setor público e privado – registrou um crescimento de 22,7% entre 2022 e 2025, segundo dados da",
+      "details": "O número de empregos formais em Alagoas – englobando setor público e privado – registrou um crescimento de 22,7% entre 2022 e 2025, segundo dados da",
+      "url": "https://www.alagoas24horas.com.br/1739198/emprego-formal-em-alagoas-cresce-227-em-quatro-anos-aponta-ministerio/amp/",
+      "source": "Alagoas 24 Horas",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-05-17T14:47:00Z",
+      "updatedAt": "2026-05-17T14:47:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://www.alagoas24horas.com.br/wp-content/uploads/2026/05/Somente-em-2025-Alagoas-abriu-16.954-novas-vagas-com-carteira-assinada-com-destaque-para-o-setor-de-servicos-que-criou-11.459-novos-postos-formais-de-trabalho-scaled.jpg"
+    },
+    {
       "id": "latest-49023c8ee5ad4aba8d491acc",
       "title": "Flávio Bolsonaro: mercado e direita já cogitam plano B",
-      "summary": "Crise com Daniel Vorcaro desgasta Flávio Bolsonaro e acende debate sobre plano B na direita. Michelle surge como opção para 2026",
-      "details": "Crise com Daniel Vorcaro desgasta Flávio Bolsonaro e acende debate sobre plano B na direita. Michelle surge como opção para 2026",
-      "url": "https://bpmoney.com.br/politica/flavio-bolsonaro-mercado-e-direita-ja-cogitam-plano-b/",
+      "summary": "A gasolina foi o produto que mais pressionou a inflação de abril para cima",
+      "details": "A gasolina foi o produto que mais pressionou a inflação de abril para cima",
+      "url": "https://ojornalextra.com.br/noticias/agencia-brasil/2026/05/170742-inflacao-desacelera-e-fecha-abril-em-067-pressionada-por-alimentos",
       "source": "BPMoney",
       "category": "latest",
       "tags": [
@@ -551,14 +634,14 @@
       "updatedAt": "2026-05-17T14:40:55Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://bpmoney.com.br/wp-content/uploads/2026/01/Senador-Flavio-Bolsonaro-PL-RJ-fala-com-a-imprensa-sobre-a-candidatura-a-Presidencia-da-Republica-apos-culto-evangelico-na-Hipica-Hall-Metropoles-147-830x553.webp"
+      "imageUrl": "https://img.dhost.cloud/E5QXniQOgnrvIcGzqQ8G0Lo9tg4=/572x297/smart/https://ojornalextra.us-east-1.linodeobjects.com/uploads/imagens/2024/01/etanol-mais-vantajoso-parana.jpg"
     },
     {
       "id": "companies-15f3c567a025532f494adee9",
       "title": "As 3 empresas brasileiras mais influentes de 2026, segundo a revista TIME - Times Brasil | CNBC",
-      "summary": "A revista TIME divulgou nesta semana a edição 2026 da lista TIME100 Companies, que reúne as empresas consideradas mais influentes do mundo",
-      "details": "A revista TIME divulgou nesta semana a edição 2026 da lista TIME100 Companies, que reúne as empresas consideradas mais influentes do mundo",
-      "url": "https://timesbrasil.com.br/empresas-e-negocios/as-3-empresas-brasileiras-mais-influentes-de-2026-segundo-a-revista-time/",
+      "summary": "O debate sobre o fim da escala 6x1 tem ganhado força no Brasil e ampliado discussões sobre produtividade, qualidade de vida e gestão de pessoas no",
+      "details": "O debate sobre o fim da escala 6x1 tem ganhado força no Brasil e ampliado discussões sobre produtividade, qualidade de vida e gestão de pessoas no",
+      "url": "https://www.portaltemponovo.com.br/especialista-alerta-para-cuidados-juridicos-para-empresas-na-flexibilizacao-da-escala-6x1/",
       "source": "Times Brasil | CNBC",
       "category": "companies",
       "tags": [
@@ -570,7 +653,7 @@
       "updatedAt": "2026-05-17T14:30:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/05/d6c89dec-as-3-empresas-brasileiras-mais-influentes-de-2026-segundo-a-revista-time.webp"
+      "imageUrl": "https://www.portaltemponovo.com.br/wp-content/uploads/2026/01/escala-6x1-1.jpg"
     },
     {
       "id": "funds-f61cef459c627099477133e7",
@@ -594,9 +677,9 @@
     {
       "id": "funds-987cb4b65ce2a45d031719dc",
       "title": "FIIs superam o IFIX em até quatro vezes em 2026; veja os maiores retornos do ano, segundo a Quantum Finance",
-      "summary": "FIIs têm desempenho até quatro vezes superior ao IFIX em 2026, segundo a Quantum Finance. Veja quais fundos lideram.",
-      "details": "FIIs têm desempenho até quatro vezes superior ao IFIX em 2026, segundo a Quantum Finance. Veja quais fundos lideram.",
-      "url": "https://www.moneytimes.com.br/fiis-superam-o-ifix-em-ate-quatro-vezes-em-2026-veja-os-maiores-retornos-do-ano-segundo-a-quantum-finance-igdl/",
+      "summary": "Crise com Daniel Vorcaro desgasta Flávio Bolsonaro e acende debate sobre plano B na direita. Michelle surge como opção para 2026",
+      "details": "Crise com Daniel Vorcaro desgasta Flávio Bolsonaro e acende debate sobre plano B na direita. Michelle surge como opção para 2026",
+      "url": "https://bpmoney.com.br/politica/flavio-bolsonaro-mercado-e-direita-ja-cogitam-plano-b/",
       "source": "Money Times",
       "category": "funds",
       "tags": [
@@ -608,14 +691,14 @@
       "updatedAt": "2026-05-17T14:20:15Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/02/ifix.jpg"
+      "imageUrl": "https://bpmoney.com.br/wp-content/uploads/2026/01/Senador-Flavio-Bolsonaro-PL-RJ-fala-com-a-imprensa-sobre-a-candidatura-a-Presidencia-da-Republica-apos-culto-evangelico-na-Hipica-Hall-Metropoles-147-830x553.webp"
     },
     {
       "id": "companies-1f3cfcbd8700879c7210648c",
       "title": "Especialista alerta para cuidados jurídicos para empresas na flexibilização da escala 6×1",
-      "summary": "O debate sobre o fim da escala 6x1 tem ganhado força no Brasil e ampliado discussões sobre produtividade, qualidade de vida e gestão de pessoas no",
-      "details": "O debate sobre o fim da escala 6x1 tem ganhado força no Brasil e ampliado discussões sobre produtividade, qualidade de vida e gestão de pessoas no",
-      "url": "https://www.portaltemponovo.com.br/especialista-alerta-para-cuidados-juridicos-para-empresas-na-flexibilizacao-da-escala-6x1/",
+      "summary": "A revista TIME divulgou nesta semana a edição 2026 da lista TIME100 Companies, que reúne as empresas consideradas mais influentes do mundo",
+      "details": "A revista TIME divulgou nesta semana a edição 2026 da lista TIME100 Companies, que reúne as empresas consideradas mais influentes do mundo",
+      "url": "https://timesbrasil.com.br/empresas-e-negocios/as-3-empresas-brasileiras-mais-influentes-de-2026-segundo-a-revista-time/",
       "source": "Portal Tempo Novo",
       "category": "companies",
       "tags": [
@@ -627,14 +710,14 @@
       "updatedAt": "2026-05-17T14:13:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://www.portaltemponovo.com.br/wp-content/uploads/2026/01/escala-6x1-1.jpg"
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/05/d6c89dec-as-3-empresas-brasileiras-mais-influentes-de-2026-segundo-a-revista-time.webp"
     },
     {
       "id": "funds-1f982934e2324744d32a0528",
       "title": "Cotista terá de provar falha para ser indenizado, dizem advogados",
-      "summary": "Atualizacao de fundos capturada em Poder360.",
-      "details": "",
-      "url": "https://www.sociedademilitar.com.br/2026/05/o-melhor-parceiro-para-o-brasil-e-o-brasil-comandante-da-aeronautica-defende-mais-investimentos-da-fab-na-industria-nacional-para-fortalecer-defesa-aviacao-armamentos-e-setor-espacial-afch.html",
+      "summary": "FIIs têm desempenho até quatro vezes superior ao IFIX em 2026, segundo a Quantum Finance. Veja quais fundos lideram.",
+      "details": "FIIs têm desempenho até quatro vezes superior ao IFIX em 2026, segundo a Quantum Finance. Veja quais fundos lideram.",
+      "url": "https://www.moneytimes.com.br/fiis-superam-o-ifix-em-ate-quatro-vezes-em-2026-veja-os-maiores-retornos-do-ano-segundo-a-quantum-finance-igdl/",
       "source": "Poder360",
       "category": "funds",
       "tags": [
@@ -645,14 +728,15 @@
       "publishedAt": "2026-05-17T14:03:37Z",
       "updatedAt": "2026-05-17T14:03:37Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/02/ifix.jpg"
     },
     {
       "id": "macro-9203c699503b0cadc6249470",
       "title": "PIB do Brasil na \"reborreia\" do mundo",
-      "summary": "País deixou de acompanhar o avanço global e hoje tem renda per capita abaixo da média mundial",
-      "details": "País deixou de acompanhar o avanço global e hoje tem renda per capita abaixo da média mundial",
-      "url": "https://www.tnh1.com.br/noticia/nid/brasil-fica-na-reborreia-do-pib-em-relacao-ao-mundo/",
+      "summary": "Decisão do STJ não impede ações de cotistas, mas exige prova de falha específica de corretoras, gestoras ou distribuidoras",
+      "details": "Decisão do STJ não impede ações de cotistas, mas exige prova de falha específica de corretoras, gestoras ou distribuidoras",
+      "url": "https://www.poder360.com.br/poder-justica/stj-eleva-exigencia-para-indenizacao-por-perdas-em-fundos-de-investimento/",
       "source": "TNH1",
       "category": "macro",
       "tags": [
@@ -664,14 +748,33 @@
       "updatedAt": "2026-05-17T14:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://static.poder360.com.br/2026/05/laptop-with-graphs-statistics-glasses-table-848x477.jpg"
+    },
+    {
+      "id": "macro-c1af6df3ed8c7218aa5e23d0",
+      "title": "Inflação desacelera e fecha abril em 0,67%, pressionada por alimentos",
+      "summary": "País deixou de acompanhar o avanço global e hoje tem renda per capita abaixo da média mundial",
+      "details": "País deixou de acompanhar o avanço global e hoje tem renda per capita abaixo da média mundial",
+      "url": "https://www.tnh1.com.br/noticia/nid/brasil-fica-na-reborreia-do-pib-em-relacao-ao-mundo/",
+      "source": "Jornal Extra de Alagoas",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-17T13:59:13Z",
+      "updatedAt": "2026-05-17T13:59:13Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
       "imageUrl": "https://www.tnh1.com.br/static/img/blogs/contextualizando_placeholder_v1.png"
     },
     {
       "id": "macro-89c3d5b24bf0e38be99f4d4f",
       "title": "\"Ruim para o BC\": Novo Desenrola pode liberar consumo e pressionar inflação",
-      "summary": "Decisão do STJ não impede ações de cotistas, mas exige prova de falha específica de corretoras, gestoras ou distribuidoras",
-      "details": "Decisão do STJ não impede ações de cotistas, mas exige prova de falha específica de corretoras, gestoras ou distribuidoras",
-      "url": "https://www.poder360.com.br/poder-justica/stj-eleva-exigencia-para-indenizacao-por-perdas-em-fundos-de-investimento/",
+      "summary": "Atualizacao de macro capturada em Investidor10.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS2Nldjc2U3YzZ1A1STg0NmdkRUM3bUJEdVNqLW5VV0FhdFBFaUxTYjlFd1VMV20tMzlpUGVUaFUxS0I2NFJVX19HVkZxdVlmWVF0WXJQNG9Rb2NtS0dnZUxnMHM4VmU2cTNUVl9pbzVMZFhmdndxTko4QWFsNmdCd292ckNPZ1NVUFFqT2F5RGw0TXNEdWNyLTc4bngtRWpzcE9sS2tDVGNqRDhwcnNpMFVvOEVqcEUyeU44cjFR0gG-AUFVX3lxTE1LY2V2NzZTdjNnUDVJODQ2Z2RFQzdtQkR1U2otblVXQWF0UEVpTFNiOUV3VUxXbS0zOWlQZVRoVTFLQjY0UlVfX0dWRnF1WWZZUXRZclA0b1FvY21LR2dlTGcwczhWZTZxM1RWX2lvNUxkWGZ2d3FOSjhBYWw2Z0J3b3ZyQ09nU1VQUWpPYXlEbDRNc0R1Y3ItNzhueC1FanNwT2xLa0NUY2pEOHByc2kwVW84RWpwRTJ5TjhyMVE?oc=5",
       "source": "Investidor10",
       "category": "macro",
       "tags": [
@@ -682,15 +785,14 @@
       "publishedAt": "2026-05-17T13:53:09Z",
       "updatedAt": "2026-05-17T13:53:09Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://static.poder360.com.br/2026/05/laptop-with-graphs-statistics-glasses-table-848x477.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-2f1d2e5fe057570d15285f56",
       "title": "Horóscopo financeiro revela oportunidades e alertas; veja a previsão para seu signo",
-      "summary": "...",
-      "details": "...",
-      "url": "https://investidor10.com.br/amp/noticias/ruim-para-o-bc-novo-desenrola-pode-liberar-consumo-e-pressionar-inflacao-120435/",
+      "summary": "Atualizacao de ultima hora capturada em Visor Notícias.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX3R4c1pyOHJFUDVWRjZvaDZvVkV3VTlET3BjN0VIMllsN0FhZDFSdThDZmY0bTlDVWw5Rm1PTU9SNWgzR05PcGc5eFFUQlMzdzJYVFhmZzg0TjJaaTZ2ZFdSdFR2ZnR3emY1Z1NLeGF0c3B5ZTVfNU5veHRuWWhfVzVyTF9CNDZmZ1p1cEh5Rkp0M1dlSzQ3QVRib1IxZFVaVGNXeFkwMUhRLTdXZUxfRzh3?oc=5",
       "source": "Visor Notícias",
       "category": "latest",
       "tags": [
@@ -701,15 +803,14 @@
       "publishedAt": "2026-05-17T13:43:26Z",
       "updatedAt": "2026-05-17T13:43:26Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://investidor10.com.br/storage/news/6a09c805de81a.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-61810374e9b7efbdb579e3ce",
       "title": "“O melhor parceiro para o Brasil é o Brasil”: comandante da Aeronáutica defende mais investimentos da FAB na indústria nacional para fortalecer defesa, aviação, armamentos e setor espacial",
-      "summary": "Conjunção entre Mercúrio e Júpiter favorece estratégia financeira, enquanto Lua em Escorpião aumenta atenção sobre gastos e investimentos",
-      "details": "Conjunção entre Mercúrio e Júpiter favorece estratégia financeira, enquanto Lua em Escorpião aumenta atenção sobre gastos e investimentos",
-      "url": "https://visornoticias.com.br/horoscopo-financeiro-revela-oportunidades-e-alertas-veja-a-previsao-para-seu-signo/",
+      "summary": "Atualizacao de empresas capturada em Revista Sociedade Militar.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxPcFBsQmlPcElPWjJoRnpvVlVVLVNhLWNZRVdMQjRoUm41YlFPSW51R0ROR05nUWNub2lfaTRJWUZVZFZRNm93WGVDbkxtSkxzZFZPNVlSTnF3M1hqZHBhUW5MTGRxLVpZeGJTamo0ZlI0d2hpeldGbGZTdHBoWU1VTUZFdTU2X1c2X2hEN3hqYTEyRGFHX05neF9UM0t2eVh3WEpEZFNZWUNQdm1vXy1iSnhPcElycE9ESkpxVWxsVkZFUDFnalFEZ1RYUk1jTUlxR2VoMzlCS29FSUFmS0FCTWlTLUxJVnZCMW9YQ3VRS05jTkFIVGlHY3p0Q01FNlY1WHpkX21vcVQyX2t5S3hKdFQ1Ung0bG5lZWxYTU44d1BwdVRFR19YU1R6M2paR2xlQWgtbkJYeml2MV83dHN1dnZ5dkItS05JYUkwMlEyQjhVU1BEc05aNQ?oc=5",
       "source": "Revista Sociedade Militar",
       "category": "companies",
       "tags": [
@@ -720,15 +821,14 @@
       "publishedAt": "2026-05-17T13:37:00Z",
       "updatedAt": "2026-05-17T13:37:00Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://visornoticias.com.br/wp-content/uploads/2026/05/Horoscopo-financeiro-revela-oportunidades-e-alertas-veja-a-previsao-para-seu-signo.jpg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "macro-cfebc049be81c1f80bc0db14",
       "title": "Fiscal nas redes; vídeo",
       "summary": "Atualizacao de macro capturada em MidiaNews.",
       "details": "",
-      "url": "https://www.midianews.com.br/fogo-amigo/fiscal-nas-redes-video/520090",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhcC11QzgzXzRmQ09qR3FiNzQ0YVNYcm5LWWsydmdTT1Y0WHM4S0Y3ZGxSZnJtM2s2RGJISDd2Mkh3Ukp6U3h1X3diOVNqeHFhM0xMdlB1QmZ6Tm1TWjN4blB4YkZCQ2pMMG90Z05majRBOHY1NU5HOQ?oc=5",
       "source": "MidiaNews",
       "category": "macro",
       "tags": [
@@ -744,9 +844,9 @@
     {
       "id": "macro-20a8321042019cbdcc350b83",
       "title": "Bancos aumentam 33% as provisões contra calotes com Selic alta e guerra no Oriente Médio no radar",
-      "summary": "Bancos elevam provisões 33% e chegam a R$ 44,8 bi no primeiro trimestre com Selic a 15% e guerra no Oriente Médio pressionando inadimplência",
-      "details": "Bancos elevam provisões 33% e chegam a R$ 44,8 bi no primeiro trimestre com Selic a 15% e guerra no Oriente Médio pressionando inadimplência",
-      "url": "https://timesbrasil.com.br/empresas-e-negocios/bancos-fintechs/bancos-aumentam-provisoes-33-selic-guerra-oriente-medio/",
+      "summary": "Atualizacao de macro capturada em Times Brasil | CNBC.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSVJtTlpXWTgtNFI4OWdBWmNwTWUxOGY5YjUxbERHMkVWeUNrQXZaSDN2dXEwSzhfVUZLeUdfclE2M3JobUJGeDdPX0NidUJsUi1ON0E1WV84eDhZS3ZkX2RjOWZIWmNneUZHRWo4YTJPU1NPSGxod2VwN2JKeFFvREEyQmVFZFQxWUJSOFRDdDRLQTFuN0x2aGZnVUxtbU1wc29SWVB0VVpGRHZqOVRCekdLQ0ExblJOQmx3?oc=5",
       "source": "Times Brasil | CNBC",
       "category": "macro",
       "tags": [
@@ -757,8 +857,7 @@
       "publishedAt": "2026-05-17T13:30:00Z",
       "updatedAt": "2026-05-17T13:30:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/02/c88aa4f4-40.webp"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-cc3caf7cb7013174b451b219",
@@ -851,24 +950,6 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "macro-c00480d08b03b88dbb8a7c96",
-      "title": "Estadão relaciona inflação no Brasil à 'farra eleitoreira de Lula'",
-      "summary": "Atualizacao de macro capturada em Revista Oeste.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZUp1WDdzZEhRblZzbkJjSzllNU9pWFJqRnpzaDBEejlMNFZ2UWVmXzRXRjg4Zl9tQ1FoLVF1RklMd0R0STc2MnlWRmVxQVMzX1lWaFV2S2hHc3VqVUNqbUtlTzdPMm0wR0MwRzVFbWVnMU5FaGNiTXBTWVVlenRsVDZVRmRGbW42LTlMeTJOTG45Mi1YNEtIMzJzS2hqSHRVbnNzQzZFaw?oc=5",
-      "source": "Revista Oeste",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-17T13:00:20Z",
-      "updatedAt": "2026-05-17T13:00:20Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
       "id": "companies-8ed3d3bd3456fe0f1097372c",
       "title": "Falta de profissionais de IA: os 5 gargalos que travam as empresas brasileiras",
       "summary": "Atualizacao de empresas capturada em CartaCapital.",
@@ -887,24 +968,6 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "macro-835077c8f946407deeb88307",
-      "title": "Novo Desenrola pode ajudar a equilibrar renda e consumo e aumentar inflação",
-      "summary": "Atualizacao de macro capturada em noticiasdoplanalto.com.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVHZEbWtKeEFKSTd1bXpUVExZWkF5MFlNYXB6OVlOSlNMVjdGVGxBYnY4LW5YY05sMWpvOF9HeURXSU4wUG50Sk1jdDRTRk1kM0NhbzVRc0U3RmlmMUlFeXhlYjJNaEE4a1RRREpsYjVYTFFaVzBZTmo4YU9vc2k1Si13YnZsanJ3ZlVPRC1ucTBZdlFVbGJzR1luLU1rTmp4ckV3eVhuNmhrMFpHN0V3?oc=5",
-      "source": "noticiasdoplanalto.com.br",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-17T12:58:38Z",
-      "updatedAt": "2026-05-17T12:58:38Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
       "id": "funds-279ff9748c3ae4b1a662b637",
       "title": "Marco de Canaveses celebra Festival Raízes 2026 com Estrela Michelin e Encontro Nacional de Confrarias",
       "summary": "Atualizacao de fundos capturada em averdade.com.",
@@ -919,6 +982,24 @@
       ],
       "publishedAt": "2026-05-17T12:40:43Z",
       "updatedAt": "2026-05-17T12:40:43Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "funds-8df7f216f992f97719b4bd2d",
+      "title": "SBI e Rakuten vão oferecer fundos de cripto",
+      "summary": "Atualizacao de fundos capturada em SpaceMoney.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTGQxQ3JteUdXb1piWnVpUkZCM3FubFBYbk5LMmV1OVBMeFAydzFjTU05YS1nR0pYUTJUQkRFdG4wdzlWbE5iVExkZE5xdzBONEpOY1lwRFBrUzhFcGN5bkJRMVZFV0V0LTVSLXN1MkNPY1RVanFZYy1TdVAyVkFfMEsxWWp1LU01VFBCY3lDOTdaLWJObF9xbWN0YnNReUEwVkRUb3A5TE9sbDZDN1hYTVlHOGE1dGs?oc=5",
+      "source": "SpaceMoney",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-05-17T12:33:09Z",
+      "updatedAt": "2026-05-17T12:33:09Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
@@ -977,6 +1058,24 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
+      "id": "companies-49066b0245d9045c8459f796",
+      "title": "APAS Show recebe 21 empresas árabes de alimentos",
+      "summary": "Atualizacao de empresas capturada em Agência de Notícias Brasil-Árabe - ANBA.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5iNHg4QlVXNlBPRGZhdHFUN3RVb2hDZzhGTWdiWnZoQzM2MjZONndYb2tjdW1Hc1N2dXBIRlBjUzQ0S1I0Q0hreFNhWE4yb0pXNE41TG5tblYwZFRpWUV4U0xBVlZMZjNUVFVWYmJET2RKNjJrWURSeQ?oc=5",
+      "source": "Agência de Notícias Brasil-Árabe - ANBA",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-05-17T11:00:00Z",
+      "updatedAt": "2026-05-17T11:00:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
       "id": "latest-49750e0de95e01e5b200e378",
       "title": "IA amplia uso na saúde, educação e setor financeiro",
       "summary": "Atualizacao de ultima hora capturada em Portal Tela.",
@@ -1009,24 +1108,6 @@
       ],
       "publishedAt": "2026-05-17T10:01:33Z",
       "updatedAt": "2026-05-17T10:01:33Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-3c4fd2594e39b6f9abbd9676",
-      "title": "Grupo Mateus demite mais de 6 mil funcionários e fecha lojas; Varejista teve mais R$2 bilhões de lucro no 1º trimestre de 2026",
-      "summary": "Atualizacao de ultima hora capturada em Diego Emir.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNM3hyOV93OXpxaUhMVF84Qm9hT3REOUZ1MzNzOVQ2TjlBUEo2Y2doSXRHYmlBX1JIVG9TY092R0Jya0hMbnpDeW5GMWhHa2N6S3hvbWRxNjVkYjBLT0hBdUNDTjdlVFVXLVBzZWtlZUZZZ1B5bDNEcUw2UkdkdjBuT0k5ekVtSnpGUVJSNWN2SWZUbi1NbFdKZjFRU0VNNk45ZzVKYS0yUjFoYkdmNHRyYVNoZ0F0bnR2cVhJbUdEcktJVnpzaThJa1dDTzN4ZVh6ZjR3WWRqQWVnMHZET3RzekNlOFZOT29EN2RR?oc=5",
-      "source": "Diego Emir",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-17T09:50:55Z",
-      "updatedAt": "2026-05-17T09:50:55Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
@@ -1081,24 +1162,6 @@
       ],
       "publishedAt": "2026-05-17T09:30:00Z",
       "updatedAt": "2026-05-17T09:30:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-6ffbd7b184a1fcd8b2a6ce29",
-      "title": "Crédito consignado movimenta bilhões no Brasil; veja tamanho do mercado",
-      "summary": "Atualizacao de ultima hora capturada em Seu Crédito Digital.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE90N2tGbF9nY19Td1pQMmxNTk9wWUlLQVMxOWJTY2lXbUxjWk9NYkRYR1d0cjlyYUdySVVMcUZSbHVBS1hVeUM0S3Vqd0NPTVoxMWxJVTR2SjlWYlhybExaZmdTSFJyME9MTWJkb0toVmhXcnlXVV9teVh3?oc=5",
-      "source": "Seu Crédito Digital",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-17T09:20:00Z",
-      "updatedAt": "2026-05-17T09:20:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
@@ -1175,11 +1238,29 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "funds-543c1786bb32caba293bfc59",
-      "title": "As corretoras japonesas SBI Securities e Rakuten Securities planeiam desenvolver independentemente produtos de fundos de investimento em criptomoedas.",
+      "id": "latest-1af3f7f21b6b1c1d8322fa83",
+      "title": "Berkshire redesenha portfólio no 1º trimestre, triplica aposta na Alphabet e volta ao setor aéreo com Delta",
+      "summary": "Atualizacao de ultima hora capturada em Balada IN.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOd0JuU2REWDNSSHBsQXhndUtxYjZVYklQYS1aaTNERnpDZFgyM3FKMTlmalZKQkdRb1o5U3BhbXFteUJXcm1yRlVRNF9xdXhLLWhuSS0xYUk4YWpjSnNCQURfTk1lTlBQZUZlcVRaRGFNUmp1LVFaLTFYdFRJdHNtTVB3LUxiZ0VNUkl0YU5HbFR0Sjl3TGdQRXlXYXNRRUlVRmtQWVdzNGQ2RHk3cVJFeVA0cWRmWEd1clVWR2VFUHlTNXRwV0lUNWFtNGFvZGUtUlZ2aGJkdFZreS1F?oc=5",
+      "source": "Balada IN",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-17T03:01:00Z",
+      "updatedAt": "2026-05-17T03:01:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "funds-8f3b8a17e303709092393c19",
+      "title": "Dados: Nas últimas 24 horas, a liquidação total no mercado atingiu 459 milhões de dólares, sendo 436 milhões de dólares em posições longas e 23,8 milhões de dólares em posições curtas.",
       "summary": "Atualizacao de fundos capturada em bitget.com.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mRVlJM29NMFJ0cm1EN1VkOFk4ekZ2MmJDMzRUcTVpdkRGR202MUhIOEk2TWI3R2ZLR19VdzJxMXlBMGZnSEdLS2UwNkZHNnFYNHJJNEs3QlFuZEVrRTdTOVhiS1JGcHFUSTBj0gFrQVVfeXFMT2ZFWUkzb00wUnRybUQ3VWQ4WTh6RnYyYkMzNFRxNWl2REZHbTYxSEg4STZNYjdHZktHX1V3MnExeUEwZmdIR0tLZTA2Rkc2cVg0ckk0SzdCUW5kRWtFN1M5WGJLUkZwcVRJMGM?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RUjhoUXRRaVNmTktjeWhUTHZ1aFgxazRjcWs5WncyRndUUnlyTEZWdW84NzJDNklsbFdfZFVWemMzbXdVYzhWcmFXTUhmYTJENTdJc1RSR3dabjBGZEJteWNwSG1ISGRqbGM40gFrQVVfeXFMT1FSOGhRdFFpU2ZOS2N5aFRMdnVoWDFrNGNxazladzJGd1RSeXJMRlZ1bzg3MkM2SWxsV19kVVZ6YzNtd1VjOFZyYVdNSGZhMkQ1N0lzVFJHd1puMEZkQm15Y3BIbUhIZGpsYzg?oc=5",
       "source": "bitget.com",
       "category": "funds",
       "tags": [
@@ -1187,8 +1268,8 @@
         "asset",
         "fiis"
       ],
-      "publishedAt": "2026-05-17T01:49:16Z",
-      "updatedAt": "2026-05-17T01:49:16Z",
+      "publishedAt": "2026-05-17T01:41:21Z",
+      "updatedAt": "2026-05-17T01:41:21Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
@@ -1333,78 +1414,6 @@
       ],
       "publishedAt": "2026-05-16T19:11:00Z",
       "updatedAt": "2026-05-16T19:11:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "funds-a1fb132698e622a505cc457c",
-      "title": "#Eleições2026: Vorcaro também teria participação financeira em filmes sobre Lula e Temer, revela O Globo",
-      "summary": "Atualizacao de fundos capturada em Jornal da Chapada.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdHVmWVFCcGd0Q3J5R0VUTXZBUUZXd2tuM0xfdzRXMi1lUk9RaFlSRUU4ZUFlcEpmeGljZTdiX29mbGJOdmh0YmtOcG8wa0FMMlNvY2VxMDZNVmpqbGxFdWZvdjlxb1J1UWlmVzNmd2VHcFJCY0J3SG9zWUM1SUV1eHNrbVc5cWZDRDNRV1hOR0xDS3I0Nm1GUzdlLUxkVGtBb0lmVy16VXFsTG1UUnJZYUJZN3BnM1dEQWJFUHVlLXRETkMyMm5vNFNpakRYdnVFVkJTQ0JDSm13cExBNGk2Wjh30gHiAUFVX3lxTE50dWZZUUJwZ3RDcnlHRVRNdkFRRld3a24zTF93NFcyLWVST1FoWVJFRThlQWVwSmZ4aWNlN2Jfb2ZsYk52aHRia05wbzBrQUwyU29jZXEwNk1WampsbEV1Zm92OXFvUnVRaWZXM2Z3ZUdwUkJjQndIb3NZQzVJRXV4c2ttVzlxZkNEM1FXWE5HTENLcjQ2bUZTN2UtTGRUa0FvSWZXLXpVcWxMbVRScllhQlk3cGczV0RBYkVQdWUtdEROQzIybm80U2lqRFh2dUVWQlNDQkNKbXdwTEE0aTZaOHc?oc=5",
-      "source": "Jornal da Chapada",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-05-16T18:08:18Z",
-      "updatedAt": "2026-05-16T18:08:18Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-03cda4b15478a9162ab1cfdd",
-      "title": "Piloto lousadense Dany Soares vence no Estoril e lidera o Campeonato Nacional de Superbikes",
-      "summary": "Atualizacao de fundos capturada em averdade.com.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRDFaU0sxNzJWU0tkY2hRYmN3UFdDZmUtVDVTTldkQ2Voa3FxZ1gtZEtiNXJOa1lGcVN4XzZEMnZqSGN0cFRmSmVVOHpRMmhXeHRtOXlkR3IzeXVmWVpXZHJ2eGhYYTYyNmFuNjhJMDdlc0QzRm5mR1pYWThDQlBiZF9zM1RMbDZXclpHVF9rVDhjZzBVYnQzSU42TEtCakQ3XzZSR3BYNkR0TkdxbWxrTktScEh3b0VlMTNmaG1SWUpNdw?oc=5",
-      "source": "averdade.com",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-05-16T17:57:46Z",
-      "updatedAt": "2026-05-16T17:57:46Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-e54c56dc5d06edd7239f3740",
-      "title": "Empresas brasileiras lideram expansão de IA nas Américas, mas 91% já sofreram ataques de identidade",
-      "summary": "Atualizacao de empresas capturada em Times Brasil | CNBC.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPYWxlb05PRGNRRzRhUW9ub1FVMlRCd2wwMXRmOHVva0F5ZWlfaHVlN2RwWjZEXzMzdUpZbko4N1VrdF80QlZLT0FVMFlJblRmY1lNWjFadFZlTGRFM1M2TUV2dUQ4V3dWVjh0OWhpSmxPTF9TaXlEem1HdTFJQ2hrRk16ZDlKWnlfRTZZV1lqTnA5T2p1Rjc4QkxZNE1QOURBanBmS004N1pORDhrVDRqcUljSWdTVTRHSEZjZUpxWk9GRkVqTkZ1WkU1cVkxN1RFUnQ3OTJ5SU9PME1fUW95MTJB?oc=5",
-      "source": "Times Brasil | CNBC",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-05-16T17:00:00Z",
-      "updatedAt": "2026-05-16T17:00:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-ae08751e553c02a319ae70d1",
-      "title": "O que fazer com funcionários durante os jogos do Brasil na Copa",
-      "summary": "Atualizacao de empresas capturada em CartaCapital.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYlNFSHdlRTBoUWUtMllIVGxFMEdFd1FkWEJqYVBQdDNKRnlvdWZJTlc1bFhHMVNCTE4zWGgzY0FKVEtJM1loZGtYLWxaTGhJMzh6dmp2T09GRTdSWjNOcEFQb005QVYxRVZONkFWZHNnUUNHWU5abi1mdnIwbllPSXNlUmhLTzlsMDhHYU1RVUVfSGdUN2VROHFmZEhYeXZ4?oc=5",
-      "source": "CartaCapital",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-05-16T17:00:00Z",
-      "updatedAt": "2026-05-16T17:00:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     }
