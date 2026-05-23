@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-23T19:52:47Z",
-  "generatedAt": "2026-05-23T19:52:47Z",
+  "updatedAt": "2026-05-23T20:45:09Z",
+  "generatedAt": "2026-05-23T20:45:09Z",
   "categories": [
     {
       "id": "all",
@@ -25,6 +25,10 @@
   ],
   "sources": [
     {
+      "id": "aeroin",
+      "label": "AEROIN"
+    },
+    {
       "id": "banda-b",
       "label": "Banda B"
     },
@@ -35,6 +39,10 @@
     {
       "id": "blog-do-gustavo-negreiros",
       "label": "Blog do Gustavo Negreiros"
+    },
+    {
+      "id": "blog-do-valente",
+      "label": "Blog do Valente"
     },
     {
       "id": "bol",
@@ -61,10 +69,6 @@
       "label": "cointelegraph.com.br"
     },
     {
-      "id": "contacto-lu",
-      "label": "contacto.lu"
-    },
-    {
       "id": "correiodamanha-com-br",
       "label": "correiodamanha.com.br"
     },
@@ -79,10 +83,6 @@
     {
       "id": "di-rio-do-estado",
       "label": "diário do estado"
-    },
-    {
-      "id": "dw-com",
-      "label": "DW.com"
     },
     {
       "id": "economic-news-brasil",
@@ -105,6 +105,14 @@
       "label": "Exame"
     },
     {
+      "id": "fashionnetwork-brasil",
+      "label": "FashionNetwork Brasil"
+    },
+    {
+      "id": "folha-de-s-paulo",
+      "label": "Folha de S.Paulo"
+    },
+    {
       "id": "forbes-brasil",
       "label": "Forbes Brasil"
     },
@@ -125,10 +133,6 @@
       "label": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
     },
     {
-      "id": "jornal-do-br-s",
-      "label": "Jornal do Brás"
-    },
-    {
       "id": "jornal-o-sul",
       "label": "Jornal O Sul"
     },
@@ -145,10 +149,6 @@
       "label": "NeoFeed"
     },
     {
-      "id": "o-antagonista",
-      "label": "O Antagonista"
-    },
-    {
       "id": "onefootball",
       "label": "OneFootball"
     },
@@ -159,10 +159,6 @@
     {
       "id": "portal-6",
       "label": "Portal 6"
-    },
-    {
-      "id": "portal-clicr",
-      "label": "Portal ClicR"
     },
     {
       "id": "portal-tela",
@@ -181,8 +177,16 @@
       "label": "Rádio Peão Brasil"
     },
     {
+      "id": "segs-portal-nacional",
+      "label": "SEGS Portal Nacional"
+    },
+    {
       "id": "seu-dinheiro",
       "label": "Seu Dinheiro"
+    },
+    {
+      "id": "times-brasil-cnbc",
+      "label": "Times Brasil | CNBC"
     },
     {
       "id": "tmc-com-br",
@@ -227,6 +231,62 @@
   ],
   "items": [
     {
+      "id": "latest-3dd40de4c1dd614c4ba0134d",
+      "title": "Escândalo do Banco Master: Impactos em Fundos de Investimento",
+      "summary": "Projeção é que economia cresça 2,7% este ano, com 1 ponto percentual vindo da indústria farmacêutica",
+      "details": "Projeção é que economia cresça 2,7% este ano, com 1 ponto percentual vindo da indústria farmacêutica",
+      "url": "https://www1.folha.uol.com.br/mercado/2026/05/caneta-emagrecedora-deve-elevar-o-pib-da-dinamarca-sede-da-novo-nordisk.shtml",
+      "source": "diário do estado",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-23T20:21:14Z",
+      "updatedAt": "2026-05-23T20:21:14Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/05/23/17795661666a120656b45ae_1779566166_3x2_rt.jpg"
+    },
+    {
+      "id": "macro-c54450ace78caeb53058a158",
+      "title": "Caneta emagrecedora deve elevar o PIB da Dinamarca, sede da Novo Nordisk",
+      "summary": "Atualizacao de macro capturada em Folha de S.Paulo.",
+      "details": "",
+      "url": "https://blogdovalente.com.br/economia/2026/05/mais-de-230-empresas-brasileiras-ja-produzem-no-paraguai-atraidas-por-carga-tributaria-menor/",
+      "source": "Folha de S.Paulo",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-23T20:01:00Z",
+      "updatedAt": "2026-05-23T20:01:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "companies-1f0081182145b56b7e21dc85",
+      "title": "Mais de 230 empresas brasileiras já produzem no Paraguai atraídas por carga tributária menor",
+      "summary": "Mercadante alerta sobre novos riscos financeiros após escândalo do Banco Master.",
+      "details": "Mercadante alerta sobre novos riscos financeiros após escândalo do Banco Master.",
+      "url": "https://diariodoestadogo.com.br/escandalo-do-banco-master-impactos-em-fundos-de-investimento/",
+      "source": "Blog do Valente",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-05-23T19:53:59Z",
+      "updatedAt": "2026-05-23T19:53:59Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/escandalo-do-banco-master3A-impactos-em-fundos-de-investimento.jpeg"
+    },
+    {
       "id": "macro-d14a7ebcdcdeb7f69e0a653c",
       "title": "Nota Fiscal Cidadã apoia mães que encontram motivos para recomeçar todos os dias",
       "summary": "Associação beneficiada pela Nota Fiscal Cidadã acolhe famílias alagoanas com ações de cuidado, inclusão e desenvolvimento social",
@@ -248,9 +308,9 @@
     {
       "id": "macro-886c7242a75651d363be3cc2",
       "title": "Ajinomoto de Limeira oferece só reposição da inflação, e trabalhadores rejeitam",
-      "summary": "Analista aponta que metas fiscais pouco ambiciosas e juros reais elevados mantêm trajetória da dívida brasileira em risco",
-      "details": "Analista aponta que metas fiscais pouco ambiciosas e juros reais elevados mantêm trajetória da dívida brasileira em risco",
-      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/brasil-cumpre-meta-que-nao-estabiliza-divida-diz-srour/",
+      "summary": "A Ajinomoto de Limeira propôs um reajuste de 4,11% e um piso salarial, mas os trabalhadores exigem aumento real nos salários.",
+      "details": "A Ajinomoto de Limeira propôs um reajuste de 4,11% e um piso salarial, mas os trabalhadores exigem aumento real nos salários.",
+      "url": "https://radiopeaobrasil.com.br/ajinomoto-de-limeira-oferece-so-reposicao-da-inflacao-e-trabalhadores-rejeitam/",
       "source": "Rádio Peão Brasil",
       "category": "macro",
       "tags": [
@@ -262,14 +322,14 @@
       "updatedAt": "2026-05-23T19:17:06Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/ChatGPT-Image-15-de-abr.-de-2026-21_32_44.png?w=1200&h=630&crop=1"
+      "imageUrl": "https://radiopeaobrasil.com.br/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-22-at-16.44.34.jpeg"
     },
     {
       "id": "latest-d419dc0cc5475581906154ef",
       "title": "Aloizio Mercadante defende reestruturação do Banco Central e da CVM após caso Banco Master",
-      "summary": "Banco Central arquiva processo contra Campos Neto após acordo; entenda implicações para o setor.",
-      "details": "Banco Central arquiva processo contra Campos Neto após acordo; entenda implicações para o setor.",
-      "url": "https://diariodoestadogo.com.br/irregularidades-de-campos-neto-impactam-o-setor-financeiro/",
+      "summary": "O presidente do BNDES, Aloizio Mercadante, comentou o caso envolvendo o Banco Master no Forúm Esfera e defendeu mudanças estruturais em órgãos de fiscalização do sistema financeiro brasileiro. Confira na íntegra.",
+      "details": "O presidente do BNDES, Aloizio Mercadante, comentou o caso envolvendo o Banco Master no Forúm Esfera e defendeu mudanças estruturais em órgãos de fiscalização do sistema financeiro brasileiro. Confira na íntegra.",
+      "url": "https://tmc.com.br/brasil/aloizio-mercadante-defende-reestruturacao-do-banco-central-e-da-cvm-apos-caso-banco-master/",
       "source": "tmc.com.br",
       "category": "latest",
       "tags": [
@@ -281,7 +341,7 @@
       "updatedAt": "2026-05-23T19:09:54Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/irregularidades-de-campos-neto-impactam-o-setor-financeiro.jpg"
+      "imageUrl": "https://tmc.com.br/wp-content/uploads/2026/05/Captura-de-tela-2026-05-23-160310.png"
     },
     {
       "id": "companies-24b8f931b6d4c52fdd934446",
@@ -305,9 +365,9 @@
     {
       "id": "macro-69c46763bb00c698cfbdd81a",
       "title": "Brasil cumpre meta que não estabiliza dívida, diz Srour",
-      "summary": "O presidente do BNDES, Aloizio Mercadante, comentou o caso envolvendo o Banco Master no Forúm Esfera e defendeu mudanças estruturais em órgãos de fiscalização do sistema financeiro brasileiro. Confira na íntegra.",
-      "details": "O presidente do BNDES, Aloizio Mercadante, comentou o caso envolvendo o Banco Master no Forúm Esfera e defendeu mudanças estruturais em órgãos de fiscalização do sistema financeiro brasileiro. Confira na íntegra.",
-      "url": "https://tmc.com.br/brasil/aloizio-mercadante-defende-reestruturacao-do-banco-central-e-da-cvm-apos-caso-banco-master/",
+      "summary": "Analista aponta que metas fiscais pouco ambiciosas e juros reais elevados mantêm trajetória da dívida brasileira em risco",
+      "details": "Analista aponta que metas fiscais pouco ambiciosas e juros reais elevados mantêm trajetória da dívida brasileira em risco",
+      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/brasil-cumpre-meta-que-nao-estabiliza-divida-diz-srour/",
       "source": "CNN Brasil",
       "category": "macro",
       "tags": [
@@ -319,14 +379,14 @@
       "updatedAt": "2026-05-23T18:30:21Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://tmc.com.br/wp-content/uploads/2026/05/Captura-de-tela-2026-05-23-160310.png"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/ChatGPT-Image-15-de-abr.-de-2026-21_32_44.png?w=1200&h=630&crop=1"
     },
     {
       "id": "macro-977c5734600dc22873946f11",
       "title": "Ata do Fed mostra que mais diretores alertam para alta de juros",
-      "summary": "Aloizio Mercadante classifica o caso do Banco Master como o maior crime financeiro da história do Brasil e aponta responsabilidade à gestão anterior do Banco...",
-      "details": "Aloizio Mercadante classifica o caso do Banco Master como o maior crime financeiro da história do Brasil e aponta responsabilidade à gestão anterior do Banco...",
-      "url": "https://www.portaltela.com/noticias/economia/2026/05/23/mercadante-proximo-escandalo-sera-com-fundos-de-investimento/",
+      "summary": "Atualizacao de macro capturada em MSN.",
+      "details": "",
+      "url": "https://www.msn.com/pt-br/dinheiro/economia-e-negocios/ata-do-fed-mostra-que-mais-diretores-alertam-para-alta-de-juros/ar-AA23G9We?ocid=finance-verthp-feeds",
       "source": "MSN",
       "category": "macro",
       "tags": [
@@ -337,15 +397,14 @@
       "publishedAt": "2026-05-23T18:30:00Z",
       "updatedAt": "2026-05-23T18:30:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/05/aloizio-mercadante-bndes.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "funds-865c71bfcfe80bd26d35c74c",
       "title": "Mercadante: próximo escândalo será com fundos de investimento",
-      "summary": "Presidente do BNDES diz que gestão anterior do Banco Central é responsável pelo",
-      "details": "Presidente do BNDES diz que gestão anterior do Banco Central é responsável pelo",
-      "url": "https://neofeed.com.br/negocios/apos-banco-master-proximo-escandalo-sera-com-os-fundos-de-investimento-diz-mercadante/",
+      "summary": "Aloizio Mercadante classifica o caso do Banco Master como o maior crime financeiro da história do Brasil e aponta responsabilidade à gestão anterior do Banco...",
+      "details": "Aloizio Mercadante classifica o caso do Banco Master como o maior crime financeiro da história do Brasil e aponta responsabilidade à gestão anterior do Banco...",
+      "url": "https://www.portaltela.com/noticias/economia/2026/05/23/mercadante-proximo-escandalo-sera-com-fundos-de-investimento/",
       "source": "Portal Tela",
       "category": "funds",
       "tags": [
@@ -357,14 +416,14 @@
       "updatedAt": "2026-05-23T18:04:06Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://neofeed.com.br/wp-content/uploads/2023/07/aloizio-mercadante-bndes.jpeg"
+      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/05/aloizio-mercadante-bndes.jpg"
     },
     {
       "id": "macro-992e54414936564938936857",
       "title": "Fim da escala 6x1 vai elevar inflação ou reduzir empregos, diz dono da Riachuelo",
-      "summary": "Atualizacao de macro capturada em Estadão.",
-      "details": "",
-      "url": "https://www.msn.com/pt-br/dinheiro/economia-e-negocios/ata-do-fed-mostra-que-mais-diretores-alertam-para-alta-de-juros/ar-AA23G9We?ocid=finance-verthp-feeds",
+      "summary": "Flávio Rocha prevê aumento de até 20% nos custos do varejo e possível repasse aos preços dos produtos",
+      "details": "Flávio Rocha prevê aumento de até 20% nos custos do varejo e possível repasse aos preços dos produtos",
+      "url": "https://www.estadao.com.br/amp/economia/fim-escala-6x1-elevar-inflacao-reduzir-empregos-dono-riachuelo/",
       "source": "Estadão",
       "category": "macro",
       "tags": [
@@ -375,14 +434,15 @@
       "publishedAt": "2026-05-23T18:02:00Z",
       "updatedAt": "2026-05-23T18:02:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/O3HOGHYDSNNTFCWT7BIELWMTRI.jpg?quality=80&auth=2b4d0fe84d5197972a6a876fcbfefb9bc9d873df2a3e042a6d03722c3ac8213d&width=1200"
     },
     {
       "id": "latest-3cb28b78bc2d19e548187e88",
       "title": "Irregularidades de Campos Neto impactam o setor financeiro",
-      "summary": "A Ajinomoto de Limeira propôs um reajuste de 4,11% e um piso salarial, mas os trabalhadores exigem aumento real nos salários.",
-      "details": "A Ajinomoto de Limeira propôs um reajuste de 4,11% e um piso salarial, mas os trabalhadores exigem aumento real nos salários.",
-      "url": "https://radiopeaobrasil.com.br/ajinomoto-de-limeira-oferece-so-reposicao-da-inflacao-e-trabalhadores-rejeitam/",
+      "summary": "Banco Central arquiva processo contra Campos Neto após acordo; entenda implicações para o setor.",
+      "details": "Banco Central arquiva processo contra Campos Neto após acordo; entenda implicações para o setor.",
+      "url": "https://diariodoestadogo.com.br/irregularidades-de-campos-neto-impactam-o-setor-financeiro/",
       "source": "diário do estado",
       "category": "latest",
       "tags": [
@@ -394,14 +454,14 @@
       "updatedAt": "2026-05-23T18:01:38Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://radiopeaobrasil.com.br/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-22-at-16.44.34.jpeg"
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/irregularidades-de-campos-neto-impactam-o-setor-financeiro.jpg"
     },
     {
       "id": "funds-8df4a97ed6c40fc7480eb0b0",
       "title": "Após Banco Master, próximo escândalo será com os fundos de investimento, diz Mercadante",
-      "summary": "Flávio Rocha prevê aumento de até 20% nos custos do varejo e possível repasse aos preços dos produtos",
-      "details": "Flávio Rocha prevê aumento de até 20% nos custos do varejo e possível repasse aos preços dos produtos",
-      "url": "https://www.estadao.com.br/amp/economia/fim-escala-6x1-elevar-inflacao-reduzir-empregos-dono-riachuelo/",
+      "summary": "O ex-governador de Goiás, Ronaldo Caiado, ganha tração como possível candidato de uma \"terceira via\" para as eleições de 2026. Analistas políticos classificam o movimento como uma guinada à direita no campo que busca se posicionar entre Lula e o bolsonarismo. Caiado se distanciou",
+      "details": "O ex-governador de Goiás, Ronaldo Caiado, ganha tração como possível candidato de uma \"terceira via\" para as eleições de 2026. Analistas políticos classificam o movimento como uma guinada à direita no campo que busca se posicionar entre Lula e o bolsonarismo. Caiado se distanciou de Jair Bolsonaro e construiu capital..",
+      "url": "https://gustavonegreiros.com.br/2026/5/23/caiado-surge-como-opcao-de-terceira-via-da-direita-e-anima-mercado-financeiro/161663",
       "source": "NeoFeed",
       "category": "funds",
       "tags": [
@@ -413,14 +473,14 @@
       "updatedAt": "2026-05-23T17:51:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/O3HOGHYDSNNTFCWT7BIELWMTRI.jpg?quality=80&auth=2b4d0fe84d5197972a6a876fcbfefb9bc9d873df2a3e042a6d03722c3ac8213d&width=1200"
+      "imageUrl": "https://gustavonegreiros.com.br/storage/2026/05/20/444x296-01KS3NXR8H7APP7C5B6Q3CCHPB.jpeg"
     },
     {
       "id": "latest-a3ed4cbeb1e353621f873c27",
       "title": "Flávio Bolsonaro e Vorcaro: impacto no mercado financeiro",
-      "summary": "Áudios e encontros ligados a Vorcaro intensificam crise de Flávio Bolsonaro com a Faria Lima e o mercado financeiro.",
-      "details": "Áudios e encontros ligados a Vorcaro intensificam crise de Flávio Bolsonaro com a Faria Lima e o mercado financeiro.",
-      "url": "https://diariodoestadogo.com.br/flavio-bolsonaro-e-vorcaro-impacto-no-mercado-financeiro/",
+      "summary": "Presidente do BNDES diz que gestão anterior do Banco Central é responsável pelo",
+      "details": "Presidente do BNDES diz que gestão anterior do Banco Central é responsável pelo",
+      "url": "https://neofeed.com.br/negocios/apos-banco-master-proximo-escandalo-sera-com-os-fundos-de-investimento-diz-mercadante/",
       "source": "diário do estado",
       "category": "latest",
       "tags": [
@@ -432,32 +492,14 @@
       "updatedAt": "2026-05-23T17:46:17Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/flavio-bolsonaro-e-vorcaro3A-impacto-no-mercado-financeiro.jpeg"
-    },
-    {
-      "id": "macro-c4f5913dbf9e190234d09c00",
-      "title": "Dono da Riachuelo sobre fim da escala 6x1: estimativa é que vai haver inflação",
-      "summary": "Atualizacao de macro capturada em UOL Economia.",
-      "details": "",
-      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/05/23/dono-da-riachuelo-sobre-fim-da-escala-6x1-estimativa-e-que-vai-haver-inflacao.htm",
-      "source": "UOL Economia",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-23T17:44:00Z",
-      "updatedAt": "2026-05-23T17:44:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "imageUrl": "https://neofeed.com.br/wp-content/uploads/2023/07/aloizio-mercadante-bndes.jpeg"
     },
     {
       "id": "companies-9c481d1b118a23879576a5f3",
       "title": "Entenda por que empresas brasileiras estão transferindo produção para o Paraguai",
-      "summary": "O ex-governador de Goiás, Ronaldo Caiado, ganha tração como possível candidato de uma \"terceira via\" para as eleições de 2026. Analistas políticos classificam o movimento como uma guinada à direita no campo que busca se posicionar entre Lula e o bolsonarismo. Caiado se distanciou",
-      "details": "O ex-governador de Goiás, Ronaldo Caiado, ganha tração como possível candidato de uma \"terceira via\" para as eleições de 2026. Analistas políticos classificam o movimento como uma guinada à direita no campo que busca se posicionar entre Lula e o bolsonarismo. Caiado se distanciou de Jair Bolsonaro e construiu capital..",
-      "url": "https://gustavonegreiros.com.br/2026/5/23/caiado-surge-como-opcao-de-terceira-via-da-direita-e-anima-mercado-financeiro/161663",
+      "summary": "Impostos menores e menos encargos explicam a ida de empresas brasileiras para produzir no Paraguai; leia a matéria completa!",
+      "details": "Impostos menores e menos encargos explicam a ida de empresas brasileiras para produzir no Paraguai; leia a matéria completa!",
+      "url": "https://portal6.com.br/2026/05/23/entenda-por-que-empresas-brasileiras-estao-transferindo-producao-para-o-paraguai/",
       "source": "Portal 6",
       "category": "companies",
       "tags": [
@@ -469,14 +511,14 @@
       "updatedAt": "2026-05-23T17:35:43Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://gustavonegreiros.com.br/storage/2026/05/20/444x296-01KS3NXR8H7APP7C5B6Q3CCHPB.jpeg"
+      "imageUrl": "https://portal6.com.br/wp-content/uploads/2026/05/785943-20260523-115224-7a92d4.jpg"
     },
     {
       "id": "macro-2ed3ec0d6fd5d6288eead8ad",
       "title": "Tema 933 do STF",
-      "summary": "Kevin Warsh toma posse como presidente do Fed, enquanto investidores preveem aumentos nas taxas de juros em 2026",
-      "details": "Kevin Warsh toma posse como presidente do Fed, enquanto investidores preveem aumentos nas taxas de juros em 2026",
-      "url": "https://cointelegraph.com.br/news/kevin-warsh-sworn-fed-chair-traders-rate-hikes-2026",
+      "summary": "Áudios e encontros ligados a Vorcaro intensificam crise de Flávio Bolsonaro com a Faria Lima e o mercado financeiro.",
+      "details": "Áudios e encontros ligados a Vorcaro intensificam crise de Flávio Bolsonaro com a Faria Lima e o mercado financeiro.",
+      "url": "https://diariodoestadogo.com.br/flavio-bolsonaro-e-vorcaro-impacto-no-mercado-financeiro/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -488,7 +530,7 @@
       "updatedAt": "2026-05-23T17:07:45Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-05/019e5187-fc69-7c4c-87c2-05ae921e14cf.jpg"
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/flavio-bolsonaro-e-vorcaro3A-impacto-no-mercado-financeiro.jpeg"
     },
     {
       "id": "macro-3201b52c01dbc0a702da37d0",
@@ -512,9 +554,9 @@
     {
       "id": "latest-21fcd5c3cc1973fc5e30d19c",
       "title": "Caiado surge como opção de \"terceira via\" da direita e anima mercado financeiro",
-      "summary": "Kevin Warsh assume o Fed após Powell e amplia tensão sobre juros, inflação e influência de Trump na economia dos EUA.",
-      "details": "Kevin Warsh assume o Fed após Powell e amplia tensão sobre juros, inflação e influência de Trump na economia dos EUA.",
-      "url": "https://economicnewsbrasil.com.br/2026/05/23/kevin-warsh-fed-juros-trump-eua/",
+      "summary": "Kevin Warsh toma posse como presidente do Fed, enquanto investidores preveem aumentos nas taxas de juros em 2026",
+      "details": "Kevin Warsh toma posse como presidente do Fed, enquanto investidores preveem aumentos nas taxas de juros em 2026",
+      "url": "https://cointelegraph.com.br/news/kevin-warsh-sworn-fed-chair-traders-rate-hikes-2026",
       "source": "Blog do Gustavo Negreiros",
       "category": "latest",
       "tags": [
@@ -526,7 +568,7 @@
       "updatedAt": "2026-05-23T16:55:52Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://economicnewsbrasil.com.br/wp-content/uploads/2026/05/Kevin-Warsh-Fed.jpg"
+      "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/f=auto,onerror=redirect,w=1200/https://s3.cointelegraph.com/uploads/2026-05/019e5187-fc69-7c4c-87c2-05ae921e14cf.jpg"
     },
     {
       "id": "latest-15bc9b45efeff0bf52835209",
@@ -548,11 +590,49 @@
       "imageUrl": "https://www.osul.com.br/wp-content/uploads/2026/05/ldsadkas.jpg"
     },
     {
+      "id": "latest-c036f4447da870d96d57579e",
+      "title": "Desgaste de Flávio Bolsonaro na Faria Lima: O Que Aconteceu?",
+      "summary": "Entenda como a relação de Flávio com Vorcaro afeta sua imagem e o mercado financeiro.",
+      "details": "Entenda como a relação de Flávio com Vorcaro afeta sua imagem e o mercado financeiro.",
+      "url": "https://diariodoestadogo.com.br/desgaste-de-flavio-bolsonaro-na-faria-lima-o-que-aconteceu/",
+      "source": "diário do estado",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-23T16:29:26Z",
+      "updatedAt": "2026-05-23T16:29:26Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/desgaste-de-flavio-bolsonaro-na-faria-lima3A-o-que-aconteceu3F.jpeg"
+    },
+    {
+      "id": "latest-d3b3f1ed83994fcb986dc981",
+      "title": "Embraer anuncia resgate antecipado de notas seniores com vencimento em 2030",
+      "summary": "Foto: iStock Empresas brasileiras instaladas no Paraguai sob a Lei de Maquila já transferiram cerca de 25 mil empregos do Brasil para o país vizinho. A estimativa é baseada em dados do governo paraguaio. Atualmente, mais de 320 empresas estrangeiras operam nesse modelo no Paragua",
+      "details": "Foto: iStock Empresas brasileiras instaladas no Paraguai sob a Lei de Maquila já transferiram cerca de 25 mil empregos do Brasil para o país vizinho. A estimativa é baseada em dados do governo paraguaio. Atualmente, mais de 320 empresas estrangeiras operam nesse modelo no Paraguai, sendo 70% brasileiras. Em março de 20",
+      "url": "https://www.blogdobg.com.br/empresas-brasileiras-no-paraguai-sob-a-lei-de-maquila-ja-tiraram-cerca-de-25-000-empregos-do-brasil/",
+      "source": "AEROIN",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-23T15:51:36Z",
+      "updatedAt": "2026-05-23T15:51:36Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://assets.blogdobg.com.br/uploads/2026/05/isto.png"
+    },
+    {
       "id": "latest-ea2715c93daf778fe4cbb518",
       "title": "Por que os investidores estrangeiros estão saindo da Bolsa brasileira?",
-      "summary": "Atualizacao de ultima hora capturada em Gazeta do Povo.",
-      "details": "",
-      "url": "https://www.gazetadopovo.com.br/economia/por-que-os-investidores-estrangeiros-estao-saindo-da-bolsa-brasileira/",
+      "summary": "Nomes como Petrobras (PETR4) e Vale (VALE3) ganham destaque entre ações recomendadas pela Empiricus em busca de retornos",
+      "details": "Nomes como Petrobras (PETR4) e Vale (VALE3) ganham destaque entre ações recomendadas pela Empiricus em busca de retornos",
+      "url": "https://www.seudinheiro.com/2026/patrocinado/empiricus/linha-de-tres-zagueiros-analistas-indicam-tres-acoes-brasileiras-defensivas-para-buscar-renda-extra-lbrdaz234/",
       "source": "Gazeta do Povo",
       "category": "latest",
       "tags": [
@@ -563,14 +643,15 @@
       "publishedAt": "2026-05-23T15:47:00Z",
       "updatedAt": "2026-05-23T15:47:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.seudinheiro.com/uploads/2024/08/Ibovespa-acoes-maxima-historica.jpg"
     },
     {
       "id": "companies-e886c94930238a1f737697d4",
       "title": "Empresas brasileiras no Paraguai sob a Lei de Maquila já tiraram cerca de 25.000 empregos do Brasil",
-      "summary": "Impostos menores e menos encargos explicam a ida de empresas brasileiras para produzir no Paraguai; leia a matéria completa!",
-      "details": "Impostos menores e menos encargos explicam a ida de empresas brasileiras para produzir no Paraguai; leia a matéria completa!",
-      "url": "https://portal6.com.br/2026/05/23/entenda-por-que-empresas-brasileiras-estao-transferindo-producao-para-o-paraguai/",
+      "summary": "Atualizacao de empresas capturada em Blog do BG.",
+      "details": "",
+      "url": "https://www.gazetadopovo.com.br/economia/por-que-os-investidores-estrangeiros-estao-saindo-da-bolsa-brasileira/",
       "source": "Blog do BG",
       "category": "companies",
       "tags": [
@@ -581,15 +662,14 @@
       "publishedAt": "2026-05-23T15:45:29Z",
       "updatedAt": "2026-05-23T15:45:29Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://portal6.com.br/wp-content/uploads/2026/05/785943-20260523-115224-7a92d4.jpg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "latest-4cf7de6ed20f1c7fdf4c6d4c",
       "title": "Quem é Kevin Warsh, economista que assume o comando do Fed",
-      "summary": "Foto: iStock Empresas brasileiras instaladas no Paraguai sob a Lei de Maquila já transferiram cerca de 25 mil empregos do Brasil para o país vizinho. A estimativa é baseada em dados do governo paraguaio. Atualmente, mais de 320 empresas estrangeiras operam nesse modelo no Paragua",
-      "details": "Foto: iStock Empresas brasileiras instaladas no Paraguai sob a Lei de Maquila já transferiram cerca de 25 mil empregos do Brasil para o país vizinho. A estimativa é baseada em dados do governo paraguaio. Atualmente, mais de 320 empresas estrangeiras operam nesse modelo no Paraguai, sendo 70% brasileiras. Em março de 20",
-      "url": "https://www.blogdobg.com.br/empresas-brasileiras-no-paraguai-sob-a-lei-de-maquila-ja-tiraram-cerca-de-25-000-empregos-do-brasil/",
+      "summary": "Kevin Warsh assume o Fed após Powell e amplia tensão sobre juros, inflação e influência de Trump na economia dos EUA.",
+      "details": "Kevin Warsh assume o Fed após Powell e amplia tensão sobre juros, inflação e influência de Trump na economia dos EUA.",
+      "url": "https://economicnewsbrasil.com.br/2026/05/23/kevin-warsh-fed-juros-trump-eua/",
       "source": "Economic News Brasil",
       "category": "latest",
       "tags": [
@@ -601,14 +681,14 @@
       "updatedAt": "2026-05-23T15:12:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://assets.blogdobg.com.br/uploads/2026/05/isto.png"
+      "imageUrl": "https://economicnewsbrasil.com.br/wp-content/uploads/2026/05/Kevin-Warsh-Fed.jpg"
     },
     {
       "id": "latest-d0b108679c9ca75581230c43",
       "title": "‘Linha de três zagueiros’? Em meio às incertezas do mercado, analistas indicam três ações brasileiras ‘defensivas’ para buscar renda extra",
-      "summary": "Nomes como Petrobras (PETR4) e Vale (VALE3) ganham destaque entre ações recomendadas pela Empiricus em busca de retornos",
-      "details": "Nomes como Petrobras (PETR4) e Vale (VALE3) ganham destaque entre ações recomendadas pela Empiricus em busca de retornos",
-      "url": "https://www.seudinheiro.com/2026/patrocinado/empiricus/linha-de-tres-zagueiros-analistas-indicam-tres-acoes-brasileiras-defensivas-para-buscar-renda-extra-lbrdaz234/",
+      "summary": "Atualizacao de ultima hora capturada em Seu Dinheiro.",
+      "details": "",
+      "url": "https://aeroin.net/embraer-anuncia-resgate-antecipado-de-notas-seniores-com-vencimento-em-2030/",
       "source": "Seu Dinheiro",
       "category": "latest",
       "tags": [
@@ -619,15 +699,14 @@
       "publishedAt": "2026-05-23T15:03:55Z",
       "updatedAt": "2026-05-23T15:03:55Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.seudinheiro.com/uploads/2024/08/Ibovespa-acoes-maxima-historica.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-5e40537f04a113edaf41e62c",
       "title": "MP que zera imposto para importação é contestada",
-      "summary": "Movimento combina pressão externa, incertezas políticas e saída de investidores estrangeiros da bolsa brasileira",
-      "details": "Movimento combina pressão externa, incertezas políticas e saída de investidores estrangeiros da bolsa brasileira",
-      "url": "https://www.cnnbrasil.com.br/economia/mercado/ibovespa-recua-mais-de-10-apos-atingir-recorde/",
+      "summary": "CNI questiona medida provisória que revoga imposto de importação em compras internacionais de até US$ 50, alegando impactos para a indústria nacional.",
+      "details": "CNI questiona medida provisória que revoga imposto de importação em compras internacionais de até US$ 50, alegando impactos para a indústria nacional.",
+      "url": "https://diariodoestadogo.com.br/mp-que-zera-imposto-para-importacao-e-contestada/",
       "source": "diário do estado",
       "category": "companies",
       "tags": [
@@ -639,14 +718,14 @@
       "updatedAt": "2026-05-23T15:01:06Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/33431_CF20C16C8614BD29-1.jpg?w=1200&h=630&crop=1"
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/mp-que-zera-imposto-para-importacao-e-contestada.jpg"
     },
     {
       "id": "latest-5afc52a4d6ce4c8ef6d0490d",
       "title": "Ibovespa recua mais de 10% após atingir recorde",
-      "summary": "CNI questiona medida provisória que revoga imposto de importação em compras internacionais de até US$ 50, alegando impactos para a indústria nacional.",
-      "details": "CNI questiona medida provisória que revoga imposto de importação em compras internacionais de até US$ 50, alegando impactos para a indústria nacional.",
-      "url": "https://diariodoestadogo.com.br/mp-que-zera-imposto-para-importacao-e-contestada/",
+      "summary": "Movimento combina pressão externa, incertezas políticas e saída de investidores estrangeiros da bolsa brasileira",
+      "details": "Movimento combina pressão externa, incertezas políticas e saída de investidores estrangeiros da bolsa brasileira",
+      "url": "https://www.cnnbrasil.com.br/economia/mercado/ibovespa-recua-mais-de-10-apos-atingir-recorde/",
       "source": "CNN Brasil",
       "category": "latest",
       "tags": [
@@ -658,14 +737,14 @@
       "updatedAt": "2026-05-23T15:00:37Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/mp-que-zera-imposto-para-importacao-e-contestada.jpg"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/33431_CF20C16C8614BD29-1.jpg?w=1200&h=630&crop=1"
     },
     {
       "id": "macro-90b736a11ba1ed23a99fa04a",
       "title": "Do churrasco à cerveja: 'cesta da Copa' sobe mais que a inflação desde 2022; veja as altas",
-      "summary": "Atualizacao de macro capturada em Valor Investe.",
-      "details": "",
-      "url": "https://www.unicanews.com.br/brasil/flavio-bolsonaro-nega-relacao-com-vorcaro-e-vira-alvo-de-desgaste-politico-e-financeiro/137430",
+      "summary": "O estudo mostra que a pressão sobre o bolso do consumidor se concentrou principalmente em bebidas, confeitaria e produtos processados — categorias tradicionalmente ligadas ao consumo coletivo e aos momentos de lazer durante os jogos",
+      "details": "O estudo mostra que a pressão sobre o bolso do consumidor se concentrou principalmente em bebidas, confeitaria e produtos processados — categorias tradicionalmente ligadas ao consumo coletivo e aos momentos de lazer durante os jogos",
+      "url": "https://valorinveste.globo.com/objetivo/gastar-bem/noticia/2026/05/23/do-churrasco-a-cerveja-cesta-da-copa-sobe-mais-que-a-inflacao-desde-2022-veja-as-altas.ghtml",
       "source": "Valor Investe",
       "category": "macro",
       "tags": [
@@ -676,14 +755,15 @@
       "publishedAt": "2026-05-23T15:00:36Z",
       "updatedAt": "2026-05-23T15:00:36Z",
       "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s2-valor-investe.glbimg.com/2jYj7AMOf9e1TOlpRtznuGOE3So=/2118x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_f035dd6fd91c438fa04ab718d608bbaa/internal_photos/bs/2022/I/K/OLZZpeTEGMqNPnNcEjGg/gettyimages-1397406817.jpg"
     },
     {
       "id": "latest-e1d50285eb75d49036e755a2",
       "title": "Flávio Bolsonaro nega relação com Vorcaro e vira alvo de desgaste político e financeiro",
-      "summary": "O mercado financeiro reage a movimentações da eleição de 2026. Apesar de juros e conflitos globais pesarem mais, ruídos políticos internos já causam quedas no Ibovespa e fuga de capital estrangeiro sob o monitoramento do cenário fiscal",
-      "details": "O mercado financeiro reage a movimentações da eleição de 2026. Apesar de juros e conflitos globais pesarem mais, ruídos políticos internos já causam quedas no Ibovespa e fuga de capital estrangeiro sob o monitoramento do cenário fiscal",
-      "url": "https://diariocarioca.com/2026/05/23/economia/mercado-financeiro-volatilidade-eleicoes-2026/",
+      "summary": "Atualizacao de ultima hora capturada em Única News.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONmlyblZBMU9iamdKelZQQWROZ2libGczMndQSnR0RHZjRWlLYmJPZmlidVRSNWw3RFFoWGN6cUVRMWdkMmpwRWFZNzd4THEzOGd6YUk4X3dqNWdHa1ZreFE2c25ab3h4QlctSk51NWYxcUlGcjBfeS1IWV9HM3gtb0RRNTVKdjlNSXlac09teHVFZU02cUVYLVNGNU1fZEZETENfYS1jTjN3Z3RWa0JIWU9QRlMzZ0lFd2pQOEQ3VHZLRVNQbUVSa3RB?oc=5",
       "source": "Única News",
       "category": "latest",
       "tags": [
@@ -694,15 +774,14 @@
       "publishedAt": "2026-05-23T14:50:00Z",
       "updatedAt": "2026-05-23T14:50:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://diariocarioca.com/wp-content/uploads/2026/05/115651.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-1f13254afd85df018893ed73",
       "title": "Maturidade financeira das gaúchas reflete na formação dos filhos; RS tem cerca de 85 mil investidoras",
-      "summary": "Maturidade financeira das gaúchas reflete na formação dos filhos; RS tem cerca de 85 mil investidoras - Jornal O Sul",
-      "details": "Maturidade financeira das gaúchas reflete na formação dos filhos; RS tem cerca de 85 mil investidoras - Jornal O Sul",
-      "url": "https://www.osul.com.br/maturidade-financeira-das-gauchas-reflete-na-formacao-dos-filhos-rs-tem-cerca-de-85-mil-investidoras/amp/",
+      "summary": "Atualizacao de ultima hora capturada em Jornal O Sul.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUnVHUnYzcXI0UnA2NGQ3YUdyRHFwT0ZoeWg3TTlhQ1daOGVwSWpsMFlHUC1PRFpZTUxnR0Q1VFlxcG9EY0ZlTXpKTFpJT2V0ZEFkYUp0N2dmU1lWMFlxRDZpMV96UWFWQjJOLTVjSkhzTVJtamZTUTNGVDROTFdsMmFrbVV3U1VXTEI2c3RCc053emg2QU5uRzgwTFNrU0NhMFlQaGVGWEVSSzcxaFRPblluWDhGU2s0SFNGZ2h5U3FnaGV0djBjT9IByAFBVV95cUxPUnVHUnYzcXI0UnA2NGQ3YUdyRHFwT0ZoeWg3TTlhQ1daOGVwSWpsMFlHUC1PRFpZTUxnR0Q1VFlxcG9EY0ZlTXpKTFpJT2V0ZEFkYUp0N2dmU1lWMFlxRDZpMV96UWFWQjJOLTVjSkhzTVJtamZTUTNGVDROTFdsMmFrbVV3U1VXTEI2c3RCc053emg2QU5uRzgwTFNrU0NhMFlQaGVGWEVSSzcxaFRPblluWDhGU2s0SFNGZ2h5U3FnaGV0djBjTw?oc=5",
       "source": "Jornal O Sul",
       "category": "latest",
       "tags": [
@@ -713,15 +792,14 @@
       "publishedAt": "2026-05-23T14:34:23Z",
       "updatedAt": "2026-05-23T14:34:23Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.osul.com.br/wp-content/uploads/2026/05/educacao-financeira-1.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-9aefbee1d0cc8823ac9d26f8",
       "title": "Mercado financeiro monitora ruídos eleitorais em meio a pressões globais",
       "summary": "Atualizacao de ultima hora capturada em Diário Carioca.",
       "details": "",
-      "url": "https://exame.com/invest/minhas-financas/por-que-pequenos-luxos-ficaram-tao-importantes-em-tempos-de-inflacao/",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLTN0NVFFcy1YZEgweWMyZWU4aGVOcW1Xc1VuUGNwcEJkTmpqVS03X2I0Q0d5U2tLZFVZRmlzQ1RxdGp3a0ZBOEhMNEFtVUJoRVRrSnFIMkhDSWNPNXhwUGFCX3VsV2U1bHYzcVZvSTdQS1BVMGEzOXVRNnA3b3RPS1BZR0d1WjQxczRnRFRZLU9IUTE4VUYw?oc=5",
       "source": "Diário Carioca",
       "category": "latest",
       "tags": [
@@ -737,9 +815,9 @@
     {
       "id": "macro-5ce460939e62037860989d83",
       "title": "Por que pequenos luxos ficaram tão importantes em tempos de inflação",
-      "summary": "O estudo mostra que a pressão sobre o bolso do consumidor se concentrou principalmente em bebidas, confeitaria e produtos processados — categorias tradicionalmente ligadas ao consumo coletivo e aos momentos de lazer durante os jogos",
-      "details": "O estudo mostra que a pressão sobre o bolso do consumidor se concentrou principalmente em bebidas, confeitaria e produtos processados — categorias tradicionalmente ligadas ao consumo coletivo e aos momentos de lazer durante os jogos",
-      "url": "https://valorinveste.globo.com/objetivo/gastar-bem/noticia/2026/05/23/do-churrasco-a-cerveja-cesta-da-copa-sobe-mais-que-a-inflacao-desde-2022-veja-as-altas.ghtml",
+      "summary": "Atualizacao de macro capturada em Exame.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQblFxeHczUV84S21HcHlsNjFNbWNNSW5qdm9zNTc3TjdrNWRwYVhqelVreWw1QkZQazluV0JsLXN0bTFhTVAtMUNsdk10LUFCYVpHUGNfTVNhdUhGRC13UEFMR0wzU09VUnJzUkFNSUJmck80d1Atam9HdXM3THA1TzZfYUpIUEJSV3l3UHFrWjUwSGEwZWtXR2dGc2J2MDZmUVg2LVRPbFVUd3lLRWFv?oc=5",
       "source": "Exame",
       "category": "macro",
       "tags": [
@@ -750,8 +828,7 @@
       "publishedAt": "2026-05-23T14:02:33Z",
       "updatedAt": "2026-05-23T14:02:33Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor-investe.glbimg.com/2jYj7AMOf9e1TOlpRtznuGOE3So=/2118x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_f035dd6fd91c438fa04ab718d608bbaa/internal_photos/bs/2022/I/K/OLZZpeTEGMqNPnNcEjGg/gettyimages-1397406817.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-46e0df249ac3829e4d82472d",
@@ -844,24 +921,6 @@
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "latest-7b3195d9181269c0c468e799",
-      "title": "Lula diz ficar “nervoso” com cobrança do mercado por ajuste fiscal",
-      "summary": "Atualizacao de ultima hora capturada em O Antagonista.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb3RUckJ3MUdXZHBERnptSXRfNEowUTgxd2F6aWtIREJmOWRFRmVmRVhidGpoQ2xfVU93U3drSk5tVnpvT3owSjBWRWRiMmF6c0pFTDhCWE9HaTcydHR2U2JxQ1VFSjBlMmZHT1dkWlU0eXhvQkVvYzRDSHFZSng5R0hYQ3RqRTV4X01iV0xPWE1TQl9jOGJiRHc1eGNYWTAyd3c?oc=5",
-      "source": "O Antagonista",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-23T12:57:00Z",
-      "updatedAt": "2026-05-23T12:57:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "macro-e7260b3f61775fd5aef5e210",
       "title": "Warsh chega a um Fed sem espaço para cortes de juros",
       "summary": "Atualizacao de macro capturada em Valor Econômico.",
@@ -950,60 +1009,6 @@
       "updatedAt": "2026-05-23T12:09:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "latest-a49abf39225fb513c3728c39",
-      "title": "O Verdadeiro Impacto Financeiro de R$ 300 Milhões nas Principais Aplicações do País",
-      "summary": "Atualizacao de ultima hora capturada em Portal ClicR.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQnd0S19sQzV6b2V4dUNjSURkcE9PY25zaGxSS1FKWmVGeks2OC1HdTZRWG5hMzg1cmphT2l2UnVxb0JtUEF5X3g4TGdEYlVpaUpfQVR5S0ZXS05UeFJ3SVd6ZUhPWGcyY0xLWGhLRkFtLXNnSTVFbkJSNnVXS0dLdlJQRjlLM1kybk9yOTRoSFEyZkxCb2F4Qk1VSl9yMTJydktMcnp0MA?oc=5",
-      "source": "Portal ClicR",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-23T11:59:59Z",
-      "updatedAt": "2026-05-23T11:59:59Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-1772e537939be16a5f9c7305",
-      "title": "Até 280 mil euros por ano. Saiba os salários incríveis do setor financeiro no Luxemburgo",
-      "summary": "Atualizacao de ultima hora capturada em contacto.lu.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNC11c0s5OVR0NXZEN1RUbmZDclgwSHR0VkVyYy1VbUk1M2JMLVNUU2c5WU9BbHVNSW10cmVDeXZVUW9Pcmo4YlVoLUFuNmdnV2tqUXNNZ1dJNGltV2NucmFwQWJuZ3FBeW04WEtnZlNkLWZ3cndyZC1FQTBXX0N2dDk5ODZuOXM4aGxzNzBYY2RZODBDQ0FHckJwRV9BaFJSNG12T3pSaUZMODJPeWo0QTRfdEt2SDlOOGxBY014Vy1EVm80dHRieUpVdm5MRVF6UTk2Xw?oc=5",
-      "source": "contacto.lu",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-23T11:59:36Z",
-      "updatedAt": "2026-05-23T11:59:36Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "macro-525b479da9a9411c1e1869ae",
-      "title": "Kevin Warsh: voz independente ou marionete de Trump?",
-      "summary": "Atualizacao de macro capturada em DW.com.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONWZSaFJubmxIbWltcm1LdThDbUdqQk1VVnl2NlEzZlFLeGhPOFNVUC0yN3k3d1lqSGFDYkp6b2JVQXBUQmM4b25Tb3htY1pQY21EU01jV1JaWEcwcG1EUXctYi1ySm9xOXBGdnBfelFnWVFaTG16ZUJEdFpUeXh2RTR2c0p1dnkzMkhSUkx4RdIBjwFBVV95cUxQcm91bXQ0aW9CWnU4V0poaUVOb2NHdFd5N3puZGljczlrX3ltQVhzSTZ0TnZidWM3MHVaQk1tS2dSWGF6SEpjeC00ZkU2ZHpScFRubzdjcEtHa1VvMWNGNllMY0FnY1ZITnJ0X1FUZzhMNk04RnlzalN3dC1xaEIyZktBODdLLU1sdG9NVWEyVQ?oc=5",
-      "source": "DW.com",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-23T11:17:49Z",
-      "updatedAt": "2026-05-23T11:17:49Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-178dc8f0ca40c1ec08067bac",
@@ -1114,24 +1119,6 @@
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "companies-c88d38455f5112a93a03c38c",
-      "title": "Imposto menor eleva lucro de empresário em 150% no Paraguai",
-      "summary": "Atualizacao de empresas capturada em Portal Tela.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONzF5OE1pOGphNzNfTk1LNjdiQjd2MTdveVUxRl9kUzdHcTctRWlSOUt5bzJ1c1R4dEl1ZEs2bkxxeUtDbHZnX1Jwdm0xWE1rekhsQnVnQXphNU50aVBUTG05dlctaWFfS3gxSHMzQ2EydXVQbE1qYlN0SzF1RlA4SWFrd2VSQWtKN0kwcktwaFNPQmJNdThoTElNTEZzVWEwRElfYlRiaFdvWVF6cE5Vdjk5dUNRUQ?oc=5",
-      "source": "Portal Tela",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-05-23T09:19:47Z",
-      "updatedAt": "2026-05-23T09:19:47Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
       "id": "companies-a503406177a4fd6be894d964",
       "title": "Mais de 230 empresas brasileiras já produzem no Paraguai",
       "summary": "Atualizacao de empresas capturada em Poder360.",
@@ -1148,24 +1135,6 @@
       "updatedAt": "2026-05-23T09:02:23Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "funds-67e94f69da06073e34f0ad69",
-      "title": "Ethereum climbs after five-day slide, but Wintermute warns ETH is 'wrong asset' for current macro backdrop",
-      "summary": "Atualizacao de fundos capturada em MSN.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxNZnY4TDl2cFlMaGFYTU1pOHNnSHJlS2pPdUQ2Qk9UdDA2YS1oT1hDVjhNa3kwMnFsS1VWbTZYbk9fQTlCYXVBVXpHX0Z4Ynk0OWtIWUpDUkg4WVdmRE5nckVleVM4X2tNM0JaNERLOUEzYmVzb18weWVXWFZrTGhmdDhZMHoteEVrczRUYXhPa2ZpQ0hpVlJhVlpRU1hwbURmTVhTbmxPSHQxdGE3b1BuVmdQOWkwQXRnaDFFa3JXbWlqWXAxWW5TMHdkRXgxZ0gtTGxUb2FiWGktS1UtenB6TXpiM1RGc19IczdTcG9DSkcwa29WMGdZdXU0UC13bHhGS2wzUHoxemtmalc4aUY2Wm5vdGZITTlqWGFpejUzQk5TWmlRenFrQVRwZDBLRmtYRUhVZ1NmOXl6N21nd3FpS0hiRVdqbHNaV0xSWFhEOWM5SVRXQ3hvSTl3dUhuUkctUGltSWlHUVBkS2d6OWpqcEpleHdra2d0azJENzlsTmZsZUVTRHY0?oc=5",
-      "source": "MSN",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-05-23T08:50:28Z",
-      "updatedAt": "2026-05-23T08:50:28Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "companies-5ff34883fb0431a1efd2881e",
@@ -1220,6 +1189,24 @@
       "updatedAt": "2026-05-23T07:17:20Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "macro-96fa4f9781603353ad0ff4a2",
+      "title": "Petróleo alto limita início de Kevin Warsh no Fed e pressiona juros nos EUA",
+      "summary": "Atualizacao de macro capturada em Times Brasil | CNBC.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQ2NDR2FJMGxNVGdIVWVuZkFmOXM5WkZBN0prdGZtalZkcnlRc3Z0c2VSWk9PNGJ6QnpEMnpzeW9tSlVyd1JORHRVaEFpMFdjcUhueHVwSndVNXo4RVhNYVhnODlTQ051N1Izb0V0N2FXdkRDUkd5VDA3NVNZcVVZOURJQ2s1bVlJNW51dzhsM2Fyb0dkRFhUQ3ppa2VaX0V0UXRTYzk1MEtYX1dySVE?oc=5",
+      "source": "Times Brasil | CNBC",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-23T02:59:00Z",
+      "updatedAt": "2026-05-23T02:59:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "funds-ef44d7e0bd90f7ebbc98a1d8",
@@ -1330,24 +1317,6 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "companies-806cdebc1586f9809de5a9b4",
-      "title": "Transformação digital: empresas buscam softwares personalizados",
-      "summary": "Atualizacao de empresas capturada em Jornal do Brás.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb2drenBpVFl2aVV5OHotRWdTdkRoTXROTmRiTDFxWUdtQlB1QzVZRFRZMUdEeXhobXE3cjFyRk9ubXZNQjlBaG5aazVMWW5nUFZDVlVqcmI3Umw5QlZSVGJWOUNKVVJpa3NRQUxDWl9EbDVUQTh5T1FiS0tTS3BEOHBhN1hJbUE1WkFVX0pkU1o0OWFQdFdteFhkWG9PdGJ1NjFsSWFFZVNKX0hVYWc?oc=5",
-      "source": "Jornal do Brás",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-05-22T21:32:56Z",
-      "updatedAt": "2026-05-22T21:32:56Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
       "id": "companies-f1f31cdee29de06abcabddc4",
       "title": "Paraguai Vira Ímã de Empresas Brasileiras: Entenda a Fuga Estratégica!",
       "summary": "Atualizacao de empresas capturada em Mundo Mi.",
@@ -1400,6 +1369,42 @@
       "updatedAt": "2026-05-22T19:50:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "companies-5d4757894afe19be34d9e0ff",
+      "title": "Exporta Mais Brasil conecta empresas brasileiras de cosméticos a compradores internacionais através do e-commerce",
+      "summary": "Atualizacao de empresas capturada em FashionNetwork Brasil.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxONGJxVjlpWUZIWmx4a3F1TWZRR1ZONzF3cVlzUVMycFI0QWlSU0FhcjgyUHR2VHl1MWVJeTZHQVhGaHhhRWlwSzFHb2poTXEyQVY2bmlQTlF4WEZLeTBtaTR2ZWx0TlpPbmlPODVpVW9jQ2Y2TV94TzJMTlJUVTFEVkZQeVRyV1ZTbFZ5SG9PRDlkemZ4MGJwaDd4SllnRUJRVEMxME5FWTd5XzVid2tfU0VGbkU5QUpsZmpWYnhSN1djcUEzWl9Xa2szWlRrYmt1bUxQVl9adWptUHR3WUIwWWp6eDFqbDFVczFRZ1NrWkpXNFk?oc=5",
+      "source": "FashionNetwork Brasil",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-05-22T19:14:30Z",
+      "updatedAt": "2026-05-22T19:14:30Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "funds-c1c85bba75146e95b6174c4d",
+      "title": "Resultado operacional da Generali alcança € 2,2 bilhões com avanço dos negócios | SEGS Portal Nacional de...",
+      "summary": "Atualizacao de fundos capturada em SEGS Portal Nacional.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNF9RaVBYZHVZUXZ3UXJEbGV1dGE5aWpzWHMxMVkxNTdJRXI5dlVLUGN0Nk52TWRpWVUyUTR1MnJQS2pGd3Q3ZDNLcnM0ei0yRFdVVTh2dUpPcmNtazlzN3M0TlhEMzVxZllNc3U5b1BwM1pXbzNRZmxPYVM2MC1icUFqdHlUaTloZVBwRmRUQ0xiUUliOW53ajlGT0oxOS1sS3dKSVJ6QUNVZjNtXy04endzVXRDSm5rTEtOStIBvAFBVV95cUxPNF9RaVBYZHVZUXZ3UXJEbGV1dGE5aWpzWHMxMVkxNTdJRXI5dlVLUGN0Nk52TWRpWVUyUTR1MnJQS2pGd3Q3ZDNLcnM0ei0yRFdVVTh2dUpPcmNtazlzN3M0TlhEMzVxZllNc3U5b1BwM1pXbzNRZmxPYVM2MC1icUFqdHlUaTloZVBwRmRUQ0xiUUliOW53ajlGT0oxOS1sS3dKSVJ6QUNVZjNtXy04endzVXRDSm5rTEtOSg?oc=5",
+      "source": "SEGS Portal Nacional",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-05-22T19:01:06Z",
+      "updatedAt": "2026-05-22T19:01:06Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     }
   ]
 }
