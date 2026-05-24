@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-24T21:39:41Z",
-  "generatedAt": "2026-05-24T21:39:41Z",
+  "updatedAt": "2026-05-24T22:40:53Z",
+  "generatedAt": "2026-05-24T22:40:53Z",
   "categories": [
     {
       "id": "all",
@@ -41,6 +41,10 @@
       "label": "BPMoney"
     },
     {
+      "id": "campos24horas",
+      "label": "Campos24Horas"
+    },
+    {
       "id": "canaltech",
       "label": "Canaltech"
     },
@@ -53,20 +57,12 @@
       "label": "CARAS Brasil"
     },
     {
-      "id": "coindesk",
-      "label": "CoinDesk"
-    },
-    {
       "id": "di-rio-do-centro-do-mundo",
       "label": "Diário do Centro do Mundo"
     },
     {
       "id": "di-rio-do-estado",
       "label": "diário do estado"
-    },
-    {
-      "id": "estad-o",
-      "label": "Estadão"
     },
     {
       "id": "exame",
@@ -77,14 +73,6 @@
       "label": "Expressão Rondônia"
     },
     {
-      "id": "fiis",
-      "label": "Fiis"
-    },
-    {
-      "id": "folha-do-estado",
-      "label": "Folha do Estado"
-    },
-    {
       "id": "folha-vit-ria",
       "label": "Folha Vitória"
     },
@@ -93,8 +81,8 @@
       "label": "Foro3D"
     },
     {
-      "id": "g1",
-      "label": "G1"
+      "id": "gaz",
+      "label": "GAZ"
     },
     {
       "id": "infomoney",
@@ -113,16 +101,12 @@
       "label": "Jornal O Sul"
     },
     {
-      "id": "kondzilla-com",
-      "label": "kondzilla.com"
+      "id": "jovem-pan",
+      "label": "Jovem Pan"
     },
     {
       "id": "movimento-econ-mico",
       "label": "Movimento Econômico"
-    },
-    {
-      "id": "msn",
-      "label": "MSN"
     },
     {
       "id": "novojornal-com-br",
@@ -177,12 +161,16 @@
       "label": "Tribuna da Bahia"
     },
     {
-      "id": "tribunapopular-com-br",
-      "label": "tribunapopular.com.br"
+      "id": "tribuna-do-agreste",
+      "label": "Tribuna do Agreste"
     },
     {
-      "id": "uol-economia",
-      "label": "UOL Economia"
+      "id": "tribuna-do-sert-o",
+      "label": "Tribuna do Sertão"
+    },
+    {
+      "id": "tribunapopular-com-br",
+      "label": "tribunapopular.com.br"
     },
     {
       "id": "valor-econ-mico",
@@ -211,11 +199,143 @@
   ],
   "items": [
     {
+      "id": "funds-97454a53f60d6e99da996c69",
+      "title": "Governo do Rio pretende desapropriar terreno da Refit para abater dívida bilionária",
+      "summary": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
+      "details": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
+      "url": "https://www.tribunadoagreste.com.br/geral/2026/05/24/907001-governo-do-rio-pretende-desapropriar-terreno-da-refit-para-abater-divida-bilionaria",
+      "source": "Tribuna do Agreste",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-05-24T22:05:00Z",
+      "updatedAt": "2026-05-24T22:05:00Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://img.dhost.cloud/701tcnl5XJ6UkQMHOTnQNtNp09w=/1200x630/smart/https://tdan.nyc3.digitaloceanspaces.com/images/03cc2/89287cfb0011fc458da15186f506c8f82d2.webp?name=ricardo-couto.webp"
+    },
+    {
+      "id": "macro-5f288976a150e3d7008c62f3",
+      "title": "Governo do Rio propõe desapropriação de terreno da Refit para abater dívida fiscal",
+      "summary": "Refinaria é considerada a maior devedora de impostos do país, com débitos que somam R$ 55 bilhões",
+      "details": "Refinaria é considerada a maior devedora de impostos do país, com débitos que somam R$ 55 bilhões",
+      "url": "https://www.tribunadosertao.com.br/geral/2026/05/24/907000-governo-do-rio-propoe-desapropriacao-de-terreno-da-refit-para-abater-divida-fiscal",
+      "source": "Tribuna do Sertão",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-24T22:05:00Z",
+      "updatedAt": "2026-05-24T22:05:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://img.dhost.cloud/701tcnl5XJ6UkQMHOTnQNtNp09w=/1200x630/smart/https://tdan.nyc3.digitaloceanspaces.com/images/03cc2/89287cfb0011fc458da15186f506c8f82d2.webp?name=ricardo-couto.webp"
+    },
+    {
+      "id": "macro-18cf0f74ecd214890abc2815",
+      "title": "IPCA-15, PIB e PCE movimentam mercados",
+      "summary": "IPCA-15, PIB do Brasil e PCE dos EUA dominam agenda e movimentam mercados na semana",
+      "details": "IPCA-15, PIB do Brasil e PCE dos EUA dominam agenda e movimentam mercados na semana",
+      "url": "https://www.spacemoney.com.br/investimentos/ipca-15-pib-brasil-pce-eua-movimentam-mercados-semana/",
+      "source": "SpaceMoney",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-24T21:46:49Z",
+      "updatedAt": "2026-05-24T21:46:49Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/05/pexels-photo-7887853.jpg"
+    },
+    {
+      "id": "latest-f2397923f96f8d0f9e99b4df",
+      "title": "Acordo com Irã pode reduzir preços de energia e influenciar juros nos EUA",
+      "summary": "Entenda como um acordo entre EUA e Irã pode impactar inflação e taxas de juros.",
+      "details": "Entenda como um acordo entre EUA e Irã pode impactar inflação e taxas de juros.",
+      "url": "https://diariodoestadogo.com.br/acordo-com-ira-pode-reduzir-precos-de-energia-e-influenciar-juros-nos-eua/",
+      "source": "diário do estado",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-24T21:45:58Z",
+      "updatedAt": "2026-05-24T21:45:58Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/acordo-com-ira-pode-reduzir-precos-de-energia-e-influenciar-juros-nos-eua.jpg"
+    },
+    {
+      "id": "companies-b2f682e617a03b91b692d809",
+      "title": "Quatro em cada dez indústrias brasileiras não oferecem serviços associados à venda de produtos, diz CNI",
+      "summary": "Atualizacao de empresas capturada em capitalnews.com.br.",
+      "details": "",
+      "url": "https://www.capitalnews.com.br/nacional/quatro-em-cada-dez-industrias-brasileiras-nao-oferecem-servicos-associados-a-venda-de-produtos-diz-cni/441000",
+      "source": "capitalnews.com.br",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-05-24T21:40:00Z",
+      "updatedAt": "2026-05-24T21:40:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "macro-4f15f0b04123e323327d2929",
+      "title": "Vera Cruz sediará seminário regional de educação fiscal em junho",
+      "summary": "Programação na EMEF Elemar Guilherme Kroth terá palestras, debates e apresentações culturais abertas à comunidade",
+      "details": "Programação na EMEF Elemar Guilherme Kroth terá palestras, debates e apresentações culturais abertas à comunidade",
+      "url": "https://www.gaz.com.br/vera-cruz-sediara-seminario-regional-de-educacao-fiscal-em-junho/",
+      "source": "GAZ",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-24T21:33:00Z",
+      "updatedAt": "2026-05-24T21:33:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.gaz.com.br/uploads/2026/05/seminario-regional-de-educacao-fiscal.jpg"
+    },
+    {
+      "id": "macro-85307aa788a3b85ecce907bb",
+      "title": "Acordo com Irã alivia preços de energia e abre espaço para Fed cortar juros, diz Hassett",
+      "summary": "O diretor do Conselho Econômico Nacional da Casa Branca, Kevin Hassett, afirmou neste domingo que um acordo entre Estados Unidos e Irã pode reabrir o Estreito…",
+      "details": "O diretor do Conselho Econômico Nacional da Casa Branca, Kevin Hassett, afirmou neste domingo que um acordo entre Estados Unidos e Irã pode reabrir o Estreito…",
+      "url": "https://jovempan.com.br/noticias/mundo/acordo-com-ira-alivia-precos-de-energia-e-abre-espaco-para-fed-cortar-juros-diz-hassett.html",
+      "source": "Jovem Pan",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-24T21:22:21Z",
+      "updatedAt": "2026-05-24T21:22:21Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://jpimg.com.br/uploads/2023/12/000_347t79m-1024x689.jpg"
+    },
+    {
       "id": "latest-33aab4962e1c1f67cbacaac7",
       "title": "Mercado de Treasuries testa tolerância de Washington a juros mais elevados",
-      "summary": "PIB, emprego e inflação do Brasil dominam agenda econômica da semana a partir de 26/05.",
-      "details": "PIB, emprego e inflação do Brasil dominam agenda econômica da semana a partir de 26/05.",
-      "url": "https://www.spacemoney.com.br/investimentos/pib-emprego-e-inflacao-pautam-a-semana-no-brasil/",
+      "summary": "O mercado de Treasuries elevou rapidamente os rendimentos, testando a tolerância de Washington a juros mais elevados. A guerra no Irã impulsionou os preços d...",
+      "details": "O mercado de Treasuries elevou rapidamente os rendimentos, testando a tolerância de Washington a juros mais elevados. A guerra no Irã impulsionou os preços d...",
+      "url": "https://www.portaltela.com/noticias/economia/2026/05/24/mercado-de-treasuries-testa-tolerancia-de-washington-a-juros-mais-elevados/",
       "source": "Portal Tela",
       "category": "latest",
       "tags": [
@@ -227,14 +347,14 @@
       "updatedAt": "2026-05-24T21:17:28Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/05/pexels-photo-7887818-1.jpg"
+      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/05/427243386-1.jpg"
     },
     {
       "id": "funds-6de15115bf4d3ab315cd8924",
       "title": "Star Citizen atinge US$ 1 bilhão e planeja lançamento em 2026",
-      "summary": "O mercado de Treasuries elevou rapidamente os rendimentos, testando a tolerância de Washington a juros mais elevados. A guerra no Irã impulsionou os preços d...",
-      "details": "O mercado de Treasuries elevou rapidamente os rendimentos, testando a tolerância de Washington a juros mais elevados. A guerra no Irã impulsionou os preços d...",
-      "url": "https://www.portaltela.com/noticias/economia/2026/05/24/mercado-de-treasuries-testa-tolerancia-de-washington-a-juros-mais-elevados/",
+      "summary": "Diretor do Conselho Econômico da Casa Branca destaca que reabertura do Estreito de Ormuz pode aliviar inflação e influenciar decisões do Fed.",
+      "details": "Diretor do Conselho Econômico da Casa Branca destaca que reabertura do Estreito de Ormuz pode aliviar inflação e influenciar decisões do Fed.",
+      "url": "https://www.tribunadosertao.com.br/geral/2026/05/24/906988-acordo-entre-eua-e-ira-pode-reduzir-precos-de-energia-e-abrir-caminho-para-corte-de-juros-diz-hassett",
       "source": "Última Ficha",
       "category": "funds",
       "tags": [
@@ -246,15 +366,15 @@
       "updatedAt": "2026-05-24T21:17:18Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/05/427243386-1.jpg"
+      "imageUrl": "https://img.dhost.cloud/4FMq6Dh_ffew9ehh37rRtreZT0U=/1200x630/smart/https://tdan.nyc3.digitaloceanspaces.com/images/30e17/687bbf6a925c8e156a8db73eaeb74d9f769.jpg"
     },
     {
-      "id": "macro-6986559323efd988f9e99a7b",
-      "title": "Acordo com Irã pode aliviar preços de energia e abrir espaço para Fed cortar juros, diz Hassett",
-      "summary": "Atualizacao de macro capturada em UOL Economia.",
+      "id": "macro-c1e13ba239895229caaff6ed",
+      "title": "Acordo entre EUA e Irã pode reduzir preços de energia e abrir caminho para corte de juros, diz Hassett",
+      "summary": "Atualizacao de macro capturada em Tribuna do Sertão.",
       "details": "",
       "url": "https://ultimaficha.com.br/2026/05/24/star-citizen-bilhao-financiamento/",
-      "source": "UOL Economia",
+      "source": "Tribuna do Sertão",
       "category": "macro",
       "tags": [
         "macro",
@@ -267,11 +387,30 @@
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
+      "id": "macro-e2e8e21656039c02d0c7bdfb",
+      "title": "Acordo com Irã pode aliviar preços de energia e abrir espaço para Fed cortar juros, diz Hassett",
+      "summary": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
+      "details": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
+      "url": "https://www.tribunadoagreste.com.br/geral/2026/05/24/906989-acordo-com-ira-pode-aliviar-precos-de-energia-e-abrir-espaco-para-fed-cortar-juros-diz-hassett",
+      "source": "Tribuna do Agreste",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-24T21:14:00Z",
+      "updatedAt": "2026-05-24T21:14:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://img.dhost.cloud/-FwlEAEAx-mFYR0PQP9iZBfVSe4=/1200x630/smart/https://tdan.nyc3.digitaloceanspaces.com/images/83589/121fd4e3cc9f510f13fddfb8e1baf8e7975.webp?name=kevin-hassett.webp"
+    },
+    {
       "id": "macro-9924360105ca4f47c4fadb27",
       "title": "PIB, emprego e inflação pautam a semana",
-      "summary": "Atualizacao de macro capturada em SpaceMoney.",
-      "details": "",
-      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/05/24/acordo-com-ira-pode-aliviar-precos-de-energia-e-abrir-espaco-para-fed-cortar-juros-diz-hassett.htm",
+      "summary": "Mercado reverte apostas e precifica alta de juros nos EUA até dezembro com Warsh no Fed.",
+      "details": "Mercado reverte apostas e precifica alta de juros nos EUA até dezembro com Warsh no Fed.",
+      "url": "https://www.spacemoney.com.br/investimentos/warsh-fed-mercado-precifica-alta-juros-eua-dezembro/",
       "source": "SpaceMoney",
       "category": "macro",
       "tags": [
@@ -282,14 +421,15 @@
       "publishedAt": "2026-05-24T21:10:29Z",
       "updatedAt": "2026-05-24T21:10:29Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/05/pexels-photo-10149296-5.jpg"
     },
     {
       "id": "latest-022d6acf45fe3e05197bbb75",
       "title": "Warsh no Fed: mercado aposta em alta de juros até dezembro",
-      "summary": "Mercado reverte apostas e precifica alta de juros nos EUA até dezembro com Warsh no Fed.",
-      "details": "Mercado reverte apostas e precifica alta de juros nos EUA até dezembro com Warsh no Fed.",
-      "url": "https://www.spacemoney.com.br/investimentos/warsh-fed-mercado-precifica-alta-juros-eua-dezembro/",
+      "summary": "PIB, emprego e inflação do Brasil dominam agenda econômica da semana a partir de 26/05.",
+      "details": "PIB, emprego e inflação do Brasil dominam agenda econômica da semana a partir de 26/05.",
+      "url": "https://www.spacemoney.com.br/investimentos/pib-emprego-e-inflacao-pautam-a-semana-no-brasil/",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -301,14 +441,14 @@
       "updatedAt": "2026-05-24T21:09:55Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/05/pexels-photo-10149296-5.jpg"
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/05/pexels-photo-7887818-1.jpg"
     },
     {
       "id": "latest-9ee9faa5400d81d47f31d0e4",
       "title": "Mercado antecipa alta de juros nos EUA até dezembro com Warsh no Fed",
-      "summary": "Com Warsh à frente do Federal Reserve, o mercado passou a precificar altas de juros nos EUA até dezembro, revertendo apostas feitas três meses atrás. O salto...",
-      "details": "Com Warsh à frente do Federal Reserve, o mercado passou a precificar altas de juros nos EUA até dezembro, revertendo apostas feitas três meses atrás. O salto...",
-      "url": "https://www.portaltela.com/noticias/economia/2026/05/24/mercado-antecipa-alta-de-juros-nos-eua-ate-dezembro-com-warsh-no-fed/",
+      "summary": "Dados de inflação, atividade e emprego no Brasil e nos EUA devem concentrar a atenção dos investidores nesta agenda da semana",
+      "details": "Dados de inflação, atividade e emprego no Brasil e nos EUA devem concentrar a atenção dos investidores nesta agenda da semana",
+      "url": "https://bpmoney.com.br/brasil/agenda-da-semana-ipca-15-pib-do-brasil-e-pce-dos-eua-movimentam-mercados/",
       "source": "Portal Tela",
       "category": "latest",
       "tags": [
@@ -320,14 +460,14 @@
       "updatedAt": "2026-05-24T21:07:20Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/05/456875156.jpg"
+      "imageUrl": "https://bpmoney.com.br/wp-content/uploads/2024/09/NOTAS-19-640x853.png"
     },
     {
       "id": "macro-4732dae0287ef19c4ef1ca6c",
       "title": "Agenda da semana: IPCA-15, PIB do Brasil e PCE dos EUA movimentam mercados",
-      "summary": "Dados de inflação, atividade e emprego no Brasil e nos EUA devem concentrar a atenção dos investidores nesta agenda da semana",
-      "details": "Dados de inflação, atividade e emprego no Brasil e nos EUA devem concentrar a atenção dos investidores nesta agenda da semana",
-      "url": "https://bpmoney.com.br/brasil/agenda-da-semana-ipca-15-pib-do-brasil-e-pce-dos-eua-movimentam-mercados/",
+      "summary": "Com Warsh à frente do Federal Reserve, o mercado passou a precificar altas de juros nos EUA até dezembro, revertendo apostas feitas três meses atrás. O salto...",
+      "details": "Com Warsh à frente do Federal Reserve, o mercado passou a precificar altas de juros nos EUA até dezembro, revertendo apostas feitas três meses atrás. O salto...",
+      "url": "https://www.portaltela.com/noticias/economia/2026/05/24/mercado-antecipa-alta-de-juros-nos-eua-ate-dezembro-com-warsh-no-fed/",
       "source": "BPMoney",
       "category": "macro",
       "tags": [
@@ -339,7 +479,7 @@
       "updatedAt": "2026-05-24T21:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://bpmoney.com.br/wp-content/uploads/2024/09/NOTAS-19-640x853.png"
+      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/05/456875156.jpg"
     },
     {
       "id": "latest-1c68ef5e402ad624a168d1c4",
@@ -363,9 +503,9 @@
     {
       "id": "latest-d6e393e4e47175509501d244",
       "title": "Com Warsh no Fed, mercado precifica alta de juros nos EUA até dezembro",
-      "summary": "Apostas de três meses atrás revertem com guerra, resiliência da economia americana e o boom de investimentos em IA",
-      "details": "Apostas de três meses atrás revertem com guerra, resiliência da economia americana e o boom de investimentos em IA",
-      "url": "https://www.infomoney.com.br/economia/com-warsh-no-fed-mercado-precifica-alta-de-juros-nos-eua-ate-dezembro/",
+      "summary": "Os ministérios da Fazenda e do Planejamento anunciaram nesta sexta-feira bloqueio adicional de R$ 22,1 bilhões em despesas não obrigatórias do Orçamento de 2026.",
+      "details": "Os ministérios da Fazenda e do Planejamento anunciaram nesta sexta-feira bloqueio adicional de R$ 22,1 bilhões em despesas não obrigatórias do Orçamento de 2026.",
+      "url": "https://www.novojornal.com.br/governo-amplia-bloqueio-orcamentario-e-corta-r-221-bilhoes-adicionais-federais/",
       "source": "InfoMoney",
       "category": "latest",
       "tags": [
@@ -377,14 +517,14 @@
       "updatedAt": "2026-05-24T20:55:43Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/05/456875156.jpg?quality=70"
+      "imageUrl": "https://www.novojornal.com.br/wp-content/uploads/2026/05/Governo-amplia-bloqueio-orcamentario-e-corta-R-221-bilhoes-adicionais-federais.jpg"
     },
     {
       "id": "macro-59262f8082956dc846daaf7c",
       "title": "Governo amplia bloqueio orçamentário e corta R$ 22,1 bilhões adicionais federais",
-      "summary": "Os ministérios da Fazenda e do Planejamento anunciaram nesta sexta-feira bloqueio adicional de R$ 22,1 bilhões em despesas não obrigatórias do Orçamento de 2026.",
-      "details": "Os ministérios da Fazenda e do Planejamento anunciaram nesta sexta-feira bloqueio adicional de R$ 22,1 bilhões em despesas não obrigatórias do Orçamento de 2026.",
-      "url": "https://www.novojornal.com.br/governo-amplia-bloqueio-orcamentario-e-corta-r-221-bilhoes-adicionais-federais/",
+      "summary": "Apostas de três meses atrás revertem com guerra, resiliência da economia americana e o boom de investimentos em IA",
+      "details": "Apostas de três meses atrás revertem com guerra, resiliência da economia americana e o boom de investimentos em IA",
+      "url": "https://www.infomoney.com.br/economia/com-warsh-no-fed-mercado-precifica-alta-de-juros-nos-eua-ate-dezembro/",
       "source": "novojornal.com.br",
       "category": "macro",
       "tags": [
@@ -396,14 +536,14 @@
       "updatedAt": "2026-05-24T20:48:38Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.novojornal.com.br/wp-content/uploads/2026/05/Governo-amplia-bloqueio-orcamentario-e-corta-R-221-bilhoes-adicionais-federais.jpg"
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/05/456875156.jpg?quality=70"
     },
     {
       "id": "macro-b8c32e39622b1ad26087dd5d",
       "title": "Agenda da semana: feriado nos EUA, PIB do Brasil, votação do fim da escala '6x1'",
-      "summary": "Mercadante alerta que fundos de investimento podem ser o próximo escândalo após Banco Master; BC e CVM precisam de mais autonomia.",
-      "details": "Mercadante alerta que fundos de investimento podem ser o próximo escândalo após Banco Master; BC e CVM precisam de mais autonomia.",
-      "url": "https://www.diariodocentrodomundo.com.br/mercadante-alerta-que-fundos-de-investimento-podem-ser-o-proximo-escandalo-apos-caso-do-banco-master/",
+      "summary": "O crescimento das despesas obrigatórias levou o governo federal a elevar a previsão de déficit primário total de R$ 59,8 bilhões para R$ 60,3",
+      "details": "O crescimento das despesas obrigatórias levou o governo federal a elevar a previsão de déficit primário total de R$ 59,8 bilhões para R$ 60,3",
+      "url": "https://www.novojornal.com.br/precatorios-elevam-previsao-de-deficit-primario-federal-para-r-603-bilhoes/",
       "source": "Valor Investe",
       "category": "macro",
       "tags": [
@@ -415,14 +555,14 @@
       "updatedAt": "2026-05-24T20:42:11Z",
       "premium": true,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/05/toms9711.webp"
+      "imageUrl": "https://www.novojornal.com.br/wp-content/uploads/2026/05/Precatorios-elevam-previsao-de-deficit-primario-federal-para-R-603-bilhoes.jpg"
     },
     {
       "id": "macro-faaa752120421badca4001b8",
       "title": "Precatórios elevam previsão de déficit primário federal para R$ 60,3 bilhões",
-      "summary": "Principal assessor econômico de Trump disse que a desaceleração dos preços do petróleo após um acordo com o Irã daria ao Fed mais espaço para reduzir as taxas: ‘quando isso acontecer, haverá muito espaço para que o Fed faça a coisa certa com taxas mais baixas’, disse à Fox News",
-      "details": "Principal assessor econômico de Trump disse que a desaceleração dos preços do petróleo após um acordo com o Irã daria ao Fed mais espaço para reduzir as taxas: ‘quando isso acontecer, haverá muito espaço para que o Fed faça a coisa certa com taxas mais baixas’, disse à Fox News",
-      "url": "https://www.bloomberglinea.com.br/mercados/hassett-diz-que-acordo-com-ira-pode-derrubar-petroleo-e-abrir-espaco-para-corte-do-fed/",
+      "summary": "Semana começa sem operação nas bolsas de Nova York, mas agenda econômica e política local será intensa",
+      "details": "Semana começa sem operação nas bolsas de Nova York, mas agenda econômica e política local será intensa",
+      "url": "https://valorinveste.globo.com/mercados/noticia/2026/05/24/agenda-da-semana-feriado-nos-eua-pib-do-brasil-votacao-do-fim-da-escala-6x1.ghtml",
       "source": "novojornal.com.br",
       "category": "macro",
       "tags": [
@@ -434,14 +574,14 @@
       "updatedAt": "2026-05-24T20:41:38Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.bloomberglinea.com/resizer/v2/73HBP4O7QVCSDPKZGYKMTEUD7E.jpeg?auth=60177ca65930f156f1e39fc8cb8db317fd8d4d32b117839035ee3aab95947a99&width=1200&height=675&quality=80&focal=1200,236"
+      "imageUrl": "https://s2-valor-investe.glbimg.com/4cMkAHowuG_Y_xrXiWQ75fODSQw=/2121x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_f035dd6fd91c438fa04ab718d608bbaa/internal_photos/bs/2026/X/1/3ta1zgRWApbEtXQB86TA/gettyimages-2199362008.jpg"
     },
     {
       "id": "macro-4548c067b19561f442a1ea62",
       "title": "Canetas emagrecedoras impulsionam economia da Dinamarca e elevam projeção do PIB",
-      "summary": "Ford Ecosport de 2003 custaria R$ 162 mil hoje, com IPCA acumulado de 326,98%.",
-      "details": "Ford Ecosport de 2003 custaria R$ 162 mil hoje, com IPCA acumulado de 326,98%.",
-      "url": "https://www.spacemoney.com.br/tecnologia/ford-ecosport-preco-hoje-com-inflacao-ipca-2026/",
+      "summary": "Dono de uma fortuna bilionária, o empresário brasileiro se tornou um dos nomes mais poderosos do mercado financeiro",
+      "details": "Dono de uma fortuna bilionária, o empresário brasileiro se tornou um dos nomes mais poderosos do mercado financeiro",
+      "url": "https://caras.com.br/atualidades/com-fortuna-de-202-bilhoes-empresario-de-57-anos-e-eleito-o-segundo-brasileiro-mais-rico-do-mundo.phtml",
       "source": "Balada IN",
       "category": "macro",
       "tags": [
@@ -453,14 +593,14 @@
       "updatedAt": "2026-05-24T20:32:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/05/pexels-photo-29000095.jpg"
+      "imageUrl": "https://caras.com.br/wp-content/uploads/2026/05/Andre-Esteves-2026-05-24-at-15.19.20.jpeg"
     },
     {
       "id": "macro-db5b3d52d351bc3c317925ca",
       "title": "Ford Ecosport custaria R$ 162 mil hoje com inflação",
-      "summary": "O sucesso global das canetas emagrecedoras Ozempic e Wegovy deve impulsionar o crescimento da economia da Dinamarca em 2026. O Ministério da Economia do país revisou para 2,7% a projeção de alta do PIB dinamarquês neste ano, apontando a força da indústria farmacêutica, liderada p",
-      "details": "O sucesso global das canetas emagrecedoras Ozempic e Wegovy deve impulsionar o crescimento da economia da Dinamarca em 2026. O Ministério da Economia do país revisou para 2,7% a projeção de alta do PIB dinamarquês neste ano, apontando a força da indústria farmacêutica, liderada pela Novo Nordisk, como principal fator p",
-      "url": "https://www.portalin.com.br/negocios/canetas-emagrecedoras-impulsionam-economia-da-dinamarca-e-elevam-projecao-do-pib/",
+      "summary": "Mercadante alerta que fundos de investimento podem ser o próximo escândalo após Banco Master; BC e CVM precisam de mais autonomia.",
+      "details": "Mercadante alerta que fundos de investimento podem ser o próximo escândalo após Banco Master; BC e CVM precisam de mais autonomia.",
+      "url": "https://www.diariodocentrodomundo.com.br/mercadante-alerta-que-fundos-de-investimento-podem-ser-o-proximo-escandalo-apos-caso-do-banco-master/",
       "source": "SpaceMoney",
       "category": "macro",
       "tags": [
@@ -472,14 +612,14 @@
       "updatedAt": "2026-05-24T20:13:23Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.portalin.com.br/wp-content/uploads/2025/01/ozempic.webp"
+      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/05/toms9711.webp"
     },
     {
       "id": "funds-1b71fd74add2ca2e73937806",
       "title": "Mercadante alerta que fundos de investimento podem ser o próximo escândalo após caso do Banco Master",
-      "summary": "O Ford Ecosport pode ser considerado o principal respons&aacute;vel pela &ldquo;explos&atilde;o&rdquo; do segmento dos SUVs no Brasil. Afinal, foi desde a chega",
-      "details": "O Ford Ecosport pode ser considerado o principal respons&aacute;vel pela &ldquo;explos&atilde;o&rdquo; do segmento dos SUVs no Brasil. Afinal, foi desde a chega",
-      "url": "https://canaltech.com.br/carros/quanto-custaria-um-ford-ecosport-hoje-com-a-inflacao/",
+      "summary": "O sucesso global das canetas emagrecedoras Ozempic e Wegovy deve impulsionar o crescimento da economia da Dinamarca em 2026. O Ministério da Economia do país revisou para 2,7% a projeção de alta do PIB dinamarquês neste ano, apontando a força da indústria farmacêutica, liderada p",
+      "details": "O sucesso global das canetas emagrecedoras Ozempic e Wegovy deve impulsionar o crescimento da economia da Dinamarca em 2026. O Ministério da Economia do país revisou para 2,7% a projeção de alta do PIB dinamarquês neste ano, apontando a força da indústria farmacêutica, liderada pela Novo Nordisk, como principal fator p",
+      "url": "https://www.portalin.com.br/negocios/canetas-emagrecedoras-impulsionam-economia-da-dinamarca-e-elevam-projecao-do-pib/",
       "source": "Diário do Centro do Mundo",
       "category": "funds",
       "tags": [
@@ -491,14 +631,14 @@
       "updatedAt": "2026-05-24T20:10:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://t.ctcdn.com.br/Qi_y4rijZHSCU1hwqin8dZe5Q8s=/1200x675/smart/i1125349.jpeg"
+      "imageUrl": "https://www.portalin.com.br/wp-content/uploads/2025/01/ozempic.webp"
     },
     {
       "id": "macro-1bf8e27cbe906e0ea369a9e1",
       "title": "Hassett diz que acordo com Irã pode reduzir petróleo e abrir espaço para corte do Fed",
-      "summary": "Segundo ele, dados recentes de inflação mostram que os preços de energia foram absolutamente preocupantes, mas o núcleo da inflação praticamente não se moveu",
-      "details": "Segundo ele, dados recentes de inflação mostram que os preços de energia foram absolutamente preocupantes, mas o núcleo da inflação praticamente não se moveu",
-      "url": "https://valor.globo.com/financas/noticia/2026/05/24/hasset-diz-que-fim-da-guerra-no-ira-pode-criar-espaco-para-fed-reduzir-juros.ghtml",
+      "summary": "Ford Ecosport de 2003 custaria R$ 162 mil hoje, com IPCA acumulado de 326,98%.",
+      "details": "Ford Ecosport de 2003 custaria R$ 162 mil hoje, com IPCA acumulado de 326,98%.",
+      "url": "https://www.spacemoney.com.br/tecnologia/ford-ecosport-preco-hoje-com-inflacao-ipca-2026/",
       "source": "Bloomberg Línea Brasil",
       "category": "macro",
       "tags": [
@@ -510,14 +650,14 @@
       "updatedAt": "2026-05-24T20:09:14Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/BAPXAPco5xYL0HgFTQITV-KorHo=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/W/6/e1jfRASAODyLho79k5AQ/foto10fin-111-tlhassett-c1.jpg"
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/05/pexels-photo-29000095.jpg"
     },
     {
       "id": "macro-6ea6f00dfef3a42b096ff7eb",
       "title": "Quanto custaria um Ford Ecosport hoje, com a inflação?",
-      "summary": "Tudo o que o investidor precisa saber antes de operar na semana",
-      "details": "Tudo o que o investidor precisa saber antes de operar na semana",
-      "url": "https://www.infomoney.com.br/mercados/calendario-economico-da-semana-pib-trabalho-e-inflacao-sao-foco-no-brasil/",
+      "summary": "Segundo ele, dados recentes de inflação mostram que os preços de energia foram absolutamente preocupantes, mas o núcleo da inflação praticamente não se moveu",
+      "details": "Segundo ele, dados recentes de inflação mostram que os preços de energia foram absolutamente preocupantes, mas o núcleo da inflação praticamente não se moveu",
+      "url": "https://valor.globo.com/google/amp/financas/noticia/2026/05/24/hasset-diz-que-fim-da-guerra-no-ira-pode-criar-espaco-para-fed-reduzir-juros.ghtml",
       "source": "Canaltech",
       "category": "macro",
       "tags": [
@@ -529,14 +669,14 @@
       "updatedAt": "2026-05-24T20:05:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2024/12/calendario_F1-Digitals-Pixabay.jpg?fit=1280%2C853&quality=70&strip=all"
+      "imageUrl": "https://s2-valor.glbimg.com/BAPXAPco5xYL0HgFTQITV-KorHo=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/W/6/e1jfRASAODyLho79k5AQ/foto10fin-111-tlhassett-c1.jpg"
     },
     {
       "id": "macro-98c83ca77d3771c78f0580a4",
       "title": "Hasset diz que fim da guerra no Irã pode criar espaço para Fed reduzir juros",
-      "summary": "Uma análise ampla mostra que o desajuste fiscal brasileiro não tem relação com partido político",
-      "details": "Uma análise ampla mostra que o desajuste fiscal brasileiro não tem relação com partido político",
-      "url": "https://www.estadao.com.br/amp/economia/claudio-adilson-goncalez/o-deficit-fiscal-e-estrutural-nao-tem-ideologia-o-governo-e-o-congresso-precisam-entender-e-agir/",
+      "summary": "O Ford Ecosport pode ser considerado o principal respons&aacute;vel pela &ldquo;explos&atilde;o&rdquo; do segmento dos SUVs no Brasil. Afinal, foi desde a chega",
+      "details": "O Ford Ecosport pode ser considerado o principal respons&aacute;vel pela &ldquo;explos&atilde;o&rdquo; do segmento dos SUVs no Brasil. Afinal, foi desde a chega",
+      "url": "https://canaltech.com.br/carros/quanto-custaria-um-ford-ecosport-hoje-com-a-inflacao/",
       "source": "Valor Econômico",
       "category": "macro",
       "tags": [
@@ -548,108 +688,14 @@
       "updatedAt": "2026-05-24T20:02:58Z",
       "premium": true,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/QRQICTARC5GPNISBSQRUXSJH3Y.jpg?quality=80&auth=6013c40032054c4e95556167253eb84942729e0375b9a89c419344b84b975b7f&width=1200"
-    },
-    {
-      "id": "macro-9ab3b35e5afff77f8bcff2e5",
-      "title": "Calendário econômico da semana: PIB, trabalho e inflação são foco no Brasil",
-      "summary": "O crescimento das despesas obrigatórias levou o governo federal a elevar a previsão de déficit primário total de R$ 59,8 bilhões para R$ 60,3",
-      "details": "O crescimento das despesas obrigatórias levou o governo federal a elevar a previsão de déficit primário total de R$ 59,8 bilhões para R$ 60,3",
-      "url": "https://www.novojornal.com.br/precatorios-elevam-previsao-de-deficit-primario-federal-para-r-603-bilhoes/",
-      "source": "InfoMoney",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-24T20:00:00Z",
-      "updatedAt": "2026-05-24T20:00:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.novojornal.com.br/wp-content/uploads/2026/05/Precatorios-elevam-previsao-de-deficit-primario-federal-para-R-603-bilhoes.jpg"
-    },
-    {
-      "id": "macro-213c0eb431eb1b9d81889bed",
-      "title": "O déficit fiscal é estrutural, não tem ideologia; o governo e o Congresso precisam entender e agir",
-      "summary": "Semana começa sem operação nas bolsas de Nova York, mas agenda econômica e política local será intensa",
-      "details": "Semana começa sem operação nas bolsas de Nova York, mas agenda econômica e política local será intensa",
-      "url": "https://valorinveste.globo.com/mercados/noticia/2026/05/24/agenda-da-semana-feriado-nos-eua-pib-do-brasil-votacao-do-fim-da-escala-6x1.ghtml",
-      "source": "Estadão",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-24T20:00:00Z",
-      "updatedAt": "2026-05-24T20:00:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor-investe.glbimg.com/4cMkAHowuG_Y_xrXiWQ75fODSQw=/2121x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_f035dd6fd91c438fa04ab718d608bbaa/internal_photos/bs/2026/X/1/3ta1zgRWApbEtXQB86TA/gettyimages-2199362008.jpg"
-    },
-    {
-      "id": "macro-168153a726dfb889f04f5d74",
-      "title": "Kevin Warsh diz que liderará um Federal Reserve orientado para reforma",
-      "summary": "Esta última semana apresentou avanços incrementais, mas potencialmente importantes.",
-      "details": "Esta última semana apresentou avanços incrementais, mas potencialmente importantes.",
-      "url": "https://www.coindesk.com/pt-br/policy/2026/05/24/crypto-and-the-fed-state-of-crypto",
-      "source": "MSN",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-24T19:05:27Z",
-      "updatedAt": "2026-05-24T19:05:27Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/abfc53cb8936b0ca235301bd25a7729a38804863-4928x3264.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg"
-    },
-    {
-      "id": "macro-ea0524bf6bd6194248048c0b",
-      "title": "Polícia apreende carga irregular de vinhos importados avaliada em R$ 100 mil em rodovia de Angatuba",
-      "summary": "Atualizacao de macro capturada em G1.",
-      "details": "",
-      "url": "https://www.msn.com/pt-br/dinheiro/economia-e-negocios/kevin-warsh-diz-que-liderar%C3%A1-um-federal-reserve-orientado-para-reforma/ar-AA23R3Mq?ocid=finance-verthp-feeds",
-      "source": "G1",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-24T19:01:07Z",
-      "updatedAt": "2026-05-24T19:01:07Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-037006d98b7b819850e52936",
-      "title": "Cripto e o Fed: Estado das Criptomoedas",
-      "summary": "Uma carga com 1,2 mil garrafas de vinhos importados irregularmente foi apreendida durante uma operação na Rodovia Raposo Tavares Branco, em Angatuba, na manhã deste domingo (24).",
-      "details": "Uma carga com 1,2 mil garrafas de vinhos importados irregularmente foi apreendida durante uma operação na Rodovia Raposo Tavares Branco, em Angatuba, na manhã deste domingo (24).",
-      "url": "https://g1.globo.com/google/amp/sp/itapetininga-regiao/noticia/2026/05/24/policia-apreende-carga-irregular-de-vinhos-importados-avaliada-em-r-100-mil-em-rodovia-de-angatuba.ghtml",
-      "source": "CoinDesk",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-24T18:36:39Z",
-      "updatedAt": "2026-05-24T18:36:39Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-g1.glbimg.com/B_aeIqqiIbcC3B_XaMAl60hM6eM=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/u/H/fkm653SIOnaY9s4GWp5Q/whatsapp-image-2026-05-24-at-15.50.22.jpeg"
+      "imageUrl": "https://t.ctcdn.com.br/Qi_y4rijZHSCU1hwqin8dZe5Q8s=/1200x675/smart/i1125349.jpeg"
     },
     {
       "id": "latest-afa3394ee83be9169af4ffac",
       "title": "Com fortuna de 20,2 bilhões, empresário de 57 anos é eleito o segundo brasileiro mais rico do mundo",
-      "summary": "Dono de uma fortuna bilionária, o empresário brasileiro se tornou um dos nomes mais poderosos do mercado financeiro",
-      "details": "Dono de uma fortuna bilionária, o empresário brasileiro se tornou um dos nomes mais poderosos do mercado financeiro",
-      "url": "https://caras.com.br/atualidades/com-fortuna-de-202-bilhoes-empresario-de-57-anos-e-eleito-o-segundo-brasileiro-mais-rico-do-mundo.phtml",
+      "summary": "Atualizacao de ultima hora capturada em CARAS Brasil.",
+      "details": "",
+      "url": "https://www.capitalnews.com.br/nacional/lula-e-apexbrasil-defendem-crescimento-do-emprego-dos-investimentos-e-da-internacionalizacao-da-construcao-civil-brasileira/440998",
       "source": "CARAS Brasil",
       "category": "latest",
       "tags": [
@@ -660,15 +706,14 @@
       "publishedAt": "2026-05-24T18:23:56Z",
       "updatedAt": "2026-05-24T18:23:56Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://caras.com.br/wp-content/uploads/2026/05/Andre-Esteves-2026-05-24-at-15.19.20.jpeg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-21ebf93b94e103f3421e8d3f",
       "title": "Lula e ApexBrasil defendem crescimento do emprego, dos investimentos e da internacionalização da construção civil brasileira",
-      "summary": "Atualizacao de empresas capturada em capitalnews.com.br.",
-      "details": "",
-      "url": "https://www.capitalnews.com.br/nacional/lula-e-apexbrasil-defendem-crescimento-do-emprego-dos-investimentos-e-da-internacionalizacao-da-construcao-civil-brasileira/440998",
+      "summary": "Principal assessor econômico de Trump disse que a desaceleração dos preços do petróleo após um acordo com o Irã daria ao Fed mais espaço para reduzir as taxas: ‘quando isso acontecer, haverá muito espaço para que o Fed faça a coisa certa com taxas mais baixas’, disse à Fox News",
+      "details": "Principal assessor econômico de Trump disse que a desaceleração dos preços do petróleo após um acordo com o Irã daria ao Fed mais espaço para reduzir as taxas: ‘quando isso acontecer, haverá muito espaço para que o Fed faça a coisa certa com taxas mais baixas’, disse à Fox News",
+      "url": "https://www.bloomberglinea.com.br/mercados/hassett-diz-que-acordo-com-ira-pode-derrubar-petroleo-e-abrir-espaco-para-corte-do-fed/",
       "source": "capitalnews.com.br",
       "category": "companies",
       "tags": [
@@ -679,14 +724,15 @@
       "publishedAt": "2026-05-24T18:22:00Z",
       "updatedAt": "2026-05-24T18:22:00Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://www.bloomberglinea.com/resizer/v2/73HBP4O7QVCSDPKZGYKMTEUD7E.jpeg?auth=60177ca65930f156f1e39fc8cb8db317fd8d4d32b117839035ee3aab95947a99&width=1200&height=675&quality=80&focal=1200,236"
     },
     {
-      "id": "latest-ce0ad80f92ccb5131e209c00",
-      "title": "Santos projeta futuro econômico e critica privilégios fiscais",
-      "summary": "Santos discute reformas fiscais em evento com empresários e critica modelos políticos conhecidos.",
-      "details": "Santos discute reformas fiscais em evento com empresários e critica modelos políticos conhecidos.",
-      "url": "https://diariodoestadogo.com.br/santos-projeta-futuro-economico-e-critica-privilegios-fiscais/",
+      "id": "latest-b9ef1acec29e1559e61563ce",
+      "title": "Como o futuro presidente do Brasil impactará a economia",
+      "summary": "Atualizacao de ultima hora capturada em diário do estado.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONUZxZ0RPejFOVWZNc0ZsVHliWmU1b3dTNTQ5Q0Z5alMwQ3pNMElaQVdtVENiUU9NZVV2cVVtN3NFMnRsS1hnZlAySTBkUFFUYVhrRndRZEFVa2IzdFFWMkpCNDVhYzF4Q250UWtkSGZNRVdVV0ZMUHhLVUxxai1JRHN0Rm9NWFdpS0ZlVWVZOVVyZw?oc=5",
       "source": "diário do estado",
       "category": "latest",
       "tags": [
@@ -694,18 +740,35 @@
         "bolsa",
         "macro"
       ],
-      "publishedAt": "2026-05-24T18:00:41Z",
-      "updatedAt": "2026-05-24T18:00:41Z",
+      "publishedAt": "2026-05-24T18:00:55Z",
+      "updatedAt": "2026-05-24T18:00:55Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/santos-projeta-futuro-economico-e-critica-privilegios-fiscais.png"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "funds-e11a76c27f4ec7934c086b26",
+      "title": "Farmacêutica que era ligada ao Master atrasa entrega de insulina ao SUS e é cobrada pelo governo",
+      "summary": "Atualizacao de fundos capturada em Campos24Horas.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSENGQ0twTHFDbnl5QjkxdEh3ZGlpVkpYdnMtYVlTdGpDUTZpdTh5VEM4bkxjdGlHXzdKT05GLVQxRXdESTF5b2dscVQzT1ZZZWZtMHlRYm1wZGhQcFFJNkJWRXJaS00wd3hpRGNvRUxfMFFQX1ZvUzhRNXczWXJzMFVPRE1QWDVmU3JNM29seENsTjRXeDY4dHN6Zkh2Z3BNUklSemtSWklNZUhDTWN0YnpqNGpITkV1emFhRWVqY05Gd0hmUFZ0OEJraWFWZw?oc=5",
+      "source": "Campos24Horas",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-05-24T17:57:00Z",
+      "updatedAt": "2026-05-24T17:57:00Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "latest-adb2b97f89d7dde96e24842c",
       "title": "Renan Santos busca aproximação com empresários",
-      "summary": "Renan Santos, fundador do Movimento Brasil Livre e pré-candidato pelo Missão, ganha destaque entre empresários e no mercado financeiro. Pesquisa Atlas/Bloomb...",
-      "details": "Renan Santos, fundador do Movimento Brasil Livre e pré-candidato pelo Missão, ganha destaque entre empresários e no mercado financeiro. Pesquisa Atlas/Bloomb...",
-      "url": "https://www.portaltela.com/noticias/politica/2026/05/24/renan-santos-busca-aproximacao-com-empresarios/",
+      "summary": "Atualizacao de ultima hora capturada em Portal Tela.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ0NWQ0ZTN1NPN2RTbkJLNXJfcGFSYmRvelV5bzVXNUVGbzNhZndXTWlqc1lxd252RXhLeWZrOFRoTmR1WlRVWmJXQWhtWjNBR3BRd0VyWTVPMWphRUQxbXNBa3pKZFJwa29YYVRhZFQ4WFQ4S1BDUGJjTTR6RE1tUjhRakU3dFQ0NzRabV9fZWlJUDZyRFdqTVpuMmpmM3hVTkRGaGZB?oc=5",
       "source": "Portal Tela",
       "category": "latest",
       "tags": [
@@ -716,15 +779,14 @@
       "publishedAt": "2026-05-24T17:35:44Z",
       "updatedAt": "2026-05-24T17:35:44Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/05/aldo-rebelo-dc-e-renan-santos-missao-participam-do-forum-esfera-brasil-em-guaruja-sp-1779643056853_v2_900x506.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-500a73bdb7280102f16c7815",
       "title": "Ex-controlador do Banco Master Pode Revelar Escândalos que Abalam Mercado e Política Após Prisão do Pai, Aumentando Tensão Pré-Eleitoral em Brasília.",
-      "summary": "Daniel Vorcaro, ex-controlador do Banco Master, pode revelar informações sobre o escândalo financeiro após a prisão de seu pai. Sua colaboração pode impactar eleições de 2026 e políticos envolvidos. O caso, que abrange relações políticas e financeiras, levanta a necessidade de um",
-      "details": "Daniel Vorcaro, ex-controlador do Banco Master, pode revelar informações sobre o escândalo financeiro após a prisão de seu pai. Sua colaboração pode impactar eleições de 2026 e políticos envolvidos. O caso, que abrange relações políticas e financeiras, levanta a necessidade de uma CPI para investigar.",
-      "url": "https://reportermaceio.com.br/ex-controlador-do-banco-master-pode-revelar-escandalos-que-abalam-mercado-e-politica-apos-prisao-do-pai-aumentando-tensao-pre-eleitoral-em-brasilia/amp/",
+      "summary": "Atualizacao de ultima hora capturada em Repórter Maceió.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPRmdXZUZMbnVYcFVpN3ZGdnZhVS1FTG9vcFZNZDFqcklGTzJNZTBERTh5VGViOXJKLUpaZUNZMWpXNVZDYXlfQ1RMOGttOFE2dTlMeDZ1Q0Rmb292WkNGZWdKWi1tWE1felFKalhOMGRiaVNsQTZXazFacG5ndnNjOFh1QmxGS3Jsb0JwUWJNdlFVWnVxZEVSZlhyTU9BSVJiX2cwdWhLWjBDUEJxSmMwQ0d1T0FBZDBrNFdTTWk5TjdNbHVFWjhRaE9FRl9tQWtzTTUwQlRJMVdXeGdBVHVZVC1yQjJNXzF0U1B6R1RsdTdIc0d6Nmx5eHZKWHk1ZHhWakFGM2J6QlA3bHVCNlBR?oc=5",
       "source": "Repórter Maceió",
       "category": "latest",
       "tags": [
@@ -735,8 +797,7 @@
       "publishedAt": "2026-05-24T16:57:24Z",
       "updatedAt": "2026-05-24T16:57:24Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://reportermaceio.com.br/wp-content/uploads/2026/05/c93e10e79fd888af5989fd2fd64275b2da2.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-f30bb20c5f9c80f6184a7e6c",
@@ -901,20 +962,20 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-b435900e8471191d2ef5d204",
-      "title": "SpaceX na bolsa pode ampliar influência de Elon Musk no mundo, dizem analistas",
-      "summary": "Atualizacao de ultima hora capturada em Rádio Itatiaia.",
+      "id": "latest-663f5f72e59fe085209cf0f0",
+      "title": "China impulsiona uso do yuan globalmente e desafia controle do dólar, diz ex-executivo do FMI sobre nova dinâmica financeira internacional.",
+      "summary": "Atualizacao de ultima hora capturada em Repórter Maceió.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPX2hpc1hUTmdLdHo2REEwSEsxeTByUkp3T3p4UlczSWY5a1VnMThtU1ltUXNQZGRVTG9fckpoUG5Cb002NzQ5SXVxSXRlZVhnc25mS0hSak00VUNiWW9SZG1Zb0pNUnZWNUNFUnFmQkNxcGlHTGg3MUdrRjZPeVJKWmtRSWNkdG53VURCbkJVdEdsRmFQZ3FGcE56Q281T2sxVTBnRm9nWHZwYl8xX01IMnY4UFhBOTJzY2VFc3dyN3RERUN6YlE?oc=5",
-      "source": "Rádio Itatiaia",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQSVp2ZHRhSk10SUV0OWxiMV9LclhKZGR2SWVPY1I0UENUUThiLVZzdjl3N3FrV3FKZVdXTzlfZTlPemdhSVJZdWZETXFZdjdsbktGUktGTUlSVV9RYUJqVUZvYUZSbTVVMFVrS0J5dzZfcjZYVE9FZzA5Mmx4NGtoU0IyckJzVzJDNFdXT25mcDlIc3g0eVBXRFVmR0lNRWtvWFVxM3dOaWNwajBFOUo0RV9zQzNuc3ZqSlBXd3N2MlpVUDhGR25iamxqTDlwV1hIUjBKZVFURmU1Zy1ET01MUmRGVWZIN1VGV2RkcXpqby11SWJ1YzhOa2hmSEg?oc=5",
+      "source": "Repórter Maceió",
       "category": "latest",
       "tags": [
         "mercado",
         "bolsa",
         "macro"
       ],
-      "publishedAt": "2026-05-24T14:33:42Z",
-      "updatedAt": "2026-05-24T14:33:42Z",
+      "publishedAt": "2026-05-24T14:40:00Z",
+      "updatedAt": "2026-05-24T14:40:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
@@ -955,22 +1016,22 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "latest-38a7e074cb10ebb4a3d92a3b",
-      "title": "Após posse de Kevin Warsh no Fed, mercado reage",
-      "summary": "Atualizacao de ultima hora capturada em Webitcoin.",
+      "id": "funds-b2093dfdef1abe3ca1d42c9c",
+      "title": "Satisfactory 1.0: Realismo estilizado com Unreal Engine 5.3 e Nanite",
+      "summary": "Atualizacao de fundos capturada em Foro3D.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9tQnk4TU1wTFFmc1I5UFpQUkdTeWY3NEx2V0k3a3RHU3NJNjJwa3pRQWxFRkp0dlV1bDQ2aGFXN0l2NE1RVnpndi1xbG0tekJlcDJjeFR0RlVVR04xbXMzREM1LWZsbWZlREtSczJNUDFMMWtvTFlPREp5QnQ?oc=5",
-      "source": "Webitcoin",
-      "category": "latest",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdlREWUdTRF80c0lHY3FiNUxIY2oybzFxYzlTaG5DakNib3FXdkIxVE9oa1pGaXlIcTlYUjZ0SUMwd0E4T3RiZmJ1ZEVZVEZvaFZsRDlONHVCZGJZcGlpRjFteURHZmpJeVV1Nnl6SUpKTkIzR3V3UXhKM0E2dnhCWGlrU09sNmxHNVR2czZFcDF2dUlRYlhsLWRJZHl5OTRBdGh0UnRaY0M?oc=5",
+      "source": "Foro3D",
+      "category": "funds",
       "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
+        "fundos",
+        "asset",
+        "fiis"
       ],
-      "publishedAt": "2026-05-24T14:03:04Z",
-      "updatedAt": "2026-05-24T14:03:04Z",
+      "publishedAt": "2026-05-24T14:11:55Z",
+      "updatedAt": "2026-05-24T14:11:55Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "funds-e32abe587507a03a55a82d5a",
@@ -1097,24 +1158,6 @@
       "updatedAt": "2026-05-24T10:02:58Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-6f8b2c4630f5a010492e2eae",
-      "title": "Conflitos societários disparam com estresse financeiro, choque geracional e mudanças na lei",
-      "summary": "Atualizacao de empresas capturada em kondzilla.com.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ2tTbkNqc0xYYmdHMHQwbWctTk1iaEN2eHU4VGZKdDBPUWpPb29YdU02NWs4ZkNJeDdiU09uNl9rZ0FERkpMT1ZxODNJWWNwRTZ0WGpQa04zeUhSMTdfU01PaFFJNU1rTmF6cDJrcVhfRHdBSjhiVnJ0anZBUG1TVnJPYTBIcVBwd0tBTHdVc2g1d0JucWcydVRXbjlESVpJYXZiNGMyT0xfNm5vY3R4ZC00cw?oc=5",
-      "source": "kondzilla.com",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-05-24T09:43:10Z",
-      "updatedAt": "2026-05-24T09:43:10Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-a428a6586ca47b3b08f99432",
@@ -1329,60 +1372,6 @@
       ],
       "publishedAt": "2026-05-23T21:41:52Z",
       "updatedAt": "2026-05-23T21:41:52Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-0936dc87657f10bc9f95a184",
-      "title": "Cresce demanda por C-level focado em IA, diz pesquisa",
-      "summary": "Atualizacao de empresas capturada em diário do estado.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSjdsdjNaZjl5Uy00azZVZEh5Z054a1RRTnFKQ0lsejhBZXJ0NkxnSkNNY2paVzFUSkhDMUh2cTNiVFVTaTFoRkpqM1pxQkZmSUFCWlN0TU0wQko1UU1HSUdJOGFOOVItZkJIcFhFQmxjMlh1UW1LZDNua1JUcUVTQmRQcWhNVVFvU1lVNXNn?oc=5",
-      "source": "diário do estado",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-05-23T21:00:59Z",
-      "updatedAt": "2026-05-23T21:00:59Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-46578fb6044605abba16bf58",
-      "title": "Carga tributária empurra 232 empresas brasileiras para o Paraguai",
-      "summary": "Atualizacao de empresas capturada em Folha do Estado.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOWh2ek9VdnlHa3QxWEJxZmVIdWxiclVaQ1dKNTJWWGtNYUpQdFNlNGVMcnVKMEpCbXV4VHVvM1l6cGNPS1Y5SUpWdjA4ZnpHNi1NMWpmRVZBNnQ3dnlvYVk5dlY5bjkwT2h1WURHVUNXUU9pN0M1eVNKcENka2VyYmxRWVZQM3l6LTFiWmRUSmVHcjE5TkVoZnlzY3VObHRUMm5jZGFIbW0xNEdBNThLMFhZeHU?oc=5",
-      "source": "Folha do Estado",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-05-23T20:51:00Z",
-      "updatedAt": "2026-05-23T20:51:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "funds-77e6439a72d4f3bfa9914b55",
-      "title": "PSEC11 investe R$ 76 milhões em CRIs e divulga novo resultado; veja valor",
-      "summary": "Atualizacao de fundos capturada em Fiis.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcGplVm8wVE1OLXVabFVDQVRGbTdPTWlzQXp5N1J0OEQtTTJ1d2VaRGszNXp4UDEzWDNOa19Mdk9QWWNNU1h6cExOaVhjcHN6TS1VVUhRR0ZWRWFZUjJOaVlSOEo3NWVnbk1GamVPZjlQREY2SVA2aVAyS1VuMDZTczlja0NHUW16ZEFDZFJiWDV0dHl5N0VybHBSeEQ0X3d1STFsQzlVNA?oc=5",
-      "source": "Fiis",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-05-23T20:40:07Z",
-      "updatedAt": "2026-05-23T20:40:07Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     }
