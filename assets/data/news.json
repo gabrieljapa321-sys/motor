@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-30T14:52:55Z",
-  "generatedAt": "2026-05-30T14:52:55Z",
+  "updatedAt": "2026-05-30T16:03:05Z",
+  "generatedAt": "2026-05-30T16:03:05Z",
   "categories": [
     {
       "id": "all",
@@ -29,12 +29,16 @@
       "label": "Agenda do Poder"
     },
     {
+      "id": "ag-ncia-brasil",
+      "label": "Agência Brasil"
+    },
+    {
       "id": "averdade-com",
       "label": "averdade.com"
     },
     {
-      "id": "band-com-br",
-      "label": "band.com.br"
+      "id": "blog-do-banana",
+      "label": "Blog do Banana"
     },
     {
       "id": "blog-do-n-lio",
@@ -65,6 +69,10 @@
       "label": "Exame"
     },
     {
+      "id": "folha-pe",
+      "label": "Folha PE"
+    },
+    {
       "id": "hora-campinas",
       "label": "Hora Campinas"
     },
@@ -93,6 +101,10 @@
       "label": "Midiamax"
     },
     {
+      "id": "monitor-mercantil",
+      "label": "Monitor Mercantil"
+    },
+    {
       "id": "mundocoop",
       "label": "MundoCoop"
     },
@@ -103,6 +115,10 @@
     {
       "id": "novojornal-com-br",
       "label": "novojornal.com.br"
+    },
+    {
+      "id": "o-globo",
+      "label": "O Globo"
     },
     {
       "id": "portal-revista-kdea-360",
@@ -117,20 +133,12 @@
       "label": "Repórter Maceió"
     },
     {
-      "id": "rond-nia-din-mica",
-      "label": "Rondônia Dinâmica"
-    },
-    {
       "id": "r-dio-itatiaia",
       "label": "Rádio Itatiaia"
     },
     {
       "id": "seu-dinheiro",
       "label": "Seu Dinheiro"
-    },
-    {
-      "id": "terra",
-      "label": "Terra"
     },
     {
       "id": "tradingview",
@@ -151,38 +159,52 @@
     {
       "id": "visite-bras-lia",
       "label": "Visite Brasília"
-    },
-    {
-      "id": "poca-neg-cios",
-      "label": "Época Negócios"
     }
   ],
   "items": [
     {
-      "id": "companies-244ac87a916d353eef303d8a",
-      "title": "Por que a decisão dos EUA sobre PCC e CV pode afetar PIX, bancos e empresas no Brasil",
-      "summary": "Matheus Spiess, da Empiricus, analisa as altas na inflação e atividade econômica que devem pausar o ciclo de cortes na taxa Selic; entenda",
-      "details": "Matheus Spiess, da Empiricus, analisa as altas na inflação e atividade econômica que devem pausar o ciclo de cortes na taxa Selic; entenda",
-      "url": "https://www.seudinheiro.com/2026/patrocinado/empiricus/entendo-que-o-bc-baixe-os-juros-pelo-menos-mais-uma-vez-antes-de-parar-avalia-matheus-spiess-estrategista-da-empiricus-research-lbrdbb076/",
-      "source": "Rondônia Dinâmica",
-      "category": "companies",
+      "id": "macro-aa26ef779b91e4794ade411b",
+      "title": "Cenário econômico é porta de entrada para a IA na gestão fiscal das empresas",
+      "summary": "Atualizacao de macro capturada em Monitor Mercantil.",
+      "details": "",
+      "url": "https://monitormercantil.com.br/cenario-economico-e-porta-de-entrada-para-a-ia-na-gestao-fiscal-das-empresas/",
+      "source": "Monitor Mercantil",
+      "category": "macro",
       "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
+        "macro",
+        "juros",
+        "inflacao"
       ],
-      "publishedAt": "2026-05-30T14:37:00Z",
-      "updatedAt": "2026-05-30T14:37:00Z",
+      "publishedAt": "2026-05-30T15:03:00Z",
+      "updatedAt": "2026-05-30T15:03:00Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://www.seudinheiro.com/uploads/2025/11/Predio-do-Banco-Central.-Foto-Agencia-Brasil.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-ca7d8a291d4feea4b19b7295",
+      "title": "Governo bloqueia quase R$ 5 bi em emendas para cumprir meta fiscal",
+      "summary": "O bloqueio extra é de mais de R$ 22 bilhões, de acordo com o Decreto de Programação Orçamentária e Financeira do 2º bimestre.",
+      "details": "O bloqueio extra é de mais de R$ 22 bilhões, de acordo com o Decreto de Programação Orçamentária e Financeira do 2º bimestre.",
+      "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-05/governo-bloqueia-quase-r-5-bi-em-emendas-para-cumprir-meta-fiscal",
+      "source": "Agência Brasil",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-30T14:45:00Z",
+      "updatedAt": "2026-05-30T14:45:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://imagens.ebc.com.br/ArbrUsPPeNR0-6LyC5GvA9j9yYQ=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/real_moedadinheiro_jfcrz_abr_1701220049_1.jpg?itok=ZRCuUtTo"
     },
     {
       "id": "latest-76c1a774e4701f06a5eaabae",
       "title": "‘Entendo que o BC baixe os juros pelo menos mais uma vez’",
-      "summary": "Atualizacao de ultima hora capturada em Seu Dinheiro.",
-      "details": "",
-      "url": "https://jornaldodiase.com.br/o-pib-e-as-condicoes-de-vida/",
+      "summary": "Os Estados Unidos classificaram o Comando Vermelho (CV) e o Primeiro Comando da Capital (PCC) como terroristas, o que pode gerar sanções a pessoas físicas e ...",
+      "details": "Os Estados Unidos classificaram o Comando Vermelho (CV) e o Primeiro Comando da Capital (PCC) como terroristas, o que pode gerar sanções a pessoas físicas e ...",
+      "url": "https://www.portaltela.com/noticias/economia/2026/05/30/apos-pcc-e-cv-serem-classificados-como-terroristas-empresas-enfrentam-desafios/",
       "source": "Seu Dinheiro",
       "category": "latest",
       "tags": [
@@ -193,33 +215,15 @@
       "publishedAt": "2026-05-30T14:03:45Z",
       "updatedAt": "2026-05-30T14:03:45Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "companies-e7d3c5adc29118efd62a1482",
-      "title": "Depois da classificação de PCC e CV como terroristas, o que empresas brasileiras podem fazer e quais os seus desafios",
-      "summary": "Especialistas avaliam que medida deve reforçar monitoramento de transações e elevar exigências de rastreamento de recursos por instituições financeiras",
-      "details": "Especialistas avaliam que medida deve reforçar monitoramento de transações e elevar exigências de rastreamento de recursos por instituições financeiras",
-      "url": "https://www.rondoniadinamica.com/noticias/2026/05/por-que-a-decisao-dos-eua-sobre-pcc-e-cv-pode-afetar-pix-bancos-e-empresas-no-brasil,245866.shtml",
-      "source": "Época Negócios",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-05-30T13:44:43Z",
-      "updatedAt": "2026-05-30T13:44:43Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://www.rondoniadinamica.com/uploads/w068jbtc0dvgvye.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/05/gettyimages-2262706794.jpg"
     },
     {
       "id": "macro-21e5e462dc342e7c62221dd7",
       "title": "O PIB e as condições de vida",
-      "summary": "Advogado especialista em compliance aponta risco de empresas sofrerem morte financeira",
-      "details": "Advogado especialista em compliance aponta risco de empresas sofrerem morte financeira",
-      "url": "https://epocanegocios.globo.com/brasil/noticia/2026/05/depois-da-classificacao-de-pcc-e-cv-como-terroristas-o-que-empresas-brasileiras-podem-fazer-e-quais-os-seus-desafios.ghtml",
+      "summary": "A previsão do mercado financeiro para o Índice Nacional de Preços ao Consumidor Amplo (IPCA), referência oficial da inflação no país, passou de 4,92% para",
+      "details": "A previsão do mercado financeiro para o Índice Nacional de Preços ao Consumidor Amplo (IPCA), referência oficial da inflação no país, passou de 4,92% para",
+      "url": "https://mundocoop.com.br/supercampo/mercado-eleva-previsao-da-inflacao-para-504-este-ano/",
       "source": "jornaldodiase.com.br",
       "category": "macro",
       "tags": [
@@ -231,14 +235,14 @@
       "updatedAt": "2026-05-30T13:09:52Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-epocanegocios.glbimg.com/aub3jt4GN5v0uuT_MUDU3LjotQw=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_e536e40f1baf4c1a8bf1ed12d20577fd/internal_photos/bs/2025/t/U/oPCcp3Sve23B5kB0wYqg/trumpguerra.png"
+      "imageUrl": "https://mundocoop.com.br/wp-content/uploads/2026/05/1-10-2.jpg"
     },
     {
       "id": "companies-ddb7150d6a54e2111a7a1428",
       "title": "Após PCC e CV serem classificados como terroristas, empresas enfrentam desafios",
-      "summary": "A previsão do mercado financeiro para o Índice Nacional de Preços ao Consumidor Amplo (IPCA), referência oficial da inflação no país, passou de 4,92% para",
-      "details": "A previsão do mercado financeiro para o Índice Nacional de Preços ao Consumidor Amplo (IPCA), referência oficial da inflação no país, passou de 4,92% para",
-      "url": "https://mundocoop.com.br/supercampo/mercado-eleva-previsao-da-inflacao-para-504-este-ano/",
+      "summary": "Matheus Spiess, da Empiricus, analisa as altas na inflação e atividade econômica que devem pausar o ciclo de cortes na taxa Selic; entenda",
+      "details": "Matheus Spiess, da Empiricus, analisa as altas na inflação e atividade econômica que devem pausar o ciclo de cortes na taxa Selic; entenda",
+      "url": "https://www.seudinheiro.com/2026/patrocinado/empiricus/entendo-que-o-bc-baixe-os-juros-pelo-menos-mais-uma-vez-antes-de-parar-avalia-matheus-spiess-estrategista-da-empiricus-research-lbrdbb076/",
       "source": "Portal Tela",
       "category": "companies",
       "tags": [
@@ -250,14 +254,14 @@
       "updatedAt": "2026-05-30T13:03:17Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://mundocoop.com.br/wp-content/uploads/2026/05/1-10-2.jpg"
+      "imageUrl": "https://www.seudinheiro.com/uploads/2025/11/Predio-do-Banco-Central.-Foto-Agencia-Brasil.jpg"
     },
     {
       "id": "latest-8c0b6b83e50ab97d0f9b2ca8",
       "title": "Mercado eleva previsão da inflação para 5,04% este ano",
-      "summary": "Os Estados Unidos classificaram o Comando Vermelho (CV) e o Primeiro Comando da Capital (PCC) como terroristas, o que pode gerar sanções a pessoas físicas e ...",
-      "details": "Os Estados Unidos classificaram o Comando Vermelho (CV) e o Primeiro Comando da Capital (PCC) como terroristas, o que pode gerar sanções a pessoas físicas e ...",
-      "url": "https://www.portaltela.com/noticias/economia/2026/05/30/apos-pcc-e-cv-serem-classificados-como-terroristas-empresas-enfrentam-desafios/",
+      "summary": "Saumíneo Nascimento saumineon@gmail.com Um relatório divulgado recentemente, a Conferência das Nações Unidas para o Comércio e o Desenvolvimento (UNCTAD),",
+      "details": "Saumíneo Nascimento saumineon@gmail.com Um relatório divulgado recentemente, a Conferência das Nações Unidas para o Comércio e o Desenvolvimento (UNCTAD),",
+      "url": "https://jornaldodiase.com.br/o-pib-e-as-condicoes-de-vida/",
       "source": "MundoCoop",
       "category": "latest",
       "tags": [
@@ -269,14 +273,14 @@
       "updatedAt": "2026-05-30T13:00:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/05/gettyimages-2262706794.jpg"
+      "imageUrl": "https://jornaldodiase.com.br/wp-content/uploads/2023/05/SAUMINIO.jpg"
     },
     {
       "id": "macro-6f427ba656ddd45c1ec9384b",
       "title": "Wanderlei Barbosa fecha primeiro quadrimestre de 2026 dentro da Lei de Responsabilidade Fiscal",
-      "summary": "Atualizacao de macro capturada em Luiz Armando Costa.",
-      "details": "",
-      "url": "https://www.luizarmandocosta.com.br/noticia/wanderlei-barbosa-fecha-primeiro-quadrimestre-de-2026-dentro-da-lei-de-responsabilidade-fiscal/54292",
+      "summary": "PIB forte, inflação resistente e novos riscos para os preços alimentam a percepção de que a taxa básica pode permanecer próxima dos níveis atuais por bastante tempo",
+      "details": "PIB forte, inflação resistente e novos riscos para os preços alimentam a percepção de que a taxa básica pode permanecer próxima dos níveis atuais por bastante tempo",
+      "url": "https://valor.globo.com/financas/intraday/post/2026/05/no-mercado-ganha-forca-a-tese-de-a-selic-seguir-na-casa-dos-14percent.ghtml",
       "source": "Luiz Armando Costa",
       "category": "macro",
       "tags": [
@@ -288,14 +292,14 @@
       "updatedAt": "2026-05-30T12:07:34Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.luizarmandocosta.com.br/img/luizarmandocosta2026.png"
+      "imageUrl": "https://s2-valor.glbimg.com/VlDglfg__cXlMN0J_P6KVR_woMs=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/n/W/cWIbRQSXqXeWWZ2bnbpQ/437607304.jpg"
     },
     {
       "id": "macro-bd18dddfc23dc5c7d4873727",
       "title": "Entre guerra, inflação e juros altos, esse investimento ‘gringo’ pode mexer com a sua carteira; assista ao último Empiricus PodCa$t",
-      "summary": "Enzo Pacheco e Lais Costa, analistas da Empiricus, trazem perspectivas para a economia global e um ativo ‘desconhecido’ que pode se destacar",
-      "details": "Enzo Pacheco e Lais Costa, analistas da Empiricus, trazem perspectivas para a economia global e um ativo ‘desconhecido’ que pode se destacar",
-      "url": "https://www.empiricus.com.br/empiricus-podcast/esse-investimento-gringo-pode-mexer-com-a-sua-carteira-assista-ao-ultimo-empiricus-podcast-lbrdaz238/",
+      "summary": "Atualizacao de macro capturada em Empiricus.",
+      "details": "",
+      "url": "https://www.luizarmandocosta.com.br/noticia/wanderlei-barbosa-fecha-primeiro-quadrimestre-de-2026-dentro-da-lei-de-responsabilidade-fiscal/54292",
       "source": "Empiricus",
       "category": "macro",
       "tags": [
@@ -307,14 +311,14 @@
       "updatedAt": "2026-05-30T12:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.empiricus.com.br/uploads/2026/05/currencies.jpg"
+      "imageUrl": "https://www.luizarmandocosta.com.br/img/luizarmandocosta2026.png"
     },
     {
       "id": "macro-9d6408d7a5ac79984bbe7987",
       "title": "Oposição a Wanderlei terá que construir novo discurso: desempenho fiscal do governo melhorou no 1º quadrimestre apesar da queda da receita corrente",
-      "summary": "Atualizacao de macro capturada em Luiz Armando Costa.",
-      "details": "",
-      "url": "https://www.luizarmandocosta.com.br/noticia/oposicao-a-wanderlei-tera-que-construir-novo-discurso-desempenho-fiscal-do-governo-melhorou-no-1o-quadrimestre-apesar-da-queda-da-receita-corrente/54291",
+      "summary": "Enzo Pacheco e Lais Costa, analistas da Empiricus, trazem perspectivas para a economia global e um ativo ‘desconhecido’ que pode se destacar",
+      "details": "Enzo Pacheco e Lais Costa, analistas da Empiricus, trazem perspectivas para a economia global e um ativo ‘desconhecido’ que pode se destacar",
+      "url": "https://www.empiricus.com.br/empiricus-podcast/esse-investimento-gringo-pode-mexer-com-a-sua-carteira-assista-ao-ultimo-empiricus-podcast-lbrdaz238/",
       "source": "Luiz Armando Costa",
       "category": "macro",
       "tags": [
@@ -326,14 +330,14 @@
       "updatedAt": "2026-05-30T11:45:56Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.luizarmandocosta.com.br/imagem/600/0/34721/oposicao-a-wanderlei-tera-que-construir-novo-discurso-desempenho-fiscal-do-governo-melhorou-no-1o-quadrimestre-apesar-da-queda-da-receita-corrente.jpg"
+      "imageUrl": "https://www.empiricus.com.br/uploads/2026/05/currencies.jpg"
     },
     {
       "id": "macro-8537e5d7deb9224b1fe341ca",
       "title": "No mercado, ganha força a tese de a Selic seguir na casa dos 14%",
-      "summary": "PIB forte, inflação resistente e novos riscos para os preços alimentam a percepção de que a taxa básica pode permanecer próxima dos níveis atuais por bastante tempo",
-      "details": "PIB forte, inflação resistente e novos riscos para os preços alimentam a percepção de que a taxa básica pode permanecer próxima dos níveis atuais por bastante tempo",
-      "url": "https://valor.globo.com/financas/intraday/post/2026/05/no-mercado-ganha-forca-a-tese-de-a-selic-seguir-na-casa-dos-14percent.ghtml",
+      "summary": "Atualizacao de macro capturada em Valor Econômico.",
+      "details": "",
+      "url": "https://www.luizarmandocosta.com.br/noticia/oposicao-a-wanderlei-tera-que-construir-novo-discurso-desempenho-fiscal-do-governo-melhorou-no-1o-quadrimestre-apesar-da-queda-da-receita-corrente/54291",
       "source": "Valor Econômico",
       "category": "macro",
       "tags": [
@@ -345,7 +349,25 @@
       "updatedAt": "2026-05-30T11:43:00Z",
       "premium": true,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/VlDglfg__cXlMN0J_P6KVR_woMs=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/n/W/cWIbRQSXqXeWWZ2bnbpQ/437607304.jpg"
+      "imageUrl": "https://www.luizarmandocosta.com.br/imagem/600/0/34721/oposicao-a-wanderlei-tera-que-construir-novo-discurso-desempenho-fiscal-do-governo-melhorou-no-1o-quadrimestre-apesar-da-queda-da-receita-corrente.jpg"
+    },
+    {
+      "id": "macro-e4603e781e325d1f1c046103",
+      "title": "Pressão do petróleo em bens industriais esvazia influência desinflacionária sobre IPCA",
+      "summary": "Atualizacao de macro capturada em Folha PE.",
+      "details": "",
+      "url": "https://www.folhape.com.br/noticia/amp/490878/pressao-do-petroleo-em-bens-industriais-esvazia-influencia/",
+      "source": "Folha PE",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-30T11:40:00Z",
+      "updatedAt": "2026-05-30T11:40:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-a466df3471ab8eca9991e96d",
@@ -367,29 +389,11 @@
       "imageUrl": "https://s.tradingview.com/static/images/illustrations/news-story.jpg"
     },
     {
-      "id": "macro-90ac22513fb03e45b0bcbb79",
-      "title": "PIB do Brasil cresce 1,1% no 1º trimestre impulsionado por agro e consumo",
-      "summary": "Atualizacao de macro capturada em band.com.br.",
-      "details": "",
-      "url": "https://www.band.com.br/radio-bandeirantes/noticias/pib-do-brasil-cresce-11-no-1-trimestre-impulsionado-por-agro-e-consumo-202605300828",
-      "source": "band.com.br",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-30T11:28:18Z",
-      "updatedAt": "2026-05-30T11:28:18Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
       "id": "macro-e29eff6eb06737c0e799fe51",
       "title": "Após rodada de audiências, ação por morte de fiscal em Campo Grande entra na fase final",
-      "summary": "Demanda doméstica voltou a ser destaque no desempenho da economia brasileira neste início de 2026",
-      "details": "Demanda doméstica voltou a ser destaque no desempenho da economia brasileira neste início de 2026",
-      "url": "https://valor.globo.com/brasil/artigo/resumo-do-pib-no-1o-trimestre-confira-em-graficos-como-ficou-a-economia.ghtml",
+      "summary": "Atualizacao de macro capturada em Midiamax.",
+      "details": "",
+      "url": "https://midiamax.com.br/politica/transparencia/2026/apos-rodada-audiencias-acao-morte-fiscal-campo-grande-entra-fase-final/",
       "source": "Midiamax",
       "category": "macro",
       "tags": [
@@ -400,15 +404,14 @@
       "publishedAt": "2026-05-30T11:26:00Z",
       "updatedAt": "2026-05-30T11:26:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/Ge0xrzhj77aaTCOe3KFUltjdr2U=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/m/L/ZtAGXCTeqIP9PBxXMqbQ/pib-com-tarja.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-c4e862462df630fa5494111e",
       "title": "Resumo do PIB no 1º trimestre: confira em gráficos como ficou a economia",
-      "summary": "Atualizacao de macro capturada em Valor Econômico.",
-      "details": "",
-      "url": "https://midiamax.com.br/politica/transparencia/2026/apos-rodada-audiencias-acao-morte-fiscal-campo-grande-entra-fase-final/",
+      "summary": "Demanda doméstica voltou a ser destaque no desempenho da economia brasileira neste início de 2026",
+      "details": "Demanda doméstica voltou a ser destaque no desempenho da economia brasileira neste início de 2026",
+      "url": "https://valor.globo.com/brasil/artigo/resumo-do-pib-no-1o-trimestre-confira-em-graficos-como-ficou-a-economia.ghtml",
       "source": "Valor Econômico",
       "category": "macro",
       "tags": [
@@ -419,26 +422,8 @@
       "publishedAt": "2026-05-30T11:10:34Z",
       "updatedAt": "2026-05-30T11:10:34Z",
       "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-b5834025cf3aab344a5e8f69",
-      "title": "PIB do 1º trimestre cresce impulsionado por consumo, indústria e agro",
-      "summary": "Alta foi de 1,1% na comparação com o último trimestre do ano passado",
-      "details": "Alta foi de 1,1% na comparação com o último trimestre do ano passado",
-      "url": "https://valor.globo.com/brasil/noticia/2026/05/30/pib-do-1o-trimestre-cresce-impulsionado-consumo-industria-e-agro.ghtml",
-      "source": "Valor Econômico",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-30T11:01:08Z",
-      "updatedAt": "2026-05-30T11:01:08Z",
-      "premium": true,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/bIKtcrpcLBoqF_XnVSDmDdGosos=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/3/z/OdikKbQmOE8G1sLnbGRg/130819julianatrece04.jpg"
+      "imageUrl": "https://s2-valor.glbimg.com/Ge0xrzhj77aaTCOe3KFUltjdr2U=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/m/L/ZtAGXCTeqIP9PBxXMqbQ/pib-com-tarja.jpg"
     },
     {
       "id": "companies-cc6fe3f94d2c25c38fc7e2bf",
@@ -479,23 +464,23 @@
       "imageUrl": "https://www.estadao.com.br/resizer/v2/FJW7A32BUJNSRHOZEHXFGDP55M.png?quality=80&auth=f9c54eee930e3887755df8651c7c925fcc6d309b1b96ecc9c72c0fee34d95c37&width=1200&height=630&smart=true"
     },
     {
-      "id": "macro-49972fff6b658cfb5b9853d7",
-      "title": "Veja a lista com os vencedores de maio do Nota Fiscal Gaúcha",
-      "summary": "Ao todo, a rodada distribuiu um montante global de R$ 200 mil em benefícios financeiros",
-      "details": "Ao todo, a rodada distribuiu um montante global de R$ 200 mil em benefícios financeiros",
-      "url": "https://www.terra.com.br/economia/veja-a-lista-com-os-vencedores-de-maio-do-nota-fiscal-gaucha,aa44b95f5deb2021245a5f5e8667e4c7mlcny9tv.html",
-      "source": "Terra",
+      "id": "macro-58f89b5b152b137410884567",
+      "title": "CDB? Tesouro Selic? Onde alocar sua reserva de emergência com alta dos juros?",
+      "summary": "Reserva de emergência deve ter equilíbrio entre liquidez, segurança e rentabilidade. CDB e Tesouro Selic podem ser boas",
+      "details": "Reserva de emergência deve ter equilíbrio entre liquidez, segurança e rentabilidade. CDB e Tesouro Selic podem ser boas",
+      "url": "https://www.estadao.com.br/web-stories/einvestidor/reserva-de-emergencia-cdb-tesouro-selic-juros/",
+      "source": "Estadão",
       "category": "macro",
       "tags": [
         "macro",
         "juros",
         "inflacao"
       ],
-      "publishedAt": "2026-05-30T10:37:00Z",
-      "updatedAt": "2026-05-30T10:37:00Z",
+      "publishedAt": "2026-05-30T10:39:46Z",
+      "updatedAt": "2026-05-30T10:39:46Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/05/30/1432838396-nota-fiscal-gaucha.jpg"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/C42VIIPJOBLBNP6JJ3ODYRHUVU.png?quality=80&auth=bdf62badd3d4936767d006b1605ba8575612fc29b146be7cc0bbbc84561a77c0&width=1200"
     },
     {
       "id": "latest-5df7f18528dc7d673ea9ba20",
@@ -536,11 +521,30 @@
       "imageUrl": "https://www.estadao.com.br/resizer/v2/RT67XG2SO5IJZO7SXFNL2P7TH4.jpg?quality=80&auth=54b16c57c375efee5bf4cfebf04390d67c5afba11a24f560c9632b940428267b&width=1200&height=630&smart=true"
     },
     {
+      "id": "macro-2760bdb1d8f3806b4e42439b",
+      "title": "Prévia da inflação afeta rendimento dos FIIs; o que fazer agora?",
+      "summary": "Prévia da inflação afeta rendimento dos FIIs; o que fazer agora?",
+      "details": "Prévia da inflação afeta rendimento dos FIIs; o que fazer agora?",
+      "url": "https://www.estadao.com.br/web-stories/einvestidor/previa-da-inflacao-afeta-rendimento-dos-fiis-o-que-fazer-agora/?token=%7B%22origin%22%3A%22conteudo%22%7D",
+      "source": "Estadão",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-30T10:29:20Z",
+      "updatedAt": "2026-05-30T10:29:20Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/DKAQQPWCCFOEDHRIBKJJD3IJCE.png?quality=80&auth=dc29de72df929d4246a6062c84c4a72d28ed7a61c43d6354bfcc1dad37b1d4d6&width=1200"
+    },
+    {
       "id": "latest-babab226aa5ed8d218841107",
       "title": "Ibovespa hoje: Assaí (ASAI3) salta e Prio (PRIO3) tomba com queda do petróleo",
-      "summary": "Preços da commodity afundaram quase 7% e também pressionaram papéis da Petrobras (PETR3;PETR4)",
-      "details": "Preços da commodity afundaram quase 7% e também pressionaram papéis da Petrobras (PETR3;PETR4)",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-assai-asai3-salta-prio-prio3-tomba-queda-petroleo/",
+      "summary": "Após os Estados Unidos terem incluído as organizações criminosas Comando Vermelho (CV) e Primeiro Comando da Capital (PCC) na lista de terroristas, surgem muitas dúvidas e riscos para as empresas brasileiras. A principal preocupação é sobre as penalidades que podem resultar dessa",
+      "details": "Após os Estados Unidos terem incluído as organizações criminosas Comando Vermelho (CV) e Primeiro Comando da Capital (PCC) na lista de terroristas, surgem muitas dúvidas e riscos para as empresas brasileiras. A principal preocupação é sobre as penalidades que podem resultar dessa decisão do governo americano e como os ",
+      "url": "https://noticiasdoplanalto.com.br/o-que-empresas-brasileiras-podem-fazer-apos-pcc-e-cv-serem-classificados-como-terroristas/",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -552,14 +556,14 @@
       "updatedAt": "2026-05-30T10:26:02Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/EJZUEP7PSVILPOFM33FFLZ4P3A.png?quality=80&auth=c763f016155e533296ea9a02905b3d43261c97d9127cc4aa837b367d8b8b60e9&width=1200&height=630&smart=true"
+      "imageUrl": "https://noticiasdoplanalto.com.br/wp-content/uploads/2026/05/15330-1-1.jpg-1.jpg"
     },
     {
       "id": "latest-55bb2c65b0890498fca7e029",
       "title": "Cemig, Copasa, Codemig: como avanço de Lula sobre estatais de MG pode frustrar o mercado financeiro?",
-      "summary": "Dívidas de MG e federalização de estatais como Cemig e Copasa podem frustrar expectativas do mercado por privatização",
-      "details": "Dívidas de MG e federalização de estatais como Cemig e Copasa podem frustrar expectativas do mercado por privatização",
-      "url": "https://www.estadao.com.br/web-stories/einvestidor/cemig-copasa-codemig-lula-federalizacao-privatizacao-mg/",
+      "summary": "A Geração TikTok está invadindo o mercado financeiro no Brasil, o que isso significa?",
+      "details": "A Geração TikTok está invadindo o mercado financeiro no Brasil, o que isso significa?",
+      "url": "https://www.estadao.com.br/web-stories/einvestidor/a-geracao-tiktok-esta-invadindo-o-mercado-financeiro-no-brasil-o-que-isso-significa/",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -571,14 +575,14 @@
       "updatedAt": "2026-05-30T10:09:28Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/I7HM5PP7JBLO5IIOZPBQ5S3BBE.png?quality=80&auth=7f94b94a590a599244cf263d6a7116b92807463392c3eb6e3ea28cb97ec799c6&width=1200"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/XIAJ4AHXTBNEXAWUUTFESRNDSQ.png?quality=80&auth=0d2eff325db7293dd57898d4b0d697664c631b108bda6547f1c090dc3dee7dfe&width=1200"
     },
     {
       "id": "companies-3e2ff6ff7e253bf6bc9bc36e",
       "title": "O que empresas brasileiras podem fazer após PCC e CV serem classificados como terroristas",
-      "summary": "Após os Estados Unidos terem incluído as organizações criminosas Comando Vermelho (CV) e Primeiro Comando da Capital (PCC) na lista de terroristas, surgem muitas dúvidas e riscos para as empresas brasileiras. A principal preocupação é sobre as penalidades que podem resultar dessa",
-      "details": "Após os Estados Unidos terem incluído as organizações criminosas Comando Vermelho (CV) e Primeiro Comando da Capital (PCC) na lista de terroristas, surgem muitas dúvidas e riscos para as empresas brasileiras. A principal preocupação é sobre as penalidades que podem resultar dessa decisão do governo americano e como os ",
-      "url": "https://noticiasdoplanalto.com.br/o-que-empresas-brasileiras-podem-fazer-apos-pcc-e-cv-serem-classificados-como-terroristas/",
+      "summary": "Preços da commodity afundaram quase 7% e também pressionaram papéis da Petrobras (PETR3;PETR4)",
+      "details": "Preços da commodity afundaram quase 7% e também pressionaram papéis da Petrobras (PETR3;PETR4)",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-assai-asai3-salta-prio-prio3-tomba-queda-petroleo/",
       "source": "noticiasdoplanalto.com.br",
       "category": "companies",
       "tags": [
@@ -590,14 +594,14 @@
       "updatedAt": "2026-05-30T10:01:55Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://noticiasdoplanalto.com.br/wp-content/uploads/2026/05/15330-1-1.jpg-1.jpg"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/EJZUEP7PSVILPOFM33FFLZ4P3A.png?quality=80&auth=c763f016155e533296ea9a02905b3d43261c97d9127cc4aa837b367d8b8b60e9&width=1200&height=630&smart=true"
     },
     {
       "id": "latest-80c42db92394df8825ceb9e1",
       "title": "A Geração TikTok está invadindo o mercado financeiro no Brasil, o que isso significa?",
-      "summary": "A Geração TikTok está invadindo o mercado financeiro no Brasil, o que isso significa?",
-      "details": "A Geração TikTok está invadindo o mercado financeiro no Brasil, o que isso significa?",
-      "url": "https://www.estadao.com.br/web-stories/einvestidor/a-geracao-tiktok-esta-invadindo-o-mercado-financeiro-no-brasil-o-que-isso-significa/",
+      "summary": "Dívidas de MG e federalização de estatais como Cemig e Copasa podem frustrar expectativas do mercado por privatização",
+      "details": "Dívidas de MG e federalização de estatais como Cemig e Copasa podem frustrar expectativas do mercado por privatização",
+      "url": "https://www.estadao.com.br/web-stories/einvestidor/cemig-copasa-codemig-lula-federalizacao-privatizacao-mg/",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -609,7 +613,26 @@
       "updatedAt": "2026-05-30T10:00:53Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/XIAJ4AHXTBNEXAWUUTFESRNDSQ.png?quality=80&auth=0d2eff325db7293dd57898d4b0d697664c631b108bda6547f1c090dc3dee7dfe&width=1200"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/I7HM5PP7JBLO5IIOZPBQ5S3BBE.png?quality=80&auth=7f94b94a590a599244cf263d6a7116b92807463392c3eb6e3ea28cb97ec799c6&width=1200"
+    },
+    {
+      "id": "macro-9d76e257a7fc5f8eea627d9a",
+      "title": "PIB do 1º trimestre cresce impulsionado por consumo, indústria e agro",
+      "summary": "Alta foi de 1,1% na comparação com o último trimestre do ano passado",
+      "details": "Alta foi de 1,1% na comparação com o último trimestre do ano passado",
+      "url": "https://valor.globo.com/brasil/noticia/2026/05/30/pib-do-1o-trimestre-cresce-impulsionado-consumo-industria-e-agro.ghtml",
+      "source": "Valor Econômico",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-30T10:00:42Z",
+      "updatedAt": "2026-05-30T10:00:42Z",
+      "premium": true,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s2-valor.glbimg.com/bIKtcrpcLBoqF_XnVSDmDdGosos=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/3/z/OdikKbQmOE8G1sLnbGRg/130819julianatrece04.jpg"
     },
     {
       "id": "latest-2d3f83ba477e6a7beacf7b94",
@@ -670,9 +693,9 @@
     {
       "id": "macro-5cdab7e300ac23f9e6338a85",
       "title": "Pequenas no PIB, gigantes em relevância",
-      "summary": "Potência agropecuária gaúcha é forjada por uma preciosa diversificação de atividades, sobretudo empreendida na produção familiar",
-      "details": "Potência agropecuária gaúcha é forjada por uma preciosa diversificação de atividades, sobretudo empreendida na produção familiar",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/rural/pequenas-no-pib-gigantes-em-relevancia-1.1717949",
+      "summary": "Atualizacao de macro capturada em Correio do Povo.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOU2tCczh0WXNzMVRSUEtuanlQUW5OcktlZ1lQeFlmdGs3LXdzMEMyMWl0dnBYRHRIa010WEU2a1NLOXdPRFVzOTJ4UXhKWUM3N19SemFuMERJdk1CTDRJU1AybzFNQ2xRTWZyaTVLemhfMlp6em1VYXpUUEFtQzhrUXN4XzB2RVk5YzZqOERqQ0p5SUlvZWwwbFh1dkRSNnBjOFcw?oc=5",
       "source": "Correio do Povo",
       "category": "macro",
       "tags": [
@@ -683,8 +706,7 @@
       "publishedAt": "2026-05-30T09:04:56Z",
       "updatedAt": "2026-05-30T09:04:56Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.correiodopovo.com.br/image/contentid/policy:1.1717962:1780088919/IMG_4528%20(1).jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=7612f64"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-769987eb45f314c9f0a80c14",
@@ -741,60 +763,6 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "macro-6d90263a8c5bb35d4f10ae9b",
-      "title": "Quanto investir para se aposentar com um salário mínimo extra batendo a inflação?",
-      "summary": "Atualizacao de macro capturada em InfoMoney.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbXdZU1lLdHBEbTlRQTRyRjhMSHdlSlZjWDFUdFl0a3A0b014S204enc2UENQVmh5eFJmdE1QclJTX2JjVWJlX1l1b0xvM2RvOEFZeF9LcVNGZ3JjamZGcS1aNnZabjBFLWM3NXZ3TS00Tkg2LU5RNC1WWTVNSGJOeGNrYU1Ub2c2b09sZFdPVDhjUV9IYjduN1ZWTFB6UFFzQVg2aHM0ekttWUdo0gGyAUFVX3lxTFBoZHVEcENSaXV2SHNrTDR3WVdEMUt2Y2hyVzF6dHdPM1czcHptRV9HNmZCTTFJODNwcDRsNUNRbXU3c0lkbjJQclZnM1daakNHWXFIUkxjQlhHczl2bllIYUF4WTFpUVQ5OWRaT0dIbFVBRHczNGhtWEtKTlJzaW03eG5fNFlXU3RZbGVjN0dVbkNPaTdTNnNHeWdlMVhYSF9jY0R3RXF0UU9FUnNWUFVRNEE?oc=5",
-      "source": "InfoMoney",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-30T08:00:00Z",
-      "updatedAt": "2026-05-30T08:00:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-443ec99aba5af8c41e0e5df2",
-      "title": "PIB do Reino Unido e dados de emprego nos EUA dominam a agenda da quinta-feira",
-      "summary": "Atualizacao de macro capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNY3JLZHRraGEyd3V1UHpfX0ZzUjZqamYxSE9vb3lBWlp1UWN3dzRmOGQtRzJlT1pZYV9tcEpxdXdDSjdHTXNXLU9VNkRhaElWMjNKRU5TWElCaEloTm1YTzdWTkk0RllPTFlFT2FOWXpCdmhvaXc3djJWV2Nrd093Y0ktUndzeHlYcHZzaTBOR3Z4cjBuTTdveVhDeDM4Q3BG0gGmAUFVX3lxTE1jckNrbFkwVlhMeW0waERiT1RlbURqTkVHWjJ1bXJKVmtGc3k5bm05Z05tNzlnOWFmSzFNNnZwVXVldy10Ym5zM1ZSMnBFdFlJQl9seUppY1lHX2tPc0pUTVp4VWJLaVB5LV9XT1J1b0FraGFpck1MaUU2emNoM0YwQnlROGg5cTRyY0dWQjJrZm44aHR0dEsxNXEzTVA0VThiVzBRY0E?oc=5",
-      "source": "Estadão",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-30T07:58:48Z",
-      "updatedAt": "2026-05-30T07:58:48Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-841d3a90f4b4f5a2319a79f0",
-      "title": "Economistas apontam que PIB deve desacelerar nos próximos meses",
-      "summary": "Atualizacao de macro capturada em CNN Brasil.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVGJQcDFRUW0yRFRtMEs2NDZyYndldG0tNTFON3BuRFZET0VJSHJiUkVpa2pENTNSS2JmejlWdjcwOXVaRTdvRDNnbTNJc1JfeHczS1RQM09mbUVqMjBSY0h0R0xfdV9jQlBZYmQ4eUh2Z250SmtXb0dVUEdIVXNNOG5pOTdpcE85bmVfRWFJX28xdE83WTdDeGh1X2R0UWN1UjVtZ0ZOT0p4bEl4STgyZVRhQVJVR2M?oc=5",
-      "source": "CNN Brasil",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-30T07:33:14Z",
-      "updatedAt": "2026-05-30T07:33:14Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
       "id": "latest-311b35b9131364af48c75e25",
       "title": "Ibovespa tomba em maio com saída de estrangeiros, juros altos e eleição",
       "summary": "Atualizacao de ultima hora capturada em CNN Brasil.",
@@ -829,6 +797,24 @@
       "updatedAt": "2026-05-30T07:08:24Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "companies-8f9ee00ca3fa08793665797d",
+      "title": "Depois da classificação de PCC e CV como terroristas, o que empresas brasileiras podem fazer e quais os seus desafios",
+      "summary": "Atualizacao de empresas capturada em O Globo.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQQ0gzWHAwVTh6UG1mMmphTm9GTWI0WlU1YkFpQjFLUUJNQUp3SHVnc1VlSy1Db3k2Wl9ZelFjcTcycVZVeDZZOVYwZ3Zlb0NIVTdiRnN1RDZwbmxQLXRFcWRuckJlMGJoY3MzakMtVDc3M0dUYkIteDdIaE1MYTdvTXB1RnlxcXBtY0c0enBEdENXYUsxN2JCOEdObU9xUHFlanhoTnhKd2VvbG13b05xcWdqZW9qU0pEZDhqaWxETWdHLTAyeFFTbEFTa3dXckp1ZllnSmJiQWVwY25yWkRMNTBXbHh3Y2NidktDd2VrM3A1T1ZwX09CeHFUZG5GOHAtX0dwU3pn0gGUAkFVX3lxTE5VcjF4MnhfZkdxU1Fvb3lfbjY1MWZ6cmhmTDhsSjh6VjJVRm1JNmpWNFBHVHliUzNvNnBneEJUUzlqMjBuTEc4ODhwVUUwV19WZDVnVk16WDlORUxGWkNwYjFqTnpFXzFZNUFXX29UMlpzbkpfaGp5bHVoczhVdXE0QVdnWEVsN3hJTkNYVldzeDk4VkZvVXZLclB2OUdyOWw1a29YUHZRdk5CclZfS19xODAyb1dDblhOX251bVZXSEkwV2gwejJ1MG9sdXV6bHZQUkZUWTRIQ3c1bnpLSEE0V01qRk12c3dPMnJaM2tvSEhKd3J3alZqdng0b0RYVlB0Y1RNc0txYjNPZ2w2Mm5fSlRtdQ?oc=5",
+      "source": "O Globo",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-05-30T07:00:36Z",
+      "updatedAt": "2026-05-30T07:00:36Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "latest-5aaa1683ffbf3e5721333266",
@@ -903,24 +889,6 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-207f485fd4b60117fae33569",
-      "title": "Ibovespa futuro cai 0,19% após abertura na véspera de decisão do Copom",
-      "summary": "Atualizacao de ultima hora capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYUJ5cWx6a2lRUjdkLUQxYXVaMjJoSHdhYmxRckVIMGZ0d044bkFYSlZyUk1FNUpKUm1xZ2hSSEs3SzVhV0R0UlpuLVV1ZjNQSDU3Yl9veEpBZi0wTzZOUWxIb2kxSjEtbkVFQ21jc3dqMHBBVVljY0Etalk4NXZMTF92YjhINXVJT1BLRjM5LURNUdIBlwFBVV95cUxQalFPSk9PaU9mOHRQeTlkMmpqX2VGcVVVNlZEdWhyaXd1MU91QXF5V0tZRzcxa3h1aXBqNnU5RXd6U0gwZGIyLTRrMVZkWjJlN2VGemhaMkFxTXg3TkhCdWxuLUJKd0Q1dU5VX25lLWNrQTlUTnUzWWtZZEVjTHByM0FNZVRHRU95QVk1S2pvdVpWLVZoSW44?oc=5",
-      "source": "Estadão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-30T05:59:28Z",
-      "updatedAt": "2026-05-30T05:59:28Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "latest-8a5c3eb22a62e9f75c143c4c",
       "title": "Dólar cai ao menor nível desde 2024, mas cenário é frágil; veja o que esperar para maio",
       "summary": "Atualizacao de ultima hora capturada em Estadão.",
@@ -957,11 +925,11 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-fd209fb865c15f75aec6f4a6",
-      "title": "Juros futuros curtos tem viés de alta, após deflação leve do IPCA",
+      "id": "latest-b51e585158b17a643815839d",
+      "title": "Ativa: impacto do anúncio da Americanas é muito negativo para ações",
       "summary": "Atualizacao de ultima hora capturada em Estadão.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWXFuZmVIM0VBRUI2Tml4YWt6ZWlsbTRNUFh1R2RJYTRLdmZEN1pRZXRzcjdWamxIYmtrdnBCUV9GdWJ5Q1RlRUc4WjZOelBGaWVOSnZVYnRDMnVHZU5GcEN5X3BDWlQwUS1fXzYzTEphRjV0MEJKTm11eWJaSnJ1VGxIMC1vOThQVXNUb2g3WUpNalgxbURtWG5PV002MGZzalA0eGFCY09mYXZqdkdZWHNyZ05PNnhsNm5mWHBtMFfSAcYBQVVfeXFMTWlYTUtJTjMtbE43eFJTY1N3VEptcEFOZGFyZ1JJSjlkc2NzZFNFY0FkX1c2QWxpNzk2TjBteF9naDFOYWFpRzFEaUNaT2o5Yi1DWUxNR3V1Vnp1a2NpSDUtc3lZYVRINTVYZk5xMWJpTkNBc2ZaeG1CcGNyblRsTi1PZnJfaWF0QTNwdTZuR1pBS3JyRVB3NGFvX0k2a0ljU0hHelJLMFV3RmszbmRudi1hbVFacnk3ZzFQVW9jdngxa2pwam9n?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeUROaEgyVnVTTTJ3b1pKVFE0MUVXamhIRmhIYmR2eWxiSWhra25mbl9oU2VVaTNuSVpmYmJqeEJHQjViUVFuTXlEbmZTRW1GN0cyYWdyMEJqdDR0VDgzY1ZfeE1RZVlNMC16RmlLMXVUUnBuQ2hUQTAwT3ptVE85WjBQa1p2cktZUFRsX3drZlloWnk3Z2JxM2RZS1dkeVVhTE10ONIBqgFBVV95cUxOZ3V1VFB0Z0hUNW1Kbi05SGpKOGJydERfRG5QNUhoOG1ZSUJrNkpsRFFLZ3hEWUg1VnZQWmE1V2pKRnlLNkJZMHVtaG01aFpWbnE4YlN6RktBYkFTWEVxNkpfN3dmVWtmUzViMjhkS3RZbEI1RkRRZ0hpcEtUbjFZd2VOYzVha3RLZktkdjlLSEJhQkw1aU1ZTkVsZE5zM2hOZEp0cm1yZUIydw?oc=5",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -969,8 +937,8 @@
         "bolsa",
         "macro"
       ],
-      "publishedAt": "2026-05-30T04:31:04Z",
-      "updatedAt": "2026-05-30T04:31:04Z",
+      "publishedAt": "2026-05-30T04:31:13Z",
+      "updatedAt": "2026-05-30T04:31:13Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
@@ -991,6 +959,24 @@
       "updatedAt": "2026-05-30T04:03:43Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "latest-11cc43a8e4c8f589c4707892",
+      "title": "Ibovespa hoje: C&A (CEAB3) salta 7% após balanço; Petrobras (PETR3) cai mais de 3%",
+      "summary": "Atualizacao de ultima hora capturada em Estadão.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdUNjUDRQSTJzOEt6UGdHOWFxNFBkM096NTctZ0xGREItZ1dBa1FReWgzOVRJTnFuMWVDV0xDcnQ3b1lreDNDWHV5WmU0eHloR3h6VlNaN2tZNzlhRHVOZDhxX2VzWVA4TUdhQTZIdFFLZEVtXzIwRk16QXhvVnpEZ01EQ1JydFJ4YnlrWndXM2hFYkx2N0hWRjlDd2pzcEFOMXoyaEtFLWQwbDhYdnN5MDNONnhhTmvSAbwBQVVfeXFMTUhNYWltZ1pFeXRVQzdub2ZsNmdRTWtyRENYcnFZSHMzRE1vWUJya3VPQnFLbHhCSzhzeXp4a2ZKMVRoWGRuRkZZSmJ3ZUpwaUFVdEphOEg0dHdFYlI3cWEwdHM3QXF6bUdpM3lfYWZxZjR1UWI4cnRzY0c4bElmbWVpR0xNXzJyZ0xiM0dVMXhKMWFRb1VDZkVRcWFxdUxqQnRoWW9zbEdmbjBhaF84RDJHWjNZOVVkV05Bemo?oc=5",
+      "source": "Estadão",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-30T03:24:51Z",
+      "updatedAt": "2026-05-30T03:24:51Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "funds-0dc7e4f0811fa0f01bea4373",
@@ -1061,6 +1047,24 @@
       ],
       "publishedAt": "2026-05-30T00:52:37Z",
       "updatedAt": "2026-05-30T00:52:37Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "companies-8fb225e9771ae25d05db9715",
+      "title": "Entenda por que a decisão dos EUA de classificar PCC e CV como terroristas preocupa o sistema financeiro brasileiro",
+      "summary": "Atualizacao de empresas capturada em Blog do Banana.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONUV3Z1pSTnFvV3ZvMHIyYkZRN2JxSjJiMnpPWjUtZ0s2NGZra2dJeEMwM2JXTm1lMnljN2R2WENCZmtDZ25VTFJoQ3RxVHZaM1FIellnWDBTVGR4OTM3REw3cFBzclhmekNPYjU1N1MwNVhZZHRJYUNDRzlMWHd2NERZOGdMbll3UGpOZGNxWG5PUVMwb2F6SkFOcWxwVVh3OTVDdTJzUUhNbklCeHM1VmxhQWZOX2F4X19xOWV4cEQySTB6eldDY2RqMnFLYjllb3RsNUlrSDNtZElXOFE?oc=5",
+      "source": "Blog do Banana",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-05-30T00:45:59Z",
+      "updatedAt": "2026-05-30T00:45:59Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
