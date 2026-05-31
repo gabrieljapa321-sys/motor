@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-31T20:04:48Z",
-  "generatedAt": "2026-05-31T20:04:48Z",
+  "updatedAt": "2026-05-31T21:15:41Z",
+  "generatedAt": "2026-05-31T21:15:41Z",
   "categories": [
     {
       "id": "all",
@@ -41,6 +41,14 @@
       "label": "Bloomberg Línea Brasil"
     },
     {
+      "id": "bpmoney",
+      "label": "BPMoney"
+    },
+    {
+      "id": "canaltech",
+      "label": "Canaltech"
+    },
+    {
       "id": "carta-campinas",
       "label": "Carta Campinas"
     },
@@ -69,24 +77,20 @@
       "label": "Estadão"
     },
     {
-      "id": "express-o-rond-nia",
-      "label": "Expressão Rondônia"
-    },
-    {
-      "id": "feed-food",
-      "label": "Feed&Food"
-    },
-    {
-      "id": "g1",
-      "label": "G1"
+      "id": "exame",
+      "label": "Exame"
     },
     {
       "id": "gazeta-do-povo",
       "label": "Gazeta do Povo"
     },
     {
-      "id": "investing-com-brasil-finan-as-c-mbio-e-investimentos",
-      "label": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
+      "id": "jornal-da-cidade-online",
+      "label": "Jornal da Cidade Online"
+    },
+    {
+      "id": "jornal-do-oeste",
+      "label": "Jornal do Oeste"
     },
     {
       "id": "kinvo",
@@ -101,10 +105,6 @@
       "label": "MidiaNews"
     },
     {
-      "id": "minuto-mt",
-      "label": "MINUTO MT"
-    },
-    {
       "id": "mix-vale",
       "label": "Mix Vale"
     },
@@ -113,28 +113,12 @@
       "label": "Nord Investimentos"
     },
     {
-      "id": "noticiasdoplanalto-com-br",
-      "label": "noticiasdoplanalto.com.br"
-    },
-    {
       "id": "o-cafezinho",
       "label": "O Cafezinho"
     },
     {
       "id": "o-rebate",
       "label": "O Rebate"
-    },
-    {
-      "id": "paipee",
-      "label": "PaiPee"
-    },
-    {
-      "id": "para-ba-business",
-      "label": "Paraíba Business"
-    },
-    {
-      "id": "portal-contabeis",
-      "label": "Portal Contabeis"
     },
     {
       "id": "portal-n10",
@@ -147,6 +131,10 @@
     {
       "id": "pressreader",
       "label": "PressReader"
+    },
+    {
+      "id": "regi-o-news",
+      "label": "Região News"
     },
     {
       "id": "revista-oeste",
@@ -163,6 +151,10 @@
     {
       "id": "times-brasil-cnbc",
       "label": "Times Brasil | CNBC"
+    },
+    {
+      "id": "tradenews-com-br",
+      "label": "tradenews.com.br"
     },
     {
       "id": "turbo-pt",
@@ -187,11 +179,124 @@
   ],
   "items": [
     {
+      "id": "macro-76f816a836577f9808e868d7",
+      "title": "Inflação: sorria, você está sendo roubado",
+      "summary": "Atualizacao de macro capturada em Gazeta do Povo.",
+      "details": "",
+      "url": "https://www.jornaldooeste.com.br/assembleia-parana-votacoes-selo-fiscal/",
+      "source": "Gazeta do Povo",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-31T21:00:00Z",
+      "updatedAt": "2026-05-31T21:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-4bc2bd373cd4ce6e1e21fef7",
+      "title": "Agenda da semana: Payroll dos EUA e inflação movimentam mercados",
+      "summary": "No mesmo período, porém, a população de baixa renda inscrita no Cadastro Único (CadÚnico) aumentou 73%, revelando um contraste entre a expansão econômica e a realidade social do município.",
+      "details": "No mesmo período, porém, a população de baixa renda inscrita no Cadastro Único (CadÚnico) aumentou 73%, revelando um contraste entre a expansão econômica e a realidade social do município.",
+      "url": "https://www.regiaonews.com.br/sidrolandia-ms/em-14-anos-pib-cresceu-327-mas-populacao-de-baixa-renda-aumentou-73-em-sidrolandia",
+      "source": "BPMoney",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-31T21:00:00Z",
+      "updatedAt": "2026-05-31T21:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://cdn.regiaonews.com.br/uploads/noticias/2026/05/31/1gvd72ouy2leg.jpg"
+    },
+    {
+      "id": "macro-f12111a2f5c5409de93a1ea5",
+      "title": "Assembleia do Paraná vota selo fiscal e projetos culturais",
+      "summary": "O que nunca se diz é que a inflação é consequência dos gastos do governo. Leia a coluna de Roberto Motta na Gazeta do Povo.",
+      "details": "O que nunca se diz é que a inflação é consequência dos gastos do governo. Leia a coluna de Roberto Motta na Gazeta do Povo.",
+      "url": "https://www.gazetadopovo.com.br/vozes/roberto-motta/inflacao-sorria-voce-esta-sendo-roubado/",
+      "source": "Jornal do Oeste",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-31T21:00:00Z",
+      "updatedAt": "2026-05-31T21:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/05/28112242/inflacao2.jpg"
+    },
+    {
+      "id": "latest-ba1c5a72ddf435f0a26ca146",
+      "title": "Atividade Industrial da China Estável em Meio à Pressão de Custos",
+      "summary": "PIB forte, inflação de energia, El Niño alimentam a percepção de taxa alta por mais tempo",
+      "details": "PIB forte, inflação de energia, El Niño alimentam a percepção de taxa alta por mais tempo",
+      "url": "https://www.tradenews.com.br/p/tese-de-selic-alta-ganha-forca",
+      "source": "diário do estado",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-31T20:46:24Z",
+      "updatedAt": "2026-05-31T20:46:24Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!6CSV!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd266a456-b8a9-465f-869a-4bf8dae02620_1181x653.png"
+    },
+    {
+      "id": "latest-bdc5acf2b1d68b3a69b784f9",
+      "title": "Tese de Selic alta ganha força",
+      "summary": "PMI industrial da China se mantém em 50,0 em maio, refletindo pressão por custos de energia.",
+      "details": "PMI industrial da China se mantém em 50,0 em maio, refletindo pressão por custos de energia.",
+      "url": "https://diariodoestadogo.com.br/atividade-industrial-da-china-estavel-em-meio-a-pressao-de-custos/",
+      "source": "tradenews.com.br",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-31T20:39:54Z",
+      "updatedAt": "2026-05-31T20:39:54Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/atividade-industrial-da-china-estavel-em-meio-a-pressao-de-custos.jpeg"
+    },
+    {
+      "id": "macro-85be060c500020a166674a0b",
+      "title": "Quanto custaria uma Fiat Elba hoje, com a inflação?",
+      "summary": "Confira os principais indicadores econômicos da semana, com destaque para o Payroll dos EUA, inflação da Zona do Euro e produção industrial.",
+      "details": "Confira os principais indicadores econômicos da semana, com destaque para o Payroll dos EUA, inflação da Zona do Euro e produção industrial.",
+      "url": "https://bpmoney.com.br/mercado/agenda-da-semana-payroll-nos-eua-inflacao-da-zona-do-euro-e-producao-industrial-do-brasil-ficam-no-radar-dos-mercados/",
+      "source": "Canaltech",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-31T20:05:00Z",
+      "updatedAt": "2026-05-31T20:05:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://bpmoney.com.br/wp-content/uploads/2025/05/U5NKKK6o-visualizacao-de-dados-financeiros-graficos-mercado-de-acoes-2048x1116.webp"
+    },
+    {
       "id": "funds-8ab1af7350f58184fd3f4a40",
       "title": "Bilhões da SpaceX e OpenAI ampliam apostas em fornecedores asiáticos ligados à IA",
-      "summary": "TRANSMISSÃO: Space Investidores globais aumentaram as apostas em empresas asiáticas que podem se beneficiar da próxima fase de expansão da...",
-      "details": "TRANSMISSÃO: Space Investidores globais aumentaram as apostas em empresas asiáticas que podem se beneficiar da próxima fase de expansão da...",
-      "url": "https://kondzilla.com/bilhoes-da-spacex-e-openai-ampliam-apostas-em-fornecedores-asiaticos-ligados-a-ia/",
+      "summary": "A Fiat Elba completou 40 anos em 2026 e, para celebrar as quatro d&eacute;cadas de vida do modelo que nasceu em abril de 1986 e saiu de linha dez anos depois, p",
+      "details": "A Fiat Elba completou 40 anos em 2026 e, para celebrar as quatro d&eacute;cadas de vida do modelo que nasceu em abril de 1986 e saiu de linha dez anos depois, p",
+      "url": "https://canaltech.com.br/carros/quanto-custaria-uma-fiat-elba-hoje-com-a-inflacao/",
       "source": "kondzilla.com",
       "category": "funds",
       "tags": [
@@ -203,14 +308,52 @@
       "updatedAt": "2026-05-31T20:00:15Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://t.ctcdn.com.br/OLZI2FynUThRPHUoUBRjGO2qxbA=/1200x675/smart/i1129199.jpeg"
+    },
+    {
+      "id": "macro-d1243ab4ed979cbc69bcd4f1",
+      "title": "Apertem os cintos: política monetária mais potente exige política fiscal austera e verossímil",
+      "summary": "TRANSMISSÃO: Space Investidores globais aumentaram as apostas em empresas asiáticas que podem se beneficiar da próxima fase de expansão da...",
+      "details": "TRANSMISSÃO: Space Investidores globais aumentaram as apostas em empresas asiáticas que podem se beneficiar da próxima fase de expansão da...",
+      "url": "https://kondzilla.com/bilhoes-da-spacex-e-openai-ampliam-apostas-em-fornecedores-asiaticos-ligados-a-ia/",
+      "source": "Estadão",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-31T20:00:00Z",
+      "updatedAt": "2026-05-31T20:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
       "imageUrl": "https://kondzilla.com/wp-content/uploads/2026/05/openai_-2048x1365-2.jpg"
+    },
+    {
+      "id": "macro-f377f665f10e1751750e1a0d",
+      "title": "Em 14 anos, PIB cresceu 327%, mas população de baixa renda aumentou 73% em Sidrolândia",
+      "summary": "O consumo é influenciado pelo aumento das transferências do tipo Bolsa Família e Benefício de Prestação Continuada, gastos que, por justos que sejam, reduzem a potência da alta dos juros",
+      "details": "O consumo é influenciado pelo aumento das transferências do tipo Bolsa Família e Benefício de Prestação Continuada, gastos que, por justos que sejam, reduzem a potência da alta dos juros",
+      "url": "https://www.estadao.com.br/economia/luis-eduardo-assis/apertem-os-cintos-politica-monetaria-mais-potente-exige-politica-fiscal-austera-e-verossimil/",
+      "source": "Região News",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-05-31T19:54:00Z",
+      "updatedAt": "2026-05-31T19:54:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/FSXUY7J7Y5MHJLC63B43LRXWUU.jpg?quality=80&auth=f5e4fb6028801c8101086ba36351066c0fce2371c61f9cccbdca893a2bab078e&width=1200&height=630&focal=326,229"
     },
     {
       "id": "latest-444d389fff48eb0ee8131af2",
       "title": "Inteligência Artificial Impacta Estratégias de Investimento no Mercado Financeiro",
-      "summary": "Embora trabalhadores e a população de baixa renda enfrentem pressões, focando seus gastos em itens essenciais, os ricos continuam gastando com joias e roupas caras, impulsionando a economia americana nos últimos anos",
-      "details": "Embora trabalhadores e a população de baixa renda enfrentem pressões, focando seus gastos em itens essenciais, os ricos continuam gastando com joias e roupas caras, impulsionando a economia americana nos últimos anos",
-      "url": "https://www.bloomberglinea.com.br/2026/05/31/luxo-vira-termometro-da-economia-americana-enquanto-inflacao-pressiona-classe-media/",
+      "summary": "Ferramentas de IA revolucionam o mercado financeiro, mas especialistas alertam: cautela é essencial.",
+      "details": "Ferramentas de IA revolucionam o mercado financeiro, mas especialistas alertam: cautela é essencial.",
+      "url": "https://diariodoestadogo.com.br/inteligencia-artificial-impacta-estrategias-de-investimento-no-mercado-financeiro/",
       "source": "diário do estado",
       "category": "latest",
       "tags": [
@@ -222,14 +365,14 @@
       "updatedAt": "2026-05-31T19:03:04Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.bloomberglinea.com/resizer/v2/XMPI3AAYKBDYDBRFJQKDEWJKOI.jpeg?auth=ed63cbba49e7c24052e8e67d42567aa45d750b63956fe82a4b661174da08f4c5&width=1200&height=675&quality=80&smart=true"
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/inteligencia-artificial-impacta-estrategias-de-investimento-no-mercado-financeiro.png"
     },
     {
       "id": "macro-db4881b78f097ee7e77ada65",
       "title": "Luxo vira termômetro da economia americana enquanto inflação pressiona classe média",
-      "summary": "Ferramentas de IA revolucionam o mercado financeiro, mas especialistas alertam: cautela é essencial.",
-      "details": "Ferramentas de IA revolucionam o mercado financeiro, mas especialistas alertam: cautela é essencial.",
-      "url": "https://diariodoestadogo.com.br/inteligencia-artificial-impacta-estrategias-de-investimento-no-mercado-financeiro/",
+      "summary": "Embora trabalhadores e a população de baixa renda enfrentem pressões, focando seus gastos em itens essenciais, os ricos continuam gastando com joias e roupas caras, impulsionando a economia americana nos últimos anos",
+      "details": "Embora trabalhadores e a população de baixa renda enfrentem pressões, focando seus gastos em itens essenciais, os ricos continuam gastando com joias e roupas caras, impulsionando a economia americana nos últimos anos",
+      "url": "https://www.bloomberglinea.com.br/2026/05/31/luxo-vira-termometro-da-economia-americana-enquanto-inflacao-pressiona-classe-media/",
       "source": "Bloomberg Línea Brasil",
       "category": "macro",
       "tags": [
@@ -241,33 +384,14 @@
       "updatedAt": "2026-05-31T18:57:51Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/inteligencia-artificial-impacta-estrategias-de-investimento-no-mercado-financeiro.png"
-    },
-    {
-      "id": "latest-689a8e0e32cb8d0b388f9601",
-      "title": "Banco central da China decide manter taxa de juros",
-      "summary": "Taxa de juros de referência a empréstimos para 1 ano seguirá em 3,65%",
-      "details": "Taxa de juros de referência a empréstimos para 1 ano seguirá em 3,65%",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/china-banco-central-taxa-de-juros/",
-      "source": "Estadão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-31T18:49:31Z",
-      "updatedAt": "2026-05-31T18:49:31Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/4BQAVETNLBJU5LJSMESEH7CXHQ.jpg?quality=80&auth=a8904676204aefaa79f4b7564412c3b59767f7bb6f4a7f4afb54078a70324dfb&width=1200&height=630&smart=true"
+      "imageUrl": "https://www.bloomberglinea.com/resizer/v2/XMPI3AAYKBDYDBRFJQKDEWJKOI.jpeg?auth=ed63cbba49e7c24052e8e67d42567aa45d750b63956fe82a4b661174da08f4c5&width=1200&height=675&quality=80&smart=true"
     },
     {
       "id": "latest-af9447bf42cbd78d2a99af48",
       "title": "IA avança no mercado financeiro e molda decisões de investimento",
-      "summary": "Adoção da ferramenta ajuda investidores na composição das carteiras e na análise de ações; especialistas defendem cautela no uso",
-      "details": "Adoção da ferramenta ajuda investidores na composição das carteiras e na análise de ações; especialistas defendem cautela no uso",
-      "url": "https://www.cnnbrasil.com.br/economia/mercado/ia-avanca-no-mercado-financeiro-e-molda-decisoes-de-investimento/",
+      "summary": "O diagnóstico da CNI faz parte do estudo \"Construção no Brasil: Agenda para Modernização do Setor\", que aponta desafios para a atividade.",
+      "details": "O diagnóstico da CNI faz parte do estudo \"Construção no Brasil: Agenda para Modernização do Setor\", que aponta desafios para a atividade.",
+      "url": "https://timesbrasil.com.br/brasil/economia-brasileira/construcao-civil-encolhe-na-economia-brasileira/",
       "source": "CNN Brasil",
       "category": "latest",
       "tags": [
@@ -279,14 +403,14 @@
       "updatedAt": "2026-05-31T18:30:26Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/ChatGPT-Image-20-de-mai.-de-2026-15_09_49.png?w=1200&h=630&crop=1"
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/05/405ec26c-18a.webp"
     },
     {
       "id": "latest-032fb5cc7d0ad745d6697c71",
       "title": "Fiagros: captação recorde em 2026 surpreende mercado. Entenda os impactos",
-      "summary": "Investidores apostam nos Fiagros com aumento das emissões em meio à cautela no crédito. Veja detalhes e as projeções do setor.",
-      "details": "Investidores apostam nos Fiagros com aumento das emissões em meio à cautela no crédito. Veja detalhes e as projeções do setor.",
-      "url": "https://diariodoestadogo.com.br/fiagros-captacao-recorde-em-2026-surpreende-mercado-entenda-os-impactos/",
+      "summary": "Argentina registra crescimento, queda da inflação e ampliação de exportações desde que Javier Milei assumiu a Presidência. Leia mais",
+      "details": "Argentina registra crescimento, queda da inflação e ampliação de exportações desde que Javier Milei assumiu a Presidência. Leia mais",
+      "url": "https://revistaoeste.com/mundo/argentina-registra-crescimento-queda-da-inflacao/",
       "source": "diário do estado",
       "category": "latest",
       "tags": [
@@ -298,14 +422,14 @@
       "updatedAt": "2026-05-31T18:30:24Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/fiagros3A-captacao-recorde-em-2026-surpreende-mercado.-entenda-os-impactos.png"
+      "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2025/06/Argentina.jpg"
     },
     {
       "id": "macro-56d407a24c70291dc314fdc8",
       "title": "Projeção da Selic a 12% em 2026 agrada grandes investidores, mas crédito ainda sufoca micro e pequenas empresas",
-      "summary": "Últimas notícias de Alagoas com agilidade, credibilidade e opinião. Política, economia, esporte, cultura e colunistas que fazem a diferença. Acesse agora!",
-      "details": "Últimas notícias de Alagoas com agilidade, credibilidade e opinião. Política, economia, esporte, cultura e colunistas que fazem a diferença. Acesse agora!",
-      "url": "https://al1.com.br/noticias/noticias/196558-projecao-da-selic-a-12-em-2026-agrada-grandes-investidores-mas-credito-ainda-sufoca-micro-e-pequenas-empresas",
+      "summary": "Adoção da ferramenta ajuda investidores na composição das carteiras e na análise de ações; especialistas defendem cautela no uso",
+      "details": "Adoção da ferramenta ajuda investidores na composição das carteiras e na análise de ações; especialistas defendem cautela no uso",
+      "url": "https://www.cnnbrasil.com.br/economia/mercado/ia-avanca-no-mercado-financeiro-e-molda-decisoes-de-investimento/",
       "source": "al1.com.br",
       "category": "macro",
       "tags": [
@@ -317,26 +441,26 @@
       "updatedAt": "2026-05-31T18:21:34Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://img.dhost.cloud/Se79DDmguVanAEAMlpaLZ7fdk2Y=/970x545/smart/https://al1-media.s3.us-west-004.backblazeb2.com/images/034394d39cf8ff5bf1313c1d60168c93.jpg"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/ChatGPT-Image-20-de-mai.-de-2026-15_09_49.png?w=1200&h=630&crop=1"
     },
     {
-      "id": "latest-c1fb2b9218abac55f7ed1bd3",
-      "title": "Ações da Take-Two Interactive sobem 10% após Best Buy confirmar pré-venda de Grand Theft Auto VI",
-      "summary": "As ações da Take-Two Interactive registraram uma valorização de aproximadamente 10% durante o pregão desta segunda-feira. O movimento de alta expressiva ocorreu logo após a rede varejista Best Buy confirmar oficialmente o início da pré-venda do jogo Grand Theft Auto VI. Os papéis",
-      "details": "As ações da Take-Two Interactive registraram uma valorização de aproximadamente 10% durante o pregão desta segunda-feira. O movimento de alta expressiva ocorreu logo após a rede varejista Best Buy confirmar oficialmente o início da pré-venda do jogo Grand Theft Auto VI. Os papéis da companhia alcançaram a cotação de US",
-      "url": "https://www.mixvale.com.br/2026/05/31/acoes-da-take-two-interactive-disparam-10-apos-best-buy-iniciar-pre-venda-de-grand-theft-auto-vi/amp/",
-      "source": "Mix Vale",
-      "category": "latest",
+      "id": "macro-ee4732d42143c68bab2937b4",
+      "title": "Construção civil encolhe no PIB e registra queda histórica de produtividade nas últimas três décadas",
+      "summary": "Últimas notícias de Alagoas com agilidade, credibilidade e opinião. Política, economia, esporte, cultura e colunistas que fazem a diferença. Acesse agora!",
+      "details": "Últimas notícias de Alagoas com agilidade, credibilidade e opinião. Política, economia, esporte, cultura e colunistas que fazem a diferença. Acesse agora!",
+      "url": "https://al1.com.br/noticias/noticias/196558-projecao-da-selic-a-12-em-2026-agrada-grandes-investidores-mas-credito-ainda-sufoca-micro-e-pequenas-empresas",
+      "source": "Times Brasil | CNBC",
+      "category": "macro",
       "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
+        "macro",
+        "juros",
+        "inflacao"
       ],
-      "publishedAt": "2026-05-31T18:13:21Z",
-      "updatedAt": "2026-05-31T18:13:21Z",
+      "publishedAt": "2026-05-31T18:10:00Z",
+      "updatedAt": "2026-05-31T18:10:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.mixvale.com.br/wp-content/uploads/2026/05/gta-6-1777917423.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://img.dhost.cloud/Se79DDmguVanAEAMlpaLZ7fdk2Y=/970x545/smart/https://al1-media.s3.us-west-004.backblazeb2.com/images/034394d39cf8ff5bf1313c1d60168c93.jpg"
     },
     {
       "id": "latest-f5848f59889146165d0769ec",
@@ -360,9 +484,9 @@
     {
       "id": "latest-3e81ea1ddba63769b663e2e1",
       "title": "Recuo prolongado do S&P 500 aciona alerta e mercado testa suporte técnico na faixa de 5980 pontos",
-      "summary": "O índice S&P 500 registra a quarta semana consecutiva de desvalorização e caminha para consolidar o pior desempenho mensal de 2026. A pressão vendedora recente rompeu a média móvel de 200 dias. O indicador tradicional de longo prazo não conseguiu segurar o movimento de baixa nos ",
-      "details": "O índice S&P 500 registra a quarta semana consecutiva de desvalorização e caminha para consolidar o pior desempenho mensal de 2026. A pressão vendedora recente rompeu a média móvel de 200 dias. O indicador tradicional de longo prazo não conseguiu segurar o movimento de baixa nos últimos pregões. Agora, os operadores do",
-      "url": "https://www.mixvale.com.br/2026/05/31/recuo-prolongado-do-sp-500-aciona-alerta-e-mercado-testa-suporte-tecnico-na-faixa-de-5980-pontos/amp/",
+      "summary": "Investidores apostam nos Fiagros com aumento das emissões em meio à cautela no crédito. Veja detalhes e as projeções do setor.",
+      "details": "Investidores apostam nos Fiagros com aumento das emissões em meio à cautela no crédito. Veja detalhes e as projeções do setor.",
+      "url": "https://diariodoestadogo.com.br/fiagros-captacao-recorde-em-2026-surpreende-mercado-entenda-os-impactos/",
       "source": "Mix Vale",
       "category": "latest",
       "tags": [
@@ -374,14 +498,14 @@
       "updatedAt": "2026-05-31T17:51:05Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.mixvale.com.br/wp-content/uploads/2026/03/Fibonacci.jpg"
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/fiagros3A-captacao-recorde-em-2026-surpreende-mercado.-entenda-os-impactos.png"
     },
     {
       "id": "macro-a530c162ec5a4e86c2839a11",
       "title": "Argentina registra crescimento, queda da inflação e ampliação de exportações",
-      "summary": "Cartão de crédito é o principal meio de pagamento online no Brasil, com 40% de preferência entre consumidores.",
-      "details": "Cartão de crédito é o principal meio de pagamento online no Brasil, com 40% de preferência entre consumidores.",
-      "url": "https://diariodoestadogo.com.br/cartao-de-credito-lidera-compras-online-no-brasil-entenda-o-motivo/",
+      "summary": "O índice S&P 500 registra a quarta semana consecutiva de desvalorização e caminha para consolidar o pior desempenho mensal de 2026. A pressão vendedora recente rompeu a média móvel de 200 dias. O indicador tradicional de longo prazo não conseguiu segurar o movimento de baixa nos ",
+      "details": "O índice S&P 500 registra a quarta semana consecutiva de desvalorização e caminha para consolidar o pior desempenho mensal de 2026. A pressão vendedora recente rompeu a média móvel de 200 dias. O indicador tradicional de longo prazo não conseguiu segurar o movimento de baixa nos últimos pregões. Agora, os operadores do",
+      "url": "https://www.mixvale.com.br/2026/05/31/recuo-prolongado-do-sp-500-aciona-alerta-e-mercado-testa-suporte-tecnico-na-faixa-de-5980-pontos/amp/",
       "source": "Revista Oeste",
       "category": "macro",
       "tags": [
@@ -393,7 +517,7 @@
       "updatedAt": "2026-05-31T17:26:39Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/cartao-de-credito-lidera-compras-online-no-brasil3A-entenda-o-motivo.jpg"
+      "imageUrl": "https://www.mixvale.com.br/wp-content/uploads/2026/03/Fibonacci.jpg"
     },
     {
       "id": "funds-3fdf92c81e3ce831cf8c59e2",
@@ -415,30 +539,11 @@
       "imageUrl": "https://asset.skoiy.com/averl1d84frvz2zb/dyhj5zqohfhq.jpg?crop=4240,2385,0,224"
     },
     {
-      "id": "latest-05ee495191467b93acef00c0",
-      "title": "Minivan Toyota Voxy 2025 recebe novas tecnologias de série e altera mercado de usados no Japão",
-      "summary": "Argentina registra crescimento, queda da inflação e ampliação de exportações desde que Javier Milei assumiu a Presidência. Leia mais",
-      "details": "Argentina registra crescimento, queda da inflação e ampliação de exportações desde que Javier Milei assumiu a Presidência. Leia mais",
-      "url": "https://revistaoeste.com/mundo/argentina-registra-crescimento-queda-da-inflacao/",
-      "source": "Mix Vale",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-05-31T17:05:31Z",
-      "updatedAt": "2026-05-31T17:05:31Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2025/06/Argentina.jpg"
-    },
-    {
       "id": "latest-493e2dd35d2111075c6f8d73",
       "title": "PSG vence Arsenal e fatura R$ 147 milhões na Champions",
-      "summary": "A montadora Toyota oficializou a reformulação parcial da minivan Voxy em setembro de 2025. O veículo de quarta geração passa a integrar tecnologias avançadas como equipamentos de fábrica em todas as suas configurações disponíveis. A fabricante manteve a base estrutural na platafo",
-      "details": "A montadora Toyota oficializou a reformulação parcial da minivan Voxy em setembro de 2025. O veículo de quarta geração passa a integrar tecnologias avançadas como equipamentos de fábrica em todas as suas configurações disponíveis. A fabricante manteve a base estrutural na plataforma TNGA, reconhecida pela rigidez e lev",
-      "url": "https://www.mixvale.com.br/2026/05/31/minivan-toyota-voxy-2025-recebe-novas-tecnologias-de-serie-e-altera-mercado-de-usados-no-japao/amp/",
+      "summary": "Paris Saint-Germain conquista título e ganha R$ 147 milhões na Champions League após vencer Arsenal nos pênaltis.",
+      "details": "Paris Saint-Germain conquista título e ganha R$ 147 milhões na Champions League após vencer Arsenal nos pênaltis.",
+      "url": "https://diariodoestadogo.com.br/psg-vence-arsenal-e-fatura-r-147-milhoes-na-champions/",
       "source": "diário do estado",
       "category": "latest",
       "tags": [
@@ -450,14 +555,14 @@
       "updatedAt": "2026-05-31T17:03:06Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.mixvale.com.br/wp-content/uploads/2026/01/Toyota-1.jpg"
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/psg-vence-arsenal-e-fatura-r24-147-milhoes-na-champions.jpg"
     },
     {
       "id": "latest-ba1a3d45070f1e6ea2fcb0e6",
       "title": "Cartão de Crédito Lidera Compras Online no Brasil: Entenda o Motivo",
-      "summary": "Paris Saint-Germain conquista título e ganha R$ 147 milhões na Champions League após vencer Arsenal nos pênaltis.",
-      "details": "Paris Saint-Germain conquista título e ganha R$ 147 milhões na Champions League após vencer Arsenal nos pênaltis.",
-      "url": "https://diariodoestadogo.com.br/psg-vence-arsenal-e-fatura-r-147-milhoes-na-champions/",
+      "summary": "Segundo Waller, esses ativos facilitam operações financeiras e cambiais sem retirar recursos do sistema bancário.",
+      "details": "Segundo Waller, esses ativos facilitam operações financeiras e cambiais sem retirar recursos do sistema bancário.",
+      "url": "https://veronoticias.com/economia/dirigente-do-fed-defende-uso-de-stablecoins/",
       "source": "diário do estado",
       "category": "latest",
       "tags": [
@@ -469,7 +574,7 @@
       "updatedAt": "2026-05-31T17:01:44Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/psg-vence-arsenal-e-fatura-r24-147-milhoes-na-champions.jpg"
+      "imageUrl": "https://veronoticias.com/wp-content/uploads/2026/05/Christopher_J._Waller_Federal_Reserve_Governor_2-e1779475840747.jpg"
     },
     {
       "id": "funds-8c608f562c8d233f1fa8caba",
@@ -493,9 +598,9 @@
     {
       "id": "macro-9a6f0517826d999b6210b568",
       "title": "Dirigente do Fed defende uso de stablecoins",
-      "summary": "Dinheiro pode ser solicitado pelo site ou aplicativo do programa",
-      "details": "Dinheiro pode ser solicitado pelo site ou aplicativo do programa",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/nota-fiscal-paulista-creditos-como-resgatar/",
+      "summary": "Cartão de crédito é o principal meio de pagamento online no Brasil, com 40% de preferência entre consumidores.",
+      "details": "Cartão de crédito é o principal meio de pagamento online no Brasil, com 40% de preferência entre consumidores.",
+      "url": "https://diariodoestadogo.com.br/cartao-de-credito-lidera-compras-online-no-brasil-entenda-o-motivo/",
       "source": "Vero Notícias",
       "category": "macro",
       "tags": [
@@ -507,33 +612,32 @@
       "updatedAt": "2026-05-31T17:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/NMIYVJFYDJMCXCV4GBQIQVQUOQ.jpg?quality=80&auth=5fe33d3f234f0b3a7dcac7d53777bfb66b4f3d50972ec09375a2dc5d142709a9&width=1200&height=630&smart=true"
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/cartao-de-credito-lidera-compras-online-no-brasil3A-entenda-o-motivo.jpg"
     },
     {
-      "id": "latest-9b262750f96c8c63b9570695",
-      "title": "Gerenciamento de US$ 2 milhões a US$ 5 milhões em aposentadoria: milionários enfrentam desafios inesperados, revela análise",
-      "summary": "Segundo Waller, esses ativos facilitam operações financeiras e cambiais sem retirar recursos do sistema bancário.",
-      "details": "Segundo Waller, esses ativos facilitam operações financeiras e cambiais sem retirar recursos do sistema bancário.",
-      "url": "https://veronoticias.com/economia/dirigente-do-fed-defende-uso-de-stablecoins/",
-      "source": "Mix Vale",
+      "id": "latest-39ac37d57030de0c19e05c32",
+      "title": "Para além de Roland Garros: a gestora bilionária por trás de João Fonseca",
+      "summary": "Atualizacao de ultima hora capturada em Exame.",
+      "details": "",
+      "url": "https://exame.com/invest/mercados/para-alem-de-roland-garros-a-gestora-bilionaria-por-tras-de-joao-fonseca/",
+      "source": "Exame",
       "category": "latest",
       "tags": [
         "mercado",
         "bolsa",
         "macro"
       ],
-      "publishedAt": "2026-05-31T16:53:10Z",
-      "updatedAt": "2026-05-31T16:53:10Z",
+      "publishedAt": "2026-05-31T16:44:19Z",
+      "updatedAt": "2026-05-31T16:44:19Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://veronoticias.com/wp-content/uploads/2026/05/Christopher_J._Waller_Federal_Reserve_Governor_2-e1779475840747.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-37ec050a3e1a5e74c5ee47b0",
       "title": "Nota Fiscal Paulista libera R$ 58 mi em créditos; veja como resgatar",
-      "summary": "Atingir entre US$ 2 milhões e US$ 5 milhões em reservas para a aposentadoria, embora acima da meta da maioria dos americanos, apresenta dificuldades particulares. Este patamar de riqueza, superior aos US$ 1,46 milhão estimados para uma aposentadoria confortável em 2026, conforme ",
-      "details": "Atingir entre US$ 2 milhões e US$ 5 milhões em reservas para a aposentadoria, embora acima da meta da maioria dos americanos, apresenta dificuldades particulares. Este patamar de riqueza, superior aos US$ 1,46 milhão estimados para uma aposentadoria confortável em 2026, conforme a Northwestern Mutual, acarreta complexi",
-      "url": "https://www.mixvale.com.br/2026/05/31/gerenciamento-de-us-2-milhoes-a-us-5-milhoes-em-aposentadoria-milionarios-enfrentam-desafios-inesperados-revela-analise/amp/",
+      "summary": "Dinheiro pode ser solicitado pelo site ou aplicativo do programa",
+      "details": "Dinheiro pode ser solicitado pelo site ou aplicativo do programa",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/nota-fiscal-paulista-creditos-como-resgatar/",
       "source": "Estadão",
       "category": "macro",
       "tags": [
@@ -545,14 +649,14 @@
       "updatedAt": "2026-05-31T16:42:21Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.mixvale.com.br/wp-content/uploads/2025/12/Dolar-3.jpg"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/NMIYVJFYDJMCXCV4GBQIQVQUOQ.jpg?quality=80&auth=5fe33d3f234f0b3a7dcac7d53777bfb66b4f3d50972ec09375a2dc5d142709a9&width=1200&height=630&smart=true"
     },
     {
       "id": "latest-fae3547702d526e762983a0d",
       "title": "Captações no mercado de capitais crescem 120% no 1º semestre, diz Anbima",
-      "summary": "As emissões de debêntures, CRAs, CRIs e FIDC atingiram volumes recordes no período deste ano",
-      "details": "As emissões de debêntures, CRAs, CRIs e FIDC atingiram volumes recordes no período deste ano",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/mercado-de-capitais-captacoes-crescem-1-semestre-anbima/",
+      "summary": "IPCA-15 sobe acima do esperado em maio, mas investidores seguem projetando queda da Selic. Veja os riscos e oportunidades",
+      "details": "IPCA-15 sobe acima do esperado em maio, mas investidores seguem projetando queda da Selic. Veja os riscos e oportunidades",
+      "url": "https://www.nordinvestimentos.com.br/blog/corte-selic-inflacao-mercado/",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -564,14 +668,14 @@
       "updatedAt": "2026-05-31T16:24:42Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/PDGP3S6IORMS5MM7KME4RGYZTM.png?quality=80&auth=4d69abae08aea7a4b9837a43d3dd1183787bad1724f4297b989c29b80f02e1e5&width=1200&height=630&smart=true"
+      "imageUrl": "https://www.nordinvestimentos.com.br/cdn-cgi/imagedelivery/WVyV4OkToIxntlRloKFH7Q/blog/uploads/da6792a0-055f-46b4-ae94-3f6400cabc3f/corte-selic-inflacao-mercado.webp/format=auto,fit=cover,w=1280,h=720"
     },
     {
       "id": "latest-7e1cba8b82152d7d2d6c632f",
       "title": "Corte da Selic: por que o mercado ainda aposta na queda dos juros?",
-      "summary": "IPCA-15 sobe acima do esperado em maio, mas investidores seguem projetando queda da Selic. Veja os riscos e oportunidades",
-      "details": "IPCA-15 sobe acima do esperado em maio, mas investidores seguem projetando queda da Selic. Veja os riscos e oportunidades",
-      "url": "https://www.nordinvestimentos.com.br/blog/corte-selic-inflacao-mercado/",
+      "summary": "As emissões de debêntures, CRAs, CRIs e FIDC atingiram volumes recordes no período deste ano",
+      "details": "As emissões de debêntures, CRAs, CRIs e FIDC atingiram volumes recordes no período deste ano",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/mercado-de-capitais-captacoes-crescem-1-semestre-anbima/",
       "source": "Nord Investimentos",
       "category": "latest",
       "tags": [
@@ -583,7 +687,7 @@
       "updatedAt": "2026-05-31T16:22:29Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.nordinvestimentos.com.br/cdn-cgi/imagedelivery/WVyV4OkToIxntlRloKFH7Q/blog/uploads/da6792a0-055f-46b4-ae94-3f6400cabc3f/corte-selic-inflacao-mercado.webp/format=auto,fit=cover,w=1280,h=720"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/PDGP3S6IORMS5MM7KME4RGYZTM.png?quality=80&auth=4d69abae08aea7a4b9837a43d3dd1183787bad1724f4297b989c29b80f02e1e5&width=1200&height=630&smart=true"
     },
     {
       "id": "latest-4620fad5fb994cd5586caf1d",
@@ -607,9 +711,9 @@
     {
       "id": "macro-a8dae2d9b5207dca638155cd",
       "title": "CNI: construção civil perde espaço no PIB e vê produtividade cair 20,4% em 30 anos",
-      "summary": "18% das companhias disseram que o motivo foi os juros altos",
-      "details": "18% das companhias disseram que o motivo foi os juros altos",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/fiesp-industrias-sp-nao-buscaram-credito/",
+      "summary": "Atualizacao de macro capturada em UOL Economia.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcXRDNHpXT05QeFgwM1VmOUhDT2pIY1pHdlZkcEFlQzh3VlJLclFxTTdYYjlrdHlvb3ZiWFE4dVFYLUpWWVFjaVFDdS14RUZNZW5ITVpLb2ZBNG9QeTd5M3h1alNwWlA2QmhONC1ycDRRWnpHLXJnV25OUzhqT3pnUnZKbnRqTXdDb2MyUmZVWFJEVWZLa3k3OFpVSXpIc2daVnpWNXJxMU1OaG9FOGxmQ21CQVZkMF8tR0l1Ulc1Rm03UkZyeDNScGlxSFdUd1NyNUhBeW9IQmlCYXFVNTQ4ZG9R?oc=5",
       "source": "UOL Economia",
       "category": "macro",
       "tags": [
@@ -620,15 +724,14 @@
       "publishedAt": "2026-05-31T16:02:00Z",
       "updatedAt": "2026-05-31T16:02:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/GOCZ7UFYAZJZVGU7IX3EDIJ5K4.jpg?quality=80&auth=03e286f52424ff14595fad27119c43062441361f4e5d2ec5612d6147e1459a56&width=1200&height=630&smart=true"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-3b6dc30648b6944e7a72982f",
       "title": "Ibovespa hoje aprofunda queda após dados do Tesouro; Assaí (ASAI3) lidera perdas",
-      "summary": "Ações da Azul (AZUL4), por outro lado, estendem ganhos da véspera e registram a maior alta do índice",
-      "details": "Ações da Azul (AZUL4), por outro lado, estendem ganhos da véspera e registram a maior alta do índice",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-aprofunda-queda-apos-dados-tesouro-nacional-assai-asai3-lidera-perdas/",
+      "summary": "Atualizacao de ultima hora capturada em Estadão.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSTVQcWJzcnREN3RkQmRCbGcyQ2R6UEhpT0RkaC1PTm9QbjhST1Z4UXRkWkxZQmZPX2FCTjRCblhjdWdScnJhM0pwY0Q4eTA5RHdMM0xJSVVIb3Nnb0tjc2xZRUFXQkpSQTV3eS1lalpnWnRKdThPY3ZrVFV3SWFjcTN4ZGxyS183RU1nQzhqQmo3bkhQaE5mbWhQcWRxbjhtN0NxMzdZdGtReUNyenZjcVlaMlUzNDdSdVpoUTNGWG56MEh2SEg3czJ4RVEzZVNQRFlFYXUxN2p0Z9IB3wFBVV95cUxPMmRMQm01YTRLNDBnOHRPSFM4TTgxYmNtVkxkLVpSdkVsNU9Db1JrdkVNbTRFbnlEN0NnQ2lxV3h6WTdEMmFIblhRdkswRUMzam9hSGpFaUhtRldocVMwT0NkXzJDdVZsSVdtby1iTEdCTTNKVzdIdHlXVHMzQ3BacUg5OGxhTWI0ZXRwZi1WU2loVDZhTS1LcnpOOUxHRTkxaXd0eHFhV1lPR0tpYzg4VG5QR0RCR1pULTZaTEc0QW9LeWhPdUJISFllRmxMNWVIRmwwTTJ5RFhwdENCM0hN?oc=5",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -639,15 +742,14 @@
       "publishedAt": "2026-05-31T15:58:33Z",
       "updatedAt": "2026-05-31T15:58:33Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/D6VIICLARFJUPJ6XFOPWEDDC24.png?quality=80&auth=d60b21358b29a166236122013d2626bc2a1300a5ef13b954a3cf016a081595be&width=1200&height=630&smart=true"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-be74c35cd668cb9c0fe0451d",
       "title": "Fiesp: 66% das indústrias de SP não buscaram crédito em 2022",
       "summary": "Atualizacao de ultima hora capturada em Estadão.",
       "details": "",
-      "url": "https://www.midianews.com.br/politica/quais-os-possiveis-impactos-do-fim-da-escala-6x1-no-brasil/521269",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTVY5SkoyWUhZWE5WZTM1Tk5yMHd6eU1JdlBhSlpyRTk4WDB4YzR6UzY4dllvWktfRXFFNTBLTVE3YWJpcUVTX2NMeEhQbG1QUEpZbFhoTEd0b1UwTVRVdExSdVBjaHU4cTZSNUdUUzBYQW5OeldTX2hkcWRMeTdXRk82Tk9fOHZDdzhieUpvZ2puUnd4dHZmOFZnQXhBMlBN0gGmAUFVX3lxTE4zN0tmZW1FZ2FQMlpOUTQ5SFdVN1BMRGQzc19oYWRlSUllSkNwYVBTZnI1Y3k1V1dma3UxcWJNYmszWXhmXzVXS1pnOC16eEFnR3NQLTk3eDJjUnJwZ1RPUF9vT0VZWWlyc01WVEJETzA5dVEtbm92US1WWV82d0h1UzZJZHQtdEc0b21QMXp3b0JxN21nakVFc2tMQ0RFdFQ0Zy1KVlE?oc=5",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -665,7 +767,7 @@
       "title": "Stablecoins: uma revolução segura no sistema monetário dos EUA?",
       "summary": "Atualizacao de ultima hora capturada em diário do estado.",
       "details": "",
-      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/05/31/cni-construcao-civil-perde-espaco-no-pib-e-ve-produtividade-cair-204-em-30-anos.htm",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWXBLV1VUOXUzMUtkMnAxQjhSaVAxd0gzWmhlZVVZaU9Od0g3R2RhYlNxX1JsMXlXMWNxSEtlTXlNZ2NCQUkyTjdUSUJfVkhqYmJqZ2dnNUtOYmxqWDFfdm9iWW9WYnhsb1AzVXpsdG5BVVFybnJqRk5CT2NDeDgtQUNQNHhOY1FzLXg1TXZnWUl2aEJ5ZklIdndB?oc=5",
       "source": "diário do estado",
       "category": "latest",
       "tags": [
@@ -681,9 +783,9 @@
     {
       "id": "macro-9680d336ad3ad2075f2ced4c",
       "title": "Quais os possíveis impactos do fim da escala 6x1 no Brasil?",
-      "summary": "Entenda como as stablecoins impactam o mercado financeiro e as instituições tradicionais.",
-      "details": "Entenda como as stablecoins impactam o mercado financeiro e as instituições tradicionais.",
-      "url": "https://diariodoestadogo.com.br/stablecoins-uma-revolucao-segura-no-sistema-monetario-dos-eua/",
+      "summary": "Atualizacao de macro capturada em MidiaNews.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY1IzSDhZMzNNWjZyWVJyLW9TNmlSRUtsT2UyTHdrUkZ4WWR5clNUTjBIa1RPaVZEX0VaYnJGazV2VmRTdVkycUs5Y1RiZGRQNUVaQThqZTBBdEYzT1BrcmhDcjE4VTVrOXZLTUl1ZXEtYW8tVFp3NXcxUzk4Q3FDdjZwbkpZdHktcUh3SV9JVU9XUlo4dmRVWTBhM1ZRUENZV2NGQlh3?oc=5",
       "source": "MidiaNews",
       "category": "macro",
       "tags": [
@@ -694,15 +796,14 @@
       "publishedAt": "2026-05-31T15:42:00Z",
       "updatedAt": "2026-05-31T15:42:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/05/stablecoins3A-uma-revolucao-segura-no-sistema-monetario-dos-eua3F.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-bca513a7d8acf6ae9f86ebfe",
       "title": "Notícias da manhã, 31 de maio: As taxas de juros interbancárias dispararam e depois recuaram.",
-      "summary": "Algumas notícias importantes: o Porto de Dinh Vu está prestes a gastar centenas de bilhões de VND em dividendos em dinheiro; crianças com câncer vivenciam um \"milagre de junho\" no Hospital Oncológico da Cidade de Ho Chi Minh; clínicas odontológicas e de estética operando ilegalme",
-      "details": "Algumas notícias importantes: o Porto de Dinh Vu está prestes a gastar centenas de bilhões de VND em dividendos em dinheiro; crianças com câncer vivenciam um \"milagre de junho\" no Hospital Oncológico da Cidade de Ho Chi Minh; clínicas odontológicas e de estética operando ilegalmente são descobertas...",
-      "url": "https://www.vietnam.vn/pt/tin-tuc-sang-31-5-lai-suat-lien-ngan-hang-vut-len-roi-ha-nhiet",
+      "summary": "Atualizacao de ultima hora capturada em Vietnam.vn.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNjl6ZTNhUmlOTXI4c1JKU2tUTFl6TGNObldDSHBmSVkwaEY4NlJ2bm4ycUVNXzhqeHo4QzFXZkg0TFBDendKdTU2UmFwS01hMzNzRE52XzJMV0F1MHgwTW13c1ZQUkwwSThCc0E2Y1c4ZWFMTldVU3AwSjVyY0V6eHo5LTNMNmFXYVNFMEpXQVB0UQ?oc=5",
       "source": "Vietnam.vn",
       "category": "latest",
       "tags": [
@@ -713,8 +814,25 @@
       "publishedAt": "2026-05-31T15:39:48Z",
       "updatedAt": "2026-05-31T15:39:48Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/05/31/1780212973219_base64-1682822577804910526899-16829962758571814502265-1701791400360643269321-0-81-295-644-crop-1780184326398283434849.png"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "latest-50339ef3bfd5399ef8d08a45",
+      "title": "Por que a Santander Asset está \"neutra\" em quase todas as classes de ativos brasileiras",
+      "summary": "Atualizacao de ultima hora capturada em Estadão.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNS0dMUGVGeWFKQ0pJcEwxeGVyZEFUY0ZaN19mQS1GWHd0cW01U19zMm02b2gxcnpTQlBhcFBGVGhqMk9pV2pJWlFaQ2l3ckhESWZJV1dpMUZnTDFycGdybFJQQ1JTaUNoR21MVlFGbzdsOTFSMnZZNUxGWEZTSExzSzdKWkdNSW1wdWp5c0JwYTNsaUp2clhsaUJjdUUtZTI4bGtmNDZSaGx6ZHg1a1ljN243OFRPRjVNZHhlZndGLUVHYXBoSUZOaWZyTHhlR0tGcFVnN2Z5Uk5YaUNo0gHiAUFVX3lxTE5vNllPTFBJYlN6TkUzVTc3TFd5R3JTYmJ5cjBOSThwVDR3Q0tDX3lBYTZuSU9lY19hMGxRZ3owUUN6UGFiV0ljdlByMWd1dHQ3a2RscUVBRGtKb2h6V0ZUV1FWSEp2eFJwa09aVVhUZnRGSkthWGRDWDN5Vmo3dzN2ZUZqU19LX0RLQWpsV3AzVnJlVkx0Z0NQcThZN3l1ZTZsUENXMGI3RlFTYm9uUVlDa24yWkhZUkZHeVlnU09KSjBYWGZIYnlmUFR4eEg1cnpPZk0wb3FmZUFnNFFsUnY0M1E?oc=5",
+      "source": "Estadão",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-05-31T15:30:00Z",
+      "updatedAt": "2026-05-31T15:30:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-3226a544816e1f5d49f695ce",
@@ -753,112 +871,22 @@
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "macro-e7ab7d2de6baff48d3e7ed9c",
-      "title": "Geopolítica pressiona inflação e energia",
-      "summary": "Atualizacao de macro capturada em Feed&Food.",
+      "id": "funds-427648fef4c838a1e3e10789",
+      "title": "Penafiel entrega Cartões de Famílias Numerosas no dia Dia Diocesano da Família",
+      "summary": "Atualizacao de fundos capturada em averdade.com.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUFpoUnZWVUMtRktQUXU0NVBlTEtUNE8yMmZ6WlRXLVVOR1BVUThwc3BXWVJCUVNvcV9rUUw4UHlRRFFwaURsRFE1M2ZaVEFqaWw0QVBYN0pvbDk3UUpMeW9iZXRsaFBmZkRaalNrV3pXSWlqeVJuc3R0WkxXYl9DaHRNWmVuZHN4SXVIczBSMVRqZw?oc=5",
-      "source": "Feed&Food",
-      "category": "macro",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYVR3ck5fQ3kwVWdkY1ZjR3dGWU5rX0NTSHdkWEVlMWViYkdfMHF1TEhWUTNZYVl1c1Q0cVBDT0M0cHdqRWdEdHFyMzI2MnFBU3RBNmVhOXBFUjQwLWxwUld2VktIQjFkem9acVlNeDNsU2pxa2laTE5lVkxueU5VbEJzUFJGckpHRjBVUDZTd1RpZW5pQ2xkazNYVFNlOFhGOVowd3ZsNlFyNlloTW5lNg?oc=5",
+      "source": "averdade.com",
+      "category": "funds",
       "tags": [
-        "macro",
-        "juros",
-        "inflacao"
+        "fundos",
+        "asset",
+        "fiis"
       ],
-      "publishedAt": "2026-05-31T15:01:00Z",
-      "updatedAt": "2026-05-31T15:01:00Z",
+      "publishedAt": "2026-05-31T14:40:04Z",
+      "updatedAt": "2026-05-31T14:40:04Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-a3da55b2351bda962ac3ec81",
-      "title": "Prévia da inflação desacelera e fica em 0,62% em maio",
-      "summary": "Atualizacao de macro capturada em G1.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNa2RDVVVEcWZQZW81cHl3VGs5aGdjOVQtVHNMcGVBdXlGMUZaS3FxcEgtSkgwRC1DQWJCOVM1aWNqV2ZieXJTdzcwMjNrczlGMkM1b1lKQWdPbmJfUWM2YmN2YWt4Q2QtQno5dDV4bGtQZDZ5YjF5dGkwMHRlNnZPVXRRVWhmRXpBVndQU1BsWVlMTDM4clpNNHhtVTNYVFFqcjRzVUV0d2N0V3B2ZmJpYTl4VjRhOV9hRFR5N9IBywFBVV95cUxQdWMyX0stTUtyNHk4eWlqQ3hMR0tILTluNUI2bTBBeHVtd19RYXZpeG1SZFVJTXo3VE9WR2xjLTduRjFPcEFjT19GY1pNVWNVcmkwMzhyRHZVRWdvZlBpTkFHOGJuQ3l4bWxQMmU5bGE5X1lqQVV0UnRfM0swQzZkV3ZqZzMxbjFfU0FZa09NMVZCQ0pmUk9ZWXFpRDgzYnl3ekNpY0RRcVNicEREQndyaHpkOXFoa0hkYVlISnlTaTBacGVhclFYbHdnOA?oc=5",
-      "source": "G1",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-31T14:48:13Z",
-      "updatedAt": "2026-05-31T14:48:13Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-e88ad1eb67ea92de7c448d72",
-      "title": "Produto Interno Bruto da agropecuária cresceu 0,7% no primeiro trimestre de 2026",
-      "summary": "Atualizacao de macro capturada em MINUTO MT.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMTR5RHlGT0VmaGxPUVB0TkE2U053ZUlUYktfTTZWaDI0NmhNaXFoWGFMYkNvbWVPWGdSZEVERVAwamJmdnlQM01fcng0b0tvQmY5NGVSWVFDM2dEY3hlSkZ5QUQ5V1hlb19Bc0NlaUp2eGwzQklkQ1FzOS0zMTZYdXAtTzlLQnBNSnUyc2dHUUcyd0NXcEthMC1idU4zOWdxWWhWemZHTFI2ZW5G?oc=5",
-      "source": "MINUTO MT",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-31T14:33:43Z",
-      "updatedAt": "2026-05-31T14:33:43Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-81be34a570475073412b40c5",
-      "title": "PIB do Brasil cresce 1,1% no 1º trimestre de 2026, diz IBGE",
-      "summary": "Atualizacao de macro capturada em Expressão Rondônia.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdlhndkpBQWY5TW0wTE1GcU1lVGZvRzRFUF9HVEpXUjB5amVWbEE1bjR1SzltTEZPMFhhME5SMW95WTc2Q0Y3R29KbmdhVjVVZy1JQlRGamFrUXBnaXRFUTRiZlFscTVDU0FrRWlVamxSRFhVTFJ6VDEtTG1SREgtR1pGd3F4SThlR09jLTEtQk5mbVMz?oc=5",
-      "source": "Expressão Rondônia",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-31T14:28:57Z",
-      "updatedAt": "2026-05-31T14:28:57Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-bc45bdcac695a5b1f6412189",
-      "title": "Stablecoins ampliam o alcance da política monetária dos EUA, diz dirigente do Fed",
-      "summary": "Atualizacao de macro capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMjV3SHVaXzhYc2hQemV3RzUwYmhweXBfRVh1M2plVXFvcl9VdHB5RE00VGpLMmE2VWVFV290ejJZT3Jqei1QMnpZZjFKSDlJaXRuTi1lZjFSR2dLbUUzc084MWhIX2xGTDQ2aE8zTUhOblhnWk1WR0EyRm95eFJqWHFRdVBPVU9zaXRQTms4ZXBLUXA2VWdnU3FJY1huWUl1Xzc5ZGVmSl9XU25Da3o1bHBCdkFrb0NQQW5wNV9WWC1GTjZJVXlyVk5IaEZtV05hVXBfbw?oc=5",
-      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-31T14:25:00Z",
-      "updatedAt": "2026-05-31T14:25:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-a83198d4fd69c890ee1a2f26",
-      "title": "Combustível mais barato? Governo prorroga incentivo fiscal e medida pode aliviar custos da aviação no Nordeste",
-      "summary": "Atualizacao de macro capturada em Paraíba Business.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTVNVeFNveEtXMWF6SXR6d0p6TzhKakxOTjFYZDZBbHpYOEVPRHNCRjhQVThZWENod0tmQjJGUy1jbnYtcWwyRmVibVdtT3FVNGFOU0hDRE8yeGlUcWNJSXAzR0hPV1AzMklBdUlKakVPbFZIR0R5OGRxSllwdjBIT1Rvb1FxZGR2R3htaXNJSXJvTld1cWdnTVkyc0JnZHY5UDQ3bWN4THZjazhsd1dDSlJlWHAzbldqY0RPSzlTM0l0eVNOdmF3QzRDTlcyNXJRZHZvY0xVdWU?oc=5",
-      "source": "Paraíba Business",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-31T14:21:12Z",
-      "updatedAt": "2026-05-31T14:21:12Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "companies-761d0e40a18de58b4ae93050",
@@ -877,42 +905,6 @@
       "updatedAt": "2026-05-31T14:18:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "macro-4bd3fdc301eab3dbe0232433",
-      "title": "Fim da escala 6x1: entenda possíveis impactos para o país",
-      "summary": "Atualizacao de macro capturada em Portal Contabeis.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVU05eFpnMXNlNUh1cWdRaG5fQlhrTnVjcDE2QnpFVGpsQ0VLOGhoZVI5b1R1cENvTFM5Y1JGV2tERzQzVVEtS2FtS0dTOWpuSzVic3F2VkdUQTFxM2c5N01Od0pCVy1yemY3R1VHaGpRS1F3eW5rOVJ2V3A3WWZGX0FjVlg1WE5PanhJMlF4YzBSZmNFLXlRYk53bVROXzE4WWM4?oc=5",
-      "source": "Portal Contabeis",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-31T14:00:01Z",
-      "updatedAt": "2026-05-31T14:00:01Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-87e8b231eae58f00d294483e",
-      "title": "Dólar sobe a R$ 5,04, com guerra no Irã e PIB do Brasil; Ibovespa cai ao menor patamar desde janeiro",
-      "summary": "Atualizacao de macro capturada em Expressão Rondônia.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaE02QldOTmN3bTc0T2ZmcENaZWkxeTY5MEdTUmYyb3UyaVJnV0FWQ0JxRF9pZ2lNbnFuSzhGSGkzWjNPaW9mUlpNOXNoN1lDZ1d6MDVyMHhjZmdQSjhGck1DQmlmbnZrdUswekdwTllUalRsTnFEREIzSTFjVmgxSWpOZFBvWDZJMV9STVBwYU43Q1g1dFZqdU9kTG9HREtCX0VsTmhiczhzZGVWNEd3eXNQakgxZDBLUndjXzRwZ2F2ZjBOV0FmWkJB?oc=5",
-      "source": "Expressão Rondônia",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-05-31T13:27:59Z",
-      "updatedAt": "2026-05-31T13:27:59Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "companies-86ada4cd82a6094e62f31d50",
@@ -967,6 +959,24 @@
       "updatedAt": "2026-05-31T11:04:42Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "companies-a460cffbaf968667fec8b700",
+      "title": "Crime organizado avança sobre a economia formal e já causa prejuízo bilionário à indústria brasileira, diz CNI",
+      "summary": "Atualizacao de empresas capturada em Agenda do Poder.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRlFJY0ZRT0M2d1Z1RTEtVmN1RWs4QVR3T2RuOFl0QW9pTkxqX2hWaVZkMm5wQXpHcUhRa20tajhKd3VzYUVKY281T185LUo0dmxhVE1uYmdxdEROUEZjQ0VJWllNbW1nUUJDQUYzQVdEa1ZVWmlMN3ZJZ3NVbUt5OTVLYVdCRjFUaFM2WFRrbGlaRzJFVzR3UmxuTXBfbHZKZmFPal9OejB2MUY5aU1GeEpHMjFqRmtaMGxXbDRtTWRkeXVWb0wwQ0x1UXBRcjEzc3JYMWpn?oc=5",
+      "source": "Agenda do Poder",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-05-31T10:45:40Z",
+      "updatedAt": "2026-05-31T10:45:40Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "funds-13bfd1873327a63d3516824f",
@@ -1311,6 +1321,24 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
+      "id": "companies-9099874fdfe09056585e277d",
+      "title": "Polícia investiga ligação de cemitério clandestino com as “organizações terroristas” brasileiras",
+      "summary": "Atualizacao de empresas capturada em Jornal da Cidade Online.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQaVF3OXJwNGg4SXo0ZjJ3WTdzX0ZNX2M2SFpDeU5qdkM4ZjFPVzMxbTNfa0xneC1hNjZWQ2Z1UFQ0Ni1abVpTejBZVGZEOGVNVEJIcmE3SFY5WGRiSXFSNC1XaUdFbTItUlpUS1RSSDNsNHNRZElBb3EzN2ZrTjlrcm1nM3dsRTJfcEVFSWUxekNZZkdsNTQxLUpQalBpVThKYkFscDRrajk4eW1qSlFKYU5Yekh3YWVFRnpiTHFPdUtoUzhxdzZZeWJZV09WbUVsR1laem0xZS1VV0RtSWsyQ3F5UdIB6AFBVV95cUxOeEJxR2xCMjRqSjFVcktvQWl0QU9RcG1XYUJpb3QxSUVZWWFDX01ibEhlM21NekZPWmV5Ui1KYlBDTGZyWDl6Z0F4a082cWIzSFZCM1VhQkxqWTdMOGVDdjVKb2VkeVRyVWVUaUFSSU1tODN6WTZueFJYbjlER3BNVHVxbndwamU1Sk1kWWFRSDJ0U1RHUHVLbFZyM09TWWhDYlp2c2VtclVYYjByd2psUlJWOXBCeXFLZGp2emhNMnhQXzA1Qk94SXNZbXBGb2pMdWNaV1NVanVvbVlNNGM1SUFCTWtFRVl4?oc=5",
+      "source": "Jornal da Cidade Online",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-05-30T11:59:00Z",
+      "updatedAt": "2026-05-30T11:59:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
       "id": "companies-cc6fe3f94d2c25c38fc7e2bf",
       "title": "Classificação de PCC e CV como terroristas pode atingir bancos, agronegócio e empresas brasileiras, alertam especialistas",
       "summary": "Atualizacao de empresas capturada em Agenda do Poder.",
@@ -1325,42 +1353,6 @@
       ],
       "publishedAt": "2026-05-30T10:44:27Z",
       "updatedAt": "2026-05-30T10:44:27Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "funds-16ffbe41dbf6ae17befb17b4",
-      "title": "PCC e CV: Como facções brasileiras expandiram impérios financeiros além das favelas",
-      "summary": "Atualizacao de fundos capturada em PaiPee.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQ1c4WHVibExhcDhiUjFMbWI2RjJhUmNpM2p5bXh6V29VVFpyVC1WbkZoUDB3d0hrb1F3WDlfVFh2RkpGZWwwcnVzX3BMUlJacmNqcDVOckxsZXZXT0NRV002UUZrS2xfeDhEYmQ4WE1RTDlYOVd4aUY3MVdGUi1EYmVmbVljWHdMcGlLUU9OcGZ5dkF3OXJLYWlhekxWMnY3ZkRWV215cnVHcDBYQUNSMnByWmsyZ0E?oc=5",
-      "source": "PaiPee",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-05-30T10:29:54Z",
-      "updatedAt": "2026-05-30T10:29:54Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-3e2ff6ff7e253bf6bc9bc36e",
-      "title": "O que empresas brasileiras podem fazer após PCC e CV serem classificados como terroristas",
-      "summary": "Atualizacao de empresas capturada em noticiasdoplanalto.com.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObDg2VGhuTXdYaTYxNGNEMm10SWdENUllTUJ5S1F1QVJRMU55cnFNVWJjRFE0ODdxNGRiZ0o2TW85MExmYWtXb0VuSGoyQlVWMlZXWHoxOFo2SFBsNTIzZnhrUy12QVNXNnRLdzk0Z2NGeFJldVhVVzFDRVk2Q1JWa3BTZ0t2eUZxdFVzSFFiakxwTy03akFrWU95TnhkRkxBOHZFRThDVlZneF9VT01Ua3BoZG5YZHQ1NlpjSThQODhDQQ?oc=5",
-      "source": "noticiasdoplanalto.com.br",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-05-30T10:01:55Z",
-      "updatedAt": "2026-05-30T10:01:55Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     }
