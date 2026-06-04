@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-04T20:31:26Z",
-  "generatedAt": "2026-06-04T20:31:26Z",
+  "updatedAt": "2026-06-04T22:11:37Z",
+  "generatedAt": "2026-06-04T22:11:37Z",
   "categories": [
     {
       "id": "all",
@@ -24,10 +24,6 @@
     }
   ],
   "sources": [
-    {
-      "id": "agronews-tv-br",
-      "label": "agronews.tv.br"
-    },
     {
       "id": "alpha-not-cias",
       "label": "Alpha Notícias"
@@ -55,14 +51,6 @@
     {
       "id": "cartacapital",
       "label": "CartaCapital"
-    },
-    {
-      "id": "correiodobrasil-com-br",
-      "label": "correiodobrasil.com.br"
-    },
-    {
-      "id": "cpg-click-petr-leo-e-g-s",
-      "label": "CPG Click Petróleo e Gás"
     },
     {
       "id": "crypto-id",
@@ -117,6 +105,10 @@
       "label": "Gazeta do Povo"
     },
     {
+      "id": "gps-bras-lia-portal-de-not-cias-do-df",
+      "label": "GPS Brasília Portal de Notícias do DF"
+    },
+    {
       "id": "infomoney",
       "label": "InfoMoney"
     },
@@ -133,16 +125,8 @@
       "label": "Jornal Correio"
     },
     {
-      "id": "magistrar",
-      "label": "Magistrar"
-    },
-    {
       "id": "melhorinvestimento-net",
       "label": "melhorinvestimento.net"
-    },
-    {
-      "id": "news-rond-nia",
-      "label": "News Rondônia"
     },
     {
       "id": "niddedigital-com",
@@ -161,6 +145,10 @@
       "label": "portaldofranchising.com.br"
     },
     {
+      "id": "rep-rtermt",
+      "label": "RepórterMT"
+    },
+    {
       "id": "r-dio-pampa",
       "label": "Rádio Pampa"
     },
@@ -169,12 +157,12 @@
       "label": "Seu Dinheiro"
     },
     {
-      "id": "tecnoblog",
-      "label": "Tecnoblog"
-    },
-    {
       "id": "times-brasil-cnbc",
       "label": "Times Brasil | CNBC"
+    },
+    {
+      "id": "traders-union",
+      "label": "Traders Union"
     },
     {
       "id": "tradingview",
@@ -203,11 +191,66 @@
   ],
   "items": [
     {
-      "id": "macro-86d6d49a72b9adaffad9fc04",
-      "title": "PIB: fragilidade estrutural",
-      "summary": "Atualizacao de macro capturada em CartaCapital.",
+      "id": "latest-ebfd52a801d2c13dbb640608",
+      "title": "Mercado hoje: investidor tem expectativa de queda para Bolsa na véspera do carnaval em meio a exterior morno; confira o que esperar desta sexta-feira",
+      "summary": "Negociações entre o governo e Congresso sobre a reoneração da folha de pagamentos também é destaque",
+      "details": "Negociações entre o governo e Congresso sobre a reoneração da folha de pagamentos também é destaque",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/mercado-hoje-bolsa-ibovespa-baixa-carnaval-agenda/",
+      "source": "Estadão",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-04T20:47:41Z",
+      "updatedAt": "2026-06-04T20:47:41Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/PB4JJLIHOFOQVFOHZZFBG3W6UU.png?quality=80&auth=8ce0c22dfba0f5ecd8a0a32df1e328837d2598c3c9ed69e51b8b0bd99cbe5784&width=1200&height=630&smart=true"
+    },
+    {
+      "id": "latest-dc72803caabc5ca437e0871f",
+      "title": "Otto Lobo assume presidência da CVM e promete acelerar análise de processos no mercado",
+      "summary": "Atualizacao de ultima hora capturada em melhorinvestimento.net.",
+      "details": "",
+      "url": "https://ampost.com.br/esporte/benfica-confirma-possivel-saida-de-jose-mourinho-para-o-real-madrid-apos-eleicoes-na-espanha/",
+      "source": "melhorinvestimento.net",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-04T20:33:38Z",
+      "updatedAt": "2026-06-04T20:33:38Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "latest-8caa07b0b58b7231a17aa24d",
+      "title": "Dow Jones renova máxima com alívio do petróleo e avanço nos setores de saúde e financeiro",
+      "summary": "Atualizacao de ultima hora capturada em Valor Econômico.",
       "details": "",
       "url": "https://www.cartacapital.com.br/opiniao/pib-fragilidade-estrutural/",
+      "source": "Valor Econômico",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-04T20:20:58Z",
+      "updatedAt": "2026-06-04T20:20:58Z",
+      "premium": true,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "macro-86d6d49a72b9adaffad9fc04",
+      "title": "PIB: fragilidade estrutural",
+      "summary": "O mercado também aguarda novos dados da economia americana e sinais do Federal Reserve sobre os juros.",
+      "details": "O mercado também aguarda novos dados da economia americana e sinais do Federal Reserve sobre os juros.",
+      "url": "https://veronoticias.com/economia/ouro-sobe-com-queda-do-petroleo-e-foco-no-fed/",
       "source": "CartaCapital",
       "category": "macro",
       "tags": [
@@ -218,14 +261,15 @@
       "publishedAt": "2026-06-04T20:17:00Z",
       "updatedAt": "2026-06-04T20:17:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://veronoticias.com/wp-content/uploads/2025/04/scott-bessent-secretario-do-tesouro-eua.jpeg"
     },
     {
       "id": "companies-de7fda922a8260f7493347be",
       "title": "60% das pequenas empresas no Brasil têm o Pix como principal meio de pagamento, diz Sebrae",
-      "summary": "Estudo simulou medidas, com efeitos a partir de 2028, que poderiam levar o resultado primário a cerca de 2% do PIB em 2036",
-      "details": "Estudo simulou medidas, com efeitos a partir de 2028, que poderiam levar o resultado primário a cerca de 2% do PIB em 2036",
-      "url": "https://www1.folha.uol.com.br/colunas/braulio-borges/2026/06/politicas-para-controlar-o-deficit-fiscal-brasileiro.shtml",
+      "summary": "De acordo com presidente da entidade, o Pix foi fundamental para melhorar o fluxo de caixa dos pequenos negócios",
+      "details": "De acordo com presidente da entidade, o Pix foi fundamental para melhorar o fluxo de caixa dos pequenos negócios",
+      "url": "https://jmonline.com.br/geral/60-das-pequenas-empresas-no-brasil-tem-o-pix-como-principal-meio-de-pagamento-diz-sebrae-1.631215?amp=1",
       "source": "JM Online",
       "category": "companies",
       "tags": [
@@ -237,14 +281,14 @@
       "updatedAt": "2026-06-04T20:15:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/05/19/17792279016a0cdcfda3674_1779227901_3x2_rt.jpg"
+      "imageUrl": "https://jmonline.com.br/image/policy:1.513665.1749986500:1749986500/image.jpg?f=2x1&w=1000&"
     },
     {
       "id": "macro-b96a24eea8e5435bede01a91",
       "title": "Ouro sobe com queda do petróleo e foco no Fed",
-      "summary": "Atualizacao de macro capturada em Vero Notícias.",
-      "details": "",
-      "url": "https://ampost.com.br/esporte/benfica-confirma-possivel-saida-de-jose-mourinho-para-o-real-madrid-apos-eleicoes-na-espanha/",
+      "summary": "O Programa Nacional de Educação Fiscal (PNEF) é uma iniciativa que reúne União, Estados, Distrito Federal e Municípios com um objetivo comum: fortalecer a",
+      "details": "O Programa Nacional de Educação Fiscal (PNEF) é uma iniciativa que reúne União, Estados, Distrito Federal e Municípios com um objetivo comum: fortalecer a",
+      "url": "https://www.portalmarcossantos.com.br/2026/06/04/programa-nacional-de-educacao-fiscal/",
       "source": "Vero Notícias",
       "category": "macro",
       "tags": [
@@ -260,9 +304,9 @@
     {
       "id": "latest-c367fa4b7679e13823a1e00c",
       "title": "Benfica confirma possível saída de José Mourinho para o Real Madrid após eleições na Espanha",
-      "summary": "O Programa Nacional de Educação Fiscal (PNEF) é uma iniciativa que reúne União, Estados, Distrito Federal e Municípios com um objetivo comum: fortalecer a",
-      "details": "O Programa Nacional de Educação Fiscal (PNEF) é uma iniciativa que reúne União, Estados, Distrito Federal e Municípios com um objetivo comum: fortalecer a",
-      "url": "https://www.portalmarcossantos.com.br/2026/06/04/programa-nacional-de-educacao-fiscal/",
+      "summary": "Principal índice da bolsa de Nova York encerrou em alta de 1,73%, aos 51.561,93 pontos",
+      "details": "Principal índice da bolsa de Nova York encerrou em alta de 1,73%, aos 51.561,93 pontos",
+      "url": "https://valor.globo.com/financas/noticia/2026/06/04/dow-jones-renova-maxima-com-alivio-do-petroleo-e-avanco-nos-setores-de-saude-e-financeiro.ghtml",
       "source": "AM POST",
       "category": "latest",
       "tags": [
@@ -273,14 +317,15 @@
       "publishedAt": "2026-06-04T20:10:38Z",
       "updatedAt": "2026-06-04T20:10:38Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://s2-valor.glbimg.com/xmcYbo1w--X4Kwk1jpMU7Bko9Zg=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/i/p/zczFd0QWef9UQSAAIGKw/2026-02-06t214547z-868257743-rc2kgjahynwf-rtrmadp-3-usa-stocks.jpg"
     },
     {
       "id": "macro-691c5e13258eed2144db10fb",
       "title": "Programa Nacional de Educação Fiscal",
-      "summary": "De acordo com presidente da entidade, o Pix foi fundamental para melhorar o fluxo de caixa dos pequenos negócios",
-      "details": "De acordo com presidente da entidade, o Pix foi fundamental para melhorar o fluxo de caixa dos pequenos negócios",
-      "url": "https://jmonline.com.br/geral/60-das-pequenas-empresas-no-brasil-tem-o-pix-como-principal-meio-de-pagamento-diz-sebrae-1.631215",
+      "summary": "Otto Lobo foi nomeado novo presidente da CVM e afirmou que pretende dar mais celeridade aos processos da autarquia até 2027.",
+      "details": "Otto Lobo foi nomeado novo presidente da CVM e afirmou que pretende dar mais celeridade aos processos da autarquia até 2027.",
+      "url": "https://melhorinvestimento.net/noticias/novo-presidente-da-cvm-otto-lobo",
       "source": "Portal do Marcos Santos",
       "category": "macro",
       "tags": [
@@ -292,14 +337,33 @@
       "updatedAt": "2026-06-04T19:56:37Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://jmonline.com.br/image/policy:1.513665.1749986500:1749986500/image.jpg?f=2x1&w=1000&"
+      "imageUrl": "https://melhorinvestimento.net/wp-content/uploads/2026/06/Otto-Lobo.png"
+    },
+    {
+      "id": "latest-bbcee6a5f18e2c92b0579cf5",
+      "title": "Calendário econômico da semana: IPCA de março, PCE e ata do Fed movimentam a agenda",
+      "summary": "Semana reúne dados de inflação no Brasil e no exterior, além da ata do Fed e indicadores de atividade econômica",
+      "details": "Semana reúne dados de inflação no Brasil e no exterior, além da ata do Fed e indicadores de atividade econômica",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/calendario-economico-da-semana-ipca-pce-ata-fed/",
+      "source": "Estadão",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-04T19:51:14Z",
+      "updatedAt": "2026-06-04T19:51:14Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/DYI7SK43ZBPRNINW2XMU2KXOY4.png?quality=80&auth=2f5a8696b7026b0617019533552209f3e353e546d099f5f27b68f07ac6fed173&width=1200&height=630&smart=true"
     },
     {
       "id": "macro-2af144f8ca0ab2233eb0be86",
       "title": "Opinião - Bráulio Borges: Políticas para controlar o déficit fiscal brasileiro",
-      "summary": "O mercado também aguarda novos dados da economia americana e sinais do Federal Reserve sobre os juros.",
-      "details": "O mercado também aguarda novos dados da economia americana e sinais do Federal Reserve sobre os juros.",
-      "url": "https://veronoticias.com/economia/ouro-sobe-com-queda-do-petroleo-e-foco-no-fed/",
+      "summary": "Estudo simulou medidas, com efeitos a partir de 2028, que poderiam levar o resultado primário a cerca de 2% do PIB em 2036",
+      "details": "Estudo simulou medidas, com efeitos a partir de 2028, que poderiam levar o resultado primário a cerca de 2% do PIB em 2036",
+      "url": "https://www1.folha.uol.com.br/colunas/braulio-borges/2026/06/politicas-para-controlar-o-deficit-fiscal-brasileiro.shtml",
       "source": "Folha de S.Paulo",
       "category": "macro",
       "tags": [
@@ -311,7 +375,45 @@
       "updatedAt": "2026-06-04T19:51:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://veronoticias.com/wp-content/uploads/2025/04/scott-bessent-secretario-do-tesouro-eua.jpeg"
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/05/19/17792279016a0cdcfda3674_1779227901_3x2_rt.jpg"
+    },
+    {
+      "id": "macro-16f12993bbd90b26545c0a9d",
+      "title": "Dólar fecha em leve alta com índice de inflação nos EUA dentro do esperado",
+      "summary": "Rendimentos dos Treasuries de 2, 10 e 30 anos recuaram em reação à confirmação de um quadro inflacionário mais controlado",
+      "details": "Rendimentos dos Treasuries de 2, 10 e 30 anos recuaram em reação à confirmação de um quadro inflacionário mais controlado",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dolar-abre-em-alta-com-espera-pelo-cpi-dos-eua/",
+      "source": "Estadão",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-04T19:47:13Z",
+      "updatedAt": "2026-06-04T19:47:13Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/7DSM5L337RPMTHNT6Q6ETJWHEU.png?quality=80&auth=de115896aee9f8f3e4b474d68fa1f87d41a3a4f54f89ff79442de35fad367a1b&width=1200&height=630&smart=true"
+    },
+    {
+      "id": "latest-9b3262601ce07e79ccce04e5",
+      "title": "Mercado financeiro hoje: mudança na diretoria da Petrobras (PETR4) e oferta bilionária pela Braskem (BRKM5) agitam a Bolsa",
+      "summary": "Investidores também devem ficar de olho em Energisa, Santos Brasil, Toky e Zamp",
+      "details": "Investidores também devem ficar de olho em Energisa, Santos Brasil, Toky e Zamp",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/mercado-financeiro-hoje-petrobras-petr4-braskem-brkm5/",
+      "source": "Estadão",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-04T19:45:23Z",
+      "updatedAt": "2026-06-04T19:45:23Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/Y3EGMGKR45IE7L5W45RCVGD5Y4.png?quality=80&auth=220a676293507ce927041df7be46a82e09a3f6e554dfb9b8c20e90658ca56220&width=1200&height=630&smart=true"
     },
     {
       "id": "macro-4ec28609990173a7d5a13806",
@@ -335,9 +437,9 @@
     {
       "id": "latest-2a018af8a96b5698b4159fce",
       "title": "Eleições 2026 e Investimentos: o Que o Mercado Precifica em Ano Eleitoral",
-      "summary": "Ele deverá cumprir uma série de medidas cautelares, entre elas o uso de tornozeleira eletrônica",
-      "details": "Ele deverá cumprir uma série de medidas cautelares, entre elas o uso de tornozeleira eletrônica",
-      "url": "https://www.correio24horas.com.br/brasil/justica-concede-liberdade-a-ex-fiscal-apontado-como-lider-de-fraude-que-movimentou-r-1-bilhao-0626",
+      "summary": "Atualizacao de ultima hora capturada em Forbes Brasil.",
+      "details": "",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/wine-volta-a-pedir-registro-de-companhia-aberta/",
       "source": "Forbes Brasil",
       "category": "latest",
       "tags": [
@@ -349,14 +451,33 @@
       "updatedAt": "2026-06-04T19:38:31Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/5F7UXL2UIRGE5JGAR3P6N4753M.png?quality=80&auth=5774b4ab2f507ab84338fe1984a2fc71f5ad39b5de25a32138cf539c7959f1e2&width=1200&height=630&smart=true"
+    },
+    {
+      "id": "latest-2353c443134adb9f7e47a2cb",
+      "title": "Wine volta a pedir registro de companhia aberta",
+      "summary": "Ele deverá cumprir uma série de medidas cautelares, entre elas o uso de tornozeleira eletrônica",
+      "details": "Ele deverá cumprir uma série de medidas cautelares, entre elas o uso de tornozeleira eletrônica",
+      "url": "https://www.correio24horas.com.br/brasil/justica-concede-liberdade-a-ex-fiscal-apontado-como-lider-de-fraude-que-movimentou-r-1-bilhao-0626",
+      "source": "Estadão",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-04T19:28:12Z",
+      "updatedAt": "2026-06-04T19:28:12Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
       "imageUrl": "https://midias.correio24horas.com.br/2026/06/04/artur-gomes-da-silva-neto-3294977.jpg"
     },
     {
       "id": "macro-29c5f27c2c3e60f701957083",
       "title": "Ouro sobe 0,85% com petróleo mais fraco",
-      "summary": "Ouro sobe 0,85% em NY com alívio no petróleo, queda nos Treasuries e apostas sobre Fed e conflitos no Oriente Médio.",
-      "details": "Ouro sobe 0,85% em NY com alívio no petróleo, queda nos Treasuries e apostas sobre Fed e conflitos no Oriente Médio.",
-      "url": "https://esbrasil.com.br/ouro-sobe-com-petroleo-mais-fraco-e-fed-no-radar/",
+      "summary": "Para o investidor do Brasil, o recado é claro: a renda fixa segue atrativa por mais tempo do que se esperava, e o câmbio merece atenção",
+      "details": "Para o investidor do Brasil, o recado é claro: a renda fixa segue atrativa por mais tempo do que se esperava, e o câmbio merece atenção",
+      "url": "https://www.seudinheiro.com/2026/economia/fitch-diz-que-brasil-vai-crescer-mais-em-2026-mas-inflacao-acima-do-teto-selic-mais-alta-e-eleicoes-complicam-o-caminho-ccgg/",
       "source": "ES Brasil",
       "category": "macro",
       "tags": [
@@ -368,14 +489,14 @@
       "updatedAt": "2026-06-04T19:24:07Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://cdn.esbrasil.com.br/wp-content/uploads/2026/06/ouro-sobe-0-85-petroleo-fraco-162411.webp"
+      "imageUrl": "https://www.seudinheiro.com/uploads/2026/04/Mercados-bolsa-Brasil-acoes-Ibovespa.jpg"
     },
     {
       "id": "macro-6aa9991df85f2d023d37c36d",
       "title": "Justiça concede liberdade a ex-auditor fiscal apontado como líder de fraude que movimentou R$ 1 bilhão",
       "summary": "Para presidente da distrital de Kansas City, inflação continua elevada demais nos EUA",
       "details": "Para presidente da distrital de Kansas City, inflação continua elevada demais nos EUA",
-      "url": "https://valor.globo.com/financas/noticia/2026/06/04/schmid-do-fed-diz-que-escolha-neste-momento-esta-entre-manter-juros-estaveis-ou-eleva-los.ghtml",
+      "url": "https://valor.globo.com/google/amp/financas/noticia/2026/06/04/schmid-do-fed-diz-que-escolha-neste-momento-esta-entre-manter-juros-estaveis-ou-eleva-los.ghtml",
       "source": "Jornal Correio",
       "category": "macro",
       "tags": [
@@ -392,9 +513,9 @@
     {
       "id": "funds-12043fbf5691b0d031b25d83",
       "title": "Governo nomeia Otto Lobo para presidir órgão que regula fundos de investimento",
-      "summary": "Questionado sobre a possibilidade de dar prioridade aos casos envolvendo o Banco Master, Lobo afirmou que a intenção é acelerar a tramitação de todos os processos em andamento na autarquia",
-      "details": "Questionado sobre a possibilidade de dar prioridade aos casos envolvendo o Banco Master, Lobo afirmou que a intenção é acelerar a tramitação de todos os processos em andamento na autarquia",
-      "url": "https://g1.globo.com/economia/noticia/2026/06/04/governo-nomeia-otto-lobo-para-presidir-orgao-que-regula-fundos-de-investimento.ghtml",
+      "summary": "Atualizacao de fundos capturada em Expressão Rondônia.",
+      "details": "",
+      "url": "https://br.investing.com/news/economy-news/schmid-do-fed-de-kansas-city-nao-descarta-alta-de-juros-para-conter-inflacao-93CH-1963244",
       "source": "Expressão Rondônia",
       "category": "funds",
       "tags": [
@@ -405,15 +526,14 @@
       "publishedAt": "2026-06-04T19:07:59Z",
       "updatedAt": "2026-06-04T19:07:59Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://s2-g1.glbimg.com/_05kJ9qmyVVcTSz1osPPviDzWjo=/2047x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/f/9/j4ZiBfQ46yyjAXAjeFmA/55282873133-ad5a8d8f2e-k.jpg"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "macro-028544e857745da525131154",
       "title": "Fitch diz que Brasil vai crescer mais em 2026, mas inflação acima do teto, Selic mais alta e eleições complicam o caminho",
-      "summary": "Mudanças a partir de 1970 indicam que aumento no preço do petróleo tem menos impacto sobre a inflação em relação ao passado, indicam economistas do banco central americano",
-      "details": "Mudanças a partir de 1970 indicam que aumento no preço do petróleo tem menos impacto sobre a inflação em relação ao passado, indicam economistas do banco central americano",
-      "url": "https://valor.globo.com/google/amp/financas/noticia/2026/06/04/fed-pode-se-concentrar-nos-riscos-de-inflao-em-meio-ao-choque-de-energia-mostra-estudo.ghtml",
+      "summary": "Ouro sobe 0,85% em NY com alívio no petróleo, queda nos Treasuries e apostas sobre Fed e conflitos no Oriente Médio.",
+      "details": "Ouro sobe 0,85% em NY com alívio no petróleo, queda nos Treasuries e apostas sobre Fed e conflitos no Oriente Médio.",
+      "url": "https://esbrasil.com.br/ouro-sobe-com-petroleo-mais-fraco-e-fed-no-radar/",
       "source": "Seu Dinheiro",
       "category": "macro",
       "tags": [
@@ -425,14 +545,14 @@
       "updatedAt": "2026-06-04T19:05:08Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
+      "imageUrl": "https://cdn.esbrasil.com.br/wp-content/uploads/2026/06/ouro-sobe-0-85-petroleo-fraco-162411.webp"
     },
     {
       "id": "macro-f3a9b847fb73123f68a58612",
       "title": "Schmid, do Fed de Kansas City, não descarta alta de juros para conter inflação",
-      "summary": "Atualizacao de macro capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
-      "details": "",
-      "url": "https://br.investing.com/news/economy-news/schmid-do-fed-de-kansas-city-nao-descarta-alta-de-juros-para-conter-inflacao-93CH-1963244",
+      "summary": "🔎 A CVM é uma autarquia vinculada ao Ministério da Fazenda e responsável por fiscalizar, normatizar e disciplinar o mercado de valores mobiliários, que incluem ações, debêntures, cotas em fundos de in",
+      "details": "🔎 A CVM é uma autarquia vinculada ao Ministério da Fazenda e responsável por fiscalizar, normatizar e disciplinar o mercado de valores mobiliários, que incluem ações, debêntures, cotas em fundos de in",
+      "url": "https://expressaorondonia.com.br/governo-nomeia-otto-lobo-para-presidir-orgao-que-regula-fundos-de-investimento/",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "macro",
       "tags": [
@@ -443,33 +563,15 @@
       "publishedAt": "2026-06-04T19:04:00Z",
       "updatedAt": "2026-06-04T19:04:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-ee83cb9cb5db6c88fd952152",
-      "title": "Concurso Receita Federal: veja cargos vagos de Auditor e Analista; novo edital previsto para 2027!",
-      "summary": "🔎 A CVM é uma autarquia vinculada ao Ministério da Fazenda e responsável por fiscalizar, normatizar e disciplinar o mercado de valores mobiliários, que incluem ações, debêntures, cotas em fundos de in",
-      "details": "🔎 A CVM é uma autarquia vinculada ao Ministério da Fazenda e responsável por fiscalizar, normatizar e disciplinar o mercado de valores mobiliários, que incluem ações, debêntures, cotas em fundos de in",
-      "url": "https://expressaorondonia.com.br/governo-nomeia-otto-lobo-para-presidir-orgao-que-regula-fundos-de-investimento/",
-      "source": "Magistrar",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-06-04T19:00:00Z",
-      "updatedAt": "2026-06-04T19:00:00Z",
-      "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
       "imageUrl": "https://expressaorondonia.com.br/wp-content/uploads/2026/05/55282873h061700-1024x682.jpg"
     },
     {
       "id": "macro-b13c6a61e408c8e3fd345d9e",
       "title": "Fed pode se concentrar nos riscos de inflação em meio ao choque de energia, mostra estudo",
-      "summary": "Para o investidor do Brasil, o recado é claro: a renda fixa segue atrativa por mais tempo do que se esperava, e o câmbio merece atenção",
-      "details": "Para o investidor do Brasil, o recado é claro: a renda fixa segue atrativa por mais tempo do que se esperava, e o câmbio merece atenção",
-      "url": "https://www.seudinheiro.com/2026/economia/fitch-diz-que-brasil-vai-crescer-mais-em-2026-mas-inflacao-acima-do-teto-selic-mais-alta-e-eleicoes-complicam-o-caminho-ccgg/",
+      "summary": "Quando a arrecadação é ampliada por vias indiretas e sob classificações juridicamente questionáveis, corre-se o risco de transformar ajuste fiscal em penalidade e crescimento empresarial em desvantagem competitiva",
+      "details": "Quando a arrecadação é ampliada por vias indiretas e sob classificações juridicamente questionáveis, corre-se o risco de transformar ajuste fiscal em penalidade e crescimento empresarial em desvantagem competitiva",
+      "url": "https://www.estadao.com.br/amp/politica/blog-do-fausto-macedo/quando-o-ajuste-fiscal-vem-por-aumento-disfarcado-de-tributos/",
       "source": "Valor Econômico",
       "category": "macro",
       "tags": [
@@ -481,14 +583,14 @@
       "updatedAt": "2026-06-04T18:55:29Z",
       "premium": true,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.seudinheiro.com/uploads/2026/04/Mercados-bolsa-Brasil-acoes-Ibovespa.jpg"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/IHZIBAGHZVEB3IQYFBHXY7CQIQ.jpg?quality=80&auth=aa28540e1dc5b972a86d29402fa97d33962b130d22c3889b684a25174972319c&width=1200"
     },
     {
       "id": "funds-ede53e0c27cb79f519f13b44",
       "title": "Governo nomeia Otto Lobo para presidir órgão que regula fundos de investimento",
-      "summary": "Em um relatório divulgado nesta quinta-feira, os economistas do banco ‌disseram que a exposição da economia dos EUA à economia global mudou 'fundamentalmente' desde a década de 1970, em meio a uma maior eficiência energética e ao aumento da produção doméstica",
-      "details": "Em um relatório divulgado nesta quinta-feira, os economistas do banco ‌disseram que a exposição da economia dos EUA à economia global mudou 'fundamentalmente' desde a década de 1970, em meio a uma maior eficiência energética e ao aumento da produção doméstica",
-      "url": "https://www.infomoney.com.br/economia/estudo-fed-pode-se-concentrar-nos-riscos-de-inflacao-em-meio-ao-choque-de-energia/",
+      "summary": "Mudanças a partir de 1970 indicam que aumento no preço do petróleo tem menos impacto sobre a inflação em relação ao passado, indicam economistas do banco central americano",
+      "details": "Mudanças a partir de 1970 indicam que aumento no preço do petróleo tem menos impacto sobre a inflação em relação ao passado, indicam economistas do banco central americano",
+      "url": "https://valor.globo.com/google/amp/financas/noticia/2026/06/04/fed-pode-se-concentrar-nos-riscos-de-inflao-em-meio-ao-choque-de-energia-mostra-estudo.ghtml",
       "source": "G1",
       "category": "funds",
       "tags": [
@@ -500,14 +602,14 @@
       "updatedAt": "2026-06-04T18:54:53Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/01/2026-01-19T132403Z_1_LYNXMPEM0I0S1_RTROPTP_4_USA-FED.jpg?quality=70"
+      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
     },
     {
       "id": "macro-7ec95999ffec653087aaea10",
       "title": "Quando o ajuste fiscal vem por aumento disfarçado de tributos",
-      "summary": "Quando a arrecadação é ampliada por vias indiretas e sob classificações juridicamente questionáveis, corre-se o risco de transformar ajuste fiscal em penalidade e crescimento empresarial em desvantagem competitiva",
-      "details": "Quando a arrecadação é ampliada por vias indiretas e sob classificações juridicamente questionáveis, corre-se o risco de transformar ajuste fiscal em penalidade e crescimento empresarial em desvantagem competitiva",
-      "url": "https://www.estadao.com.br/amp/politica/blog-do-fausto-macedo/quando-o-ajuste-fiscal-vem-por-aumento-disfarcado-de-tributos/",
+      "summary": "Em um relatório divulgado nesta quinta-feira, os economistas do banco ‌disseram que a exposição da economia dos EUA à economia global mudou 'fundamentalmente' desde a década de 1970, em meio a uma maior eficiência energética e ao aumento da produção doméstica",
+      "details": "Em um relatório divulgado nesta quinta-feira, os economistas do banco ‌disseram que a exposição da economia dos EUA à economia global mudou 'fundamentalmente' desde a década de 1970, em meio a uma maior eficiência energética e ao aumento da produção doméstica",
+      "url": "https://www.infomoney.com.br/economia/estudo-fed-pode-se-concentrar-nos-riscos-de-inflacao-em-meio-ao-choque-de-energia/",
       "source": "Estadão",
       "category": "macro",
       "tags": [
@@ -519,14 +621,14 @@
       "updatedAt": "2026-06-04T18:54:24Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/IHZIBAGHZVEB3IQYFBHXY7CQIQ.jpg?quality=80&auth=aa28540e1dc5b972a86d29402fa97d33962b130d22c3889b684a25174972319c&width=1200"
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/01/2026-01-19T132403Z_1_LYNXMPEM0I0S1_RTROPTP_4_USA-FED.jpg?quality=70"
     },
     {
       "id": "macro-e941ae1e6a0eb86e4e87ab5d",
       "title": "Tarifas surpresa dos EUA abrem juros futuros e pressionam inflação no Brasil",
-      "summary": "Com mais de 22.989 vacâncias acumuladas entre os dois cargos e novo pedido de concurso já protocolado no MGI, a RFB aguarda autorização em 2026 para lançar edital em 2027; salários chegam a R$ 44 mil com bônus de eficiência",
-      "details": "Com mais de 22.989 vacâncias acumuladas entre os dois cargos e novo pedido de concurso já protocolado no MGI, a RFB aguarda autorização em 2026 para lançar edital em 2027; salários chegam a R$ 44 mil com bônus de eficiência",
-      "url": "https://magistrarcursos.com.br/blog/concurso-receita-federal-veja-cargos-vagos-de-auditor-e-analista-novo-edital-previsto-para-2027/",
+      "summary": "Questionado sobre a possibilidade de dar prioridade aos casos envolvendo o Banco Master, Lobo afirmou que a intenção é acelerar a tramitação de todos os processos em andamento na autarquia",
+      "details": "Questionado sobre a possibilidade de dar prioridade aos casos envolvendo o Banco Master, Lobo afirmou que a intenção é acelerar a tramitação de todos os processos em andamento na autarquia",
+      "url": "https://g1.globo.com/economia/noticia/2026/06/04/governo-nomeia-otto-lobo-para-presidir-orgao-que-regula-fundos-de-investimento.ghtml",
       "source": "Times Brasil | CNBC",
       "category": "macro",
       "tags": [
@@ -538,14 +640,14 @@
       "updatedAt": "2026-06-04T18:16:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://magistrarcursos.com.br/blog/wp-content/uploads/2026/06/receita-federal.webp"
+      "imageUrl": "https://s2-g1.glbimg.com/_05kJ9qmyVVcTSz1osPPviDzWjo=/2047x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/f/9/j4ZiBfQ46yyjAXAjeFmA/55282873133-ad5a8d8f2e-k.jpg"
     },
     {
       "id": "macro-76bbf3fcdb0ff3139c6c4902",
       "title": "Estudo: Fed pode se concentrar nos riscos de inflação em meio ao choque de energia",
-      "summary": "Dirigente ponderou, no entanto, que fornecer “forward guidance” neste momento poderia dar um direcionamento errado, devido à falta de clareza e previsibilidade",
-      "details": "Dirigente ponderou, no entanto, que fornecer “forward guidance” neste momento poderia dar um direcionamento errado, devido à falta de clareza e previsibilidade",
-      "url": "https://valor.globo.com/google/amp/financas/noticia/2026/06/04/daly-do-fed-diz-que-poltica-monetria-est-bem-posicionada-para-responder-ao-cenrio-incerto.ghtml",
+      "summary": "Tarifas adicionais dos EUA pegaram mercado de surpresa, abriram juros futuros e elevaram expectativas de inflação, avalia economista",
+      "details": "Tarifas adicionais dos EUA pegaram mercado de surpresa, abriram juros futuros e elevaram expectativas de inflação, avalia economista",
+      "url": "https://timesbrasil.com.br/mundo/tarifas-trump/tarifas-eua-juros-futuros-inflacao-brasil-valor-investimentos/",
       "source": "InfoMoney",
       "category": "macro",
       "tags": [
@@ -557,14 +659,33 @@
       "updatedAt": "2026-06-04T18:12:59Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/06/56dac9c6-captura-de-tela-2026-06-04-151033.webp"
+    },
+    {
+      "id": "funds-76a61a7575a2f4eb5d3ed779",
+      "title": "Ações da SoFi avançam enquanto a Nomura Asset Management aumenta sua participação institucional",
+      "summary": "Dirigente ponderou, no entanto, que fornecer “forward guidance” neste momento poderia dar um direcionamento errado, devido à falta de clareza e previsibilidade",
+      "details": "Dirigente ponderou, no entanto, que fornecer “forward guidance” neste momento poderia dar um direcionamento errado, devido à falta de clareza e previsibilidade",
+      "url": "https://valor.globo.com/google/amp/financas/noticia/2026/06/04/daly-do-fed-diz-que-poltica-monetria-est-bem-posicionada-para-responder-ao-cenrio-incerto.ghtml",
+      "source": "Traders Union",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-06-04T18:12:22Z",
+      "updatedAt": "2026-06-04T18:12:22Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
       "imageUrl": "https://s2-valor.glbimg.com/qz6g3F1PeRfPC-rzuymFdZn_Xmo=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/K/a/NLCSSmRs66pBzYSqT3jw/404476809.jpg"
     },
     {
       "id": "macro-1fad597d4c7aea954b2a9ee3",
       "title": "Daly, do Fed, diz que política monetária está bem posicionada para responder ao cenário incerto",
-      "summary": "Tarifas adicionais dos EUA pegaram mercado de surpresa, abriram juros futuros e elevaram expectativas de inflação, avalia economista",
-      "details": "Tarifas adicionais dos EUA pegaram mercado de surpresa, abriram juros futuros e elevaram expectativas de inflação, avalia economista",
-      "url": "https://timesbrasil.com.br/mundo/tarifas-trump/tarifas-eua-juros-futuros-inflacao-brasil-valor-investimentos/",
+      "summary": "Ações da SoFi sobem 3,02% hoje, chegando a US$ 17,06. Confira as novidades sobre o lançamento de AI da SoFi, crescimento de membros e movimentação de investidores.",
+      "details": "Ações da SoFi sobem 3,02% hoje, chegando a US$ 17,06. Confira as novidades sobre o lançamento de AI da SoFi, crescimento de membros e movimentação de investidores.",
+      "url": "https://tradersunion.com/pt/news/financial-news/show/2245759-sofi-jumps-3-02percent-today-to/",
       "source": "Valor Econômico",
       "category": "macro",
       "tags": [
@@ -576,14 +697,14 @@
       "updatedAt": "2026-06-04T18:11:58Z",
       "premium": true,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/06/56dac9c6-captura-de-tela-2026-06-04-151033.webp"
+      "imageUrl": "https://files.tradersunion.com/images/analytics-news/sofi/sofi_01.jpg"
     },
     {
       "id": "latest-ec483bec10507ec6929b6e5b",
       "title": "Ibovespa avança na abertura de novembro após quatro meses de queda",
-      "summary": "Com projeção menor de crescimento para o Brasil, empresas recorrem à inteligência artificial para aumentar a eficiência.",
-      "details": "Com projeção menor de crescimento para o Brasil, empresas recorrem à inteligência artificial para aumentar a eficiência.",
-      "url": "https://bpmoney.com.br/noticias/ia-ganha-espaco-na-gestao-fiscal-diante-de-cenario-economico-mais-desafiador-no-brasil/",
+      "summary": "Às 10h07, o Ibovespa subia 0,35 %, a 103.862,85 pontos",
+      "details": "Às 10h07, o Ibovespa subia 0,35 %, a 103.862,85 pontos",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-avanca-abertura-novembro/",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -595,14 +716,14 @@
       "updatedAt": "2026-06-04T18:00:44Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://bpmoney.com.br/wp-content/uploads/2025/12/ChatGPT-Image-29-de-dez.-de-2025-18_01_58-1152x768.png"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/PIM2IE6XTVLD5GCOR23QPJLS5I.jpg?quality=80&auth=93ce82de5ec2503d6c1626d0d845cd0204c1b1e8b84b806308152a85c03c02d8&width=1200&height=630&smart=true"
     },
     {
       "id": "macro-5c57f3970806715f525aef85",
       "title": "Fed nega redução de equipe de supervisão bancária",
       "summary": "Atualizacao de macro capturada em Vero Notícias.",
       "details": "",
-      "url": "https://br.investing.com/news/economy-news/ia-pode-reduzir-a-inflacao-nos-proximos-5-a-10-anos-diz-daly-93CH-1963212",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZWdxa1VBelJpLUhqdTVCVDhvUFhud1JydVVqMFFmUzZuaC1uYUhuOS1PVmF6aG9VWEhOZ2RlZHZtUHRjaUJlYzFJczVnMjRXSFBIYU9EWnNFNm0xdVFRd3NYblhyQndRLURhazh0SnpTbk1UbzExNFU1OFRYOWJVYldBaVd2SzJKd0RKbA?oc=5",
       "source": "Vero Notícias",
       "category": "macro",
       "tags": [
@@ -618,9 +739,9 @@
     {
       "id": "macro-48f394175c489299069e2856",
       "title": "IA ganha espaço na gestão fiscal diante de cenário econômico mais desafiador no Brasil",
-      "summary": "No campo negativo da principal referência da B3, as ações da Brava Energia (BRAV3) lideram as perdas",
-      "details": "No campo negativo da principal referência da B3, as ações da Brava Energia (BRAV3) lideram as perdas",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-caminha-fechar-queda-132-mil-pontos/",
+      "summary": "Atualizacao de macro capturada em BPMoney.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeXNYRkZUaERGY0xNTUY5ZmJRRURmTUxSTjVKblVMOTNtZ3dRS3c0MXU1LWhfNXFtYk5QUlRrRjhnZ2ExbmZ6UTVfMU1ZclFmV1UwdG1SNVRUdDYzQ0E2bm45Mi1FMlBZUExpZzhRbnl4OVRzSHA0NUhXN3VpWDRUR0RfNzY2RlhpM2x2NnkyUEhUVWNYMWhnakx6bWQ5akRpaFpfa0hydlBCNDJCaDduT0ZDOFdWYUZQb2xB?oc=5",
       "source": "BPMoney",
       "category": "macro",
       "tags": [
@@ -631,34 +752,50 @@
       "publishedAt": "2026-06-04T18:00:00Z",
       "updatedAt": "2026-06-04T18:00:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/JCR4VEFZUNNO7HXXCIHPK2QTHQ.png?quality=80&auth=13d48e8358cf8ac92f0e7d286955dc4a2aee4012dae65b468831f214eca06541&width=1200&height=630&smart=true"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "macro-943ee76efcfe159d8d43bef0",
-      "title": "IA pode reduzir a inflação nos próximos 5 a 10 anos, diz Daly",
-      "summary": "Funcionária do setor financeiro é presa em Goiânia após investigação apontar desvio de R$ 137 mil, uso de cartão corporativo e tentativa de viagem ao Rio",
-      "details": "Funcionária do setor financeiro é presa em Goiânia após investigação apontar desvio de R$ 137 mil, uso de cartão corporativo e tentativa de viagem ao Rio",
-      "url": "https://www.dm.com.br/cotidiano/funcionaria-do-setor-financeiro-e-presa-por-suposto-esquema-de-desvios-em-goiania/",
-      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "category": "macro",
+      "id": "latest-76f05f94866b20921b79a1b9",
+      "title": "Ray Dalio alerta: Mercado de IA pode estar em bolha iminente",
+      "summary": "Atualizacao de ultima hora capturada em diário do estado.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNd0FSQzkwNnhSem9wcGtJQjJFSEdPX3Y2bjBNVE5FR0lPcUc4Vi0yX3J5dURRXzVzbl9qc3dUckFVd2syWFR0T29LYllaUnYwZFp0MnlUWTRvR3lhb3ZTZThHd1ZEY0kzcnF2Mkg4WWUwNlJXLVI4Y2lSMFhJMEJseWtqVm41V2RPdDRvSHZiSHc4c3ZfV0w0?oc=5",
+      "source": "diário do estado",
+      "category": "latest",
       "tags": [
-        "macro",
-        "juros",
-        "inflacao"
+        "mercado",
+        "bolsa",
+        "macro"
       ],
-      "publishedAt": "2026-06-04T17:52:00Z",
-      "updatedAt": "2026-06-04T17:52:00Z",
+      "publishedAt": "2026-06-04T17:47:42Z",
+      "updatedAt": "2026-06-04T17:47:42Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.dm.com.br/wp-content/uploads/2026/06/Captura-de-tela-2026-06-04-140046.png"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "latest-9206422003692e5b339fc5d8",
+      "title": "Ibovespa sobe e dólar tem leve alta em dia de recordes em Wall Street",
+      "summary": "Atualizacao de ultima hora capturada em GPS Brasília Portal de Notícias do DF.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9wUjB2TVlTa0tEaEVRMEgzWUFmckM2NzI1RzJOOWtScF9xT3BBSEFITG9lY0dOQmZOVjRkTGZRUHBMOXdSVGlaNmJJb1h0OXRraS1JM0g3UkVEVk0yLTFWa3NDQmVBbllaMGxzdzBFVzU?oc=5",
+      "source": "GPS Brasília Portal de Notícias do DF",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-04T17:27:10Z",
+      "updatedAt": "2026-06-04T17:27:10Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-af404c4d693fe770d3762f4b",
       "title": "Dólar sobe a R$ 5,08 com tensão externa, tarifas dos EUA e busca por proteção no mercado",
-      "summary": "Às 10h07, o Ibovespa subia 0,35 %, a 103.862,85 pontos",
-      "details": "Às 10h07, o Ibovespa subia 0,35 %, a 103.862,85 pontos",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-avanca-abertura-novembro/",
+      "summary": "Atualizacao de ultima hora capturada em arevista.com.br.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTVJZdHgxZFVTeUlUSWlJRzlES2g1TmxpQzAzWlFxUzhORE5RV2d4THdnbE5qVUo2b1lZa3BNYmxrYkxTUnF1SGhHZlFsTmpObWY4LXhOX19iUHBERHo5MEJYWDNJNlRzWmhFY0RKN2xFRW5DUTktQ1pIUGF4RXdNLXhCZFJxTDl5TDZCZUFiQktrYlZHczFKcVluWExRbGx5QnlvVDZnUERhdU4wUENWdHRIcUJNT2ZVdUtLQkFB?oc=5",
       "source": "arevista.com.br",
       "category": "latest",
       "tags": [
@@ -669,15 +806,14 @@
       "publishedAt": "2026-06-04T17:20:30Z",
       "updatedAt": "2026-06-04T17:20:30Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/PIM2IE6XTVLD5GCOR23QPJLS5I.jpg?quality=80&auth=93ce82de5ec2503d6c1626d0d845cd0204c1b1e8b84b806308152a85c03c02d8&width=1200&height=630&smart=true"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-efc9ca28e9aaab67e2c6f041",
       "title": "Funcionária do setor financeiro é presa por suposto esquema de desvios em Goiânia",
-      "summary": "Dólar sobe a R$ 5,08 com tensão externa, tarifas dos EUA e busca por proteção no mercado financeiro",
-      "details": "Dólar sobe a R$ 5,08 com tensão externa, tarifas dos EUA e busca por proteção no mercado financeiro",
-      "url": "https://arevista.com.br/bolsa-hoje/dolar-sobe-a-r-508-com-tensao-externa-tarifas-dos-eua-e-busca-por-protecao-no-mercado/",
+      "summary": "Atualizacao de ultima hora capturada em Diário da Manhã.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX2RsdjVLYkpPTFZnT1gwNmtpQzBWT1NwNWNsYmYtN1JEM2k4YkpMQWpaY2VZWDgzd2tFTDBzUWtsUmdvUmM5eVc4S0JWVHVmTW4ydUp0QnY4UlQtU3NMMGtFVjQ0RkhxRTBKakdhNWY2Z0NYN2V2bWNiZ1NPdUdWVlBjTUJLZmg1UW82bXAyVllDbHRHRTkyYjJFQjZMbDJhcnZ6OWlrbFh4MVg0ZDkyWmE3cDU?oc=5",
       "source": "Diário da Manhã",
       "category": "latest",
       "tags": [
@@ -688,15 +824,14 @@
       "publishedAt": "2026-06-04T17:19:00Z",
       "updatedAt": "2026-06-04T17:19:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://arevista.com.br/wp-content/uploads/2026/06/ChatGPT-Image-4-de-jun.-de-2026-14_19_17-1024x614.png"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-b4c64c94c5cc726b47561cc9",
       "title": "Ibovespa cai mais de 2% e acende alerta no mercado após perder força perto dos 170 mil pontos",
-      "summary": "Ibovespa cai mais de 2% e fecha perto dos 170 mil pontos, pressionado por aversão ao risco e saída de estrangeiros",
-      "details": "Ibovespa cai mais de 2% e fecha perto dos 170 mil pontos, pressionado por aversão ao risco e saída de estrangeiros",
-      "url": "https://arevista.com.br/bolsa-hoje/ibovespa-cai-mais-de-2-e-acende-alerta-no-mercado-apos-perder-forca-perto-dos-170-mil-pontos/",
+      "summary": "Atualizacao de ultima hora capturada em arevista.com.br.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbGZsbi1xbkVtM1JsdUpRLUlSS3J6QXU5T1Q1alNDMVdFOS1WSnRGbVZndUNxU0x2Sk1HRnV2UnotVDVuNkpyNjhpWlhEQWdiOExZcGZZZEtnTE1keUZnMEI0V2ZNZE9McExDRmROcVZwdjJmTEZ3TmRObnFLYVZKU21YaUl2WmlTb2U4bVZSWHBQbENreXZxREZSZ05LNWFqSC1WTkpiSDFHdnVITlRRd2JlREwtc21ta3Y1c3F3ZHJ5N3kyVEhj?oc=5",
       "source": "arevista.com.br",
       "category": "latest",
       "tags": [
@@ -707,15 +842,14 @@
       "publishedAt": "2026-06-04T17:11:56Z",
       "updatedAt": "2026-06-04T17:11:56Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://arevista.com.br/wp-content/uploads/2026/06/ChatGPT-Image-4-de-jun.-de-2026-14_10_42.png"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-fde420bc39b7b993aa90adaa",
       "title": "Ibovespa hoje caminha para fechar em queda e opera abaixo dos 132 mil pontos",
       "summary": "Atualizacao de ultima hora capturada em Estadão.",
       "details": "",
-      "url": "https://veronoticias.com/economia/fed-nega-reducao-de-equipe-de-supervisao-bancaria/",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMGROMVVlNzdJVVBjT0M1Y19pUlNmWS11LVhXSEVtU1doWDFCQUhrNmlrWVhaRThLOUtycEt4V0dnNlU5WWF4Z0FaYm1PX3NsMC1GeDlxeHhWOUJKZ0pMVHNsb0hLd2Fzb2R4LTA3RU5SX2NWT3JmSWZpeXFYVG1rSkVYRDJlcjY1bktmakNmbGRiZC1XTWt6SGpHeExiV3dFajJKMmtFUllQSHB50gGyAUFVX3lxTFBPcU55X1RCMFdRMGlfaF9VRC1xei1BQU0zUlk3akp4bS1WWmxBTDVUVkR0UVpkM09sZGs1LWFDc1hZRzdPbFV3b3VWWkhmVFk0MzJlekdtaEljSW1lTGswUlB2cTVkT3kxeFVnVlliUnpzVDVBS3drcGljbDNjUmdvUFdlZ3dOVWhneVZVc2I3TUxzcWNwNkxMdWs5elljcTF4d2Y1bW04WUJxSURoLUJxU3c?oc=5",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -819,42 +953,6 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-44c8842ceea723f450bcec9c",
-      "title": "Nintendo Switch 2 sai por até 10x sem juros em promoção no Mercado Livre",
-      "summary": "Atualizacao de ultima hora capturada em Tecnoblog.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaDRUUUFWbXRqME9ZNHdmZUl5TUY3TVhjckFtQk9ob0hJOWJfWm9ZVTNnMlBocnpUTlhfRjZoVEt3ZlU5Z0dOQllBbFd5MG5HWkROMERsXzlJZXlCcS1iNUU4bk1pbUcxY20wMTZQUDYxTmNSYmtJbllNTmpvbHBSeFJfTXNxU0Q5c3JGU0FmSnRFY3cwSHp5MmE2VHBMcndmT1p6cmxB?oc=5",
-      "source": "Tecnoblog",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-04T15:11:51Z",
-      "updatedAt": "2026-06-04T15:11:51Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-095099f3064552bc8eecff5d",
-      "title": "Goldman Sachs: Ganância supera medo no mercado financeiro",
-      "summary": "Atualizacao de ultima hora capturada em diário do estado.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNHB2U25iNC14a3VZREFfNFVVXzE0ek1jM1MtVXFBbC1HQVNaNVhKSXhiSlNMck9QMUFwUkY1SnBtZWtTZWt4OFFHNWlTenJTTkZzRjJFbndUenhxV2prMVFPSzYwSWJnZUV4VVpaMUJ1d240N2QxSzR1TVFOUFd4enMtUkRReGs1VkppdmFkQUFlb2c?oc=5",
-      "source": "diário do estado",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-04T14:46:21Z",
-      "updatedAt": "2026-06-04T14:46:21Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "companies-4ba34af36b933b2a68a6d247",
       "title": "O fim da escala 6×1 e o split payment: a bomba-relógio no caixa das empresas",
       "summary": "Atualizacao de empresas capturada em Diário do Rio.",
@@ -871,114 +969,6 @@
       "updatedAt": "2026-06-04T14:42:13Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "latest-4e349881f3419b616417b8ec",
-      "title": "Taxação da tilápia vietnamita em SP testa reação do mercado com preços Cepea ainda estáveis",
-      "summary": "Atualizacao de ultima hora capturada em agronews.tv.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LLWRUT0Q3RXVIOUdYNHV3eGhEYzFURTNIZGVqVERjLVlCWFRGV1ZTRHA1bzhmR3N6aEpqN3Jmb0xyZVpuSFlMLUpsMlcyWTFMNHFfMHRiY2d5N1daN0p5VkJOYVVrRDRXNUl3eks3emV6UUowX251Wg?oc=5",
-      "source": "agronews.tv.br",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-04T14:28:00Z",
-      "updatedAt": "2026-06-04T14:28:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-dc7eefce72de89f436ec2aca",
-      "title": "Ibovespa hoje: Minerva (BEEF3) e MBRF (MBRF3) saltam; Azzas (AZZA3) lidera perdas",
-      "summary": "Atualizacao de ultima hora capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYS1oMTNuVlVJakxrWDBLcmdmS1J4c0JQdTlKQ3k2S3pDeWoxeFJCZEJwQWFiVWpXUElMcEIyYTI4NmRPVlVwVmFITW5uUnZCR0pRSlZ5Y1h6bXZEX1I3enU1WnJjWFN1Qkg2ajhpVHFUSDBDcWtPbjJ4aHpWd05jU183TUllWE9TOTB4SDgyWjUtZFYxTXQtZDhaU09XU0xSdWJZR1NMa2V3YjVEbVZ5cDN0bF9mTmRJZlBBbkZRemlnMjZaWU5TdFZn0gHPAUFVX3lxTE1YWEdiZXZTTWZTSGxzcG1XaFFYWVNaeFZUREJIQmtFdTlaYVJfSGFYbGhra2RRN1RKN0FnczIwbUVPanFtR1dnLWd2aEczbWJxajV6TTBHRGcyM194NEtDNGdxZVBPSjhmOWJzeGVoV0VTVUNpcXBOQ2pGZTBEWkJhb0w3aEpMTDQwbEY1YmpjamxNSDhvcjFlcEJhTHFpbmxpd2JTSTVZNk9xZkpSbzIzYkhlNjRLSGZqaUJDamRUeUE1Q3JkWEdpREZGeERmbw?oc=5",
-      "source": "Estadão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-04T14:19:21Z",
-      "updatedAt": "2026-06-04T14:19:21Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-57b5be738d0d769b1416d51e",
-      "title": "SpaceX Almeja US$ 75 Bilhões em IPO Histórica",
-      "summary": "Atualizacao de ultima hora capturada em diário do estado.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZ1ljTGdEUTZ5eWFnbnh1WHphdFZmSE1PR3dHUkxqNmJUdFdVRXhGWEplTnUxby1XNFNJeHI4ZUpBQ3ZwdktQUjFwQkpZU1ZYeFZRRnMtaFMzRjhUcFRtZjZZQXBjY1NLaWg2VmxyaVBxVTFhcnltRy1uSmJXa0VhS25xSQ?oc=5",
-      "source": "diário do estado",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-04T14:02:21Z",
-      "updatedAt": "2026-06-04T14:02:21Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-d4f8de77007c81d63fcb5e4e",
-      "title": "Bolsa desaba mais de 2% e dólar dispara com tensões globais",
-      "summary": "Atualizacao de ultima hora capturada em News Rondônia.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQldtNk5IdHhaLWpCdzFGWVd0MlR3OXFLLWRhY0xRQWx6YnVlUU00ME9oeGFzTTU2dkZIZTFtb3RFQkVhTUk3UjBVTHNwUGJETWFETlV2OWJDUXhzS0hMMTlVeHdESlM3Vk0wNkh6eWdYZzFvcnR5TS00N2lISEc0TVAzdkhDOGNRbUpzdzNqU0FQdDRCQVV5SFhweVZEYXR1NEJQb01kaUN5TDQ?oc=5",
-      "source": "News Rondônia",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-04T14:00:04Z",
-      "updatedAt": "2026-06-04T14:00:04Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-03616fd7c950686f25734db3",
-      "title": "Mercado Financeiro: Lucros em Alta Segundo CEO do Goldman Sachs",
-      "summary": "Atualizacao de ultima hora capturada em correiodobrasil.com.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaG82TlJKcUVoZU9WV29QeVg2MTYyWEpmeEs1d1VLM0FFcmhFZUo4M1dvNXV6TGZOLUo0WkU0UXVnTEQzdExUY2pJUWQ5eU9tWWxSTlVsNUFXR1Y2MldVX1c3SkMyNk1feUFXeVc4bFM4emNQeWRqWGl1Wk5FZkRtN0JrOXQ0QQ?oc=5",
-      "source": "correiodobrasil.com.br",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-04T13:58:59Z",
-      "updatedAt": "2026-06-04T13:58:59Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-c443b1a52656076693deb8ab",
-      "title": "NTN-Bs a 8%: Por que o mercado permanece cauteloso?",
-      "summary": "Atualizacao de ultima hora capturada em diário do estado.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaEstYV9Sak8tSDVMMzhHbHFOelRFNGRsWVNId0Q2WElzbHJKVVdWcmV1eC1ENDlDMko1UEJkeVlWaDJrcE4weXBoNFR4Ni1iTkRwZmtyelVWV3lRbUV0Z2RJSFFjLUZOUloxUW1qbDRieWtnZmpsODVSajlkUDJaNS1mR2RoNWRO?oc=5",
-      "source": "diário do estado",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-04T13:41:12Z",
-      "updatedAt": "2026-06-04T13:41:12Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "funds-942da12cc75ede062717dac4",
@@ -1251,6 +1241,24 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
+      "id": "funds-8e2e301dc27c6f0d11f7d1c6",
+      "title": "Mais de 90% dos leitores do RepórterMT apoiam classificação de PCC e CV como terroristas",
+      "summary": "Atualizacao de fundos capturada em RepórterMT.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOS0VTdlFKVjEyVjl4OUZhUnlYWjN4aFY4TDNrc054WkhYZWtBQ1UtVmR1VWhZRWd5WjAtUXdTd2ptMjBjSjNlcHJrdEdSd3gzd2t0bGs5Zkw1NDllUzdtWXdycUhhRkdYZXRhVnRNN05OTWtkWGNWekJwNjVXMEc2SkszUlJTTU4wdzJuckp5Nkhra21mQ29jbjRTSW1CWmktd1kzRFBYOVJUU1hOQzl3dlE0NFFyREh0ZS05eGgxQ1FSR1AyaUtMMg?oc=5",
+      "source": "RepórterMT",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-06-04T00:12:00Z",
+      "updatedAt": "2026-06-04T00:12:00Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
       "id": "companies-f37b602898ce02fe90c82c78",
       "title": "Novo tarifaço deve aumentar busca de investidores por Green Card e acelerar internacionalização de empresas brasileiras",
       "summary": "Atualizacao de empresas capturada em Times Brasil | CNBC.",
@@ -1357,24 +1365,6 @@
       "updatedAt": "2026-06-03T21:20:55Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-2fb55c8419fd5ec1549a58d9",
-      "title": "Após criticar milhões que recebem Bolsa Família, Luciano Hang estuda abrir lojas no Paraguai enquanto prevê 'quebradeira' no Brasil com o fim da escala 6x1 e convicção de que 'só uma desgraça' salvaria o país; dono da Havan fala em explosão da inflaçã",
-      "summary": "Atualizacao de empresas capturada em CPG Click Petróleo e Gás.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOMHVhcXBoS3NXX2d1Z1RkME1GZG55UUJtUUtCMjFfcFFQVXlqM3RoUVZDTXdTbHA2YWVHbDB4Q3M0WVkyWV8xd1A3RXhMd0FOX2lNaGpEd0FqTEt5dlY3NVFRNWc2Vk53Uk04TFZnYmpVXzFhWEQ2dmNOLVVuTzZ5bktmQjVwS2Zqc0U0TUdZbUdObnhjUVRIdFBldFVTOEh2XzE2OUZjbGpaX0dmdW9rVHRGUFdELUZyTHV2c3JUOW9iWUZKQXF0WGxvS014d3lQNUl3WFFEMTl3NFJDdXBFcm5XLUp0eEdqWTFyXzlTWmg5cUVzM3h0Z0I2SUg3Um9yVlhhSW1sQnFTRzlNVTBDd3c5dGVnRzNQZU9rRFhlNFBtb2VTUngzLVU5RldiczlURTJvWnV3?oc=5",
-      "source": "CPG Click Petróleo e Gás",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-06-03T20:34:00Z",
-      "updatedAt": "2026-06-03T20:34:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     }
   ]
 }
