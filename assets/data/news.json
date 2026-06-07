@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-07T16:44:12Z",
-  "generatedAt": "2026-06-07T16:44:12Z",
+  "updatedAt": "2026-06-07T17:52:52Z",
+  "generatedAt": "2026-06-07T17:52:52Z",
   "categories": [
     {
       "id": "all",
@@ -61,14 +61,6 @@
       "label": "Diário da Manhã"
     },
     {
-      "id": "di-rio-do-centro-do-mundo",
-      "label": "Diário do Centro do Mundo"
-    },
-    {
-      "id": "di-rio-do-com-rcio",
-      "label": "Diário do Comércio"
-    },
-    {
       "id": "di-rio-do-estado",
       "label": "diário do estado"
     },
@@ -101,12 +93,12 @@
       "label": "Folha de S.Paulo"
     },
     {
-      "id": "grupo-a-hora",
-      "label": "Grupo A Hora"
+      "id": "gd-eurisko-com-br",
+      "label": "gd.eurisko.com.br"
     },
     {
-      "id": "gzh",
-      "label": "GZH"
+      "id": "grupo-portal-de-not-cias",
+      "label": "Grupo Portal de Notícias"
     },
     {
       "id": "imirante-com",
@@ -127,10 +119,6 @@
     {
       "id": "investnews",
       "label": "InvestNews"
-    },
-    {
-      "id": "jetss",
-      "label": "JETSS"
     },
     {
       "id": "jornal-da-cidade-online",
@@ -169,8 +157,16 @@
       "label": "mrnews.com.br"
     },
     {
+      "id": "mt-play",
+      "label": "MT PLAY"
+    },
+    {
       "id": "o-dia",
       "label": "O Dia"
+    },
+    {
+      "id": "ocp-news",
+      "label": "OCP News"
     },
     {
       "id": "paipee",
@@ -201,16 +197,24 @@
       "label": "segundabase.com.br"
     },
     {
+      "id": "seu-dinheiro",
+      "label": "Seu Dinheiro"
+    },
+    {
+      "id": "sistema-prov-ncia-de-comunica-o",
+      "label": "Sistema Província de Comunicação"
+    },
+    {
       "id": "spacemoney",
       "label": "SpaceMoney"
     },
     {
-      "id": "suno-com-br",
-      "label": "suno.com.br"
-    },
-    {
       "id": "s-o-bento-em-foco",
       "label": "São Bento em Foco"
+    },
+    {
+      "id": "tarob",
+      "label": "Tarobá"
     },
     {
       "id": "terra",
@@ -219,6 +223,10 @@
     {
       "id": "times-brasil-cnbc",
       "label": "Times Brasil | CNBC"
+    },
+    {
+      "id": "tradenews-com-br",
+      "label": "tradenews.com.br"
     },
     {
       "id": "turbo-pt",
@@ -251,11 +259,125 @@
   ],
   "items": [
     {
-      "id": "companies-bbe2f4229485bac26ca92293",
-      "title": "Alvoroço atinge empresas brasileiras com confirmação de decisão no Diário Oficial dos EUA",
+      "id": "macro-48e581cbbdaa336062931564",
+      "title": "Justiça brasileira é a segunda mais cara do mundo e consome 1,55% do PIB",
+      "summary": "IPCA aqui e CPI fora serão mais uma dose do remédio amargo para o investidor",
+      "details": "IPCA aqui e CPI fora serão mais uma dose do remédio amargo para o investidor",
+      "url": "https://www.tradenews.com.br/p/semana-com-dados-amargos-de-inflacao",
+      "source": "OCP News",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-07T17:46:44Z",
+      "updatedAt": "2026-06-07T17:46:44Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!_KOs!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F976c2906-4429-47ad-8055-91448fca2230_1286x720.png"
+    },
+    {
+      "id": "macro-186707ad0d16cda5d7400414",
+      "title": "Semana com dados amargos de inflação",
+      "summary": "Os gastos com o sistema de Justiça brasileiro chegaram a R$ 181,5 bilhões em 2024, valor equivalente a 1,55% do […]",
+      "details": "Os gastos com o sistema de Justiça brasileiro chegaram a R$ 181,5 bilhões em 2024, valor equivalente a 1,55% do […]",
+      "url": "https://ocp.news/economia/justica-brasileira-e-a-segunda-mais-cara-do-mundo-e-consome-155-do-pib",
+      "source": "tradenews.com.br",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-07T17:46:25Z",
+      "updatedAt": "2026-06-07T17:46:25Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://ocp.news/wp-content/uploads/2026/06/IMG_7474-scaled.jpeg"
+    },
+    {
+      "id": "companies-a4b246afcd8cfc46f03e9194",
+      "title": "Ricardo Nunes pede que Google mantenha investimentos no Brasil e não siga movimento de empresas rumo ao Paraguai",
+      "summary": "Os contribuintes de Cuiabá que possuem débitos com o município ainda podem aproveitar as condições especiais do Mutirão Fiscal 2026, que segue em andamento e teve prazo de adesão prorrogado até o dia 30 de junho. A extensão do prazo foi oficializada por meio do Decreto nº 12.076,",
+      "details": "Os contribuintes de Cuiabá que possuem débitos com o município ainda podem aproveitar as condições especiais do Mutirão Fiscal 2026, que segue em andamento e teve prazo de adesão prorrogado até o dia 30 de junho. A extensão do prazo foi oficializada por meio do Decreto nº 12.076, publicado em 27 de maio, garantindo mai",
+      "url": "https://mtplay.com.br/cidades/mutirao-fiscal-2026-segue-aberto-com-descontos-de-ate-95/",
+      "source": "gd.eurisko.com.br",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-06-07T17:21:49Z",
+      "updatedAt": "2026-06-07T17:21:49Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://mtplay.com.br/wp-content/uploads/2026/06/2026-01-21-09-59-ro-00034-nascer-do-sol-6970dbac11a83-scaled.jpg"
+    },
+    {
+      "id": "funds-c6ea7dd4b835ddcec4e5f7fe",
+      "title": "Com El Niño no radar, Fitch aposta em ‘tempestade perfeita’ para crédito do agronegócio; algumas empresas já entraram no radar de risco",
+      "summary": "Entre fertilizantes mais caros, seca, enchentes e pressão sobre as margens, a agência avalia impactos para o agronegócio no segundo semestre.",
+      "details": "Entre fertilizantes mais caros, seca, enchentes e pressão sobre as margens, a agência avalia impactos para o agronegócio no segundo semestre.",
+      "url": "https://www.seudinheiro.com/2026/empresas/com-el-nino-no-radar-fitch-aposta-em-tempestade-perfeita-para-credito-do-agronegocio-algumas-empresas-ja-entraram-no-radar-de-risco-miql/",
+      "source": "Seu Dinheiro",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-06-07T16:47:30Z",
+      "updatedAt": "2026-06-07T16:47:30Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://www.seudinheiro.com/uploads/2024/10/Fiagro-da-Itau-Asset-RURA11-agronegocio-CRA.-Foto-Canva-ProMontagem-Seu-Dinheiro.jpg"
+    },
+    {
+      "id": "macro-61756b5810150ed81f189448",
+      "title": "Nota Fiscal Gaúcha terá 70 prêmios extras na semana do Dia dos Namorados",
       "summary": "A decisão dos Estados Unidos de classificar o PCC e o Comando Vermelho como organizações terroristas está provocando uma corrida de empresas para revisar contratos, fornecedores e parceiros comerciais...",
       "details": "A decisão dos Estados Unidos de classificar o PCC e o Comando Vermelho como organizações terroristas está provocando uma corrida de empresas para revisar contratos, fornecedores e parceiros comerciais...",
       "url": "https://www.jornaldacidadeonline.com.br/noticias/83933/alvoroco-atinge-empresas-brasileiras-com-confirmacao-de-decisao-no-diario-oficial-dos-eua",
+      "source": "Sistema Província de Comunicação",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-07T16:42:24Z",
+      "updatedAt": "2026-06-07T16:42:24Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://fotos.jornaldacidadeonline.com.br/uploads/fotos/1300x0_1780849156_6a259a047ec90.jpeg"
+    },
+    {
+      "id": "macro-96cef6c017b8e1ee0e838f46",
+      "title": "Mutirão Fiscal 2026 segue aberto em Cuiabá com descontos de até 95%",
+      "summary": "Ação deseja aproveitar o aumento das compras durante a semana",
+      "details": "Ação deseja aproveitar o aumento das compras durante a semana",
+      "url": "https://www.clicportela.com.br/noticia/169125/nota-fiscal-gaucha-tera-70-premios-extras-na-semana-do-dia-dos-namorados",
+      "source": "MT PLAY",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-07T16:18:00Z",
+      "updatedAt": "2026-06-07T16:18:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.clicportela.com.br/images/noticias/169125/c0b4462fead3e9a24b0e51248d2e2d9e.webp"
+    },
+    {
+      "id": "companies-bbe2f4229485bac26ca92293",
+      "title": "Alvoroço atinge empresas brasileiras com confirmação de decisão no Diário Oficial dos EUA",
+      "summary": "Atualizacao de empresas capturada em Jornal da Cidade Online.",
+      "details": "",
+      "url": "https://gd.eurisko.com.br/2026/06/07/ricardo-nunes-pede-que-google-mantenha-investimentos-no-brasil-e-nao-siga-movimento-de-empresas-rumo-ao-paraguai/",
       "source": "Jornal da Cidade Online",
       "category": "companies",
       "tags": [
@@ -266,15 +388,33 @@
       "publishedAt": "2026-06-07T16:14:00Z",
       "updatedAt": "2026-06-07T16:14:00Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://fotos.jornaldacidadeonline.com.br/uploads/fotos/1300x0_1780849156_6a259a047ec90.jpeg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "macro-afd6ec8e84d0ae88c01612b7",
+      "title": "Governo de Minas entrega R$ 200 mil a ganhador do sorteio especial da Nota Fiscal Mineira",
+      "summary": "...",
+      "details": "...",
+      "url": "https://investidor10.com.br/amp/noticias/inflacao-no-brasil-e-nos-eua-sao-destaques-na-agenda-da-semana-veja-120769/",
+      "source": "Grupo Portal de Notícias",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-07T16:12:34Z",
+      "updatedAt": "2026-06-07T16:12:34Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://investidor10.com.br/storage/news/6a2597df99e48.jpg"
     },
     {
       "id": "macro-344cbeeec4984860e77ae25d",
       "title": "Inflação no Brasil e nos EUA são destaques na agenda da semana; veja",
-      "summary": "Atualizacao de macro capturada em Investidor10.",
-      "details": "",
-      "url": "https://br.investing.com/news/economy-news/kevin-warsh-esta-certo-sobre-o-impacto-da-ia-na-inflacao-1964944",
+      "summary": "Confira notícias atualizadas sobre sua cidade, estado e região. Informação rápida, confiável e relevante no Grupo Portal de Notícias.",
+      "details": "Confira notícias atualizadas sobre sua cidade, estado e região. Informação rápida, confiável e relevante no Grupo Portal de Notícias.",
+      "url": "https://grupoportaldenoticias.com.br/governo-de-minas-entrega-r-200-mil-a-ganhador-do-sorteio-especial-da-nota-fiscal-mineira/",
       "source": "Investidor10",
       "category": "macro",
       "tags": [
@@ -285,14 +425,15 @@
       "publishedAt": "2026-06-07T16:11:51Z",
       "updatedAt": "2026-06-07T16:11:51Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://grupoportaldenoticias.com.br/wp-content/uploads/2025/07/Fundo-GPN-SEO.png"
     },
     {
       "id": "macro-96f09ed99b2041e642fce9cd",
       "title": "Guerra no Irã interrompe produção de resina e deve gerar inflação em cadeia de eletrônicos",
-      "summary": "Deputada Júlia Zanatta gera repercussão ao criticar inflação sem saber o índice, expondo fragilidades da economia. Confira os detalhes!",
-      "details": "Deputada Júlia Zanatta gera repercussão ao criticar inflação sem saber o índice, expondo fragilidades da economia. Confira os detalhes!",
-      "url": "https://diariodoestadogo.com.br/julia-zanatta-e-a-polemica-da-inflacao-impactos-no-mercado/",
+      "summary": "Escassez de resina após ataques ao complexo de Jubail na Arábia Saudita pressiona preços de placas de circuito impresso e ameaça eletrônicos",
+      "details": "Escassez de resina após ataques ao complexo de Jubail na Arábia Saudita pressiona preços de placas de circuito impresso e ameaça eletrônicos",
+      "url": "https://timesbrasil.com.br/mundo/resina-falta-preco-smartphones-eletronicos-jubail-circuito-impresso/",
       "source": "Times Brasil | CNBC",
       "category": "macro",
       "tags": [
@@ -304,14 +445,14 @@
       "updatedAt": "2026-06-07T15:55:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/06/julia-zanatta-e-a-polemica-da-inflacao3A-impactos-no-mercado.png"
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2025/03/6d671942-mother-board-5431664_1280.jpg"
     },
     {
       "id": "macro-8e37d0fdc8e051cf3b866157",
       "title": "Inflação promete dar o tom do mercado em semana decisiva para a Superquarta",
-      "summary": "Consolide seus investimentos e acompanhe seu patrimônio com o Kinvo App. Tenha todo o controle das suas finanças em um único lugar. Use o Kinvo agora.",
-      "details": "Consolide seus investimentos e acompanhe seu patrimônio com o Kinvo App. Tenha todo o controle das suas finanças em um único lugar. Use o Kinvo agora.",
-      "url": "https://kinvo.com.br/noticia/agenda-ipca-no-brasil-inflacao-nos-eua-e-juros-na-zona-do-euro-mexem-com-a-semana-confira",
+      "summary": "Atualizacao de macro capturada em Valor Investe.",
+      "details": "",
+      "url": "https://br.investing.com/news/economy-news/kevin-warsh-esta-certo-sobre-o-impacto-da-ia-na-inflacao-1964944",
       "source": "Valor Investe",
       "category": "macro",
       "tags": [
@@ -322,15 +463,14 @@
       "publishedAt": "2026-06-07T15:31:46Z",
       "updatedAt": "2026-06-07T15:31:46Z",
       "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://d2hme8z1miz6cd.cloudfront.net/media/money-times/1351410.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-77d97ebe17ac81035d3de631",
       "title": "Notícia Agenda: IPCA no Brasil, inflação nos EUA e juros na zona do euro mexem com a semana; confira",
-      "summary": "Sob mudança brusca de expectativas para juros de Estados Unidos e Brasil, saberemos com quais dados em mãos as decisões do próximo dia 17 serão tomadas pelos banqueiros centrais",
-      "details": "Sob mudança brusca de expectativas para juros de Estados Unidos e Brasil, saberemos com quais dados em mãos as decisões do próximo dia 17 serão tomadas pelos banqueiros centrais",
-      "url": "https://valorinveste.globo.com/mercados/moedas-e-juros/noticia/2026/06/07/inflacao-da-tom-dos-mercados-em-semana-decisiva-para-a-superquarta.ghtml",
+      "summary": "Consolide seus investimentos e acompanhe seu patrimônio com o Kinvo App. Tenha todo o controle das suas finanças em um único lugar. Use o Kinvo agora.",
+      "details": "Consolide seus investimentos e acompanhe seu patrimônio com o Kinvo App. Tenha todo o controle das suas finanças em um único lugar. Use o Kinvo agora.",
+      "url": "https://kinvo.com.br/noticia/agenda-ipca-no-brasil-inflacao-nos-eua-e-juros-na-zona-do-euro-mexem-com-a-semana-confira",
       "source": "Kinvo",
       "category": "macro",
       "tags": [
@@ -342,14 +482,14 @@
       "updatedAt": "2026-06-07T15:06:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor-investe.glbimg.com/AjihLjFuVimHLOheemJLfC9t87Y=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s04.video.glbimg.com/deo/vi/07/54/14675407"
+      "imageUrl": "https://d2hme8z1miz6cd.cloudfront.net/media/money-times/1351410.jpg"
     },
     {
       "id": "macro-ac178e2436f01807cfbad0e5",
       "title": "Kevin Warsh está certo sobre o impacto da IA na inflação?",
-      "summary": "...",
-      "details": "...",
-      "url": "https://investidor10.com.br/noticias/inflacao-no-brasil-e-nos-eua-sao-destaques-na-agenda-da-semana-veja-120769/",
+      "summary": "Descubra como as previsões astrológicas impactam amor, carreira e finanças de todos os signos até 2026.",
+      "details": "Descubra como as previsões astrológicas impactam amor, carreira e finanças de todos os signos até 2026.",
+      "url": "https://diariodoestadogo.com.br/previsoes-astrologicas-como-os-signos-se-relacionam-com-financas-e-carreira-ate-2026/",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "macro",
       "tags": [
@@ -361,33 +501,51 @@
       "updatedAt": "2026-06-07T14:58:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://investidor10.com.br/storage/news/6a2597df99e48.jpg"
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/06/previsoes-astrologicas3A-como-os-signos-se-relacionam-com-financas-e-carreira-ate-2026.webp"
     },
     {
-      "id": "macro-67c9700cc2d544dae10d256e",
-      "title": "Júlia Zanatta e a polêmica da inflação: Impactos no mercado",
-      "summary": "Escassez de resina após ataques ao complexo de Jubail na Arábia Saudita pressiona preços de placas de circuito impresso e ameaça eletrônicos",
-      "details": "Escassez de resina após ataques ao complexo de Jubail na Arábia Saudita pressiona preços de placas de circuito impresso e ameaça eletrônicos",
-      "url": "https://timesbrasil.com.br/mundo/resina-falta-preco-smartphones-eletronicos-jubail-circuito-impresso/",
+      "id": "latest-7bc3777435ba9ec50cca80dc",
+      "title": "Previsões astrológicas: Como os signos se relacionam com finanças e carreira até 2026",
+      "summary": "Sob mudança brusca de expectativas para juros de Estados Unidos e Brasil, saberemos com quais dados em mãos as decisões do próximo dia 17 serão tomadas pelos banqueiros centrais",
+      "details": "Sob mudança brusca de expectativas para juros de Estados Unidos e Brasil, saberemos com quais dados em mãos as decisões do próximo dia 17 serão tomadas pelos banqueiros centrais",
+      "url": "https://valorinveste.globo.com/google/amp/mercados/moedas-e-juros/noticia/2026/06/07/inflacao-da-tom-dos-mercados-em-semana-decisiva-para-a-superquarta.ghtml",
       "source": "diário do estado",
-      "category": "macro",
+      "category": "latest",
       "tags": [
-        "macro",
-        "juros",
-        "inflacao"
+        "mercado",
+        "bolsa",
+        "macro"
       ],
-      "publishedAt": "2026-06-07T14:01:59Z",
-      "updatedAt": "2026-06-07T14:01:59Z",
+      "publishedAt": "2026-06-07T13:45:47Z",
+      "updatedAt": "2026-06-07T13:45:47Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2025/03/6d671942-mother-board-5431664_1280.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://s2-valor-investe.glbimg.com/AjihLjFuVimHLOheemJLfC9t87Y=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s04.video.glbimg.com/deo/vi/07/54/14675407"
+    },
+    {
+      "id": "latest-6c70db1d0e2a7fa5b43d156a",
+      "title": "PEC no Senado facilita cooptação do Banco Central, dizem economistas",
+      "summary": "A autonomia financeira e orçamentária do Banco Central (BC), prevista em proposta de emenda à Constituição (PEC)",
+      "details": "A autonomia financeira e orçamentária do Banco Central (BC), prevista em proposta de emenda à Constituição (PEC)",
+      "url": "https://taroba.com.br/noticias/economia/pec-no-senado-facilita-cooptacao-do-banco-central-dizem-economistas/amp",
+      "source": "Tarobá",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-07T13:33:00Z",
+      "updatedAt": "2026-06-07T13:33:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-84c60bef0ba7dae23218eb6e",
       "title": "Mutirão Fiscal segue em Cuiabá com descontos de até 95% em juros e multas",
-      "summary": "Atualizacao de macro capturada em EXCLUSIVO NEWS.",
-      "details": "",
-      "url": "https://exclusivonews.com.br/cidades/cuiaba/mutirao-fiscal-segue-em-cuiaba-com-descontos-de-ate-95-em-juros-e-multas/",
+      "summary": "Receita da Sorte distribuirá 70 premiações especiais entre os dias 6 e 12 de junho para consumidores que incluírem o CPF na nota fiscal",
+      "details": "Receita da Sorte distribuirá 70 premiações especiais entre os dias 6 e 12 de junho para consumidores que incluírem o CPF na nota fiscal",
+      "url": "https://www.cliccamaqua.com.br/noticias/economia/nota-fiscal-gaucha-premios-extras-dia-dos-namorados-cpf-na-nota/",
       "source": "EXCLUSIVO NEWS",
       "category": "macro",
       "tags": [
@@ -398,14 +556,15 @@
       "publishedAt": "2026-06-07T13:32:38Z",
       "updatedAt": "2026-06-07T13:32:38Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.cliccamaqua.com.br/wp-content/uploads/2026/06/nota-fiscal-gaucha-premios-extras-dia-dos-namorados-cpf-na-nota.jpg?v=07.06.15.29.09"
     },
     {
       "id": "macro-a364dc67687493a7b207a66e",
       "title": "Nota Fiscal Gaúcha terá prêmios extras de R$ 1 mil na semana do Dia dos Namorados",
-      "summary": "Descubra como participar da Money Week e aproveite oportunidades financeiras incríveis. Confira os dados do evento.",
-      "details": "Descubra como participar da Money Week e aproveite oportunidades financeiras incríveis. Confira os dados do evento.",
-      "url": "https://euqueroinvestir.com/economia/money-week-2026-em-numeros-como-o-evento-conquistou-os-investidores",
+      "summary": "Mutirão Fiscal segue em Cuiabá com descontos de até 95% em juros e multas",
+      "details": "Mutirão Fiscal segue em Cuiabá com descontos de até 95% em juros e multas",
+      "url": "https://exclusivonews.com.br/cidades/cuiaba/mutirao-fiscal-segue-em-cuiaba-com-descontos-de-ate-95-em-juros-e-multas/",
       "source": "Clic Camaquã",
       "category": "macro",
       "tags": [
@@ -416,14 +575,15 @@
       "publishedAt": "2026-06-07T13:30:00Z",
       "updatedAt": "2026-06-07T13:30:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://exclusivonews.com.br/wp-content/uploads/2026/06/950941cd5408a590fd6a084823a7de03.jpeg"
     },
     {
       "id": "funds-ca512f29da35e079b1837132",
       "title": "Money Week 2026 em números: como o evento conquistou os investidores",
-      "summary": "Receita da Sorte distribuirá 70 premiações especiais entre os dias 6 e 12 de junho para consumidores que incluírem o CPF na nota fiscal",
-      "details": "Receita da Sorte distribuirá 70 premiações especiais entre os dias 6 e 12 de junho para consumidores que incluírem o CPF na nota fiscal",
-      "url": "https://www.cliccamaqua.com.br/noticias/economia/nota-fiscal-gaucha-premios-extras-dia-dos-namorados-cpf-na-nota/",
+      "summary": "Descubra como participar da Money Week e aproveite oportunidades financeiras incríveis. Confira os dados do evento.",
+      "details": "Descubra como participar da Money Week e aproveite oportunidades financeiras incríveis. Confira os dados do evento.",
+      "url": "https://euqueroinvestir.com/economia/money-week-2026-em-numeros-como-o-evento-conquistou-os-investidores",
       "source": "EuQueroInvestir",
       "category": "funds",
       "tags": [
@@ -434,8 +594,7 @@
       "publishedAt": "2026-06-07T13:15:25Z",
       "updatedAt": "2026-06-07T13:15:25Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://www.cliccamaqua.com.br/wp-content/uploads/2026/06/nota-fiscal-gaucha-premios-extras-dia-dos-namorados-cpf-na-nota.jpg?v=07.06.16.43.34"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "macro-89caa40b18cf037c6f5e3f4e",
@@ -459,9 +618,9 @@
     {
       "id": "latest-ce0879e48bcf98d90157be70",
       "title": "Pressão fiscal e inflação elevam expectativa por pausa no corte de juros pelo Banco Central",
-      "summary": "Economistas afirmam que PEC do Banco Central amplia influência do mercado financeiro e favorece juros elevados",
-      "details": "Economistas afirmam que PEC do Banco Central amplia influência do mercado financeiro e favorece juros elevados",
-      "url": "https://imirante.com/noticias/brasil/amp/2026/06/07/ipolitica-pec-do-banco-central-pode-facilitar-cooptacao-dizem-economistas",
+      "summary": "Semana movimentada para o Ibovespa tem Focus, IPCA, CPI dos EUA e decisão do BCE no radar, além de indicadores da China e dados globais.",
+      "details": "Semana movimentada para o Ibovespa tem Focus, IPCA, CPI dos EUA e decisão do BCE no radar, além de indicadores da China e dados globais.",
+      "url": "https://www.moneytimes.com.br/agenda-ipca-no-brasil-inflacao-nso-eua-e-juros-na-zona-do-euro-mexem-com-a-semana-confira/",
       "source": "São Bento em Foco",
       "category": "latest",
       "tags": [
@@ -473,14 +632,14 @@
       "updatedAt": "2026-06-07T13:07:59Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://imagens.imirante.com.br/imagens/noticias/2022/12/05/1TdC2GfU3BxHK6iK8ng2wjgK7Qfl1pG8rrDSFOUa.jpg?w=896&h=448&crop=1170%2C+585%2C+0%2C+57.5&fit=crop&s=9042d78f5742ad38ccd9e64a2e4f2b48"
+      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/02/inflacao.jpg"
     },
     {
       "id": "macro-7854830d9f85cdda2687776c",
       "title": "2º Seminário Regional de Boas Práticas em Educação Fiscal e Nota Fiscal Gaúcha ocorre em Pinheiro Machado",
-      "summary": "Semana movimentada para o Ibovespa tem Focus, IPCA, CPI dos EUA e decisão do BCE no radar, além de indicadores da China e dados globais.",
-      "details": "Semana movimentada para o Ibovespa tem Focus, IPCA, CPI dos EUA e decisão do BCE no radar, além de indicadores da China e dados globais.",
-      "url": "https://www.moneytimes.com.br/agenda-ipca-no-brasil-inflacao-nso-eua-e-juros-na-zona-do-euro-mexem-com-a-semana-confira/",
+      "summary": "Atualizacao de macro capturada em Jornal Tradição Regional.",
+      "details": "",
+      "url": "https://www.jornaltradicao.com.br/pinheiro-machado/geral/2o-seminario-regional-de-boas-praticas-em-educacao-fiscal-e-nota-fiscal-gaucha-ocorre-em-pinheiro-machado/",
       "source": "Jornal Tradição Regional",
       "category": "macro",
       "tags": [
@@ -491,8 +650,7 @@
       "publishedAt": "2026-06-07T12:59:26Z",
       "updatedAt": "2026-06-07T12:59:26Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/02/inflacao.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-20eaf469a587d0150f824ba9",
@@ -516,9 +674,9 @@
     {
       "id": "macro-bbf2fbc6a4480f64aa252219",
       "title": "STJ debate honorários por equidade após exclusão da execução fiscal",
-      "summary": "Atualizacao de macro capturada em Consultor Jurídico.",
-      "details": "",
-      "url": "https://www.jornaltradicao.com.br/pinheiro-machado/geral/2o-seminario-regional-de-boas-praticas-em-educacao-fiscal-e-nota-fiscal-gaucha-ocorre-em-pinheiro-machado/",
+      "summary": "STJ debate se a decisão de excluir do polo passivo de uma execução fiscal afasta a fixação de honorários de sucumbência por equidade.",
+      "details": "STJ debate se a decisão de excluir do polo passivo de uma execução fiscal afasta a fixação de honorários de sucumbência por equidade.",
+      "url": "https://www.conjur.com.br/2026-jun-07/stj-debate-honorarios-por-equidade-apos-exclusao-da-execucao-fiscal/",
       "source": "Consultor Jurídico",
       "category": "macro",
       "tags": [
@@ -529,14 +687,15 @@
       "publishedAt": "2026-06-07T12:45:00Z",
       "updatedAt": "2026-06-07T12:45:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.conjur.com.br/wp-content/uploads/2024/10/54070445964_9e66534c2a_k.jpg"
     },
     {
       "id": "funds-1dad96810616c0b5a796b03b",
       "title": "Patria prepara consolidação de FIIs e mira R$ 38 bilhões em ativos sob gestão",
-      "summary": "Da exclusividade do Daytona SP3 à influência histórica do F40, estes são os dez modelos que mais contribuíram para a lenda da Ferrari.",
-      "details": "Da exclusividade do Daytona SP3 à influência histórica do F40, estes são os dez modelos que mais contribuíram para a lenda da Ferrari.",
-      "url": "https://www.turbo.pt/os-dez-melhores-ferrari-de-sempre/",
+      "summary": "Ação especial do Receita da Sorte vai contemplar 70 consumidores entre os dias 6 e 12 de junho; saiba como participar",
+      "details": "Ação especial do Receita da Sorte vai contemplar 70 consumidores entre os dias 6 e 12 de junho; saiba como participar",
+      "url": "https://www.terra.com.br/economia/nota-fiscal-gaucha-distribui-premios-diarios-de-r-1-mil-na-semana-dos-namorados,d7ab5fefef894ffadf755a29d31172f37t524yrc.html",
       "source": "kondzilla.com",
       "category": "funds",
       "tags": [
@@ -548,14 +707,14 @@
       "updatedAt": "2026-06-07T12:44:39Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://asset.skoiy.com/tbowjqdgqpxirbte/b9zpv2hrvjhx.jpg"
+      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/06/07/1432838396-nota-fiscal-gaucha.jpg"
     },
     {
       "id": "funds-405798663b22b557a62aed56",
       "title": "Os dez melhores Ferrari de sempre",
-      "summary": "STJ debate se a decisão de excluir do polo passivo de uma execução fiscal afasta a fixação de honorários de sucumbência por equidade.",
-      "details": "STJ debate se a decisão de excluir do polo passivo de uma execução fiscal afasta a fixação de honorários de sucumbência por equidade.",
-      "url": "https://www.conjur.com.br/2026-jun-07/stj-debate-honorarios-por-equidade-apos-exclusao-da-execucao-fiscal/",
+      "summary": "Da exclusividade do Daytona SP3 à influência histórica do F40, estes são os dez modelos que mais contribuíram para a lenda da Ferrari.",
+      "details": "Da exclusividade do Daytona SP3 à influência histórica do F40, estes são os dez modelos que mais contribuíram para a lenda da Ferrari.",
+      "url": "https://www.turbo.pt/os-dez-melhores-ferrari-de-sempre/",
       "source": "turbo.pt",
       "category": "funds",
       "tags": [
@@ -567,14 +726,14 @@
       "updatedAt": "2026-06-07T12:36:17Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://www.conjur.com.br/wp-content/uploads/2024/10/54070445964_9e66534c2a_k.jpg"
+      "imageUrl": "https://asset.skoiy.com/tbowjqdgqpxirbte/b9zpv2hrvjhx.jpg"
     },
     {
       "id": "macro-3a4d17edda413efb93232e2b",
       "title": "Gasto fiscal e inflação devem fazer BC parar corte dos juros, diz Srour",
-      "summary": "Analista aponta que mercados já precificam a possibilidade de um comunicado mais duro na próxima reunião do Copom",
-      "details": "Analista aponta que mercados já precificam a possibilidade de um comunicado mais duro na próxima reunião do Copom",
-      "url": "https://www.cnnbrasil.com.br/economia/gasto-fiscal-e-inflacao-devem-fazer-bc-parar-corte-dos-juros-diz-srour/",
+      "summary": "Economistas afirmam que PEC do Banco Central amplia influência do mercado financeiro e favorece juros elevados",
+      "details": "Economistas afirmam que PEC do Banco Central amplia influência do mercado financeiro e favorece juros elevados",
+      "url": "https://imirante.com/noticias/brasil/amp/2026/06/07/ipolitica-pec-do-banco-central-pode-facilitar-cooptacao-dizem-economistas",
       "source": "CNN Brasil",
       "category": "macro",
       "tags": [
@@ -586,14 +745,14 @@
       "updatedAt": "2026-06-07T12:30:48Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2025binary_LYNXNPEL9C0GW-BASEIMAGE-e1773673988774.jpg?w=800&h=451&crop=1"
+      "imageUrl": "https://imagens.imirante.com.br/imagens/noticias/2022/12/05/1TdC2GfU3BxHK6iK8ng2wjgK7Qfl1pG8rrDSFOUa.jpg?w=896&h=448&crop=1170%2C+585%2C+0%2C+57.5&fit=crop&s=9042d78f5742ad38ccd9e64a2e4f2b48"
     },
     {
       "id": "funds-ad9aa4023fe8f36eb6ccb804",
       "title": "Fundos imobiliários: por que FIIs gigantes são a tendência",
-      "summary": "Gestora prevê consolidar 30 fundos em seis estratégias multibilionárias de FIIs, destacando a tendência dos fundos imobiliarios.",
-      "details": "Gestora prevê consolidar 30 fundos em seis estratégias multibilionárias de FIIs, destacando a tendência dos fundos imobiliarios.",
-      "url": "https://investnews.com.br/negocios/fundos-imobiliarios-estrategia-patria/amp/",
+      "summary": "Analista aponta que mercados já precificam a possibilidade de um comunicado mais duro na próxima reunião do Copom",
+      "details": "Analista aponta que mercados já precificam a possibilidade de um comunicado mais duro na próxima reunião do Copom",
+      "url": "https://www.cnnbrasil.com.br/economia/gasto-fiscal-e-inflacao-devem-fazer-bc-parar-corte-dos-juros-diz-srour/",
       "source": "InvestNews",
       "category": "funds",
       "tags": [
@@ -605,14 +764,14 @@
       "updatedAt": "2026-06-07T12:30:28Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://media.investnews.com.br/uploads/2025/07/IN_Ilustra_Fundos_Imobiliarios-1200x630.webp"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2025binary_LYNXNPEL9C0GW-BASEIMAGE-e1773673988774.jpg?w=800&h=451&crop=1"
     },
     {
       "id": "macro-6d4c615be57b0c490b00bc32",
       "title": "Nota Fiscal Gaúcha distribui prêmios diários de R$ 1 mil na semana dos namorados",
-      "summary": "Ação especial do Receita da Sorte vai contemplar 70 consumidores entre os dias 6 e 12 de junho; saiba como participar",
-      "details": "Ação especial do Receita da Sorte vai contemplar 70 consumidores entre os dias 6 e 12 de junho; saiba como participar",
-      "url": "https://www.terra.com.br/economia/nota-fiscal-gaucha-distribui-premios-diarios-de-r-1-mil-na-semana-dos-namorados,d7ab5fefef894ffadf755a29d31172f37t524yrc.html",
+      "summary": "Gestora prevê consolidar 30 fundos em seis estratégias multibilionárias de FIIs, destacando a tendência dos fundos imobiliarios.",
+      "details": "Gestora prevê consolidar 30 fundos em seis estratégias multibilionárias de FIIs, destacando a tendência dos fundos imobiliarios.",
+      "url": "https://investnews.com.br/negocios/fundos-imobiliarios-estrategia-patria/amp/",
       "source": "Terra",
       "category": "macro",
       "tags": [
@@ -624,14 +783,14 @@
       "updatedAt": "2026-06-07T12:04:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/06/07/1432838396-nota-fiscal-gaucha.jpg"
+      "imageUrl": "https://media.investnews.com.br/uploads/2025/07/IN_Ilustra_Fundos_Imobiliarios-1200x630.webp"
     },
     {
       "id": "macro-3ec4bf0430ed999b97003217",
       "title": "Incentivo fiscal reduz ISS da saúde e fortalece setor em Rio Preto",
-      "summary": "Benefício válido por cinco anos diminui carga efetiva do imposto para clínicas, hospitais e laboratórios, estimulando investimentos e geração de empregos A partir deste mês, clínicas, hospitais e laboratórios de São José do Rio Preto passam a contar com uma redução na carga efeti",
-      "details": "Benefício válido por cinco anos diminui carga efetiva do imposto para clínicas, hospitais e laboratórios, estimulando investimentos e geração de empregos A partir deste mês, clínicas, hospitais e laboratórios de São José do Rio Preto passam a contar com uma redução na carga efetiva do Imposto Sobre Serviços (ISS). A me",
-      "url": "https://jornaldhoje.com.br/noticia/incentivo-fiscal-reduz-iss-da-sa%C3%BAde-e-fortalece-setor-em-rio-preto",
+      "summary": "Atualizacao de macro capturada em Dhoje Interior.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNWNzaVgteWNXYUZfVTdYc3BnYlAyZlY3UkJvVGlSZmpVSkdsZklKamdTZkVPQnFUOHdGT0htbFFITEl2RzQtZ1VVTG1wR01BbW92eDB0VlZqeklRdE96SDViVHl6b0IzQ1VFVDhvUlltb2tBYXF1OEpxb2Q1c0wyenRqbjlZUEtidFVEU2NCWTV5RVBaNlJ4OUQ4QzhWa0hMS2hWU3hFa0t1UQ?oc=5",
       "source": "Dhoje Interior",
       "category": "macro",
       "tags": [
@@ -642,15 +801,14 @@
       "publishedAt": "2026-06-07T11:53:00Z",
       "updatedAt": "2026-06-07T11:53:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://4ce126b636f8efb7a62a6f9ac5ec7301.cdn.bubble.io/cdn-cgi/image/w=,h=,f=auto,dpr=1,fit=contain/f1780504306528x160152549776634300/vik%20%28326%20de%20363%29.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-33660e6860e2b8741c78867d",
       "title": "PEC 65: Economistas Alertam sobre Autonomia do Banco Central",
-      "summary": "A Câmara dos Deputados aprovou a Proposta de Emenda à Constituição (PEC) 5/2023, que amplia a imunidade tributária atualmente garantida",
-      "details": "A Câmara dos Deputados aprovou a Proposta de Emenda à Constituição (PEC) 5/2023, que amplia a imunidade tributária atualmente garantida",
-      "url": "https://diariodocomercio.com.br/mix/alem-de-igrejas-outras-organizacoes-tambem-serao-livres-de-impostos-no-brasil/",
+      "summary": "Atualizacao de ultima hora capturada em diário do estado.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObm5rN2hpdUJrMmZrWFR4elp5WXVudXQwdlFQNTRFX3Y2NTU3aTJwMFJxRGgxN2JUZ1JmTGZfSUViV0J3UEJGRnlxRUxiQk1nbGctN2NnWFVOc1IyWFh2WVVwcE96emVNaGVCSXc3RUQ3TExETzZpUDFMaFZjV0NiVjVyVnB5SThZSTRGZElZT0pHekFFZ1RN?oc=5",
       "source": "diário do estado",
       "category": "latest",
       "tags": [
@@ -661,34 +819,14 @@
       "publishedAt": "2026-06-07T11:46:41Z",
       "updatedAt": "2026-06-07T11:46:41Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://diariodocomercio.com.br/mix/wp-content/uploads/2026/06/1_20200728152329670670a-3319403.webp"
-    },
-    {
-      "id": "macro-144a56c31cc4663de4384395",
-      "title": "Além de igrejas outras organizações também serão livres de impostos no Brasil",
-      "summary": "A realidade de uma empresa endividada nunca foi tão preocupante no Brasil. Clique aqui e veja mais informações.",
-      "details": "A realidade de uma empresa endividada nunca foi tão preocupante no Brasil. Clique aqui e veja mais informações.",
-      "url": "https://mercadohoje.uai.com.br/2026/06/07/empresa-endividada-brasil-bate-recorde-veja-o-que-fazer/amp/",
-      "source": "Diário do Comércio",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-06-07T11:44:00Z",
-      "updatedAt": "2026-06-07T11:44:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://mercadohoje.uai.com.br/wp-content/uploads/2026/06/empresa-endividada-brasil-bate-recorde-veja-o-que-fazer-scaled.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-073cc3a967c827f1bbe7de0e",
       "title": "Empresa endividada. Brasil bate recorde. Veja o que fazer",
-      "summary": "- Grupo A Hora",
-      "details": "- Grupo A Hora",
-      "url": "https://grupoahora.net.br/conteudos/2026/06/07/o-que-ainda-esperar-de-2026/",
+      "summary": "Atualizacao de ultima hora capturada em Portal UAI.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeGFQZk5yUUFCYVduaF9aekx2VGNoZUdwLVNiNjRKVmxIUzVibFd5QS1QMm1JQUJhWURMeVJDT2dyNko4bkdLUkZIeF9rZHlZZ3ZTUGUyZk5tMTg5VXZvd1VDTXk1ODItZnQzcTY4UHJqRFdZbG9uNDBpMmR3cVRyRXdnVmpFVEhlVzlFbnFPMHYtR2RPYzc5ZWpDWmo4QTd3c1FqVw?oc=5",
       "source": "Portal UAI",
       "category": "latest",
       "tags": [
@@ -699,34 +837,14 @@
       "publishedAt": "2026-06-07T11:34:25Z",
       "updatedAt": "2026-06-07T11:34:25Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://cdn-images.grupoahora.net.br/2026/06/FOTO-COLUNA-ROHSIG.jpg"
-    },
-    {
-      "id": "macro-649a1368fe80d7f35482b23e",
-      "title": "O que ainda esperar de 2026?",
-      "summary": "O GymFitness, espaço fundado por Cecília Sousa, em Várzea do Douro (Alpendorada, Várzea e Torrão) assinalou, a 6 de junho, na Quinta de Santo António, duas décadas com uma gala que reuniu alunos/ex-alunos, familiares e amigos que ajudaram a construir aquele que é um espaço de ref",
-      "details": "O GymFitness, espaço fundado por Cecília Sousa, em Várzea do Douro (Alpendorada, Várzea e Torrão) assinalou, a 6 de junho, na Quinta de Santo António, duas décadas com uma gala que reuniu alunos/ex-alunos, familiares e amigos que ajudaram a construir aquele que é um espaço de referência no desporto, dança e bem-estar.",
-      "url": "https://averdade.com/917555443/gymfitness-celebrou-20-anos-a-transformar-vidas-quero-continuar-a-deixar-uma-marca-positiva-nas-pessoas/",
-      "source": "Grupo A Hora",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-06-07T11:33:00Z",
-      "updatedAt": "2026-06-07T11:33:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://asset.skoiy.com/averl1d84frvz2zb/qpew4fv7wzsp.jpeg?crop=1548,871,0,170"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "funds-b6c052ae04b7df996d962026",
       "title": "GymFitness celebrou 20 anos a transformar vidas: \"Quero continuar a deixar uma marca positiva nas pessoas\"",
-      "summary": "Vídeo mostra Júlia Zanatta classificando a inflação como “estratosférica”, mas sem conseguir informar o índice ao ser questionada",
-      "details": "Vídeo mostra Júlia Zanatta classificando a inflação como “estratosférica”, mas sem conseguir informar o índice ao ser questionada",
-      "url": "https://www.diariodocentrodomundo.com.br/julia-zanatta-chama-inflacao-de-estratosferica-e-passa-vexame-ao-nao-saber-o-indice/",
+      "summary": "Atualizacao de fundos capturada em averdade.com.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONGZnbnp0dG53OGU4MFY0WmxDMUk0azdtdE1OWVkxNjNPaDlZYjlyZE4zOHdlYmV0SXZaOUhkYmRRc3hrRkZnVmVZX0I0d1NCcXI3UnpGMHZJUlpqU01fWmZPVjNjNGw2ZVRMUzFLSlBCcS00TlNxNWNjOVc2VjlWUmlwZHR4cEJ0NUlrSW5ISGVzSmxhazBhd3EzV3hJOU1ibUpTSV9OalR0YXp0VjI1bVAwaFp3VFFKamxkZ2doMXRVLWlXcjQ1Y3FaM1czYnlT?oc=5",
       "source": "averdade.com",
       "category": "funds",
       "tags": [
@@ -737,46 +855,7 @@
       "publishedAt": "2026-06-07T11:29:06Z",
       "updatedAt": "2026-06-07T11:29:06Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/06/captura-de-tela-2026-06-07-as-08-06-19.png"
-    },
-    {
-      "id": "macro-1617498f5ee7a479be2580fd",
-      "title": "Júlia Zanatta chama inflação de “estratosférica” e passa vexame ao não saber o índice",
-      "summary": "Manifesto de economistas critica PEC que pode perpetuar juros altos.",
-      "details": "Manifesto de economistas critica PEC que pode perpetuar juros altos.",
-      "url": "https://diariodoestadogo.com.br/pec-65-economistas-alertam-sobre-autonomia-do-banco-central/",
-      "source": "Diário do Centro do Mundo",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-06-07T11:24:00Z",
-      "updatedAt": "2026-06-07T11:24:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/06/pec-653A-economistas-alertam-sobre-autonomia-do-banco-central.jpeg"
-    },
-    {
-      "id": "macro-4e63f9a2f86747a5b553fb7c",
-      "title": "Nota Fiscal Gaúcha terá 70 prêmios extras na semana do Dia dos Namorados; entenda",
-      "summary": "Ação especial vai até o dia 12 de junho e deseja incentivar a inclusão do CPF na nota fiscal",
-      "details": "Ação especial vai até o dia 12 de junho e deseja incentivar a inclusão do CPF na nota fiscal",
-      "url": "https://gauchazh.clicrbs.com.br/economia/noticia/2026/06/nota-fiscal-gaucha-tera-70-premios-extras-na-semana-do-dia-dos-namorados-entenda-cmq3ne77e006r014qw2iejhk1.html",
-      "source": "GZH",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-06-07T11:23:12Z",
-      "updatedAt": "2026-06-07T11:23:12Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.rbsdirect.com.br/filestore/3/1/7/3/0/9/4_9fcdb251b66ec25/4903713_918940ee1cb9d37.jpg?w=1024&h=512&a=c&version=1575255600"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "latest-dc917ef862c87bf4a63d4c20",
@@ -801,7 +880,7 @@
       "title": "PEC facilita cooptação do Banco Central pelo mercado financeiro, diz manifesto de economistas",
       "summary": "Atualizacao de ultima hora capturada em O Dia.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWERZVHJqYUJrUGJRWjRiMzI4eGlPS0hoVFUzS1lwYlVyRjFnUHhPcUhDZllfenp5dndVZU9nekpFcFdQcHBoc2ZJNHV6dkdfRG1OUlZpajZwUEZEenBwTlYzVE1UcEdubHAtNUt2bmx0S3FYVWJpTG15VUxFUzNSZzNxRHotYjNCbkNUNVBfdUN6bFRYMzdXOWdVOXRKOVZGbEZqR240RGdXR2FPdFU0MVBQVDVHeFhLX2ZtMWtqRzhqby1LVkwxdXBmR2t3OGJ6YU5faGRXWENXcXk5QXpfVnZlMNIB4wFBVV95cUxQWERZVHJqYUJrUGJRWjRiMzI4eGlPS0hoVFUzS1lwYlVyRjFnUHhPcUhDZllfenp5dndVZU9nekpFcFdQcHBoc2ZJNHV6dkdfRG1OUlZpajZwUEZEenBwTlYzVE1UcEdubHAtNUt2bmx0S3FYVWJpTG15VUxFUzNSZzNxRHotYjNCbkNUNVBfdUN6bFRYMzdXOWdVOXRKOVZGbEZqR240RGdXR2FPdFU0MVBQVDVHeFhLX2ZtMWtqRzhqby1LVkwxdXBmR2t3OGJ6YU5faGRXWENXcXk5QXpfVnZlMA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZmZ4SmVTeEN0SlZWTm0zbjhhMGliVFJweDZvV2xvTWVmbUhfRDZfa0xhcVZ0Tm5pZzZZRENxUS12Q0lzZDlTTWJKRFkxRUNHYXBMU1hQaFQ4Vld5S1d3WUZTb0xQMnZzZkJTemkwTXQ2T0l4QjVUQVB1a0txSHBqYkUtQnZEN3c5X1pjMkZvYmIwM3pvTU9DSXVDMWw0aDU4TzNuOXl3RUQtY0NvVVRDRWJnRnFUNnhSdnJ0RGdzSHJwODBoM2ItSHpqWVVkd1Z4M2Z4cnh4OTFCc2JKSnfSAeMBQVVfeXFMUFhEWVRyamFCa1BiUVo0YjMyOHhpT0tIaFRVM0tZcGJVckYxZ1B4T3FIQ2ZZX3p6eXZ3VWVPZ3pKRXBXUHBwaHNmSTR1enZHX0RtTlJWaWo2cFBGRHpwcE5WM1RNVHBHbmxwLTVLdm5sdEtxWFViaUxteVVMRVMzUmczcUR6LWIzQm5DVDVQX3VDemxUWDM3VzlnVTl0SjlWRmxGakduNERnV0dhT3RVNDFQUFQ1R3hYS19mbTFrakc4am8tS1ZMMXVwZkdrdzhiemFOX2hkV1hDV3F5OUF6X1Z2ZTA?oc=5",
       "source": "O Dia",
       "category": "latest",
       "tags": [
@@ -995,24 +1074,6 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "latest-67790511ee21876fff4aeccb",
-      "title": "Ibovespa hoje: Ambev (ABEV3) salta 15% após balanço; Braskem (BRKM5) lidera quedas",
-      "summary": "Atualizacao de ultima hora capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUG5CYW8tREF4eFlpQjRLQ09CUlpWX3VhWmhnRi1xUHJNYV9FWjVva3JuSEFsUHkxdHFvM3ItM19ON2FMMHpRMUdoWk9VLWRzRFBNN2h6cWhkSXVoMU5vdWc3OGRhZFV6aUdsaHRrVlR5RWNoRENKY2VSUGlKYUR4ay0yNEpkX05RUkV0b2JwWlIxSWtLeEszOUJwenV5U2FOWXJPTGpYSnFEQXdyeVRWWnNCRGpUOEtON1hlalZTZ2NQTmIz0gHKAUFVX3lxTE16VDgtTERVaklkRGJnY05TakV1OVJWX1pwZWZHLWY4WXRXZ0hUeF9OalBEZENTRUtwRVhfYmxIX0tZT051QjN5ZGNQZkNKdnVWWWViRFZvNXRBZXBKWDNmUHRSeGNlQlVFbWZBSGphcnVTd2doUkw0VHQ3Z1E4XzV5V1J5bXc4QVhXTTFnZEhqakppdFEyaHE4bU1DajI2aURMYmh5Snl1VURLNDRlN181bjFCU0FiQzFtejcxRHktTlhLSkxSSmNMUEE?oc=5",
-      "source": "Estadão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-07T03:55:29Z",
-      "updatedAt": "2026-06-07T03:55:29Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "latest-1c83b331a4708aa1630063e0",
       "title": "ECB atua como líder hawk do G7 e prepara alta de juros",
       "summary": "Atualizacao de ultima hora capturada em Portal Tela.",
@@ -1173,24 +1234,6 @@
       "updatedAt": "2026-06-06T22:16:08Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "latest-f6b1bb639ef75e0464f87687",
-      "title": "Depois do Banco Master, a fiscalização do mercado financeiro vai ficar mais rígida?",
-      "summary": "Atualizacao de ultima hora capturada em Times Brasil | CNBC.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYTY4MkVFNkwwOEp1UFZ4NHhBamVSZWhOdWxYZTlWZ0FNbVoyUHRhaUQwelU2MGJvWXlVck8xWVlBUHdnQTZBUHRxc2JOQ0huRk5zYXhKZUIyUjNrblJnb2VQN2NOemxsdEt4aHZTUlRfelhkUURvWUxlU09lcTBPQkl3eGVOQm1TLUw2N1E4bVpoOXRpT1lWak55SjJxamlWMU9yNVZlM200Tzh2MG9WUU5WclpuOW8?oc=5",
-      "source": "Times Brasil | CNBC",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-06T22:00:00Z",
-      "updatedAt": "2026-06-06T22:00:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-4000b755ee331704c22b674d",
@@ -1387,42 +1430,6 @@
       ],
       "publishedAt": "2026-06-06T13:30:11Z",
       "updatedAt": "2026-06-06T13:30:11Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-5530d19a337f1329a5e028ec",
-      "title": "Novo tarifaço de Trump acende alerta e empresas brasileiras enfrentam dificuldade para encontrar novos compradores",
-      "summary": "Atualizacao de empresas capturada em JETSS.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQTlF6RGJXT1FFajN6dVhGTzZXSVpMUWFuUk9MdVhybDJyQzNvM3RFTkFvRWdQb1duQ3ZWT2NOWUpVVGlvSHhLZk9QaEZ5VjRleXh3NGxPU1J3TFNkYmpTMVdnT21QSFpsa2ZEVC1yZHVnb1dDUFZUQ3pIenU0N0FHTDhWSk5xZVZYR0pzZ2NKMWVsVlZKdDJTR3NyTW5RX3Jfb2tRcVZmdUJiejNyZ0hnU3RkQ1dYbVlHV19PSUhjX1cxWHpFT0dmOWM2VXZmWU90amNLWndWa2VZSDdtclpsZGJObXoxUQ?oc=5",
-      "source": "JETSS",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-06-06T13:01:56Z",
-      "updatedAt": "2026-06-06T13:01:56Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "funds-87b020b0a195147f781b6d43",
-      "title": "SNAG11 eleva aposta em irrigação e reforça proteção climática",
-      "summary": "Atualizacao de fundos capturada em suno.com.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tUl9vOTBBTzE2akZBbFpETEx5UW81RVRqUjQ3ZVluMGg0WFY1ajlodXpIeF9NMXF3X0pSX1JlODl3YjlKRm5ha3VSMEJFOUZTb3FIUHJvZ0d2bkREY25wS2JWcEIxLUZRb2swT3Q2blVmUXAyd0ZkSUEyWFp4TnPSAX9BVV95cUxPbVJfbzkwQU8xNmpGQWxaRExMeVFvNUVUalI0N2VZbjBoNFhWNWo5aHV6SHhfTTFxd19KUl9SZTg5d2I5SkZuYWt1UjBCRTlGU29xSFByb2dHdm5ERGNucEtiVnBCMS1GUW9rME90Nm5VZlFwMndGZElBMlhaeE5z?oc=5",
-      "source": "suno.com.br",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-06-06T12:45:06Z",
-      "updatedAt": "2026-06-06T12:45:06Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     }
