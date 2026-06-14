@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-14T22:36:21Z",
-  "generatedAt": "2026-06-14T22:36:21Z",
+  "updatedAt": "2026-06-14T23:50:05Z",
+  "generatedAt": "2026-06-14T23:50:05Z",
   "categories": [
     {
       "id": "all",
@@ -81,8 +81,16 @@
       "label": "Estadão"
     },
     {
+      "id": "estad-o-blue-studio",
+      "label": "Estadão Blue Studio"
+    },
+    {
       "id": "gazeta-news-guarulhos",
       "label": "Gazeta News Guarulhos"
+    },
+    {
+      "id": "infomoney",
+      "label": "InfoMoney"
     },
     {
       "id": "inmagazine",
@@ -93,6 +101,10 @@
       "label": "Inteligência Brasil Imprensa"
     },
     {
+      "id": "isto-dinheiro",
+      "label": "ISTOÉ DINHEIRO"
+    },
+    {
       "id": "jornal-dci",
       "label": "Jornal DCI"
     },
@@ -101,8 +113,8 @@
       "label": "Jornal do Comércio"
     },
     {
-      "id": "jornal-primeira-p-gina",
-      "label": "Jornal Primeira Página"
+      "id": "jornal-impresso-brasil",
+      "label": "Jornal Impresso Brasil"
     },
     {
       "id": "live-mkt-news",
@@ -117,8 +129,8 @@
       "label": "novojornal.com.br"
     },
     {
-      "id": "o-tempo",
-      "label": "O TEMPO"
+      "id": "o-seringal",
+      "label": "O Seringal"
     },
     {
       "id": "obusilis-com-br",
@@ -141,8 +153,8 @@
       "label": "Regional Paulista"
     },
     {
-      "id": "revista-empreende",
-      "label": "Revista Empreende"
+      "id": "remessa-online",
+      "label": "Remessa Online"
     },
     {
       "id": "revista-sociedade-militar",
@@ -151,6 +163,10 @@
     {
       "id": "ric-com-br",
       "label": "Ric.com.br"
+    },
+    {
+      "id": "r-dio-gua-ba",
+      "label": "Rádio Guaíba"
     },
     {
       "id": "segundabase-com-br",
@@ -163,6 +179,10 @@
     {
       "id": "spacemoney",
       "label": "SpaceMoney"
+    },
+    {
+      "id": "times-brasil-cnbc",
+      "label": "Times Brasil | CNBC"
     },
     {
       "id": "tradenews-com-br",
@@ -193,10 +213,6 @@
       "label": "Vero Notícias"
     },
     {
-      "id": "vgnoticias-com-br",
-      "label": "vgnoticias.com.br"
-    },
-    {
       "id": "vietnam-vn",
       "label": "Vietnam.vn"
     },
@@ -215,11 +231,87 @@
   ],
   "items": [
     {
-      "id": "macro-0c891f27667b639f941bd8f6",
-      "title": "Gabrielli defende equilíbrio fiscal com crescimento econômico",
+      "id": "macro-fb8baaa3fd46db4da4040c75",
+      "title": "Grupo Livres defende mecanismo fiscal inspirado no shutdown dos Estados Unidos",
+      "summary": "Acordo entre Reino Unido e Japão promete investimentos de R$ 113 bilhões em infraestrutura e energia.",
+      "details": "Acordo entre Reino Unido e Japão promete investimentos de R$ 113 bilhões em infraestrutura e energia.",
+      "url": "https://diariodoestadogo.com.br/reino-unido-e-japao-firmam-acordo-de-r-113-bilhoes/",
+      "source": "novojornal.com.br",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-14T23:31:22Z",
+      "updatedAt": "2026-06-14T23:31:22Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/06/reino-unido-e-japao-firmam-acordo-de-r24-113-bilhoes.png"
+    },
+    {
+      "id": "latest-8cfe92026fcf5d0977d208f6",
+      "title": "Mercado já enxerga fim da queda dos juros e revisa apostas antes da Superquarta",
+      "summary": "Portal de notícias e análises de economia, negócios, finanças, tecnologia e investimentos",
+      "details": "Portal de notícias e análises de economia, negócios, finanças, tecnologia e investimentos",
+      "url": "https://istoedinheiro.com.br/mais-um-corte-de-025-ponto-ou-selic-inalterada-o-que-esperar-para-o-copom-desta-semana",
+      "source": "Times Brasil | CNBC",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-14T23:30:00Z",
+      "updatedAt": "2026-06-14T23:30:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://istoedinheiro.com.br/wp-content/uploads/sites/17/2023/10/selic-2-e1697459661478.jpg"
+    },
+    {
+      "id": "macro-5ae9d4a073489ebd31295e3c",
+      "title": "Mais um corte de 0,25 ponto ou Selic inalterada? O que esperar para o Copom desta semana",
       "summary": "Segundo ele, a estabilidade da dívida pública é importante, mas sem comprometer investimentos e a atividade econômica.",
       "details": "Segundo ele, a estabilidade da dívida pública é importante, mas sem comprometer investimentos e a atividade econômica.",
       "url": "https://veronoticias.com/politica/gabrielli-defende-equilibrio-fiscal-com-crescimento-economico/",
+      "source": "ISTOÉ DINHEIRO",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-14T22:39:03Z",
+      "updatedAt": "2026-06-14T22:39:03Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://veronoticias.com/wp-content/uploads/2024/08/915436-petobras_gabrielli__senado_1.webp"
+    },
+    {
+      "id": "latest-d105101a153eb208684a01c4",
+      "title": "Reino Unido e Japão firmam acordo de R$ 113 bilhões",
+      "summary": "A próxima Superquarta (17) terá contornos mais dramáticos, principalmente após a divulgação do payroll, o relatório de emprego dos Estados Unidos",
+      "details": "A próxima Superquarta (17) terá contornos mais dramáticos, principalmente após a divulgação do payroll, o relatório de emprego dos Estados Unidos",
+      "url": "https://timesbrasil.com.br/colunas/mercado-ja-enxerga-fim-da-queda-dos-juros-e-revisa-apostas-antes-da-superquarta/",
+      "source": "Diário do Estado",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-14T22:36:12Z",
+      "updatedAt": "2026-06-14T22:36:12Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2024/11/pexels-rdne-7580844-scaled.jpg"
+    },
+    {
+      "id": "macro-0c891f27667b639f941bd8f6",
+      "title": "Gabrielli defende equilíbrio fiscal com crescimento econômico",
+      "summary": "O grupo liberal Livres apresentou em seu Caderno de Políticas Públicas de 2026 uma proposta que prevê a paralisação parcial de gastos públicos quando o",
+      "details": "O grupo liberal Livres apresentou em seu Caderno de Políticas Públicas de 2026 uma proposta que prevê a paralisação parcial de gastos públicos quando o",
+      "url": "https://www.novojornal.com.br/grupo-livres-defende-mecanismo-fiscal-inspirado-no-shutdown-dos-estados-unidos/",
       "source": "Vero Notícias",
       "category": "macro",
       "tags": [
@@ -231,13 +323,13 @@
       "updatedAt": "2026-06-14T22:20:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://veronoticias.com/wp-content/uploads/2024/08/915436-petobras_gabrielli__senado_1.webp"
+      "imageUrl": "https://www.novojornal.com.br/wp-content/uploads/2026/06/Grupo-Livres-defende-mecanismo-fiscal-inspirado-no-shutdown-dos-Estados-Unidos-1024x576.jpg"
     },
     {
       "id": "macro-367409481126ba6584e068bf",
       "title": "Fiscal ambiental é agredido durante notificação em Beltrão",
-      "summary": "Atualizacao de macro capturada em Diário do Sudoeste.",
-      "details": "",
+      "summary": "Fiscal da Secretaria de Meio Ambiente de Francisco Beltrão sofreu fratura no nariz após agressão durante entrega de notificação.",
+      "details": "Fiscal da Secretaria de Meio Ambiente de Francisco Beltrão sofreu fratura no nariz após agressão durante entrega de notificação.",
       "url": "https://www.diariodosudoeste.com.br/fiscal-ambiental-e-agredido-durante-notificacao-em-beltrao/",
       "source": "Diário do Sudoeste",
       "category": "macro",
@@ -249,14 +341,15 @@
       "publishedAt": "2026-06-14T22:15:27Z",
       "updatedAt": "2026-06-14T22:15:27Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://diariodosudoeste.com.br/wp-content/uploads/2026/06/descarte-irregular-de-eletronicos.webp"
     },
     {
       "id": "latest-30ff56e1b2821701a2fdf9e6",
       "title": "Agenda econômica da semana tem decisão da Selic e juros nos EUA",
-      "summary": "Com forte demanda dos investidores, a spacex de musk ultrapassa enorme valor de mercado e entra para o grupo das maiores empresas dos EUA",
-      "details": "Com forte demanda dos investidores, a spacex de musk ultrapassa enorme valor de mercado e entra para o grupo das maiores empresas dos EUA",
-      "url": "https://inmagazine.ig.com.br/noticias/elon-spacex-ultrapassa-nasdaq",
+      "summary": "Semana econômica tem decisão da Selic pelo Copom, reunião do Fed nos EUA e indicadores de inflação, varejo e atividade no Brasil e exterior.",
+      "details": "Semana econômica tem decisão da Selic pelo Copom, reunião do Fed nos EUA e indicadores de inflação, varejo e atividade no Brasil e exterior.",
+      "url": "https://www.dci.com.br/economia/agenda-economica-da-semana-tem-decisao-da-selic-e-juros-nos-eua/",
       "source": "Jornal DCI",
       "category": "latest",
       "tags": [
@@ -268,14 +361,33 @@
       "updatedAt": "2026-06-14T22:14:57Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://inmagazine.ig.com.br/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-04-at-18.05.31-convert.io_.webp"
+      "imageUrl": "https://www.dci.com.br/wp-content/uploads/2026/06/Agenda-economica-da-semana-Copom-Fed-e-Selic-movimentam-os-mercados-1600x900.jpg"
+    },
+    {
+      "id": "funds-60c36a51e28ca0aba0dbd107",
+      "title": "BMW antecipa futuro do M3 com protótipo elétrico com quatro motores",
+      "summary": "A BMW apresentou o M Concept Neue Klasse, protótipo que antecipa o futuro M3 elétrico com quatro motores, bateria de 100 kWh e arquitetura 800V.",
+      "details": "A BMW apresentou o M Concept Neue Klasse, protótipo que antecipa o futuro M3 elétrico com quatro motores, bateria de 100 kWh e arquitetura 800V.",
+      "url": "https://www.turbo.pt/bmw-antecipa-futuro-do-m3-com-prototipo-eletrico/",
+      "source": "turbo.pt",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-06-14T21:54:34Z",
+      "updatedAt": "2026-06-14T21:54:34Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://asset.skoiy.com/tbowjqdgqpxirbte/pt64k4jj1sdu.jpg"
     },
     {
       "id": "companies-f938d8a5869ac60684a2d080",
       "title": "Metade das empresas ainda usa IA no improviso e perde potencial da tecnologia, aponta pesquisa",
-      "summary": "Semana econômica tem decisão da Selic pelo Copom, reunião do Fed nos EUA e indicadores de inflação, varejo e atividade no Brasil e exterior.",
-      "details": "Semana econômica tem decisão da Selic pelo Copom, reunião do Fed nos EUA e indicadores de inflação, varejo e atividade no Brasil e exterior.",
-      "url": "https://www.dci.com.br/economia/agenda-economica-da-semana-tem-decisao-da-selic-e-juros-nos-eua/",
+      "summary": "Levantamento revela que apenas 8% das companhias brasileiras atingiram estágio avançado de adoção da inteligência artificial; desafio está menos na ferramenta e mais na estrutura de dados...",
+      "details": "Levantamento revela que apenas 8% das companhias brasileiras atingiram estágio avançado de adoção da inteligência artificial; desafio está menos na ferramenta e mais na estrutura de dados...",
+      "url": "https://ancora1.com/noticias/metade-das-empresas-ainda-usa-ia-no-improviso-e-perde-potencial-da-tecnologia-aponta-pesquisa",
       "source": "Âncora 1",
       "category": "companies",
       "tags": [
@@ -287,7 +399,7 @@
       "updatedAt": "2026-06-14T21:41:59Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://www.dci.com.br/wp-content/uploads/2026/06/Agenda-economica-da-semana-Copom-Fed-e-Selic-movimentam-os-mercados-1600x900.jpg"
+      "imageUrl": "https://ancora1.com/site/views/_data/news/metade-das-empresas-ainda-usa-ia-no-improviso-e-perde-potencial-da-tecnologia-aponta-pesquisa-1781284212.png"
     },
     {
       "id": "macro-12a89597307451ea3d182a69",
@@ -309,30 +421,30 @@
       "imageUrl": "https://veronoticias.com/wp-content/uploads/2025/05/banco_central_economia_0413202008.webp"
     },
     {
-      "id": "companies-3780cbc55e0ce656d50d85fa",
-      "title": "Marcas brasileiras em Nova York buscam mais vendas com Mundial",
-      "summary": "Mundial gera mais fluxo de brasileiros para marcas com unidades em Nova York",
-      "details": "Mundial gera mais fluxo de brasileiros para marcas com unidades em Nova York",
-      "url": "https://www.jornaldocomercio.com/cadernos/empresas-e-negocios/2026/06/1251814-marcas-brasileiras-em-nova-york-buscam-mais-vendas-com-mundial.html",
-      "source": "Jornal do Comércio",
-      "category": "companies",
+      "id": "macro-ee4d0e53a5fc737eb56717be",
+      "title": "Compromisso é não deixar que pauta-bomba prejudique país, diz Durigan",
+      "summary": "JIB - O seu jornal impresso e portal de Notícias",
+      "details": "JIB - O seu jornal impresso e portal de Notícias",
+      "url": "https://jornalimpressobrasil.com.br/compromisso-e-nao-deixar-que-pauta-bomba-prejudique-pais-diz-durigan/",
+      "source": "Jornal Impresso Brasil",
+      "category": "macro",
       "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
+        "macro",
+        "juros",
+        "inflacao"
       ],
-      "publishedAt": "2026-06-14T21:22:30Z",
-      "updatedAt": "2026-06-14T21:22:30Z",
+      "publishedAt": "2026-06-14T21:40:00Z",
+      "updatedAt": "2026-06-14T21:40:00Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://www.jornaldocomercio.com/_midias/jpg/2026/06/11/600x800/1_minuto_varejo_copa_do_mundo_2026_berimbau_nova_york_jornal_do_comercio-11887293.jpeg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://jornalimpressobrasil.com.br/wp-content/uploads/2026/05/Durigan-cancela-viagem-a-Russia-apos-fechamento-de-aeroporto.jpg"
     },
     {
       "id": "macro-4ac5c940438e9a6d965e4fb4",
       "title": "Neo-excepcionalismo americano",
-      "summary": "O fluxo de volta para os EUA e bancos centrais na encruzilhada em nova super quarta.",
-      "details": "O fluxo de volta para os EUA e bancos centrais na encruzilhada em nova super quarta.",
-      "url": "https://www.tradenews.com.br/p/neo-excepcionalismo-americano",
+      "summary": "Mundial gera mais fluxo de brasileiros para marcas com unidades em Nova York",
+      "details": "Mundial gera mais fluxo de brasileiros para marcas com unidades em Nova York",
+      "url": "https://www.jornaldocomercio.com/cadernos/empresas-e-negocios/2026/06/1251814-marcas-brasileiras-em-nova-york-buscam-mais-vendas-com-mundial.html",
       "source": "tradenews.com.br",
       "category": "macro",
       "tags": [
@@ -344,14 +456,14 @@
       "updatedAt": "2026-06-14T21:17:16Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://substackcdn.com/image/fetch/$s_!fx7b!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57028c17-df25-4a4a-9250-6680be8166ee_1185x662.png"
+      "imageUrl": "https://www.jornaldocomercio.com/_midias/jpg/2026/06/11/600x800/1_minuto_varejo_copa_do_mundo_2026_berimbau_nova_york_jornal_do_comercio-11887293.jpeg"
     },
     {
       "id": "macro-6aeae75451c5ba2d76b48a9f",
       "title": "Comissão da Câmara aprova projeto que concede incentivo fiscal a startups inovadoras",
-      "summary": "A Comissão de Indústria, Comércio e Serviços da Câmara dos Deputados aprovou o Projeto de Lei Complementar (PLP) 236/24, que prevê a concessão de isenção do Impost...",
-      "details": "A Comissão de Indústria, Comércio e Serviços da Câmara dos Deputados aprovou o Projeto de Lei Complementar (PLP) 236/24, que prevê a concessão de isenção do Impost...",
-      "url": "https://bznoticias.com.br/noticia/comissao-da-camara-aprova-projeto-que-concede-incentivo-fiscal-a-startups-inovadoras",
+      "summary": "O fluxo de volta para os EUA e bancos centrais na encruzilhada em nova super quarta.",
+      "details": "O fluxo de volta para os EUA e bancos centrais na encruzilhada em nova super quarta.",
+      "url": "https://www.tradenews.com.br/p/neo-excepcionalismo-americano",
       "source": "educacao.rr.gov.br",
       "category": "macro",
       "tags": [
@@ -363,14 +475,33 @@
       "updatedAt": "2026-06-14T21:11:57Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!fx7b!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57028c17-df25-4a4a-9250-6680be8166ee_1185x662.png"
+    },
+    {
+      "id": "companies-d481fe3e65f32c077771e3e3",
+      "title": "Marcas brasileiras em Nova York buscam mais vendas com Mundial",
+      "summary": "A Comissão de Indústria, Comércio e Serviços da Câmara dos Deputados aprovou o Projeto de Lei Complementar (PLP) 236/24, que prevê a concessão de isenção do Impost...",
+      "details": "A Comissão de Indústria, Comércio e Serviços da Câmara dos Deputados aprovou o Projeto de Lei Complementar (PLP) 236/24, que prevê a concessão de isenção do Impost...",
+      "url": "https://bznoticias.com.br/noticia/comissao-da-camara-aprova-projeto-que-concede-incentivo-fiscal-a-startups-inovadoras",
+      "source": "Jornal do Comércio",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-06-14T21:11:44Z",
+      "updatedAt": "2026-06-14T21:11:44Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
       "imageUrl": "https://bznoticias.com.br/uploads/imagem_2026_06_14_123548649.png"
     },
     {
       "id": "latest-6908b221798384cb488c710a",
       "title": "SpaceX ultrapassa US$ 2 trilhões após estreia histórica no Nasdaq",
-      "summary": "Fed, Copom, Banco do Japão e Inglaterra decidem juros nesta semana. Acompanhe a agenda completa e os impactos nos mercados globais na SpaceMoney",
-      "details": "Fed, Copom, Banco do Japão e Inglaterra decidem juros nesta semana. Acompanhe a agenda completa e os impactos nos mercados globais na SpaceMoney",
-      "url": "https://www.spacemoney.com.br/investimentos/decisoes-de-juros-nos-eua-e-brasil-marcam-a-semana/",
+      "summary": "Com forte demanda dos investidores, a spacex de musk ultrapassa enorme valor de mercado e entra para o grupo das maiores empresas dos EUA",
+      "details": "Com forte demanda dos investidores, a spacex de musk ultrapassa enorme valor de mercado e entra para o grupo das maiores empresas dos EUA",
+      "url": "https://inmagazine.ig.com.br/noticias/elon-spacex-ultrapassa-nasdaq",
       "source": "InMagazine",
       "category": "latest",
       "tags": [
@@ -382,14 +513,14 @@
       "updatedAt": "2026-06-14T21:11:05Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/06/pexels-photo-12960362-18.jpg"
+      "imageUrl": "https://inmagazine.ig.com.br/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-04-at-18.05.31-convert.io_.webp"
     },
     {
       "id": "latest-6f16949e9af869609b21a9f3",
       "title": "Decisões de juros nos EUA e Brasil marcam a semana",
-      "summary": "Levantamento revela que apenas 8% das companhias brasileiras atingiram estágio avançado de adoção da inteligência artificial; desafio está menos na ferramenta e mais na estrutura de dados...",
-      "details": "Levantamento revela que apenas 8% das companhias brasileiras atingiram estágio avançado de adoção da inteligência artificial; desafio está menos na ferramenta e mais na estrutura de dados...",
-      "url": "https://ancora1.com/noticias/metade-das-empresas-ainda-usa-ia-no-improviso-e-perde-potencial-da-tecnologia-aponta-pesquisa",
+      "summary": "Fed, Copom, Banco do Japão e Inglaterra decidem juros nesta semana. Acompanhe a agenda completa e os impactos nos mercados globais na SpaceMoney",
+      "details": "Fed, Copom, Banco do Japão e Inglaterra decidem juros nesta semana. Acompanhe a agenda completa e os impactos nos mercados globais na SpaceMoney",
+      "url": "https://www.spacemoney.com.br/investimentos/decisoes-de-juros-nos-eua-e-brasil-marcam-a-semana/",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -401,7 +532,7 @@
       "updatedAt": "2026-06-14T21:10:40Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://ancora1.com/site/views/_data/news/metade-das-empresas-ainda-usa-ia-no-improviso-e-perde-potencial-da-tecnologia-aponta-pesquisa-1781284212.png"
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/06/pexels-photo-12960362-18.jpg"
     },
     {
       "id": "latest-69adfdda0afc6d94b15a53f2",
@@ -425,9 +556,9 @@
     {
       "id": "latest-efc23c3d5c428d768dd707bc",
       "title": "Petróleo (US Oil): momento de baixa até US$76,81",
-      "summary": "Agenda econômica da semana traz decisões de juros do Fed e Copom, além de dados de inflação, varejo, emprego e atividade global.",
-      "details": "Agenda econômica da semana traz decisões de juros do Fed e Copom, além de dados de inflação, varejo, emprego e atividade global.",
-      "url": "https://bpmoney.com.br/economia/agenda-economica-da-semana-fed-copom-selic-e-decisoes-de-juros-movimentam-mercados/",
+      "summary": "O rompimento do suporte de um triângulo Simétrico pode criar um potencial momento de baixa do petróleo até 76,81",
+      "details": "O rompimento do suporte de um triângulo Simétrico pode criar um potencial momento de baixa do petróleo até 76,81",
+      "url": "https://ric.com.br/economia/petroleo-usoil-momento-baixa-ate-us7681/",
       "source": "Ric.com.br",
       "category": "latest",
       "tags": [
@@ -439,14 +570,14 @@
       "updatedAt": "2026-06-14T21:06:47Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://bpmoney.com.br/wp-content/uploads/2024/11/uhJ1NGpM-NOTAS-3-1536x864.webp"
+      "imageUrl": "https://uploads.ric.com.br/uploads/2026/06/20260614-petroleo-canva-750x436.png"
     },
     {
       "id": "latest-b02e74e5028b609563715f11",
       "title": "Copom e Fed: as expectativas para a superquarta",
-      "summary": "Acompanhe a análise completa das decisões de política monetária do Copom e do Fed na superquarta de 17 de junho, com projeções e impactos para os mercados",
-      "details": "Acompanhe a análise completa das decisões de política monetária do Copom e do Fed na superquarta de 17 de junho, com projeções e impactos para os mercados",
-      "url": "https://www.spacemoney.com.br/investimentos/superquarta-copom-fed-junho-2026/",
+      "summary": "Agenda econômica da semana traz decisões de juros do Fed e Copom, além de dados de inflação, varejo, emprego e atividade global.",
+      "details": "Agenda econômica da semana traz decisões de juros do Fed e Copom, além de dados de inflação, varejo, emprego e atividade global.",
+      "url": "https://bpmoney.com.br/economia/agenda-economica-da-semana-fed-copom-selic-e-decisoes-de-juros-movimentam-mercados/",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -458,14 +589,14 @@
       "updatedAt": "2026-06-14T21:00:06Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/06/pexels-photo-10149617-3.jpg"
+      "imageUrl": "https://bpmoney.com.br/wp-content/uploads/2024/11/uhJ1NGpM-NOTAS-3-1536x864.webp"
     },
     {
       "id": "macro-a1276da39212e04f0ed6f431",
       "title": "Agenda econômica da semana: Fed, Copom, Selic e decisões de juros movimentam mercados",
-      "summary": "Atualizacao de macro capturada em BPMoney.",
-      "details": "",
-      "url": "https://www.vgnoticias.com.br/vgnjur/prefeitura-de-vg-pede-bloqueio-de-contas-de-ex-secretario-por-divida-de-r-393-mil-de-iptu/147546",
+      "summary": "Acompanhe a análise completa das decisões de política monetária do Copom e do Fed na superquarta de 17 de junho, com projeções e impactos para os mercados",
+      "details": "Acompanhe a análise completa das decisões de política monetária do Copom e do Fed na superquarta de 17 de junho, com projeções e impactos para os mercados",
+      "url": "https://www.spacemoney.com.br/investimentos/superquarta-copom-fed-junho-2026/",
       "source": "BPMoney",
       "category": "macro",
       "tags": [
@@ -476,52 +607,15 @@
       "publishedAt": "2026-06-14T21:00:00Z",
       "updatedAt": "2026-06-14T21:00:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-fd32ae886195052c2edbc2d8",
-      "title": "Prefeitura de VG pede bloqueio de contas de ex-secretário por dívida de R$ 393 mil de IPTU",
-      "summary": "A Ford Courier foi lan&ccedil;ada no Brasil em agosto de 1997 para ampliar a fam&iacute;lia do Fiesta, que at&eacute; ent&atilde;o contava com as vers&otilde;es",
-      "details": "A Ford Courier foi lan&ccedil;ada no Brasil em agosto de 1997 para ampliar a fam&iacute;lia do Fiesta, que at&eacute; ent&atilde;o contava com as vers&otilde;es",
-      "url": "https://canaltech.com.br/carros/quanto-custaria-uma-ford-courier-hoje-com-a-inflacao/",
-      "source": "vgnoticias.com.br",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-06-14T21:00:00Z",
-      "updatedAt": "2026-06-14T21:00:00Z",
-      "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://t.ctcdn.com.br/u0tllRwNO-lZCcoAODsBwy4Dlnc=/1200x675/smart/i1132283.jpeg"
-    },
-    {
-      "id": "macro-077d75cb3ed5639520033a2f",
-      "title": "Loteria Federal: números e resultados | Loterias",
-      "summary": "Ibovespa interrompe sequência de 8 quedas semanais. Análise técnica aponta níveis críticos para confirmar fundo ou repique.",
-      "details": "Ibovespa interrompe sequência de 8 quedas semanais. Análise técnica aponta níveis críticos para confirmar fundo ou repique.",
-      "url": "https://www.spacemoney.com.br/investimentos/ibovespa-apos-8-semanas-de-queda-fundo-ou-repique-tecnico/",
-      "source": "Estadão",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-06-14T20:59:21Z",
-      "updatedAt": "2026-06-14T20:59:21Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/06/pexels-photo-6120177-4.jpg"
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/06/pexels-photo-10149617-3.jpg"
     },
     {
       "id": "latest-6dedc01656eccd04a598a5cb",
       "title": "Ibovespa interrompe sequência de quedas: fundo ou repique?",
-      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
-      "details": "",
-      "url": "https://acionista.com.br/renda-fixa-novo-cenario-da-selic-muda-alocacao-da-xp-e-itau-bba/",
+      "summary": "Balança comercial 2026: superávit de US$ 24,9 bi, com exportações a US$ 97,9 bi (+10,6%). Veja a análise completa do comércio exterior brasileiro.",
+      "details": "Balança comercial 2026: superávit de US$ 24,9 bi, com exportações a US$ 97,9 bi (+10,6%). Veja a análise completa do comércio exterior brasileiro.",
+      "url": "https://www.remessaonline.com.br/blog/balanca-comercial-2026/",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -532,7 +626,27 @@
       "publishedAt": "2026-06-14T20:59:17Z",
       "updatedAt": "2026-06-14T20:59:17Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.remessaonline.com.br/blog/wp-content/uploads/2026/06/balanca-comercial-brasil-2026.jpg"
+    },
+    {
+      "id": "companies-a96f07a0862ea3a4240ab594",
+      "title": "Balança comercial do Brasil 2026: superávit de US$ 24,9 bi",
+      "summary": "Ibovespa interrompe sequência de 8 quedas semanais. Análise técnica aponta níveis críticos para confirmar fundo ou repique.",
+      "details": "Ibovespa interrompe sequência de 8 quedas semanais. Análise técnica aponta níveis críticos para confirmar fundo ou repique.",
+      "url": "https://www.spacemoney.com.br/investimentos/ibovespa-apos-8-semanas-de-queda-fundo-ou-repique-tecnico/",
+      "source": "Remessa Online",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-06-14T20:14:32Z",
+      "updatedAt": "2026-06-14T20:14:32Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/06/pexels-photo-6120177-4.jpg"
     },
     {
       "id": "macro-3d54479315fe27889785ede1",
@@ -556,9 +670,9 @@
     {
       "id": "macro-b538360544529e22d6b714b3",
       "title": "Renda fixa: novo cenário da Selic muda alocação da XP e Itaú BBA",
-      "summary": "O rompimento do suporte de um triângulo Simétrico pode criar um potencial momento de baixa do petróleo até 76,81",
-      "details": "O rompimento do suporte de um triângulo Simétrico pode criar um potencial momento de baixa do petróleo até 76,81",
-      "url": "https://ric.com.br/economia/petroleo-usoil-momento-baixa-ate-us7681/",
+      "summary": "Atualizacao de macro capturada em Acionista.com.br.",
+      "details": "",
+      "url": "https://acionista.com.br/renda-fixa-novo-cenario-da-selic-muda-alocacao-da-xp-e-itau-bba/",
       "source": "Acionista.com.br",
       "category": "macro",
       "tags": [
@@ -569,15 +683,14 @@
       "publishedAt": "2026-06-14T20:04:57Z",
       "updatedAt": "2026-06-14T20:04:57Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://uploads.ric.com.br/uploads/2026/06/20260614-petroleo-canva-750x436.png"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "funds-ac94e08fc3a0f247a005a3dc",
       "title": "Bombeiros de Lousada celebram 100 anos com duas novas viaturas e pacote de apoios",
-      "summary": "Veja os últimos resultados, sorteios, ganhadores e notícias sobre a Loteria Federal e outros concursos de Loterias no Estadão.",
-      "details": "Veja os últimos resultados, sorteios, ganhadores e notícias sobre a Loteria Federal e outros concursos de Loterias no Estadão.",
-      "url": "https://www.estadao.com.br/loterias/federal/",
+      "summary": "A ideia de que esse é um problema do governo é simplória; o descontrole reflete a forma contraditória que escolhemos para nos organizarmos como sociedade",
+      "details": "A ideia de que esse é um problema do governo é simplória; o descontrole reflete a forma contraditória que escolhemos para nos organizarmos como sociedade",
+      "url": "https://www.estadao.com.br/economia/luis-eduardo-assis/desenrola-brasil-ha-razoavel-consenso-de-que-trava-ao-desenvolvimento-esta-nas-contas-publicas/",
       "source": "averdade.com",
       "category": "funds",
       "tags": [
@@ -589,14 +702,14 @@
       "updatedAt": "2026-06-14T20:04:36Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://assets.estadao.com.br/image/logo-estadao16-9.png"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/T3ERCF2YLZLJZGIFQHH4NSHCZE.png?quality=80&auth=04b3cf753481c6a5c20c7b14851be9519cc152682392981d1c347873079bf8ee&width=1200&height=630&focal=1048,955"
     },
     {
       "id": "funds-958f9ac85f582e8a21d5349f",
       "title": "Cinfães a Correr conquista título distrital por equipas no Caramulo Magic Trail",
-      "summary": "A Associação Cinfães a Correr sagrou-se Campeã Distrital por Equipas no Caramulo Magic Trail, em Tondela, onde Carlos Carneiro também conquistou o título distrital individual de trail.",
-      "details": "A Associação Cinfães a Correr sagrou-se Campeã Distrital por Equipas no Caramulo Magic Trail, em Tondela, onde Carlos Carneiro também conquistou o título distrital individual de trail.",
-      "url": "https://averdade.com/3211948806/cinfaes-a-correr-conquista-titulo-distrital-por-equipas-no-caramulo-magic-trail/",
+      "summary": "A Ford Courier foi lan&ccedil;ada no Brasil em agosto de 1997 para ampliar a fam&iacute;lia do Fiesta, que at&eacute; ent&atilde;o contava com as vers&otilde;es",
+      "details": "A Ford Courier foi lan&ccedil;ada no Brasil em agosto de 1997 para ampliar a fam&iacute;lia do Fiesta, que at&eacute; ent&atilde;o contava com as vers&otilde;es",
+      "url": "https://canaltech.com.br/carros/quanto-custaria-uma-ford-courier-hoje-com-a-inflacao/",
       "source": "averdade.com",
       "category": "funds",
       "tags": [
@@ -608,14 +721,33 @@
       "updatedAt": "2026-06-14T20:04:36Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://t.ctcdn.com.br/u0tllRwNO-lZCcoAODsBwy4Dlnc=/1200x675/smart/i1132283.jpeg"
+    },
+    {
+      "id": "macro-4096c137075656dce404f43d",
+      "title": "Notícias Ao Vivo do Brasil e do Mundo",
+      "summary": "A Associação Cinfães a Correr sagrou-se Campeã Distrital por Equipas no Caramulo Magic Trail, em Tondela, onde Carlos Carneiro também conquistou o título distrital individual de trail.",
+      "details": "A Associação Cinfães a Correr sagrou-se Campeã Distrital por Equipas no Caramulo Magic Trail, em Tondela, onde Carlos Carneiro também conquistou o título distrital individual de trail.",
+      "url": "https://averdade.com/3211948806/cinfaes-a-correr-conquista-titulo-distrital-por-equipas-no-caramulo-magic-trail/",
+      "source": "CNN Brasil",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-14T20:00:59Z",
+      "updatedAt": "2026-06-14T20:00:59Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
       "imageUrl": "https://asset.skoiy.com/averl1d84frvz2zb/4ejkmffbdzez.jpg?crop=843,474,0,393"
     },
     {
       "id": "macro-8edd4a1e8d739b1e0bc98fe7",
       "title": "Desenrola, Brasil: há razoável consenso de que trava ao desenvolvimento está nas contas públicas",
-      "summary": "Assim como no Brasil e nos Estados Unidos, os bancos centrais da Inglaterra e do Japão também vão decidir sobre as taxas de juros nas duas regiões",
-      "details": "Assim como no Brasil e nos Estados Unidos, os bancos centrais da Inglaterra e do Japão também vão decidir sobre as taxas de juros nas duas regiões",
-      "url": "https://www.seudinheiro.com/2026/economia/super-quarta-previa-do-pib-do-brasil-e-cupula-do-g7-agitam-a-semana-confira-a-agenda-economica-davs/",
+      "summary": "Aod Cunha, colunista do CNN Money, afirma que aprovação do projeto sem discutir produtividade pode elevar custos e pressionar a inflação no Brasil",
+      "details": "Aod Cunha, colunista do CNN Money, afirma que aprovação do projeto sem discutir produtividade pode elevar custos e pressionar a inflação no Brasil",
+      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/analise-economia-nao-esta-em-bom-momento-para-absorver-atual-pec-da-6x1/",
       "source": "Estadão",
       "category": "macro",
       "tags": [
@@ -627,14 +759,32 @@
       "updatedAt": "2026-06-14T20:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.seudinheiro.com/uploads/2022/07/juros-pronampe.jpg"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/642_41543B8CC9A52AF5-18.jpg?w=1200&h=630&crop=1"
+    },
+    {
+      "id": "macro-e8a7235b69df96fc2fb3f41f",
+      "title": "Calendário econômico da semana: decisões de juros serão foco no Brasil e nos EUA",
+      "summary": "Atualizacao de macro capturada em InfoMoney.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQazJwZWoyeW5UODUtQndRaUNkd2tfQWZINnNOb3BGVjgwVl9uR0sxVnZING5VeFdNdF9HbVhUdU56M3psenlLcjhNTk1HNHk4am43NmlWdkl1MzZTRFB3c0JPZjR3RWU0RDY4RzZlOW90czhJbWN6cXN1N3dzcHVOYUNNbXNzUUNwWjdZWGJGNFE1d1dlYUI2S05PZmdOUnZ2anFDRWxyc2hyTE0wYi1FRVU1akNWWXVHaWfSAb8BQVVfeXFMTUNEYkFIU1QyenV4TXV1Q1NxSjB2eEY2SDJxaDVpNkJPd2JCVjFQa3R4TEpXYlJ2RWF4dnRFY08yczMzUlJJNGowSXVyaWhzZk1kOUx2dFZlZFh5Vlg1RERlMnV0STI2aHVQZDRFOS1oWU9hQUcyMG1xMzRZWlFXQVFhWVRwZVpkVG1LQl9TUjVwZ2IyU2JQSXFDWTJPQjBZTmx6OXZMRVh5NjJjLXp2M2xSNGJnS29NMUdsZTdiY2c?oc=5",
+      "source": "InfoMoney",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-14T20:00:00Z",
+      "updatedAt": "2026-06-14T20:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-9efb5ee52d1c73e9fa0807c3",
       "title": "Fiscal Não Pode Se Opor Ao Crescimento, Diz Coordenador Do Plano De Lula",
-      "summary": "A ideia de que esse é um problema do governo é simplória; o descontrole reflete a forma contraditória que escolhemos para nos organizarmos como sociedade",
-      "details": "A ideia de que esse é um problema do governo é simplória; o descontrole reflete a forma contraditória que escolhemos para nos organizarmos como sociedade",
-      "url": "https://www.estadao.com.br/economia/luis-eduardo-assis/desenrola-brasil-ha-razoavel-consenso-de-que-trava-ao-desenvolvimento-esta-nas-contas-publicas/",
+      "summary": "Atualizacao de macro capturada em Gazeta News Guarulhos.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZUUzYXMzRzBkWkNiZmU1ZlFYWG4xclJfc0VpZFV6UUZRbnFjTUdiQm52U1VpeWVrVzRSQTBfNndmVzhSRDB0eXBZcTdWeGd6c05zOEJETlVBYTQxdVJWX1dCQkdpQmFyWmFKQ3pjUU95aENfSDk2SkVLakx2a28ybGlNOGFQTXlhQV82SFYzazB3SXlrY0lydDF6UnlCX1ZWTmVNQllQcDYtZGM?oc=5",
       "source": "Gazeta News Guarulhos",
       "category": "macro",
       "tags": [
@@ -645,15 +795,14 @@
       "publishedAt": "2026-06-14T19:59:19Z",
       "updatedAt": "2026-06-14T19:59:19Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/T3ERCF2YLZLJZGIFQHH4NSHCZE.png?quality=80&auth=04b3cf753481c6a5c20c7b14851be9519cc152682392981d1c347873079bf8ee&width=1200&height=630&focal=1048,955"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-50597cade458f849352855eb",
       "title": "Comitê de Política Monetária deve decidir taxa Selic na próxima semana",
-      "summary": "Em entrevista à CNN, Sergio Gabrielli, que comandou Petrobras em governos petistas, detalha diretrizes para programa do presidente para disputar reeleição",
-      "details": "Em entrevista à CNN, Sergio Gabrielli, que comandou Petrobras em governos petistas, detalha diretrizes para programa do presidente para disputar reeleição",
-      "url": "https://gazetanewsguarulhos.com.br/fiscal-nao-pode-se-opor-ao-crescimento-diz-coordenador-do-plano-de-lula/",
+      "summary": "Atualizacao de ultima hora capturada em Diário do Estado.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNN2QxZGo2YnRTbVhDMGZuMkxyTHV1b2Y1YkhZeDM5dzBKWnkzbVZmeXBZZDVSUGhieXRSTjdOSUN4R2tMelVwcFRRWVhwckV0a01iUUQ0OGU3VzhEZWg1el9ZRlI4S0pDc1F0REJGVlY2aGJVay1fSjFYUDBoVS1uQVctRFh5R2tWX1ZRQkt6Z3ZKenFWWjAzRjdSbVJFU2xBellwLUlR?oc=5",
       "source": "Diário do Estado",
       "category": "latest",
       "tags": [
@@ -664,15 +813,14 @@
       "publishedAt": "2026-06-14T19:46:34Z",
       "updatedAt": "2026-06-14T19:46:34Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://media.gazetanewsguarulhos.com.br/wp-content/uploads/2025/06/28001539/Imagem-do-WhatsApp-de-2025-05-04-as-17.06.19_da55f0c4.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-eab7359300f1e8d16e9dd4da",
       "title": "Super Quarta, prévia do PIB do Brasil e cúpula do G7 agitam a semana; confira a agenda econômica",
-      "summary": "Investidores aguardam definição do Copom sobre Selic em meio a pressão inflacionária.",
-      "details": "Investidores aguardam definição do Copom sobre Selic em meio a pressão inflacionária.",
-      "url": "https://diariodoestadogo.com.br/comite-de-politica-monetaria-deve-decidir-taxa-selic-na-proxima-semana/",
+      "summary": "Atualizacao de ultima hora capturada em Seu Dinheiro.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOU2Q2OHFQX2hvd0ZxSV9YWlkwd2VhVksxemZ6eGF0UDZVRDM5djR4TDFkOTdKTGZIRWRMWXp6YXVLQ2xFNEV1SUozQWFOZFpZX2s1NGQtbWlKeUlJSUdRLUdKcGwzcGRfYmZDNk52blc3RHFWdEZVZlFXdGNCM1NISkpUbEhveXpoVGxsT25UTkgwRkUtMFY4NG1xY25YenIycUtUalBMY25kOWtxZFdnQnZCZzl5c1Q4RmNuQk00eE1HUXdxNWUtWXFkcE1EYzJaNjlMYWhxaXk4UQ?oc=5",
       "source": "Seu Dinheiro",
       "category": "latest",
       "tags": [
@@ -683,53 +831,32 @@
       "publishedAt": "2026-06-14T19:40:02Z",
       "updatedAt": "2026-06-14T19:40:02Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/06/comite-de-politica-monetaria-deve-decidir-taxa-selic-na-proxima-semana.png"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "macro-5801ee5db6bbbf3c6de2afbf",
-      "title": "Fiscal não pode se opor ao crescimento, diz coordenador do plano de Lula",
-      "summary": "Em entrevista à CNN, Sergio Gabrielli, que comandou Petrobras em governos petistas, detalha diretrizes para programa do presidente para disputar reeleição",
-      "details": "Em entrevista à CNN, Sergio Gabrielli, que comandou Petrobras em governos petistas, detalha diretrizes para programa do presidente para disputar reeleição",
-      "url": "https://www.cnnbrasil.com.br/eleicoes/fiscal-nao-pode-se-opor-ao-crescimento-diz-coordenador-do-plano-de-lula/",
-      "source": "CNN Brasil",
+      "id": "macro-08c7997500b81b9aedf154b8",
+      "title": "Fiscal não pode se opor ao crescimento, diz coordenador do plano de Lula - O SERINGAL",
+      "summary": "Atualizacao de macro capturada em O Seringal.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNTJCRmJBbGlpVzE0c1Y2aERjaXRLeXJPZFVfdU5CazZJZnhtYXIzeEdQZTIzbUpWQXo0a3lvYjN1SWs1dEd2dFdxTlpjMnZRdHYteVJrWXNxTHNLMzk2emdqLWpnNERaaTFLeGlhbmRyU19Vb291VzFGcEhnc0w1QXg5N2w5NXMzbl9HVm1yWWYyTlRORmRscnpONl9JdnA3a0NyV0htcU10ZC1YTWfSAa4BQVVfeXFMTTUyQkZiQWxpaVcxNHNWNmhEY2l0S3lyT2RVX3VOQms2SWZ4bWFyM3hHUGUyM21KVkF6NGt5b2IzdUlrNXRHdnRXcU5aYzJ2UXR2LXlSa1lzcUxzSzM5Nnpnai1qZzREWmkxS3hpYW5kclNfVW9vdVcxRnBIZ3NMNUF4OTdsOTVzM25fR1ZtcllmMk5UTkZkbHJ6TjZfSXZwN2tDcldIbXFNdGQtWE1n?oc=5",
+      "source": "O Seringal",
       "category": "macro",
       "tags": [
         "macro",
         "juros",
         "inflacao"
       ],
-      "publishedAt": "2026-06-14T19:26:12Z",
-      "updatedAt": "2026-06-14T19:26:12Z",
+      "publishedAt": "2026-06-14T19:39:03Z",
+      "updatedAt": "2026-06-14T19:39:03Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/Lucio-Bernardo-Jr-Camara-dos-Deputados.jpg?w=1170&h=630&crop=1"
-    },
-    {
-      "id": "macro-0d4192a2e7fa1ba6ce091aa3",
-      "title": "Inflação sobe em maio impulsionada por alimentos, energia e saúde",
-      "summary": "O Índice Nacional de Preços ao Consumidor Amplo (IPCA), considerado a inflação oficial do país, registrou alta de 0,58% em maio de 2026, segundo dados",
-      "details": "O Índice Nacional de Preços ao Consumidor Amplo (IPCA), considerado a inflação oficial do país, registrou alta de 0,58% em maio de 2026, segundo dados",
-      "url": "https://www.novojornal.com.br/inflacao-sobe-em-maio-impulsionada-por-alimentos-energia-e-saude/",
-      "source": "novojornal.com.br",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-06-14T19:26:04Z",
-      "updatedAt": "2026-06-14T19:26:04Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.novojornal.com.br/wp-content/uploads/2026/06/Inflacao-sobe-em-maio-impulsionada-por-alimentos-energia-e-saude.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-ba392f57936909d8e12d267e",
       "title": "Warsh entre Trump e o mercado de títulos diante de apostas por alta de juros",
-      "summary": "Em apenas três semanas no cargo, o presidente do Federal Reserve, Kevin Warsh, enfrenta um teste de alto risco. a inflação volta a acelerar no ritmo mais ráp...",
-      "details": "Em apenas três semanas no cargo, o presidente do Federal Reserve, Kevin Warsh, enfrenta um teste de alto risco. a inflação volta a acelerar no ritmo mais ráp...",
-      "url": "https://www.portaltela.com/noticias/economia/2026/06/14/warsh-entre-trump-e-o-mercado-de-titulos-diante-de-apostas-por-alta-de-juros/",
+      "summary": "Atualizacao de ultima hora capturada em Portal Tela.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbEprRkNkeEgzcF9sSnY0cm5QX21xbGw4V1hLWllZaHMybDEzaXRqajB2ZW55SG8xOTZwcm1YNGJsMmxScF9vb25PNG5saHpGRENpR1kzQldLb2hIUFlDaUpVT3BLaFo5X050ajBvYl9VQXdtX0lkS2dKNWRLZUhQd3dvZW9yX0xDam9NbENYTlVHNWNXVEZjUmlZVGdiWFVpZGtWai1WeWNrb3Jfb0ZodEh3OHJSem0yaU5SMUNLRHhEcEhXVFNjczZwRmF5Zw?oc=5",
       "source": "Portal Tela",
       "category": "latest",
       "tags": [
@@ -740,26 +867,7 @@
       "publishedAt": "2026-06-14T19:21:53Z",
       "updatedAt": "2026-06-14T19:21:53Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.portaltela.com/s.01k8r8f7wx8pm/2026/06/1x-1-112-1200x630.webp"
-    },
-    {
-      "id": "macro-20867698e2f3e61189cff1ac",
-      "title": "Presidente veta trechos do marco legal do transporte público por risco fiscal",
-      "summary": "Atualizacao de macro capturada em O TEMPO.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY1NtYkhVenRmWW1xOHJ3S1k0RGRNZERYUTJnQ3RFTTcxQVR2YTJNOGlVM09EazYzdWVXSW5TU0F1clBHX0kxellMSm11SXpVMlBrc1ZHRVNDSzBMbERwWmdsdE5XRXgydURWM09MdERzcEl5dHA1azU4ZDE3eVBhalI4MjVLZjJBd0w0R19WNVNQMF9zOHNKS0VDREx6UUZlMkZJX0JHOXpIS1JaelJUTnlXa3JFTjFMc05xNGN0X3hIVXVT?oc=5",
-      "source": "O TEMPO",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-06-14T19:16:30Z",
-      "updatedAt": "2026-06-14T19:16:30Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-a9ed914c0cd0fb2489f403ac",
@@ -778,24 +886,6 @@
       "updatedAt": "2026-06-14T19:06:45Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "macro-7d437d5821146bcb7371c80d",
-      "title": "PIB global sobe a ritmo mais fraco desde a pandemia com guerra no Oriente Médio",
-      "summary": "Atualizacao de macro capturada em Jornal Primeira Página.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS21wVjdCclc2NDR1eE5JUWl0Mm5zRU81Q19IdTg5eUZoMktxTkFjMDQ5TFZyUWNKbEMyaU95OFN0d1Z3cnBSS19CZ0gyUkxRWXdmOHBWbTZSckZWM25DclVoZmxGdzl3bS1CNXBFNVVHVHkzNDlhYVBZdnAyTHkwNXg0MFE1SkJ0VFc5dUVWZnF4aEV3NkNWYmFmZnJwQzh5X0ZSZGUxY1hrNXNpTnZFd1hES1JWdktoQnRnaTVxbw?oc=5",
-      "source": "Jornal Primeira Página",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-06-14T19:03:09Z",
-      "updatedAt": "2026-06-14T19:03:09Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "companies-2440295beba7b672dce37086",
@@ -906,6 +996,24 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
+      "id": "latest-c4839c28d62431f634dd6ff5",
+      "title": "Bem-estar financeiro no centro do debate em encontro realizado em São Paulo",
+      "summary": "Atualizacao de ultima hora capturada em Estadão Blue Studio.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaVh2MDhJTlUzNXJNMnN3MmQ3MGdtS0FPWG1xZzkxRHlCSUxUb1hvN2ZJd3NKcnN1dnhCUzhMZFMtVEFGalJxaHd4QTRHN1FMU0Y5Z2VxV056NDJoeF9QelBYNXVGNnhyd0xRTlNDV0N1WDcweTNuQThKSk8zRjZEUzZYOGdHYndUeUV6anZCOVVrWFlZVTN6YTZKaVlYaXd1T3ZFR0hQcEdhZW5VX0Nn?oc=5",
+      "source": "Estadão Blue Studio",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-14T17:47:41Z",
+      "updatedAt": "2026-06-14T17:47:41Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
       "id": "companies-3aeaf8a9434c0de8057c114f",
       "title": "Brasileiros aceleram corrida imobiliária no Paraguai",
       "summary": "Atualizacao de empresas capturada em VEJA.",
@@ -942,24 +1050,6 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-7512332ac1d37c69079088d6",
-      "title": "Musk atinge US$ 1 trilhão; concentração recorde",
-      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4ZlBPdUZoNU1YVkpfNmJhckN1cDRHeGxKNXdKV0pIWVZIa255dVpkRmlERHBkQTg2cWpaQzRxZVZCSFpmdy1lWjYyMEJVdTF1RWpPMkdjaGNKQmdiVUs2ejgydE9WcTlXS28xUWNVQV90MWNZcmVkNXh2VUF4dw?oc=5",
-      "source": "SpaceMoney",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-14T17:14:25Z",
-      "updatedAt": "2026-06-14T17:14:25Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "funds-54773c85380eb2d2389b48d5",
       "title": "The Economist: Os ricos do mundo estão migrando como nunca; veja os países preferidos",
       "summary": "Atualizacao de fundos capturada em Estadão.",
@@ -976,42 +1066,6 @@
       "updatedAt": "2026-06-14T17:00:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "latest-e3c46a73298c5f7ec656ef82",
-      "title": "Tesouro Direto oferece juros reais de até 8% ao ano; vale a pena?",
-      "summary": "Atualizacao de ultima hora capturada em Acionista.com.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZFdoNXFBM043WF9QN1BFNzZCdG9sM0RBdFRQZXE1U05heVpDN284X2Fzdmg0ZHlLX2dzc2ZOVVZIQkdVMHVEa0VqcG5iM29UM3RXOUlGbU4tZ0Y4S1hLekQxN0tranBtck1ZM2t0QW9pYjNLcmdfUnV5VXRzMEhzQ0VPOXROQU1PazRUclBtM1k0dw?oc=5",
-      "source": "Acionista.com.br",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-14T16:01:47Z",
-      "updatedAt": "2026-06-14T16:01:47Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-7bcde64687d6fed1c6e4c688",
-      "title": "Super Quarta traz decisões de juros no Brasil e EUA",
-      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOR2lZclZFTEc3N0pjMmVqSW1JSzdCeTZvazc1cUxlT0tlQlNMZ1NXU3JKSG1vcXFlYTRSbFVpcVZFdmptU2pIUWdkakJGb2tfamZlTkNYVmliRUhLTWlHbm85WkdaYjJ2aTYzWGNPYnpJQU9VQ3pNQkVfVWhLWUdzd3dRZlIxcHlwb3c?oc=5",
-      "source": "SpaceMoney",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-14T15:31:57Z",
-      "updatedAt": "2026-06-14T15:31:57Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-ef82ae56324758f5031bb20d",
@@ -1082,24 +1136,6 @@
       ],
       "publishedAt": "2026-06-14T13:02:31Z",
       "updatedAt": "2026-06-14T13:02:31Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-039e5d0d3839970a008cc8b3",
-      "title": "Cinema ao ar livre? Sim, acontece em Gondomar e continua durante o verão",
-      "summary": "Atualizacao de fundos capturada em averdade.com.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVlVVNGZBUjY3RXVXTk1QamhqcGtENXFRYzAwLUM3b25vTFVGNnlBcEVjb09feUVaT1FDd1RMR1dNOGZHYlRoMFhuRDM4QlowOVVoeF95a0M3Q0tOQnNaNm51MHlWdnJYMjRKREQ3THBYU2ZCSzhYSFNrQm5GVjhORjVKSHQ0M2ZSTlJna0hxYXNvS0JEWXZ1NE1xNjRuSXdwVjdpNQ?oc=5",
-      "source": "averdade.com",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-06-14T13:00:00Z",
-      "updatedAt": "2026-06-14T13:00:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
@@ -1248,6 +1284,24 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
+      "id": "companies-0b042f5bef22d3d77be5cb5c",
+      "title": "Feira de Hannover inicia hoje com participação de 240 empresas brasileiras",
+      "summary": "Atualizacao de empresas capturada em Rádio Guaíba.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWFVPUmJJbVA0Vi1JQ2swT3duTGJHYnBUQkpzajc1ZjNRWHI4aUxRVHVuTWpQdzhaTFRvc2pGYzc3aVZ1aUJic2pjMmVhWTVxaGdoODBTalgtMWUySzdiVkhBUXNZamxMZVpIX1UtalNkRjJzbXVrVk9sUlFYTnR5RWRhUXp2UHFP?oc=5",
+      "source": "Rádio Guaíba",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-06-14T10:52:59Z",
+      "updatedAt": "2026-06-14T10:52:59Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
       "id": "funds-b98f315af32cbc447c6563c1",
       "title": "Exploring the sustained vigor of the US economy amid widespread international disruptions",
       "summary": "Atualizacao de fundos capturada em Mix Vale.",
@@ -1262,24 +1316,6 @@
       ],
       "publishedAt": "2026-06-14T10:21:57Z",
       "updatedAt": "2026-06-14T10:21:57Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-ddc8dca79f035b0b2f7f649a",
-      "title": "BMW antecipa futuro do M3 com protótipo elétrico com quatro motores",
-      "summary": "Atualizacao de fundos capturada em turbo.pt.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5JNDhvc2drMkptU3VCZGhGbmpZbzhWR3VOUUwtanFGSzRfTnlNanA5YWprTXpXOTM4djJ5Y1BsMFYxa2VUYzkwNWVkRFd6QmZpeE1SQUZVZFRXV3dFMHRUdzdIdElMbVpWMTB4QXpSRmJIanppY0hQR0l3?oc=5",
-      "source": "turbo.pt",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-06-14T10:02:33Z",
-      "updatedAt": "2026-06-14T10:02:33Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
@@ -1372,24 +1408,6 @@
       "updatedAt": "2026-06-14T00:58:48Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-0cd6bcb3b4add369cf396f76",
-      "title": "EUA suspendem modelos avançados de IA da Anthropic dias após lançamento",
-      "summary": "Atualizacao de empresas capturada em Revista Empreende.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcmhPTDB5VnhuVUU3MnRuQXo3bDVlV0dPRHFLZnVTUHRLOU9zOTBvbGxyTGFUaXBzOHZZVF83TF9jTjJ0NGtaRDI5U2trX3dFVE1ocVdZcnEteDdZdkZRdjNCakYyMWZNX2xSX0lRTUNNTEhaZ3lieGEzMnFLUDhmak9RQS1HQQ?oc=5",
-      "source": "Revista Empreende",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-06-14T00:15:00Z",
-      "updatedAt": "2026-06-14T00:15:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     }
   ]
 }
