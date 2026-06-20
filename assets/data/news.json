@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-20T01:30:10Z",
-  "generatedAt": "2026-06-20T01:30:10Z",
+  "updatedAt": "2026-06-20T05:58:14Z",
+  "generatedAt": "2026-06-20T05:58:14Z",
   "categories": [
     {
       "id": "all",
@@ -25,6 +25,14 @@
   ],
   "sources": [
     {
+      "id": "advfn",
+      "label": "ADVFN"
+    },
+    {
+      "id": "balada-in",
+      "label": "Balada IN"
+    },
+    {
       "id": "bora-investir",
       "label": "Bora Investir"
     },
@@ -33,12 +41,16 @@
       "label": "CartaCapital"
     },
     {
+      "id": "cbn",
+      "label": "CBN"
+    },
+    {
       "id": "cear-agora",
       "label": "Ceará Agora"
     },
     {
-      "id": "coinfomania",
-      "label": "Coinfomania"
+      "id": "cnn-brasil",
+      "label": "CNN Brasil"
     },
     {
       "id": "conex-o-mt",
@@ -65,20 +77,28 @@
       "label": "Estadão Blue Studio"
     },
     {
+      "id": "estad-o-mt",
+      "label": "Estadão MT"
+    },
+    {
       "id": "euqueroinvestir",
       "label": "EuQueroInvestir"
     },
     {
-      "id": "funds-society",
-      "label": "Funds Society"
+      "id": "folha-de-s-paulo",
+      "label": "Folha de S.Paulo"
     },
     {
-      "id": "gov-br",
-      "label": "GOV.BR"
+      "id": "folhaestado-com-br",
+      "label": "folhaestado.com.br"
     },
     {
-      "id": "grupo-portal-de-not-cias",
-      "label": "Grupo Portal de Notícias"
+      "id": "g1",
+      "label": "G1"
+    },
+    {
+      "id": "gazeta-do-povo",
+      "label": "Gazeta do Povo"
     },
     {
       "id": "hojemais-com-br",
@@ -89,8 +109,8 @@
       "label": "ICL Notícias"
     },
     {
-      "id": "infomoney",
-      "label": "InfoMoney"
+      "id": "investing-com-brasil-finan-as-c-mbio-e-investimentos",
+      "label": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
     },
     {
       "id": "jornal-do-com-rcio",
@@ -109,8 +129,8 @@
       "label": "Migalhas"
     },
     {
-      "id": "monitor-mercantil",
-      "label": "Monitor Mercantil"
+      "id": "not-cia-e-fatos",
+      "label": "NOTÍCIA E FATOS"
     },
     {
       "id": "o-globo",
@@ -129,16 +149,20 @@
       "label": "OneFootball"
     },
     {
-      "id": "painel-pol-tico",
-      "label": "Painel Político"
+      "id": "portal-correio",
+      "label": "Portal Correio"
+    },
+    {
+      "id": "portal-das-miss-es",
+      "label": "Portal das Missões"
     },
     {
       "id": "radar-digital-bras-lia",
       "label": "RADAR DIGITAL BRASÍLIA"
     },
     {
-      "id": "revista-sociedade-militar",
-      "label": "Revista Sociedade Militar"
+      "id": "seu-dinheiro",
+      "label": "Seu Dinheiro"
     },
     {
       "id": "spacemoney",
@@ -149,12 +173,16 @@
       "label": "suno.com.br"
     },
     {
-      "id": "terra",
-      "label": "Terra"
+      "id": "teles-ntese",
+      "label": "TeleSíntese"
     },
     {
-      "id": "trademap-com-br",
-      "label": "trademap.com.br"
+      "id": "times-brasil-cnbc",
+      "label": "Times Brasil | CNBC"
+    },
+    {
+      "id": "tradingview",
+      "label": "TradingView"
     },
     {
       "id": "tribuna-do-agreste",
@@ -181,8 +209,8 @@
       "label": "Valor Investe"
     },
     {
-      "id": "vietnam-vn",
-      "label": "Vietnam.vn"
+      "id": "www-gov-br",
+      "label": "www.gov.br"
     },
     {
       "id": "ncora-1",
@@ -191,11 +219,237 @@
   ],
   "items": [
     {
+      "id": "macro-f5c2695ed0ff682fd765c815",
+      "title": "Álbum ensina educação fiscal",
+      "summary": "Dados mostram que 81,5% das empresas têm até nove funcionários e quase 79% operam há mais de cinco anos",
+      "details": "Dados mostram que 81,5% das empresas têm até nove funcionários e quase 79% operam há mais de cinco anos",
+      "url": "https://www.estadaomatogrosso.com.br/geral/957-das-empresas-brasileiras-tem-limite-estimado-de-credito-de-ate-r-570-mil/140209",
+      "source": "G1",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-20T04:45:52Z",
+      "updatedAt": "2026-06-20T04:45:52Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://cdn.estadaomatogrosso.com.br/storage/webdisco/2020/04/19/1200x900/d6b694aba36ad23769cf2d3476dfe0f1.jpg"
+    },
+    {
+      "id": "macro-40146f16f8bbc53436fe8fbd",
+      "title": "Vencedores do Nota Fiscal Gaúcha têm até domingo para resgatar prêmios - Notícias - São Luiz Gonzaga",
+      "summary": "Cenário global, com tensões geopolíticas e alta do petróleo, aumentou a inflação e reduziu espaço para cortes de juros",
+      "details": "Cenário global, com tensões geopolíticas e alta do petróleo, aumentou a inflação e reduziu espaço para cortes de juros",
+      "url": "https://timesbrasil.com.br/brasil/economia-brasileira/juros-e-selic/selic-deve-seguir-em-dois-digitos-por-ate-tres-anos/",
+      "source": "Portal das Missões",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-20T03:28:25Z",
+      "updatedAt": "2026-06-20T03:28:25Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/06/347850ad-wudson.webp"
+    },
+    {
+      "id": "macro-2663810d286241990a097a89",
+      "title": "Selic deve seguir em dois dígitos por até três anos",
+      "summary": "Executivas destacam desafios e ganhos em painel da Pagos sobre diversidade e inovação feminina no setor",
+      "details": "Executivas destacam desafios e ganhos em painel da Pagos sobre diversidade e inovação feminina no setor",
+      "url": "https://valor.globo.com/patrocinado/dino/noticia/2026/06/19/mulheres-avancam-e-enfrentam-desafios-no-setor-financeiro-1.ghtml",
+      "source": "Times Brasil | CNBC",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-20T02:30:00Z",
+      "updatedAt": "2026-06-20T02:30:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
+    },
+    {
+      "id": "funds-cdf1850815d4005f6cce32fd",
+      "title": "Expansão via administração hoteleira e modelo asset light deve marcar o futuro do Grupo Tauá",
+      "summary": "Atualizando o Brasil e o mundo com as últimas notícias de João Pessoa, Campina Grande e toda Paraíba.",
+      "details": "Atualizando o Brasil e o mundo com as últimas notícias de João Pessoa, Campina Grande e toda Paraíba.",
+      "url": "https://portalcorreio.com.br/expansao-via-administracao-hoteleira-e-modelo-asset-light-deve-marcar-o-futuro-do-grupo-taua/",
+      "source": "Portal Correio",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-06-20T02:27:17Z",
+      "updatedAt": "2026-06-20T02:27:17Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://portalcorreio.com.br/portalcorreio/storage/2026/06/5eb3ba482b5610855e3fc509c0bcf9e9.jpeg"
+    },
+    {
+      "id": "latest-2b38a399348b720142056632",
+      "title": "Mulheres avançam e enfrentam desafios no setor financeiro",
+      "summary": "Atualizacao de ultima hora capturada em RADAR DIGITAL BRASÍLIA.",
+      "details": "",
+      "url": "https://www.portaldasmissoes.com.br/sao-luiz-gonzaga/noticias/-16411",
+      "source": "RADAR DIGITAL BRASÍLIA",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-20T02:23:02Z",
+      "updatedAt": "2026-06-20T02:23:02Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "latest-80730ff62fe6ad0c016e9fdb",
+      "title": "Mulheres avançam e enfrentam desafios no setor financeiro",
+      "summary": "Ibovespa acumulou queda de 1,64% na semana, impactado por dúvidas sobre os próximos passos da política monetária nos Estados Unidos e pelo aumento da aversão ao risco",
+      "details": "Ibovespa acumulou queda de 1,64% na semana, impactado por dúvidas sobre os próximos passos da política monetária nos Estados Unidos e pelo aumento da aversão ao risco",
+      "url": "https://timesbrasil.com.br/investimentos/bolsa/incertezas-sobre-fed-e-comunicacao-do-bc-pressionam-ibovespa-na-semana/",
+      "source": "Valor Econômico",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-20T02:15:47Z",
+      "updatedAt": "2026-06-20T02:15:47Z",
+      "premium": true,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/06/2b98b5c4-eqi.webp"
+    },
+    {
+      "id": "companies-7d7019b5c8b7abb001928101",
+      "title": "95,7% das empresas brasileiras têm limite estimado de crédito de até R$ 570 mil",
+      "summary": "Reuniões com Alckmin e governo da Bahia intensificam pressão da montadora chinesa para recriar benefícios a importações",
+      "details": "Reuniões com Alckmin e governo da Bahia intensificam pressão da montadora chinesa para recriar benefícios a importações",
+      "url": "https://www1.folha.uol.com.br/mercado/2026/06/byd-tenta-convencer-governo-a-renovar-beneficio-e-abre-guerra-com-montadoras.shtml",
+      "source": "Estadão MT",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-06-20T02:02:00Z",
+      "updatedAt": "2026-06-20T02:02:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/06/19/17819060086a35ba58673a9_1781906008_3x2_rt.jpg"
+    },
+    {
+      "id": "macro-f75d4359e9d61fdd133d0f89",
+      "title": "BYD tenta convencer governo a renovar benefício e abre guerra com montadoras",
+      "summary": "Executivas destacam desafios e ganhos em painel da Pagos sobre diversidade e inovação feminina no setor",
+      "details": "Executivas destacam desafios e ganhos em painel da Pagos sobre diversidade e inovação feminina no setor",
+      "url": "https://radardigitalbrasilia.com.br/noticias-corporativas-dino/332535-mulheres-avancam-e-enfrentam-desafios-no-setor-financeiro/",
+      "source": "Folha de S.Paulo",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-20T02:00:00Z",
+      "updatedAt": "2026-06-20T02:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://api.dino.com.br/v2/news/tr/332535?partnerId=3677"
+    },
+    {
+      "id": "macro-79254144d38965426716cb23",
+      "title": "Incertezas sobre Fed e comunicação do BC pressionam Ibovespa na semana",
+      "summary": "A redução da taxa básica de juros para 14,25% ao ano levou instituições financeiras a reverem suas projeções para os próximos passos da política monetária. Embora o Banco Central tenha mantido a flexibilização da Selic, a avaliação predominante entre economistas é de que o espaço",
+      "details": "A redução da taxa básica de juros para 14,25% ao ano levou instituições financeiras a reverem suas projeções para os próximos passos da política monetária. Embora o Banco Central tenha mantido a flexibilização da Selic, a avaliação predominante entre economistas é de que o espaço para novas reduções ficou mais limitado",
+      "url": "https://www.portalin.com.br/negocios/mercado-reduz-apostas-em-novos-cortes-da-selic-apos-decisao-do-banco-central/",
+      "source": "Times Brasil | CNBC",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-20T01:58:00Z",
+      "updatedAt": "2026-06-20T01:58:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.portalin.com.br/wp-content/uploads/2024/12/bc-banco-central-do-brasil-foto-agencia-brasil.webp"
+    },
+    {
+      "id": "macro-df5e14fcdae668c56650472f",
+      "title": "Mercado reduz apostas em novos cortes da Selic após decisão do Banco Central - Portal IN - Pompeu Vasconcelos",
+      "summary": "Figurinhas ajudam crianças a aprender sobre impostos",
+      "details": "Figurinhas ajudam crianças a aprender sobre impostos",
+      "url": "https://g1.globo.com/rs/rio-grande-do-sul/videos-jornal-do-almoco-rs-cruz-alta-erechim-passo-fundo-e-santa-rosa/video/album-ensina-educacao-fiscal-14715975.ghtml",
+      "source": "Balada IN",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-20T01:21:00Z",
+      "updatedAt": "2026-06-20T01:21:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s04.video.glbimg.com/x720/14715975.jpg"
+    },
+    {
+      "id": "latest-a0ce02d6455eb199ff24f57a",
+      "title": "Acidente em Bedford: riscos operacionais e financeiros",
+      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
+      "details": "",
+      "url": "https://www.gazetadopovo.com.br/agronegocio/como-o-fenomeno-super-el-nino-pode-impactar-o-seu-bolso-e-o-agronegocio/",
+      "source": "SpaceMoney",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-20T01:13:31Z",
+      "updatedAt": "2026-06-20T01:13:31Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "macro-0189e2a11eea1b851dd4477b",
+      "title": "Impactos do Super El Niño 2026 no Agronegócio e Inflação",
+      "summary": "-- Link da fonte: https://tinyurl.com/27o9ujhy-- Nota: A Reuters não verificou esta notícia e não garante a sua exatidão.",
+      "details": "-- Link da fonte: https://tinyurl.com/27o9ujhy-- Nota: A Reuters não verificou esta notícia e não garante a sua exatidão.",
+      "url": "https://br.tradingview.com/news/reuters.com,2026:newsml_L1N42S006:0/",
+      "source": "Gazeta do Povo",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-20T00:46:00Z",
+      "updatedAt": "2026-06-20T00:46:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s.tradingview.com/static/images/illustrations/news-story.jpg"
+    },
+    {
       "id": "companies-f15293de8a5be05ba554cacc",
       "title": "Uso de IA dobra em empresas brasileiras e impulsiona o ERP",
-      "summary": "Levantamentos do IBGE e FGV IBRE mostram avanço da IA nas organizações; especialista aponta integração com ERPs como caminho para aplicações mais estratégicas.",
-      "details": "Levantamentos do IBGE e FGV IBRE mostram avanço da IA nas organizações; especialista aponta integração com ERPs como caminho para aplicações mais estratégicas.",
-      "url": "https://valor.globo.com/patrocinado/dino/noticia/2026/06/19/uso-de-ia-dobra-em-empresas-brasileiras-e-impulsiona-o-erp-1.ghtml",
+      "summary": "Colisão de trens da East Midlands Railway causa mortes e feridos; impactos operacionais e financeiros no setor ferroviário britânico",
+      "details": "Colisão de trens da East Midlands Railway causa mortes e feridos; impactos operacionais e financeiros no setor ferroviário britânico",
+      "url": "https://www.spacemoney.com.br/investimentos/acidente-ferroviario-bedford-impactos-financeiros/",
       "source": "RADAR DIGITAL BRASÍLIA",
       "category": "companies",
       "tags": [
@@ -207,14 +461,33 @@
       "updatedAt": "2026-06-20T00:17:04Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/06/pexels-photo-32487875.jpg"
+    },
+    {
+      "id": "macro-f6f44b7613c39ae59be49042",
+      "title": "Michelle Bowman, vice-presidente de Supervisão do Fed, discursou em um evento fechado organizado pelo Bank of America - WSJ",
+      "summary": "Levantamentos do IBGE e FGV IBRE mostram avanço da IA nas organizações; especialista aponta integração com ERPs como caminho para aplicações mais estratégicas.",
+      "details": "Levantamentos do IBGE e FGV IBRE mostram avanço da IA nas organizações; especialista aponta integração com ERPs como caminho para aplicações mais estratégicas.",
+      "url": "https://valor.globo.com/patrocinado/dino/noticia/2026/06/19/uso-de-ia-dobra-em-empresas-brasileiras-e-impulsiona-o-erp-1.ghtml",
+      "source": "TradingView",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-20T00:10:00Z",
+      "updatedAt": "2026-06-20T00:10:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
       "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
     },
     {
       "id": "companies-f7782eb9c2a322487c0794b7",
       "title": "Uso de IA dobra em empresas brasileiras e impulsiona o ERP",
-      "summary": "Levantamentos do IBGE e FGV IBRE mostram avanço da IA nas organizações; especialista aponta integração com ERPs como caminho para aplicações mais estratégicas.",
-      "details": "Levantamentos do IBGE e FGV IBRE mostram avanço da IA nas organizações; especialista aponta integração com ERPs como caminho para aplicações mais estratégicas.",
-      "url": "https://radardigitalbrasilia.com.br/noticias-corporativas-dino/332253-uso-de-ia-dobra-em-empresas-brasileiras-e-impulsiona-o-erp/",
+      "summary": "Atualizacao de empresas capturada em Valor Econômico.",
+      "details": "",
+      "url": "https://www.portaldasmissoes.com.br/tucunduva/noticias/-16415",
       "source": "Valor Econômico",
       "category": "companies",
       "tags": [
@@ -225,8 +498,45 @@
       "publishedAt": "2026-06-20T00:03:15Z",
       "updatedAt": "2026-06-20T00:03:15Z",
       "premium": true,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "macro-d111a0829ae2c5b3daaab6c8",
+      "title": "Crescimento do PIB não é constante por falta de produtividade, diz Bueno",
+      "summary": "Levantamentos do IBGE e FGV IBRE mostram avanço da IA nas organizações; especialista aponta integração com ERPs como caminho para aplicações mais estratégicas.",
+      "details": "Levantamentos do IBGE e FGV IBRE mostram avanço da IA nas organizações; especialista aponta integração com ERPs como caminho para aplicações mais estratégicas.",
+      "url": "https://radardigitalbrasilia.com.br/noticias-corporativas-dino/332253-uso-de-ia-dobra-em-empresas-brasileiras-e-impulsiona-o-erp/",
+      "source": "CNN Brasil",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-19T23:35:22Z",
+      "updatedAt": "2026-06-19T23:35:22Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
       "imageUrl": "https://api.dino.com.br/v2/news/tr/332253?partnerId=3677"
+    },
+    {
+      "id": "macro-c6d96585af63326bedf9549e",
+      "title": "Agricultores de Tucunduva se atualizam sobre legislação e emissão de nota fiscal eletrônica",
+      "summary": "Brasil cai sete posições no ranking mundial de competitividade e colunista aponta falta de produtividade como causa estrutural",
+      "details": "Brasil cai sete posições no ranking mundial de competitividade e colunista aponta falta de produtividade como causa estrutural",
+      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/crescimento-do-pib-nao-e-constante-por-falta-de-produtividade-diz-bueno/",
+      "source": "Portal das Missões",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-19T23:28:47Z",
+      "updatedAt": "2026-06-19T23:28:47Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/BR_CNN_190626_ZOOM_MONEY_GILVAN_frame_12573.jpeg?w=1200&h=630&crop=1"
     },
     {
       "id": "funds-1f32dbfad44fa7c1a4afb79b",
@@ -250,9 +560,9 @@
     {
       "id": "latest-3fcee28b62f415367f64a605",
       "title": "Citi vê bancos mais cautelosos com juros altos; Itaú se destaca e BB preocupa no agro",
-      "summary": "A publicação examina a responsabilidade dos gestores de fundos no mercado de capitais sob a ótica da regulação brasileira e da CVM.",
-      "details": "A publicação examina a responsabilidade dos gestores de fundos no mercado de capitais sob a ótica da regulação brasileira e da CVM.",
-      "url": "https://www.migalhas.com.br/quentes/458130/sorteio-da-obra-gestores-fundos-de-investimento-e-decisao-negocial",
+      "summary": "Três integrantes do Conselho Fiscal deixaram seus cargos por motivos pessoais; companhia elegerá novo colegiado em assembleia a ser convocada.",
+      "details": "Três integrantes do Conselho Fiscal deixaram seus cargos por motivos pessoais; companhia elegerá novo colegiado em assembleia a ser convocada.",
+      "url": "https://telesintese.com.br/renuncias-esvaziam-conselho-fiscal-da-oi-que-convocara-nova-assembleia/",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -264,14 +574,71 @@
       "updatedAt": "2026-06-19T22:39:05Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://telesintese.com.br/wp-content/uploads/2021/06/gente-abstrato-mercado-credito-freepik-telesintese.jpg"
+    },
+    {
+      "id": "macro-6765d216f6b32c51199388c5",
+      "title": "Renúncias esvaziam Conselho Fiscal da Oi, que convocará nova assembleia",
+      "summary": "A publicação examina a responsabilidade dos gestores de fundos no mercado de capitais sob a ótica da regulação brasileira e da CVM.",
+      "details": "A publicação examina a responsabilidade dos gestores de fundos no mercado de capitais sob a ótica da regulação brasileira e da CVM.",
+      "url": "https://www.migalhas.com.br/quentes/458130/sorteio-da-obra-gestores-fundos-de-investimento-e-decisao-negocial",
+      "source": "TeleSíntese",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-19T22:29:08Z",
+      "updatedAt": "2026-06-19T22:29:08Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
       "imageUrl": "https://medproc.migalhas.com.br/https__img5.migalhas.com.br__SL__gf_base__SL__empresas__SL__miga__SL__imagens__SL__2026__SL__06__SL__15__SL__cropped_qw5ya5nw.lnj.png._PROC_CP75CCH31622400.png"
+    },
+    {
+      "id": "macro-69f3ef3040d333000b1ade70",
+      "title": "Durigan vê espaço para novo corte da Selic e prevê fim de subsídios aos combustíveis ainda em junho",
+      "summary": "A estratégia de renda fixa para a aposentadoria é suficiente? O especialista Marcelo d",
+      "details": "A estratégia de renda fixa para a aposentadoria é suficiente? O especialista Marcelo d",
+      "url": "https://cbn.globo.com/google/amp/podcasts/cbn-dinheiro-marcelo-dagosto/analise/2026/06/19/cdb-e-tesouro-selic-bastam-para-garantir-uma-aposentadoria-tranquila.ghtml",
+      "source": "Seu Dinheiro",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-19T22:19:08Z",
+      "updatedAt": "2026-06-19T22:19:08Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s2-cbn.glbimg.com/dJhZ12BBjDiUyLhYFNw2ovf8xqY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_d975fad146a14bbfad9e763717b09688/internal_photos/bs/2026/u/q/AcNG9zTBuy3MCr5A9Q8A/pexels-freestockpro-12956000.jpg"
+    },
+    {
+      "id": "macro-d6b6d9586bb4f689f09aa98b",
+      "title": "CDB e Tesouro Selic bastam para garantir uma aposentadoria tranquila?",
+      "summary": "Os ministérios da Fazenda (MF) e do Desenvolvimento, Indústria, Comércio e Serviços (MDIC) e a Agência Brasileira Gestora de Fundos Garantidores e Garantias (ABGF) realizaram nesta sexta-feira (19) o lançamento do novo Fundo Garantidor de Operações de Comércio Exterior (FGCE) e a",
+      "details": "Os ministérios da Fazenda (MF) e do Desenvolvimento, Indústria, Comércio e Serviços (MDIC) e a Agência Brasileira Gestora de Fundos Garantidores e Garantias (ABGF) realizaram nesta sexta-feira (19) o lançamento do novo Fundo Garantidor de Operações de Comércio Exterior (FGCE) e anunciaram instituições financeiras habil",
+      "url": "https://cearaagora.com.br/governo-lanca-novo-fundo-para-ampliar-credito-a-empresas-exportadoras-brasileiras/",
+      "source": "CBN",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-19T22:15:06Z",
+      "updatedAt": "2026-06-19T22:15:06Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://cearaagora.com.br/wp-content/uploads/2026/06/1781896780_56625.jpeg"
     },
     {
       "id": "latest-88f2df7f529f16ae86b6b610",
       "title": "Ibovespa hoje: Azzas (AZZA3) salta com expectativa por venda da Farm; Minerva (BEEF3) afunda",
-      "summary": "Índice da B3 operou próximo à estabilidade, em dia de feriado nos Estados Unidos, que deixou bolsas de Nova York fechadas",
-      "details": "Índice da B3 operou próximo à estabilidade, em dia de feriado nos Estados Unidos, que deixou bolsas de Nova York fechadas",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-azzas-azza3-salta-com-expectativa-por-venda-da-farm-minerva-beef3-afunda/",
+      "summary": "Atualizacao de ultima hora capturada em Estadão.",
+      "details": "",
+      "url": "https://br.investing.com/news/stock-market-news/ibovespa-e-dolar-hoje-abrem-semana-de-inflacao-aguardando-ata-do-copom-1978487",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -282,15 +649,52 @@
       "publishedAt": "2026-06-19T22:07:06Z",
       "updatedAt": "2026-06-19T22:07:06Z",
       "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "latest-ff9185105bbfbfda00a5f55b",
+      "title": "Corte no seguro rural deve pressionar custo de crédito do agro",
+      "summary": "Índice da B3 operou próximo à estabilidade, em dia de feriado nos Estados Unidos, que deixou bolsas de Nova York fechadas",
+      "details": "Índice da B3 operou próximo à estabilidade, em dia de feriado nos Estados Unidos, que deixou bolsas de Nova York fechadas",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-azzas-azza3-salta-com-expectativa-por-venda-da-farm-minerva-beef3-afunda/",
+      "source": "CNN Brasil",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-19T22:00:32Z",
+      "updatedAt": "2026-06-19T22:00:32Z",
+      "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/EW5ZKGLPBVJGVPWL6Z7ZQ5IU4E.png?quality=80&auth=42b080d256e37d66f8b006ad1075ecc7a7d7eeb9d8bb021e304c744322d875d1&width=1200&height=630&smart=true"
     },
     {
+      "id": "macro-0fcacd617afc47e11ec0655f",
+      "title": "Ibovespa e dólar hoje abrem semana de inflação aguardando ata do Copom",
+      "summary": "Como o ouro é negociado na moeda americana e não oferece rendimentos, o metal tende a perder atratividade em cenários de juros altos",
+      "details": "Como o ouro é negociado na moeda americana e não oferece rendimentos, o metal tende a perder atratividade em cenários de juros altos",
+      "url": "https://valorinveste.globo.com/google/amp/mercados/internacional-e-commodities/noticia/2026/06/19/ouro-cai-pela-terceira-semana-seguida-com-tom-duro-do-fed.ghtml",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-19T22:00:00Z",
+      "updatedAt": "2026-06-19T22:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s2-valor-investe.glbimg.com/6prE93r4eEc-DHErn3NhUqwtMnc=/2119x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_f035dd6fd91c438fa04ab718d608bbaa/internal_photos/bs/2026/G/t/amSYfVSQabA8owOeK9Zw/gettyimages-2198333109.jpg"
+    },
+    {
       "id": "companies-17b5c86bddca44ad77e45d52",
       "title": "Governo lança novo fundo para ampliar crédito a empresas exportadoras brasileiras",
-      "summary": "Os ministérios da Fazenda (MF) e do Desenvolvimento, Indústria, Comércio e Serviços (MDIC) e a Agência Brasileira Gestora de Fundos Garantidores e Garantias (ABGF) realizaram nesta sexta-feira (19) o lançamento do novo Fundo Garantidor de Operações de Comércio Exterior (FGCE) e a",
-      "details": "Os ministérios da Fazenda (MF) e do Desenvolvimento, Indústria, Comércio e Serviços (MDIC) e a Agência Brasileira Gestora de Fundos Garantidores e Garantias (ABGF) realizaram nesta sexta-feira (19) o lançamento do novo Fundo Garantidor de Operações de Comércio Exterior (FGCE) e anunciaram instituições financeiras habil",
-      "url": "https://cearaagora.com.br/governo-lanca-novo-fundo-para-ampliar-credito-a-empresas-exportadoras-brasileiras/",
+      "summary": "Atualizacao de empresas capturada em Ceará Agora.",
+      "details": "",
+      "url": "https://www.seudinheiro.com/2026/economia/durigan-plano-safra-esta-na-reta-final-deve-ser-proximo-ao-de-2025-possivelmente-com-recorde-lvgb/",
       "source": "Ceará Agora",
       "category": "companies",
       "tags": [
@@ -301,15 +705,33 @@
       "publishedAt": "2026-06-19T21:45:33Z",
       "updatedAt": "2026-06-19T21:45:33Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://cearaagora.com.br/wp-content/uploads/2026/06/1781896780_56625.jpeg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "macro-f5295a63b4a0da1f20dee503",
+      "title": "Ouro cai pela terceira semana seguida com tom duro do Fed",
+      "summary": "Redução de quase metade da verba prevista para o programa ocorre em meio ao El Niño, alta dos fertilizantes e aumento da inadimplência no agro",
+      "details": "Redução de quase metade da verba prevista para o programa ocorre em meio ao El Niño, alta dos fertilizantes e aumento da inadimplência no agro",
+      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/corte-no-seguro-rural-deve-pressionar-custo-de-credito-do-agro/",
+      "source": "Valor Investe",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-19T21:45:17Z",
+      "updatedAt": "2026-06-19T21:45:17Z",
+      "premium": true,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/ChatGPT-Image-24-de-abr.-de-2026-10_40_19-e1779192423227.png?w=856&h=480&crop=1"
     },
     {
       "id": "latest-e0f4d76c5186e987a5fd0588",
       "title": "Copom reduz Selic para 14,25%, mas mercado vê alívio insuficiente diante de desafios fiscais",
-      "summary": "Ibovespa fecha estável aos 168.333 pontos, mas acumula queda de 1,64% na semana. Dólar recua e mercado aguarda novos dados econômicos",
-      "details": "Ibovespa fecha estável aos 168.333 pontos, mas acumula queda de 1,64% na semana. Dólar recua e mercado aguarda novos dados econômicos",
-      "url": "https://www.suno.com.br/noticias/ibovespa-fecha-estavel-queda-semana-mt/",
+      "summary": "Charles Mendlowicz aponta que ritmo de corte é tímido e cenário macroeconômico segue pressionado pelo aumento de gastos públicos e inflação persistente | Crédit",
+      "details": "Charles Mendlowicz aponta que ritmo de corte é tímido e cenário macroeconômico segue pressionado pelo aumento de gastos públicos e inflação persistente | Crédit",
+      "url": "https://www.jornaltribuna.com.br/2026/06/copom-reduz-selic-para-1425-mas-mercado-ve-alivio-insuficiente-diante-de-desafios-fiscais",
       "source": "jornaltribuna.com.br",
       "category": "latest",
       "tags": [
@@ -320,15 +742,14 @@
       "publishedAt": "2026-06-19T21:37:12Z",
       "updatedAt": "2026-06-19T21:37:12Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "http://files.sunoresearch.com.br/n/uploads/2026/06/7a2811c9-down-800x450-1-2-jpg.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-b240518f9b049a68e0ff2c6f",
       "title": "Fechamento do mercado financeiro",
-      "summary": "Charles Mendlowicz aponta que ritmo de corte é tímido e cenário macroeconômico segue pressionado pelo aumento de gastos públicos e inflação persistente | Crédit",
-      "details": "Charles Mendlowicz aponta que ritmo de corte é tímido e cenário macroeconômico segue pressionado pelo aumento de gastos públicos e inflação persistente | Crédit",
-      "url": "https://www.jornaltribuna.com.br/2026/06/copom-reduz-selic-para-1425-mas-mercado-ve-alivio-insuficiente-diante-de-desafios-fiscais",
+      "summary": "Atualizacao de ultima hora capturada em UOL Economia.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSG5VM1UtaXRtT2hHUHNNMzZVaTZvUVlGUGRpcU1QU3h0bElXSFhkMDh2ZXhrQUgzN0JuV3R2b1JkeUVqcTR0b2IzbVVCMVZHY3JuU0d5VVpiVjRuSDlfX2VqVEUxOTEtTUFRYlM5YVdqQmFUbHIyVlVoRjBIbHhuVUFLVUlvcEZPQmhpSUJFSndqdHFtS3ZGbVhlR1JicFRfQmhZ?oc=5",
       "source": "UOL Economia",
       "category": "latest",
       "tags": [
@@ -342,11 +763,47 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
+      "id": "latest-2c4076e2dc0b2bd3658c1fb1",
+      "title": "Mercado financeiro fecha com Ibovespa estável e dólar comercial em queda",
+      "summary": "Atualizacao de ultima hora capturada em Tribuna do Sertão.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ0tzRWFqQXZBck1EaFlMSHl2c3hVS1dRNXlhX1ROS215ajdnSnZlc3JKM2w0b1R5dFFOR2lrZ28zeGlOVGx6dkxXTGVCVTZQakNiQXdUMGt3QWdGUlFKVWlicXpSTlNlRnFYcFFJLU1UMmlEVE4zTkFMOFd3X2ZIY3BTZ3Vka2cxTnlJWE1NQy1ZbnAzMmg3bk1PQzlFaXNua0VIZUJyd1Z6Z1VVekp2Z3VxRXJZVm1XOFJoOFFfdHBKNTJRbHV2QXliVQ?oc=5",
+      "source": "Tribuna do Sertão",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-19T21:33:00Z",
+      "updatedAt": "2026-06-19T21:33:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "macro-71a52015402b800064bd8595",
+      "title": "Flávio Bolsonaro descarta desvincular ajuste do salário mínimo da inflação",
+      "summary": "Atualizacao de macro capturada em UOL Economia.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQ0tnY0lzc2RwVkRuNi01RmlLdERXa1VQS2FVR3VTUjFydVI3c3NReGFyZ25JSVRYMnFkUUc1OXR1VzAzR0JaWUhtc1JXZjVFZm0yOVhsdkxnMjQ1RElpOEQ4ZTc4eUZZMzBPWm84S2wtSjhJdC0yNWFtbnNya1hGZ0V6Y0NqMVVBeVlwSXNiQnpIV1plZnJjRlQyYkVvazFUS2dmSkFCWFBRTTh6cjJSbjcxbGlQLThEOFV6OHQxbGZxZjlUZ0UyUDZjb2U3VGJ4?oc=5",
+      "source": "UOL Economia",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-19T21:23:33Z",
+      "updatedAt": "2026-06-19T21:23:33Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
       "id": "latest-8490d3fafedd63e4f0093478",
       "title": "Ibovespa cede ao peso da Petrobras, perda de fluxo estrangeiro e receio fiscal",
       "summary": "Atualizacao de ultima hora capturada em Jornal do Comércio.",
       "details": "",
-      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/06/19/fechamento-do-mercado-financeiro.htm",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSWlrbFBma1ZkcHdHRG9lb3RPRGhOYWlNZ3dwT1FZNTFFbUFkVmNsUy1iVmhFM21iMEE3UDVWZlZnYnlUYi1zT0ktaGpCcnF1eWN0WXFKdlhnLUpiSVVPcDQ0RDgwclJPUTlQSzdPWTdsOEJUcVpoMlJGLWs3QXZQVjFERktPM2xvSExLc0l4YmVhREo4VE1iX2JXZFVHSWZHaU5uUEpfdm5wSWhCOUFRVWhLUUYzbWQzdEdvd0hqSjdQenk4dHI2ZUJPMC1ZVi05VWlPWWlvWQ?oc=5",
       "source": "Jornal do Comércio",
       "category": "latest",
       "tags": [
@@ -360,11 +817,29 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
+      "id": "macro-81edda271d92124be5a7ad8a",
+      "title": "Presidente do PT defende responsabilidade fiscal e reformas em eventual Lula 4",
+      "summary": "Atualizacao de macro capturada em Valor Econômico.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVmIzVDhqUGdWOXUzZVVacU16R0FzUUMwUmhRWTQydENOTks3UTdhN0w5Z1pwM3BLbjduemVzU1pKRzN4VENWZzkyemhqYlZOYmw2OU9vLVF3N29ib01DUXB5WWhUZ2tNMVNPUVNRSHE4TUtuTEZsTXN4dDlnODEyYllWQzVjeFhDTjh1UWREVFh2NWFTTmRnZ0ZzcHMydXA0YkZ0UkctbEZYbFF5SDhJSkcta2E4d1o3V19CMjIzbi0zempzdlFhcU1DOU1FUlJNWEHSAeABQVVfeXFMTlBOVXZyY1VyQzRfOS1WUVVmS2JLMUZJWnhzTnVJa01KUzVEOEtRbm8wWEFhZUw3akRYUC1aV3h2ZFA2Tm9lcFdBVG9jZ1J3N3h0Zy05cnVtLW5HaldOZHRmMzEzOGRRRXp6Qi1IdkVnY1pEWmhOWkdGY1duVlNLc1RNQ1Zhd0VxMzJoR1NXWVRIdUVQdG1MWnktVzZfQU1sWlA3WG5iVVl0cnBodEhxLTNHalo2SnNRUHpTX050MWZsMnkydjBQLVBwUTVGNmt0bXE0OEhXWE1LVkY0RENnTlQ?oc=5",
+      "source": "Valor Econômico",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-19T21:16:57Z",
+      "updatedAt": "2026-06-19T21:16:57Z",
+      "premium": true,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
       "id": "latest-dbd9f1fd9f441b90bd06f5fd",
       "title": "Ibovespa fecha aos 168 mil pontos e acumula queda de 1,64%",
-      "summary": "Ibovespa fechou em baixa de 0,42%, aos 170.415,13 pontos",
-      "details": "Ibovespa fechou em baixa de 0,42%, aos 170.415,13 pontos",
-      "url": "https://www.jornaldocomercio.com/economia/2026/06/1253242-ibovespa-cede-ao-peso-da-petrobras-perda-de-fluxo-estrangeiro-e-receio-fiscal.html",
+      "summary": "Atualizacao de ultima hora capturada em suno.com.br.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RTUREMFZsWmN2TEpsWl94X05jdGZoUHJXQm5laV8yZzJQdjUzSXlWd2ZtWUVyVWdQRWRZRVk3NmF0QXlOc1VHX2hVTlllMDFsUGU3ei1sb2VVVzhwRVN0eEdma1NTRU01VUtYci15YkgtbUhXYUpjMmpLdHE?oc=5",
       "source": "suno.com.br",
       "category": "latest",
       "tags": [
@@ -375,15 +850,32 @@
       "publishedAt": "2026-06-19T21:15:09Z",
       "updatedAt": "2026-06-19T21:15:09Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.jornaldocomercio.com/_midias/jpg/2023/12/19/artes_materias_site_brasil-10420954.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "latest-46bc4bef16262553c87312a7",
+      "title": "Crise na Casa Rosada: chefe de gabinete de Milei renuncia sob escândalo",
+      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNY19vV1NtSy1yeVFRRWx5b3BEa1J5dHRtZG5WcDNSNnh4VWkxcEFzYUJLZ05kM0d4V0oxc1JCVU9mdjRyS2hjZXNwM3VpZ1RCTExHMHlPVXN5MkxHelR4OXlfUjNmR0RwMlNIUEY2OXFDN0ZRNXdsdkdGc3pTQzl0TklBZVczTVphT2tIb0Q2bnR3X2lpdDR6enRrd25pZml4dmZoQ3hQelBUR0JXeUl5T1pEeVpoUQ?oc=5",
+      "source": "SpaceMoney",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-19T21:14:35Z",
+      "updatedAt": "2026-06-19T21:14:35Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-d798d4777d556c64b7c764e6",
       "title": "Ibovespa fecha sem direção e dólar recua com cautela global",
-      "summary": "Ibovespa encerra estável com 0,03% de alta; dólar cai 0,17% em pregão sem Wall Street e com cautela sobre juros e inflação",
-      "details": "Ibovespa encerra estável com 0,03% de alta; dólar cai 0,17% em pregão sem Wall Street e com cautela sobre juros e inflação",
-      "url": "https://www.spacemoney.com.br/investimentos/ibovespa-fecha-sem-direcao-dolar-recua-cautela-global/",
+      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcUVPMi1lZEVGTi0yYi1ZeEZJb3ZjeXhiR0I3Wl81ZGZZcW1VdEh6cmtBNWozdWtBU2dGRkRNNW1qZ0JScFh1MHFUdDJyaWpad3RRWmtfVy1scm9lNEtnWm5ZTVlUQWczdVNkVlVlVWpCMGRwMlRnemt3Q2FBdTZCUHRXb2cyVEJvYnBiWmFiUWFZUEo3X3lSMXBCdWk0MG8?oc=5",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -394,15 +886,14 @@
       "publishedAt": "2026-06-19T21:12:43Z",
       "updatedAt": "2026-06-19T21:12:43Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/06/pexels-photo-7876498-7.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-14c5fc00fa645ab3040629a8",
       "title": "Ibovespa fecha semana em baixa de 1,64% com mercado sem direção",
-      "summary": "Curva de DIs avançou pelo quarto pregão seguido em sessão de baixa liquidez, sem referência de Wall Street e com expectativa por ata e Relatório de Política Monetária",
-      "details": "Curva de DIs avançou pelo quarto pregão seguido em sessão de baixa liquidez, sem referência de Wall Street e com expectativa por ata e Relatório de Política Monetária",
-      "url": "https://www.tribunadosertao.com.br/geral/2026/06/19/925055-juros-futuros-sobem-com-duvidas-sobre-copom-fala-de-flavio-bolsonaro-e-atuacao-de-fundos",
+      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR2xQS0VMb0FWUlcxSm5xdW1XeWVxU0RnRHNGa0xEUFBjX1Z5ZWhJdUY2MHNPbDdMNFU2SkVIQlNJSXM4NzlBbzVuTkVtMmIxcFlZSk5uOFoxMXhzb0VrR253M2FMWDBNUTJweDh5VnRHTlI5c0hpeWg2ekRHQld4NDBiOWxybURSVlZVN1NCVm1PWEFZdzNZRWJYMUZmbDhY?oc=5",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -413,15 +904,14 @@
       "publishedAt": "2026-06-19T21:12:23Z",
       "updatedAt": "2026-06-19T21:12:23Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://img.dhost.cloud/ubgCc89HRJpDvvCzonc4oIcGPM8=/1280x720/smart/https://tdan.nyc3.digitaloceanspaces.com/images/4ee2c/823cbd4fa6c445b9779f46a2146129123f0.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-27ce9d54f4431437d181ac61",
       "title": "Juros futuros sobem com dúvidas sobre Copom, fala de Flávio Bolsonaro e atuação de fundos",
-      "summary": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
-      "details": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
-      "url": "https://www.tribunadoagreste.com.br/geral/2026/06/19/925056-juros-futuros-fecham-em-alta-com-duvidas-sobre-copom-e-atuacao-de-fundos",
+      "summary": "Atualizacao de ultima hora capturada em Tribuna do Sertão.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTFgwWm9ZeGpQZ0h0bHZGRjNza3VqTG1fUXA3QzhmZVRfNTdic2h3eEVlNXMzUDhYcVUwemhkOXktTmM1a3ExSmRrSi1Zbk1lVTdBQlBwT0JhVUQ3R2x3eVJTaHNUWmFSVnVBX1JIZEdPa1VObkhBdHZTM0VqNGY0RlRickpLWkZOQ2xWVF9FSjZFd3dFc3R0SXpvVzlvTEpXcllhTzFoVFdTRnk1T3U0dGJWblY1QzBOLXhHbV9sR0MyMW5RZHFNV05nSGJFMUd5YTRVem1wcXl6V1puVnVIdw?oc=5",
       "source": "Tribuna do Sertão",
       "category": "latest",
       "tags": [
@@ -432,15 +922,14 @@
       "publishedAt": "2026-06-19T21:10:00Z",
       "updatedAt": "2026-06-19T21:10:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://img.dhost.cloud/A0gmR_0UkbA3dbvZXeRsf8RTeos=/1200x630/smart/https://tdan.nyc3.digitaloceanspaces.com/images/4ee2c/823cbd4fa6c445b9779f46a2146129123f0.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-6948fc7c92a4a6fe8bce6f14",
       "title": "Juros futuros fecham em alta com dúvidas sobre Copom e atuação de fundos",
       "summary": "Atualizacao de ultima hora capturada em Tribuna do Agreste.",
       "details": "",
-      "url": "https://www.osul.com.br/com-a-reducao-de-025-ponto-percentual-na-selic-a-renda-fixa-continua-como-melhor-alternativa-para-os-investidores/amp/",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdk5kMG9sZHRJYVlfcVhOekZ1Uy16TmY2TU9YSWRySUt1dFphMzMzQWFheXAxcE9XNUd4aDBPdkRYckhKS3c3TkJaSVlVcENWQmsxSEl4WU9SNVBCcmZqNU5tUkIwMlBEVnF3VzZwOVVmcFF1Z0tPNWdqM3BwYUdCNFZtMUtXRF9mTXhpZXZFOE1EWE5UWmhWcTVfWFozaUFSTjRibWdCZ2JPUEpiSlBjOEVYZ3FXckIzZThEMFc3MVVrcHJoVlVDdk9SOWI?oc=5",
       "source": "Tribuna do Agreste",
       "category": "latest",
       "tags": [
@@ -456,9 +945,9 @@
     {
       "id": "latest-96ae32059e8522ad68745c02",
       "title": "Com a redução de 0,25 ponto percentual na Selic, a Renda Fixa continua como melhor alternativa para os investidores",
-      "summary": "O empresário Felipe Dytz da Cunha, filho do ex-deputado federal Eduardo Cunha, é diretor de investimentos e um dos administradores da Redwood Asset",
-      "details": "O empresário Felipe Dytz da Cunha, filho do ex-deputado federal Eduardo Cunha, é diretor de investimentos e um dos administradores da Redwood Asset",
-      "url": "https://iclnoticias.com.br/economia/filho-de-eduardo-cunha-ligada-planner/",
+      "summary": "Atualizacao de ultima hora capturada em Jornal O Sul.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNV1JyTXh2cmlGQnlBMlJ2RjBUTHB3TTlKOFNsUFE3b2Fwd3dUMzVmLU9BcWJVZW1rTnhtb3B4OEttVjJkMXA3clQ0ZmlkOWQ1UEtISm14dFFkZDdDVUozZHY1dnBqeGJzbXlWNC1DYTRyaHpuV2pnakNPSHR6b0ZkbVZDMWttS2x0UFlYcE0yYmZqY3RzYTB3X2I1REt4Z1RvMDhZbE8xUldPbnJ6R3N1emROc1AyUTAtZk80Q3o5bzl5Q2JyN1o5eGczV2NDSzFXbWlpWlRiUV8wQdIB2gFBVV95cUxNV1JyTXh2cmlGQnlBMlJ2RjBUTHB3TTlKOFNsUFE3b2Fwd3dUMzVmLU9BcWJVZW1rTnhtb3B4OEttVjJkMXA3clQ0ZmlkOWQ1UEtISm14dFFkZDdDVUozZHY1dnBqeGJzbXlWNC1DYTRyaHpuV2pnakNPSHR6b0ZkbVZDMWttS2x0UFlYcE0yYmZqY3RzYTB3X2I1REt4Z1RvMDhZbE8xUldPbnJ6R3N1emROc1AyUTAtZk80Q3o5bzl5Q2JyN1o5eGczV2NDSzFXbWlpWlRiUV8wQQ?oc=5",
       "source": "Jornal O Sul",
       "category": "latest",
       "tags": [
@@ -469,15 +958,14 @@
       "publishedAt": "2026-06-19T21:06:12Z",
       "updatedAt": "2026-06-19T21:06:12Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://iclnoticias.com.br/app/uploads/2026/06/朋友你好-96-1.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "funds-091a83dc9ce2f8611543ff4a",
       "title": "Filho de Eduardo Cunha dirige gestora ligada à Planner, corretora investigada no caso Master",
-      "summary": "Índice fechou praticamente estável nesta sexta-feira, em sessão de baixa liquidez por feriado em Nova York; investidores aguardam ata do Copom e desdobramentos no Oriente Médio",
-      "details": "Índice fechou praticamente estável nesta sexta-feira, em sessão de baixa liquidez por feriado em Nova York; investidores aguardam ata do Copom e desdobramentos no Oriente Médio",
-      "url": "https://www.tribunadosertao.com.br/geral/2026/06/19/925032-ibovespa-cai-164-na-semana-com-expectativa-de-juros-mais-altos-nos-eua",
+      "summary": "Atualizacao de fundos capturada em ICL Notícias.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fZTFseUEzZlBWcWdROEh4X0NKcFItYndXWnhZVGJXdnNRc1BlYlNrLThaRjhWZ2dSaEg2UTdxa0F1MGI3UGFncHVLWTdXTUxKU0tJYmJESUl3aG92eTFxaDVrTDRpd0ZqeWJybktnOExaNUJXVEh4dXJNZUprcWc?oc=5",
       "source": "ICL Notícias",
       "category": "funds",
       "tags": [
@@ -488,15 +976,14 @@
       "publishedAt": "2026-06-19T21:00:25Z",
       "updatedAt": "2026-06-19T21:00:25Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://img.dhost.cloud/psgNDzFZ93b2-rPkZn9gj4Po4uo=/1280x720/smart/https://tdan.nyc3.digitaloceanspaces.com/images/f662c/34434ff47cbd6ec1c1390c14e6a3a5f1a3d.jpg"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "latest-64452cdfc1fafb9aad009bdb",
       "title": "Ibovespa B3 fecha estável, mas recua na semana com juros no radar; dólar cai a R$ 5,16",
-      "summary": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
-      "details": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
-      "url": "https://www.tribunadoagreste.com.br/geral/2026/06/19/925033-ibovespa-fecha-semana-em-baixa-com-pressao-de-juros-nos-eua",
+      "summary": "Atualizacao de ultima hora capturada em Bora Investir.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWHFPUXVXVEVSMTdaaDM1bFJxeGZHT2w4cUhmN0dvbDZHd09aeWtuMW4zUVpYeFlBNWQ0cllObmhOMlZCWjRRQ2ZudG9ncC1qX3dVRl94V0NwRXladHAxM0JyOFNoUHVwQ2JlRWR4VS1WSXpRcWZQc0N3Tm1OaWdvc1ZjZ21FVHZjY20xNkNqQkZ6T25NdzBna3B6Ny12d3hybC1vMTNINDBCRU9SZWxNYXFORWJoTGg3WTlIUnJhY2I2ZUIyMDdsNV9jNA?oc=5",
       "source": "Bora Investir",
       "category": "latest",
       "tags": [
@@ -507,128 +994,14 @@
       "publishedAt": "2026-06-19T21:00:00Z",
       "updatedAt": "2026-06-19T21:00:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://img.dhost.cloud/QIolVw8IdLKl-nzVLjkOmKfhFfQ=/1200x630/smart/https://tdan.nyc3.digitaloceanspaces.com/images/27653/7b93215403d08bdea7f7d334769b6b00b14.jpg"
-    },
-    {
-      "id": "latest-855acc1fb70b5099de696883",
-      "title": "Ibovespa cai 1,64% na semana com expectativa de juros mais altos nos EUA",
-      "summary": "Veja como se comportaram o Ibovespa B3 e o dólar nesta sexta-feira (19) e o que movimentou os ativos. Acesse na íntegra no Bora Investir.",
-      "details": "Veja como se comportaram o Ibovespa B3 e o dólar nesta sexta-feira (19) e o que movimentou os ativos. Acesse na íntegra no Bora Investir.",
-      "url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-fecha-estavel-mas-recua-na-semana-com-juros-no-radar-dolar-cai-a-r-516/",
-      "source": "Tribuna do Sertão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-19T20:57:00Z",
-      "updatedAt": "2026-06-19T20:57:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://cdn.borainvestir.b3.com.br/2026/06/19175812/ibovespa-b3-fecha-estavel-mas-recua-na-semana-com-juros-no-radar-dolar-cai-a-r-516.webp"
-    },
-    {
-      "id": "latest-efc5538bad461e789ecef889",
-      "title": "Ibovespa fecha semana em baixa com pressão de juros nos EUA",
-      "summary": "A semana foi marcada pela chamada “Super-Quarta”, com as decisões de política monetária no Brasil e nos Estados Unidos. No cenário doméstico, o Comitê de Política Monetária (Copom) reduziu a taxa Selic em 0,25 ponto percentual, para 14,25% ao ano, dando continuidade ao ciclo de f",
-      "details": "A semana foi marcada pela chamada “Super-Quarta”, com as decisões de política monetária no Brasil e nos Estados Unidos. No cenário doméstico, o Comitê de Política Monetária (Copom) reduziu a taxa Selic em 0,25 ponto percentual, para 14,25% ao ano, dando continuidade ao ciclo de flexibilização monetária. Já nos Estados ",
-      "url": "https://trademap.com.br/agencia/maiores-altas-e-baixas-do-ibovespa-na-semana-43",
-      "source": "Tribuna do Agreste",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-19T20:57:00Z",
-      "updatedAt": "2026-06-19T20:57:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://trademap.com.br/wp-content/uploads/2026/06/shutterstock_2237181945-8.jpg"
-    },
-    {
-      "id": "latest-3e2975e410c188bb53ba52a4",
-      "title": "Maiores altas e baixas do Ibovespa na semana",
-      "summary": "Ibovespa fecha estável em dia de vencimento de opções e menor liquidez, mas acumula queda semanal de 1,64% com foco em geopolítica",
-      "details": "Ibovespa fecha estável em dia de vencimento de opções e menor liquidez, mas acumula queda semanal de 1,64% com foco em geopolítica",
-      "url": "https://www.spacemoney.com.br/investimentos/ibovespa-fecha-semana-em-baixa-com-mercado-sem-direcao/",
-      "source": "trademap.com.br",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-19T20:52:00Z",
-      "updatedAt": "2026-06-19T20:52:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/06/pexels-photo-10628029-23.png"
-    },
-    {
-      "id": "latest-f95d3dce851531c62a662dad",
-      "title": "Selic alta, aluguel em alta: o paradoxo do mercado de apartamentos para alugar em São Paulo em 2026",
-      "summary": "Atualizacao de ultima hora capturada em Monitor Mercantil.",
-      "details": "",
-      "url": "https://monitormercantil.com.br/selic-alta-aluguel-em-alta-o-paradoxo-do-mercado-de-apartamentos-para-alugar-em-sao-paulo-em-2026/",
-      "source": "Monitor Mercantil",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-19T20:51:54Z",
-      "updatedAt": "2026-06-19T20:51:54Z",
-      "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-d9c0f8bd1cd3bbcfcd5118c8",
-      "title": "Com novo escritório, CFA Society Brasil quer ampliar influência local e expandir operação no país",
-      "summary": "None",
-      "details": "None",
-      "url": "https://valor.globo.com/google/amp/patrocinado/saftec/noticia/2026/06/19/queda-da-selic-favorece-investimentos-e-amplia-perspectivas-para-empresas-afirma-valdir-piran-jr-da-intra-asset-1.ghtml",
-      "source": "Funds Society",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-19T20:47:35Z",
-      "updatedAt": "2026-06-19T20:47:35Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
-    },
-    {
-      "id": "latest-9f5612416a9799cad4465a83",
-      "title": "Crise de confiança no Copom arrasta Ibovespa para queda de quase 2% na semana",
-      "summary": "Após anos operando sem sede física, a CFA Society Brasil iniciou uma nova fase de expansão. A associação, que reúne profissionais certificados pelo CFA Institute no país, reabriu seu escritório em São Paulo neste ano e pretende usar a nova estrutura como base para ampliar sua inf",
-      "details": "Após anos operando sem sede física, a CFA Society Brasil iniciou uma nova fase de expansão. A associação, que reúne profissionais certificados pelo CFA Institute no país, reabriu seu escritório em São Paulo neste ano e pretende usar a nova estrutura como base para ampliar sua influência no mercado financeiro, fortalece",
-      "url": "https://www.fundssociety.com/br/news/com-novo-escritorio-cfa-society-brasil-quer-ampliar-influencia-local-e-expandir-operacao-no-pais/",
-      "source": "Valor Investe",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-19T20:47:25Z",
-      "updatedAt": "2026-06-19T20:47:25Z",
-      "premium": true,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.fundssociety.com/br/wp-content/uploads/2026/06/lucas-cfa-brazil-1-e1781884576455.jpeg"
-    },
-    {
-      "id": "companies-71099ce224644a9580b072b7",
+      "id": "companies-cb8ec09d2419f98cc56400c9",
       "title": "Artigo - Por que a importação é o primeiro passo para a internacionalização das pequenas e médias empresas brasileiras?",
-      "summary": "Artigo - Por que a importação é o primeiro passo para a internacionalização das pequenas e médias empresas brasileiras?",
-      "details": "Artigo - Por que a importação é o primeiro passo para a internacionalização das pequenas e médias empresas brasileiras?",
-      "url": "https://www.olitoraneo.com.br/noticia/30191/rio-grande/opiniao/artigo-por-que-a-importacao-e-o-primeiro-passo-para-a-internacionalizacao-das-pequenas-e-medias-empresas-brasileiras.html",
+      "summary": "Atualizacao de empresas capturada em O Litorâneo.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPSngyS2NXOW9oLWQzSGVMNWpVXzVWaXJZM0Q5ZUtYLTg2OVN6ZjdNWloyajY4enJLVklLZUxuMUJLLUlSTUZvSmlrWDRUYjhEUjdWcVJsV3F1OUVTRkxjSGhnOGNCcUVxaWRtakwtZFpmcmZNUUNtNlA1My1OV0Y1VlNKcjN6QkRyQlNxRGc2QnAtMEl2OXRUTVpSeklFc3RBd1F3N29qMjVMVFMzYUJhbm9VMGU4YmdVdHROZGxlUFRFTlVOVGt1MzNKcDdQRFM5aldTbjZrUVV0d2JIaUlxUkJVSDg5d012ZWRGMTY4TDlhWEhEY2w1N2hWTFA1LUwweXJ2cGctamVPWVJ2SzZna3l3?oc=5",
       "source": "O Litorâneo",
       "category": "companies",
       "tags": [
@@ -636,18 +1009,17 @@
         "resultados",
         "m&a"
       ],
-      "publishedAt": "2026-06-19T20:27:00Z",
-      "updatedAt": "2026-06-19T20:27:00Z",
+      "publishedAt": "2026-06-19T20:44:05Z",
+      "updatedAt": "2026-06-19T20:44:05Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://www.olitoraneo.com.br/arquivos/noticias/30191/thumb/artigo-por-que-a-importacao-e-o-primeiro-passo-para-a-internacionalizacao-das-pequenas-e-medias-empresas-brasileiras.png"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "funds-c7427d5c643fb4ee4ecf99bc",
       "title": "Valdir Piran Jr., da Intra Asset avalia corte da Selic abre novas oportunidades para investidores",
-      "summary": "Saldo do Dia: Mesmo com o cessar-fogo e a reabertura de Ormuz, os futuros de juros não cederam por aqui; cenário ameaça os ganhos acumulados pelo índice neste ano",
-      "details": "Saldo do Dia: Mesmo com o cessar-fogo e a reabertura de Ormuz, os futuros de juros não cederam por aqui; cenário ameaça os ganhos acumulados pelo índice neste ano",
-      "url": "https://valorinveste.globo.com/google/amp/mercados/renda-variavel/bolsas-e-indices/noticia/2026/06/19/crise-de-confianca-com-copom-arrasta-ibovespa-em-queda-de-quase-2percent-na-semana.ghtml",
+      "summary": "Atualizacao de fundos capturada em O Globo.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQTXVFMlR1VjNlS0h0eEpFWW5Id0ZWS0ZLbGJDWmRDWC0wRUNCM29xWHVoU0lGMklWaWdhWlBzVk1VaThadWxLU3NsNUJ5UlI1b2MzVVFQLW5BOC1KZklmV0tNU2VwS0lPSDdNWnNFN0RDZFdSMFJVOWVya1JHRTlnbU9SeTdTamtBdHVqekVHMjR3SzYzR0MzUk9fQ1JfNm13ZEVhbGxxSTZiU04tNGhqQ0VpS2JFY2daVWdtTzNZZVNFOTRsRjZDRGFweHZZQW9ZLUM5N1Q0SnVJeF8yUlplVUF4SG9DanJlQkpTUEx5OUxpTkVEMGVnY3d30gGIAkFVX3lxTFBlNXRVZHV1RXlFY0lnVmJaUmlaaENmM29WenBtemdUd2FqZDBXdWN5Q1lpa09FRi1nZjBYbzI3bHo0bEpVZ3NKQVZfRlgweVB6cktWa2FpdHU3b1N3MFREek1LQTluUzJaVVh2ZXRZNmpuNTVCMW44VmNfQ3RRU1RrZTlwTjJiTjJnS2szTjdZci15YzJtSlNJOVpmcjdiTGhEM3F4TjBUMmM2bE13blNhNmlRLUxzVHFYallMb29wcENrYmJKYUF4Y25zcThGbEZ4cFNnRDJJQ3kyVEZBYW5GQm0wUkY4a3dkd0ZLS0t5eUVZT2ZmaUJLNmI5VFhPbzJKUEw5blZBUg?oc=5",
       "source": "O Globo",
       "category": "funds",
       "tags": [
@@ -658,15 +1030,14 @@
       "publishedAt": "2026-06-19T20:22:07Z",
       "updatedAt": "2026-06-19T20:22:07Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://s2-valor-investe.glbimg.com/AbjGwKtYaT7y7vPqWS3FTGSViko=/2085x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_f035dd6fd91c438fa04ab718d608bbaa/internal_photos/bs/2020/K/Q/IwLEdfTHmr6ZJhovi3oQ/gettyimages-177419105.jpg"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "funds-c2f442a8bb9900e8923e8998",
       "title": "Queda da Selic favorece investimentos e amplia perspectivas para empresas, afirma Valdir Piran Jr., da Intra Asset",
-      "summary": "None",
-      "details": "None",
-      "url": "https://oglobo.globo.com/patrocinado/saftec/noticia/2026/06/19/valdir-piran-jr-da-intra-asset-avalia-corte-da-selic-abre-novas-oportunidades-para-investidores-1.ghtml",
+      "summary": "Atualizacao de fundos capturada em Valor Econômico.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOVktMaVBWb0R1bXVRWlJVS1JUMHV0WDFyQVdkSkFHaHMzUzlfQUpFQkVZZVhqdjU4eHJySE1Ia3BSdTJqeWhaNkd1VWduRDRQY1E0OXVQMVhIQmd1QUZhOExSemNDdm95YUZSZGxLOWg0RVVzeUtGUWRnRm9EU2hZLWV5SHk3cHhGc0ZsU1hMSEV1NlhYRFVrRGd2QTZvbmdNWEdmR2ZBODVnZ2QzVUI2YVNKVVRSclVYR181OW50dVdoNXktN1Q0RnA3SlVNMFZHZ0RKS1JUSFJVV1U5MVQ1R19SdmxrdkNISXFTOGsyZUxiejhLMTJtV3htMG9XdHZHUHRJakZkcVVVVXU1aVVjT3hGTVdBeFRaa3JfVtIBnAJBVV95cUxOVktMaVBWb0R1bXVRWlJVS1JUMHV0WDFyQVdkSkFHaHMzUzlfQUpFQkVZZVhqdjU4eHJySE1Ia3BSdTJqeWhaNkd1VWduRDRQY1E0OXVQMVhIQmd1QUZhOExSemNDdm95YUZSZGxLOWg0RVVzeUtGUWRnRm9EU2hZLWV5SHk3cHhGc0ZsU1hMSEV1NlhYRFVrRGd2QTZvbmdNWEdmR2ZBODVnZ2QzVUI2YVNKVVRSclVYR181OW50dVdoNXktN1Q0RnA3SlVNMFZHZ0RKS1JUSFJVV1U5MVQ1R19SdmxrdkNISXFTOGsyZUxiejhLMTJtV3htMG9XdHZHUHRJakZkcVVVVXU1aVVjT3hGTVdBeFRaa3JfVg?oc=5",
       "source": "Valor Econômico",
       "category": "funds",
       "tags": [
@@ -677,15 +1048,50 @@
       "publishedAt": "2026-06-19T20:18:25Z",
       "updatedAt": "2026-06-19T20:18:25Z",
       "premium": true,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://ogcss.infoglobo.com.br/9876543210/img/oglobo.jpg"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "companies-4251c342cbf3493e0a27b88d",
+      "title": "Ministério da Fazenda, MDIC e ABGF lançam FGCE e inauguram nova etapa no apoio às exportações",
+      "summary": "Atualizacao de empresas capturada em folhaestado.com.br.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYmMzSFo1b2FPaHVzT1VDMWwyTkMxbzZJQjQwODJFaW1pZG9samoxMU90dHVoWDFwc0EtNEg3dEJSYllpNVRRRktrYjFtb2xhM3lRMnF6TGF1ZVRoYURvT253bFBFM2I3VklOdVFta1dheTl4bEpaVjFPbDU5Uld3NVBHODlLUjlFbExzbURURFFyLTg3S0VQMjFKVkxhYnpTMmNHODRGdk42Q0NwLVRLUTdxdDQ1aHBtMzE1aw?oc=5",
+      "source": "folhaestado.com.br",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-06-19T20:14:00Z",
+      "updatedAt": "2026-06-19T20:14:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "companies-2e44a64c6d4b473d7e281dbd",
+      "title": "Ministério da Fazenda, MDIC e ABGF lançam FGCE e inauguram nova etapa no apoio às exportações",
+      "summary": "Atualizacao de empresas capturada em NOTÍCIA E FATOS.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLWFMQnJWUVRIMmpqV3dHWkFham0ycDZYOXlYUTQ2MUY5OFR4TnJlWW9meTVDbjNjZEZDUWVlMFNmSFdmMHRxRzJzVzdiUHNpQkMyWXM4VjBwVFdpWmVQVHo2TG44R1l0NTVBSkVYdkl4cWVJd2dOT0NIUzNySnNSbWdGNTA5RWVtd1h3YXFfay1CbGs3SlFOb3duU0V2Zlp6SzhubUpyb3o5OWdEZ1FGbUxPU3BOeE9PSkx1enREcw?oc=5",
+      "source": "NOTÍCIA E FATOS",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-06-19T20:10:00Z",
+      "updatedAt": "2026-06-19T20:10:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "funds-7f69523b5577a475e439a89c",
       "title": "Aston Villa Finalise A Price Tag For Their Prized Asset: Is It The Right Valuation?",
-      "summary": "Entenda como a separação patrimonial protege o dinheiro dos cotistas em fundos de investimento caso gestora ou administrador tenham problemas",
-      "details": "Entenda como a separação patrimonial protege o dinheiro dos cotistas em fundos de investimento caso gestora ou administrador tenham problemas",
-      "url": "https://euqueroinvestir.com/fundos-de-investimento/protecao-dinheiro-fundos-investimento-anbima",
+      "summary": "Atualizacao de fundos capturada em OneFootball.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcVk0YTlNQXAzWjdBd1BaWHg4M29lbU53T1F0SFJDdkJfUEVPak1FbWd0Um91ZkN0U0FCYzFtZkw5MEdKbmd3QWtNR0duWUFCZTdlU3AxSnZHcGF4QzFJekdZakZUZmN2N1VsVVlKNllXVDNXeGJBRGxZSU93RllUZkxqSWhLNlMxSTdDcnJJVjBNOXlIeEpPMjJCUXFjSl84eVp4SGcwS2dqUDNMbWIyMXEyM3F1NXZTRV80bk5VNGpqV2EtQjFSWg?oc=5",
       "source": "OneFootball",
       "category": "funds",
       "tags": [
@@ -701,9 +1107,9 @@
     {
       "id": "funds-9631500db5d78c6cf8018d48",
       "title": "Se gestora tiver problemas, dinheiro do fundo segue separado, diz Anbima",
-      "summary": "Leia esta notícia no OneFootball.",
-      "details": "Leia esta notícia no OneFootball.",
-      "url": "https://onefootball.com/pt-br/noticias/aston-villa-finalise-a-price-tag-for-their-prized-asset-is-it-the-right-valuation-43032667",
+      "summary": "Atualizacao de fundos capturada em EuQueroInvestir.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTUR4ODNPeEhOUlhZb1JIckZPcTBJbTNaekk0R3ZBOE1SYkdXb2tNX1U4enZIa1N1VUJlcUhXRE1Wa19PeUh1VVJ3SGdYc1l0RFlleEdjUmczRXB4R1VaYjRuMWpjNHdHUG04WWEzZjlUbl94bE40S3RsdHJPUm9xREUyU3EwNmFGN05vdElGME1VYWE2emZ1Ym9Tdw?oc=5",
       "source": "EuQueroInvestir",
       "category": "funds",
       "tags": [
@@ -714,8 +1120,7 @@
       "publishedAt": "2026-06-19T19:24:33Z",
       "updatedAt": "2026-06-19T19:24:33Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fpt-br%2F43032667%3Fdate=2026-06-20"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "funds-665d273082cf9804827cbf79",
@@ -808,12 +1213,48 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "companies-54b125eb2c0ce3691dc5a01f",
+      "id": "funds-c37346ad101aea2a0cf71c91",
+      "title": "GS UK Gilts ETF GBP Dist Net Asset Value(s)",
+      "summary": "Atualizacao de fundos capturada em ADVFN.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9sbG5ZR0hVTzZ6d0xUN01fWDN2RFpCZzJDNnRwY1V4NXlsV3c2eHpMWjBQUEFCcDVCdUJpUDJWemJZT0RyUmdSbkFtMmE2UThzbms0UW1vRUdXc29USXVhQ3RqdTdOWHY2T2RJ?oc=5",
+      "source": "ADVFN",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-06-19T17:37:15Z",
+      "updatedAt": "2026-06-19T17:37:15Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "funds-b3af6f9b0361c9722eccb60d",
+      "title": "GS Access China Bond ETF $ Dist. Net Asset Value(s)",
+      "summary": "Atualizacao de fundos capturada em ADVFN.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBIOXhlTU8tN1lkYS1TTnRfaVZueXQ2amQ5cnI3RWljTFlJVHpFWmdwQ0FBRjJvV1dtcFFIWGxUNzJZblVST0VGV0FZSmJwWFJ1cUZSX2FtUWJiOVplTXJ1dFg4NnQyM0x0TmhR?oc=5",
+      "source": "ADVFN",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-06-19T17:37:14Z",
+      "updatedAt": "2026-06-19T17:37:14Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "companies-207b2deef9555ab8a7be408d",
       "title": "Governo brasileiro reconhece empresas que promovem inclusão racial e competitividade das exportações brasileiras",
-      "summary": "Atualizacao de empresas capturada em GOV.BR.",
+      "summary": "Atualizacao de empresas capturada em www.gov.br.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQV2ZBWkZra3RwbUZabGMydFpBNDlMQ3drVzNTU3hQN0VTdGtFOTdvdXZidWd3eUZELXJhZEZpMnFoZWRmc2xEOFlMLUxfRnlVWEoyR1ZCUnhWX2xhMmw1X09rcjNiUDBxa200M01la1Vnc3ZMU0JDLXdNV3pFcUdudEVpZ0s3VFpQUmg2OXM0VmNwZjd1OXJmcHcxNzBsVGc2TVZ4THN0azMwU3VrNUNXaHVTeC1kOFFMTml4VzhEdGdjNTdyVk9YMmY2LXFQZ2F0QW4yMzJSNklBY2UzRDk2NDhmQ2E5bWMtTGxPSFIwZGt2RUVJYXB2S1dEaWF0YjlV?oc=5",
-      "source": "GOV.BR",
+      "source": "www.gov.br",
       "category": "companies",
       "tags": [
         "empresas",
@@ -916,12 +1357,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "companies-33d9f54820248a71c7e18ab6",
+      "id": "companies-48bf0a4009f331d4663111fc",
       "title": "Governo brasileiro reconhece empresas que promovem inclusão racial e fortalecem a competitividade das exportações brasileiras — Ministério do Desenvolvimento, Indústria, Comércio e Serviços",
-      "summary": "Atualizacao de empresas capturada em GOV.BR.",
+      "summary": "Atualizacao de empresas capturada em www.gov.br.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNX3NZU2R2ODRUdUlNMkdLVU5qWlBQLUlmdVphZmEtV05IZFlSVnBGclFfdzNRS0t6UElCTGxmblpQclVEbjY4ckxPcDNmS2VJUnBxc0VYYVVPUGRYRU0xTzFYdktLYWpxYXNGWlA1N19TWWN3SFdvU1BlYzMxX2M5QnFzT0NJNVUwcFRyRGIzVHZkUWFxcXZKaEVfS0FXU2g0MjJ2U1AyY0tHcUcxcDVJYjd4RU1FWXFBLThObl9yMUVfQTRUdkRKMVJhTno4UVI5VjYxWVlLdXVRcUtXa3BrelZmdjZFbzVveWZsYmJ3NVBUakxrZXM5Zm9lcVNDX1BTREw4M2o4ZFJIODJqOUlBUUhB?oc=5",
-      "source": "GOV.BR",
+      "source": "www.gov.br",
       "category": "companies",
       "tags": [
         "empresas",
@@ -948,240 +1389,6 @@
       ],
       "publishedAt": "2026-06-19T15:10:15Z",
       "updatedAt": "2026-06-19T15:10:15Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-c21b799f83f3e944e766766e",
-      "title": "Avanço da inflação pressiona resultado de pequenas e médias empresas em maio",
-      "summary": "Atualizacao de empresas capturada em Valor Econômico.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOWEt3UmxHb1dyVFlpTkhSem1SS3p5Wm9WOXBlaHh1TVZ6UkJnWmxPbV94R0pjOVF4aEFYTlNZeDZSV0YyUl9GRElobnNIdXdhc2xzUFNRU09PWE9tdHlnVmRxWnR6THZjYVpkSWVWMFRpNHBIUk9Vb21PWUtzcWlFMjlEQ2hFY19kSGFRV251YVlCUmFqalpZWnJhcTFnc3o1YW5RS3Q1cHZFYk8zT2FkNXYyQjJUT2J0T0FSaGNxSnhVamg2SnVuU1hKcFlXMnR5SEN0UFlRLWFFNVE3bEViSklqazViSnVFeUpONXNCNNIB7wFBVV95cUxOWEt3UmxHb1dyVFlpTkhSem1SS3p5Wm9WOXBlaHh1TVZ6UkJnWmxPbV94R0pjOVF4aEFYTlNZeDZSV0YyUl9GRElobnNIdXdhc2xzUFNRU09PWE9tdHlnVmRxWnR6THZjYVpkSWVWMFRpNHBIUk9Vb21PWUtzcWlFMjlEQ2hFY19kSGFRV251YVlCUmFqalpZWnJhcTFnc3o1YW5RS3Q1cHZFYk8zT2FkNXYyQjJUT2J0T0FSaGNxSnhVamg2SnVuU1hKcFlXMnR5SEN0UFlRLWFFNVE3bEViSklqazViSnVFeUpONXNCNA?oc=5",
-      "source": "Valor Econômico",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-06-19T14:58:15Z",
-      "updatedAt": "2026-06-19T14:58:15Z",
-      "premium": true,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "funds-56ead0f6c95cea456c0c4221",
-      "title": "Forbes Brasil: Por que a CVM mostra vínculo com o Banco Master?",
-      "summary": "Atualizacao de fundos capturada em Painel Político.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaUZfdXRXR3BvZEozT2gtN0RyUnAyd2VxaFNEZ08yZGlxVU4xMHhuMlNMUzFURjlnQnNTMnc0X3doQnM4emoxeXhfa295UDh1R2JoTHZJOXFaVTNtR1hpZ0pNaG5XQy0td0hZN0Jjek5lb0otX3ZJTFk1b1ZMTEFKQWVBRDZ4UHNIWTNtS0pKV0p0dw?oc=5",
-      "source": "Painel Político",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-06-19T14:55:39Z",
-      "updatedAt": "2026-06-19T14:55:39Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-9448bb386c3a558bf638181e",
-      "title": "FIDCs: como investir em cenário de juros altos e maior risco? Gestor da XP responde",
-      "summary": "Atualizacao de fundos capturada em InfoMoney.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaFdqTlZCNFpqZ1ZGM0c5REpfZU5VM19WSmczbkNoU1pnYS1xcTNLQm91aVhYOVp1MXlKbG15UEVJSW9NTTNfcnduQi1aLXRZRlIybkNvc0tQZDRFSGFnMy1JX0FmUzFQUlNENkM0dW1GdktDOFZrbmQ2a3pCYjFZclhrdHgxUGs1MFlkdGMtWEFnNFBRa1Zaa2ROMGJCcVBEanZrWHd6UXpwc0FZQkhXWkt5aEdZeWdpNG85UDVSOGdaSmvSAcgBQVVfeXFMTUc4Z3gwWloteFJnTzZUMUhKQkx2Vy1RLTQ3YTZBcDRWUHVxaG81eURPSnc3RDZOTzdHYl9lT2w0eGNKdnZGeUJ2Zkl0TWJjOVlJNy1zamhPdzBPV0lOMUVKT0FJU1pkR0tyQm84QS14Z0g4TU1IS1lkQkNRR2NUMjBkZHZtb0p6Q3ROeWpjdVVVeDZMSnlYTDVaMVpqejRCd0VILU5HVEJ2c25JelVTTVlscW01QlZlbGxEeHlleEFuR3I1RFR6Z0o?oc=5",
-      "source": "InfoMoney",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-06-19T14:24:44Z",
-      "updatedAt": "2026-06-19T14:24:44Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-79510543053b9bbb3be3c168",
-      "title": "Brasil vai a Paris em busca de espaço no mercado global de defesa durante a maior feira militar do mundo",
-      "summary": "Atualizacao de empresas capturada em Revista Sociedade Militar.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQQi1SeHdkQUZtN1daQTgzaVIyZ0RlbEJieWJYSE9fbWpsR3pqZE83RExPOUM4M0lEZmxDSlVCZWpLSGFLRjNKNldrRVB5QUpSVXhqNXY4SGo3cjhjYjVJYzRiclkxbUFUTWdzeTZObkwzbXZ4clhwMlF6blpTMm83NlB4TW5rb25GSXhDTnZmLXF3bmp4QWRZdHZXX0ZQY1REY0pPXy1MQVhaNmdmdWIzWG9hbkVWTHpMSlRyYnNMOFM4N0F0eGZ6M19mRzVRRWVmRXg1YkJSZVRrbG8yVmlvM1RRakVTVkc1TVRxaUlaaXUxS29qQkQwUA?oc=5",
-      "source": "Revista Sociedade Militar",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-06-19T13:48:00Z",
-      "updatedAt": "2026-06-19T13:48:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "funds-86767cb7d25a9c601933f501",
-      "title": "Há séculos lemos a Bíblia como guia moral, mas cada vez mais, pessoas utilizam para outro fim: encontrar fundos de investimento",
-      "summary": "Atualizacao de fundos capturada em Terra.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNb3NCX3BmdVBmdDBIT2JZc1dWV0dhSE5MMHcteWxDb3JyN2c5eHJWSW1DN3dnejktdm05dG5feTZCYW1qT1JvY1VBTTNycUpFbTZ1dW9zdjlucUlzNGRFQVVOaWZTY2dfcERQTUpxUjhmczRRdTR3NkJBZld3bWM2QzdUVjNGRFc4el9qV0l4SVloNUl5U3gyQ1o0Znk0dkJoME1QTnNfZVdhTTlycjhoWlBydVZnWTNxV0dIaWhQbFpNbnF0MTlrajk0MFZMaURXbVRReUNKUlFCSW1MbTdNVUg4U1g0V2pnVVpENWFFenB4dVBxbnctazFFT0RVaHN2cVpYbUJOWUZ1MlNnT05jX29LZjUtc0s2bm16eXZRN3BzUkJWamhV?oc=5",
-      "source": "Terra",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-06-19T12:17:00Z",
-      "updatedAt": "2026-06-19T12:17:00Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-90beb79ed85a0729569c72dd",
-      "title": "Reuniões demais e conversa de menos: o problema que trava as organizações",
-      "summary": "Atualizacao de empresas capturada em CartaCapital.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQX0VJbTlaYjNzbFB2YzQ2OTlNbnRpZ1I1QnBtaHQ1SDV4ZTBaUTNIZm1fNEc1eUI1TmgyZVBKZWs3RkxhUU16S1JjbWhaQm1BZU9VMTFESElDSU0wYTk0QXF4ZzlGSlhtZWpGNU1uUzhnT2R1ZDVITHdVYmJkSlU0WWFMSDFqbWFTbmQweFp6T0VRajZZOVE?oc=5",
-      "source": "CartaCapital",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-06-19T12:00:00Z",
-      "updatedAt": "2026-06-19T12:00:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "funds-d101df98732054bae1cb2a73",
-      "title": "Agilizar a liberação de fundos de investimento público na parte oeste da província.",
-      "summary": "Atualizacao de fundos capturada em Vietnam.vn.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVi1ISE9NVHc0b3cza1ptTFR3Tm5JWFhJQVlMRm95cWFjN2hWeEhUZlVQUjRTVDlUeVhxd0RmTTVzTkJsdWZXcjBPTFp3ZXpXZUY2dDlDVG5pR3o5RWhzdzJBc01ocEwzNHlxZlJmS05HOUl0NnAyNWxIQnRmbXE3dGxBQXRFdkFMcTk0ZUdpQU9keEVaQ0phT3hB?oc=5",
-      "source": "Vietnam.vn",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-06-19T11:19:34Z",
-      "updatedAt": "2026-06-19T11:19:34Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-db307969ebe7b54a20bd4ee6",
-      "title": "XP indica empresas da B3 menos endividadas para cenário de juros altos; veja ações",
-      "summary": "Atualizacao de empresas capturada em InfoMoney.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUm1jN2Y3bVVYMzlpUkk1VnQyUjJOR1B2YnpZaDc0M3M3ZHFZUnVuNGg1SFlORTBGSHVaOVRINk5IQk9CS2RzSTlNZmJYdERucG1jUE1hT0NUeTk1YjVKbEN1cXhBQzZiNVpHckZRQXlWYmpsTG0tLXJIMUQwNkVhdWdZZVJqSVp5cVM0bEE3VWl6OVl3ZlRYbU01bnZPT0huVlprajFGajh2S1JUQnNfZXllbVp6NUF1cmI1a2NqRdIBxAFBVV95cUxPQXRLUVVkSkU1Mk5nZ3F4Vkd6TTFkWHZkRTJFWmFsd19IOVNnMWd2OTQ5N19qVWM1UHpKaUticFptRjRYWjctbzRFZllqR2lKWGROWHBIWHRNOVhrTklveEQtZWR5LWNoNHM3QzE0YVFMQTBTc3k0cWlqNU9uMUdqUWxHQkppdVQ3ZERsRlM3UlNxdmtJYTNndUdBSjFBcG9CaS1Fd1llVDFXVlZLcld2QWVOYWZKX19lRkYzVDlBd2NCUUZk?oc=5",
-      "source": "InfoMoney",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-06-19T11:06:14Z",
-      "updatedAt": "2026-06-19T11:06:14Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "funds-3f386f513635908f2cfca3d2",
-      "title": "Brasil ganha cada vez mais importância em portfólios globais, diz Santander Asset",
-      "summary": "Atualizacao de fundos capturada em InfoMoney.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcmNVY1lmQXphMDB4ckE5eWtsT0hRalRkajh0UVVJNnVoOU15ckFjWFhfa3E2bjA4N01aYjQ2b2JiYXRKWEVkdjFXbUJCVEVYcHRVeUFNSGFKTXI4b3kxWjg5YmJ5Z1lab1h6eWFtcEZmYTVFNW9aUEVEQlJUMWkwZWJsLTQtWEVzN3FKM0dFQ3REVGJMS09IR0hDenVTNFNHYnFHcWtiM0xYd0tmc0w2SUJfM01hcm5ZVUF30gHAAUFVX3lxTE96MnYtQ0xVX3YtVXlRaXY5VU1nZ245Q3k4ZzYybmlJaVd0XzdWU3V5TUpiZVVpOWFjXzFsYnRRZGFLVWJqM2NOeHNwU3ZKYnk5dkpiTVU2ajEyYkJZcjhaZVVuNkJXcHk0ckpvLVR2WWpJT2l6SXBncEtUaU1od3RiamUyMlFmT3Zjc1hESmpoWG9YLUk2OXhxc1BycEZQeVUwaGROSXBTVEhiZTlMb2dBOWppRXc3em5CQWFHSG9mRg?oc=5",
-      "source": "InfoMoney",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-06-19T11:00:21Z",
-      "updatedAt": "2026-06-19T11:00:21Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-ece4be2e929b7d9efeca2cb8",
-      "title": "Da Nang está a instar a acelerar a distribuição de fundos de investimento público, com o objetivo de concluir 100% do plano até 2026.",
-      "summary": "Atualizacao de fundos capturada em Vietnam.vn.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNHJrN0xENXJoSWVOd3FXTjl2bURONUVJZk1EX2o0ZUp3M1Q4dGtxa1VhSnJxdzVyTDZPTjlpTlRUVlFubXBmMHc3LS02NTRrQ2xKSm50WDhBcUpfOXpZaVRCQ2tqeWloRXNLTGtacUhZOG5EUkkzNGpJVjVHVERhZXV5UjczZ0o5OVJtbVVHUFpzN1MzUFc3NlkxZXM5ZzRyeEItZGE4M0xDQ3RIeXpEck5wTXFRYk1uNXc?oc=5",
-      "source": "Vietnam.vn",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-06-19T08:54:30Z",
-      "updatedAt": "2026-06-19T08:54:30Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-4ef2771fda5b2982d2f7e1c3",
-      "title": "Mensagens indicam que Vorcaro comprou sociedade em Desinchá e Oakberry",
-      "summary": "Atualizacao de fundos capturada em Grupo Portal de Notícias.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWFJFVnpsZ3Y2ZFdYRWRmdWs1NmhtUjJOOF9HcGU3bjNjem0tM21ZcEROcVBHNlc4bEhNdXpNRmdOUHRlUnBrNm1YYXBwYnpGN1pmNWRhQW9ZOTlEZXMxRDEyemV3VzhZSHU4N2pPSFM2ejFnSEMtam9xZmlIV05hejM1QTEtMVVRaGpNVVZVTzdqbHdCMmViaUVCRE1jQnlxNmFGR0N1b3VjODNN?oc=5",
-      "source": "Grupo Portal de Notícias",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-06-19T05:49:54Z",
-      "updatedAt": "2026-06-19T05:49:54Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-bc86793901f0b3ba84e887c3",
-      "title": "Why RWAFi Just Released Its Q1 2026 Report",
-      "summary": "Atualizacao de fundos capturada em Coinfomania.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iZ082TXJCQjJkUmFPXzljM3NMMEN2dVhBZXFFaFhBdXN5a1F6Sjk4V0syMHUzR0NQVlJwbjJ0MjFTNEpUZUo5WEQxM0E1emVUNXJ2ZVlUaDFhUWhhWkxaaXZYZ2Q5UWFFQnQxM21VMzU3aGVORkk0Y1hR?oc=5",
-      "source": "Coinfomania",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-06-19T03:44:51Z",
-      "updatedAt": "2026-06-19T03:44:51Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-715211c469586ab9d7469b2f",
-      "title": "Koenigsegg Jesko Absolut bate recordes no quarto e meia milha",
-      "summary": "Atualizacao de fundos capturada em turbo.pt.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNN3o2aVczc09LZGxYcncxb1JQZEFyZHJkR2lqYjA4TkJmSWNpZEQzWE15Y1RZU3RiaHFTM1NUZjc0WEhHSHVtb0tUcEVQampYa1FyYVdJcTVSSWpZQlRsVWJvdVJhZ2VHa0k2Q2FvM2I4cXFhTUVYZlB2UDc0emgxeXkxdEFMeFg0ajIyRnRtREFaUDJQRXdlRHFn?oc=5",
-      "source": "turbo.pt",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-06-19T02:36:39Z",
-      "updatedAt": "2026-06-19T02:36:39Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     }
