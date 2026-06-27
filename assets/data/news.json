@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-27T15:48:42Z",
-  "generatedAt": "2026-06-27T15:48:42Z",
+  "updatedAt": "2026-06-27T17:06:20Z",
+  "generatedAt": "2026-06-27T17:06:20Z",
   "categories": [
     {
       "id": "all",
@@ -49,8 +49,16 @@
       "label": "bra1.com.br"
     },
     {
+      "id": "broadcast",
+      "label": "Broadcast"
+    },
+    {
       "id": "campo-grande-news",
       "label": "Campo Grande News"
+    },
+    {
+      "id": "cidademarketing",
+      "label": "CidadeMarketing"
     },
     {
       "id": "claudio-dantas",
@@ -61,12 +69,16 @@
       "label": "Comex do Brasil"
     },
     {
+      "id": "congresso-em-foco",
+      "label": "Congresso em Foco"
+    },
+    {
       "id": "consultor-jur-dico",
       "label": "Consultor Jurídico"
     },
     {
-      "id": "dcomercio",
-      "label": "DComercio"
+      "id": "diario-de-pernambuco",
+      "label": "Diario de Pernambuco"
     },
     {
       "id": "di-rio-da-guanabara",
@@ -105,8 +117,8 @@
       "label": "Folha de S.Paulo"
     },
     {
-      "id": "g1",
-      "label": "G1"
+      "id": "folha-pe",
+      "label": "Folha PE"
     },
     {
       "id": "gov-br",
@@ -125,8 +137,16 @@
       "label": "Jornal Grande Bahia"
     },
     {
+      "id": "jornal-tradi-o-regional",
+      "label": "Jornal Tradição Regional"
+    },
+    {
       "id": "jota",
       "label": "JOTA"
+    },
+    {
+      "id": "msn",
+      "label": "MSN"
     },
     {
       "id": "o-fluminense",
@@ -153,12 +173,12 @@
       "label": "Portal Tela"
     },
     {
-      "id": "revista-f-rum",
-      "label": "Revista Fórum"
+      "id": "prefeitura-de-porto-velho",
+      "label": "Prefeitura de Porto Velho"
     },
     {
-      "id": "rota-jur-dica",
-      "label": "Rota Jurídica"
+      "id": "revista-f-rum",
+      "label": "Revista Fórum"
     },
     {
       "id": "r-dio-ararangu-fm-95-5",
@@ -185,14 +205,6 @@
       "label": "stf noticias"
     },
     {
-      "id": "surgiu",
-      "label": "Surgiu"
-    },
-    {
-      "id": "tradingview",
-      "label": "TradingView"
-    },
-    {
       "id": "tribuna-nf",
       "label": "Tribuna NF"
     },
@@ -205,8 +217,8 @@
       "label": "UOL"
     },
     {
-      "id": "uol-economia",
-      "label": "UOL Economia"
+      "id": "uol-not-cias",
+      "label": "UOL Notícias"
     },
     {
       "id": "valor-econ-mico",
@@ -219,30 +231,104 @@
   ],
   "items": [
     {
-      "id": "macro-1eec48c120c3ba2466fb2ce5",
-      "title": "Inflação interanual no Irã atingiu 88,6% em junho devido à guerra",
-      "summary": "Episódio #195 do podcast está disponível nas principais plataformas de áudio e no YouTube",
-      "details": "Episódio #195 do podcast está disponível nas principais plataformas de áudio e no YouTube",
-      "url": "https://noticias.stf.jus.br/postsnoticias/supremo-na-semana-destaca-continuidade-de-julgamento-sobre-lei-da-improbidade/",
-      "source": "TradingView",
+      "id": "macro-2ed243c8d2f551b304d4be7c",
+      "title": "Mudança climática e inflação: O novo alerta do Banco Central Inglês",
+      "summary": "Atualizacao de macro capturada em Exame.",
+      "details": "",
+      "url": "https://exame.com/invest/mercados/mudanca-climatica-e-inflacao-o-novo-alerta-do-banco-central-ingles/",
+      "source": "Exame",
       "category": "macro",
       "tags": [
         "macro",
         "juros",
         "inflacao"
       ],
-      "publishedAt": "2026-06-27T15:42:15Z",
-      "updatedAt": "2026-06-27T15:42:15Z",
+      "publishedAt": "2026-06-27T17:02:38Z",
+      "updatedAt": "2026-06-27T17:02:38Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-22276a872d313433171fa0d9",
+      "title": "Dirigente do BCE sinaliza expectativa de aumento de juros para conter inflação",
+      "summary": "Atualizacao de macro capturada em InfoMoney.",
+      "details": "",
+      "url": "https://revistaforum.com.br/opiniao/brasil-amplia-autonomia-ao-acessar-capital-chines/",
+      "source": "InfoMoney",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-27T16:53:05Z",
+      "updatedAt": "2026-06-27T16:53:05Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-51a080f23f8e0a1534ee6f28",
+      "title": "Inflação interanual no Irã atingiu 88,6% em junho devido à guerra",
+      "summary": "Tomate e batata-inglesa lideraram a alta dos alimentos em junho, segundo o IBGE. IPCA-15 aponta inflação de 0,41%, com forte impacto da alimentação no domicílio.",
+      "details": "Tomate e batata-inglesa lideraram a alta dos alimentos em junho, segundo o IBGE. IPCA-15 aponta inflação de 0,41%, com forte impacto da alimentação no domicílio.",
+      "url": "https://www.cidademarketing.com.br/marketing/2026/06/27/tomate-e-batata-inglesa-disparam-em-junho-e-pressionam-inflacao-dos-alimentos-aponta-ibge/",
+      "source": "Folha PE",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-27T16:45:00Z",
+      "updatedAt": "2026-06-27T16:45:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2026/06/26204501/noticia_portal_700x374_ep-195.png"
+      "imageUrl": "https://www.cidademarketing.com.br/marketing/wp-content/uploads/2026/06/inflacao_batata_inglesa_tomate.webp"
+    },
+    {
+      "id": "macro-fe26ca51cf6fe10b9ad35996",
+      "title": "Inflação interanual no Irã atingiu 88,6% em junho devido à guerra",
+      "summary": "Por unanimidade, corte considerou que o Legislativo da Paraíba invadiu competência privativa do Poder Executivo no controle orçamentário",
+      "details": "Por unanimidade, corte considerou que o Legislativo da Paraíba invadiu competência privativa do Poder Executivo no controle orçamentário",
+      "url": "https://www.conjur.com.br/2026-jun-27/stf-invalida-norma-da-paraiba-que-fixava-reajustes-automaticos-em-propostas-orcamentarias/",
+      "source": "UOL Notícias",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-27T15:24:50Z",
+      "updatedAt": "2026-06-27T15:24:50Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.conjur.com.br/wp-content/uploads/2026/04/55195815825_b5e3d40f83_k.jpg"
+    },
+    {
+      "id": "macro-40fc80ef6cb4fc230587f141",
+      "title": "Porto Velho avança no ranking nacional de qualidade contábil e fiscal",
+      "summary": "Selic cai para 14,25%, mas crédito caro, inflação e renda apertada ainda exigem cautela de famílias e negócios no RJ.",
+      "details": "Selic cai para 14,25%, mas crédito caro, inflação e renda apertada ainda exigem cautela de famílias e negócios no RJ.",
+      "url": "https://ofluminense.com.br/selic-menor-bolso-fluminense/",
+      "source": "Prefeitura de Porto Velho",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-27T15:15:00Z",
+      "updatedAt": "2026-06-27T15:15:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://ofluminense.com.br/wp-content/uploads/2026/05/Sem-Titulo-1.jpg.jpeg"
     },
     {
       "id": "macro-c7e5ad5d207eda333592a4f9",
       "title": "Selic menor ainda não libera o bolso do fluminense",
-      "summary": "Selic cai para 14,25%, mas crédito caro, inflação e renda apertada ainda exigem cautela de famílias e negócios no RJ.",
-      "details": "Selic cai para 14,25%, mas crédito caro, inflação e renda apertada ainda exigem cautela de famílias e negócios no RJ.",
-      "url": "https://ofluminense.com.br/selic-menor-bolso-fluminense/",
+      "summary": "Atualizacao de macro capturada em O Fluminense.",
+      "details": "",
+      "url": "https://agencia.portovelho.ro.gov.br/noticias/57399",
       "source": "O Fluminense",
       "category": "macro",
       "tags": [
@@ -253,33 +339,14 @@
       "publishedAt": "2026-06-27T15:12:00Z",
       "updatedAt": "2026-06-27T15:12:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://ofluminense.com.br/wp-content/uploads/2026/05/Sem-Titulo-1.jpg.jpeg"
-    },
-    {
-      "id": "macro-84d55d5910e1d8152e23556a",
-      "title": "Schnabel, do BCE, volta a indicar expectativa de alta do juro para levar inflação à meta de 2%",
-      "summary": "Atualizacao de macro capturada em UOL Economia.",
-      "details": "",
-      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/06/27/schnabel-do-bce-volta-a-indicar-expectativa-de-alta-do-juro-para-levar-inflacao-a-meta-de-2.htm",
-      "source": "UOL Economia",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-06-27T15:02:00Z",
-      "updatedAt": "2026-06-27T15:02:00Z",
-      "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-87bbbd650174239fb504dea9",
       "title": "Supremo na Semana destaca continuidade de julgamento sobre lei da improbidade",
-      "summary": "A inflação no Irã acelerou bruscamente em junho, impulsionada pela guerra, e atingiu uma taxa anual de 88,6%, segundo dados oficiais divulgados neste sábado (27), em uma economia já castigada pela hiperinflação decorrente das sanções.Segundo o Centro de Estatísticas do Irã, um ór",
-      "details": "A inflação no Irã acelerou bruscamente em junho, impulsionada pela guerra, e atingiu uma taxa anual de 88,6%, segundo dados oficiais divulgados neste sábado (27), em uma economia já castigada pela hiperinflação decorrente das sanções.Segundo o Centro de Estatísticas do Irã, um órgão oficial, os pre…",
-      "url": "https://br.tradingview.com/news/afp:818c53e0f17cf:0/",
+      "summary": "A inflação no Irã acelerou bruscamente em junho, impulsionada pela guerra, e atingiu uma taxa anual de 88,6%, segundo dados oficiais divulgados neste sábado...",
+      "details": "A inflação no Irã acelerou bruscamente em junho, impulsionada pela guerra, e atingiu uma taxa anual de 88,6%, segundo dados oficiais divulgados neste sábado...",
+      "url": "https://www.folhape.com.br/noticias/inflacao-interanual-no-ira-atingiu-886-em-junho-devido-a-guerra/496883/",
       "source": "stf noticias",
       "category": "macro",
       "tags": [
@@ -291,14 +358,14 @@
       "updatedAt": "2026-06-27T15:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s.tradingview.com/static/images/illustrations/news-story.jpg"
+      "imageUrl": "https://cdn.folhape.com.br/img/c/800/600/dn_arquivo/2026/04/afp-20260404-a6qv7ay-v1-midres-iraqiranusisraelwarborder.jpg"
     },
     {
       "id": "latest-f873f98fd7f27b86bd8509ac",
       "title": "Brasil amplia autonomia ao acessar capital chinês",
-      "summary": "Atualizacao de ultima hora capturada em Revista Fórum.",
-      "details": "",
-      "url": "https://revistaforum.com.br/opiniao/brasil-amplia-autonomia-ao-acessar-capital-chines/",
+      "summary": "A dirigente da autarquia destacou que os custos elevados de energia continuam pressionando o consumo na zona do euro e que a dinâmica inflacionária exige a elevação das taxas",
+      "details": "A dirigente da autarquia destacou que os custos elevados de energia continuam pressionando o consumo na zona do euro e que a dinâmica inflacionária exige a elevação das taxas",
+      "url": "https://www.infomoney.com.br/mercados/dirigente-do-bce-sinaliza-expectativa-de-aumento-de-juros-para-conter-inflacao/",
       "source": "Revista Fórum",
       "category": "latest",
       "tags": [
@@ -309,14 +376,33 @@
       "publishedAt": "2026-06-27T14:55:05Z",
       "updatedAt": "2026-06-27T14:55:05Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2025/06/2025-06-04T134039Z_1_LYNXNPEL530PH_RTROPTP_4_ECB-POLICY.jpg?fit=1920%2C1280&quality=70&strip=all"
+    },
+    {
+      "id": "macro-caa8fc3cab1f3fa28e764fe6",
+      "title": "Tomate e batata-inglesa disparam em junho e pressionam inflação dos alimentos, aponta IBGE",
+      "summary": "Atualizacao de macro capturada em CidadeMarketing.",
+      "details": "",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/06/27/inflacao-interanual-no-ira-atingiu-886-em-junho-devido-a-guerra.htm",
+      "source": "CidadeMarketing",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-27T14:49:05Z",
+      "updatedAt": "2026-06-27T14:49:05Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-0e8738a7d185f78fb253da32",
       "title": "STF anula reajustes automáticos em propostas orçamentárias",
-      "summary": "Por unanimidade, corte considerou que o Legislativo da Paraíba invadiu competência privativa do Poder Executivo no controle orçamentário",
-      "details": "Por unanimidade, corte considerou que o Legislativo da Paraíba invadiu competência privativa do Poder Executivo no controle orçamentário",
-      "url": "https://www.conjur.com.br/2026-jun-27/stf-invalida-norma-da-paraiba-que-fixava-reajustes-automaticos-em-propostas-orcamentarias/",
+      "summary": "Episódio #195 do podcast está disponível nas principais plataformas de áudio e no YouTube",
+      "details": "Episódio #195 do podcast está disponível nas principais plataformas de áudio e no YouTube",
+      "url": "https://noticias.stf.jus.br/postsnoticias/supremo-na-semana-destaca-continuidade-de-julgamento-sobre-lei-da-improbidade/",
       "source": "Consultor Jurídico",
       "category": "macro",
       "tags": [
@@ -328,14 +414,14 @@
       "updatedAt": "2026-06-27T14:46:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.conjur.com.br/wp-content/uploads/2026/04/55195815825_b5e3d40f83_k.jpg"
+      "imageUrl": "https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2026/06/26204501/noticia_portal_700x374_ep-195.png"
     },
     {
       "id": "macro-43542b4f0a20dcf90cb7a14b",
       "title": "Da SV 917 à ADI 7.633: novos limites constitucionais à criação parlamentar de despesas",
-      "summary": "Saiba tudo sobre o Concurso SME São Bento do Una: 175 vagas, inscrições até 17 de agosto, e provas em outubro de 2026.",
-      "details": "Saiba tudo sobre o Concurso SME São Bento do Una: 175 vagas, inscrições até 17 de agosto, e provas em outubro de 2026.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-sme-sao-bento-do-una/amp/",
+      "summary": "STJ negou provimento ao recurso especial de um grande empresário que tentava abater dívidas do Imposto de Renda Pessoa Física",
+      "details": "STJ negou provimento ao recurso especial de um grande empresário que tentava abater dívidas do Imposto de Renda Pessoa Física",
+      "url": "https://www.conjur.com.br/2026-jun-27/prejuizo-fiscal-de-empresa-nao-quita-divida-pessoal-de-socio-decide-stj/",
       "source": "Consultor Jurídico",
       "category": "macro",
       "tags": [
@@ -347,14 +433,33 @@
       "updatedAt": "2026-06-27T14:26:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2021/02/22172036/concursos-educacao.jpg"
+      "imageUrl": "https://www.conjur.com.br/wp-content/uploads/2026/05/finance-concept-one-hundred-reais-bills-coins-with-calculator-pen-brazilian-money-scaled-e1777922094690.jpg"
+    },
+    {
+      "id": "funds-283e47c44ee9d21f1836fa99",
+      "title": "Open Asset: Projeto padroniza troca de dados sobre ativos financeiros",
+      "summary": "Controvérsia envolvia a prorrogação da desoneração da folha de pagamento de municípios e de diversos setores produtivos",
+      "details": "Controvérsia envolvia a prorrogação da desoneração da folha de pagamento de municípios e de diversos setores produtivos",
+      "url": "https://www.conjur.com.br/2026-jun-27/da-sv-917-a-adi-7-633-novos-limites-constitucionais-a-criacao-parlamentar-de-despesas/",
+      "source": "Congresso em Foco",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-06-27T14:21:21Z",
+      "updatedAt": "2026-06-27T14:21:21Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://www.conjur.com.br/wp-content/uploads/2022/22/congresso-camara-senado-fake-news1.jpeg"
     },
     {
       "id": "macro-c6b2898acd901a17f722c3ff",
       "title": "Concurso SME São Bento do Una: saiu edital com 175 vagas",
-      "summary": "Controvérsia envolvia a prorrogação da desoneração da folha de pagamento de municípios e de diversos setores produtivos",
-      "details": "Controvérsia envolvia a prorrogação da desoneração da folha de pagamento de municípios e de diversos setores produtivos",
-      "url": "https://www.conjur.com.br/2026-jun-27/da-sv-917-a-adi-7-633-novos-limites-constitucionais-a-criacao-parlamentar-de-despesas/",
+      "summary": "A Prefeitura de Araranguá alcançou um importante reconhecimento na área da gestão pública. O município conquistou a Nota A, classificação máxima no Ranking da Qualidade da Informação Contábil e Fiscal, promovido pelo Tesouro Nacional. A certificação representa o mais alto nível d",
+      "details": "A Prefeitura de Araranguá alcançou um importante reconhecimento na área da gestão pública. O município conquistou a Nota A, classificação máxima no Ranking da Qualidade da Informação Contábil e Fiscal, promovido pelo Tesouro Nacional. A certificação representa o mais alto nível de excelência na avaliação da qualidade, ",
+      "url": "https://radioararangua.com.br/ararangua-conquista-nota-maxima-em-ranking-nacional-de-qualidade-da-informacao-contabil-e-fiscal/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -366,14 +471,14 @@
       "updatedAt": "2026-06-27T14:14:54Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.conjur.com.br/wp-content/uploads/2022/22/congresso-camara-senado-fake-news1.jpeg"
+      "imageUrl": "https://radioararangua.com.br/wp-content/uploads/2026/06/whatsapp-image-2026-06-26-at-112135.jpeg"
     },
     {
       "id": "macro-91156fb8bb735e13f0ba89dd",
       "title": "Ipojuca conquista reconhecimento nacional e reafirma excelência da gestão fiscal sob liderança do prefeito Carlos Santana",
-      "summary": "Ipojuca conquista reconhecimento nacional e reafirma excelência da gestão fiscal sob liderança do prefeito Carlos Santana",
-      "details": "Ipojuca conquista reconhecimento nacional e reafirma excelência da gestão fiscal sob liderança do prefeito Carlos Santana",
-      "url": "https://blogdoalberesxavier.com/noticias/73891/ipojuca-conquista-reconhecimento-nacional-e-reafirma-excelencia-da-gestao-fiscal-sob-lideranca-do-prefeito-carlos-santana",
+      "summary": "Saiba tudo sobre o Concurso SME São Bento do Una: 175 vagas, inscrições até 17 de agosto, e provas em outubro de 2026.",
+      "details": "Saiba tudo sobre o Concurso SME São Bento do Una: 175 vagas, inscrições até 17 de agosto, e provas em outubro de 2026.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-sme-sao-bento-do-una/amp/",
       "source": "Blog do Alberes Xavier",
       "category": "macro",
       "tags": [
@@ -385,7 +490,7 @@
       "updatedAt": "2026-06-27T14:01:32Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://blogdoalberesxavier.com/uploads/geral/1200x_0.751827001782568648.jpeg"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2021/02/22172036/concursos-educacao.jpg"
     },
     {
       "id": "latest-33d382c348f8346a57a46eb9",
@@ -409,9 +514,9 @@
     {
       "id": "macro-da1d2c56856fd676427ee006",
       "title": "Araranguá conquista nota máxima em ranking nacional de qualidade da informação contábil e fiscal",
-      "summary": "STJ negou provimento ao recurso especial de um grande empresário que tentava abater dívidas do Imposto de Renda Pessoa Física",
-      "details": "STJ negou provimento ao recurso especial de um grande empresário que tentava abater dívidas do Imposto de Renda Pessoa Física",
-      "url": "https://www.conjur.com.br/2026-jun-27/prejuizo-fiscal-de-empresa-nao-quita-divida-pessoal-de-socio-decide-stj/",
+      "summary": "Atualizacao de macro capturada em Rádio Araranguá FM 95.5.",
+      "details": "",
+      "url": "https://revistaforum.com.br/opiniao/o-parasitismo-financeiro/",
       "source": "Rádio Araranguá FM 95.5",
       "category": "macro",
       "tags": [
@@ -422,15 +527,14 @@
       "publishedAt": "2026-06-27T13:41:00Z",
       "updatedAt": "2026-06-27T13:41:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.conjur.com.br/wp-content/uploads/2026/05/finance-concept-one-hundred-reais-bills-coins-with-calculator-pen-brazilian-money-scaled-e1777922094690.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-120e2aeef07611285a44cb19",
       "title": "Prejuízo fiscal de empresa não quita dívida pessoal de sócio, decide STJ",
-      "summary": "Atualizacao de macro capturada em Consultor Jurídico.",
-      "details": "",
-      "url": "https://radioararangua.com.br/ararangua-conquista-nota-maxima-em-ranking-nacional-de-qualidade-da-informacao-contabil-e-fiscal/",
+      "summary": "Proposta busca modernizar a circulação de informações sobre ativos financeiros, recebíveis, títulos, garantias e gravames.",
+      "details": "Proposta busca modernizar a circulação de informações sobre ativos financeiros, recebíveis, títulos, garantias e gravames.",
+      "url": "https://www.congressoemfoco.com.br/amp/noticia/119911/open-asset-projeto-padroniza-troca-de-dados-sobre-ativos-financeiros",
       "source": "Consultor Jurídico",
       "category": "macro",
       "tags": [
@@ -441,14 +545,33 @@
       "publishedAt": "2026-06-27T13:32:00Z",
       "updatedAt": "2026-06-27T13:32:00Z",
       "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://medproc.congressoemfoco.com.br/IMG_000644749_V5_S20260623130206487_EN.jpg._PROC_AP2AC119911AT13CCH31536000TM0.jpg"
+    },
+    {
+      "id": "macro-53708c867531a95a3c289432",
+      "title": "Prefeitura de Morro Redondo divulga ganhadores de junho do Nota Fiscal Gaúcha",
+      "summary": "Atualizacao de macro capturada em Jornal Tradição Regional.",
+      "details": "",
+      "url": "https://www.jornaltradicao.com.br/morro-redondo/geral/prefeitura-de-morro-redondo-divulga-ganhadores-de-junho-do-nota-fiscal-gaucha/",
+      "source": "Jornal Tradição Regional",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-06-27T13:29:53Z",
+      "updatedAt": "2026-06-27T13:29:53Z",
+      "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-91fc3c0c0f95c1e8fa0bdf8b",
       "title": "O parasitismo financeiro",
-      "summary": "Atualizacao de ultima hora capturada em Revista Fórum.",
-      "details": "",
-      "url": "https://revistaforum.com.br/opiniao/o-parasitismo-financeiro/",
+      "summary": "Ipojuca conquista reconhecimento nacional e reafirma excelência da gestão fiscal sob liderança do prefeito Carlos Santana",
+      "details": "Ipojuca conquista reconhecimento nacional e reafirma excelência da gestão fiscal sob liderança do prefeito Carlos Santana",
+      "url": "https://blogdoalberesxavier.com/noticias/73891/ipojuca-conquista-reconhecimento-nacional-e-reafirma-excelencia-da-gestao-fiscal-sob-lideranca-do-prefeito-carlos-santana",
       "source": "Revista Fórum",
       "category": "latest",
       "tags": [
@@ -459,7 +582,8 @@
       "publishedAt": "2026-06-27T13:16:54Z",
       "updatedAt": "2026-06-27T13:16:54Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://blogdoalberesxavier.com/uploads/geral/1200x_0.751827001782568648.jpeg"
     },
     {
       "id": "macro-a5943c16ca18e361ef81d047",
@@ -518,44 +642,6 @@
       "imageUrl": "https://images.jota.info/wp-content/uploads/2026/06/thumb-site2.jpg"
     },
     {
-      "id": "macro-37d6fc33b40d03d1bbcd4010",
-      "title": "Presos 2 suspeitos de receptação de carga roubada de alho na Baixada Fluminense",
-      "summary": "Investigação identificou que a carga havia sido levada para o Ceasa, onde estaria sendo negociada entre comerciantes.",
-      "details": "Investigação identificou que a carga havia sido levada para o Ceasa, onde estaria sendo negociada entre comerciantes.",
-      "url": "https://g1.globo.com/google/amp/rj/rio-de-janeiro/noticia/2026/06/27/presos-suspeitos-de-receptacao-de-carga-roubada-de-alho-na-baixada.ghtml",
-      "source": "G1",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-06-27T12:08:55Z",
-      "updatedAt": "2026-06-27T12:08:55Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-g1.glbimg.com/qBzvUmQT9FOl78AVYvsh1fD5YFA=/1518x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/o/t/L7P0yASCKI8Ai4nXJOAw/carga-.jpg"
-    },
-    {
-      "id": "macro-f2f5bc7da8e44f64fd8517b1",
-      "title": "Decisão da Suprema Corte e conferência do BCE devem moldar ainda mais o início do mandato do presidente do Fed, Warsh",
-      "summary": "Por Howard SchneiderA liderança inicial de Kevin Warsh, presidente do Federal Reserve, o banco central dos EUA, enfrenta novos testes esta semana, com uma aparição antes de uma conferência econômica de alto nível em Portugal e a decisão esperada da Suprema Corte dos EUA sobre a l",
-      "details": "Por Howard SchneiderA liderança inicial de Kevin Warsh, presidente do Federal Reserve, o banco central dos EUA, enfrenta novos testes esta semana, com uma aparição antes de uma conferência econômica de alto nível em Portugal e a decisão esperada da Suprema Corte dos EUA sobre a legalidade da tentat…",
-      "url": "https://br.tradingview.com/news/reuters.com,2026:newsml_L1N42Z02R:0/",
-      "source": "TradingView",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-06-27T12:01:43Z",
-      "updatedAt": "2026-06-27T12:01:43Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s.tradingview.com/static/images/illustrations/news-story.jpg"
-    },
-    {
       "id": "funds-2eb59fcb6943caa1d2903057",
       "title": "Mais de 80% dos fundos de ações tiveram um desempenho ruim em maio, apesar da alta do índice VN.",
       "summary": "Apesar de um aumento de 4,4% no índice VN em maio, mais de 80% dos fundos de ações registraram desempenho negativo. Explore os motivos e o panorama geral dos fluxos de capital para fundos de investimento no Vietnã em 2026.",
@@ -575,30 +661,11 @@
       "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/06/27/1782554158835_chungkhoankafi052huuhanh-17825510295201234566069-510-0-2500-3800-crop-17825510551421660282832.jpeg"
     },
     {
-      "id": "macro-89d7dc7e0d51cd1ac5e8fda9",
-      "title": "Receita Federal adia para 2027 a exigência de CNPJ para autônomos, prestadores e produtores rurais",
-      "summary": "Receita Federal decide adiar para 2027 a exigência de CNPJ para autônomos, prestadores e produtores rurais",
-      "details": "Receita Federal decide adiar para 2027 a exigência de CNPJ para autônomos, prestadores e produtores rurais",
-      "url": "https://www.rotajuridica.com.br/receita-federal-decide-adiar-para-2027-a-exigencia-de-cnpj-para-autonomos-prestadores-e-produtores-rurais/",
-      "source": "Rota Jurídica",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-06-27T11:14:12Z",
-      "updatedAt": "2026-06-27T11:14:12Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.rotajuridica.com.br/wp-content/uploads/2015/07/cnpj-e1437411217364.jpg"
-    },
-    {
       "id": "latest-042b77f26b92f6466128b777",
       "title": "Selic baixa popularizou os FIIs, mas deixou uma lição errada, diz professor da USP",
-      "summary": "A Land Rover Classic entregou uma encomenda única composta por quatro Defender V8 personalizados através do programa Works Bespoke. O conjunto inclui todas as principais variantes do clássico todo-o-terreno e destaca-se por uma pintura exclusiva que muda de tonalidade",
-      "details": "A Land Rover Classic entregou uma encomenda única composta por quatro Defender V8 personalizados através do programa Works Bespoke. O conjunto inclui todas as principais variantes do clássico todo-o-terreno e destaca-se por uma pintura exclusiva que muda de tonalidade",
-      "url": "https://www.turbo.pt/5909659566/land-rover-cria-colecao-exclusiva-de-quatro-defender-v8-personalizados/",
+      "summary": "João da Rocha Lima, sócio-diretor do Grupo Unitas e da BR-Capital, participou do especial do Liga de FIIs sobre a história da indústria de fundos imobiliários",
+      "details": "João da Rocha Lima, sócio-diretor do Grupo Unitas e da BR-Capital, participou do especial do Liga de FIIs sobre a história da indústria de fundos imobiliários",
+      "url": "https://www.infomoney.com.br/onde-investir/selic-baixa-popularizou-os-fiis-mas-deixou-uma-licao-errada-diz-professor-da-usp/",
       "source": "InfoMoney",
       "category": "latest",
       "tags": [
@@ -610,33 +677,33 @@
       "updatedAt": "2026-06-27T11:02:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://asset.skoiy.com/tbowjqdgqpxirbte/uzfdylhemruj.jpg"
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/06/Captura-de-Tela-2026-06-26-as-10.29.09.png?quality=70"
     },
     {
-      "id": "macro-389bb16c34bbec3078477f35",
-      "title": "Fed de Warsh inaugura era de menos orientação e mais incerteza para os mercados",
-      "summary": "A disputa comercial entre Brasil e Estados Unidos ganhou um novo capítulo após uma audiência pública realizada para discutir as tarifas aplicadas sobre produtos brasileiros. A maio",
-      "details": "A disputa comercial entre Brasil e Estados Unidos ganhou um novo capítulo após uma audiência pública realizada para discutir as tarifas aplicadas sobre produtos brasileiros. A maio",
-      "url": "https://www.alagoasalerta.com.br/noticia/empresas-rejeitam-tarifas-dos-eua-em-audiencia-mas-industria-preve-manutencao-da-medida-e-alerta",
-      "source": "Valor Econômico",
-      "category": "macro",
+      "id": "funds-222be983f64ab256685d904f",
+      "title": "Land Rover cria coleção exclusiva de quatro Defender V8 personalizados",
+      "summary": "A Land Rover Classic entregou uma encomenda única composta por quatro Defender V8 personalizados através do programa Works Bespoke. O conjunto inclui todas as principais variantes do clássico todo-o-terreno e destaca-se por uma pintura exclusiva que muda de tonalidade",
+      "details": "A Land Rover Classic entregou uma encomenda única composta por quatro Defender V8 personalizados através do programa Works Bespoke. O conjunto inclui todas as principais variantes do clássico todo-o-terreno e destaca-se por uma pintura exclusiva que muda de tonalidade",
+      "url": "https://www.turbo.pt/5909659566/land-rover-cria-colecao-exclusiva-de-quatro-defender-v8-personalizados/",
+      "source": "turbo.pt",
+      "category": "funds",
       "tags": [
-        "macro",
-        "juros",
-        "inflacao"
+        "fundos",
+        "asset",
+        "fiis"
       ],
-      "publishedAt": "2026-06-27T11:00:11Z",
-      "updatedAt": "2026-06-27T11:00:11Z",
-      "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://cdn.sanity.io/images/dqacgg2v/production/c6453468a934bb40ae543972587b1ddb514e97bf-600x350.jpg"
+      "publishedAt": "2026-06-27T10:33:26Z",
+      "updatedAt": "2026-06-27T10:33:26Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://asset.skoiy.com/tbowjqdgqpxirbte/uzfdylhemruj.jpg"
     },
     {
       "id": "companies-f5f8de28f328ed3b8f2d4f55",
       "title": "Empresas rejeitam tarifas dos EUA em audiência, mas indústria prevê manutenção da medida e alerta para impactos no Brasil",
-      "summary": "João da Rocha Lima, sócio-diretor do Grupo Unitas e da BR-Capital, participou do especial do Liga de FIIs sobre a história da indústria de fundos imobiliários",
-      "details": "João da Rocha Lima, sócio-diretor do Grupo Unitas e da BR-Capital, participou do especial do Liga de FIIs sobre a história da indústria de fundos imobiliários",
-      "url": "https://www.infomoney.com.br/onde-investir/selic-baixa-popularizou-os-fiis-mas-deixou-uma-licao-errada-diz-professor-da-usp/",
+      "summary": "A disputa comercial entre Brasil e Estados Unidos ganhou um novo capítulo após uma audiência pública realizada para discutir as tarifas aplicadas sobre produtos brasileiros. A maio",
+      "details": "A disputa comercial entre Brasil e Estados Unidos ganhou um novo capítulo após uma audiência pública realizada para discutir as tarifas aplicadas sobre produtos brasileiros. A maio",
+      "url": "https://www.alagoasalerta.com.br/noticia/empresas-rejeitam-tarifas-dos-eua-em-audiencia-mas-industria-preve-manutencao-da-medida-e-alerta",
       "source": "Alagoas Alerta",
       "category": "companies",
       "tags": [
@@ -648,14 +715,33 @@
       "updatedAt": "2026-06-27T10:13:23Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/06/Captura-de-Tela-2026-06-26-as-10.29.09.png?quality=70"
+      "imageUrl": "https://cdn.sanity.io/images/dqacgg2v/production/c6453468a934bb40ae543972587b1ddb514e97bf-600x350.jpg"
+    },
+    {
+      "id": "latest-d9a2a06112946f6a639d1750",
+      "title": "Copa movimenta patrocínios e exposição global",
+      "summary": "Seleções como Argentina, Inglaterra e Portugal disputam vagas na Copa, movimentando patrocínios e exposição midiática global. Veja os jogos de hoje",
+      "details": "Seleções como Argentina, Inglaterra e Portugal disputam vagas na Copa, movimentando patrocínios e exposição midiática global. Veja os jogos de hoje",
+      "url": "https://www.spacemoney.com.br/investimentos/copa-movimenta-patrocinios-e-exposicao-global/",
+      "source": "SpaceMoney",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-27T10:11:54Z",
+      "updatedAt": "2026-06-27T10:11:54Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/06/pexels-photo-9590733.webp"
     },
     {
       "id": "latest-97349ffa675c8591c9302f54",
       "title": "Astros indicam cautela e oportunidades em 27/06",
-      "summary": "Mercados, no entanto, ainda tentam se ajustar à nova estratégia de comunicação da autoridade monetária",
-      "details": "Mercados, no entanto, ainda tentam se ajustar à nova estratégia de comunicação da autoridade monetária",
-      "url": "https://valor.globo.com/financas/intraday/post/2026/06/fed-de-warsh-inaugura-era-de-menos-orientacao-e-mais-incerteza-para-os-mercados.ghtml",
+      "summary": "Confira o horóscopo financeiro de hoje para todos os signos. Tendências de mercado, alertas de gastos e oportunidades de investimento.",
+      "details": "Confira o horóscopo financeiro de hoje para todos os signos. Tendências de mercado, alertas de gastos e oportunidades de investimento.",
+      "url": "https://www.spacemoney.com.br/horoscopo/horoscopo-financeiro-27-06-2026-aries-a-peixes/",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -667,14 +753,14 @@
       "updatedAt": "2026-06-27T09:30:36Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://s2-valor.glbimg.com/ZN-LXRCDMkzj2aJX4cX-8wb5kmY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/z/u/BHZIlFR5uLQzd0JLbDVg/foto13fin-101-warsh-c1.jpg"
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/06/pexels-photo-6764554-1.webp"
     },
     {
       "id": "latest-ef9db82d236170729d13b3cf",
       "title": "Fórum do BCE arranca segunda-feira: tarifas, Médio Oriente e juros no centro do debate",
-      "summary": "Confira o horóscopo financeiro de hoje para todos os signos. Tendências de mercado, alertas de gastos e oportunidades de investimento.",
-      "details": "Confira o horóscopo financeiro de hoje para todos os signos. Tendências de mercado, alertas de gastos e oportunidades de investimento.",
-      "url": "https://www.spacemoney.com.br/horoscopo/horoscopo-financeiro-27-06-2026-aries-a-peixes/",
+      "summary": "Atualizacao de ultima hora capturada em Expresso.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOW1BRmI5VE5qaGNNdERqdmZ1WDlodzdkQnM3aVFzQUh2NUNGSjhMWFpWMDhDLUtnZ2VMNTBzNXFfN2oxOXpuWWdXbW9CcS02UDJ1RlVHamdqY0VBWHZJUlFZblJ0Y0pGSm1LbDRNM3VKVDIwWFZDSW0yWV8zVmRBT2NGZGZFRzZFcFRFeUNBRUNhWFIxWndlTnhXZ1pNcEFodXdRWnJudjJKQzNhd1lzOHA5RU94Z1hfNUdBengtZXJjMmh5N1l3OUJoRjY3QQ?oc=5",
       "source": "Expresso",
       "category": "latest",
       "tags": [
@@ -685,33 +771,14 @@
       "publishedAt": "2026-06-27T09:17:00Z",
       "updatedAt": "2026-06-27T09:17:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/06/pexels-photo-6764554-1.webp"
-    },
-    {
-      "id": "funds-77c5a2013512fdd8f37d55e2",
-      "title": "Land Rover cria coleção exclusiva de quatro Defender V8 personalizados",
-      "summary": "Atualizacao de fundos capturada em turbo.pt.",
-      "details": "",
-      "url": "https://expresso.pt/economia/2026-06-27-forum-do-bce-arranca-segunda-feira-tarifas-medio-oriente-e-juros-no-centro-do-debate-15c84646",
-      "source": "turbo.pt",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-06-27T09:02:59Z",
-      "updatedAt": "2026-06-27T09:02:59Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-53c2c1ca2c619856092270cd",
       "title": "Brasil planeja emitir títulos em yuan pela primeira vez e amplia estratégia financeira com foco na China",
-      "summary": "Brasil planeja emitir títulos públicos em yuan pela primeira vez. Entenda o que são os Panda Bonds, os impactos para a dívida pública, a relação com a China e os possíveis reflexos para a economia brasileira.",
-      "details": "Brasil planeja emitir títulos públicos em yuan pela primeira vez. Entenda o que são os Panda Bonds, os impactos para a dívida pública, a relação com a China e os possíveis reflexos para a economia brasileira.",
-      "url": "https://jornalgrandebahia.com.br/2026/06/brasil-planeja-emitir-titulos-em-yuan-pela-primeira-vez-e-amplia-estrategia-financeira-com-foco-na-china/",
+      "summary": "Atualizacao de ultima hora capturada em Jornal Grande Bahia.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQemNZZ3RmbjU1b2hGbDB4dmZUMXFaWi1rMlF0OVNJbGhDSFBQRjNPREJzS0paOFUzNTdldDcxV25MTENmbkZaWjVzQi05S1JvajdtOHFiQmZRV3JnaHFuZFhYX0tHQ0RuZ0xaeUE5XzA3MUJLcm5qM1duVTNYblhkMThvOWRNaElhSWhzM0h4N3JmQW1WSVF6MlE2Q1dTTkc2ZHN4bVUwanJIS09PNDB4VzhxekRYS2JRT21LMTVicFQxOE1KcGtVX2xXTFQtdjg5Vk5aTTg2YTQ3TS1VQUdJ?oc=5",
       "source": "Jornal Grande Bahia",
       "category": "latest",
       "tags": [
@@ -722,15 +789,14 @@
       "publishedAt": "2026-06-27T09:00:43Z",
       "updatedAt": "2026-06-27T09:00:43Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://i0.wp.com/jornalgrandebahia.com.br/wp-content/uploads/2026/06/Brasil-planeja-emitir-titulos-em-yuan-pela-primeira-vez-20260623.jpg?fit=1200%2C800&quality=30&ssl=1"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-fc8b0d7b551a2adee9e28455",
       "title": "Mercado financeiro hoje: tarifas de Trump e inflação nos EUA impactam o Ibovespa",
-      "summary": "Com as commodities em baixa, o Ibovespa tende a se apoiar em NY em meio à agenda fraca",
-      "details": "Com as commodities em baixa, o Ibovespa tende a se apoiar em NY em meio à agenda fraca",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/mercado-financeiro-hoje-impacto-tarifas-trump-pce-dolar-commodities-ibovespa/",
+      "summary": "Atualizacao de ultima hora capturada em Estadão.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNV09YVmNYSWE5bnRLZzQ4Z1UzdDZEazRUYUhWc0Z4cG0yM2ptSG5yVXYxczhGb2tFcS1wNTA0RnlaLU9iSUtJMEF1NGFZRklKb2hFOTg2SWJtaVBYejBwWE41U05CWGRQSllCM1pGNHBIOGc5ZkRYcDZwOUFGWFNwWjBBWWozMWVNMVJHdmFrWUVJTW16clU4YlFrekltUDNvY0hGbjRZcDBnMXMxRVlGR0t4WWttTU9PN1l1TWdFaWJXcFNBQXFRMHJ2OUZiY0FL0gHWAUFVX3lxTE40d3NXVTUtcjNjZl9YYjVOaGNpcUQwazNncVhad0MwQnd2b0ppaXVINTlxUUVnb0w2V25RRGh5NG1WeTY4akFFbHFyZVZWcjN4RUx5bkRkUXN3dzR1YkE3Z0RraTQwSmdvV1lwLWhSbHZ2WjZwellXZFotMXJPMkUzdVNPSVNqRWxSejBPSDFHOFUxbmJQTlN4TU8xUWhZTEQ5Z2NtV1dGTWo0allJLTBUTm51aHBjcXJaNTdPdlU4c1VCMHZJb1VUZDJVb0EyRWpBd3pEQnc?oc=5",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -741,8 +807,7 @@
       "publishedAt": "2026-06-27T07:50:31Z",
       "updatedAt": "2026-06-27T07:50:31Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/M5E7PC2HGFPVFEWQMHOB7BCDFI.png?quality=80&auth=13bdff609adfa668e27dce7977ad722df6589b6f9b5e1340e9d8466eba2fdb63&width=1200&height=630&smart=true"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-cce89a73c9e9ce243f3703a8",
@@ -797,6 +862,24 @@
       "updatedAt": "2026-06-27T04:31:23Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "latest-6867b05ed1f520bc38ff229c",
+      "title": "Bitcoin hoje cai após Fed reforçar discurso duro sobre juros nos EUA",
+      "summary": "Atualizacao de ultima hora capturada em MSN.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNLWJxdkFJNDJGWENvaXRQVXJ4QmFKZ2ttSUM3TnNwVlFPOWozZ3FkdG9hNTRpQWlGVDV5Vk0zNDRJOUdfYlpSeTRnWksxbUFkcEk3TTZjN2ZJbTgzaV9Fek9VZ3NvMUM2VVRoTlc0LWFxSFpRSEZOTFViVS1QSktaUV9HQ3VtYUVvTlpPeGMwSktfOFN4UG1MNkdKZS00cWlrWDBWUWt5Sk9JazhLeHZtVWtaY2U5R3VYR1N3a1VKeXB2T3BDUmxyWnBvN2pWU0tybkxCVnROZmdJR3VfbElZeFIzMDdQYnV1R0lCbDVsNFNWQzh6OUJRXw?oc=5",
+      "source": "MSN",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-27T03:43:05Z",
+      "updatedAt": "2026-06-27T03:43:05Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-4dd1633ae39e0d00bd295f46",
@@ -871,60 +954,6 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "latest-cd8163c6caa2fab5bb4b4177",
-      "title": "Bolsas em máximas históricas: por que a guerra no Oriente Médio não derruba o mercado?",
-      "summary": "Atualizacao de ultima hora capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRnFHVHZYRkJ1TzhmXzU4NnhYakNtQUxXR0RTQkhzMHZ6a1JWejljdU04cHFuQnJhbUlUZ2NzRnZvVkZDRlJ4bWd3dUl3cElZa09XNkpId01obk85UkRyMVlGcy1zRnJENVNETmNaSFkxYnFYQ18yejlsdVhWdTRmUVRVQlJOM3VEcW1LQzhYaXFqVTM5d2xHT08xbmM1MF9vZjlzRjgxXy11eHBBazIw0gG0AUFVX3lxTFBWQU1aeVNxNnFBdFFjbkNkSEFLWHNjRlNFVHl6Uk95UDRzYnFwMXllTDRwRUJCVDNtRHpTcGVpYXRCZlY2d0xhQ3pxa2wxQnh0TVF4SFhCQUhiZ2JkYXp2ZzlNVGpKMlMwN3B5anVfWXNvWUNlc0htbnZUOTZsR0NwUUQ2OEpCYlRQZXpMYkp2U2pIY0FLOHUwOFg2OHhOU3lxbGdxaTVHSkI0Z2JLd0xDRjlMOQ?oc=5",
-      "source": "Estadão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-27T01:52:55Z",
-      "updatedAt": "2026-06-27T01:52:55Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-05d9fd6c3e82813804a19602",
-      "title": "Ibovespa hoje ignora guerra e sobe acima de 182 mil pontos, com impulso das ações da Petrobras e da Vale",
-      "summary": "Atualizacao de ultima hora capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdUtFZFNPQ2kxVXlBVXNIakI5VGRpQ243WEloVXBhWVRXdzZhOWxyZE02RHViTGgyc0hlQ2laeE1zVUpYdVZkY3p2YlZIc1dpVFNFZWdyekxUUm91TXJPNlpteDdmOUw1eFBDRDdwMkRDcWliQk1ndHdLZkI4aWhVRmdSMWZORXdMM3Excm5DM0dZWGJWdW5CZkhzeTQ5d2FZYUZwTkFybEZPQU04cU1hV1ZKajZCY2kxZHJzY0QwbkREbEwxcEFmTnJieGljeVhGQkhv0gHYAUFVX3lxTE5UQy1vNzVVam5NSk1LRWx5ajc2WV9HenFlYkJCOXRsV1pTY1VCSHY0akRSa2lxdjNrVXQtNG5yTy0zOHlYMmdWSEhwTDNzYUVZSVFWeHVpTFdZRDRqbjF3UkRpZ1ptQUNtYU5aNjVyRjg3c0dfS2lxcUNLZ1FUSHZISjFTcXkxbzBfcFRXck05MDN6VVd4U1oyWVZNVHU2QVg4eW0wN0ljN2IxTEd5bmV4amJtYXBMTmpOa01qY2VoWTNZbk5yalFURWpHQnd6NUpETlEtblJ5WA?oc=5",
-      "source": "Estadão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-27T01:46:13Z",
-      "updatedAt": "2026-06-27T01:46:13Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-7dedde6dbab374b189e702e1",
-      "title": "Ambiente externo mais defensivo e cautela doméstica pressionam o Ibovespa",
-      "summary": "Atualizacao de ultima hora capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcE51dDZrNFZVMnNRMHZrOWJGVEJ0Y2NjRmdOR1VkS2U5SE9OWmlqWXE2R2EzaV95RjY3cTQwdTNJYnZ0ZF9VUkhfMmlPbmJFeXV5YVhOQTN2SzdpemJ5SGgxSk1ZcTI0bV9aSWdwRXAxVW5LUEx1WkpFbDM1S09VSUFCMmZHdmlNZTZ5c0xyRC1EdHBGbHZYM1NBejRVMHVZNzVPd2dTVmpNSjBOVmdrU0RHOC1QSGkyekdoaVFXR0tsdUhmREJZVGdR0gHPAUFVX3lxTE9vVFVSSmwzaEJxNVlNakxHY3hmRVpSOE1MZThjYV9TT2VmVXVqdGZWQmV0UkFkWWRNTDh3bHBOTk5qYlR6cS1WaTRtUXBEeVkzSEM3WFlIeW96Z2RDVnNYU25sR3BNdllINFZZMERET0ZTOUNjMTZsSEhUU3QzUzI4Zm1tLWtMX0tJdzdPbGplVmV5N19oSjd5cURVRTlFWWFwTzhVQmpMSGZRSk9jZE84THAteUEzZTFQcGlyNTdhQnNfVkwyeFpUQ1ZCMXR0SQ?oc=5",
-      "source": "Estadão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-06-27T01:43:12Z",
-      "updatedAt": "2026-06-27T01:43:12Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "latest-455f1a2c9a6338eb6cb7c18c",
       "title": "Dow Jones perde força e fecha em queda após falas de presidente do Fed",
       "summary": "Atualizacao de ultima hora capturada em Estadão.",
@@ -997,6 +1026,24 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
+      "id": "latest-715fc1693836a36b0f4c008b",
+      "title": "Menos fôlego, mais dúvidas",
+      "summary": "Atualizacao de ultima hora capturada em Broadcast.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE56VGozZ3djWlFIUkxnRWFxU2k4WmRCTTRGU2c1VTRFVS0yOTJrUlBxekJuUDlpS0YzWm85VEU1enRwdW10SGd2TTdxbGZIUEFURnE1c1lUbDNTUTg1a2hwV0xHV2pVdw?oc=5",
+      "source": "Broadcast",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-06-27T00:41:51Z",
+      "updatedAt": "2026-06-27T00:41:51Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
       "id": "companies-9bb59616412ed6cd4581492e",
       "title": "Acordo Mercosul-União Europeia: MDIC inicia agenda nacional para ampliar oportunidades de negócios",
       "summary": "Atualizacao de empresas capturada em Comex do Brasil.",
@@ -1067,24 +1114,6 @@
       "updatedAt": "2026-06-26T23:07:20Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "funds-796596c2c2ff781ba71cf6c9",
-      "title": "Anbima: fundos têm captação líquida de R$ 48,5 bi em fevereiro e acumulam R$ 134,3 bilhões no ano",
-      "summary": "Atualizacao de fundos capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMDNnOGc0cWw3NlNHNkxrRXdpMXVDcExaa3pBb0ljSXhaNUhTWG9kRW9kQ1lqc3BFMlJ4OUltTHpYRlI0SG9pbkk5N082aFoxSUI5Mmo2Tl9GWmJndWd5SUhaWXNDUF9WWXB5Mkh6NVVrcWFndGVvNmJWWE5nWVIwRHkzYjlxVERjbFJMckUxMzJMRURJZjVKTGlyZFRta1NLSmhubFlYLUhDb2NOTEMta1IyYVlkc2PSAbwBQVVfeXFMTUkxWFJqcFAzS3RIa2JkR0pzbVFfX2l2WnRxX1J6ZWJ0THhrd19FdWRoNm52Q2wxTnFobURrY2Vvd0s4aDFZNDBxd0szdElMMU5UUWx2UjB6Z1NyV3lzc2dVY3prTWY2c0Fib0lEcjhkZHlQRk5UaTFoVVFWR193RjdPTXJRNnhrY3A4UjFPM0RTLXVjbUxPeFZBOEVFOGpOVE1YeWtzQklWa0FrY0F5Zk82SzFWbGEzempIUUg?oc=5",
-      "source": "Estadão",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-06-26T22:38:53Z",
-      "updatedAt": "2026-06-26T22:38:53Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "companies-071b8269a57a19c992e62890",
@@ -1193,6 +1222,24 @@
       "updatedAt": "2026-06-26T19:47:48Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "companies-1d2e8f932cccb9c564b8dacb",
+      "title": "Brasil abre posto tributário na China para ampliar comércio",
+      "summary": "Atualizacao de empresas capturada em Diario de Pernambuco.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTDJib0xWWmQtS2t6UDY3dDYxMEt6ZFZ3a3JDajZiY0FadVlWYmNSRVZnZHpISmNRU1Vmd1VNU1l2TTd1RkxzQXBQRmw3X21aYUpjNnFXOXBCWXdJX2JHbVFmVHctb2FYbFIwbzFIdGtTVXZISXBCNks5U2l2T01pRWh2Tk1DUW9LRWN1NzVDSkFzNGRIczkzNGZGNUt2clRRUUdiLXVXUm1rMzJCeWgwRzZaWC1FQ1g1LXVIZDZHSC1DT2lzWDZXbWVJZWo?oc=5",
+      "source": "Diario de Pernambuco",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-06-26T19:43:53Z",
+      "updatedAt": "2026-06-26T19:43:53Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-996d87140e1ac9b28289bacb",
@@ -1355,42 +1402,6 @@
       "updatedAt": "2026-06-26T18:41:39Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-7cad22435bc4114499384fc0",
-      "title": "NR 01 e fim da escala 6x1: especialista explica como as empresas devem se adaptar",
-      "summary": "Atualizacao de empresas capturada em Surgiu.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRE91RFhGTC02OG1ZWnEwZU05OHdTRVdOUUdpYWNHdzRyTkJGeE1GS1loeG4wTXpmQ242dk9PR3JWMTRZQnVBbTFGMW9DUzdzV3B5OVpyZFNqZWViT0w3a2J2bEUzRVBmVTRaN096WDhBcGVIdWpiZGg2ZjZOZkM5VDhrWS1fOTlZWTYtbTBfOGhMVWxJLVlIbXNCM25Ocm1GQnF0N1B5aTNxZ0xiYVZ6UExMU1RnRGc?oc=5",
-      "source": "Surgiu",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-06-26T18:36:00Z",
-      "updatedAt": "2026-06-26T18:36:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-96f3315cab80e313fb56dd74",
-      "title": "Guerra no Oriente Médio eleva custos para empresas brasileiras, aponta BC",
-      "summary": "Atualizacao de empresas capturada em DComercio.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYnFCMDVBb1Q3Si0yaDl4czJiOW1XQU90aGEwcmFwRE5hak83TkVzQlowdzhJYVpaTFg4aG90NEl6NTk1NVNoTXBENDlqb2RXV3hhRXRVUGFfSnJjbFBtSzBaWmJRMXlFdmY2dk8yT3BQd1pnaTJYNWJqaVluQ0pqeXdIa0VrLUxFMnQwNkQtX3Q3Z0owSzY5akxnWHUxUXgtTzNZU0ZDcU9OYURqRFZsQkNOQmI?oc=5",
-      "source": "DComercio",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-06-26T18:19:54Z",
-      "updatedAt": "2026-06-26T18:19:54Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     }
   ]
 }
