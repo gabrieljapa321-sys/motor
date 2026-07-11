@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-11T11:08:37Z",
-  "generatedAt": "2026-07-11T11:08:37Z",
+  "updatedAt": "2026-07-11T12:04:08Z",
+  "generatedAt": "2026-07-11T12:04:08Z",
   "categories": [
     {
       "id": "all",
@@ -25,6 +25,10 @@
   ],
   "sources": [
     {
+      "id": "a-revista",
+      "label": "A Revista"
+    },
+    {
       "id": "acionista-com-br",
       "label": "Acionista.com.br"
     },
@@ -43,6 +47,10 @@
     {
       "id": "bitget",
       "label": "Bitget"
+    },
+    {
+      "id": "bloomberg-l-nea-brasil",
+      "label": "Bloomberg Línea Brasil"
     },
     {
       "id": "bpmoney",
@@ -73,8 +81,16 @@
       "label": "Diário do Centro do Mundo"
     },
     {
+      "id": "drops-de-jogos",
+      "label": "Drops de Jogos"
+    },
+    {
       "id": "economic-news-brasil",
       "label": "Economic News Brasil"
+    },
+    {
+      "id": "empiricus",
+      "label": "Empiricus"
     },
     {
       "id": "entretetizei",
@@ -119,10 +135,6 @@
     {
       "id": "gzh",
       "label": "GZH"
-    },
-    {
-      "id": "icl-not-cias",
-      "label": "ICL Notícias"
     },
     {
       "id": "infomoney",
@@ -181,10 +193,6 @@
       "label": "O POVO+"
     },
     {
-      "id": "planetaosasco-com",
-      "label": "planetaosasco.com"
-    },
-    {
       "id": "plat-br",
       "label": "PlatôBR"
     },
@@ -195,6 +203,10 @@
     {
       "id": "radar-digital-bras-lia",
       "label": "RADAR DIGITAL BRASÍLIA"
+    },
+    {
+      "id": "seu-dinheiro",
+      "label": "Seu Dinheiro"
     },
     {
       "id": "times-brasil-cnbc",
@@ -231,11 +243,68 @@
   ],
   "items": [
     {
-      "id": "macro-8fa2b268155234efc279e8f5",
-      "title": "A promotora laicista está errada: o Estado não é fiscal da alma",
+      "id": "latest-0473073edb909d9ac9cda5c9",
+      "title": "Juros nas alturas? Donald Trump e Kevin Warsh podem mexer com seu bolso",
+      "summary": "No Empiricus Podca$t deste sábado (11), Laís Costa e Matheus Spiess explicam como as decisões de juros nos EUA podem afetar o Brasil",
+      "details": "No Empiricus Podca$t deste sábado (11), Laís Costa e Matheus Spiess explicam como as decisões de juros nos EUA podem afetar o Brasil",
+      "url": "https://www.empiricus.com.br/artigos/investimentos/juros-nas-alturas-donald-trump-e-kevin-warsh-podem-mexer-com-o-seu-bolso-em-2026-veja-o-que-esta-em-jogo-lbrdaz255/",
+      "source": "Empiricus",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-11T12:00:00Z",
+      "updatedAt": "2026-07-11T12:00:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.empiricus.com.br/uploads/2026/07/juros-estados-unidos-fed-trump-warsh.jpg"
+    },
+    {
+      "id": "macro-a1d510b0f1db7f65dc158a24",
+      "title": "CSN Mineração (CMIN3) dispara 20% na semana e lidera ganhos do Ibovespa, que também subiu após surpresa na inflação",
+      "summary": "Dólar cai 0,28% e fecha em R$ 5,10.",
+      "details": "Dólar cai 0,28% e fecha em R$ 5,10.",
+      "url": "https://www.conexaoitajuba.com.br/noticia/dolar-fecha-o-ultimo-pregao-aos-r-510-mrfkjonl",
+      "source": "Seu Dinheiro",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-11T11:52:38Z",
+      "updatedAt": "2026-07-11T11:52:38Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://conexao.s3.wasabisys.com/images/posts/1783763942248-6292ce716648b3a7.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=9KL9I7NXQB3Q8LZG5SMS%2F20260711%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260711T095903Z&X-Amz-Expires=604800&X-Amz-Signature=94fdfec33d04f7f2f90d69fac3a865f6012c2d08424b918c64756f33fa41a939&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+    },
+    {
+      "id": "funds-3be30ea63d5d48f40bc80fe6",
+      "title": "CEO da Lazard quer reformular a gestora. IA e novas contratações lideram a mudança",
       "summary": "Acompanhe as últimas notícias do Brasil e do mundo sobre política, economia e esportes. Leia também análises, opinião, estilo de vida e mais.",
       "details": "Acompanhe as últimas notícias do Brasil e do mundo sobre política, economia e esportes. Leia também análises, opinião, estilo de vida e mais.",
       "url": "https://www.gazetadopovo.com.br/vozes/cronicas-de-um-estado-laico/promotora-oracao-inconstitucional-religiao-laicismo/",
+      "source": "Bloomberg Línea Brasil",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-07-11T11:20:05Z",
+      "updatedAt": "2026-07-11T11:20:05Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/07/07211512/Promotora-repreende-apresentacao-de-criancas-em-duque-de-caxias-1.jpeg"
+    },
+    {
+      "id": "macro-8fa2b268155234efc279e8f5",
+      "title": "A promotora laicista está errada: o Estado não é fiscal da alma",
+      "summary": "Entre surpresa no IPCA, oscilação no preço do petróleo e pressão do Fed, o Ibovespa fechou no azul, com destaque para CSN Mineração.",
+      "details": "Entre surpresa no IPCA, oscilação no preço do petróleo e pressão do Fed, o Ibovespa fechou no azul, com destaque para CSN Mineração.",
+      "url": "https://www.seudinheiro.com/2026/bolsa-dolar/csn-mineracao-cmin3-dispara-20-na-semana-e-lidera-ganhos-do-ibovespa-que-tambem-subiu-apos-surpresa-na-inflacao-mlim/",
       "source": "Gazeta do Povo",
       "category": "macro",
       "tags": [
@@ -247,7 +316,7 @@
       "updatedAt": "2026-07-11T11:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/07/07211512/Promotora-repreende-apresentacao-de-criancas-em-duque-de-caxias-1.jpeg"
+      "imageUrl": "https://www.seudinheiro.com/uploads/2026/02/Mineradora-dinheiro-CSN-mineracao.jpg"
     },
     {
       "id": "latest-1a3e61d663c4b9fb01f10ef7",
@@ -271,9 +340,9 @@
     {
       "id": "macro-66452ee1038f014c40de421a",
       "title": "Concurso Prefeitura de Planalto da Serra (MT): vagas e edital",
-      "summary": "O alívio veio dos combustíveis",
-      "details": "O alívio veio dos combustíveis",
-      "url": "https://gauchazh.clicrbs.com.br/colunistas/giane-guerra/noticia/2026/07/inflacao-desacelera-no-rs-apesar-da-alta-da-energia-da-passagem-aerea-e-da-costela-cmrg2fb8t027p013vo33dqpk5.html",
+      "summary": "Chris Hogbin busca ampliar o uso de inteligência artificial para ganhar eficiência e melhorar o desempenho dos investimentos: ‘Os analistas passam muito tempo reunindo dados, menos tempo analisando essas informações e menos ainda refletindo sobre elas’, disse à Bloomberg News",
+      "details": "Chris Hogbin busca ampliar o uso de inteligência artificial para ganhar eficiência e melhorar o desempenho dos investimentos: ‘Os analistas passam muito tempo reunindo dados, menos tempo analisando essas informações e menos ainda refletindo sobre elas’, disse à Bloomberg News",
+      "url": "https://www.bloomberglinea.com.br/2026/07/11/ceo-da-lazard-quer-reformular-a-gestora-ia-e-novas-contratacoes-lideram-a-mudanca/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -285,7 +354,7 @@
       "updatedAt": "2026-07-11T10:13:47Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.rbsdirect.com.br/filestore/0/2/8/5/5/6/4_fed4cd9fbfcb389/4655820_ffc16ef0108eb89.jpg?w=1024&h=512&a=c&version=1575255600"
+      "imageUrl": "https://www.bloomberglinea.com/resizer/v2/US54DVOXYFDMDD5PQ4IKBG3LJQ.jpg?auth=47225784cdfcdc1a7a5f84e45f978cc44b91ee49840f931460a829125341dabe&width=1200&height=675&quality=80&focal=1478,231"
     },
     {
       "id": "macro-9f89f98634cef84d8660b579",
@@ -346,9 +415,9 @@
     {
       "id": "funds-8eb93095efb6bd49c3a0f4b2",
       "title": "As autoridades locais precisam se concentrar em acelerar o processo de indenização e liberar os fundos de investimento público.",
-      "summary": "Dólar cai 0,28% e fecha em R$ 5,10.",
-      "details": "Dólar cai 0,28% e fecha em R$ 5,10.",
-      "url": "https://www.conexaoitajuba.com.br/noticia/dolar-fecha-o-ultimo-pregao-aos-r-510-mrfkjonl",
+      "summary": "(CTO) - Na manhã de 11 de julho, o Sr. Le Cong Ly, membro do Comitê Permanente do Comitê do Partido da Cidade e Vice-Presidente Permanente do Comitê Popular da Cidade de Can Tho, participou e conduziu a reunião ampliada do Conselho Executivo do Comitê do Partido para resumir o tr",
+      "details": "(CTO) - Na manhã de 11 de julho, o Sr. Le Cong Ly, membro do Comitê Permanente do Comitê do Partido da Cidade e Vice-Presidente Permanente do Comitê Popular da Cidade de Can Tho, participou e conduziu a reunião ampliada do Conselho Executivo do Comitê do Partido para resumir o trabalho dos primeiros seis meses do ano e",
+      "url": "https://www.vietnam.vn/pt/cac-dia-phuong-can-tap-trung-day-nhanh-tien-do-boi-thuong-giai-ngan-von-dau-tu-cong",
       "source": "Vietnam.vn",
       "category": "funds",
       "tags": [
@@ -360,14 +429,14 @@
       "updatedAt": "2026-07-11T08:23:54Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://conexao.s3.wasabisys.com/images/posts/1783763942248-6292ce716648b3a7.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=9KL9I7NXQB3Q8LZG5SMS%2F20260711%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260711T095903Z&X-Amz-Expires=604800&X-Amz-Signature=94fdfec33d04f7f2f90d69fac3a865f6012c2d08424b918c64756f33fa41a939&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/11/1783756618265_1783756411.webp"
     },
     {
       "id": "macro-c47235dd8ce3588babcf4b49",
       "title": "Inflação desacelera no RS, apesar da alta da energia, da passagem aérea e da costela",
-      "summary": "(CTO) - Na manhã de 11 de julho, o Sr. Le Cong Ly, membro do Comitê Permanente do Comitê do Partido da Cidade e Vice-Presidente Permanente do Comitê Popular da Cidade de Can Tho, participou e conduziu a reunião ampliada do Conselho Executivo do Comitê do Partido para resumir o tr",
-      "details": "(CTO) - Na manhã de 11 de julho, o Sr. Le Cong Ly, membro do Comitê Permanente do Comitê do Partido da Cidade e Vice-Presidente Permanente do Comitê Popular da Cidade de Can Tho, participou e conduziu a reunião ampliada do Conselho Executivo do Comitê do Partido para resumir o trabalho dos primeiros seis meses do ano e",
-      "url": "https://www.vietnam.vn/pt/cac-dia-phuong-can-tap-trung-day-nhanh-tien-do-boi-thuong-giai-ngan-von-dau-tu-cong",
+      "summary": "O alívio veio dos combustíveis",
+      "details": "O alívio veio dos combustíveis",
+      "url": "https://gauchazh.clicrbs.com.br/colunistas/giane-guerra/noticia/2026/07/inflacao-desacelera-no-rs-apesar-da-alta-da-energia-da-passagem-aerea-e-da-costela-cmrg2fb8t027p013vo33dqpk5.html",
       "source": "GZH",
       "category": "macro",
       "tags": [
@@ -379,71 +448,14 @@
       "updatedAt": "2026-07-11T08:00:32Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/11/1783756618265_1783756411.webp"
-    },
-    {
-      "id": "funds-d6391670cf7b0cc066a648df",
-      "title": "Why Bitcoin’s ETF Inflows Signal Increased Institutional Interest",
-      "summary": "As notícias do Bitcoin destacam US $ 90,44 milhões em entradas líquidas em ETFs Spot dos EUA. Esta tendência ressalta o crescente interesse institucional em criptomoedas.",
-      "details": "As notícias do Bitcoin destacam US $ 90,44 milhões em entradas líquidas em ETFs Spot dos EUA. Esta tendência ressalta o crescente interesse institucional em criptomoedas.",
-      "url": "https://coinfomania.com/pt/why-bitcoins-etf-inflows-signal-increased-institutional-interest/",
-      "source": "Coinfomania",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-07-11T07:11:59Z",
-      "updatedAt": "2026-07-11T07:11:59Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://coinfomania.com/wp-content/uploads/trend-banner-54924cfb-139e-47a8-ab5c-1d375cc3affa-1783750433958.webp"
-    },
-    {
-      "id": "macro-b14f164b413f3396b5113f42",
-      "title": "Concurso Barão de Melgaço (MT): PS 2026 com 36 vagas",
-      "summary": "Barão de Melgaço (MT) abriu PS 2026 com 36 vagas na Educação Básica. Sem concurso efetivo previsto. Veja histórico e situação atual.",
-      "details": "Barão de Melgaço (MT) abriu PS 2026 com 36 vagas na Educação Básica. Sem concurso efetivo previsto. Veja histórico e situação atual.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-barao-de-melgaco/amp/",
-      "source": "Estratégia Concursos",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-11T06:47:44Z",
-      "updatedAt": "2026-07-11T06:47:44Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
-    },
-    {
-      "id": "macro-2fe5af1447ff9133f7e68c98",
-      "title": "Concurso Prefeitura de Tacuru (MS): histórico e vagas",
-      "summary": "Em conversas reservadas com investidores, ex-ministro sinaliza apoio a medidas de ajuste fiscal e busca convencer mercado de que eventual quarto mandato de Lula poderá ser mais responsável com contas públicas",
-      "details": "Em conversas reservadas com investidores, ex-ministro sinaliza apoio a medidas de ajuste fiscal e busca convencer mercado de que eventual quarto mandato de Lula poderá ser mais responsável com contas públicas",
-      "url": "https://www.cnnbrasil.com.br/blogs/lucinda-pinto/economia/macroeconomia/haddad-tenta-reconstruir-pontes-com-o-mercado/",
-      "source": "Estratégia Concursos",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-11T06:21:51Z",
-      "updatedAt": "2026-07-11T06:21:51Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2025binary_LYNXMPELAH0K9-BASEIMAGE.jpg?w=800&h=533&crop=1"
+      "imageUrl": "https://www.rbsdirect.com.br/filestore/0/2/8/5/5/6/4_fed4cd9fbfcb389/4655820_ffc16ef0108eb89.jpg?w=1024&h=512&a=c&version=1575255600"
     },
     {
       "id": "latest-6ced735f9b85ba50eae2e0c6",
       "title": "Haddad tenta reconstruir pontes com o mercado",
-      "summary": "Concurso Tacuru (MS): veja o histórico de editais da prefeitura, cargos, vagas e remuneração do último certame realizado no município.",
-      "details": "Concurso Tacuru (MS): veja o histórico de editais da prefeitura, cargos, vagas e remuneração do último certame realizado no município.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-tacuru/amp/",
+      "summary": "A inflação de junho teve como principal destaque a redução dos preços dos alimentos, fator que ampliou apostas de queda da Selic",
+      "details": "A inflação de junho teve como principal destaque a redução dos preços dos alimentos, fator que ampliou apostas de queda da Selic",
+      "url": "https://mais.opovo.com.br/jornal/economia/2026/07/11/inflacao-mais-fraca-reforca-expectativa-de-queda-da-selic-e-anima-mercado-financeiro.html",
       "source": "CNN Brasil",
       "category": "latest",
       "tags": [
@@ -455,7 +467,7 @@
       "updatedAt": "2026-07-11T06:16:16Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
+      "imageUrl": "https://www.opovo.com.br/_midias/jpg/2026/07/10/1600x900/1_super_mercado_21_13472932-41568352.jpg"
     },
     {
       "id": "latest-2bbd6f9a23a33567ab70f9fa",
@@ -477,11 +489,11 @@
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/Ibovespa-mercado-financeiro-bolsa-IA.png?w=1200&h=630&crop=1"
     },
     {
-      "id": "macro-4a5d87306f749764488247e3",
-      "title": "Concurso Bonito (MS): sem novo edital previsto",
-      "summary": "A Prefeitura de Bonito (MS) não tem concurso ou processo seletivo previsto. Confira o histórico e a situação atual.",
-      "details": "A Prefeitura de Bonito (MS) não tem concurso ou processo seletivo previsto. Confira o histórico e a situação atual.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-bonito-ms/amp/",
+      "id": "macro-eb7aab4d9bfbbbb001f2e84a",
+      "title": "Concursos 2026: mais de 160 mil vagas; salários de até R$ 30 mil!",
+      "summary": "Fique por dentro dos Concursos 2026: mais de 10 mil vagas previstas para as áreas fiscal, de controle, tribunais, policial, saúde e etc...",
+      "details": "Fique por dentro dos Concursos 2026: mais de 10 mil vagas previstas para as áreas fiscal, de controle, tribunais, policial, saúde e etc...",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concursos-2026/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -489,18 +501,18 @@
         "juros",
         "inflacao"
       ],
-      "publishedAt": "2026-07-11T05:32:03Z",
-      "updatedAt": "2026-07-11T05:32:03Z",
+      "publishedAt": "2026-07-11T04:53:10Z",
+      "updatedAt": "2026-07-11T04:53:10Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/05/05161312/concursos-2026.jpg"
     },
     {
       "id": "latest-6b985f676f2c243535b05948",
       "title": "Com alimentos em queda, inflação desacelera e Bolsa ganha força",
-      "summary": "A inflação de junho teve como principal destaque a redução dos preços dos alimentos, fator que ampliou apostas de queda da Selic",
-      "details": "A inflação de junho teve como principal destaque a redução dos preços dos alimentos, fator que ampliou apostas de queda da Selic",
-      "url": "https://mais.opovo.com.br/jornal/economia/2026/07/11/inflacao-mais-fraca-reforca-expectativa-de-queda-da-selic-e-anima-mercado-financeiro.html",
+      "summary": "A taxa foi menor apenas que as observadas em São Luís, Aracaju e Campo Grande, e teve uma diferença de 0,61 ponto percentual (p.p.) da nacional",
+      "details": "A taxa foi menor apenas que as observadas em São Luís, Aracaju e Campo Grande, e teve uma diferença de 0,61 ponto percentual (p.p.) da nacional",
+      "url": "https://mais.opovo.com.br/jornal/economia/2026/07/11/inflacao-da-grande-fortaleza-e-a-4-maior-do-brasil-no-semestre.html",
       "source": "O POVO+",
       "category": "latest",
       "tags": [
@@ -512,14 +524,14 @@
       "updatedAt": "2026-07-11T04:15:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.opovo.com.br/_midias/jpg/2026/07/10/1600x900/1_super_mercado_21_13472932-41568352.jpg"
+      "imageUrl": "https://www.opovo.com.br/_midias/jpg/2024/12/17/995x663/1_inflacao_mercado_alimentos050-31966657.jpg"
     },
     {
       "id": "macro-d69d0e1217059a10d335824b",
       "title": "Inflação da Grande Fortaleza é a 4ª maior do Brasil no semestre",
-      "summary": "A taxa foi menor apenas que as observadas em São Luís, Aracaju e Campo Grande, e teve uma diferença de 0,61 ponto percentual (p.p.) da nacional",
-      "details": "A taxa foi menor apenas que as observadas em São Luís, Aracaju e Campo Grande, e teve uma diferença de 0,61 ponto percentual (p.p.) da nacional",
-      "url": "https://mais.opovo.com.br/jornal/economia/2026/07/11/inflacao-da-grande-fortaleza-e-a-4-maior-do-brasil-no-semestre.html",
+      "summary": "Configuração atual da empresa é fruto do processo de unificação e fusão de diversas organizações importantes do setor",
+      "details": "Configuração atual da empresa é fruto do processo de unificação e fusão de diversas organizações importantes do setor",
+      "url": "https://tribunahoje.com/noticias/economia/2026/07/11/188950-brasil-bolsa-balcao-entenda-o-que-e-a-b3-e-sua-funcao-no-desenvolvimento-economico",
       "source": "O POVO+",
       "category": "macro",
       "tags": [
@@ -531,14 +543,14 @@
       "updatedAt": "2026-07-11T04:15:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.opovo.com.br/_midias/jpg/2024/12/17/995x663/1_inflacao_mercado_alimentos050-31966657.jpg"
+      "imageUrl": "https://img.tribunahoje.com/MtOhcsEsW0A1rWq1giS9-iYiLzw=/300x300/smart/s3.tribunahoje.com/uploads/imagens/b3-ilustracao-ibovespajpg.webp"
     },
     {
       "id": "macro-e64b7ca9634b9c7f7479c142",
       "title": "Guerra no Oriente Médio faz inflação no primeiro semestre ser a maior em 4 anos",
-      "summary": "Configuração atual da empresa é fruto do processo de unificação e fusão de diversas organizações importantes do setor",
-      "details": "Configuração atual da empresa é fruto do processo de unificação e fusão de diversas organizações importantes do setor",
-      "url": "https://tribunahoje.com/noticias/economia/2026/07/11/188950-brasil-bolsa-balcao-entenda-o-que-e-a-b3-e-sua-funcao-no-desenvolvimento-economico",
+      "summary": "Em conversas reservadas com investidores, ex-ministro sinaliza apoio a medidas de ajuste fiscal e busca convencer mercado de que eventual quarto mandato de Lula poderá ser mais responsável com contas públicas",
+      "details": "Em conversas reservadas com investidores, ex-ministro sinaliza apoio a medidas de ajuste fiscal e busca convencer mercado de que eventual quarto mandato de Lula poderá ser mais responsável com contas públicas",
+      "url": "https://www.cnnbrasil.com.br/blogs/lucinda-pinto/economia/macroeconomia/haddad-tenta-reconstruir-pontes-com-o-mercado/",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -550,7 +562,7 @@
       "updatedAt": "2026-07-11T03:40:44Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://img.tribunahoje.com/MtOhcsEsW0A1rWq1giS9-iYiLzw=/300x300/smart/s3.tribunahoje.com/uploads/imagens/b3-ilustracao-ibovespajpg.webp"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2025binary_LYNXMPELAH0K9-BASEIMAGE.jpg?w=800&h=533&crop=1"
     },
     {
       "id": "latest-2cb1befaaf591f0b419a44a4",
@@ -612,9 +624,9 @@
     {
       "id": "latest-1df9217475c6892e085f588a",
       "title": "Orquestra Chinesa de Shanghai apresenta “Cores da China”",
-      "summary": "Parte integrante da programação cultural oficial do Ano Cultural Brasil–China 2026, a Orquestra Chinesa de Shanghai chega em julho ao Brasil para suas primeiras apresentações no país. Fundada em 1952, é uma das primeiras orquestras modernas dedicadas à música tradicional chinesa ",
-      "details": "Parte integrante da programação cultural oficial do Ano Cultural Brasil–China 2026, a Orquestra Chinesa de Shanghai chega em julho ao Brasil para suas primeiras apresentações no país. Fundada em 1952, é uma das primeiras orquestras modernas dedicadas à música tradicional chinesa do país. A turnê passará pelo Rio de Jan",
-      "url": "https://www.broadcast.com.br/knewin-dino/orquestra-chinesa-de-shanghai-apresenta-cores-da-china/",
+      "summary": "Com tarifa de Trump, empresas devem revisar margens, custos e contratos para enfrentar cenário de maior incerteza.",
+      "details": "Com tarifa de Trump, empresas devem revisar margens, custos e contratos para enfrentar cenário de maior incerteza.",
+      "url": "https://timesbrasil.com.br/brasil/economia-brasileira/tarifa-de-25-dos-eua-exige-revisao-de-custos/",
       "source": "Broadcast",
       "category": "latest",
       "tags": [
@@ -626,14 +638,14 @@
       "updatedAt": "2026-07-11T02:59:50Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K5loAHPBXcG06twv4omNLKInfUecFcyXiEfH7HiFQ7rLrLZS18wwwhpMN6xdAzlknbqNp7rbgrz8fcgLNP1Ek0xe8bIke_t-QabGU8mDqb0sYZuvSRDky_1U08_55f5Z_o1.png"
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/07/0273c176-18.webp"
     },
     {
       "id": "companies-80059eea131bfd90e7ecc617",
       "title": "Tarifa de 25% dos EUA exige revisão de custos e mercados pelas empresas brasileiras",
-      "summary": "O mais recente resumo do mercado de ativos digitais da SEC da Tailândia revela o volume de negociação e os insights dos investidores.",
-      "details": "O mais recente resumo do mercado de ativos digitais da SEC da Tailândia revela o volume de negociação e os insights dos investidores.",
-      "url": "https://coinfomania.com/pt/thai-sec-releases-monthly-digital-asset-market-summary-what-this-could-unlock/",
+      "summary": "Um IPCA mais fraco do que o previsto foi suficiente para movimentar todo o mercado financeiro nesta sexta-feira (10). O Ibovespa reagiu com força e fechou em 177.866 pontos, alta de 2,97% — o melhor desempenho diário da bolsa em mais de três meses. Inflação abaixo do esperado der",
+      "details": "Um IPCA mais fraco do que o previsto foi suficiente para movimentar todo o mercado financeiro nesta sexta-feira (10). O Ibovespa reagiu com força e fechou em 177.866 pontos, alta de 2,97% — o melhor desempenho diário da bolsa em mais de três meses. Inflação abaixo do esperado derruba juros futuros O IPCA de junho […]",
+      "url": "https://moneyinvest.com.br/ibovespa-sobe-297-e-registra-maior-alta-em-tres-meses/",
       "source": "Times Brasil | CNBC",
       "category": "companies",
       "tags": [
@@ -645,14 +657,14 @@
       "updatedAt": "2026-07-11T02:45:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://coinfomania.com/wp-content/uploads/banner-45755f8d-efc6-4341-9ff2-3f72e29e5a0b-1783730372284.webp"
+      "imageUrl": "https://moneyinvest.com.br/wp-content/uploads/2024/04/acoes-1000x600.webp"
     },
     {
       "id": "latest-29e2286fa5752bab597c2d1c",
       "title": "Ibovespa sobe 2,97% e registra maior alta em três meses",
-      "summary": "Com tarifa de Trump, empresas devem revisar margens, custos e contratos para enfrentar cenário de maior incerteza.",
-      "details": "Com tarifa de Trump, empresas devem revisar margens, custos e contratos para enfrentar cenário de maior incerteza.",
-      "url": "https://timesbrasil.com.br/brasil/economia-brasileira/tarifa-de-25-dos-eua-exige-revisao-de-custos/",
+      "summary": "Parte integrante da programação cultural oficial do Ano Cultural Brasil–China 2026, a Orquestra Chinesa de Shanghai chega em julho ao Brasil para suas primeiras apresentações no país. Fundada em 1952, é uma das primeiras orquestras modernas dedicadas à música tradicional chinesa ",
+      "details": "Parte integrante da programação cultural oficial do Ano Cultural Brasil–China 2026, a Orquestra Chinesa de Shanghai chega em julho ao Brasil para suas primeiras apresentações no país. Fundada em 1952, é uma das primeiras orquestras modernas dedicadas à música tradicional chinesa do país. A turnê passará pelo Rio de Jan",
+      "url": "https://www.broadcast.com.br/knewin-dino/orquestra-chinesa-de-shanghai-apresenta-cores-da-china/",
       "source": "MoneyInvest",
       "category": "latest",
       "tags": [
@@ -664,7 +676,7 @@
       "updatedAt": "2026-07-11T02:34:41Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/07/0273c176-18.webp"
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K5loAHPBXcG06twv4omNLKInfUecFcyXiEfH7HiFQ7rLrLZS18wwwhpMN6xdAzlknbqNp7rbgrz8fcgLNP1Ek0xe8bIke_t-QabGU8mDqb0sYZuvSRDky_1U08_55f5Z_o1.png"
     },
     {
       "id": "macro-5aeae4d05b0f2282bed8753b",
@@ -688,9 +700,9 @@
     {
       "id": "macro-d1d591e9539ea54db6c59a17",
       "title": "Desaceleração da inflação abre espaço para valorização da bolsa de valores",
-      "summary": "Economista Ian Lopes afirma que desaceleração da inflação fortaleceu expectativa de corte da Selic e impulsionou o Ibovespa.",
-      "details": "Economista Ian Lopes afirma que desaceleração da inflação fortaleceu expectativa de corte da Selic e impulsionou o Ibovespa.",
-      "url": "https://timesbrasil.com.br/brasil/economia-brasileira/queda-da-inflacao-abre-espaco-para-valorizacao-da-bolsa/",
+      "summary": "Impulsionada por investimentos da XP Asset, a provedora brasileira de infraestrutura de missão crítica cria quatro frentes de negócios e renova lideranças para capturar a migração do ecossistema VMware e a forte demanda por capacidade de GPU",
+      "details": "Impulsionada por investimentos da XP Asset, a provedora brasileira de infraestrutura de missão crítica cria quatro frentes de negócios e renova lideranças para capturar a migração do ecossistema VMware e a forte demanda por capacidade de GPU",
+      "url": "https://adnews.com.br/post/eveo-reestrutura-area-comercial-para-acelerar-em-ia-e-private-cloud-apos-aporte-de-r-100-milhoes",
       "source": "Times Brasil | CNBC",
       "category": "macro",
       "tags": [
@@ -702,14 +714,14 @@
       "updatedAt": "2026-07-11T02:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/07/2628427b-20.webp"
+      "imageUrl": "https://adnews.nyc3.digitaloceanspaces.com/media/0332caf1f3e98bcd1c80e0c5e3190f95.webp"
     },
     {
       "id": "funds-f8e4493eeebf62494feaa285",
       "title": "EVEO reestrutura área comercial para acelerar em IA e Private Cloud após aporte de R$ 100 milhões",
-      "summary": "Um IPCA mais fraco do que o previsto foi suficiente para movimentar todo o mercado financeiro nesta sexta-feira (10). O Ibovespa reagiu com força e fechou em 177.866 pontos, alta de 2,97% — o melhor desempenho diário da bolsa em mais de três meses. Inflação abaixo do esperado der",
-      "details": "Um IPCA mais fraco do que o previsto foi suficiente para movimentar todo o mercado financeiro nesta sexta-feira (10). O Ibovespa reagiu com força e fechou em 177.866 pontos, alta de 2,97% — o melhor desempenho diário da bolsa em mais de três meses. Inflação abaixo do esperado derruba juros futuros O IPCA de junho […]",
-      "url": "https://moneyinvest.com.br/ibovespa-sobe-297-e-registra-maior-alta-em-tres-meses/",
+      "summary": "Economista Ian Lopes afirma que desaceleração da inflação fortaleceu expectativa de corte da Selic e impulsionou o Ibovespa.",
+      "details": "Economista Ian Lopes afirma que desaceleração da inflação fortaleceu expectativa de corte da Selic e impulsionou o Ibovespa.",
+      "url": "https://timesbrasil.com.br/brasil/economia-brasileira/queda-da-inflacao-abre-espaco-para-valorizacao-da-bolsa/",
       "source": "adnews.com.br",
       "category": "funds",
       "tags": [
@@ -721,14 +733,14 @@
       "updatedAt": "2026-07-11T01:59:44Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://moneyinvest.com.br/wp-content/uploads/2024/04/acoes-1000x600.webp"
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/07/2628427b-20.webp"
     },
     {
       "id": "funds-d3200b3b66a10d9ce2dc2fdf",
       "title": "SEC tailandesa publica resumo mensal do mercado de ativos digitais O que isso poderia desbloquear",
-      "summary": "Impulsionada por investimentos da XP Asset, a provedora brasileira de infraestrutura de missão crítica cria quatro frentes de negócios e renova lideranças para capturar a migração do ecossistema VMware e a forte demanda por capacidade de GPU",
-      "details": "Impulsionada por investimentos da XP Asset, a provedora brasileira de infraestrutura de missão crítica cria quatro frentes de negócios e renova lideranças para capturar a migração do ecossistema VMware e a forte demanda por capacidade de GPU",
-      "url": "https://adnews.com.br/post/eveo-reestrutura-area-comercial-para-acelerar-em-ia-e-private-cloud-apos-aporte-de-r-100-milhoes",
+      "summary": "Os exportadores poder&atilde;o ter acesso a cr&eacute;dito antecipado at&eacute; pouco mais de dois anos antes do embarque da mercadoria. Em reuni&atilde;o extraordin&aacute;ria nesta sexta-feira (10), o Conselho Monet&aacute;r",
+      "details": "Os exportadores poder&atilde;o ter acesso a cr&eacute;dito antecipado at&eacute; pouco mais de dois anos antes do embarque da mercadoria. Em reuni&atilde;o extraordin&aacute;ria nesta sexta-feira (10), o Conselho Monet&aacute;r",
+      "url": "https://www.gazetanews.com/noticias/economia/2026/07/amp/518847-prazo-de-credito-antecipado-para-exportadores-e-ampliado.html",
       "source": "Coinfomania",
       "category": "funds",
       "tags": [
@@ -739,15 +751,14 @@
       "publishedAt": "2026-07-11T01:50:44Z",
       "updatedAt": "2026-07-11T01:50:44Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://adnews.nyc3.digitaloceanspaces.com/media/0332caf1f3e98bcd1c80e0c5e3190f95.webp"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "companies-108495575eaa8332c2960dee",
       "title": "Prazo de crédito antecipado para exportadores é ampliado",
-      "summary": "Os exportadores poder&atilde;o ter acesso a cr&eacute;dito antecipado at&eacute; pouco mais de dois anos antes do embarque da mercadoria. Em reuni&atilde;o extraordin&aacute;ria nesta sexta-feira (10), o Conselho Monet&aacute;r",
-      "details": "Os exportadores poder&atilde;o ter acesso a cr&eacute;dito antecipado at&eacute; pouco mais de dois anos antes do embarque da mercadoria. Em reuni&atilde;o extraordin&aacute;ria nesta sexta-feira (10), o Conselho Monet&aacute;r",
-      "url": "https://www.gazetanews.com/noticias/economia/2026/07/amp/518847-prazo-de-credito-antecipado-para-exportadores-e-ampliado.html",
+      "summary": "O mais recente resumo do mercado de ativos digitais da SEC da Tailândia revela o volume de negociação e os insights dos investidores.",
+      "details": "O mais recente resumo do mercado de ativos digitais da SEC da Tailândia revela o volume de negociação e os insights dos investidores.",
+      "url": "https://coinfomania.com/pt/thai-sec-releases-monthly-digital-asset-market-summary-what-this-could-unlock/",
       "source": "Gazeta Brazilian News",
       "category": "companies",
       "tags": [
@@ -758,7 +769,8 @@
       "publishedAt": "2026-07-11T01:46:43Z",
       "updatedAt": "2026-07-11T01:46:43Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://coinfomania.com/wp-content/uploads/banner-45755f8d-efc6-4341-9ff2-3f72e29e5a0b-1783730372284.webp"
     },
     {
       "id": "latest-0a3fed0882a8a5ff498cf5b2",
@@ -887,6 +899,24 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
+      "id": "latest-b184832e5a03f9a4b0b1b048",
+      "title": "Dólar fecha em queda",
+      "summary": "Atualizacao de ultima hora capturada em Drops de Jogos.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE02RlRPOUlDU1diRnlkM0hQWHgzZkhRRWhRWkJrZVc0Y0VJTVNTWW13WFVsVGFwN25nMS1aQmctemREOEFycW1HcXNUNjRLVmlmTHNhSVZlYnFYbnJ2MFE1Q3VjZEZkQ3JCcGNxM3c1Y2s1Zw?oc=5",
+      "source": "Drops de Jogos",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-11T00:23:11Z",
+      "updatedAt": "2026-07-11T00:23:11Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
       "id": "latest-1051a4205e483216950c3c9e",
       "title": "O atrativo do setor financeiro: perspectivas de emprego, renda e futuras trajetórias de carreira.",
       "summary": "Atualizacao de ultima hora capturada em Vietnam.vn.",
@@ -959,24 +989,6 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "latest-dade2232975236b4cb174bc8",
-      "title": "Bolsa dispara e dólar cai após inflação surpreender",
-      "summary": "Atualizacao de ultima hora capturada em ICL Notícias.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ISU5oRzV6SXVxYkFXTnVJRzVxczhxejFrekJfUHZtYThuVXZRTFVJSTRHR1VqNVJUaHZDZ3BQR2xDR19uNDVSb1Y4d1hheW40eFdyY0FfNkdGUEMwWWxaRlh4TjFEWnVCY2c5VnAzMFFLVWQ2YzdkQQ?oc=5",
-      "source": "ICL Notícias",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-10T23:46:32Z",
-      "updatedAt": "2026-07-10T23:46:32Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "latest-7035afdd6cc99c363dbbe6ea",
       "title": "Ibovespa fecha em alta expressiva após dados da inflação surpreenderem o mercado",
       "summary": "Atualizacao de ultima hora capturada em n1n.com.br.",
@@ -1029,24 +1041,6 @@
       "updatedAt": "2026-07-10T23:18:03Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "latest-88bebeffa64e3fbde41f939f",
-      "title": "Mercado financeiro brasileiro fecha em alta com IPCA abaixo do esperado",
-      "summary": "Atualizacao de ultima hora capturada em planetaosasco.com.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNTRJbkFJcV9XTTdudFRVbzl4QjgtQkZDNmlyZ1RsVUpfeUZmb1RYUXJfbHc5am9Rb21JWENUQUc4QkwwYnpER0poMU5mYkNaQk96eUtYTnN6TDlVZHlkSlJfUHNzY2Y5Q1V2VHBVRWJibmRTdUU2bllFTGpDWFVrMHJTOWpDUVpHMUxWNFp0alM2dTJDWlZpcXI4cTBQblN4QndHM1BiNlF2YmZqRV9MWXVrTQ?oc=5",
-      "source": "planetaosasco.com",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-10T23:13:44Z",
-      "updatedAt": "2026-07-10T23:13:44Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-18d35c63558240e76ffb9074",
@@ -1405,6 +1399,24 @@
       ],
       "publishedAt": "2026-07-10T15:55:00Z",
       "updatedAt": "2026-07-10T15:55:00Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "funds-e4d9f37a4f08f3af2ab4dc98",
+      "title": "XPML11 ou HGBS11: qual fundo imobiliário de shopping está mais atrativo para comprar?",
+      "summary": "Atualizacao de fundos capturada em A Revista.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSWcyMmNPb3BJTmdFWmlocGNBRWZRekNmRl80c2lEYlUyODhibmxVeEZXUlcyQWhrQm9oaE5SQ3pteVd2TUw2YTRpR3hBMVpId1ljSlRhYmdVbV9ySDlrS25lTS1VaUdBWUp2ZWRXLVp5cHdXZzVFM2s1QmNsRVVoekt0c1BRNEY4Y3hJSXNwTjNLdUJ2WXN2NFhHc2tPWDlyOTFtb0F4NnpyU2ljOWNkU21Jdw?oc=5",
+      "source": "A Revista",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-07-10T15:45:25Z",
+      "updatedAt": "2026-07-10T15:45:25Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     }
