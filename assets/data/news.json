@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-11T06:35:41Z",
-  "generatedAt": "2026-07-11T06:35:41Z",
+  "updatedAt": "2026-07-11T08:27:39Z",
+  "generatedAt": "2026-07-11T08:27:39Z",
   "categories": [
     {
       "id": "all",
@@ -53,10 +53,6 @@
       "label": "Associação Comercial e Industrial de Araçatuba"
     },
     {
-      "id": "averdade-com",
-      "label": "averdade.com"
-    },
-    {
       "id": "bpmoney",
       "label": "BPMoney"
     },
@@ -79,6 +75,10 @@
     {
       "id": "cnn-brasil",
       "label": "CNN Brasil"
+    },
+    {
+      "id": "coinfomania",
+      "label": "Coinfomania"
     },
     {
       "id": "di-rio-do-centro-do-mundo",
@@ -105,10 +105,6 @@
       "label": "Fiis"
     },
     {
-      "id": "foco-nacional",
-      "label": "Foco Nacional"
-    },
-    {
       "id": "folha-de-s-paulo",
       "label": "Folha de S.Paulo"
     },
@@ -119,6 +115,10 @@
     {
       "id": "gazeta-brazilian-news",
       "label": "Gazeta Brazilian News"
+    },
+    {
+      "id": "gzh",
+      "label": "GZH"
     },
     {
       "id": "icl-not-cias",
@@ -201,16 +201,16 @@
       "label": "Times Brasil | CNBC"
     },
     {
-      "id": "tmgm",
-      "label": "TMGM"
-    },
-    {
       "id": "tribuna-do-paran",
       "label": "Tribuna do Paraná"
     },
     {
       "id": "tribuna-hoje",
       "label": "Tribuna Hoje"
+    },
+    {
+      "id": "turbo-pt",
+      "label": "turbo.pt"
     },
     {
       "id": "uol-economia",
@@ -235,30 +235,49 @@
   ],
   "items": [
     {
-      "id": "latest-6ced735f9b85ba50eae2e0c6",
-      "title": "Haddad tenta reconstruir pontes com o mercado",
+      "id": "macro-c47235dd8ce3588babcf4b49",
+      "title": "Inflação desacelera no RS, apesar da alta da energia, da passagem aérea e da costela",
       "summary": "Após registrarem melhor trimestre da história, fabricantes de chips demonstram hesitação e dificuldades enquanto investidores realizam lucros",
       "details": "Após registrarem melhor trimestre da história, fabricantes de chips demonstram hesitação e dificuldades enquanto investidores realizam lucros",
       "url": "https://www.cnnbrasil.com.br/economia/mercado/wall-street-maior-rali-do-ano-perde-forca-o-que-vem-a-seguir/",
-      "source": "CNN Brasil",
-      "category": "latest",
+      "source": "GZH",
+      "category": "macro",
       "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-11T08:00:32Z",
+      "updatedAt": "2026-07-11T08:00:32Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/Ibovespa-mercado-financeiro-bolsa-IA.png?w=1200&h=630&crop=1"
+    },
+    {
+      "id": "macro-699596958318191ae344dc90",
+      "title": "Haddad tenta reconstruir pontes com o mercado",
+      "summary": "Em conversas reservadas com investidores, ex-ministro sinaliza apoio a medidas de ajuste fiscal e busca convencer mercado de que eventual quarto mandato de Lula poderá ser mais responsável com contas públicas",
+      "details": "Em conversas reservadas com investidores, ex-ministro sinaliza apoio a medidas de ajuste fiscal e busca convencer mercado de que eventual quarto mandato de Lula poderá ser mais responsável com contas públicas",
+      "url": "https://www.cnnbrasil.com.br/blogs/lucinda-pinto/economia/macroeconomia/haddad-tenta-reconstruir-pontes-com-o-mercado/",
+      "source": "CNN Brasil",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
       ],
       "publishedAt": "2026-07-11T06:16:16Z",
       "updatedAt": "2026-07-11T06:16:16Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/Ibovespa-mercado-financeiro-bolsa-IA.png?w=1200&h=630&crop=1"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2025binary_LYNXMPELAH0K9-BASEIMAGE.jpg?w=800&h=533&crop=1"
     },
     {
       "id": "latest-2bbd6f9a23a33567ab70f9fa",
       "title": "Wall Street: Maior rali do ano perde força; o que vem a seguir?",
-      "summary": "Em conversas reservadas com investidores, ex-ministro sinaliza apoio a medidas de ajuste fiscal e busca convencer mercado de que eventual quarto mandato de Lula poderá ser mais responsável com contas públicas",
-      "details": "Em conversas reservadas com investidores, ex-ministro sinaliza apoio a medidas de ajuste fiscal e busca convencer mercado de que eventual quarto mandato de Lula poderá ser mais responsável com contas públicas",
-      "url": "https://www.cnnbrasil.com.br/blogs/lucinda-pinto/economia/macroeconomia/haddad-tenta-reconstruir-pontes-com-o-mercado/",
+      "summary": "O alívio veio dos combustíveis",
+      "details": "O alívio veio dos combustíveis",
+      "url": "https://gauchazh.clicrbs.com.br/colunistas/giane-guerra/noticia/2026/07/inflacao-desacelera-no-rs-apesar-da-alta-da-energia-da-passagem-aerea-e-da-costela-cmrg2fb8t027p013vo33dqpk5.html",
       "source": "CNN Brasil",
       "category": "latest",
       "tags": [
@@ -270,14 +289,14 @@
       "updatedAt": "2026-07-11T06:13:35Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2025binary_LYNXMPELAH0K9-BASEIMAGE.jpg?w=800&h=533&crop=1"
+      "imageUrl": "https://www.rbsdirect.com.br/filestore/0/2/8/5/5/6/4_fed4cd9fbfcb389/4655820_ffc16ef0108eb89.jpg?w=1024&h=512&a=c&version=1575255600"
     },
     {
       "id": "macro-4a5d87306f749764488247e3",
       "title": "Concurso Bonito (MS): sem novo edital previsto",
-      "summary": "A inflação de junho teve como principal destaque a redução dos preços dos alimentos, fator que ampliou apostas de queda da Selic",
-      "details": "A inflação de junho teve como principal destaque a redução dos preços dos alimentos, fator que ampliou apostas de queda da Selic",
-      "url": "https://mais.opovo.com.br/jornal/economia/2026/07/11/inflacao-mais-fraca-reforca-expectativa-de-queda-da-selic-e-anima-mercado-financeiro.html",
+      "summary": "IPCA de junho surpreendeu analistas ao ficar abaixo das estimativas. No entanto, Serviços seguem pressionados e risco de El Niño preocupa para o segundo semestre",
+      "details": "IPCA de junho surpreendeu analistas ao ficar abaixo das estimativas. No entanto, Serviços seguem pressionados e risco de El Niño preocupa para o segundo semestre",
+      "url": "https://oglobo.globo.com/economia/noticia/2026/07/11/recuo-da-inflacao-reforca-avaliacao-de-que-o-bc-pode-voltar-a-cortar-os-juros-na-proxima-reuniao-do-copom.ghtml",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -289,14 +308,14 @@
       "updatedAt": "2026-07-11T05:32:03Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.opovo.com.br/_midias/jpg/2026/07/10/1600x900/1_super_mercado_21_13472932-41568352.jpg"
+      "imageUrl": "https://s2-oglobo.glbimg.com/TOid-Ao_Qh2eGELIcOWPgFmh9ek=/4500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/H/h/YpBBWGQYCOr9WQQQjevw/398288813.jpg"
     },
     {
       "id": "latest-6b985f676f2c243535b05948",
       "title": "Com alimentos em queda, inflação desacelera e Bolsa ganha força",
-      "summary": "A Prefeitura de Bonito (MS) não tem concurso ou processo seletivo previsto. Confira o histórico e a situação atual.",
-      "details": "A Prefeitura de Bonito (MS) não tem concurso ou processo seletivo previsto. Confira o histórico e a situação atual.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-bonito-ms/amp/",
+      "summary": "A inflação de junho teve como principal destaque a redução dos preços dos alimentos, fator que ampliou apostas de queda da Selic",
+      "details": "A inflação de junho teve como principal destaque a redução dos preços dos alimentos, fator que ampliou apostas de queda da Selic",
+      "url": "https://mais.opovo.com.br/jornal/economia/2026/07/11/inflacao-mais-fraca-reforca-expectativa-de-queda-da-selic-e-anima-mercado-financeiro.html",
       "source": "O POVO+",
       "category": "latest",
       "tags": [
@@ -308,14 +327,14 @@
       "updatedAt": "2026-07-11T04:15:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
+      "imageUrl": "https://www.opovo.com.br/_midias/jpg/2026/07/10/1600x900/1_super_mercado_21_13472932-41568352.jpg"
     },
     {
       "id": "macro-d69d0e1217059a10d335824b",
       "title": "Inflação da Grande Fortaleza é a 4ª maior do Brasil no semestre",
-      "summary": "A taxa foi menor apenas que as observadas em São Luís, Aracaju e Campo Grande, e teve uma diferença de 0,61 ponto percentual (p.p.) da nacional",
-      "details": "A taxa foi menor apenas que as observadas em São Luís, Aracaju e Campo Grande, e teve uma diferença de 0,61 ponto percentual (p.p.) da nacional",
-      "url": "https://mais.opovo.com.br/jornal/economia/2026/07/11/inflacao-da-grande-fortaleza-e-a-4-maior-do-brasil-no-semestre.html",
+      "summary": "A Prefeitura de Bonito (MS) não tem concurso ou processo seletivo previsto. Confira o histórico e a situação atual.",
+      "details": "A Prefeitura de Bonito (MS) não tem concurso ou processo seletivo previsto. Confira o histórico e a situação atual.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-bonito-ms/amp/",
       "source": "O POVO+",
       "category": "macro",
       "tags": [
@@ -327,14 +346,14 @@
       "updatedAt": "2026-07-11T04:15:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.opovo.com.br/_midias/jpg/2024/12/17/995x663/1_inflacao_mercado_alimentos050-31966657.jpg"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
     },
     {
       "id": "macro-e64b7ca9634b9c7f7479c142",
       "title": "Guerra no Oriente Médio faz inflação no primeiro semestre ser a maior em 4 anos",
-      "summary": "Alimentos e gasolina puxaram o índice pra cima",
-      "details": "Alimentos e gasolina puxaram o índice pra cima",
-      "url": "https://g1.globo.com/google/amp/jornal-da-globo/video/guerra-no-oriente-medio-faz-inflacao-no-primeiro-semestre-ser-a-maior-em-4-anos-14771418.ghtml",
+      "summary": "A taxa foi menor apenas que as observadas em São Luís, Aracaju e Campo Grande, e teve uma diferença de 0,61 ponto percentual (p.p.) da nacional",
+      "details": "A taxa foi menor apenas que as observadas em São Luís, Aracaju e Campo Grande, e teve uma diferença de 0,61 ponto percentual (p.p.) da nacional",
+      "url": "https://mais.opovo.com.br/jornal/economia/2026/07/11/inflacao-da-grande-fortaleza-e-a-4-maior-do-brasil-no-semestre.html",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -346,14 +365,14 @@
       "updatedAt": "2026-07-11T03:40:44Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s03.video.glbimg.com/x720/14771418.jpg"
+      "imageUrl": "https://www.opovo.com.br/_midias/jpg/2024/12/17/995x663/1_inflacao_mercado_alimentos050-31966657.jpg"
     },
     {
       "id": "latest-2cb1befaaf591f0b419a44a4",
       "title": "Brasil, Bolsa, Balcão: entenda o que é a B3 e sua função no desenvolvimento econômico",
-      "summary": "Configuração atual da empresa é fruto do processo de unificação e fusão de diversas organizações importantes do setor",
-      "details": "Configuração atual da empresa é fruto do processo de unificação e fusão de diversas organizações importantes do setor",
-      "url": "https://tribunahoje.com/noticias/economia/2026/07/11/188950-brasil-bolsa-balcao-entenda-o-que-e-a-b3-e-sua-funcao-no-desenvolvimento-economico",
+      "summary": "Alimentos e gasolina puxaram o índice pra cima",
+      "details": "Alimentos e gasolina puxaram o índice pra cima",
+      "url": "https://g1.globo.com/google/amp/jornal-da-globo/video/guerra-no-oriente-medio-faz-inflacao-no-primeiro-semestre-ser-a-maior-em-4-anos-14771418.ghtml",
       "source": "Tribuna Hoje",
       "category": "latest",
       "tags": [
@@ -365,14 +384,14 @@
       "updatedAt": "2026-07-11T03:33:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://img.tribunahoje.com/MtOhcsEsW0A1rWq1giS9-iYiLzw=/300x300/smart/s3.tribunahoje.com/uploads/imagens/b3-ilustracao-ibovespajpg.webp"
+      "imageUrl": "https://s03.video.glbimg.com/x720/14771418.jpg"
     },
     {
       "id": "macro-a4bbbb036ef1b12189c5f2be",
       "title": "Inflação e eleição: os riscos para Lula apesar da trégua de junho",
-      "summary": "O resultado da inflação de junho garantiu uma trégua momentânea para o presidente Luiz Inácio Lula da Silva, mas os riscos no radar trazem pressões altistas.",
-      "details": "O resultado da inflação de junho garantiu uma trégua momentânea para o presidente Luiz Inácio Lula da Silva, mas os riscos no radar trazem pressões altistas.",
-      "url": "https://platobr.com.br/inflacao-de-junho-garante-tregua-para-lula-mas-el-nino-e-petroleo-ainda-sao-riscos",
+      "summary": "Configuração atual da empresa é fruto do processo de unificação e fusão de diversas organizações importantes do setor",
+      "details": "Configuração atual da empresa é fruto do processo de unificação e fusão de diversas organizações importantes do setor",
+      "url": "https://tribunahoje.com/noticias/economia/2026/07/11/188950-brasil-bolsa-balcao-entenda-o-que-e-a-b3-e-sua-funcao-no-desenvolvimento-economico",
       "source": "PlatôBR",
       "category": "macro",
       "tags": [
@@ -384,14 +403,14 @@
       "updatedAt": "2026-07-11T03:26:30Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://platobr.com.br/wp-content/uploads/2026/06/55327086164-b7e5c716af-o-1200x630.jpg"
+      "imageUrl": "https://img.tribunahoje.com/MtOhcsEsW0A1rWq1giS9-iYiLzw=/300x300/smart/s3.tribunahoje.com/uploads/imagens/b3-ilustracao-ibovespajpg.webp"
     },
     {
       "id": "macro-7265ab73023b8fc44f611086",
       "title": "Recuo da inflação reforça avaliação de que o BC pode voltar a cortar os juros na próxima reunião do Copom",
-      "summary": "IPCA de junho surpreendeu analistas ao ficar abaixo das estimativas. No entanto, Serviços seguem pressionados e risco de El Niño preocupa para o segundo semestre",
-      "details": "IPCA de junho surpreendeu analistas ao ficar abaixo das estimativas. No entanto, Serviços seguem pressionados e risco de El Niño preocupa para o segundo semestre",
-      "url": "https://oglobo.globo.com/economia/noticia/2026/07/11/recuo-da-inflacao-reforca-avaliacao-de-que-o-bc-pode-voltar-a-cortar-os-juros-na-proxima-reuniao-do-copom.ghtml",
+      "summary": "O resultado da inflação de junho garantiu uma trégua momentânea para o presidente Luiz Inácio Lula da Silva, mas os riscos no radar trazem pressões altistas.",
+      "details": "O resultado da inflação de junho garantiu uma trégua momentânea para o presidente Luiz Inácio Lula da Silva, mas os riscos no radar trazem pressões altistas.",
+      "url": "https://platobr.com.br/inflacao-de-junho-garante-tregua-para-lula-mas-el-nino-e-petroleo-ainda-sao-riscos",
       "source": "O GLOBO",
       "category": "macro",
       "tags": [
@@ -403,14 +422,14 @@
       "updatedAt": "2026-07-11T03:00:12Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-oglobo.glbimg.com/TOid-Ao_Qh2eGELIcOWPgFmh9ek=/4500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/H/h/YpBBWGQYCOr9WQQQjevw/398288813.jpg"
+      "imageUrl": "https://platobr.com.br/wp-content/uploads/2026/06/55327086164-b7e5c716af-o-1200x630.jpg"
     },
     {
       "id": "latest-1df9217475c6892e085f588a",
       "title": "Orquestra Chinesa de Shanghai apresenta “Cores da China”",
-      "summary": "Parte integrante da programação cultural oficial do Ano Cultural Brasil–China 2026, a Orquestra Chinesa de Shanghai chega em julho ao Brasil para suas primeiras apresentações no país. Fundada em 1952, é uma das primeiras orquestras modernas dedicadas à música tradicional chinesa ",
-      "details": "Parte integrante da programação cultural oficial do Ano Cultural Brasil–China 2026, a Orquestra Chinesa de Shanghai chega em julho ao Brasil para suas primeiras apresentações no país. Fundada em 1952, é uma das primeiras orquestras modernas dedicadas à música tradicional chinesa do país. A turnê passará pelo Rio de Jan",
-      "url": "https://www.broadcast.com.br/knewin-dino/orquestra-chinesa-de-shanghai-apresenta-cores-da-china/",
+      "summary": "Impulsionada por investimentos da XP Asset, a provedora brasileira de infraestrutura de missão crítica cria quatro frentes de negócios e renova lideranças para capturar a migração do ecossistema VMware e a forte demanda por capacidade de GPU",
+      "details": "Impulsionada por investimentos da XP Asset, a provedora brasileira de infraestrutura de missão crítica cria quatro frentes de negócios e renova lideranças para capturar a migração do ecossistema VMware e a forte demanda por capacidade de GPU",
+      "url": "https://adnews.com.br/post/eveo-reestrutura-area-comercial-para-acelerar-em-ia-e-private-cloud-apos-aporte-de-r-100-milhoes",
       "source": "Broadcast",
       "category": "latest",
       "tags": [
@@ -422,14 +441,14 @@
       "updatedAt": "2026-07-11T02:59:50Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K5loAHPBXcG06twv4omNLKInfUecFcyXiEfH7HiFQ7rLrLZS18wwwhpMN6xdAzlknbqNp7rbgrz8fcgLNP1Ek0xe8bIke_t-QabGU8mDqb0sYZuvSRDky_1U08_55f5Z_o1.png"
+      "imageUrl": "https://adnews.nyc3.digitaloceanspaces.com/media/0332caf1f3e98bcd1c80e0c5e3190f95.webp"
     },
     {
       "id": "companies-80059eea131bfd90e7ecc617",
       "title": "Tarifa de 25% dos EUA exige revisão de custos e mercados pelas empresas brasileiras",
-      "summary": "Subida de preços em junho ficou abaixo das expectativas do mercado financeiro",
-      "details": "Subida de preços em junho ficou abaixo das expectativas do mercado financeiro",
-      "url": "https://www1.folha.uol.com.br/mercado/2026/07/com-el-nino-governo-deve-elevar-projecao-oficial-de-inflacao-apesar-da-desaceleracao-em-junho.shtml",
+      "summary": "Parte integrante da programação cultural oficial do Ano Cultural Brasil–China 2026, a Orquestra Chinesa de Shanghai chega em julho ao Brasil para suas primeiras apresentações no país. Fundada em 1952, é uma das primeiras orquestras modernas dedicadas à música tradicional chinesa ",
+      "details": "Parte integrante da programação cultural oficial do Ano Cultural Brasil–China 2026, a Orquestra Chinesa de Shanghai chega em julho ao Brasil para suas primeiras apresentações no país. Fundada em 1952, é uma das primeiras orquestras modernas dedicadas à música tradicional chinesa do país. A turnê passará pelo Rio de Jan",
+      "url": "https://www.broadcast.com.br/knewin-dino/orquestra-chinesa-de-shanghai-apresenta-cores-da-china/",
       "source": "Times Brasil | CNBC",
       "category": "companies",
       "tags": [
@@ -441,14 +460,14 @@
       "updatedAt": "2026-07-11T02:45:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/10/17837150996a51551b5f1e7_1783715099_3x2_rt.jpg"
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K5loAHPBXcG06twv4omNLKInfUecFcyXiEfH7HiFQ7rLrLZS18wwwhpMN6xdAzlknbqNp7rbgrz8fcgLNP1Ek0xe8bIke_t-QabGU8mDqb0sYZuvSRDky_1U08_55f5Z_o1.png"
     },
     {
       "id": "macro-5aeae4d05b0f2282bed8753b",
       "title": "Com El Niño, governo deve elevar projeção oficial de inflação apesar da desaceleração em junho",
-      "summary": "Economista Ian Lopes afirma que desaceleração da inflação fortaleceu expectativa de corte da Selic e impulsionou o Ibovespa.",
-      "details": "Economista Ian Lopes afirma que desaceleração da inflação fortaleceu expectativa de corte da Selic e impulsionou o Ibovespa.",
-      "url": "https://timesbrasil.com.br/brasil/economia-brasileira/queda-da-inflacao-abre-espaco-para-valorizacao-da-bolsa/",
+      "summary": "Subida de preços em junho ficou abaixo das expectativas do mercado financeiro",
+      "details": "Subida de preços em junho ficou abaixo das expectativas do mercado financeiro",
+      "url": "https://www1.folha.uol.com.br/mercado/2026/07/com-el-nino-governo-deve-elevar-projecao-oficial-de-inflacao-apesar-da-desaceleracao-em-junho.shtml",
       "source": "Folha de S.Paulo",
       "category": "macro",
       "tags": [
@@ -460,7 +479,7 @@
       "updatedAt": "2026-07-11T02:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/07/2628427b-20.webp"
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/10/17837150996a51551b5f1e7_1783715099_3x2_rt.jpg"
     },
     {
       "id": "macro-d1d591e9539ea54db6c59a17",
@@ -484,9 +503,9 @@
     {
       "id": "funds-f8e4493eeebf62494feaa285",
       "title": "EVEO reestrutura área comercial para acelerar em IA e Private Cloud após aporte de R$ 100 milhões",
-      "summary": "Impulsionada por investimentos da XP Asset, a provedora brasileira de infraestrutura de missão crítica cria quatro frentes de negócios e renova lideranças para capturar a migração do ecossistema VMware e a forte demanda por capacidade de GPU",
-      "details": "Impulsionada por investimentos da XP Asset, a provedora brasileira de infraestrutura de missão crítica cria quatro frentes de negócios e renova lideranças para capturar a migração do ecossistema VMware e a forte demanda por capacidade de GPU",
-      "url": "https://adnews.com.br/post/eveo-reestrutura-area-comercial-para-acelerar-em-ia-e-private-cloud-apos-aporte-de-r-100-milhoes",
+      "summary": "O mais recente resumo do mercado de ativos digitais da SEC da Tailândia revela o volume de negociação e os insights dos investidores.",
+      "details": "O mais recente resumo do mercado de ativos digitais da SEC da Tailândia revela o volume de negociação e os insights dos investidores.",
+      "url": "https://coinfomania.com/pt/thai-sec-releases-monthly-digital-asset-market-summary-what-this-could-unlock/",
       "source": "adnews.com.br",
       "category": "funds",
       "tags": [
@@ -498,7 +517,26 @@
       "updatedAt": "2026-07-11T01:59:44Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://adnews.nyc3.digitaloceanspaces.com/media/0332caf1f3e98bcd1c80e0c5e3190f95.webp"
+      "imageUrl": "https://coinfomania.com/wp-content/uploads/banner-45755f8d-efc6-4341-9ff2-3f72e29e5a0b-1783730372284.webp"
+    },
+    {
+      "id": "funds-d3200b3b66a10d9ce2dc2fdf",
+      "title": "SEC tailandesa publica resumo mensal do mercado de ativos digitais O que isso poderia desbloquear",
+      "summary": "Economista Ian Lopes afirma que desaceleração da inflação fortaleceu expectativa de corte da Selic e impulsionou o Ibovespa.",
+      "details": "Economista Ian Lopes afirma que desaceleração da inflação fortaleceu expectativa de corte da Selic e impulsionou o Ibovespa.",
+      "url": "https://timesbrasil.com.br/brasil/economia-brasileira/queda-da-inflacao-abre-espaco-para-valorizacao-da-bolsa/",
+      "source": "Coinfomania",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-07-11T01:50:44Z",
+      "updatedAt": "2026-07-11T01:50:44Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/07/2628427b-20.webp"
     },
     {
       "id": "companies-108495575eaa8332c2960dee",
@@ -519,8 +557,8 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "latest-0a3fed0882a8a5ff498cf5b2",
-      "title": "Ibovespa hoje repercute desaceleração do IPCA e monitora alívio das tensões no Oriente Médio",
+      "id": "latest-b2e1bb8e32577f2c45657072",
+      "title": "Ibovespa hoje dispara quase 2% após IPCA mais fraco; apenas duas ações caem",
       "summary": "Atualizacao de ultima hora capturada em MSN.",
       "details": "",
       "url": "https://www.msn.com/pt-br/dinheiro/economia-e-negocios/ibovespa-dispara-quase-3-e-tem-maior-alta-di%C3%A1ria-desde-mar%C3%A7o-d%C3%B3lar-recua/ar-AA27C0Ul",
@@ -558,9 +596,9 @@
     {
       "id": "latest-3fa9bbea97f7e0c2df05ac64",
       "title": "O ponto de atenção sobre a conta de luz em julho",
-      "summary": "A redução dos preços de frutas, café e carnes ajudou a desacelerar a inflação em junho, segundo o IBGE.",
-      "details": "A redução dos preços de frutas, café e carnes ajudou a desacelerar a inflação em junho, segundo o IBGE.",
-      "url": "https://veronoticias.com/economia/queda-de-frutas-e-cafe-ajuda-a-conter-inflacao-em-junho/",
+      "summary": "Economista comenta inflação de junho e traz perspectivas para a redução da taxa básica de juros",
+      "details": "Economista comenta inflação de junho e traz perspectivas para a redução da taxa básica de juros",
+      "url": "https://veja.abril.com.br/economia/o-ponto-de-atencao-sobre-a-conta-de-luz-em-julho/",
       "source": "VEJA",
       "category": "latest",
       "tags": [
@@ -572,14 +610,14 @@
       "updatedAt": "2026-07-11T01:19:18Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://veronoticias.com/wp-content/uploads/2024/11/Cafe.jpg"
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/05/GettyImages-2236468931.jpg?quality=70&strip=info&resize=1080,565&crop=1"
     },
     {
       "id": "macro-4c736e04a65aa2685aa38d41",
       "title": "Direto da Capital: Exportações elevam PIB do agro em MG",
-      "summary": "Economista comenta inflação de junho e traz perspectivas para a redução da taxa básica de juros",
-      "details": "Economista comenta inflação de junho e traz perspectivas para a redução da taxa básica de juros",
-      "url": "https://veja.abril.com.br/economia/o-ponto-de-atencao-sobre-a-conta-de-luz-em-julho/",
+      "summary": "Mesmo diante das taxações impostas pelos Estados Unidos, o agronegócio mineiro registrou crescimento nas exportações e ampliou a participação na economia do estado.",
+      "details": "Mesmo diante das taxações impostas pelos Estados Unidos, o agronegócio mineiro registrou crescimento nas exportações e ampliou a participação na economia do estado.",
+      "url": "https://g1.globo.com/mg/triangulo-mineiro/mg2-uberlandia/video/exportacoes-impulsionam-pib-do-agronegocio-em-minas-gerais-14771255.ghtml",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -591,7 +629,7 @@
       "updatedAt": "2026-07-11T01:16:44Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/05/GettyImages-2236468931.jpg?quality=70&strip=info&resize=1080,565&crop=1"
+      "imageUrl": "https://s04.video.glbimg.com/x720/14771255.jpg"
     },
     {
       "id": "macro-afe9415e9e4ffb96b153a859",
@@ -615,9 +653,9 @@
     {
       "id": "latest-03ebcf0e0824cba27615ac23",
       "title": "Bolsa tem maior alta em três meses após inflação surpreender o mercado",
-      "summary": "Bolsa fechou aos 177.866 pontos, enquanto o dólar caiu para R$ 5,10, alimentando o otimismo e a previsão de redução da Selic.",
-      "details": "Bolsa fechou aos 177.866 pontos, enquanto o dólar caiu para R$ 5,10, alimentando o otimismo e a previsão de redução da Selic.",
-      "url": "https://www.diariodocentrodomundo.com.br/bolsa-tem-maior-alta-em-tres-meses-apos-inflacao-surpreender-o-mercado/",
+      "summary": "A redução dos preços de frutas, café e carnes ajudou a desacelerar a inflação em junho, segundo o IBGE.",
+      "details": "A redução dos preços de frutas, café e carnes ajudou a desacelerar a inflação em junho, segundo o IBGE.",
+      "url": "https://veronoticias.com/economia/queda-de-frutas-e-cafe-ajuda-a-conter-inflacao-em-junho/",
       "source": "Diário do Centro do Mundo",
       "category": "latest",
       "tags": [
@@ -629,14 +667,14 @@
       "updatedAt": "2026-07-11T01:03:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/07/ibv-jpg.webp"
+      "imageUrl": "https://veronoticias.com/wp-content/uploads/2024/11/Cafe.jpg"
     },
     {
       "id": "macro-ed1f0bb45ede9da8317c0a5e",
       "title": "Exportações impulsionam PIB do agronegócio em Minas Gerais",
-      "summary": "Mesmo diante das taxações impostas pelos Estados Unidos, o agronegócio mineiro registrou crescimento nas exportações e ampliou a participação na economia do estado.",
-      "details": "Mesmo diante das taxações impostas pelos Estados Unidos, o agronegócio mineiro registrou crescimento nas exportações e ampliou a participação na economia do estado.",
-      "url": "https://g1.globo.com/mg/triangulo-mineiro/mg2-uberlandia/video/exportacoes-impulsionam-pib-do-agronegocio-em-minas-gerais-14771255.ghtml",
+      "summary": "Bolsa fechou aos 177.866 pontos, enquanto o dólar caiu para R$ 5,10, alimentando o otimismo e a previsão de redução da Selic.",
+      "details": "Bolsa fechou aos 177.866 pontos, enquanto o dólar caiu para R$ 5,10, alimentando o otimismo e a previsão de redução da Selic.",
+      "url": "https://www.diariodocentrodomundo.com.br/bolsa-tem-maior-alta-em-tres-meses-apos-inflacao-surpreender-o-mercado/",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -648,14 +686,14 @@
       "updatedAt": "2026-07-11T00:49:55Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s04.video.glbimg.com/x720/14771255.jpg"
+      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/07/ibv-jpg.webp"
     },
     {
       "id": "latest-d61596bf7a2a85b305d84935",
       "title": "Dólar cai a R$ 5,10 e Ibovespa firme com IPCA menor e petróleo comportado",
-      "summary": "Atualizacao de ultima hora capturada em UOL Economia.",
-      "details": "",
-      "url": "https://economia.uol.com.br/noticias/redacao/2026/07/10/dolar-bolsa-fechamento-hoje-10-de-julho-de-2026.ghtm",
+      "summary": "GD&TĐ - No Vietnã, dados estatísticos mostram que a produtividade do trabalho no setor financeiro, bancário e de seguros atingiu 1.109,8 milhões de VND por trabalhador...",
+      "details": "GD&TĐ - No Vietnã, dados estatísticos mostram que a produtividade do trabalho no setor financeiro, bancário e de seguros atingiu 1.109,8 milhões de VND por trabalhador...",
+      "url": "https://www.vietnam.vn/pt/suc-hut-cua-khoi-nganh-tai-chinh-buc-tranh-viec-lam-thu-nhap-va-dinh-huong-tuong-lai",
       "source": "UOL Economia",
       "category": "latest",
       "tags": [
@@ -666,14 +704,15 @@
       "publishedAt": "2026-07-11T00:31:35Z",
       "updatedAt": "2026-07-11T00:31:35Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/11/1783728964171_img-9468-jpg.webp"
     },
     {
       "id": "latest-1051a4205e483216950c3c9e",
       "title": "O atrativo do setor financeiro: perspectivas de emprego, renda e futuras trajetórias de carreira.",
-      "summary": "O IPCA de junho de 2025 subiu 0,16%, bem abaixo da expectativa de 0,31%. O alívio veio da queda em alimentos e combustíveis, enquanto habitação e passagens aéreas pressionaram. A taxa em 12 meses recuou para 4,64%.",
-      "details": "O IPCA de junho de 2025 subiu 0,16%, bem abaixo da expectativa de 0,31%. O alívio veio da queda em alimentos e combustíveis, enquanto habitação e passagens aéreas pressionaram. A taxa em 12 meses recuou para 4,64%.",
-      "url": "https://aciara.com.br/inflacao-junho-2025-ipca-sobe/",
+      "summary": "Atualizacao de ultima hora capturada em Vietnam.vn.",
+      "details": "",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/07/10/dolar-bolsa-fechamento-hoje-10-de-julho-de-2026.ghtm",
       "source": "Vietnam.vn",
       "category": "latest",
       "tags": [
@@ -684,15 +723,14 @@
       "publishedAt": "2026-07-11T00:18:17Z",
       "updatedAt": "2026-07-11T00:18:17Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://aciara.com.br/wp-content/uploads/2026/07/tagreuters.com2024binary_LYNXMPEK4M0U4-FILEDIMAGE.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-16ad18f9c8a20f8639783509",
       "title": "Inflação de junho de 2025: IPCA sobe 0,16% com alívio em alimentos",
-      "summary": "GD&TĐ - No Vietnã, dados estatísticos mostram que a produtividade do trabalho no setor financeiro, bancário e de seguros atingiu 1.109,8 milhões de VND por trabalhador...",
-      "details": "GD&TĐ - No Vietnã, dados estatísticos mostram que a produtividade do trabalho no setor financeiro, bancário e de seguros atingiu 1.109,8 milhões de VND por trabalhador...",
-      "url": "https://www.vietnam.vn/pt/suc-hut-cua-khoi-nganh-tai-chinh-buc-tranh-viec-lam-thu-nhap-va-dinh-huong-tuong-lai",
+      "summary": "O IPCA de junho de 2025 subiu 0,16%, bem abaixo da expectativa de 0,31%. O alívio veio da queda em alimentos e combustíveis, enquanto habitação e passagens aéreas pressionaram. A taxa em 12 meses recuou para 4,64%.",
+      "details": "O IPCA de junho de 2025 subiu 0,16%, bem abaixo da expectativa de 0,31%. O alívio veio da queda em alimentos e combustíveis, enquanto habitação e passagens aéreas pressionaram. A taxa em 12 meses recuou para 4,64%.",
+      "url": "https://aciara.com.br/inflacao-junho-2025-ipca-sobe/",
       "source": "Associação Comercial e Industrial de Araçatuba",
       "category": "macro",
       "tags": [
@@ -704,7 +742,7 @@
       "updatedAt": "2026-07-11T00:04:59Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/11/1783728964171_img-9468-jpg.webp"
+      "imageUrl": "https://aciara.com.br/wp-content/uploads/2026/07/tagreuters.com2024binary_LYNXMPEK4M0U4-FILEDIMAGE.jpg"
     },
     {
       "id": "macro-fa3561119d47dcc15f8c1f62",
@@ -728,9 +766,9 @@
     {
       "id": "funds-c0d37c4e26be38b23ef53d85",
       "title": "Suno Asset fará evento exclusivo para investidores de seus fundos em São Paulo",
-      "summary": "O evento da Suno Asset contará com diferentes ativações e, por fim, uma atração musical surpresa anunciada apenas no local.",
-      "details": "O evento da Suno Asset contará com diferentes ativações e, por fim, uma atração musical surpresa anunciada apenas no local.",
-      "url": "https://fiis.com.br/noticias/suno-asset-prepara-evento-exclusivo-cotistas-fundos-sao-paulo-vi/",
+      "summary": "Atualizacao de fundos capturada em Fiis.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPN0pHekFISGI2T1lfLVM2NmJiXzFBVnFSSDJlUmFTLXNQd0hBb2pYMnhYWjFTYkxFUXJ4cW1WRDdtRmZWZk1iRlFmQ2VFaW5WOXp4R2loXzNzNVpHX3UtUDR0VVJzdU50b01KNE1JakhvYjV5RG9yUFJVTm10MnJPM2w4NE5Tb1Fzbkk5dHFXN3pEdGZ6U0xSeFhn?oc=5",
       "source": "Fiis",
       "category": "funds",
       "tags": [
@@ -741,15 +779,14 @@
       "publishedAt": "2026-07-11T00:00:07Z",
       "updatedAt": "2026-07-11T00:00:07Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "http://files.fiis.com.br/uploads/Captura-de-Tela-2026-07-10-as-20.48.34-png.webp"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "latest-bb25f0c5a2ae1c69ec85871e",
       "title": "Ibovespa fecha último pregão aos 177.866 pontos",
-      "summary": "O volume total negociado na B3 foi de R$ 24.843.077.843, em meio a 3.820.431 negócios",
-      "details": "O volume total negociado na B3 foi de R$ 24.843.077.843, em meio a 3.820.431 negócios",
-      "url": "https://brasil61.com/n/ibovespa-fecha-ultimo-pregao-aos-177-866-pontos-bras2616697",
+      "summary": "Atualizacao de ultima hora capturada em Brasil 61.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWk9rbXcwNUp6OVFFOGN1WWVaN2NkZW9aSXNndWdPck5XZjVqbnpIM1FEbjczM1dncXZjd1R0a2FOT2xUbGxucF9VeU5OTGp2eTNuWjM0anVsdkJ0eU1xaDV4WHRBak5pV0dfWHp0cUNHMU5kNHJCeGVvaUROLUtBTjlNNXUzTnB3WHfSAY8BQVVfeXFMTkcyWWVuaVlJd25nblZhTFFlZkpMMkhiOWEzSTVUNkNfWWt4UVBsMUw5UmIxc3N5b0lTemcyUWRzaVlTV0t0em5jNXVoWUdwZVEyNVZmVDhMaS1fLS11dVB0OFBJN0trQkVRR0pMemhjOVZGOENmUE5oWXZpcTFmU2NPeHliQU9ncFNDX1hObmc?oc=5",
       "source": "Brasil 61",
       "category": "latest",
       "tags": [
@@ -760,8 +797,7 @@
       "publishedAt": "2026-07-11T00:00:00Z",
       "updatedAt": "2026-07-11T00:00:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://cdn.brasil61.com/r/0x0/5rsHSfSybkUNfkgoFLuuoK3f.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-2d21fb4f613f15a81d1fe02a",
@@ -944,22 +980,22 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "macro-f482f455ae0d1b911379b7a4",
+      "id": "latest-df21973a8de8b008ca463159",
       "title": "Dólar cai a R$ 5,10 após inflação abaixo do esperado",
-      "summary": "Atualizacao de macro capturada em Campo Grande News.",
+      "summary": "Atualizacao de ultima hora capturada em Campo Grande News.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOekxjQ043VjAxbWhiMV94Mm4xM2VmV1VyUUNxYTRYZG1aU29neTFvSG83cENCMnFqMTdBSmxlUlNtb1ltalZ4TXdRdUloWGQtLXRmRUpiYlNIMUxQeWltWWRFSFJLcXhpRkNjTW9fX0NtYnRrb0tlejc0eC1MSXRFRENTbE5mNUZhcy10ZDR0b0VCaktzRjdtTGtDTl91dmxWaWRveGh30gGmAUFVX3lxTFBIZDc5X3ZoYnJzX0VHSElYdUpsdHBaNHc2cXhESjB2azdBNmNJNk80VzdORE4yVHpIMG1SVE1GbFVvQnNDZEtkc1M0VEx4QW1QSEpycEtkS0VQVXNSMFpZbVlURFI2Z1dpbFQxLWc3R0xtTlN4NmluakpmUEhrZUlIQkg5em51LVhnelozS29tNGVmYWl1MDBMV0ZXbV9UMEhHUUFOZ3c?oc=5",
       "source": "Campo Grande News",
-      "category": "macro",
+      "category": "latest",
       "tags": [
-        "macro",
-        "juros",
-        "inflacao"
+        "mercado",
+        "bolsa",
+        "macro"
       ],
       "publishedAt": "2026-07-10T23:00:00Z",
       "updatedAt": "2026-07-10T23:00:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-7c9a353939a25fc61c2544f7",
@@ -1088,6 +1124,24 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
+      "id": "funds-bd39b67b6d7acb5acdcbfaf7",
+      "title": "Quase 40% dos trabalhadores da Porsche ganham seis dígitos anualmente",
+      "summary": "Atualizacao de fundos capturada em turbo.pt.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUFV4dXd1TWJ4SXhMcDlIRXFfcVdmZjFTS1B5ODJmRnAxdHNEdmtURU1fR2d6VkVUN3lhSndpZXpKY3VyVENGTVI1ZVpEa2NmVWp2TDk1bzZwWVJESmRORWt2VUVkY3dMYzJsTl9BMm1vemFYWjVNQkNvMmFtQTA3X01zc1k1TW1KVkhzeU9ZX0NnVnNWanJoVXoxYlllNU0xcFhN?oc=5",
+      "source": "turbo.pt",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-07-10T19:07:30Z",
+      "updatedAt": "2026-07-10T19:07:30Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
       "id": "companies-fa9bc74aa6bf21175d048fe8",
       "title": "Micro e pequenas empresas lideram contratação de mulheres e apresentam menor disparidade de renda",
       "summary": "Atualizacao de empresas capturada em AJN1.",
@@ -1156,42 +1210,6 @@
       ],
       "publishedAt": "2026-07-10T17:00:20Z",
       "updatedAt": "2026-07-10T17:00:20Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-e6a7dd9a82cc8b2721513754",
-      "title": "Aprende Brasil Educação celebra selo de integridade concedido pela CGU",
-      "summary": "Atualizacao de empresas capturada em Foco Nacional.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMm1yNng1ZFRiU2RJUlI1OWdwNU10LTdVd3VpZzNXMTVseVIwS2J4WHI5VThpSndHckp1X05JRG8tcU5hYzUwY2p1c1VCRnlaQW83V3lGbjRSRmJBVGJYNW9OZ0x2UnpMMHhyNk9JLVBmMFFLa1M0VWtyZGhXMlozRTRFOVEwMUVJZ1Zfbw?oc=5",
-      "source": "Foco Nacional",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-07-10T16:55:00Z",
-      "updatedAt": "2026-07-10T16:55:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "funds-0d181cee9ed53d335c838616",
-      "title": "Japanese Yen rises as Japan urges pension funds to invest in domestic assets",
-      "summary": "Atualizacao de fundos capturada em TMGM.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTm1pckI2M0JXMjdRT3N4ME5EWVo0NW15a0ZldWVMT3hfeEYyZE1FeGtmY0NUei1QSFdXeVRDWjlyQWpxUkl5T0hRVDM2U2xjZHE1eFE4Mk1OVG9GcmNJb2h0RHNocXY5SktpSGY4LUVNWTZxQnBLX2J6M1dhcFhZVk56dHV3MkVzX2YzS3lXWUZRUGpOLXZfSFVnc3E3V1g3SVVTWU9GZjdwUG5mS24zR0NtWVNwWnkyTHRIdm9tUXN0a2RFYTh4cFBxMHJaaVJGQ3JuMzZKd1VvUQ?oc=5",
-      "source": "TMGM",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-07-10T16:52:42Z",
-      "updatedAt": "2026-07-10T16:52:42Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
@@ -1374,24 +1392,6 @@
       "updatedAt": "2026-07-10T14:33:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "funds-de85dc21535f928ba4a2813b",
-      "title": "Nova comissão administrativa toma posse e marca o renascimento da Cruz Vermelha em Baião",
-      "summary": "Atualizacao de fundos capturada em averdade.com.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTmFHQWpiMS0waFJyQkVPZi1DaVlSOVdiQW5wWXdjVjlDUkpEUi1RTXNsS1FWVUpFMjNxZDlvUGh4M0s5YVY3Z1lDRkJ1enNPWFc0b296LW5hR0FNR2VreUFsZWdTRVQwUThLdTVwTmVMSmxSRkZRTzZuVm1lYXNweHk0Z0huVEpaSFdvX0dzZ0w4TGVvZWlieW42RHZjSmFJYy1kSmRJZlkwUTJJZGNKWXVpdFEwc3d6cHpxNw?oc=5",
-      "source": "averdade.com",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-07-10T13:39:45Z",
-      "updatedAt": "2026-07-10T13:39:45Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "companies-1b56d24b9ef36474409619ce",
