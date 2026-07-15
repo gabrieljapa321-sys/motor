@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-15T09:28:27Z",
-  "generatedAt": "2026-07-15T09:28:27Z",
+  "updatedAt": "2026-07-15T11:09:21Z",
+  "generatedAt": "2026-07-15T11:09:21Z",
   "categories": [
     {
       "id": "all",
@@ -25,12 +25,12 @@
   ],
   "sources": [
     {
-      "id": "agfeed",
-      "label": "AgFeed"
+      "id": "advfn",
+      "label": "ADVFN"
     },
     {
-      "id": "band-com-br",
-      "label": "band.com.br"
+      "id": "agfeed",
+      "label": "AgFeed"
     },
     {
       "id": "boca-com-br",
@@ -49,10 +49,6 @@
       "label": "CNN Brasil"
     },
     {
-      "id": "comex-do-brasil",
-      "label": "Comex do Brasil"
-    },
-    {
       "id": "di-rio-goianiense",
       "label": "Diário Goianiense"
     },
@@ -61,16 +57,12 @@
       "label": "Economic News Brasil"
     },
     {
-      "id": "estado-de-minas",
-      "label": "Estado de Minas"
+      "id": "em-bile",
+      "label": "eMóbile"
     },
     {
       "id": "estad-o",
       "label": "Estadão"
-    },
-    {
-      "id": "estad-o-blue-studio",
-      "label": "Estadão Blue Studio"
     },
     {
       "id": "exame",
@@ -105,10 +97,6 @@
       "label": "ISTOÉ DINHEIRO"
     },
     {
-      "id": "jornal-do-com-rcio",
-      "label": "Jornal do Comércio"
-    },
-    {
       "id": "jornal-o-sul",
       "label": "Jornal O Sul"
     },
@@ -129,12 +117,16 @@
       "label": "Pipeline"
     },
     {
-      "id": "poder360",
-      "label": "Poder360"
-    },
-    {
       "id": "portal-do-agroneg-cio",
       "label": "Portal do Agronegócio"
+    },
+    {
+      "id": "portal-do-bitcoin",
+      "label": "Portal do Bitcoin"
+    },
+    {
+      "id": "primeira-hora",
+      "label": "Primeira Hora"
     },
     {
       "id": "r-dio-itatiaia",
@@ -157,10 +149,6 @@
       "label": "TradingView"
     },
     {
-      "id": "trendsce",
-      "label": "TrendsCE"
-    },
-    {
       "id": "turbo-pt",
       "label": "turbo.pt"
     },
@@ -171,6 +159,10 @@
     {
       "id": "valor-econ-mico",
       "label": "Valor Econômico"
+    },
+    {
+      "id": "valor-investe",
+      "label": "Valor Investe"
     },
     {
       "id": "vietnam-vn",
@@ -187,11 +179,350 @@
   ],
   "items": [
     {
-      "id": "macro-e5308d20e6543f514af4cc3a",
-      "title": "Taxa de inflação da Polônia cai para 2,5% em junho",
+      "id": "companies-bce2577717f742849eb9abd7",
+      "title": "Fórum E-Commerce Brasil amplia rodadas de negócios",
+      "summary": "Edição de 2026 do Fórum E-Commerce Brasil acontece entre 28 e 30 de julho e espera de gerar R$ 50 milhões em oportunidades comerciais",
+      "details": "Edição de 2026 do Fórum E-Commerce Brasil acontece entre 28 e 30 de julho e espera de gerar R$ 50 milhões em oportunidades comerciais",
+      "url": "https://emobile.com.br/site/varejo/forum-e-commerce-brasil-amplia-rodadas-de-negocios/",
+      "source": "eMóbile",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-07-15T11:00:00Z",
+      "updatedAt": "2026-07-15T11:00:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://emobile.com.br/site/wp-content/uploads/2026/07/forum-2024-4.jpg"
+    },
+    {
+      "id": "macro-14b16a2975701a264c25a7e6",
+      "title": "Dow Jones hoje: índices de Wall Street sobem de olho em inflação e juros e com pressão do petróleo",
+      "summary": "Agenda do dia: Volume de serviços no Brasil, sabatina de Warsh e Livro Bege são destaque",
+      "details": "Agenda do dia: Volume de serviços no Brasil, sabatina de Warsh e Livro Bege são destaque",
+      "url": "https://valor.globo.com/financas/noticia/2026/07/15/agenda-do-dia-volume-de-servicos-no-brasil-sabatina-de-warsh-e-livro-bege-sao-destaque.ghtml",
+      "source": "Estadão",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-15T10:53:52Z",
+      "updatedAt": "2026-07-15T10:53:52Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
+    },
+    {
+      "id": "macro-831c613554825823781ad1c2",
+      "title": "Dia tem mais dados de inflação nos EUA, alta do petróleo e pesquisa eleitoral",
+      "summary": "Mercado monitora dados da inflação ao produtor dos EUA, depoimentos do presidente do banco central americano e livro bege do Fed",
+      "details": "Mercado monitora dados da inflação ao produtor dos EUA, depoimentos do presidente do banco central americano e livro bege do Fed",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-indices-de-wall-street-sobem-de-olho-em-inflacao-e-juros-e-com-pressao-do-petroleo/",
+      "source": "Valor Investe",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-15T10:49:51Z",
+      "updatedAt": "2026-07-15T10:49:51Z",
+      "premium": true,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/6AOA7CM3PVIPRHCHD7GOOHQAXI.png?quality=80&auth=1cdaa7a5da96055e99b66f1acab9c2bb50447c1a7a4a1f8a6e1aac26f07b6fa7&width=1200&height=630&focal=1197,834"
+    },
+    {
+      "id": "macro-0b098998e4cd4656c9237082",
+      "title": "Agenda do dia: Volume de serviços no Brasil, sabatina de Warsh e Livro Bege são destaque",
+      "summary": "Cesta Básica: tudo que você precisa saber para começar o dia bem informado",
+      "details": "Cesta Básica: tudo que você precisa saber para começar o dia bem informado",
+      "url": "https://valorinveste.globo.com/mercados/renda-variavel/bolsas-e-indices/noticia/2026/07/15/dia-tem-mais-dados-de-inflacao-nos-eua-alta-do-petroleo-e-pesquisa-eleitoral.ghtml",
+      "source": "Valor Econômico",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-15T10:48:00Z",
+      "updatedAt": "2026-07-15T10:48:00Z",
+      "premium": true,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s2-valor-investe.glbimg.com/4UfaAsfgxS4ntkMWNAd-ZZ1TWF8=/3736x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_f035dd6fd91c438fa04ab718d608bbaa/internal_photos/bs/2025/9/I/3NU0lcQjy6iV8FyjBCCw/112008024-mariz-pabrasilia13-08-2025luizinacioluladasilva-anunciodemedidas-planodecontige.jpg"
+    },
+    {
+      "id": "macro-422b6ad061b588c778228cdd",
+      "title": "Bitcoin hoje: BTC sobe e encosta em US$ 65 mil após inflação nos EUA reduzir apostas de alta de juros",
+      "summary": "Bitcoin supera US$ 64 mil após a inflação mostrar forte queda e investidores deixarem de apostar em uma alta de juros nos EUA no curto prazo",
+      "details": "Bitcoin supera US$ 64 mil após a inflação mostrar forte queda e investidores deixarem de apostar em uma alta de juros nos EUA no curto prazo",
+      "url": "https://portaldobitcoin.uol.com.br/bitcoin-hoje-btc-sobe-e-encosta-em-us-65-mil-apos-inflacao-nos-eua-reduzir-apostas-de-alta-de-juros/",
+      "source": "Portal do Bitcoin",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-15T10:45:55Z",
+      "updatedAt": "2026-07-15T10:45:55Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://portaldobitcoin.uol.com.br/wp-content/uploads/sites/6/2025/09/simbolo-do-bitcoin-em-globo-e-flecha-de-alta.jpg"
+    },
+    {
+      "id": "macro-5d581ce16f3ed548240b98f7",
+      "title": "Chefe da Economist no Brasil: déficit fiscal e regras rígidas travam país",
+      "summary": "Em 4,3%, o crescimento do Produto Interno Bruto (PIB) de abril a junho sobre o mesmo período do ano anterior desacelerou em relação aos 5,0% do primeiro trimestre",
+      "details": "Em 4,3%, o crescimento do Produto Interno Bruto (PIB) de abril a junho sobre o mesmo período do ano anterior desacelerou em relação aos 5,0% do primeiro trimestre",
+      "url": "https://www.infomoney.com.br/economia/pib-da-china-desacelera-no-2t-a-minima-em-3-anos-e-meio-e-desequilibrios-se-agravam/",
+      "source": "CNN Brasil",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-15T10:40:33Z",
+      "updatedAt": "2026-07-15T10:40:33Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/07/Captura-de-tela-2026-07-15-072743.png?quality=70"
+    },
+    {
+      "id": "macro-48dd4e177995ee20afd3eaf8",
+      "title": "PIB da China desacelera no 2T a mínima em 3 anos e meio e desequilíbrios se agravam",
+      "summary": "Por Samuel Indyk e Jiaxing LiO dólar tinha estabilidade nesta quarta-feira após cair no dia anterior uma vez que dados de inflação nos Estados Unidos abaixo do esperado reduziram as apostas em um aumento de juros no curto prazo pelo Federal Reserve, apesar das preocupações de que",
+      "details": "Por Samuel Indyk e Jiaxing LiO dólar tinha estabilidade nesta quarta-feira após cair no dia anterior uma vez que dados de inflação nos Estados Unidos abaixo do esperado reduziram as apostas em um aumento de juros no curto prazo pelo Federal Reserve, apesar das preocupações de que os preços elevados…",
+      "url": "https://br.tradingview.com/news/reuters.com,2026:newsml_L6N43H0M9:0/",
+      "source": "InfoMoney",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-15T10:29:23Z",
+      "updatedAt": "2026-07-15T10:29:23Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s.tradingview.com/static/images/illustrations/news-story.jpg"
+    },
+    {
+      "id": "macro-a4e5487f2f76a9c2200c5f85",
+      "title": "Dólar fica estável após inflação nos EUA diminuir apostas de alta de juros pelo Fed",
+      "summary": "Agentes financeiros avaliam que ativos ainda conseguem conviver com o desarranjo das contas públicas até outubro, mas cobram um plano crível de consolidação fiscal para 2027",
+      "details": "Agentes financeiros avaliam que ativos ainda conseguem conviver com o desarranjo das contas públicas até outubro, mas cobram um plano crível de consolidação fiscal para 2027",
+      "url": "https://valor.globo.com/financas/intraday/post/2026/07/mercado-estica-tolerancia-ao-risco-fiscal-mas-teme-o-pos-eleicao.ghtml",
+      "source": "TradingView",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-15T10:25:09Z",
+      "updatedAt": "2026-07-15T10:25:09Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s2-valor.glbimg.com/Y9-CufMlz2JCND5QPTdffeKa7yk=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/B/O/Nn6a7dRmulUlq5gc7n1g/070624oriz10.jpg"
+    },
+    {
+      "id": "macro-fa8289cb7490ce72122d2e7d",
+      "title": "PIB da China cresce 4,3% na comparação anual do 2º trimestre e fica aquém do esperado",
+      "summary": "Até maio deste ano, déficit das contas públicas superaram R$ 56 bilhões; 66,3% a mais que em 2025",
+      "details": "Até maio deste ano, déficit das contas públicas superaram R$ 56 bilhões; 66,3% a mais que em 2025",
+      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/chefe-da-economist-no-brasil-deficit-fiscal-e-regras-rigidas-travam-pais/",
+      "source": "UOL Economia",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-15T10:12:00Z",
+      "updatedAt": "2026-07-15T10:12:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/EDC_MNY_140726_SON_ECONOMIST_TRIBUTARIA_frame_2562.jpeg?w=1200&h=630&crop=1"
+    },
+    {
+      "id": "macro-f8f033e2389c8c09b35c6243",
+      "title": "Mercado estica tolerância ao risco fiscal, mas teme o pós-eleição",
+      "summary": "Atualizacao de macro capturada em Valor Econômico.",
+      "details": "",
+      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/07/15/pib-da-china-cresce-43-na-comparacao-anual-do-2-trimestre-e-fica-aquem-do-esperado.htm",
+      "source": "Valor Econômico",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-15T10:08:36Z",
+      "updatedAt": "2026-07-15T10:08:36Z",
+      "premium": true,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-2581daeae570ce5baba0be02",
+      "title": "PIB da China cresce 4,3% no 2º trimestre, avanço mais lento em três anos",
+      "summary": "Atualizacao de macro capturada em UOL Economia.",
+      "details": "",
+      "url": "https://economia.uol.com.br/noticias/afp/2026/07/15/pib-da-china-cresce-43-no-2-trimestre-avanco-mais-lento-em-tres-anos.htm",
+      "source": "UOL Economia",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-15T10:04:18Z",
+      "updatedAt": "2026-07-15T10:04:18Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-1f2dae574f376a9495c17c80",
+      "title": "Bolsas da Ásia sobem após inflação mais branda nos EUA; China vai na contramão",
+      "summary": "Na tarde de 15 de julho, o Departamento de Ciência e Tecnologia da cidade de Dong Nai organizou uma conferência para registrar a necessidade de apoio específico do orçamento municipal para a implementação de projetos de investimento público nas áreas de ciência e tecnologia, inov",
+      "details": "Na tarde de 15 de julho, o Departamento de Ciência e Tecnologia da cidade de Dong Nai organizou uma conferência para registrar a necessidade de apoio específico do orçamento municipal para a implementação de projetos de investimento público nas áreas de ciência e tecnologia, inovação e transformação digital (C&T, inova",
+      "url": "https://www.vietnam.vn/pt/dinh-huong-giai-ngan-von-dau-tu-cong-linh-vuc-khoa-hoc-cong-nghe-doi-moi-sang-tao-va-chuyen-doi-so",
+      "source": "Valor Econômico",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-15T10:01:34Z",
+      "updatedAt": "2026-07-15T10:01:34Z",
+      "premium": true,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/15/1784105534135_img_6711.jpeg"
+    },
+    {
+      "id": "latest-bad5a8047ea51f8e2c1e8059",
+      "title": "Mercado pecuário se mantém estável com leves variações regionais",
+      "summary": "O mercado financeiro moderno opera sob um mantra de obsolescência rápida, onde ferramentas consideradas revolucionárias ontem tornam-se padrões básicos hoje.",
+      "details": "O mercado financeiro moderno opera sob um mantra de obsolescência rápida, onde ferramentas consideradas revolucionárias ontem tornam-se padrões básicos hoje.",
+      "url": "https://primeirahora.com.br/trade24seven-e-a-importancia-da-adaptacao-tecnologica-no-mercado-moderno/",
+      "source": "boca.com.br",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-15T10:00:34Z",
+      "updatedAt": "2026-07-15T10:00:34Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://primeirahora.com.br/wp-content/uploads/2023/12/capa.jpg"
+    },
+    {
+      "id": "latest-2c8e073bd3f569d0f8031461",
+      "title": "Trade24Seven e a importância da adaptação tecnológica no mercado moderno",
+      "summary": "PIB chinês do segundo trimestre ficou abaixo das expectativas do mercado",
+      "details": "PIB chinês do segundo trimestre ficou abaixo das expectativas do mercado",
+      "url": "https://valor.globo.com/financas/noticia/2026/07/15/bolsas-da-asia-sobem-apos-inflacao-mais-branda-nos-eua-china-vai-na-contramao.ghtml",
+      "source": "Primeira Hora",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-15T10:00:00Z",
+      "updatedAt": "2026-07-15T10:00:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://s2-valor.glbimg.com/om3Ka0MQAFawMkEBQSDWwNFoYks=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2019/Z/D/Au5zy1RdiBG0MZUwL1DQ/006fev14.jpg"
+    },
+    {
+      "id": "macro-891e5604892c294fa95e2c0a",
+      "title": "Inflação na Eslováquia recua para 3,5% em junho com queda nos combustíveis",
+      "summary": "Os mercados asiáticos encerraram a quarta-feira (15) sem direção definida, em uma sessão marcada pela divulgação do Produto Interno Bruto (PIB...",
+      "details": "Os mercados asiáticos encerraram a quarta-feira (15) sem direção definida, em uma sessão marcada pela divulgação do Produto Interno Bruto (PIB...",
+      "url": "https://br.advfn.com/jornal/2026/07/mercado-asiatico-fechou-sem-direcao-unica-destaque-para-coreia-do-sul-com-alta-de-6-24-pib-da-china-abaixo-do-esperado-no-radar",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-15T09:49:00Z",
+      "updatedAt": "2026-07-15T09:49:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://br.advfn.com/jornal/files/2023/05/Asia_12.jpg"
+    },
+    {
+      "id": "macro-675c153ceace91eb6106dc39",
+      "title": "Mercado Asiático fechou sem direção única, destaque para Coreia do Sul com alta de 6,24%. PIB da China abaixo do esperado no radar",
+      "summary": "Atualizacao de macro capturada em ADVFN.",
+      "details": "",
+      "url": "https://br.investing.com/news/economic-indicators/inflacao-na-eslovaquia-recua-para-35-em-junho-com-queda-nos-combustiveis-93CH-2002116",
+      "source": "ADVFN",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-15T09:42:25Z",
+      "updatedAt": "2026-07-15T09:42:25Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "funds-15498a00ec3737d8ce1130dc",
+      "title": "Diretrizes para a distribuição de fundos de investimento público nas áreas de ciência e tecnologia, inovação e transformação digital.",
       "summary": "Estão previstos os balanços trimestrais de gigantes como United Airlines, Morgan Stanley, Johnson & Johnson e BlackRock",
       "details": "Estão previstos os balanços trimestrais de gigantes como United Airlines, Morgan Stanley, Johnson & Johnson e BlackRock",
       "url": "https://www.infomoney.com.br/mercados/futuros-de-ny-ampliam-ganhos-com-inflacao-mais-branda-e-temporada-de-balancos/",
+      "source": "Vietnam.vn",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-07-15T09:12:44Z",
+      "updatedAt": "2026-07-15T09:12:44Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/06/458806226.jpg?quality=70"
+    },
+    {
+      "id": "macro-25438b76fc2a0dcd81b05672",
+      "title": "Prato feito fica 7,2% mais caro desde o início de 2026 no Brasil; veja preços por região",
+      "summary": "Atividade comercial é marcada por resistência e incertezas no setor",
+      "details": "Atividade comercial é marcada por resistência e incertezas no setor",
+      "url": "https://boca.com.br/mercado-financeiro/mercado-pecuario-se-mantem-estavel-com-leves-variacoes-regionais",
+      "source": "Folha de S.Paulo",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-15T09:00:00Z",
+      "updatedAt": "2026-07-15T09:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/51b871c70cca5c2c95e00ef6518ffc98_858x483.jpg"
+    },
+    {
+      "id": "macro-e5308d20e6543f514af4cc3a",
+      "title": "Taxa de inflação da Polônia cai para 2,5% em junho",
+      "summary": "Valor médio da refeição no país chega a R$ 31,90 em junho, diz pesquisa",
+      "details": "Valor médio da refeição no país chega a R$ 31,90 em junho, diz pesquisa",
+      "url": "https://www1.folha.uol.com.br/mercado/2026/07/prato-feito-fica-72-mais-caro-desde-o-inicio-de-2026-no-brasil-veja-precos-por-regiao.shtml",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "macro",
       "tags": [
@@ -203,7 +534,7 @@
       "updatedAt": "2026-07-15T08:56:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/06/458806226.jpg?quality=70"
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2022/07/05/165705737762c4b0611e80c_1657057377_3x2_rt.jpg"
     },
     {
       "id": "macro-47f42eba96e62e87f96bd91f",
@@ -228,7 +559,7 @@
       "title": "Bolsas da Ásia fecham mistas após recuperação em NY e PIB chinês abaixo do esperado",
       "summary": "Atualizacao de macro capturada em UOL Economia.",
       "details": "",
-      "url": "https://br.investing.com/news/economy-news/asml-alivio-na-inflacao-e-resultados-corporativos-o-que-move-os-mercados-2002006",
+      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/07/15/bolsas-da-asia-fecham-mistas-apos-recuperacao-em-ny-e-pib-chines-abaixo-do-esperado.htm",
       "source": "UOL Economia",
       "category": "macro",
       "tags": [
@@ -244,9 +575,9 @@
     {
       "id": "macro-20a21477a127d5e70f25f794",
       "title": "Serviços no Brasil, PPI dos EUA e Livro Bege do Fed: o que move os mercados",
-      "summary": "Atualizacao de macro capturada em Exame.",
-      "details": "",
-      "url": "https://exame.com/invest/mercados/servicos-no-brasil-ppi-dos-eua-e-livro-bege-do-fed-o-que-move-os-mercados/",
+      "summary": "Impulsionado pelas transações com a China, o País colheu exportações recordes no 1º semestre; EUA foram o destino de apenas 9,4% das vendas, o nível mais baixo já registrado na série",
+      "details": "Impulsionado pelas transações com a China, o País colheu exportações recordes no 1º semestre; EUA foram o destino de apenas 9,4% das vendas, o nível mais baixo já registrado na série",
+      "url": "https://www.estadao.com.br/economia/brasil-pode-ter-este-ano-segundo-maior-superavit-na-balanca-comercial-mesmo-com-tarifaco-de-trump/",
       "source": "Exame",
       "category": "macro",
       "tags": [
@@ -257,108 +588,33 @@
       "publishedAt": "2026-07-15T08:31:18Z",
       "updatedAt": "2026-07-15T08:31:18Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/I3O2IOSGKJELLAONKYSCDU2QY4.jpg?quality=80&auth=59b4b3d383efb893e7a97acc10bbf12088985bf9c8a13a357c38a931af342fd8&width=1200&height=630&focal=1755,1389"
     },
     {
-      "id": "macro-fe385d33a88e13560a42db68",
-      "title": "Preço do prato feito sobe acima da inflação e marmita vira alternativa",
-      "summary": "Atualizacao de macro capturada em band.com.br.",
+      "id": "companies-5cda06affd43301b0d4ef883",
+      "title": "Brasil pode ter este ano segundo maior superávit na balança comercial, mesmo com tarifaço de Trump",
+      "summary": "Atualizacao de empresas capturada em Estadão.",
       "details": "",
-      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/07/15/bolsas-da-asia-fecham-mistas-apos-recuperacao-em-ny-e-pib-chines-abaixo-do-esperado.htm",
-      "source": "band.com.br",
-      "category": "macro",
+      "url": "https://exame.com/invest/mercados/servicos-no-brasil-ppi-dos-eua-e-livro-bege-do-fed-o-que-move-os-mercados/",
+      "source": "Estadão",
+      "category": "companies",
       "tags": [
-        "macro",
-        "juros",
-        "inflacao"
+        "empresas",
+        "resultados",
+        "m&a"
       ],
-      "publishedAt": "2026-07-15T08:30:01Z",
-      "updatedAt": "2026-07-15T08:30:01Z",
+      "publishedAt": "2026-07-15T08:30:00Z",
+      "updatedAt": "2026-07-15T08:30:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-9a177ebc61e1e5d57469c6c7",
-      "title": "Inflação mais fraca nos EUA fortalece real e reduz juro futuro",
-      "summary": "Números do índice de preços ao consumidor (CPI) de junho reforçaram apostas de manutenção nas taxas americanas",
-      "details": "Números do índice de preços ao consumidor (CPI) de junho reforçaram apostas de manutenção nas taxas americanas",
-      "url": "https://valor.globo.com/financas/noticia/2026/07/15/inflacao-mais-fraca-nos-eua-fortalece-real-e-reduz-juro-futuro.ghtml",
-      "source": "Valor Econômico",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-15T08:02:35Z",
-      "updatedAt": "2026-07-15T08:02:35Z",
-      "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/TQnaURFHGqL5opBBJnVd5nxkWtI=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/O/Z/s3j9lXSeSIdTJT6QcFGA/arte15fin-101-locais-c2.jpg"
-    },
-    {
-      "id": "macro-c6e63c392af468b81b3a153f",
-      "title": "Inflação nos EUA desacelera a 3,5% ao ano em junho",
-      "summary": "PF acumula alta de mais de 7% no ano e custa em média R$ 32; para economizar, trabalhadores trocam o restaurante pela comida de casa",
-      "details": "PF acumula alta de mais de 7% no ano e custa em média R$ 32; para economizar, trabalhadores trocam o restaurante pela comida de casa",
-      "url": "https://www.band.com.br/noticias/jornal-da-band/ultimas/preco-do-prato-feito-sobe-acima-da-inflacao-e-marmita-vira-alternativa-202607142147",
-      "source": "Valor Econômico",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-15T08:01:50Z",
-      "updatedAt": "2026-07-15T08:01:50Z",
-      "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://img.band.com.br/image/2026/07/14/prato-feito-232025.jpg"
-    },
-    {
-      "id": "macro-dee13a4960e1c54d086d79f7",
-      "title": "Fed segue atento à inflação",
-      "summary": "Inflação nos EUA desacelera a 3,5% ao ano em junho",
-      "details": "Inflação nos EUA desacelera a 3,5% ao ano em junho",
-      "url": "https://valor.globo.com/mundo/noticia/2026/07/15/inflacao-nos-eua-desacelera-a-35-ao-ano-em-junho.ghtml",
-      "source": "Valor Econômico",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-15T08:00:14Z",
-      "updatedAt": "2026-07-15T08:00:14Z",
-      "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/-Ou7Bj9pLAt9m2VmIXu1NRXtG_c=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/V/K/vrhlheTjKbLa7MseZMUA/arte15int-301-inflaeua-a13.jpg"
-    },
-    {
-      "id": "macro-8431b6edfb149f8d800d047d",
-      "title": "ASML, alívio na inflação e resultados corporativos: o que move os mercados",
-      "summary": "Presidente do banco central americano, Kevin Warsh, reitera compromisso com a estabilidade de preços e a independência da autoridade monetária",
-      "details": "Presidente do banco central americano, Kevin Warsh, reitera compromisso com a estabilidade de preços e a independência da autoridade monetária",
-      "url": "https://valor.globo.com/impresso/noticia/2026/07/15/fed-segue-atento-a-inflacao.ghtml",
-      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-15T08:00:00Z",
-      "updatedAt": "2026-07-15T08:00:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/_NlG58qwRZ6bJb4uD_Y7JI4PI8s=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/z/s/GeT4nFQgKOcJITkXqKOQ/foto15pri-801-warsh-a1.jpg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "latest-f0cb2d67010d0f6cd8623f87",
       "title": "Ibovespa hoje foca na decisão dos EUA sobre tarifas ao Brasil; pesquisa eleitoral fica no radar",
-      "summary": "Prazo para tarifas sobre produtos brasileiros concentra atenções, enquanto investidores acompanham pesquisa para presidente, conflito no Oriente Médio, dados dos EUA e Fed",
-      "details": "Prazo para tarifas sobre produtos brasileiros concentra atenções, enquanto investidores acompanham pesquisa para presidente, conflito no Oriente Médio, dados dos EUA e Fed",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-decisao-dos-eua-sobre-tarifas-ao-brasil-e-o-foco-pesquisa-e-conflito-no-ira-pesam/",
+      "summary": "Na manhã de 15 de julho, o primeiro-ministro Le Minh Hung trabalhou com o Comitê Permanente do Comitê Provincial do Partido de Lang Son em tarefas relacionadas ao desenvolvimento socioeconômico, ao crescimento de dois dígitos e ao funcionamento do sistema de governo local de dois",
+      "details": "Na manhã de 15 de julho, o primeiro-ministro Le Minh Hung trabalhou com o Comitê Permanente do Comitê Provincial do Partido de Lang Son em tarefas relacionadas ao desenvolvimento socioeconômico, ao crescimento de dois dígitos e ao funcionamento do sistema de governo local de dois níveis.",
+      "url": "https://www.vietnam.vn/pt/thu-tuong-giai-ngan-dau-tu-cong-thay-the-ngay-can-bo-khong-dap-ung-yeu-cau",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -370,14 +626,14 @@
       "updatedAt": "2026-07-15T07:28:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/6PYNPKFUNRKXXM3IEZFPHM4VUE.png?quality=80&auth=123a2dfd6fa0e7a0829be998168c643cb63e406f440ba2fd2fbb08b1d2c38346&width=1200&height=630&smart=true"
+      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/15/1784100135224_anh-man-hinh-2026-07-15-luc-14-21-29.png"
     },
     {
       "id": "funds-58ac4171707c62c5d954317d",
       "title": "Primeiro-ministro: Libere os fundos de investimento público e substitua imediatamente os funcionários que não atenderem aos requisitos.",
-      "summary": "Atualizacao de fundos capturada em Vietnam.vn.",
-      "details": "",
-      "url": "https://br.investing.com/news/economic-indicators/inflacao-ao-consumidor-da-suecia-sobe-03-em-junho-e-13-no-ano-93CH-2001964",
+      "summary": "Tombo do petróleo pressionou ações do setor, enquanto resultados corporativos seguiram no radar",
+      "details": "Tombo do petróleo pressionou ações do setor, enquanto resultados corporativos seguiram no radar",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-cea-ceab3-salta-balanco-petrobras-petr3-cai/",
       "source": "Vietnam.vn",
       "category": "funds",
       "tags": [
@@ -388,51 +644,15 @@
       "publishedAt": "2026-07-15T07:27:27Z",
       "updatedAt": "2026-07-15T07:27:27Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "macro-f23f764d321435791ee069d6",
-      "title": "Inflação básica da Noruega cai para 2,7% em junho, abaixo das previsões",
-      "summary": "Na manhã de 15 de julho, o primeiro-ministro Le Minh Hung trabalhou com o Comitê Permanente do Comitê Provincial do Partido de Lang Son em tarefas relacionadas ao desenvolvimento socioeconômico, ao crescimento de dois dígitos e ao funcionamento do sistema de governo local de dois",
-      "details": "Na manhã de 15 de julho, o primeiro-ministro Le Minh Hung trabalhou com o Comitê Permanente do Comitê Provincial do Partido de Lang Son em tarefas relacionadas ao desenvolvimento socioeconômico, ao crescimento de dois dígitos e ao funcionamento do sistema de governo local de dois níveis.",
-      "url": "https://www.vietnam.vn/pt/thu-tuong-giai-ngan-dau-tu-cong-thay-the-ngay-can-bo-khong-dap-ung-yeu-cau",
-      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-15T07:16:00Z",
-      "updatedAt": "2026-07-15T07:16:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/15/1784100135224_anh-man-hinh-2026-07-15-luc-14-21-29.png"
-    },
-    {
-      "id": "macro-bf292accbc9d5dc806c21bfa",
-      "title": "Inflação ao consumidor da Suécia sobe 0,3% em junho e 1,3% no ano",
-      "summary": "Atualizacao de macro capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
-      "details": "",
-      "url": "https://br.investing.com/news/economic-indicators/inflacao-basica-da-noruega-cai-para-27-em-junho-abaixo-das-previsoes-93CH-2001965",
-      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-15T07:15:00Z",
-      "updatedAt": "2026-07-15T07:15:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/DSDVGAB2PNKFZDE73QRSG5BFAI.png?quality=80&auth=9dc7dd00230da2e29ea1444357895dd9a3ea0b033321d80ef36929ec9b353350&width=1200&height=630&smart=true"
     },
     {
       "id": "latest-ed90d065e89d494fb2bc444e",
       "title": "Ibovespa hoje: C&A (CEAB3) salta 7% após balanço; Petrobras (PETR3) cai mais de 3%",
-      "summary": "Tombo do petróleo pressionou ações do setor, enquanto resultados corporativos seguiram no radar",
-      "details": "Tombo do petróleo pressionou ações do setor, enquanto resultados corporativos seguiram no radar",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-cea-ceab3-salta-balanco-petrobras-petr3-cai/",
+      "summary": "A Omie, sistema de gestão (ERP) para PMEs, apresenta calculadora de projeção do impacto da Reforma Tributária voltada especificamente para o comércio eletrônico. Desenvolvida pela Nuvemshop, plataforma de e-commerce, em parceria com a Omie, a ferramenta responde à incerteza de co",
+      "details": "A Omie, sistema de gestão (ERP) para PMEs, apresenta calculadora de projeção do impacto da Reforma Tributária voltada especificamente para o comércio eletrônico. Desenvolvida pela Nuvemshop, plataforma de e-commerce, em parceria com a Omie, a ferramenta responde à incerteza de como as mudanças tributárias afetarão cada",
+      "url": "https://www.broadcast.com.br/knewin-dino/omie-e-nuvemshop-lancam-calculadora-da-reforma-tributaria/",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -444,109 +664,14 @@
       "updatedAt": "2026-07-15T07:12:04Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/DSDVGAB2PNKFZDE73QRSG5BFAI.png?quality=80&auth=9dc7dd00230da2e29ea1444357895dd9a3ea0b033321d80ef36929ec9b353350&width=1200&height=630&smart=true"
-    },
-    {
-      "id": "macro-d2d8bd52416948b0ea60d17a",
-      "title": "Ações sobem com queda na taxa de inflação dos EUA; ASML supera previsões",
-      "summary": "Por Tom WestbrookAs ações subiram e os títulos se estabilizaram na quarta-feira, após uma desaceleração inesperada da inflação nos EUA reduzir as expectativas de aumento das taxas de juros, enquanto o petróleo deu uma pausa com o cancelamento, pelos EUA, de um plano para taxar a ",
-      "details": "Por Tom WestbrookAs ações subiram e os títulos se estabilizaram na quarta-feira, após uma desaceleração inesperada da inflação nos EUA reduzir as expectativas de aumento das taxas de juros, enquanto o petróleo deu uma pausa com o cancelamento, pelos EUA, de um plano para taxar a navegação pelo Estr…",
-      "url": "https://br.tradingview.com/news/reuters.com,2026:newsml_L1N43H06Q:0/",
-      "source": "TradingView",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-15T05:59:00Z",
-      "updatedAt": "2026-07-15T05:59:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s.tradingview.com/static/images/illustrations/news-story.jpg"
-    },
-    {
-      "id": "macro-a7ff9c4e5839534a40c6fa24",
-      "title": "PIB da China desacelera no 2º trimestre e atinge menor ritmo em três anos",
-      "summary": "O resultado do CPI reforçou a percepção de que o Fed (Federal Reserve, o banco central americano) não precisará elevar os juros no curto prazo",
-      "details": "O resultado do CPI reforçou a percepção de que o Fed (Federal Reserve, o banco central americano) não precisará elevar os juros no curto prazo",
-      "url": "https://www.jornaldocomercio.com/economia/2026/07/1256243-dolar-fecha-em-forte-queda-e-bolsa-avanca-com-inflacao-dos-eua-abaixo-das-expectativas.html",
-      "source": "CNN Brasil",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-15T04:36:44Z",
-      "updatedAt": "2026-07-15T04:36:44Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.jornaldocomercio.com/_midias/jpg/2023/12/19/artes_materias_site_eua-10420968.jpg"
-    },
-    {
-      "id": "macro-708988057eae030741872832",
-      "title": "China: PIB cresce 4,3% no 2TRI2026, mas fica abaixo do esperado",
-      "summary": "Crise plurianual no setor imobiliário e queda nos gastos internos afetaram o cenário. O índice foi puxado para cima devido ao setor de exportação, influenciado pela popularização da IA e pelo setor automotivo",
-      "details": "Crise plurianual no setor imobiliário e queda nos gastos internos afetaram o cenário. O índice foi puxado para cima devido ao setor de exportação, influenciado pela popularização da IA e pelo setor automotivo",
-      "url": "https://www.estadao.com.br/amp/economia/china-pib-cresce-43-no-2tri2026-mas-fica-abaixo-do-esperado-npr/",
-      "source": "Estadão",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-15T04:06:49Z",
-      "updatedAt": "2026-07-15T04:06:49Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/M6TVIFIZZBAUBB5BX4PWIKRC34.jpg?quality=80&auth=5229f69ec887bfe3b3b4a3072a533b1f0e3273e9790d5947891032eac690994f&width=1200"
-    },
-    {
-      "id": "macro-baba99cfcc1896550d4c7c5d",
-      "title": "Dólar fecha em forte queda e Bolsa avança com inflação dos EUA abaixo das expectativas",
-      "summary": "O governo poderá editar uma nova Medida Provisória (MP) para apoiar empresas brasileiras caso os Estados Unidos confirmem a aplicação de novas tarifas sobre produtos nacionais. A informação foi dada nesta terça-feira (14) pelo ministro da Fazenda, Dario Durigan, que afirmou que a",
-      "details": "O governo poderá editar uma nova Medida Provisória (MP) para apoiar empresas brasileiras caso os Estados Unidos confirmem a aplicação de novas tarifas sobre produtos nacionais. A informação foi dada nesta terça-feira (14) pelo ministro da Fazenda, Dario Durigan, que afirmou que a medida será avaliada conforme os efeito",
-      "url": "https://ibandce.com.br/nova-mp-podera-ser-editada-se-eua-confirmarem-tarifaco/",
-      "source": "Jornal do Comércio",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-15T03:11:34Z",
-      "updatedAt": "2026-07-15T03:11:34Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://ibandce.com.br/wp-content/uploads/2026/07/toms2511.jpg"
-    },
-    {
-      "id": "macro-53e3e1b0d2e90d1b8028880e",
-      "title": "PIB da China avança 4,3% no 2º trimestre em base anual, abaixo da previsão do mercado",
-      "summary": "Resultado ficou abaixo das expectativas do mercado e da meta, enquanto o desequilíbrio entre oferta e demanda amplia os desafios para estímulos; no acumulado do primeiro semestre, a economia chinesa cresceu 4,7%",
-      "details": "Resultado ficou abaixo das expectativas do mercado e da meta, enquanto o desequilíbrio entre oferta e demanda amplia os desafios para estímulos; no acumulado do primeiro semestre, a economia chinesa cresceu 4,7%",
-      "url": "https://www.cnnbrasil.com.br/economia/pib-da-china-desacelera-no-2o-trimestre-e-atinge-menor-ritmo-em-tres-anos/",
-      "source": "Valor Econômico",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-15T03:11:28Z",
-      "updatedAt": "2026-07-15T03:11:28Z",
-      "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2026binary_LYNXMPEM0I0JN-BASEIMAGE.jpg?w=800&h=533&crop=1"
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K4-QzeUBjIcFtHDnehcQvyP4p6FRwMlDbDR583BOoh9xuQsKAFzWXebTZh_frDkR6QRma9bFJ2WoQUCvlMUKQChx99Ui3zU29MwunhmXlpVHIYQMt_rb9KKybfe589hQHY1.png"
     },
     {
       "id": "companies-ea1eb5b3c41d5d5c55714797",
       "title": "Nova MP poderá ser editada, se EUA confirmarem tarifaço",
-      "summary": "PIB da China avança 4,3% no 2º trimestre em base anual, abaixo da previsão do mercado",
-      "details": "PIB da China avança 4,3% no 2º trimestre em base anual, abaixo da previsão do mercado",
-      "url": "https://valor.globo.com/mundo/noticia/2026/07/15/pib-da-china-avana-43-pontos-percentuais-no-2-trimestre-em-base-anual-abaixo-da-previso-do-mercado.ghtml",
+      "summary": "O governo poderá editar uma nova Medida Provisória (MP) para apoiar empresas brasileiras caso os Estados Unidos confirmem a aplicação de novas tarifas sobre produtos nacionais. A informação foi dada nesta terça-feira (14) pelo ministro da Fazenda, Dario Durigan, que afirmou que a",
+      "details": "O governo poderá editar uma nova Medida Provisória (MP) para apoiar empresas brasileiras caso os Estados Unidos confirmem a aplicação de novas tarifas sobre produtos nacionais. A informação foi dada nesta terça-feira (14) pelo ministro da Fazenda, Dario Durigan, que afirmou que a medida será avaliada conforme os efeito",
+      "url": "https://ibandce.com.br/nova-mp-podera-ser-editada-se-eua-confirmarem-tarifaco/",
       "source": "iBand CE",
       "category": "companies",
       "tags": [
@@ -558,33 +683,14 @@
       "updatedAt": "2026-07-15T02:57:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/Ilqij2mCLRzlP8Nsqx5_adADUmU=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2022/Q/M/8HwgPIQryAbnQneNWylQ/port-1845350-1920.jpg"
-    },
-    {
-      "id": "macro-0738c119fc17ee3a7a9233bd",
-      "title": "PIB chinês sobe 4,3% no 2º tri e fica abaixo da meta do governo",
-      "summary": "A Omie, sistema de gestão (ERP) para PMEs, apresenta calculadora de projeção do impacto da Reforma Tributária voltada especificamente para o comércio eletrônico. Desenvolvida pela Nuvemshop, plataforma de e-commerce, em parceria com a Omie, a ferramenta responde à incerteza de co",
-      "details": "A Omie, sistema de gestão (ERP) para PMEs, apresenta calculadora de projeção do impacto da Reforma Tributária voltada especificamente para o comércio eletrônico. Desenvolvida pela Nuvemshop, plataforma de e-commerce, em parceria com a Omie, a ferramenta responde à incerteza de como as mudanças tributárias afetarão cada",
-      "url": "https://www.broadcast.com.br/knewin-dino/omie-e-nuvemshop-lancam-calculadora-da-reforma-tributaria/",
-      "source": "Poder360",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-15T02:56:06Z",
-      "updatedAt": "2026-07-15T02:56:06Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K4-QzeUBjIcFtHDnehcQvyP4p6FRwMlDbDR583BOoh9xuQsKAFzWXebTZh_frDkR6QRma9bFJ2WoQUCvlMUKQChx99Ui3zU29MwunhmXlpVHIYQMt_rb9KKybfe589hQHY1.png"
+      "imageUrl": "https://ibandce.com.br/wp-content/uploads/2026/07/toms2511.jpg"
     },
     {
       "id": "latest-2afacc791e21562e9288ba43",
       "title": "Omie e Nuvemshop lançam calculadora da Reforma Tributária",
-      "summary": "Mercado aquecido e prêmios de risco mais baixos atraem emissores, mas escalada dos juros nos EUA exige cautela",
-      "details": "Mercado aquecido e prêmios de risco mais baixos atraem emissores, mas escalada dos juros nos EUA exige cautela",
-      "url": "https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/bradesco-preve-empresas-brasileiras-captar-30-milhoes-exterior-2026-divida-externa-renda-fixa-geopolitica/",
+      "summary": "Prazo para taxação de produtos brasileiros concentra atenções; conflito no Oriente Médio, dados dos EUA e Fed também estão no radar dos investidores",
+      "details": "Prazo para taxação de produtos brasileiros concentra atenções; conflito no Oriente Médio, dados dos EUA e Fed também estão no radar dos investidores",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-decisao-dos-eua-sobre-tarifas-ao-brasil-e-o-foco-pesquisa-e-conflito-no-ira-pesam/",
       "source": "broadcast.com.br",
       "category": "latest",
       "tags": [
@@ -596,14 +702,14 @@
       "updatedAt": "2026-07-15T02:50:22Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/XX6WCI36BVKE7HXYFOWOY3CTSY.png?quality=80&auth=4aac717e9ed2d829069b3905cc3c2bd724a19848074462f408401490a37c2281&width=1200&height=630&smart=true"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/6PYNPKFUNRKXXM3IEZFPHM4VUE.png?quality=80&auth=123a2dfd6fa0e7a0829be998168c643cb63e406f440ba2fd2fbb08b1d2c38346&width=1200&height=630&smart=true"
     },
     {
       "id": "latest-11ab775b8f7a0562069ce1eb",
       "title": "Loteamentos: um setor que resiste aos juros altos e defende a legalidade",
-      "summary": "Economia chinesa tem o desempenho mais fraco dos últimos 3 anos; investimento em ativos fixos despenca 5,7% no semestre. Leia no Poder360.",
-      "details": "Economia chinesa tem o desempenho mais fraco dos últimos 3 anos; investimento em ativos fixos despenca 5,7% no semestre. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-china/pib-chines-sobe-43-no-2o-tri-e-fica-abaixo-da-meta-do-governo/",
+      "summary": "Atualizacao de ultima hora capturada em Jornal O Sul.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRG5vaklxckFxa2tsc0VxTlNMR2p6LTFtdHhiS1ZyWEd0MWE5dS1hMW56U0xhb2NjS3NKOE5HcGVzQnJkUktaaGJaUFpfZmNqeEZnSlltZjBROEMzYjdZNk4yZ3RaOWJYc0s5S3o3bGd5eDd5U0R1dkJvZjg0VEwwc1BaZnZtN3VzQVcwLWQ2R0toOFNrTTFxSlNxaHnSAaIBQVVfeXFMUEpUOV9Yb2J3cFk0TEwzdTlyaVFoaThqaGNjVXgyclhFUDkwQVlLMEFpTVMwY3ZWMUZhQXZ1OHBIZUhxV0hNZVMyY2U1NV82dlNrTF9Jc3JJN1ZiaGYzSk1BT19mcUZCZW9rRDFpb2RySjBiU1RoODlTeGNnbGY2UjBKRzlIbjR3UGdGeUxXQXpkVmhEWTAtY2JoSVZSeFBRalhR?oc=5",
       "source": "Jornal O Sul",
       "category": "latest",
       "tags": [
@@ -614,15 +720,14 @@
       "publishedAt": "2026-07-15T02:44:09Z",
       "updatedAt": "2026-07-15T02:44:09Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/03/Pequim-China-unsplash-848x477.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "funds-4fba0eb87780c33fa3d1c4b7",
       "title": "Curso de formação sobre “Prática de Fundos de Investimento e a sua Aplicação Jurídica” concluiu com sucesso",
-      "summary": "Com uma população superior a 1,5 bilhão de habitantes, uma classe média em rápida expansão e um varejo moderno ainda em fase de desenvolvimento, a Índia",
-      "details": "Com uma população superior a 1,5 bilhão de habitantes, uma classe média em rápida expansão e um varejo moderno ainda em fase de desenvolvimento, a Índia",
-      "url": "https://timesbrasil.com.br/empresas-e-negocios/diretor-da-retail-mind-aponta-a-india-como-novo-corredor-de-expansao-para-marcas-brasileiras/",
+      "summary": "Atualizacao de fundos capturada em 澳門特別行政區政府入口網站.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBxUC1CQ0RuRmZCUXFEWk92WThORzBhVUtudmRMb05VUl9KdC1GRElqeDNKQnpHUXFiSmxMT3pyakpodzFfOVRpa0dHVDBMSkU?oc=5",
       "source": "澳門特別行政區政府入口網站",
       "category": "funds",
       "tags": [
@@ -633,15 +738,14 @@
       "publishedAt": "2026-07-15T02:30:00Z",
       "updatedAt": "2026-07-15T02:30:00Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/07/1ad52d12-paulo-eduardo-sousa-director-da-retail-mind-group.webp"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "companies-0c614a0c5c5a90756ab559cb",
       "title": "Bradesco BBI: empresas brasileiras devem captar cerca de US$ 30 bilhões no exterior em 2026",
-      "summary": "Mesmo diante da Selic elevada, o mercado de loteamentos segue firme, sustentado por uma demanda estrutural que transforma o lote urbanizado em alternativa segura de moradia e investimento. No primeiro semestre de 2026, o setor mostrou maturidade: retração nos lançamentos, mas alt",
-      "details": "Mesmo diante da Selic elevada, o mercado de loteamentos segue firme, sustentado por uma demanda estrutural que transforma o lote urbanizado em alternativa segura de moradia e investimento. No primeiro semestre de 2026, o setor mostrou maturidade: retração nos lançamentos, mas alta nas vendas e estoques em queda.",
-      "url": "https://www.osul.com.br/loteamentos/",
+      "summary": "Atualizacao de empresas capturada em Estadão.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNelM4ejhjNU0zQnA3R2tRWTJOTVBfN3ZKWlo3ZVZTX2FJQzE3ZGl3RWRiaUpDOHZ0M1BwbGdMRk1iXzBrcnh2ZlpDclN0TzZEdDVDZWNISVB6RzZ1UlpfQ1MtMEF3NHBEV3JGSmd5TUpyNnlEYzd4N1lHZF80SG1UeENtQ3N6Z212a0IycTNGQTZ1ZzdSMWoyVkswUUMwUzVDZDFodF9IaHE0U2Fyd1dyYnlldVVvNTlIdHI5VzJMbFNsVnZUbW1oMlJBT0doVmQ0Q09VR3pOb0VicWNNejVjak03R1BQQnU3d2c5am5XR01Fb0FwUWJYaXJZTnZuWTlFVXc?oc=5",
       "source": "Estadão",
       "category": "companies",
       "tags": [
@@ -652,15 +756,14 @@
       "publishedAt": "2026-07-15T02:12:19Z",
       "updatedAt": "2026-07-15T02:12:19Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://www.osul.com.br/wp-content/uploads/2026/07/caio.png"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-50b52ecbedfe7b289ef8bbca",
       "title": "Indústria ainda calcula prejuízo de série de tarifas dos EUA, mas vê alternativas em outros países",
-      "summary": "Exportações de aço caíram de US$ 3,8 bilhões em 2023 para US$ 2,6 bilhões em 2025",
-      "details": "Exportações de aço caíram de US$ 3,8 bilhões em 2023 para US$ 2,6 bilhões em 2025",
-      "url": "https://www1.folha.uol.com.br/mercado/2026/07/industria-ainda-calcula-prejuizo-de-serie-de-tarifas-dos-eua-mas-ve-alternativas-em-outros-paises.shtml",
+      "summary": "Atualizacao de empresas capturada em Folha de S.Paulo.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNS3hHWTVoM3dfNk9RZUd4Z3A0WjFSd1J2OWpzX1RzWXZWZTBKS3MzVTh3UmJoSEg1VXc4WlhsSS1aYWdjeU5RWkg2RXJBWWtRT3diV1FiVE1BNHo2UHJIR3Zudk1nUHA0TWNNQnJpcTQ2YVJRUzFGc1Vwc1Z6dnljVGpIcnZFY2FyNXRlTmJpZVNIQVJtVDNVU2xVY3ZYT1pSUnlpRnROY002WWp1ZFUxNU9SSlhrZ2VVaUd6NkJRSHRieVhvNm01SjdTRHpxWndIQ3MxLXBjWWNfZi1RWkFXMEFfUQ?oc=5",
       "source": "Folha de S.Paulo",
       "category": "companies",
       "tags": [
@@ -671,15 +774,14 @@
       "publishedAt": "2026-07-15T02:00:00Z",
       "updatedAt": "2026-07-15T02:00:00Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/14/17840758696a56d65d6d5b7_1784075869_3x2_rt.jpg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-64f44db139ee9f266e10f598",
       "title": "Diretor da Retail Mind aponta a Índia como novo corredor de expansão para marcas brasileiras",
-      "summary": "O curso de formação sobre “Prática de Fundos de Investimento e a sua Aplicação Jurídica”, organizado pela Autoridade Monetária de Macau (AMCM) e pelo",
-      "details": "O curso de formação sobre “Prática de Fundos de Investimento e a sua Aplicação Jurídica”, organizado pela Autoridade Monetária de Macau (AMCM) e pelo",
-      "url": "https://www.gov.mo/pt/noticias/836141/",
+      "summary": "Atualizacao de empresas capturada em Times Brasil | CNBC.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRmhFbF9QVHYwLWhJWGphSVhmWFFNeFhRRlNmUVoxYTlyRDVOVEY3TWN6WmxzOC01QWJmY0ZvTE1SMmp6RUd0UkFzLXJ1MmVpZnVZYnZwaVZqR3NVa3p2VXMxUnpISktWQi1ucEN5ZW5zcVlmdkpMS1piTUFkQng0cUo3SjZjQlNsYVBOTGE1M3hfcGN4QWFrVHZHOW1IdzdpeE0wejlXVE1PNjVGNWJ6dXMtanZHaUNUSjBBTUVLdW9oX3d1VHpzRC16aEhzOG1KT2FJRkhCSQ?oc=5",
       "source": "Times Brasil | CNBC",
       "category": "companies",
       "tags": [
@@ -690,15 +792,14 @@
       "publishedAt": "2026-07-15T01:52:00Z",
       "updatedAt": "2026-07-15T01:52:00Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://www.gov.mo/pt/wp-content/uploads/sites/3/2026/07/p26gnct06o-1024x576.jpeg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "latest-35a6a5f26ac8d6958785273d",
       "title": "Informativo Diário de Mercado da TradingKey: Arrefecimento do CPI impulsiona rali de ações de tecnologia de IA, Nvidia, Micron, AMD sobem juntas",
-      "summary": "TradingKey - Em 14 de julho (ET), os três principais índices de ações dos EUA fecharam em leve alta. O CPI de junho dos EUA ficou abaixo das expectativas do mercado, aliviando as preocupações dos investidores sobre aumentos de juros do Federal Reserve no curto prazo. Enquanto iss",
-      "details": "TradingKey - Em 14 de julho (ET), os três principais índices de ações dos EUA fecharam em leve alta. O CPI de junho dos EUA ficou abaixo das expectativas do mercado, aliviando as preocupações dos investidores sobre aumentos de juros do Federal Reserve no curto prazo. Enquanto isso, os lucros robustos do segundo trimest",
-      "url": "https://www.tradingkey.com/pt/analysis/stocks/us-stocks/262030314-cooling-cpi-fuels-rally-ai-tech-stocks-nvidia-micron-amd-tradingkey",
+      "summary": "Atualizacao de ultima hora capturada em TradingKey.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdkwxOFRlRFlRSGVPSmJKQlNyT2RIMXA2WnBNQnhoYV8wQzV6ckRPTm91OGhZOFBHYnVyNGU2bGNfUzJjdEJpMDFSWGQ1ZVNKd19vMVpYQ2w5ckhSbXk5aHZKMGRqZTllZVUwLXV5Q2VqRjVBLWdlU21OaV9FQ0RJODVwc0RBd0ZRRjRPMUdMcGE1dXhPckpfYndnZkEzZk5aR0Noa1RKcG04U2FOSDdwZ2RQYnpOYVZROF90OHJKUzRfSzNJVF9BWl9DalZlZw?oc=5",
       "source": "TradingKey",
       "category": "latest",
       "tags": [
@@ -709,8 +810,7 @@
       "publishedAt": "2026-07-15T01:20:57Z",
       "updatedAt": "2026-07-15T01:20:57Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://resource.tradingkey.com/uploads/20260120/TradingKey_-EN_optimized_150-af50e3d803094b2981fdc0ce98cb441f.png"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-0e6d970ee42e7dd9a5b485f3",
@@ -1019,42 +1119,6 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "latest-54f416ae9ee805c300dee25b",
-      "title": "Ibovespa bate recordes e sobe 4,93% na semana, a melhor desde janeiro; índice acumula alta de 22,4% no ano",
-      "summary": "Atualizacao de ultima hora capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTWw4SHZLdkdQZUFDU3NMSjFtOHNLUGVBQnk1WXlPQkJybjBPb0xHOXJpbkdoMG5JazJPZjNsVWFlOUdGUG5MOTF3ckJ1QWNnUzZobkg5em1qcFhWZ3cxUXFpSlBEd3E5bERoTTVscFlzcnlXdzJCUWhKWXpPTnRvM2NodWdSM0tjS004TEhGWGJkdlJmYjdpNjNQYU9YeEg4S1JsaFFTSDJ1Nmw0OG1Ra2l1ak1OWWFOVGRVaUVOaEttbDZqRXdjUktNODJaSmFxSEVTYWYwNFFuTkczNmNYVlJrSjVTbzDSAewBQVVfeXFMUFhKaHFUcVpUdWxxWFBKc1VpVGFEQXlnXzFDS0d2c1AzOE9ZSHpFVWdpMkkyR1JGdnQxX1FEUzhwNkFBekJnZldOeEZjbjlwR3lmSGNnUXdmODF4VUtSdkFMSExMaEZ6elVPNHlVNWRkWlVTdmRaOWlFQ3hKbnkwNUlVRURsNGJQN2hwRG9HU1p3THFGcXNDSGh6a2hkTGtDcGNvVlFrY0VLcl9DSTlNLXlCTlpRN05lVXJWMWRIbE9DZDRHWl9rWHEzR2hoZlRLSThfdUJma0NJeEU5MHV4OHdpX205ZnQ0dDlsZzU?oc=5",
-      "source": "Estadão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-14T21:46:32Z",
-      "updatedAt": "2026-07-14T21:46:32Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-724e3253b8139c0ea13a620c",
-      "title": "Fechamento do mercado financeiro",
-      "summary": "Atualizacao de ultima hora capturada em UOL Economia.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbGYzWEx0cGxfcXpnV1RoNS1FNDkxdnZZZTJyYnZoU0lVaVFGNGlKVS0xQThXYl9rdW1nLTY2bDJRSGxNc3M2SUxIbmdfRE8zdmRtRHhLVnc2YndoWk8wSTg1NjFsOHNvSG5vbVcwSlhsOXQzcnRZcThJMWF6dVVoc29yclhvaVFBUnktRnEtbE1iOENHOW1rSWJTVG0yWlFYcndV?oc=5",
-      "source": "UOL Economia",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-14T21:35:00Z",
-      "updatedAt": "2026-07-14T21:35:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "funds-3a6117440d75f7699570e076",
       "title": "Mink Brook Asset Management compra US$ 22.443 em ações da DLH Holdings",
       "summary": "Atualizacao de fundos capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
@@ -1143,6 +1207,24 @@
       "updatedAt": "2026-07-14T19:33:02Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "funds-d62a7c3fa5ba17af98ec0921",
+      "title": "Safra vê XP (XPBR31) mais protegida do ciclo de crédito e eleva recomendação para compra",
+      "summary": "Atualizacao de fundos capturada em Estadão.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcmFDbUxOVHlHbWJSOVZhNGxqSFF4MDVuV0haVVBQVG5XTnduM2NkNG5OcWpqYTZ3SF9FY3lmeFJOTkNqdkNnQjlYaDZXY011Tkd3TktrSWVvb3hiYVgyU2ZPZTZXWDFOWjhYaVpSMGNNV2wwTHNob09udkZOdG0yM2N5WDNEMmlMVWl6WDlLc1o0RG9JeVJjWmZVMHB2aHIwcFFycm1FTWlvWVpldmttbDBDcDVBZ3lsel9kWVFsVEl2QmlyQ1RCUml6bXpQZWZEOGlCbDFYQll3UE1HR3fSAeMBQVVfeXFMTmtLbWdXOF8yZTBRUDQ0RlZWQVJKNENvMkRvdjFMWG9sbXRWZnNxdVNiZDUyUjNOTnRTNHpNMWdiUFZIb2Eya2ZCUnQtcjJnN2J5UjU4YXF2ZmtCNGxodEhicW9URFJHV1U5eUpCQXBPYWJtTldGSTdua1AzTWZMc0l6Y2ZQRGthSkcwMzF5RngxY1dmek5EN19IZkR5SGRjbFp5VHBJUkRSMnIwSUYzR25aOWp3dERlZFE1Z0p1aDdhOUNvTENBM0k5U2VHek5xai1yaW9Qd0xIdzBCTVNya1Q0RjA?oc=5",
+      "source": "Estadão",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-07-14T18:43:00Z",
+      "updatedAt": "2026-07-14T18:43:00Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "companies-380c4962815e771a6de1c8b3",
@@ -1269,96 +1351,6 @@
       "updatedAt": "2026-07-14T14:41:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-fd732efc29dec2b69ae29b3c",
-      "title": "Reforma Tributária pode tornar exportação de serviços mais vantajosa do que atuar apenas no mercado interno, diz WTM",
-      "summary": "Atualizacao de empresas capturada em Comex do Brasil.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOY1IxM3hicUNkdFpPU0hRNVdZYzNIQ3pnT0hVZkdxT0Vld3MzZnl5dnp4VzlvenRTMG5FWmFTWmRhVDdVeExUS2NzcS1wRVhYX1hOdTZMVUM0dkxSLS1teTFwbXU4b1hxRndUQVZhbk10bVdTcTc0X0FLRlFmUGVfb3NPZ25EaHNhSGh3aVlaVnRZdEF3eDhJb0FXZGJiWDNrUFdLby03Nm9Gb2l2WFU2ZlJmQkNqRzNuVzFUd1BXZXM0RTVUeHo0dXRtV0RaTXlQcTZXX19CTDFRdw?oc=5",
-      "source": "Comex do Brasil",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-07-14T14:29:21Z",
-      "updatedAt": "2026-07-14T14:29:21Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "funds-91f2469487836ad9ef33ad2a",
-      "title": "Rodrigo Balassiano, da ID CTVM: o que faz um FIDC ser bem estruturado em um mercado cada vez mais sofisticado",
-      "summary": "Atualizacao de fundos capturada em Estadão Blue Studio.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxORXlxTEpnY25YQVRfNkhUdC1EVkhwczBZQnozNkZGbzFSUHV0Uk05Sk1mMjdxRklGbk16UGM2NDlHWkF5RUZENkVlZVV2dzhmR2cwOElGNGI3LWpSTnhYb29HX3lILW5YTUVOVV93MVlObWN2bHBfbDUtZ0t4R0ltZTRaYWdnUzVRMVNpeFh5VFFTd05Ga2NjXzZfcmw2QzBsS2Z4cmxmNVBQSjloT2NUdWdxV01YTkJMdHpndlM2MXMtR3pXektXZVVhQ1ptZWNWMmgxLUdKTG9QNFR0M2xVTTE2NnphRjhQZFMwWGlGVE9UaTFXRExpZFBRQmY4bVo1dHNmbjV5VHh1REd1?oc=5",
-      "source": "Estadão Blue Studio",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-07-14T13:22:39Z",
-      "updatedAt": "2026-07-14T13:22:39Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-f0944bb7e523448b76377547",
-      "title": "Fundos de investimento mais que dobram captação líquida no 1° semestre",
-      "summary": "Atualizacao de fundos capturada em TrendsCE.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLWJMZFZGRXlYbTg3Y0JyMUlzNFM5U2ZhbWoyZWpvdnZ5Y1R0RDdZTEVfbk52VmJnRFZ2U2FJajhtakU5dTJ6RTg5eFVaNlJ0bERRdTN1bWR3UnExVWx1dUE5dXd2N215Uk1NWjk4Qk1ERjJzeEVvOWtFdUZxOGQtUmtaXzJvMXV5Vlhua3J4QkJ2R1QyVVdCRlpsSUtyd2hid3ZWMmgwZU1iLXRISEE?oc=5",
-      "source": "TrendsCE",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-07-14T13:11:04Z",
-      "updatedAt": "2026-07-14T13:11:04Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-9a3add69508d76c3aede0dc1",
-      "title": "Rodrigo Balassiano, da ID CTVM: por que os FIDCs se tornaram protagonistas do crédito privado",
-      "summary": "Atualizacao de fundos capturada em Estadão Blue Studio.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQZTRwSnJkclYtckJFMG9VRGFTMGplSm5QNHF6cGtkMm5ZWlBibHA3ZjRhQjByZ2c2YVh5RndSUmp0Rmc2dXRoR0NiRndxRTRaLWR5NVAtQU1QejliR1VlRnZaRnFRZVQ4aUZfVzBUQ3dEN0tqV21jeF9kcU01djdqZHk5YUVWakk0T243NllEazBaVlZHaEVDalFOTTlfbzFZVWVPdldIbktaOGhCM2lRUy1hWlctVWlvbzhrMm5CT0pHenI2eVVJX2NhZ0FxeUxYYldRMmM5YlZERWl4UkROdlpHckMzYUpDTVFKUzJFVzRzRTZ4ZWVZ?oc=5",
-      "source": "Estadão Blue Studio",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-07-14T13:02:38Z",
-      "updatedAt": "2026-07-14T13:02:38Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-7a384e48e5cd3dccaaa42d68",
-      "title": "Nova empresa de auditoria mira no mercado financeiro",
-      "summary": "Atualizacao de fundos capturada em Estado de Minas.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVzRTbHZxSjBnUXZtdXowalFiZ2lUeU5vZlFvZm4yc1dYY2JLd3YzdU9iUzc4QVBxY0dTQzVVTGlFMFEtM0hYTXQtdGZYSS16NVJ4YXRJS2Z6aVNXcUJuUk9IZm1qRzVMWVYtMmNMV0ZiRzloYkF1RXpUcWxEWTM0aFl4MEVsM2RaMkRpdXJYLVB6TG9JcTZsZDgwMlhGMWFSSHNURVdrYUxBTG9vMmo0a2FsZXl3Q2Vo0gG4AUFVX3lxTE5XNFNsdnFKMGdRdm11ejBqUWJnaVR5Tm9mUW9mbjJzV1hjYkt3djN1T2JTNzhBUHFjR1NDNVVMaUUwUS0zSFhNdC10ZlhJLXo1UnhhdElLZnppU1dxQm5ST0hmbWpHNUxZVi0yY0xXRmJHOWhiQXVFelRxbERZMzRoWXgwRWwzZFoyRGl1clgtUHpMb0lxNmxkODAyWEYxYVJIc1RFV2thTEFMb28yajRrYWxleXdDZWg?oc=5",
-      "source": "Estado de Minas",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-07-14T13:02:00Z",
-      "updatedAt": "2026-07-14T13:02:00Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     }
   ]
 }
