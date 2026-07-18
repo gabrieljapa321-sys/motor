@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-18T14:32:10Z",
-  "generatedAt": "2026-07-18T14:32:10Z",
+  "updatedAt": "2026-07-18T15:37:19Z",
+  "generatedAt": "2026-07-18T15:37:19Z",
   "categories": [
     {
       "id": "all",
@@ -25,16 +25,16 @@
   ],
   "sources": [
     {
+      "id": "a-cr-tica-de-campo-grande",
+      "label": "A Crítica de Campo Grande"
+    },
+    {
       "id": "acionista-com-br",
       "label": "Acionista.com.br"
     },
     {
       "id": "agronews-tv-br",
       "label": "agronews.tv.br"
-    },
-    {
-      "id": "alagoas-alerta",
-      "label": "Alagoas Alerta"
     },
     {
       "id": "brasil-247",
@@ -69,16 +69,12 @@
       "label": "ContraFatos"
     },
     {
-      "id": "correio-braziliense",
-      "label": "Correio Braziliense"
-    },
-    {
       "id": "di-rio-da-manh",
       "label": "Diário da Manhã"
     },
     {
-      "id": "di-rio-do-com-rcio",
-      "label": "Diário do Comércio"
+      "id": "di-rio-do-estado",
+      "label": "Diário do Estado"
     },
     {
       "id": "estad-o",
@@ -101,28 +97,24 @@
       "label": "Folha BV"
     },
     {
-      "id": "g1",
-      "label": "G1"
-    },
-    {
-      "id": "gazeta-de-alagoas",
-      "label": "Gazeta de Alagoas"
-    },
-    {
-      "id": "grupo-a-hora",
-      "label": "Grupo A Hora"
-    },
-    {
       "id": "investing-com-brasil-finan-as-c-mbio-e-investimentos",
       "label": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
+    },
+    {
+      "id": "jornal-folha-popular",
+      "label": "Jornal - Folha Popular"
     },
     {
       "id": "jornal-do-brasil",
       "label": "Jornal do Brasil"
     },
     {
-      "id": "jornal-o-sul",
-      "label": "Jornal O Sul"
+      "id": "jornal-rond-nia",
+      "label": "Jornal Rondônia"
+    },
+    {
+      "id": "leiaj",
+      "label": "LeiaJá"
     },
     {
       "id": "livecoins",
@@ -149,6 +141,10 @@
       "label": "Nord Investimentos"
     },
     {
+      "id": "o-bom-da-not-cia",
+      "label": "O Bom da Notícia"
+    },
+    {
       "id": "o-brasilianista",
       "label": "O Brasilianista"
     },
@@ -167,6 +163,10 @@
     {
       "id": "portal-ig",
       "label": "Portal iG"
+    },
+    {
+      "id": "portal-o-dia",
+      "label": "Portal O Dia"
     },
     {
       "id": "revista-f-rum",
@@ -193,6 +193,10 @@
       "label": "Times Brasil | CNBC"
     },
     {
+      "id": "tmc-com-br",
+      "label": "tmc.com.br"
+    },
+    {
       "id": "tribuna-do-agreste",
       "label": "Tribuna do Agreste"
     },
@@ -215,11 +219,161 @@
   ],
   "items": [
     {
+      "id": "macro-75fac27c9b040fb618895cf5",
+      "title": "PRF flagra 42,5 toneladas de milho sem nota fiscal em Garanhuns",
+      "summary": "Índice inflacionário recuou 0,4% no mês de junho, após ter avançado 0,5% em maio",
+      "details": "Índice inflacionário recuou 0,4% no mês de junho, após ter avançado 0,5% em maio",
+      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/eua-devem-encarar-precos-elevados-por-anos-mesmo-com-melhora-na-inflacao/",
+      "source": "LeiaJá",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-18T15:29:00Z",
+      "updatedAt": "2026-07-18T15:29:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/tagreuters.com2025binary_LYNXNPEL970UU-BASEIMAGE.webp?w=800&h=509&crop=1"
+    },
+    {
+      "id": "macro-245c4a46537c8bc4203daaeb",
+      "title": "Indústria perdeu importância no PIB e deve se unir, diz AVB",
+      "summary": "Entenda como tarifas elevadas e eleições impactam o mercado financeiro.",
+      "details": "Entenda como tarifas elevadas e eleições impactam o mercado financeiro.",
+      "url": "https://diariodoestadogo.com.br/tarifaco-e-eleicoes-azedam-clima-para-o-mercado/",
+      "source": "CNN Brasil",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-18T15:04:40Z",
+      "updatedAt": "2026-07-18T15:04:40Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/07/tarifaco-e-eleicoes-azedam-clima-para-o-mercado.jpg"
+    },
+    {
+      "id": "macro-78b325b79c93e2db992efdba",
+      "title": "EUA devem encarar preços elevados por anos mesmo com melhora na inflação",
+      "summary": "CEO da Aço Verde do Brasil alerta para desindustrialização acelerada e dependência crescente de produtos importados",
+      "details": "CEO da Aço Verde do Brasil alerta para desindustrialização acelerada e dependência crescente de produtos importados",
+      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/industria-perdeu-importancia-no-pib-e-deve-se-unir-diz-avb/",
+      "source": "CNN Brasil",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-18T14:51:51Z",
+      "updatedAt": "2026-07-18T14:51:51Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Captura-de-tela-2026-07-15-185850.png?w=571&h=326&crop=1"
+    },
+    {
+      "id": "latest-5ab8028288d68d9a173301e5",
+      "title": "Tarifaço e eleições azedam clima para o mercado",
+      "summary": "Águas Guariroba começou a enviar uma nova conta de água, com mais informações fiscais e QR Code para consulta da nota eletrônica, sem mudança no valor cobrado.",
+      "details": "Águas Guariroba começou a enviar uma nova conta de água, com mais informações fiscais e QR Code para consulta da nota eletrônica, sem mudança no valor cobrado.",
+      "url": "https://acritica.net/economia/aguas-guariroba-nova-conta-nota-fiscal-eletronica/",
+      "source": "Diário do Estado",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-18T14:46:39Z",
+      "updatedAt": "2026-07-18T14:46:39Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://uploads.acritica.net/2026/07/NF-2-640x535.jpg"
+    },
+    {
+      "id": "macro-a2ae300c134359b822c223e6",
+      "title": "Águas Guariroba muda modelo da conta e inclui nota fiscal eletrônica sem reajuste",
+      "summary": "Atualizacao de macro capturada em A Crítica de Campo Grande.",
+      "details": "",
+      "url": "https://www.leiaja.com/noticias/2026/07/18/prf-flagra-425-toneladas-de-milho-sem-nota-fiscal-em-garanhuns/",
+      "source": "A Crítica de Campo Grande",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-18T14:40:00Z",
+      "updatedAt": "2026-07-18T14:40:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-2b1e68f4ef0210f2319a7ca6",
+      "title": "Concurso Prefeitura de Sananduva (RS): histórico",
+      "summary": "Concurso Sananduva (RS): veja o histórico do município, vagas, cargos e remuneração do último edital publicado pela prefeitura.",
+      "details": "Concurso Sananduva (RS): veja o histórico do município, vagas, cargos e remuneração do último edital publicado pela prefeitura.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-sananduva/amp/",
+      "source": "Estratégia Concursos",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-18T14:37:57Z",
+      "updatedAt": "2026-07-18T14:37:57Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
+    },
+    {
+      "id": "macro-e8b9b0534166d6c0469b8903",
+      "title": "Entenda as demissões no ICL e por que a manobra fiscal virou crise",
+      "summary": "A onda de demissões atingiu cerca de dez profissionais, incluindo nomes do primeiro escalão do jornalismo e da análise política do canal",
+      "details": "A onda de demissões atingiu cerca de dez profissionais, incluindo nomes do primeiro escalão do jornalismo e da análise política do canal",
+      "url": "https://tmc.com.br/brasil/entenda-as-demissoes-no-icl-e-por-que-a-manobra-fiscal-virou-crise/",
+      "source": "tmc.com.br",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-18T14:37:15Z",
+      "updatedAt": "2026-07-18T14:37:15Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://tmc.com.br/wp-content/uploads/2026/07/PADRAO-IMAGEM-SITE-10-1.jpg.optimal.jpg"
+    },
+    {
+      "id": "macro-804cc49d709719449159cb6d",
+      "title": "Zaeli culpa Lula por alta dos alimentos e que inflação 'rouba o salário' dos brasileiros",
+      "summary": "Atualizacao de macro capturada em O Bom da Notícia.",
+      "details": "",
+      "url": "https://www.obomdanoticia.com.br/o-boom-da-noticia/zaeli-culpa-lula-por-alta-dos-alimentos-e-que-inflacao-rouba-o-salario-dos-brasileiros/242363",
+      "source": "O Bom da Notícia",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-18T14:33:00Z",
+      "updatedAt": "2026-07-18T14:33:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
       "id": "macro-e5d651ce16748bb46c105a32",
       "title": "Caminhão com mais de 42 toneladas de milho sem nota fiscal é retido pela PRF em Garanhuns",
-      "summary": "Atualizacao de macro capturada em CBN Recife.",
-      "details": "",
-      "url": "https://www.contrafatos.com.br/tarifaco-dos-eua-provoca-fuga-de-empresas-brasileiras-para-paises-vizinhos-em-meio-a-inercia-do-governo-lula/",
+      "summary": "Veículo também apresentava irregularidades, como ausência de Autorização Especial de Trânsito e tacógrafo inoperante",
+      "details": "Veículo também apresentava irregularidades, como ausência de Autorização Especial de Trânsito e tacógrafo inoperante",
+      "url": "https://www.cbnrecife.com/2026/07/18/caminhao-com-mais-de-42-toneladas-de-milho-sem-nota-fiscal-e-retido-pela-prf-em-garanhuns/",
       "source": "CBN Recife",
       "category": "macro",
       "tags": [
@@ -230,14 +384,52 @@
       "publishedAt": "2026-07-18T14:30:15Z",
       "updatedAt": "2026-07-18T14:30:15Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.cbnrecife.com/wp-content/uploads/2026/07/Divulgacao-PRF-PE.jpg"
+    },
+    {
+      "id": "macro-bdd168c706cd9ed34167278c",
+      "title": "Câmara autoriza regularização fiscal do ISS",
+      "summary": "O projeto de lei 105, que autoriza o Poder Executivo de Lajeado a instituir o programa de regularização fiscal do ISS, foi um dos aprovados pela Câmara de Vereadores na sessão de terça-feira (14/7). Trata-se do programa “ISS em dia/2026”, um instrumento de política tributária vol",
+      "details": "O projeto de lei 105, que autoriza o Poder Executivo de Lajeado a instituir o programa de regularização fiscal do ISS, foi um dos aprovados pela Câmara de Vereadores na sessão de terça-feira (14/7). Trata-se do programa “ISS em dia/2026”, um instrumento de política tributária voltado à recuperação de créditos em atraso",
+      "url": "https://folhapopular.info/index.php/2026/07/18/camara-autoriza-regularizacao-fiscal-do-iss/",
+      "source": "Jornal - Folha Popular",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-18T14:26:20Z",
+      "updatedAt": "2026-07-18T14:26:20Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://folhapopular.info/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-15-at-10.43.03.webp"
+    },
+    {
+      "id": "companies-e868f0ed9bb52135fe566b7f",
+      "title": "Incentivos fiscais e custos menores atraem empresas brasileiras a produzir no Paraguai; número de brasileiros no país cresceu 37% em um ano",
+      "summary": "Atualizacao de empresas capturada em Jornal Rondônia.",
+      "details": "",
+      "url": "https://www.jornalrondonia.com/economia/incentivos-fiscais-e-custos-menores-atraem-empresas-brasileiras-a-produzir-no-paraguai-numero-de-brasileiros-no-pais-cresceu-37-em-um-ano/24165",
+      "source": "Jornal Rondônia",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-07-18T13:53:00Z",
+      "updatedAt": "2026-07-18T13:53:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-26ff4f8620be87c99d77fefc",
       "title": "Tarifaço dos EUA provoca fuga de empresas brasileiras para países vizinhos em meio à inércia do governo Lula",
-      "summary": "Em relatório especial, analista da Empiricus apresenta 3 motivos para comprar ação (BDRs) de um banco norte-americano a partir de agora",
-      "details": "Em relatório especial, analista da Empiricus apresenta 3 motivos para comprar ação (BDRs) de um banco norte-americano a partir de agora",
-      "url": "https://www.moneytimes.com.br/veja-3-motivos-para-preferir-uma-acao-de-bancao-no-lugar-de-ativo-ligado-ao-mercado-cripto-lbrdaz256/",
+      "summary": "Tarifaço dos EUA de 25% leva empresas brasileiras a transferir operações para países vizinhos. Governo Lula não apresenta plano de resposta ao setor.",
+      "details": "Tarifaço dos EUA de 25% leva empresas brasileiras a transferir operações para países vizinhos. Governo Lula não apresenta plano de resposta ao setor.",
+      "url": "https://www.contrafatos.com.br/tarifaco-dos-eua-provoca-fuga-de-empresas-brasileiras-para-paises-vizinhos-em-meio-a-inercia-do-governo-lula/",
       "source": "ContraFatos",
       "category": "companies",
       "tags": [
@@ -249,14 +441,33 @@
       "updatedAt": "2026-07-18T13:52:16Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/07/dolar-cripto-banco-bdr.jpg"
+      "imageUrl": "https://www.contrafatos.com.br/wp-content/uploads/2026/07/tarifaco-dos-eua-provoca-fuga-de-empresas-brasileiras-para-paises-vizinhos-em-meio-a-inercia-do-governo-lula-discover-1.webp"
+    },
+    {
+      "id": "latest-2d9cd81fe41d344684747766",
+      "title": "Ibovespa recua 0,06% e fecha estável aos 173.714 pontos",
+      "summary": "Índice da B3 opera em leve queda nesta sessão, com rotação setorial entre energia e bancos marcando o pregão; Petrobras sustenta o mercado",
+      "details": "Índice da B3 opera em leve queda nesta sessão, com rotação setorial entre energia e bancos marcando o pregão; Petrobras sustenta o mercado",
+      "url": "https://portalodia.com/noticias/geral/ibovespa-recua-006-e-fecha-estavel-aos-173714-pontos-460815.html",
+      "source": "Portal O Dia",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-18T13:31:30Z",
+      "updatedAt": "2026-07-18T13:31:30Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://images.pexels.com/photos/5737835/pexels-photo-5737835.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "id": "latest-0af4c1008a56b8f528094e61",
       "title": "Clássico no lugar do ‘moderno’? Veja 3 motivos para preferir uma ação de ‘bancão’ gringo no lugar de ativo ligado ao mercado cripto",
-      "summary": "As exportações brasileiras para China, Europa e Índia registraram um crescimento seis vezes superior à queda nas vendas para os Estados Unidos durante o primeiro semestre deste ano, segundo dados apresentados pela Agência Brasileira de Promoção de Exportações e Investimentos (Ape",
-      "details": "As exportações brasileiras para China, Europa e Índia registraram um crescimento seis vezes superior à queda nas vendas para os Estados Unidos durante o primeiro semestre deste ano, segundo dados apresentados pela Agência Brasileira de Promoção de Exportações e Investimentos (ApexBrasil). Enquanto as exportações para o",
-      "url": "https://diariodorn.com.br/exportacoes-brasileiras-para-china-europa-e-india-crescem-seis-vezes-mais-que-queda-nas-vendas-aos-eua/",
+      "summary": "Prepare-se para o Concurso IBGE com nosso material gratuito que aborda as questões do Instituto Avalia de forma prática e eficiente.",
+      "details": "Prepare-se para o Concurso IBGE com nosso material gratuito que aborda as questões do Instituto Avalia de forma prática e eficiente.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-ibge-sprint-de-questoes/amp/",
       "source": "Money Times",
       "category": "latest",
       "tags": [
@@ -268,14 +479,14 @@
       "updatedAt": "2026-07-18T13:00:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://diariodorn.com.br/wp-content/uploads/2024/09/27d71478-2ea0-4e43-8847-82d1700b7c72.png"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2026/03/03145641/concurso-ibge.jpg"
     },
     {
       "id": "macro-01e0094f724dd4fe9df6f16f",
       "title": "'Primeiro bilionário' da Islândia junta-se à debandada de residentes sem domicílio fiscal, os 'non-doms'",
-      "summary": "Diante da perspectiva de pagar impostos mais altos sobre seu patrimônio no exterior, Thor Björgólfsson juntou-se a diversos outros empresários e indivíduos de alta renda que deixaram o Reino Unido",
-      "details": "Diante da perspectiva de pagar impostos mais altos sobre seu patrimônio no exterior, Thor Björgólfsson juntou-se a diversos outros empresários e indivíduos de alta renda que deixaram o Reino Unido",
-      "url": "https://oglobo.globo.com/economia/noticia/2026/07/18/primeiro-bilionario-da-islandia-junta-se-a-debandada-de-residentes-sem-domicilio-fiscal-os-non-doms.ghtml",
+      "summary": "Atualizacao de macro capturada em O GLOBO.",
+      "details": "",
+      "url": "https://acionista.com.br/?p=746334",
       "source": "O GLOBO",
       "category": "macro",
       "tags": [
@@ -286,15 +497,14 @@
       "publishedAt": "2026-07-18T12:56:27Z",
       "updatedAt": "2026-07-18T12:56:27Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-oglobo.glbimg.com/bVYsfFVesffb9m2hkOde_eqWX5s=/426x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/4/N/1Xsd7YRfSDBMn5MuCPkw/thor-bjorgolfsson-5-horizontal.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-2f4feea20c08c90ee1da93c6",
       "title": "Stablecoins: este detalhe vai mudar como você este setor de cripto",
-      "summary": "Interessados em participar do concurso PM PI 2026 podem realizar a inscrição no site da FCC. Não perca essa oportunidade!",
-      "details": "Interessados em participar do concurso PM PI 2026 podem realizar a inscrição no site da FCC. Não perca essa oportunidade!",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-pm-pi-2026-ultimos-dias-inscricao/amp/",
+      "summary": "Em relatório especial, analista da Empiricus apresenta 3 motivos para comprar ação (BDRs) de um banco norte-americano a partir de agora",
+      "details": "Em relatório especial, analista da Empiricus apresenta 3 motivos para comprar ação (BDRs) de um banco norte-americano a partir de agora",
+      "url": "https://www.moneytimes.com.br/veja-3-motivos-para-preferir-uma-acao-de-bancao-no-lugar-de-ativo-ligado-ao-mercado-cripto-lbrdaz256/",
       "source": "Acionista.com.br",
       "category": "latest",
       "tags": [
@@ -306,14 +516,14 @@
       "updatedAt": "2026-07-18T12:56:15Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2021/05/19160237/pm-pi.jpg"
+      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/07/dolar-cripto-banco-bdr.jpg"
     },
     {
       "id": "companies-ab4aa0eb0cef8f84c25b93d6",
       "title": "Exportações brasileiras para China, Europa e Índia crescem seis vezes mais que queda nas vendas aos EUA",
-      "summary": "Atualizacao de empresas capturada em Portal Diário do RN.",
-      "details": "",
-      "url": "https://noticias.uol.com.br/ultimas-noticias/deutschewelle/2026/07/18/cinturao-da-ferrugem-alemao-esta-a-beira-do-colapso-fiscal.htm",
+      "summary": "Diante da perspectiva de pagar impostos mais altos sobre seu patrimônio no exterior, Thor Björgólfsson juntou-se a diversos outros empresários e indivíduos de alta renda que deixaram o Reino Unido",
+      "details": "Diante da perspectiva de pagar impostos mais altos sobre seu patrimônio no exterior, Thor Björgólfsson juntou-se a diversos outros empresários e indivíduos de alta renda que deixaram o Reino Unido",
+      "url": "https://oglobo.globo.com/economia/noticia/2026/07/18/primeiro-bilionario-da-islandia-junta-se-a-debandada-de-residentes-sem-domicilio-fiscal-os-non-doms.ghtml",
       "source": "Portal Diário do RN",
       "category": "companies",
       "tags": [
@@ -324,14 +534,15 @@
       "publishedAt": "2026-07-18T12:43:47Z",
       "updatedAt": "2026-07-18T12:43:47Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://s2-oglobo.glbimg.com/bVYsfFVesffb9m2hkOde_eqWX5s=/426x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/4/N/1Xsd7YRfSDBMn5MuCPkw/thor-bjorgolfsson-5-horizontal.jpg"
     },
     {
       "id": "macro-f3c7c6aa30a1bec5cfebbaab",
       "title": "Concurso PM PI 2026: últimos dias de inscrição. Participe!",
-      "summary": "Atualizacao de macro capturada em Estratégia Concursos.",
-      "details": "",
-      "url": "https://acionista.com.br/?p=746334",
+      "summary": "Interessados em participar do concurso PM PI 2026 podem realizar a inscrição no site da FCC. Não perca essa oportunidade!",
+      "details": "Interessados em participar do concurso PM PI 2026 podem realizar a inscrição no site da FCC. Não perca essa oportunidade!",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-pm-pi-2026-ultimos-dias-inscricao/amp/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -342,14 +553,15 @@
       "publishedAt": "2026-07-18T12:16:55Z",
       "updatedAt": "2026-07-18T12:16:55Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2021/05/19160237/pm-pi.jpg"
     },
     {
       "id": "macro-bcfedadde9ae1ec52f97e6fc",
       "title": "Concurso IBGE: Sprint de Questões Instituto Avalia – ACQ",
-      "summary": "Veículo também apresentava irregularidades, como ausência de Autorização Especial de Trânsito e tacógrafo inoperante",
-      "details": "Veículo também apresentava irregularidades, como ausência de Autorização Especial de Trânsito e tacógrafo inoperante",
-      "url": "https://www.cbnrecife.com/2026/07/18/caminhao-com-mais-de-42-toneladas-de-milho-sem-nota-fiscal-e-retido-pela-prf-em-garanhuns/",
+      "summary": "As exportações brasileiras para China, Europa e Índia registraram um crescimento seis vezes superior à queda nas vendas para os Estados Unidos durante o primeiro semestre deste ano, segundo dados apresentados pela Agência Brasileira de Promoção de Exportações e Investimentos (Ape",
+      "details": "As exportações brasileiras para China, Europa e Índia registraram um crescimento seis vezes superior à queda nas vendas para os Estados Unidos durante o primeiro semestre deste ano, segundo dados apresentados pela Agência Brasileira de Promoção de Exportações e Investimentos (ApexBrasil). Enquanto as exportações para o",
+      "url": "https://diariodorn.com.br/exportacoes-brasileiras-para-china-europa-e-india-crescem-seis-vezes-mais-que-queda-nas-vendas-aos-eua/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -361,7 +573,7 @@
       "updatedAt": "2026-07-18T12:01:07Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.cbnrecife.com/wp-content/uploads/2026/07/Divulgacao-PRF-PE.jpg"
+      "imageUrl": "https://diariodorn.com.br/wp-content/uploads/2024/09/27d71478-2ea0-4e43-8847-82d1700b7c72.png"
     },
     {
       "id": "latest-536379700d61a050c902ceaf",
@@ -385,9 +597,9 @@
     {
       "id": "macro-aec111df839972e95b075612",
       "title": "Cinturão da ferrugem alemão está à beira do colapso fiscal",
-      "summary": "Prepare-se para o Concurso IBGE com nosso material gratuito que aborda as questões do Instituto Avalia de forma prática e eficiente.",
-      "details": "Prepare-se para o Concurso IBGE com nosso material gratuito que aborda as questões do Instituto Avalia de forma prática e eficiente.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-ibge-sprint-de-questoes/amp/",
+      "summary": "Índice Nacional de Preços ao Consumidor Amplo (IPCA) desacelerou para 0,16% em junho, impulsionado por alimentos; analistas veem espaço para queda da Selic",
+      "details": "Índice Nacional de Preços ao Consumidor Amplo (IPCA) desacelerou para 0,16% em junho, impulsionado por alimentos; analistas veem espaço para queda da Selic",
+      "url": "https://www.itatiaia.com.br/economia/investimentos/ipca-junho-inflacao-desacelera-impacta-juros-investimentos/",
       "source": "UOL Notícias",
       "category": "macro",
       "tags": [
@@ -399,14 +611,14 @@
       "updatedAt": "2026-07-18T11:26:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2026/03/03145641/concurso-ibge.jpg"
+      "imageUrl": "https://admin.itatiaia.com.br/wp-content/uploads/sites/27/2026/02/tudo-sobre-investime7b282eb2-1b0d-4c37-a97a-a1e6a9dcd2ba.jpg?resize=1280%2C720&w=1280&h=720&quality=50&crop=1"
     },
     {
       "id": "macro-9c609feb131b565fdd193025",
       "title": "Setores de confecções e calçados têm benefício fiscal de ICMS prorrogado em MT",
-      "summary": "aval do Conselho Nacional de Política Fazendária, Sefaz MT prorrogou incentivo fiscal do ICMS para vestuário, confecções, calçados e tecidos",
-      "details": "aval do Conselho Nacional de Política Fazendária, Sefaz MT prorrogou incentivo fiscal do ICMS para vestuário, confecções, calçados e tecidos",
-      "url": "https://matogrossoeconomico.com.br/economia/setores-de-confeccoes-e-calcados-tem-beneficio-fiscal-de-icms-prorrogado-em-mt/",
+      "summary": "Os contribuintes de Marechal Cândido Rondon têm até a próxima terça-feira, dia 21 de julho, para aderir ao Programa Nota Fiscal Premiada e garantir a participação no próximo sorteio da campanha, marcado para o dia 25 de julho de 2026.",
+      "details": "Os contribuintes de Marechal Cândido Rondon têm até a próxima terça-feira, dia 21 de julho, para aderir ao Programa Nota Fiscal Premiada e garantir a participação no próximo sorteio da campanha, marcado para o dia 25 de julho de 2026.",
+      "url": "https://www.colunadomeio.com.br/noticia/contribuintes-tem-ate-terca-feira-para-aderir-ao-programa-nota-fiscal-premiada-e-concorrer-a-uma-honda-pcx-160",
       "source": "MT Econômico",
       "category": "macro",
       "tags": [
@@ -418,14 +630,14 @@
       "updatedAt": "2026-07-18T11:03:45Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://matogrossoeconomico.com.br/wp-content/uploads/2026/07/comerciante-cdl-cba.jpg"
+      "imageUrl": "https://www.colunadomeio.com.br/uploads/images/2026/07/contribuintes-tem-ate-terca-feira-para-aderir-ao-programa-nota-fiscal-premiada-e-concorrer-a-uma-honda-pcx-160.jpg"
     },
     {
       "id": "macro-b7dfa5fcc3e953e7d609ee61",
       "title": "Contribuintes têm até terça-feira para aderir ao Programa Nota Fiscal Premiada e concorrer a uma Honda PCX 160",
-      "summary": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
-      "details": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
-      "url": "https://www.tribunadoagreste.com.br/geral/2026/07/18/942305-setor-de-tecnologia-avanca-20-em-meio-a-desafios-macroeconomicos",
+      "summary": "aval do Conselho Nacional de Política Fazendária, Sefaz MT prorrogou incentivo fiscal do ICMS para vestuário, confecções, calçados e tecidos",
+      "details": "aval do Conselho Nacional de Política Fazendária, Sefaz MT prorrogou incentivo fiscal do ICMS para vestuário, confecções, calçados e tecidos",
+      "url": "https://matogrossoeconomico.com.br/economia/setores-de-confeccoes-e-calcados-tem-beneficio-fiscal-de-icms-prorrogado-em-mt/",
       "source": "Coluna do Meio",
       "category": "macro",
       "tags": [
@@ -437,14 +649,14 @@
       "updatedAt": "2026-07-18T11:02:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://img.dhost.cloud/kj0OnXA5D_e3y9A8lO6Kt4S3eo8=/1200x630/smart/https://tdan.nyc3.digitaloceanspaces.com/images/7bfec/3bf3b06da686e336dfc1ce8033f4be070e4.png"
+      "imageUrl": "https://matogrossoeconomico.com.br/wp-content/uploads/2026/07/comerciante-cdl-cba.jpg"
     },
     {
       "id": "macro-a6a1abdbe143c4d4be593195",
       "title": "Inflação abaixo do esperado faz prefixados 'dispararem'; entenda os investimentos",
-      "summary": "Índice Nacional de Preços ao Consumidor Amplo (IPCA) desacelerou para 0,16% em junho, impulsionado por alimentos; analistas veem espaço para queda da Selic",
-      "details": "Índice Nacional de Preços ao Consumidor Amplo (IPCA) desacelerou para 0,16% em junho, impulsionado por alimentos; analistas veem espaço para queda da Selic",
-      "url": "https://www.itatiaia.com.br/economia/investimentos/ipca-junho-inflacao-desacelera-impacta-juros-investimentos/",
+      "summary": "Atualizacao de macro capturada em Rádio Itatiaia.",
+      "details": "",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/deutschewelle/2026/07/18/cinturao-da-ferrugem-alemao-esta-a-beira-do-colapso-fiscal.htm",
       "source": "Rádio Itatiaia",
       "category": "macro",
       "tags": [
@@ -455,15 +667,14 @@
       "publishedAt": "2026-07-18T11:00:35Z",
       "updatedAt": "2026-07-18T11:00:35Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://admin.itatiaia.com.br/wp-content/uploads/sites/27/2026/02/tudo-sobre-investime7b282eb2-1b0d-4c37-a97a-a1e6a9dcd2ba.jpg?resize=1280%2C720&w=1280&h=720&quality=50&crop=1"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-f799bb5c5dba06c068de3afe",
       "title": "O risco que não pode ser escondido",
-      "summary": "Atualizacao de macro capturada em VEJA.",
-      "details": "",
-      "url": "https://www.colunadomeio.com.br/noticia/contribuintes-tem-ate-terca-feira-para-aderir-ao-programa-nota-fiscal-premiada-e-concorrer-a-uma-honda-pcx-160",
+      "summary": "A relação dívida/PIB é imune a manobras contábeis",
+      "details": "A relação dívida/PIB é imune a manobras contábeis",
+      "url": "https://veja.abril.com.br/coluna/mailson-da-nobrega/o-risco-que-nao-pode-ser-escondido/",
       "source": "VEJA",
       "category": "macro",
       "tags": [
@@ -474,14 +685,15 @@
       "publishedAt": "2026-07-18T11:00:06Z",
       "updatedAt": "2026-07-18T11:00:06Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/05/pzzb5910.jpg.jpg?quality=70&strip=info&resize=1080,565&crop=1"
     },
     {
       "id": "latest-0692cf60f57ba25d1faeef5a",
       "title": "Setor de tecnologia avança 20% em meio a desafios macroeconômicos",
-      "summary": "A Diretoria de Gestão do Projeto de Investimento em Construção de Transportes da Província de Son La, em coordenação com os departamentos e agências relevantes, está acelerando a construção e o desembolso de fundos de investimento público, buscando concluir o plano até 2026.",
-      "details": "A Diretoria de Gestão do Projeto de Investimento em Construção de Transportes da Província de Son La, em coordenação com os departamentos e agências relevantes, está acelerando a construção e o desembolso de fundos de investimento público, buscando concluir o plano até 2026.",
-      "url": "https://www.vietnam.vn/pt/son-la-tang-toc-giai-ngan-von-dau-tu-cong",
+      "summary": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
+      "details": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
+      "url": "https://www.tribunadoagreste.com.br/geral/2026/07/18/942305-setor-de-tecnologia-avanca-20-em-meio-a-desafios-macroeconomicos",
       "source": "Tribuna do Agreste",
       "category": "latest",
       "tags": [
@@ -493,33 +705,14 @@
       "updatedAt": "2026-07-18T11:00:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/18/1784350616523_12-jpg.webp"
-    },
-    {
-      "id": "macro-b59aaca4b4209c22f3d08099",
-      "title": "Simulado Final Concurso Sefaz CE para Auditor Fiscal!",
-      "summary": "A relação dívida/PIB é imune a manobras contábeis",
-      "details": "A relação dívida/PIB é imune a manobras contábeis",
-      "url": "https://veja.abril.com.br/coluna/mailson-da-nobrega/o-risco-que-nao-pode-ser-escondido/",
-      "source": "Estratégia Concursos",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-18T10:45:00Z",
-      "updatedAt": "2026-07-18T10:45:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/05/pzzb5910.jpg.jpg?quality=70&strip=info&resize=1080,565&crop=1"
+      "imageUrl": "https://img.dhost.cloud/kj0OnXA5D_e3y9A8lO6Kt4S3eo8=/1200x630/smart/https://tdan.nyc3.digitaloceanspaces.com/images/7bfec/3bf3b06da686e336dfc1ce8033f4be070e4.png"
     },
     {
       "id": "funds-ea938c8488e3144fdc93a390",
       "title": "Son La acelera o desembolso de fundos de investimento público.",
-      "summary": "Aproveite o Simulado Final Sefaz CE para se preparar para o concurso com assuntos de Geral Fazendária e Tecnologia da Informação.",
-      "details": "Aproveite o Simulado Final Sefaz CE para se preparar para o concurso com assuntos de Geral Fazendária e Tecnologia da Informação.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/simulado-final-concurso-sefaz-ce-2026/",
+      "summary": "Atualizacao de fundos capturada em Vietnam.vn.",
+      "details": "",
+      "url": "https://revistaforum.com.br/global/trump-media-vende-acesso-posts/",
       "source": "Vietnam.vn",
       "category": "funds",
       "tags": [
@@ -530,15 +723,14 @@
       "publishedAt": "2026-07-18T10:26:06Z",
       "updatedAt": "2026-07-18T10:26:06Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2026/03/30213639/imunidades-tributarias-para-o-concurso-da-sefaz-ce.png"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "latest-e229039dfb638af7dd01840c",
       "title": "Mercado VIP: Empresa de Trump cobra US$ 100 mil por acesso antecipado a posts presidenciais",
-      "summary": "Exportadores instalam unidades fora do Brasil para manter acesso ao mercado norte-americano sem o tarifaço de 25%",
-      "details": "Exportadores instalam unidades fora do Brasil para manter acesso ao mercado norte-americano sem o tarifaço de 25%",
-      "url": "https://revistaoeste.com/economia/tarifaco-leva-empresas-brasileiras-a-transferirem-operacoes-para-paises-vizinhos/",
+      "summary": "A Diretoria de Gestão do Projeto de Investimento em Construção de Transportes da Província de Son La, em coordenação com os departamentos e agências relevantes, está acelerando a construção e o desembolso de fundos de investimento público, buscando concluir o plano até 2026.",
+      "details": "A Diretoria de Gestão do Projeto de Investimento em Construção de Transportes da Província de Son La, em coordenação com os departamentos e agências relevantes, está acelerando a construção e o desembolso de fundos de investimento público, buscando concluir o plano até 2026.",
+      "url": "https://www.vietnam.vn/pt/son-la-tang-toc-giai-ngan-von-dau-tu-cong",
       "source": "Revista Fórum",
       "category": "latest",
       "tags": [
@@ -550,14 +742,14 @@
       "updatedAt": "2026-07-18T10:05:30Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/07/image-2026-07-18-065541.jpg"
+      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/18/1784350616523_12-jpg.webp"
     },
     {
       "id": "latest-77018e18eca103c544d2b7d1",
       "title": "Agro e estatais roubam a cena na Bolsa em 2026; veja os índices campeões do ano",
       "summary": "Atualizacao de ultima hora capturada em Estadão.",
       "details": "",
-      "url": "https://revistaforum.com.br/global/trump-media-vende-acesso-posts/",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSFhaUDhEY1MwaTdwZWYtS0NtbHpiSUFSVGZsT1RmYk5mT1o0N0pPSzlVdHkzM2JLWnR5anZJMTdrVEh2cDYxbnFDRVdSb09Fb2FYRUdMcUREc0ltanJyWldVc1hLb0luVjF6NTZ5RVBSMEdfOU95WmtCMFV1OVdIbUhZUGNaQ3VEV19xYndlbDlIRmNnRVBxRlplXzVCOFBobVZXcHNn0gGrAUFVX3lxTE1maU1MRTZMWnNMRjgyUkljVnh1WkkxUDdWc3pncXI3SENOandPcmg5elE1S3RJY0pfb25TZ0JPT3pvMUxsMDRwS3A5Q19kcElwM0JmRTlMalJzZmFvVGFLUWdUUWMtb2RhLXBja2hZcFQ3Qnc5cEd6MXFySUpBVzNXUFFKM3hLc0d3eS0yckdTaDRnRkE5NkpkYlhINWplV3BsU2lfTURrWE92VQ?oc=5",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -573,9 +765,9 @@
     {
       "id": "companies-fa9a872920ce5c6fa8095271",
       "title": "Tarifaço leva empresas brasileiras a transferirem operações para países vizinhos",
-      "summary": "O Ibovespa, principal referência do mercado financeiro, aparece na sexta colocação em meio à invasão de estrangeiros, com alta de 10,26%",
-      "details": "O Ibovespa, principal referência do mercado financeiro, aparece na sexta colocação em meio à invasão de estrangeiros, com alta de 10,26%",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/indices-b3-agro-estatais-lideram-ganhos-2026/",
+      "summary": "Atualizacao de empresas capturada em Revista Oeste.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVjc0UzliTExhYjZxMWhIS3c1UHJtR1RIdGgxNVdwVXhCV1RoSnI1Nkg4ZmM0X0pnSWFxbTByXzM2R1RmdzJiVHdMOV95RFVxWU1ZcjN1cVUtd090VG9CTDZ3dWRQY1ZaY1pSV2RRWjZzMVU2ekV3RkszOEJmZ0hxdk9nMHhiQmhzcTRWeVQzcUNZbDJBU0ZlcWIwMk9RdUVRX20yajFMQ3RIUmdaNFVvSjBNSmdpdw?oc=5",
       "source": "Revista Oeste",
       "category": "companies",
       "tags": [
@@ -586,15 +778,14 @@
       "publishedAt": "2026-07-18T09:57:15Z",
       "updatedAt": "2026-07-18T09:57:15Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/RTZBDQ5NPRJQXHRR7LYXBU67EY.png?quality=80&auth=a6ca0e95fc1675dc12968edd5af1195f7508fb749f5d49150a23a53577b2a05e&width=1200&height=630&smart=true"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "funds-b1e519be8ceae6a350bad757",
       "title": "Atlas Inc. lança gestora tech de recursos focada em AI e tokenização, e anuncia Marcelo Nantes, ex-CIO da Bradesco Asset, como CEO",
-      "summary": "Cidade de interior que enriquece com grãos costuma parar por aí, exportando a safra e o próprio talento. Rio Verde,",
-      "details": "Cidade de interior que enriquece com grãos costuma parar por aí, exportando a safra e o próprio talento. Rio Verde,",
-      "url": "https://revistaoeste.com/oestegeral/2026/07/18/a-cidade-goiana-que-triplicou-o-pib-passou-anapolis-e-impressiona-com-qualidade-de-vida/",
+      "summary": "Atualizacao de fundos capturada em Livecoins.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUnpPMWtDYXI3eUh5b0xFOFROUTl0ZXpCa3FoSTJHY2RkVTAyX2k2SWZUQUkxMW1PVTJUWGFacFp3eV9mTmotZ0Y0Ylg1OGZrQzV1NTIzSFJMLWRXaHNzbXBmUHBQc2k3eHJ2bnNxQXJURW5sWWxaeFU5QmRWZWt0N2xWX0d2ZVFPdHo0S0tTNHBQQmhhN29sSXRJN0ZlMzVZbEctdVpQbExBanZ0ZjR2RDFnSy11a2t3R0p4cEM1ai1qYmtzb3p3dFZMZnYyU190MFNmYXF1ZWFqZzZrR096RFlYbm13VXdFUXlqMw?oc=5",
       "source": "Livecoins",
       "category": "funds",
       "tags": [
@@ -605,34 +796,14 @@
       "publishedAt": "2026-07-18T09:52:00Z",
       "updatedAt": "2026-07-18T09:52:00Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://revistaoeste.com/oestegeral/wp-content/uploads/2026/07/FLOWIMAGE_Aerial_view_agribusiness_urban_life_202607161201.jpg"
-    },
-    {
-      "id": "macro-8373efba6a468077a0b2f955",
-      "title": "Redes públicas de ensino podem utilizar materiais gratuitos sobre educação fiscal disponibilizados pelo FNDE",
-      "summary": "Nos últimos dias, os depositantes têm ficado impressionados com as altas taxas de juros oferecidas pelos bancos. No site oficial, a taxa de juros para um depósito de 6 meses é de apenas cerca de 6% ao ano, mas os depositantes podem, na realidade, receber até 9% ao ano.",
-      "details": "Nos últimos dias, os depositantes têm ficado impressionados com as altas taxas de juros oferecidas pelos bancos. No site oficial, a taxa de juros para um depósito de 6 meses é de apenas cerca de 6% ao ano, mas os depositantes podem, na realidade, receber até 9% ao ano.",
-      "url": "https://www.vietnam.vn/pt/dieu-gi-dang-dien-ra-tren-thi-truong-lai-suat-niem-yet-6-nam-thuc-nhan-toi-9-nam",
-      "source": "Alagoas Alerta",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-18T09:51:23Z",
-      "updatedAt": "2026-07-18T09:51:23Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/18/1784365958386_ls-vpb-1-1784364033750942279245-32-0-1079-2000-crop-1784364072845341583171.jpeg"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "latest-8a52c49f50e7b2b7ddc69689",
       "title": "O que está acontecendo no mercado de taxas de juros: cotadas a 6% ao ano, mas na realidade recebendo até 9% ao ano?",
-      "summary": "Confira o horóscopo financeiro de hoje para os 12 signos: tendências de investimento, alertas de gastos e oportunidades imperdíveis no mercado",
-      "details": "Confira o horóscopo financeiro de hoje para os 12 signos: tendências de investimento, alertas de gastos e oportunidades imperdíveis no mercado",
-      "url": "https://www.spacemoney.com.br/horoscopo/horoscopo-financeiro-hoje-18-07-2026-todos-os-signos/",
+      "summary": "Atualizacao de ultima hora capturada em Vietnam.vn.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLUlNMHRkVkdWRUxwOXFxRmZBNGRSa2pUMUp1aGdWUktHQVRkTWZXUHpNUjVoYjJVSy13ZjFXZ2podEJHTU1wVmVBQ1RuX2JyM3YxNllKamFKbWdya1JQWk03ZE0tRTVGOU51clZYejNaektkNTY5U010LWtRTGlqU3ltOUw2Rm9NTmNCTDcwTGZlbUVQOGF2elFLSXFFMGx6TC1BeDZzN0l1Zw?oc=5",
       "source": "Vietnam.vn",
       "category": "latest",
       "tags": [
@@ -643,15 +814,14 @@
       "publishedAt": "2026-07-18T09:46:42Z",
       "updatedAt": "2026-07-18T09:46:42Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/07/pexels-photo-7947753-1.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-286ec29c20b7f02b5fbe60c9",
       "title": "Previsões financeiras para todos os signos em 18/07/2026",
-      "summary": "Ação promovida pela administração municipal busca fortalecer o comércio e os prestadores de serviços locais, ampliar a emissão de notas fiscais e preparar Teutônia para as mudanças da reforma tributária - Grupo A Hora",
-      "details": "Ação promovida pela administração municipal busca fortalecer o comércio e os prestadores de serviços locais, ampliar a emissão de notas fiscais e preparar Teutônia para as mudanças da reforma tributária - Grupo A Hora",
-      "url": "https://grupoahora.net.br/conteudos/2026/07/18/campanha-incentiva-compras-locais-e-reforca-educacao-fiscal/",
+      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU05RaURBbmxoSm0tY1lMNEF3WGY1YjJWTmdWa1ZsLUdoMHVUSlA5dS10WjZjV1hzcnZMS3FKVGNudWc3Nlh5VjI5TXpTdGNzS1BCNVdGZVJZeUp4RUdva0tDRWEtZkpRVndXSWxOcTBwdnZtRVlhSGNtMHZoT19ieWRvWXl6STlSQWVjRWV5OWoteUowLXVQWQ?oc=5",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -662,53 +832,14 @@
       "publishedAt": "2026-07-18T09:30:41Z",
       "updatedAt": "2026-07-18T09:30:41Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://cdn-images.grupoahora.net.br/2026/07/13a7e281-fe47-47a6-8119-3122b3c4cc78.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "macro-bc19a79724a958a387592576",
-      "title": "Campanha incentiva compras locais e reforça educação fiscal",
-      "summary": "Kosmos Capital Group nasce focada em ativos estruturados, ampliando a atuação do grupo na gestão de recursos e aproximando investidores tradicionais das novas estruturas de ativos digitais.",
-      "details": "Kosmos Capital Group nasce focada em ativos estruturados, ampliando a atuação do grupo na gestão de recursos e aproximando investidores tradicionais das novas estruturas de ativos digitais.",
-      "url": "https://livecoins.com.br/atlas-inc-lanca-gestora-tech-de-recursos-focada-em-ai-e-tokenizacao-e-anuncia-marcelo-nantes-ex-cio-da-bradesco-asset-como-ceo/amp/",
-      "source": "Grupo A Hora",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-18T08:30:00Z",
-      "updatedAt": "2026-07-18T08:30:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://livecoins.com.br/wp-content/uploads/2026/07/Tokenizacao.jpg"
-    },
-    {
-      "id": "macro-20fa8870bff46a2ecdc52ac5",
-      "title": "A cidade goiana que triplicou o PIB, passou Anápolis e impressiona com qualidade de vida",
-      "summary": "Secretarias estaduais e municipais de Educação já podem acessar gratuitamente os materiais do projeto Educação Fiscal, Cidadania e Controle Social nas Escolas , iniciativa voltada",
-      "details": "Secretarias estaduais e municipais de Educação já podem acessar gratuitamente os materiais do projeto Educação Fiscal, Cidadania e Controle Social nas Escolas , iniciativa voltada",
-      "url": "https://www.alagoasalerta.com.br/noticia/redes-publicas-de-ensino-podem-utilizar-materiais-gratuitos-sobre-educacao-fiscal",
-      "source": "Revista Oeste",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-18T08:25:00Z",
-      "updatedAt": "2026-07-18T08:25:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://cdn.sanity.io/images/dqacgg2v/production/5d41e4f6bee17adfc6fbbe260c44b5e59c4728cf-768x512.jpg"
-    },
-    {
-      "id": "companies-c5ce23dbc37d961c8d7cc719",
+      "id": "companies-6af4317524877b37412a0aed",
       "title": "Empresas de Marília e região reagem à tarifa dos EUA e buscam reduzir impactos",
-      "summary": "PIB de Minas Gerais recua no 1º trimestre de 2026. Setor de serviços, com mercado de trabalho aquecido, ameniza a queda econômica.",
-      "details": "PIB de Minas Gerais recua no 1º trimestre de 2026. Setor de serviços, com mercado de trabalho aquecido, ameniza a queda econômica.",
-      "url": "https://diariodocomercio.com.br/economia/pib-minas-gerais-recua-1o-trimestre-2026/",
+      "summary": "Atualizacao de empresas capturada em Marília Notícia.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRmU5QkF6WkJRNkNfTlpiaTZmSkZ3QUdMbzI4OTl5SHJJcHZkd3czY0djUTd0TGVIWGREZU1ORlljaXRYdVBMemoxWEc0RmNUT19wenZEcWZiRDZkbHdlUHlOeDF2OEZQbnlrQ1NMaXlNX3UxVWlGd3RoUHF3NFd2QlhtS1JpUTVrVUo3VVBUVlJ2WnU0N3JDajdvdUpTM2tERUVpZXBPZlA1Nkw4cmfSAYcDQVVfeXFMTzBNZWxfaHVQZVptR3dqVWhnRzhRbzltSVJTM3EyWS1FLUZOQ005QjdKTktROEt5Tkoycng1bzA5aWV6anl6TDNNZmRjbkh3NTlYQ0xid2JlYWJlWTNGb29SdThJYjhOOXVWLVNCMUFTSl9YRG5Ma2EyUnR3THlWODlfLTctWXZoRlpKMzhtaEl2OWdOb2d4Q1lhWTZYR3hMLV9ZSVZFMEFlVENhVG9qUmxRWnBvYXRCOW5sVFg0dUNJaGE5LTM2TWpVMlJ0RTJ4Y1ROaEZsTUNxZW0tV3h5MFF5bDk5cmJQU1R4VExfTVlvSjJ1XzBLamNiWGpNTXZqT28tejVjQ3lrZ1VKeGF1bm8tMkM5TmlaU01wZUdtYXVsaXpvTWVTcVQ3dmU3Ny03MDdjck4xWHRtS1hIWTVDYmhDOVptc25tS2VhR1FjVmlPT2NHVi1KMUluNDFPX25nR28tMXVOT0JvZ2FOWjNXbXBndEVWcUFKVDk1UC0xU3dDN2J2QkhkWQ?oc=5",
       "source": "Marília Notícia",
       "category": "companies",
       "tags": [
@@ -716,30 +847,10 @@
         "resultados",
         "m&a"
       ],
-      "publishedAt": "2026-07-18T08:02:32Z",
-      "updatedAt": "2026-07-18T08:02:32Z",
+      "publishedAt": "2026-07-18T08:59:28Z",
+      "updatedAt": "2026-07-18T08:59:28Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://diariodocomercio.com.br/wp-content/uploads/2026/07/salao-beleza.jpeg"
-    },
-    {
-      "id": "macro-2187f84b2376570530780a48",
-      "title": "Setor de serviços supera turbulência econômica, queda do PIB e segue forte em Minas Gerais",
-      "summary": "Indústrias aceleram logística, diversificam mercados e acompanham efeitos da medida sobre as exportações.",
-      "details": "Indústrias aceleram logística, diversificam mercados e acompanham efeitos da medida sobre as exportações.",
-      "url": "https://marilianoticia.com.br/empresas-de-marilia-e-regiao-reagem-a-tarifa-dos-eua-e-buscam-reduzir-impactos/",
-      "source": "Diário do Comércio",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-18T08:01:00Z",
-      "updatedAt": "2026-07-18T08:01:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://marilianoticia.com.br/wp-content/uploads/2026/07/Cacau-Foods-Marilia.jpeg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-b2b31a3310d9a970d6ea460a",
@@ -778,24 +889,6 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "macro-b527cb4100f43742ede80d71",
-      "title": "Atividade econômica sobe 0,1% em maio e supera expectativas",
-      "summary": "Atualizacao de macro capturada em Gazeta de Alagoas.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdXNLZVFoWjUzNTJPUVlHel8zdmN0ZWwxTV80UW5Od1p6OXMtU2lvTEhab0ZRSnJpODkzcWZ4NFZxLVZpb2MwcERiZXhLNzFOREJpeE55TmRoZ2RHTjV1MUt5cGtPcGZUN19hOEVNekJGM3NPYjN0QllWWnJlQjZzRVd4R2doSk1oVUs4MlVwQmhOei1GZmVuVUJoNmZZMTYwQm4xeDkzWnlRN1pOQm9sd2x0Qm_SAbQBQVVfeXFMTnVzS2VRaFo1MzUyT1FZR3pfM3ZjdGVsMU1fNFFuTndaejlzLVNpb0xIWm9GUUpyaTg5M3FmeDRWcS1WaW9jMHBEYmV4SzcxTkRCaXhOeU5kaGdkR041dTFLeXBrT3BmVDdfYThFTXpCRjNzT2IzdEJZVlpyZUI2c0VXeEdnaEpNaFVLODJVcEJoTnotRmZlblVCaDZmWTE2MEJuMXg5M1p5UTdaTkJvbHdsdEJv?oc=5",
-      "source": "Gazeta de Alagoas",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-18T07:00:50Z",
-      "updatedAt": "2026-07-18T07:00:50Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
       "id": "latest-204e59488e4d008045d95dc0",
       "title": "Ibovespa hoje: Minerva (BEEF3) e MBRF (MBRF3) saltam; Azzas (AZZA3) lidera perdas",
       "summary": "Atualizacao de ultima hora capturada em Estadão.",
@@ -830,42 +923,6 @@
       "updatedAt": "2026-07-18T07:00:13Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "macro-db7cc7e63ae0b46d05b6173f",
-      "title": "Mais uma manobra fiscal",
-      "summary": "Atualizacao de macro capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1qN3Y1c082cnJKclYySWtka2JTRnA2eFl2MVFSMUpqN25yZGdfYmkxQUFjZDZBSFZ2d3Vtdloya3NZeS03ckdmTENaVkFyYXY0aTNsNmo5X3NvOGM0YzMySjV1MXpWSU42NThj?oc=5",
-      "source": "Estadão",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-18T06:01:00Z",
-      "updatedAt": "2026-07-18T06:01:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-d0e3cdf20aca08e005065310",
-      "title": "Com novo tarifaço de Trump e déficit fiscal crescente, Brasil chega à eleição mais importante do mundo em 2026 sem margem para erro, diz analista",
-      "summary": "Atualizacao de macro capturada em G1.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNQzhpVFJQVTRBZi1YRmMzemstWmNaTVlnTUU2MDc4RElEVTR5STh3U2o4ZmNlSDhVeFBZWEcxSFJYNGxCeHdPVURfd3RyZnZ2c1VEVVRWY1Y1WUJPNXZFS2Y5OS1LOV9SYlc5cVlSemZlUm82UDhPQ3M0cUtuYmgxRjhta2xGeHB0SVVsSmZLeWNKOS1zX2ROQ0tSV1AyMTlQOEZ2TkYzbVNYaFZXSElRSEo2eGR4aVNXb3NCdFB0aUtsdkVjaE1BYzFXTnMzVHBseU9laTR3Ni1RSGR1dzMwQm91U0tMRHBZaHdtSGliN2ZUb1JEdnF3c1pnY0V4QkJVcklVb3hzRDR2T3VFSVNtZFNiRU1IZXpmRFdadWVELUY4WlJm0gGzAkFVX3lxTFBrQndQeXFwbm9nMWhrM3lFWm5KWEMyMGZseEFRdTNWbUh2S0V0OWhhQ3dkTGJwQUxFVDJrc3RBbm9vaXdWbWRGa3NTWHVuOTljYWIzdkdCcjlUYVBRMEpkQkRhVVE1RWJWNlZWT1ZnRzVJWGZPcDR6emdaaHYwb2tjdzBHbVRPTEt0OE5CYU5ULWQ2VGFIcWZ2SFppZEloVlc4RXpINFBuZFlMZ19rbGczdmJxR3NzblRNWlQ0RDRCaC1MNGhIUkFKN2huOTRPTWhreHhWRXNYaVI3ZzlHWWxqeHY2ZVF4R2hBVGFTVVJja2xyQnl5S3RWZ2tqTXZNTlhYeGpVM09JR2J2LU1KM3BCR3FodkZFdllNWklyd1MyTmtwbFN0ekZrN00tSXdYMXhicEU?oc=5",
-      "source": "G1",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-18T06:00:19Z",
-      "updatedAt": "2026-07-18T06:00:19Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-3962fe9c8a3742238dcfb738",
@@ -1012,24 +1069,6 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-a95809e4fb1239cda1b86549",
-      "title": "Tarifaço e guerra anulam boas novas com inflação e reduzem fôlego do Ibovespa ao longo da semana",
-      "summary": "Atualizacao de ultima hora capturada em Times Brasil | CNBC.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMWYzbVBPc0RmX2otZ3NycFJHNGNoaHFTSkNGaS1KaTJEZVRrZnM2ZEZFUjk2WmNaZVRJUFVuM3k4N3BDQzhQSDJ0NlE0WFRHZk1mbE1wYjhlbU9wMVc3bkdUcmE5NFhlVkt5OTJXZFZLUmNqd2FiWV9IRjBWMC1vS0hxN0lrSFlGYy05dEd5d0VhNUpodmtoZHBpREk5VG54LU1zU0hYVEUwakxDRkZtUGJHekxpX05MdmpvQmNsa3FVdHR6Vk0xcGNfMzAyOThmN1l5aGlCZEtkOXFBTks3bFZXUUs?oc=5",
-      "source": "Times Brasil | CNBC",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-18T00:33:00Z",
-      "updatedAt": "2026-07-18T00:33:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "funds-86482ae8f7a8995ab0d84552",
       "title": "Notícias Cripto: Will Smith na Expert XP, Nu Asset, Foxbit, BingX e outras novidades",
       "summary": "Atualizacao de fundos capturada em cointelegraph.com.br.",
@@ -1046,24 +1085,6 @@
       "updatedAt": "2026-07-18T00:21:24Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "latest-79a546dea1030d285f20fa05",
-      "title": "A economia brasileira cresceu 0,1% em maio, diz o Banco Central",
-      "summary": "Atualizacao de ultima hora capturada em Jornal O Sul.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcW1udGsyWXJjQURfdFpnSTZGaHJuSTdyT1NGSDNjbFN0WGJ0a2lJcm5mYWFuSVI0dHZOaU9lY0wtVy1lTDZuRjg3a3JwTU1SM3FaNzN3RUlxR3piTFVRb0ZuaGZpZEI1OC1PMFlEVEVyQUpWWENmQnpaNHhDaXFHbHh4dkpTenc1UXU2YVQ3d3ZwWGvSAZMBQVVfeXFMTnFtbnRrMllyY0FEX3RaZ0k2Rmhybkk3ck9TRkgzY2xTdFhidGtpSXJuZmFhbklSNHR2TmlPZWNMLVctZUw2bkY4N2tycE1NUjNxWjczd0VJcUd6YkxVUW9GbmhmaWRCNTgtTzBZRFRFckFKVlhDZkJ6WjR4Q2lxR2x4eHZKU3p3NVF1NmFUN3d2cFhr?oc=5",
-      "source": "Jornal O Sul",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-18T00:08:21Z",
-      "updatedAt": "2026-07-18T00:08:21Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-67b77401f96adf7e4ade7a3d",
@@ -1278,24 +1299,6 @@
       ],
       "publishedAt": "2026-07-17T19:00:50Z",
       "updatedAt": "2026-07-17T19:00:50Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-e923b11268924c821fb7eed9",
-      "title": "ApexBrasil: tarifaço dos EUA pode pressionar inflação norte-americana",
-      "summary": "Atualizacao de empresas capturada em Correio Braziliense.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONEQ5WldtNjhpVTJnbHpXYWFiV1Rjb3c2bDdCZXVHejZpLVVzMEJqN0JGR3lneFJ4OXBieFM1LVY5cmVSUEJlOUJwNmhrLTV3eTk2MW5jQWl3UnRPMFJMSlh5UGsxVWRHYnQ1RlpTTjUwM211bWN2OFpkXzhvQ1hyWmtabUVKOVRqZDcwNjR4Snp2Ympkd2pvaHZtSHBaa1JoeHZzLTV2a3V0YkVhZk5SYm5fZ0x0SDhpRkx3X0V1cFYyQ0VEelM0RUY2RWZYaFZQS1HSAdcBQVVfeXFMTjFBSklvbTNKbU11V09qemdwVjVxejU2U1JYT3ozb0V2M1l3T0JzcWRveFZFcEprRzBQNkJKc2x6RFRMdU10NFlEUnB4Qzl0Vm5DOHVQbDJvdzR5RXpsbGFmbXVLaHRiUG1kWkJ5RFliNEdJeDh0Mi1OQ2c1cmlCcHBHMVEtV2JpZXZwZzRPZVNJaUVtWDMwWktScWtNZWY2YUlxYTAyMmxRWnFremZOTlVkLVUyUW5xQ2RBVC10YnlHemhUNE12eTRnUWhJSGZlYUlXOVRleUU?oc=5",
-      "source": "Correio Braziliense",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-07-17T18:50:00Z",
-      "updatedAt": "2026-07-17T18:50:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
