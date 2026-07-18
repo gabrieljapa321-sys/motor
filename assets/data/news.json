@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-18T20:41:42Z",
-  "generatedAt": "2026-07-18T20:41:42Z",
+  "updatedAt": "2026-07-18T21:33:44Z",
+  "generatedAt": "2026-07-18T21:33:44Z",
   "categories": [
     {
       "id": "all",
@@ -33,24 +33,12 @@
       "label": "Acionista.com.br"
     },
     {
-      "id": "agronews-tv-br",
-      "label": "agronews.tv.br"
-    },
-    {
-      "id": "bloomberg-l-nea-brasil",
-      "label": "Bloomberg Línea Brasil"
-    },
-    {
       "id": "boca-com-br",
       "label": "boca.com.br"
     },
     {
       "id": "brasil-247",
       "label": "Brasil 247"
-    },
-    {
-      "id": "capitalnews-com-br",
-      "label": "capitalnews.com.br"
     },
     {
       "id": "cnn-brasil",
@@ -71,6 +59,10 @@
     {
       "id": "diario-de-pernambuco",
       "label": "Diario de Pernambuco"
+    },
+    {
+      "id": "diariodigital-com-br",
+      "label": "diariodigital.com.br"
     },
     {
       "id": "di-rio-do-estado",
@@ -141,6 +133,10 @@
       "label": "O Seringal"
     },
     {
+      "id": "patria-latina",
+      "label": "Patria Latina"
+    },
+    {
       "id": "politiza-brasil",
       "label": "politiza brasil"
     },
@@ -155,10 +151,6 @@
     {
       "id": "portal-o-dia",
       "label": "Portal O Dia"
-    },
-    {
-      "id": "portalgurupi-com-br",
-      "label": "portalgurupi.com.br"
     },
     {
       "id": "radar-digital-bras-lia",
@@ -189,17 +181,77 @@
       "label": "Tribuna do Sertão"
     },
     {
+      "id": "tv-foco",
+      "label": "TV Foco"
+    },
+    {
       "id": "vietnam-vn",
       "label": "Vietnam.vn"
     }
   ],
   "items": [
     {
-      "id": "companies-84f2e4bd1dd48f31b05b3743",
-      "title": "Apex anuncia R$ 130 milhões para ampliar exportações brasileiras",
-      "summary": "Atualizacao de empresas capturada em Polo de notícias.",
+      "id": "macro-9a112bdd0b56a388308b8db7",
+      "title": "Correios tentam obter aporte de R$ 6 bilhões do governo federal",
+      "summary": "Atualizacao de macro capturada em CNN Brasil.",
       "details": "",
       "url": "https://polodenoticias.com/apex-anuncia-r-130-milhoes-para-ampliar-exportacoes-brasileiras/",
+      "source": "CNN Brasil",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-18T21:18:03Z",
+      "updatedAt": "2026-07-18T21:18:03Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-426a4090dcd7497e8025d825",
+      "title": "PIB: o que é e quais os impactos na economia e no seu bolso",
+      "summary": "Contrato da empresa com bancos prevê injeção de recursos da União na estatal",
+      "details": "Contrato da empresa com bancos prevê injeção de recursos da União na estatal",
+      "url": "https://www.cnnbrasil.com.br/blogs/larissa-rodrigues/economia/negocios/correios-tentam-obter-aporte-de-r-6-bilhoes-do-governo-federal/",
+      "source": "Rádio Itatiaia",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-18T20:40:33Z",
+      "updatedAt": "2026-07-18T20:40:33Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/12/ChatGPT-Image-1-de-dez.-de-2025-16_37_30-e1764617878746.png?w=1200&h=630&crop=1"
+    },
+    {
+      "id": "macro-43f92fbea47b87fe76ca43f0",
+      "title": "César Fonseca: Tarifaço trumpista empurra Lula contra arcabouço fiscal neoliberal",
+      "summary": "Entenda como o Produto Interno Bruto influencia empregos, investimentos, juros e o crescimento do Brasil e por que acompanhar esse indicador pode ajudar nas suas decisões financeiras",
+      "details": "Entenda como o Produto Interno Bruto influencia empregos, investimentos, juros e o crescimento do Brasil e por que acompanhar esse indicador pode ajudar nas suas decisões financeiras",
+      "url": "https://www.itatiaia.com.br/economia/negocios/pib-o-que-e-e-quais-os-impactos-na-economia-e-no-seu-bolso/",
+      "source": "Patria Latina",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-18T20:38:43Z",
+      "updatedAt": "2026-07-18T20:38:43Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://admin.itatiaia.com.br/wp-content/uploads/sites/27/2026/07/pib-impacto.jpeg?resize=1280%2C720&w=1280&h=720&quality=50&crop=1"
+    },
+    {
+      "id": "companies-84f2e4bd1dd48f31b05b3743",
+      "title": "Apex anuncia R$ 130 milhões para ampliar exportações brasileiras",
+      "summary": "Ao todo, a OCB/MS reúne 145 cooperativas ativas, sendo que 123 delas foram criadas no próprio estado e as demais vieram de outras regiões do país.",
+      "details": "Ao todo, a OCB/MS reúne 145 cooperativas ativas, sendo que 123 delas foram criadas no próprio estado e as demais vieram de outras regiões do país.",
+      "url": "https://www.diariodigital.com.br/economia/cooperativismo-ja-responde-por-18-2-do-pib-de-mato-grosso-do-sul",
       "source": "Polo de notícias",
       "category": "companies",
       "tags": [
@@ -210,14 +262,53 @@
       "publishedAt": "2026-07-18T20:28:52Z",
       "updatedAt": "2026-07-18T20:28:52Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://cdn.diariodigital.com.br/uploads/noticias2/2026/07/13/2bq8m8dpx78k4.jpg"
+    },
+    {
+      "id": "macro-4a4fe6de6697e33965586703",
+      "title": "Cooperativismo já responde por 18,2% do PIB de Mato Grosso do Sul",
+      "summary": "Foto Agência Brasil César Fonseca O presidente Lula está diante do desafio de alterar a política econômica para enfrentar o tarifaço trumpista de 25% sobre as exportações brasileiras. A oferta interna de produtos nacionais, com a redução da demanda do mercado americano, tente a a",
+      "details": "Foto Agência Brasil César Fonseca O presidente Lula está diante do desafio de alterar a política econômica para enfrentar o tarifaço trumpista de 25% sobre as exportações brasileiras. A oferta interna de produtos nacionais, com a redução da demanda do mercado americano, tente a aumentar, o que requererá fortalecimento ",
+      "url": "https://patrialatina.com.br/cesar-fonseca-tarifaco-trumpista-empurra-lula-contra-arcabouco-fiscal-neoliberal/",
+      "source": "diariodigital.com.br",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-18T20:16:00Z",
+      "updatedAt": "2026-07-18T20:16:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://patrialatina.com.br/wp-content/uploads/2026/07/a-10-4.jpg"
+    },
+    {
+      "id": "macro-ac07c136c515ef3107c64ed1",
+      "title": "Concurso Turvo (SC): sem novo edital previsto",
+      "summary": "As políticas atuam no sentido contrário ao pretendido pelo BC, buscando estimular a demanda, enquanto o Copom tenta moderá-la. Para o MPO, porém, quem erra não é o governo; é a realidade",
+      "details": "As políticas atuam no sentido contrário ao pretendido pelo BC, buscando estimular a demanda, enquanto o Copom tenta moderá-la. Para o MPO, porém, quem erra não é o governo; é a realidade",
+      "url": "https://www.estadao.com.br/em-alta/economia/alexandre-schwartsman/economistas-do-governo-tentam-fugir-da-responsabilidade-pela-piora-das-expectativas-de-inflacao/",
+      "source": "Estratégia Concursos",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-18T20:12:16Z",
+      "updatedAt": "2026-07-18T20:12:16Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/SDW2HER6WVGENJ4WYD5JIYMEY4.jpg?quality=80&auth=c3fd8a7dcad11e9fbf1e1fed75e69431ebf3d4490bc373fc66fe19b76167a21f&width=1200&height=630&smart=true"
     },
     {
       "id": "macro-cc13eb1069112f4f7a08aa86",
       "title": "Economistas do governo tentam fugir da responsabilidade pela piora das expectativas de inflação",
-      "summary": "As políticas atuam no sentido contrário ao pretendido pelo BC, buscando estimular a demanda, enquanto o Copom tenta moderá-la. Para o MPO, porém, quem erra não é o governo; é a realidade",
-      "details": "As políticas atuam no sentido contrário ao pretendido pelo BC, buscando estimular a demanda, enquanto o Copom tenta moderá-la. Para o MPO, porém, quem erra não é o governo; é a realidade",
-      "url": "https://www.estadao.com.br/em-alta/economia/alexandre-schwartsman/economistas-do-governo-tentam-fugir-da-responsabilidade-pela-piora-das-expectativas-de-inflacao/",
+      "summary": "Último concurso de Turvo (SC) foi em 2022, com 29 vagas efetivas, salários até R$ 16.257,81 e banca Ippec. Veja histórico e situação atual.",
+      "details": "Último concurso de Turvo (SC) foi em 2022, com 29 vagas efetivas, salários até R$ 16.257,81 e banca Ippec. Veja histórico e situação atual.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-turvo-sc/amp/",
       "source": "Estadão",
       "category": "macro",
       "tags": [
@@ -229,33 +320,52 @@
       "updatedAt": "2026-07-18T20:09:02Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/SDW2HER6WVGENJ4WYD5JIYMEY4.jpg?quality=80&auth=c3fd8a7dcad11e9fbf1e1fed75e69431ebf3d4490bc373fc66fe19b76167a21f&width=1200&height=630&smart=true"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
     },
     {
-      "id": "macro-d7dbdf6bc0457832947fd1ab",
-      "title": "PIB: o que é e quais os impactos na economia e no seu bolso",
-      "summary": "Entenda como o Produto Interno Bruto influencia empregos, investimentos, juros e o crescimento do Brasil e por que acompanhar esse indicador pode ajudar nas suas decisões financeiras",
-      "details": "Entenda como o Produto Interno Bruto influencia empregos, investimentos, juros e o crescimento do Brasil e por que acompanhar esse indicador pode ajudar nas suas decisões financeiras",
-      "url": "https://www.cnnbrasil.com.br/economia/negocios/pib-o-que-e-e-quais-os-impactos-na-economia-e-no-seu-bolso/",
-      "source": "CNN Brasil",
+      "id": "macro-7a8efea75cdb4d353e0970d1",
+      "title": "Concurso Santa Rosa de Lima (SC): sem novo edital",
+      "summary": "A Prefeitura de Santa Rosa de Lima (SC) realizou PS 2025 com 4 vagas e salários de até R$ 9.927,88. Veja histórico e situação atual.",
+      "details": "A Prefeitura de Santa Rosa de Lima (SC) realizou PS 2025 com 4 vagas e salários de até R$ 9.927,88. Veja histórico e situação atual.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-santa-rosa-de-lima/amp/",
+      "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
         "macro",
         "juros",
         "inflacao"
       ],
-      "publishedAt": "2026-07-18T19:30:36Z",
-      "updatedAt": "2026-07-18T19:30:36Z",
+      "publishedAt": "2026-07-18T19:38:06Z",
+      "updatedAt": "2026-07-18T19:38:06Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/pib-impacto.jpeg?w=1200&h=630&crop=1"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
+    },
+    {
+      "id": "macro-8716366ac54b026fac07f07f",
+      "title": "Concurso Sangão (SC): sem novo edital previsto",
+      "summary": "Planalto Alegre (SC) realizou PS 2025 com 14 vagas e salários de até R$ 7.301,04. Veja histórico e situação atual.",
+      "details": "Planalto Alegre (SC) realizou PS 2025 com 14 vagas e salários de até R$ 7.301,04. Veja histórico e situação atual.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-planalto-alegre/amp/",
+      "source": "Estratégia Concursos",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-18T19:38:03Z",
+      "updatedAt": "2026-07-18T19:38:03Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
     },
     {
       "id": "macro-16345e4854cf26847093727e",
       "title": "Concurso Planalto Alegre (SC): sem novo edital previsto",
-      "summary": "Atualizacao de macro capturada em Estratégia Concursos.",
-      "details": "",
-      "url": "https://monitormercantil.com.br/a-queda-da-selic-nao-significa-credito-barato-e-esse-e-um-erro-que-ainda-custa-caro/",
+      "summary": "A Prefeitura de Sangão (SC) realizou PS em 2025 com 30 cargos e remunerações de até R$ 7.367,88. Veja histórico e situação atual.",
+      "details": "A Prefeitura de Sangão (SC) realizou PS em 2025 com 30 cargos e remunerações de até R$ 7.367,88. Veja histórico e situação atual.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-sangao/amp/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -266,14 +376,15 @@
       "publishedAt": "2026-07-18T19:26:17Z",
       "updatedAt": "2026-07-18T19:26:17Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
     },
     {
       "id": "latest-d3e2f94917dab85f2dde8ede",
       "title": "Estrangeiros impulsionam mercado imobiliário no Brasil",
-      "summary": "A Prefeitura de Campo Erê (SC) publicou processo seletivo em 2026 com 63 vagas temporárias, salários de até R$ 11.221,94 e 30 cargos.",
-      "details": "A Prefeitura de Campo Erê (SC) publicou processo seletivo em 2026 com 63 vagas temporárias, salários de até R$ 11.221,94 e 30 cargos.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-campo-ere/amp/",
+      "summary": "Aumento na compra de imóveis e pressão por regulamentação",
+      "details": "Aumento na compra de imóveis e pressão por regulamentação",
+      "url": "https://boca.com.br/mercado-financeiro/estrangeiros-impulsionam-mercado-imobiliario-no-brasil",
       "source": "boca.com.br",
       "category": "latest",
       "tags": [
@@ -285,14 +396,71 @@
       "updatedAt": "2026-07-18T18:55:24Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/e17bf6f695c7834ac3a5c69123630385_858x483.jpg"
+    },
+    {
+      "id": "latest-8e1b3d4af9f2c1d29ab8e189",
+      "title": "Médico perde R$ 11 milhões em suposto esquema da EQR Capital",
+      "summary": "Médico Gabriel Almeida perde R$ 10,75 milhões em suposto esquema da EQR Capital. Ação judicial pede devolução com juros e multa",
+      "details": "Médico Gabriel Almeida perde R$ 10,75 milhões em suposto esquema da EQR Capital. Ação judicial pede devolução com juros e multa",
+      "url": "https://www.spacemoney.com.br/investimentos/medico-perde-r-11-milhoes-em-suposto-esquema-da-eqr-capital/",
+      "source": "SpaceMoney",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-18T18:43:58Z",
+      "updatedAt": "2026-07-18T18:43:58Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/07/pexels-photo-7424584-1.webp"
+    },
+    {
+      "id": "macro-9d294263ad41929e67335d9c",
+      "title": "Concurso Jacinto Machado (SC): sem novo edital previsto",
+      "summary": "A Prefeitura de Jacinto Machado (SC) realizou PS 2024 com 30 cargos e salários de até R$ 15.286,52. Veja histórico e situação atual.",
+      "details": "A Prefeitura de Jacinto Machado (SC) realizou PS 2024 com 30 cargos e salários de até R$ 15.286,52. Veja histórico e situação atual.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-jacinto-machado/amp/",
+      "source": "Estratégia Concursos",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-18T18:43:57Z",
+      "updatedAt": "2026-07-18T18:43:57Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
+    },
+    {
+      "id": "macro-416c5d9cd2157536bc21f7c4",
+      "title": "Concurso Imbuia (SC): sem novo edital previsto",
+      "summary": "Último concurso de Imbuia (SC) teve 15 vagas em 2025 com salários de até R$ 4.618,61. Veja histórico e situação atual.",
+      "details": "Último concurso de Imbuia (SC) teve 15 vagas em 2025 com salários de até R$ 4.618,61. Veja histórico e situação atual.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-imbuia/amp/",
+      "source": "Estratégia Concursos",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-18T18:34:13Z",
+      "updatedAt": "2026-07-18T18:34:13Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
       "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
     },
     {
       "id": "latest-ddea9eb6fd3b85be87fc19b8",
       "title": "A queda da Selic não significa crédito barato — e esse é um erro que ainda custa caro",
-      "summary": "Planalto Alegre (SC) realizou PS 2025 com 14 vagas e salários de até R$ 7.301,04. Veja histórico e situação atual.",
-      "details": "Planalto Alegre (SC) realizou PS 2025 com 14 vagas e salários de até R$ 7.301,04. Veja histórico e situação atual.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-planalto-alegre/amp/",
+      "summary": "Atualizacao de ultima hora capturada em Monitor Mercantil.",
+      "details": "",
+      "url": "https://monitormercantil.com.br/a-queda-da-selic-nao-significa-credito-barato-e-esse-e-um-erro-que-ainda-custa-caro/",
       "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
@@ -303,27 +471,7 @@
       "publishedAt": "2026-07-18T18:20:27Z",
       "updatedAt": "2026-07-18T18:20:27Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
-    },
-    {
-      "id": "macro-4b2cd9aa6aad4f1915a124aa",
-      "title": "Concurso Campo Erê (SC): PS 2026 com 63 vagas",
-      "summary": "Aumento na compra de imóveis e pressão por regulamentação",
-      "details": "Aumento na compra de imóveis e pressão por regulamentação",
-      "url": "https://boca.com.br/mercado-financeiro/estrangeiros-impulsionam-mercado-imobiliario-no-brasil",
-      "source": "Estratégia Concursos",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-18T18:06:08Z",
-      "updatedAt": "2026-07-18T18:06:08Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/e17bf6f695c7834ac3a5c69123630385_858x483.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-209ce7685689013c2639ab7e",
@@ -402,11 +550,30 @@
       "imageUrl": "https://www.diariodepernambuco.com.br/_midias/jpg/2026/07/18/600x400/1_bitrem-923352.jpg"
     },
     {
+      "id": "latest-5a8c3f8f3da5444e96cf1745",
+      "title": "Dólar Avança a R$ 5,11 em Meio a Choque Geopolítico e Bolsa Estabiliza",
+      "summary": "Dólar fecha a R$ 5,11 com alta de 0,24% após escalada do conflito EUA-Irã, enquanto Ibovespa cai 0,06%; alta do petróleo limita perdas da bolsa.",
+      "details": "Dólar fecha a R$ 5,11 com alta de 0,24% após escalada do conflito EUA-Irã, enquanto Ibovespa cai 0,06%; alta do petróleo limita perdas da bolsa.",
+      "url": "https://politizabrasil.com.br/dolar-avanca-r-5-11-choque-geopolitico-bolsa-estabiliza/",
+      "source": "politiza brasil",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-18T17:03:47Z",
+      "updatedAt": "2026-07-18T17:03:47Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://politizabrasil.com.br/wp-content/uploads/2026/07/2021-10-06t120841z_1_lynxmpeh950lf_rtroptp_4_dolar-abre.webp"
+    },
+    {
       "id": "macro-461a3e0fe0ab99698a643522",
       "title": "Saiba como a Lei da Reciprocidade pode pressionar a inflação se usada em resposta ao tarifaço dos EUA",
-      "summary": "Lei da Reciprocidade pode elevar custos e inflação caso o Brasil retalie as tarifas dos EUA, com reflexos sobre crédito e juros.",
-      "details": "Lei da Reciprocidade pode elevar custos e inflação caso o Brasil retalie as tarifas dos EUA, com reflexos sobre crédito e juros.",
-      "url": "https://economicnewsbrasil.com.br/2026/07/18/lei-reciprocidade-inflacao-selic/",
+      "summary": "Último concurso de Viadutos (RS) foi em 2019, com 12 vagas, banca Objetiva e salários de até R$ 12.369,35. Veja histórico e situação atual.",
+      "details": "Último concurso de Viadutos (RS) foi em 2019, com 12 vagas, banca Objetiva e salários de até R$ 12.369,35. Veja histórico e situação atual.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-viadutos/amp/",
       "source": "Economic News Brasil",
       "category": "macro",
       "tags": [
@@ -418,14 +585,14 @@
       "updatedAt": "2026-07-18T17:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://economicnewsbrasil.com.br/wp-content/uploads/2026/07/lei_da_reciprocidade.jpg"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
     },
     {
       "id": "macro-72cd8109480f0d89fe6f4aa3",
       "title": "Concurso Viadutos (RS): sem novo edital previsto",
-      "summary": "Atualizacao de macro capturada em Estratégia Concursos.",
-      "details": "",
-      "url": "https://www.capitalnews.com.br/cotidiano/geral/conta-de-agua-ganha-novo-visual-e-consumidores-devem-ficar-atentos/443971",
+      "summary": "Safra de 2025/26 atinge 78,92% da área cultivada",
+      "details": "Safra de 2025/26 atinge 78,92% da área cultivada",
+      "url": "https://boca.com.br/agronegocio/colheita-milho-mato-grosso-avanca",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -436,109 +603,15 @@
       "publishedAt": "2026-07-18T16:28:36Z",
       "updatedAt": "2026-07-18T16:28:36Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-48c09ec117cad8efe67aff42",
-      "title": "Conta de água ganha novo visual e consumidores devem ficar atentos",
-      "summary": "Último concurso de Viadutos (RS) foi em 2019, com 12 vagas, banca Objetiva e salários de até R$ 12.369,35. Veja histórico e situação atual.",
-      "details": "Último concurso de Viadutos (RS) foi em 2019, com 12 vagas, banca Objetiva e salários de até R$ 12.369,35. Veja histórico e situação atual.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-viadutos/amp/",
-      "source": "capitalnews.com.br",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-18T16:16:00Z",
-      "updatedAt": "2026-07-18T16:16:00Z",
-      "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
-    },
-    {
-      "id": "macro-133a673a6920569de8757b33",
-      "title": "Inflação impulsiona ‘menu kids’ para adultos em restaurantes dos EUA",
-      "summary": "Combos de hambúrguer, batata frita e coquetéis ajudam consumidores a controlar gastos e se tornam uma aposta para atrair público mesmo entre profissionais de alta renda em tecnologia e finanças",
-      "details": "Combos de hambúrguer, batata frita e coquetéis ajudam consumidores a controlar gastos e se tornam uma aposta para atrair público mesmo entre profissionais de alta renda em tecnologia e finanças",
-      "url": "https://www.bloomberglinea.com.br/negocios/inflacao-impulsiona-menu-kids-para-adultos-em-restaurantes-dos-eua/",
-      "source": "Bloomberg Línea Brasil",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-18T16:13:33Z",
-      "updatedAt": "2026-07-18T16:13:33Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.bloomberglinea.com/resizer/v2/55H6JWTBZBGKPDS7RN7F7RYKXE.jpg?auth=1872e709e4617af5dbbf5e3bd44afb84d28772e699bc965129f2dcd3b4c77bd9&width=1200&height=675&quality=80&smart=true"
-    },
-    {
-      "id": "macro-e011db1fa05f441664734b98",
-      "title": "Concurso Três de Maio (RS): sem novo edital previsto",
-      "summary": "A Prefeitura de Três de Maio (RS) realizou concurso em 2025 com 57 vagas e salários de até R$ 6.640,54. Veja histórico e situação atual.",
-      "details": "A Prefeitura de Três de Maio (RS) realizou concurso em 2025 com 57 vagas e salários de até R$ 6.640,54. Veja histórico e situação atual.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-tres-de-maio/amp/",
-      "source": "Estratégia Concursos",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-18T16:04:28Z",
-      "updatedAt": "2026-07-18T16:04:28Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
-    },
-    {
-      "id": "macro-e6ce1f28e74d4013e2bb2c73",
-      "title": "Concurso Toropi (RS): processo seletivo aberto",
-      "summary": "Concurso Toropi RS: processo seletivo 2026 para Fonoaudiólogo com vaga e salário de R$ 1.740,00. Veja detalhes e histórico do município.",
-      "details": "Concurso Toropi RS: processo seletivo 2026 para Fonoaudiólogo com vaga e salário de R$ 1.740,00. Veja detalhes e histórico do município.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-toropi/amp/",
-      "source": "Estratégia Concursos",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-18T16:00:04Z",
-      "updatedAt": "2026-07-18T16:00:04Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
-    },
-    {
-      "id": "macro-56620f55dcd4f5c2894636d2",
-      "title": "Concurso Tiradentes do Sul (RS): sem novo edital",
-      "summary": "Tiradentes do Sul (RS) realizou processos seletivos em 2025 para cargos como Enfermeiro, Controlador Interno e Serventes, com remunerações de até R$ 5.",
-      "details": "Tiradentes do Sul (RS) realizou processos seletivos em 2025 para cargos como Enfermeiro, Controlador Interno e Serventes, com remunerações de até R$ 5.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-tiradentes-do-sul/amp/",
-      "source": "Estratégia Concursos",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-18T15:58:08Z",
-      "updatedAt": "2026-07-18T15:58:08Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
+      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/fe7e3ad27d36975a5d30b4df2114d77a_858x483.jpg"
     },
     {
       "id": "latest-b3898f4e25e2c332795cfa2b",
       "title": "Colheita de milho em Mato Grosso avança, mas fica abaixo da média",
-      "summary": "Safra de 2025/26 atinge 78,92% da área cultivada",
-      "details": "Safra de 2025/26 atinge 78,92% da área cultivada",
-      "url": "https://boca.com.br/agronegocio/colheita-milho-mato-grosso-avanca",
+      "summary": "Lei da Reciprocidade pode elevar custos e inflação caso o Brasil retalie as tarifas dos EUA, com reflexos sobre crédito e juros.",
+      "details": "Lei da Reciprocidade pode elevar custos e inflação caso o Brasil retalie as tarifas dos EUA, com reflexos sobre crédito e juros.",
+      "url": "https://economicnewsbrasil.com.br/2026/07/18/lei-reciprocidade-inflacao-selic/",
       "source": "boca.com.br",
       "category": "latest",
       "tags": [
@@ -550,7 +623,7 @@
       "updatedAt": "2026-07-18T15:55:29Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/fe7e3ad27d36975a5d30b4df2114d77a_858x483.jpg"
+      "imageUrl": "https://economicnewsbrasil.com.br/wp-content/uploads/2026/07/lei_da_reciprocidade.jpg"
     },
     {
       "id": "companies-d0305e4043ab9dbd6f05fc62",
@@ -572,41 +645,23 @@
       "imageUrl": "https://admin.itatiaia.com.br/wp-content/uploads/sites/27/2026/07/Porto-de-Santos.jpg?resize=1280%2C720&w=1280&h=720&quality=50&crop=1"
     },
     {
-      "id": "macro-b7d51e752da406af276a2f69",
-      "title": "Concurso Tenente Portela (RS): sem novo edital previsto",
-      "summary": "Tenente Portela (RS) realizou PS 2025 para cadastro reserva com salários de até R$ 4.249,26. Veja histórico e situação atual.",
-      "details": "Tenente Portela (RS) realizou PS 2025 para cadastro reserva com salários de até R$ 4.249,26. Veja histórico e situação atual.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-tenente-portela/amp/",
-      "source": "Estratégia Concursos",
-      "category": "macro",
+      "id": "latest-0eb9ec86390eea08a6ba5f66",
+      "title": "Investimentos em IA impulsionam bancos antes da adoção em massa nas empresas",
+      "summary": "Investimentos em IA ampliam negócios de bancos e infraestrutura em Wall Street enquanto empresas ainda aceleram a adoção da tecnologia.",
+      "details": "Investimentos em IA ampliam negócios de bancos e infraestrutura em Wall Street enquanto empresas ainda aceleram a adoção da tecnologia.",
+      "url": "https://economicnewsbrasil.com.br/2026/07/18/investimentos-ia-wall-street/",
+      "source": "Economic News Brasil",
+      "category": "latest",
       "tags": [
-        "macro",
-        "juros",
-        "inflacao"
+        "mercado",
+        "bolsa",
+        "macro"
       ],
-      "publishedAt": "2026-07-18T15:50:04Z",
-      "updatedAt": "2026-07-18T15:50:04Z",
+      "publishedAt": "2026-07-18T15:28:00Z",
+      "updatedAt": "2026-07-18T15:28:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
-    },
-    {
-      "id": "macro-db1898715bf418a4d570ee3c",
-      "title": "Inflação do INPC fecha junho em 0,14%, informa IBGE",
-      "summary": "Atualizacao de macro capturada em capitalnews.com.br.",
-      "details": "",
-      "url": "https://www.capitalnews.com.br/economia-e-agronegocio/economia/inflacao-do-inpc-fecha-junho-em-014-informa-ibge/443972",
-      "source": "capitalnews.com.br",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-18T15:50:00Z",
-      "updatedAt": "2026-07-18T15:50:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://economicnewsbrasil.com.br/wp-content/uploads/2026/07/investimentos_em_ia.jpg"
     },
     {
       "id": "latest-5d23c3d94a31ff050f3fef9e",
@@ -629,9 +684,9 @@
     {
       "id": "latest-5ab8028288d68d9a173301e5",
       "title": "Tarifaço e eleições azedam clima para o mercado",
-      "summary": "Atualizacao de ultima hora capturada em Diário do Estado.",
-      "details": "",
-      "url": "https://www.contrafatos.com.br/tarifaco-dos-eua-provoca-fuga-de-empresas-brasileiras-para-paises-vizinhos-em-meio-a-inercia-do-governo-lula/",
+      "summary": "Entenda como tarifas elevadas e eleições impactam o mercado financeiro.",
+      "details": "Entenda como tarifas elevadas e eleições impactam o mercado financeiro.",
+      "url": "https://diariodoestadogo.com.br/tarifaco-e-eleicoes-azedam-clima-para-o-mercado/",
       "source": "Diário do Estado",
       "category": "latest",
       "tags": [
@@ -642,7 +697,8 @@
       "publishedAt": "2026-07-18T14:46:39Z",
       "updatedAt": "2026-07-18T14:46:39Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/07/tarifaco-e-eleicoes-azedam-clima-para-o-mercado.jpg"
     },
     {
       "id": "companies-e868f0ed9bb52135fe566b7f",
@@ -665,9 +721,9 @@
     {
       "id": "companies-26ff4f8620be87c99d77fefc",
       "title": "Tarifaço dos EUA provoca fuga de empresas brasileiras para países vizinhos em meio à inércia do governo Lula",
-      "summary": "Entenda como tarifas elevadas e eleições impactam o mercado financeiro.",
-      "details": "Entenda como tarifas elevadas e eleições impactam o mercado financeiro.",
-      "url": "https://diariodoestadogo.com.br/tarifaco-e-eleicoes-azedam-clima-para-o-mercado/",
+      "summary": "Atualizacao de empresas capturada em ContraFatos.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQaHlGb0RPN2daVzhkbmF4dU0wNFBVcGthcUMwTUc1NWFyb0UzVFduS2pmTjNXOG5BUl9vemdrbzFCbnIxRGRQdVNkLXB4Y2d1OHpSSmpZTXhmeVpVbFdsYlYtS2t5UGFzRFhLM2Z3bEh0QWc3TjVmTGZpN3BsRXBveHVrbHVrWU8zdGNKeVZPYzVBSnU1S2xsRmpDMG0tam1BU3E1YUVkdlZNNU1DM29NTE40V19CdVBiVFFPRGtOVDNWTG44S18xY3ZnblN4UHRpNGZtaGg1MA?oc=5",
       "source": "ContraFatos",
       "category": "companies",
       "tags": [
@@ -678,15 +734,14 @@
       "publishedAt": "2026-07-18T13:52:16Z",
       "updatedAt": "2026-07-18T13:52:16Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/07/tarifaco-e-eleicoes-azedam-clima-para-o-mercado.jpg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "latest-2d9cd81fe41d344684747766",
       "title": "Ibovespa recua 0,06% e fecha estável aos 173.714 pontos",
-      "summary": "Índice da B3 opera em leve queda nesta sessão, com rotação setorial entre energia e bancos marcando o pregão; Petrobras sustenta o mercado",
-      "details": "Índice da B3 opera em leve queda nesta sessão, com rotação setorial entre energia e bancos marcando o pregão; Petrobras sustenta o mercado",
-      "url": "https://portalodia.com/noticias/geral/ibovespa-recua-006-e-fecha-estavel-aos-173714-pontos-460815.html",
+      "summary": "Atualizacao de ultima hora capturada em Portal O Dia.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVll3SDVBbkJzOU5kalNHdGN1RG41Q0FEVENhdGQzRGpCQWROT3BkMGNUUTBGLWlweUdva0FwQlIwenNqS0w0OW4yZkRMamwwU3o2elNuNzZGU3BvaXBQN2ZYZFNMRkFJdUFjWF9KMENvdTdPWExyM3pZbEE0cFJONjRxZFd0T2RNVE5JOVFJWlVEei1SWTBqQ2dBOUNDMkhEblRxS9IBqgFBVV95cUxQRFhXQXVrMGpCbWk1bFBhSnE5ZDh5akdFS0lndTZpNFB0RDB1MFFGQThBX1ZXdF9lRlZFVGhiWGdTd1puLU1hYXRpSTh4dkprSlFaNlJqYS1xWTQ1WjRWNDNkVGw2X25oSFZVRTd0TkhvWllydDI5a1J3X0JtRVg1b1hxM0NvaGx5WUFCSUN5MXlLYkwzLTJNVTZqNWhmd0VaaGtvazlsc0VhUQ?oc=5",
       "source": "Portal O Dia",
       "category": "latest",
       "tags": [
@@ -697,15 +752,14 @@
       "publishedAt": "2026-07-18T13:31:30Z",
       "updatedAt": "2026-07-18T13:31:30Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://images.pexels.com/photos/5737835/pexels-photo-5737835.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-9ebca12d91a635339d4b0b4c",
       "title": "Stablecoins: este detalhe vai mudar como você este setor de cripto",
       "summary": "Atualizacao de ultima hora capturada em Acionista.com.br.",
       "details": "",
-      "url": "https://acionista.com.br/?p=746334",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBYRmlaLTBDb3llbWk2YmZCMkx0NmdkSWJUemJaZkhrV1hscTBhUUhDdWMtZm5PdVg4YS1MODUxZzd4NFZrdWg1X0JB?oc=5",
       "source": "Acionista.com.br",
       "category": "latest",
       "tags": [
@@ -815,6 +869,24 @@
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUTBQRVktZDF0SVBCS21tbm54V045WWdsQ1ZSOXpOVFFMMUtleW5JRjNMQ0w2SFhvVkp5M0FiNFRGbkxpOU1qM1V2RE16RmRiWkdGNFNmcUJJUVZWYkpKZWM0VFZyU3NoeUJ3a182T3Vod29XN0NTZ2FYcDFjZy1Vb09na0tsYXV2YWNjOHJBRG5Sb2tHbzAyVkotTkxNOFVwLWpxbHlNUGgzTXh5bWUzanNIMnFsTWNzYk5BaGNQZm9kdw?oc=5",
       "source": "Tribuna do Agreste",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-18T11:00:00Z",
+      "updatedAt": "2026-07-18T11:00:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "latest-82f112c9123d6e0e1348d53f",
+      "title": "Itaú, Bradesco, Santander: Quais são os 5 maiores bancos do Brasil?",
+      "summary": "Atualizacao de ultima hora capturada em TV Foco.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11TXFpV0dNR1g3TFExQ3F4bTdTeElfejR6OGJVSzg2alVqR09GSkJSR082STVjRjB6UWRlOVhmdEQyUUNjenFmWDVNZ3FYVFBwY09iQzloLWhfQ3REX3lYZ1N1Z2tIZ1Jl0gFoQVVfeXFMTXVNcWlXR01HWDdMUTFDcXhtN1N4SV96NHo4YlVLODZqVWpHT0ZKQlJHTzZJNWNGMHpRZGU5WGZ0RDJRQ2N6cWZYNU1ncVhUUHBjT2JDOWgtaF9DdERfeVhnU3Vna0hnUmU?oc=5",
+      "source": "TV Foco",
       "category": "latest",
       "tags": [
         "mercado",
@@ -1025,24 +1097,6 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "latest-204e59488e4d008045d95dc0",
-      "title": "Ibovespa hoje: Minerva (BEEF3) e MBRF (MBRF3) saltam; Azzas (AZZA3) lidera perdas",
-      "summary": "Atualizacao de ultima hora capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYS1oMTNuVlVJakxrWDBLcmdmS1J4c0JQdTlKQ3k2S3pDeWoxeFJCZEJwQWFiVWpXUElMcEIyYTI4NmRPVlVwVmFITW5uUnZCR0pRSlZ5Y1h6bXZEX1I3enU1WnJjWFN1Qkg2ajhpVHFUSDBDcWtPbjJ4aHpWd05jU183TUllWE9TOTB4SDgyWjUtZFYxTXQtZDhaU09XU0xSdWJZR1NMa2V3YjVEbVZ5cDN0bF9mTmRJZlBBbkZRemlnMjZaWU5TdFZn0gHPAUFVX3lxTE1YWEdiZXZTTWZTSGxzcG1XaFFYWVNaeFZUREJIQmtFdTlaYVJfSGFYbGhra2RRN1RKN0FnczIwbUVPanFtR1dnLWd2aEczbWJxajV6TTBHRGcyM194NEtDNGdxZVBPSjhmOWJzeGVoV0VTVUNpcXBOQ2pGZTBEWkJhb0w3aEpMTDQwbEY1YmpjamxNSDhvcjFlcEJhTHFpbmxpd2JTSTVZNk9xZkpSbzIzYkhlNjRLSGZqaUJDamRUeUE1Q3JkWEdpREZGeERmbw?oc=5",
-      "source": "Estadão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-18T07:00:42Z",
-      "updatedAt": "2026-07-18T07:00:42Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "companies-f128ea79fbbbdfa289888e88",
       "title": "Paraguai é foco de empresas brasileiras que buscam produzir com menor custo",
       "summary": "Atualizacao de empresas capturada em CNN Brasil.",
@@ -1059,60 +1113,6 @@
       "updatedAt": "2026-07-18T07:00:13Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "latest-adbbebb7c794fe86d0a1f1b9",
-      "title": "Mercado financeiro revisa projeção da inflação para 5,30% em 2026",
-      "summary": "Atualizacao de ultima hora capturada em portalgurupi.com.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV1l1LVA4Q2tOTlZYS0VSUkhXOEZIZnBZdHdrMHFpOVluZUhIemd2dG5uOEdaNkNlcjhkQWloUW5YYWRJSHhybURyWDVHRFVkYURta1FPeGRCRWlXajBUanhTaHVkT1pWNFRTc2dkTFJ5RXRFM2JpYnczdXF4OURaMG4wSVpSRjNsMGJKX0Q5SUfSAZABQVVfeXFMUFdZdS1QOENrTk5WWEtFUlJIVzhGSGZwWXR3azBxaTlZbmVISHpndnRubjhHWjZDZXI4ZEFpaFFuWGFkSUh4cm1Eclg1R0RVZGFEbWtRT3hkQkVpV2owVGp4U2h1ZE9aVjRUU3NnZExSeUV0RTNiaWJ3M3VxeDlEWjBuMElaUkYzbDBiSl9EOUlH?oc=5",
-      "source": "portalgurupi.com.br",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-18T06:00:15Z",
-      "updatedAt": "2026-07-18T06:00:15Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-3962fe9c8a3742238dcfb738",
-      "title": "Ibovespa hoje: C&A (CEAB3) salta 7% após balanço; Petrobras (PETR3) cai mais de 3%",
-      "summary": "Atualizacao de ultima hora capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdUNjUDRQSTJzOEt6UGdHOWFxNFBkM096NTctZ0xGREItZ1dBa1FReWgzOVRJTnFuMWVDV0xDcnQ3b1lreDNDWHV5WmU0eHloR3h6VlNaN2tZNzlhRHVOZDhxX2VzWVA4TUdhQTZIdFFLZEVtXzIwRk16QXhvVnpEZ01EQ1JydFJ4YnlrWndXM2hFYkx2N0hWRjlDd2pzcEFOMXoyaEtFLWQwbDhYdnN5MDNONnhhTmvSAbwBQVVfeXFMTUhNYWltZ1pFeXRVQzdub2ZsNmdRTWtyRENYcnFZSHMzRE1vWUJya3VPQnFLbHhCSzhzeXp4a2ZKMVRoWGRuRkZZSmJ3ZUpwaUFVdEphOEg0dHdFYlI3cWEwdHM3QXF6bUdpM3lfYWZxZjR1UWI4cnRzY0c4bElmbWVpR0xNXzJyZ0xiM0dVMXhKMWFRb1VDZkVRcWFxdUxqQnRoWW9zbEdmbjBhaF84RDJHWjNZOVVkV05Bemo?oc=5",
-      "source": "Estadão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-18T05:44:06Z",
-      "updatedAt": "2026-07-18T05:44:06Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-91679a4536528b705f53185e",
-      "title": "Mercado de carnes: O que explica a queda do boi e a alta do frango?",
-      "summary": "Atualizacao de ultima hora capturada em agronews.tv.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS0dYYndGbTc0ZkRfNjVOcU9VVFJHa21PTjIyZm9CaEhMVUlNS0JsaThoYzEzTXZSQjkzdDZEcXROWVRUZ3J4b0ZEcHpxRXhCNE5xZ2N1N0g1VG94SGRXY1hMUVRWODBRVnBXUTZaT2w2NXVXdmQzdnBRYmxOZnFleGI5djNCLUxEWWNfOG10Tk5RRWZHV0dr?oc=5",
-      "source": "agronews.tv.br",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-18T05:20:00Z",
-      "updatedAt": "2026-07-18T05:20:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "funds-86482ae8f7a8995ab0d84552",
