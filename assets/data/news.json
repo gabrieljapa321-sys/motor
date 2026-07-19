@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-19T07:14:38Z",
-  "generatedAt": "2026-07-19T07:14:38Z",
+  "updatedAt": "2026-07-19T09:18:38Z",
+  "generatedAt": "2026-07-19T09:18:38Z",
   "categories": [
     {
       "id": "all",
@@ -27,6 +27,10 @@
     {
       "id": "acionista-com-br",
       "label": "Acionista.com.br"
+    },
+    {
+      "id": "am-post",
+      "label": "AM POST"
     },
     {
       "id": "boa-informa-o",
@@ -57,8 +61,16 @@
       "label": "Estadão"
     },
     {
+      "id": "estad-o-blue-studio",
+      "label": "Estadão Blue Studio"
+    },
+    {
       "id": "estrat-gia-concursos",
       "label": "Estratégia Concursos"
+    },
+    {
+      "id": "extra-online",
+      "label": "Extra online"
     },
     {
       "id": "financenews-com-br",
@@ -87,10 +99,6 @@
     {
       "id": "mar-lia-not-cia",
       "label": "Marília Notícia"
-    },
-    {
-      "id": "mkt-esportivo",
-      "label": "MKT Esportivo"
     },
     {
       "id": "monitor-mercantil",
@@ -125,16 +133,8 @@
       "label": "Polo de notícias"
     },
     {
-      "id": "portal-93",
-      "label": "Portal 93"
-    },
-    {
       "id": "portal-di-rio-do-rn",
       "label": "Portal Diário do RN"
-    },
-    {
-      "id": "portal-terra-da-luz",
-      "label": "Portal Terra da Luz"
     },
     {
       "id": "r7",
@@ -161,25 +161,130 @@
       "label": "SpaceMoney"
     },
     {
-      "id": "tribuna-do-agreste",
-      "label": "Tribuna do Agreste"
-    },
-    {
-      "id": "tribuna-do-sert-o",
-      "label": "Tribuna do Sertão"
-    },
-    {
       "id": "vietnam-vn",
       "label": "Vietnam.vn"
     }
   ],
   "items": [
     {
+      "id": "latest-cb8f0380cb2beaee18d33466",
+      "title": "Copel (CPLE3) despenca e investidores reagem ao detalhe errado",
+      "summary": "Atualizacao de ultima hora capturada em Acionista.com.br.",
+      "details": "",
+      "url": "https://acionista.com.br/copel-cple3-despenca-e-investidores-reagem-ao-detalhe-errado/",
+      "source": "Acionista.com.br",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-19T09:03:40Z",
+      "updatedAt": "2026-07-19T09:03:40Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "macro-d1eabe50085db141b847beba",
+      "title": "No limite da irresponsabilidade",
+      "summary": "Estudos elaborados pelo governo para defender medidas dizem que propostas geram emprego e arrecadação; para especialistas, porém, projetos elevam dívida pública, estimulam inflação e dificultam queda dos juros",
+      "details": "Estudos elaborados pelo governo para defender medidas dizem que propostas geram emprego e arrecadação; para especialistas, porém, projetos elevam dívida pública, estimulam inflação e dificultam queda dos juros",
+      "url": "https://www.estadao.com.br/economia/governo-lula-dribla-arcabouco-e-aposta-em-pacote-de-credito-de-r-145-bi-em-ano-eleitoral/",
+      "source": "CNN Brasil",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-19T09:00:56Z",
+      "updatedAt": "2026-07-19T09:00:56Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/45UPO66HUFHVZNHAB4JIK6T3FM.jpg?quality=80&auth=b1d7e8742f435f1b991441109e2418b14debbc913ab287ef6c3115ed7a354340&width=1200&height=630&focal=4394,1829"
+    },
+    {
+      "id": "macro-c9346247fa2f7b6f6c022b14",
+      "title": "Governo Lula dribla arcabouço e aposta em pacote de crédito de R$ 145 bi em ano eleitoral",
+      "summary": "O Senado Federal aprovou uma Proposta de Emenda Constitucional (PEC) que concede aposentadoria especial para os agentes comunitários de saúde e de",
+      "details": "O Senado Federal aprovou uma Proposta de Emenda Constitucional (PEC) que concede aposentadoria especial para os agentes comunitários de saúde e de",
+      "url": "https://www.cnnbrasil.com.br/colunas/jose-marcio-de-camargo/politica/no-limite-da-irresponsabilidade/",
+      "source": "Estadão",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-19T08:30:00Z",
+      "updatedAt": "2026-07-19T08:30:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/plenario-senado-federal.jpg?w=1200&h=630&crop=1"
+    },
+    {
+      "id": "latest-548841ab4ef568488f07b43e",
+      "title": "Agência de Comunicação - A Paymonade, fundada por um cidadão de Singapura, atende às novas regulamentações europeias sobre criptomoedas, mas cerca de 90% das empresas do setor na Europa não atendem",
+      "summary": "Conteúdo estratégico para engajar seu público com a expertise do Estadão.",
+      "details": "Conteúdo estratégico para engajar seu público com a expertise do Estadão.",
+      "url": "https://bluestudio.estadao.com.br/agencia-de-comunicacao/prnewswire/a-paymonade-fundada-por-um-cidadao-de-singapura-atende-as-novas-regulamentacoes-europeias-sobre-criptomoedas-mas-cerca-de-90-das-empresas-do-setor-na-europa-nao-atendem/",
+      "source": "Estadão Blue Studio",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-19T08:13:46Z",
+      "updatedAt": "2026-07-19T08:13:46Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://bluestudio.estadao.com.br/agencia-de-comunicacao/wp-content/uploads/2026/07/1_53_2_2026-07-19_2.jpg"
+    },
+    {
+      "id": "companies-c7f5fc9b0fc1575af7c12c67",
+      "title": "Tarifaço pode abrir portas na China, mas analistas veem limites para avanço das exportações brasileiras",
+      "summary": "(CT) - O Comitê Popular da Cidade de Can Tho acaba de divulgar o Plano nº 326/KH-UBND, lançando uma campanha de emulação de alta intensidade intitulada \"90 dias e noites para atingir a meta de desembolso até o final do 3º trimestre de 2026, alcançando 75% do plano, com o objetivo",
+      "details": "(CT) - O Comitê Popular da Cidade de Can Tho acaba de divulgar o Plano nº 326/KH-UBND, lançando uma campanha de emulação de alta intensidade intitulada \"90 dias e noites para atingir a meta de desembolso até o final do 3º trimestre de 2026, alcançando 75% do plano, com o objetivo de concluir o desembolso de 100% do pla",
+      "url": "https://www.vietnam.vn/pt/phat-dong-dot-thi-dua-cao-diem-90-ngay-dem-hoan-thanh-muc-tieu-giai-ngan-von-dau-tu-cong",
+      "source": "G1",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-07-19T08:00:38Z",
+      "updatedAt": "2026-07-19T08:00:38Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/19/1784424803275_1784424779.webp"
+    },
+    {
+      "id": "latest-ce5f4e2e82c1e285fca92442",
+      "title": "Pátios lotados, vendas em queda e juros altos desafiam mercado de carros seminovos",
+      "summary": "Maior parceiro comercial do Brasil, a China comprou quase US$ 100 bilhões em produtos brasileiros em 2025, mas barreiras e a desaceleração da economia limitam a expansão.",
+      "details": "Maior parceiro comercial do Brasil, a China comprou quase US$ 100 bilhões em produtos brasileiros em 2025, mas barreiras e a desaceleração da economia limitam a expansão.",
+      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/19/tarifaco-pode-abrir-portas-na-china-mas-analistas-veem-limites-para-avanco-das-exportacoes-brasileiras.ghtml",
+      "source": "Extra online",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-19T08:00:11Z",
+      "updatedAt": "2026-07-19T08:00:11Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://s2-g1.glbimg.com/FsCu-1yuIerUyG8ull8eZZpd-O0=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/X/j/wIugndRF2Gj6Sv4VFI7g/54516546006-5c3ccfd9a2-k.jpg"
+    },
+    {
       "id": "latest-3a02e7ccdb2ddd70c0433e54",
       "title": "Mercado Imobiliário Residencial 2026 - Parte 2: Pressão do 'Turbilhão' das Taxas de Juros",
-      "summary": "A discrepância entre o crescimento do crédito e a captação de depósitos está elevando as taxas de juros dos depósitos a novos patamares recordes, podendo chegar a 12-13% ao ano nas taxas de juros dos financiamentos imobiliários no primeiro semestre de 2026. O peso dos custos de c",
-      "details": "A discrepância entre o crescimento do crédito e a captação de depósitos está elevando as taxas de juros dos depósitos a novos patamares recordes, podendo chegar a 12-13% ao ano nas taxas de juros dos financiamentos imobiliários no primeiro semestre de 2026. O peso dos custos de capital não só está forçando os comprador",
-      "url": "https://www.vietnam.vn/pt/bat-dong-san-dan-cu-2026-bai-2-suc-ep-tu-con-loc-lai-suat",
+      "summary": "Vendedores relatam que o segmento atravessa um dos momentos mais difíceis da última década, sobretudo para veículos acima de R$ 100 mil",
+      "details": "Vendedores relatam que o segmento atravessa um dos momentos mais difíceis da última década, sobretudo para veículos acima de R$ 100 mil",
+      "url": "https://extra.globo.com/economia/noticia/2026/07/patios-lotados-vendas-em-queda-e-juros-altos-desafiam-mercado-de-carros-seminovos.ghtml",
       "source": "Vietnam.vn",
       "category": "latest",
       "tags": [
@@ -191,14 +296,14 @@
       "updatedAt": "2026-07-19T05:19:47Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/03/25/1774413224662_vietabank-gui-tiet-kiem.jpeg"
+      "imageUrl": "https://s2-extra.glbimg.com/Y9R7_Q2lWDIF_dQf_XoYqhrlOd8=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2026/A/U/0RXaOUSNqDovvCjlEmGw/115672453-en-rio-de-janeiro-rj-15-07-2026-mercado-de-automoveis-novos-e-usados-se-intens.jpg"
     },
     {
       "id": "latest-cf680d020feb109174af3e85",
       "title": "Ambiente externo mais defensivo e cautela doméstica pressionam o Ibovespa",
-      "summary": "Atualizacao de ultima hora capturada em Estadão.",
-      "details": "",
-      "url": "https://www.osul.com.br/policia-federal-aciona-interpol-para-rastrear-bens-de-vorcaro-nos-estados-unidos-e-europa/amp/",
+      "summary": "Bolsa brasileira encerrou a sessão com uma queda de 1,52% aos 174.279 pontos",
+      "details": "Bolsa brasileira encerrou a sessão com uma queda de 1,52% aos 174.279 pontos",
+      "url": "https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/fechamento-de-mercado-ibovespa-hoje-bolsas-ny-dolar-treasuries-petroleo/",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -209,14 +314,15 @@
       "publishedAt": "2026-07-19T04:40:55Z",
       "updatedAt": "2026-07-19T04:40:55Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/GVEDGZYQORJT7CO53IKKOASTXM.png?quality=80&auth=570e1cf40f67a57789ead3ad6339cd36857b8248e5f75858b9ec553b749659be&width=1200&height=630&smart=true"
     },
     {
       "id": "macro-b5c553b79fdb3b80c3fab46b",
       "title": "Mais rica que 16 capitais e 3 estados inteiros: a cidade catarinense de 7 praias que tem o 2º maior porto do Brasil e R$ 48,2 bilhões de PIB",
-      "summary": "Os preços dos ativos revelam um mercado que segue cético com mudanças estruturais e ainda posicionado para juros elevados e crescimento moderado no Brasil",
-      "details": "Os preços dos ativos revelam um mercado que segue cético com mudanças estruturais e ainda posicionado para juros elevados e crescimento moderado no Brasil",
-      "url": "https://www.estadao.com.br/em-alta/einvestidor/vitor-miziara/o-mercado-financeiro-ja-confirmou-lula-eleito-e-aposta-na-falta-de-surpresas/",
+      "summary": "Cidade portuária costuma virar refém do próprio cais, com o mar servindo só de estacionamento para navio. Itajaí, no litoral",
+      "details": "Cidade portuária costuma virar refém do próprio cais, com o mar servindo só de estacionamento para navio. Itajaí, no litoral",
+      "url": "https://revistaoeste.com/oestegeral/2026/07/18/mais-rica-que-16-capitais-e-3-estados-inteiros-a-cidade-catarinense-de-7-praias-que-tem-o-2o-maior-porto-do-brasil-e-r-482-bilhoes-de-pib/",
       "source": "Revista Oeste",
       "category": "macro",
       "tags": [
@@ -228,14 +334,14 @@
       "updatedAt": "2026-07-19T02:35:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/4PC3KHM6HBJ6RM6MEV4O4TUAPE.png?quality=80&auth=5a9fa2091695011a9f2ad03aa1e3373d5399ce98d1bc849593e6133ce4214675&width=1200&height=630&smart=true"
+      "imageUrl": "https://revistaoeste.com/oestegeral/wp-content/uploads/2026/07/FLOWIMAGE_Two_economies_of_Itajai_202607161205.jpg"
     },
     {
       "id": "funds-eff3fbcbae515aeeb35f22e4",
       "title": "Lançamento de uma campanha intensiva de simulação com duração de 90 dias para atingir a meta de desembolso de fundos de investimento público.",
-      "summary": "Bolsa brasileira encerrou a sessão com uma queda de 1,52% aos 174.279 pontos",
-      "details": "Bolsa brasileira encerrou a sessão com uma queda de 1,52% aos 174.279 pontos",
-      "url": "https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/fechamento-de-mercado-ibovespa-hoje-bolsas-ny-dolar-treasuries-petroleo/",
+      "summary": "A discrepância entre o crescimento do crédito e a captação de depósitos está elevando as taxas de juros dos depósitos a novos patamares recordes, podendo chegar a 12-13% ao ano nas taxas de juros dos financiamentos imobiliários no primeiro semestre de 2026. O peso dos custos de c",
+      "details": "A discrepância entre o crescimento do crédito e a captação de depósitos está elevando as taxas de juros dos depósitos a novos patamares recordes, podendo chegar a 12-13% ao ano nas taxas de juros dos financiamentos imobiliários no primeiro semestre de 2026. O peso dos custos de capital não só está forçando os comprador",
+      "url": "https://www.vietnam.vn/pt/bat-dong-san-dan-cu-2026-bai-2-suc-ep-tu-con-loc-lai-suat",
       "source": "Vietnam.vn",
       "category": "funds",
       "tags": [
@@ -247,14 +353,14 @@
       "updatedAt": "2026-07-19T02:14:13Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/GVEDGZYQORJT7CO53IKKOASTXM.png?quality=80&auth=570e1cf40f67a57789ead3ad6339cd36857b8248e5f75858b9ec553b749659be&width=1200&height=630&smart=true"
+      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/03/25/1774413224662_vietabank-gui-tiet-kiem.jpeg"
     },
     {
       "id": "macro-9be9f06b4ec633738a25d7b4",
       "title": "Preço do aluguel sobe 5,24 % no primeiro semestre de 2026 e fica acima da inflação",
-      "summary": "Oferta insuficiente frente à demanda pressiona os valores",
-      "details": "Oferta insuficiente frente à demanda pressiona os valores",
-      "url": "https://noticias.r7.com/jr-na-tv/video/preco-do-aluguel-sobe-524-no-primeiro-semestre-de-2026-e-fica-acima-da-inflacao-19072026/",
+      "summary": "Último processo seletivo de Balbinos (SP) teve 19 vagas com salário de até R$ 3.268,52. Veja histórico e situação atual.",
+      "details": "Último processo seletivo de Balbinos (SP) teve 19 vagas com salário de até R$ 3.268,52. Veja histórico e situação atual.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-balbinos/amp/",
       "source": "R7",
       "category": "macro",
       "tags": [
@@ -266,14 +372,14 @@
       "updatedAt": "2026-07-19T01:21:29Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/https%3A%2F%2Fd22yf0mxeu0gma.cloudfront.net%2F07-19-2026%2Ft_7c3436ab1c4f4b749842ff54c2026811_name_file_960x540_1600_v4_.jpg?smart=true&auth=9384e4019f6ed56a4d0656ae5f756c4126967c4c11424dfb2aef8127bc13c0c8&width=1200&height=630"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
     },
     {
       "id": "funds-5c5eb5424a7ee548f00a71c1",
       "title": "Polícia Federal aciona Interpol para rastrear bens de Vorcaro nos Estados Unidos e Europa",
-      "summary": "(CT) - O Comitê Popular da Cidade de Can Tho acaba de divulgar o Plano nº 326/KH-UBND, lançando uma campanha de emulação de alta intensidade intitulada \"90 dias e noites para atingir a meta de desembolso até o final do 3º trimestre de 2026, alcançando 75% do plano, com o objetivo",
-      "details": "(CT) - O Comitê Popular da Cidade de Can Tho acaba de divulgar o Plano nº 326/KH-UBND, lançando uma campanha de emulação de alta intensidade intitulada \"90 dias e noites para atingir a meta de desembolso até o final do 3º trimestre de 2026, alcançando 75% do plano, com o objetivo de concluir o desembolso de 100% do pla",
-      "url": "https://www.vietnam.vn/pt/phat-dong-dot-thi-dua-cao-diem-90-ngay-dem-hoan-thanh-muc-tieu-giai-ngan-von-dau-tu-cong",
+      "summary": "Atualizacao de fundos capturada em Jornal O Sul.",
+      "details": "",
+      "url": "https://www.osul.com.br/policia-federal-aciona-interpol-para-rastrear-bens-de-vorcaro-nos-estados-unidos-e-europa/amp/",
       "source": "Jornal O Sul",
       "category": "funds",
       "tags": [
@@ -284,15 +390,14 @@
       "publishedAt": "2026-07-19T01:08:29Z",
       "updatedAt": "2026-07-19T01:08:29Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/19/1784424803275_1784424779.webp"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "latest-b24c612bca059a9bff541419",
       "title": "O mercado financeiro já confirmou Lula eleito e aposta na falta de surpresas",
-      "summary": "Apesar do crescente número de bancos que estão reduzindo suas taxas de juros, o mercado ainda apresenta 8 bancos com taxas médias de empréstimo acima de 10% ao ano. Os bancos estatais mantêm taxas baixas, variando de 6,1% a 8,51% ao ano.",
-      "details": "Apesar do crescente número de bancos que estão reduzindo suas taxas de juros, o mercado ainda apresenta 8 bancos com taxas médias de empréstimo acima de 10% ao ano. Os bancos estatais mantêm taxas baixas, variando de 6,1% a 8,51% ao ano.",
-      "url": "https://www.vietnam.vn/pt/lai-suat-cho-vay-binh-quan-thang-6-2026-8-ngan-hang-vuot-nguong-10-nam",
+      "summary": "Oferta insuficiente frente à demanda pressiona os valores",
+      "details": "Oferta insuficiente frente à demanda pressiona os valores",
+      "url": "https://noticias.r7.com/jr-na-tv/video/preco-do-aluguel-sobe-524-no-primeiro-semestre-de-2026-e-fica-acima-da-inflacao-19072026/",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -304,14 +409,14 @@
       "updatedAt": "2026-07-19T00:53:50Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/19/1784419070191_img_97b8da97.jpeg"
+      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/https%3A%2F%2Fd22yf0mxeu0gma.cloudfront.net%2F07-19-2026%2Ft_7c3436ab1c4f4b749842ff54c2026811_name_file_960x540_1600_v4_.jpg?smart=true&auth=9384e4019f6ed56a4d0656ae5f756c4126967c4c11424dfb2aef8127bc13c0c8&width=1200&height=630"
     },
     {
       "id": "latest-6b426dc3dfd815ee6efb005c",
       "title": "A taxa média de juros para empréstimos em 8 bancos ultrapassou 10% ao ano.",
-      "summary": "Cidade portuária costuma virar refém do próprio cais, com o mar servindo só de estacionamento para navio. Itajaí, no litoral",
-      "details": "Cidade portuária costuma virar refém do próprio cais, com o mar servindo só de estacionamento para navio. Itajaí, no litoral",
-      "url": "https://revistaoeste.com/oestegeral/2026/07/18/mais-rica-que-16-capitais-e-3-estados-inteiros-a-cidade-catarinense-de-7-praias-que-tem-o-2o-maior-porto-do-brasil-e-r-482-bilhoes-de-pib/",
+      "summary": "Os preços dos ativos revelam um mercado que segue cético com mudanças estruturais e ainda posicionado para juros elevados e crescimento moderado no Brasil",
+      "details": "Os preços dos ativos revelam um mercado que segue cético com mudanças estruturais e ainda posicionado para juros elevados e crescimento moderado no Brasil",
+      "url": "https://www.estadao.com.br/em-alta/einvestidor/vitor-miziara/o-mercado-financeiro-ja-confirmou-lula-eleito-e-aposta-na-falta-de-surpresas/",
       "source": "Vietnam.vn",
       "category": "latest",
       "tags": [
@@ -323,14 +428,14 @@
       "updatedAt": "2026-07-19T00:48:42Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://revistaoeste.com/oestegeral/wp-content/uploads/2026/07/FLOWIMAGE_Two_economies_of_Itajai_202607161205.jpg"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/4PC3KHM6HBJ6RM6MEV4O4TUAPE.png?quality=80&auth=5a9fa2091695011a9f2ad03aa1e3373d5399ce98d1bc849593e6133ce4214675&width=1200&height=630&smart=true"
     },
     {
       "id": "latest-738becbee6d85d86840b8783",
       "title": "Taxas médias de juros para empréstimos em junho de 2026: 8 bancos ultrapassaram 10% ao ano.",
-      "summary": "Último concurso de Bocaina (SP) teve 23 vagas com salários até R$ 17.307,36, organizado pela ABCP. Veja histórico e situação atual.",
-      "details": "Último concurso de Bocaina (SP) teve 23 vagas com salários até R$ 17.307,36, organizado pela ABCP. Veja histórico e situação atual.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-bocaina-sp/amp/",
+      "summary": "Os dados de junho de 2026 mostram uma forte divergência no mercado de crédito, com 8 bancos mantendo taxas de juros de empréstimo acima de 10% ao ano, embora o grupo Big4 esteja começando a mostrar sinais de arrefecimento.",
+      "details": "Os dados de junho de 2026 mostram uma forte divergência no mercado de crédito, com 8 bancos mantendo taxas de juros de empréstimo acima de 10% ao ano, embora o grupo Big4 esteja começando a mostrar sinais de arrefecimento.",
+      "url": "https://www.vietnam.vn/pt/lai-suat-cho-vay-binh-quan-tai-8-ngan-hang-vuot-nguong-10-nam",
       "source": "Vietnam.vn",
       "category": "latest",
       "tags": [
@@ -342,14 +447,14 @@
       "updatedAt": "2026-07-19T00:25:46Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
+      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/19/1784418786745_img_97b8da97.jpeg"
     },
     {
       "id": "macro-9cb81b65b8df0cfe89b723e2",
       "title": "Concurso Bocaina (SP): sem novo edital previsto",
-      "summary": "Os dados de junho de 2026 mostram uma forte divergência no mercado de crédito, com 8 bancos mantendo taxas de juros de empréstimo acima de 10% ao ano, embora o grupo Big4 esteja começando a mostrar sinais de arrefecimento.",
-      "details": "Os dados de junho de 2026 mostram uma forte divergência no mercado de crédito, com 8 bancos mantendo taxas de juros de empréstimo acima de 10% ao ano, embora o grupo Big4 esteja começando a mostrar sinais de arrefecimento.",
-      "url": "https://www.vietnam.vn/pt/lai-suat-cho-vay-binh-quan-tai-8-ngan-hang-vuot-nguong-10-nam",
+      "summary": "Apesar do crescente número de bancos que estão reduzindo suas taxas de juros, o mercado ainda apresenta 8 bancos com taxas médias de empréstimo acima de 10% ao ano. Os bancos estatais mantêm taxas baixas, variando de 6,1% a 8,51% ao ano.",
+      "details": "Apesar do crescente número de bancos que estão reduzindo suas taxas de juros, o mercado ainda apresenta 8 bancos com taxas médias de empréstimo acima de 10% ao ano. Os bancos estatais mantêm taxas baixas, variando de 6,1% a 8,51% ao ano.",
+      "url": "https://www.vietnam.vn/pt/lai-suat-cho-vay-binh-quan-thang-6-2026-8-ngan-hang-vuot-nguong-10-nam",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -361,14 +466,14 @@
       "updatedAt": "2026-07-19T00:01:08Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/19/1784418786745_img_97b8da97.jpeg"
+      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/19/1784419070191_img_97b8da97.jpeg"
     },
     {
       "id": "macro-cf3d1fa8b3bfd3b50592e8ed",
       "title": "Concurso Balbinos (SP): sem novo edital previsto",
-      "summary": "Tomar do Geru (SE) não possui edital de concurso ou processo seletivo em andamento. Veja histórico e situação atual.",
-      "details": "Tomar do Geru (SE) não possui edital de concurso ou processo seletivo em andamento. Veja histórico e situação atual.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-tomar-do-geru/amp/",
+      "summary": "Último concurso de Bocaina (SP) teve 23 vagas com salários até R$ 17.307,36, organizado pela ABCP. Veja histórico e situação atual.",
+      "details": "Último concurso de Bocaina (SP) teve 23 vagas com salários até R$ 17.307,36, organizado pela ABCP. Veja histórico e situação atual.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-bocaina-sp/amp/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -404,9 +509,9 @@
     {
       "id": "macro-be17f93e29d278542cab5c86",
       "title": "Concurso Tomar do Geru (SE): sem novo edital",
-      "summary": "Último processo seletivo de Balbinos (SP) teve 19 vagas com salário de até R$ 3.268,52. Veja histórico e situação atual.",
-      "details": "Último processo seletivo de Balbinos (SP) teve 19 vagas com salário de até R$ 3.268,52. Veja histórico e situação atual.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-balbinos/amp/",
+      "summary": "Tomar do Geru (SE) não possui edital de concurso ou processo seletivo em andamento. Veja histórico e situação atual.",
+      "details": "Tomar do Geru (SE) não possui edital de concurso ou processo seletivo em andamento. Veja histórico e situação atual.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-tomar-do-geru/amp/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -442,9 +547,9 @@
     {
       "id": "macro-3325958384f85338a0e299af",
       "title": "Concurso Santana do São Francisco (SE): sem novo edital",
-      "summary": "A Prefeitura de Santa Rosa de Lima (SE) tem edital 2026 publicado com detalhes ainda a definir. Veja a situação atual e o histórico.",
-      "details": "A Prefeitura de Santa Rosa de Lima (SE) tem edital 2026 publicado com detalhes ainda a definir. Veja a situação atual e o histórico.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-santa-rosa-de-lima-se/amp/",
+      "summary": "Acompanhe o status atual de concursos da Prefeitura de Santa Luzia do Itanhy, em Sergipe. Veja histórico e situação atual.",
+      "details": "Acompanhe o status atual de concursos da Prefeitura de Santa Luzia do Itanhy, em Sergipe. Veja histórico e situação atual.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-santa-luzia-do-itanhy/amp/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -461,9 +566,9 @@
     {
       "id": "macro-9f3b38b7dc1d86286cea24bb",
       "title": "Concurso Santa Rosa de Lima (SE): edital 2026",
-      "summary": "Santana do São Francisco (SE) não possui edital vigente de concurso público ou processo seletivo municipal. Veja histórico e situação atual.",
-      "details": "Santana do São Francisco (SE) não possui edital vigente de concurso público ou processo seletivo municipal. Veja histórico e situação atual.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-santana-do-sao-francisco/amp/",
+      "summary": "A Prefeitura de Santa Rosa de Lima (SE) tem edital 2026 publicado com detalhes ainda a definir. Veja a situação atual e o histórico.",
+      "details": "A Prefeitura de Santa Rosa de Lima (SE) tem edital 2026 publicado com detalhes ainda a definir. Veja a situação atual e o histórico.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-santa-rosa-de-lima-se/amp/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -480,9 +585,9 @@
     {
       "id": "macro-e38a264b5c79993d1ef934d4",
       "title": "Concurso Santa Luzia do Itanhy (SE): sem novo edital",
-      "summary": "Concurso Riachuelo (SE): sem edital previsto. Últimas provas foram em 2010, com banca CONSULPLAN. Veja histórico e situação atual.",
-      "details": "Concurso Riachuelo (SE): sem edital previsto. Últimas provas foram em 2010, com banca CONSULPLAN. Veja histórico e situação atual.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-riachuelo-se/amp/",
+      "summary": "A Prefeitura de Maruim (SE) realizou seu último PS em 2019, com 96 vagas e salários de até R$ 10.400. Veja histórico e situação atual.",
+      "details": "A Prefeitura de Maruim (SE) realizou seu último PS em 2019, com 96 vagas e salários de até R$ 10.400. Veja histórico e situação atual.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-maruim/amp/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -499,9 +604,9 @@
     {
       "id": "macro-1e569028ba210f240accf17c",
       "title": "Concurso Riachuelo (SE): sem novo edital previsto",
-      "summary": "Acompanhe o status atual de concursos da Prefeitura de Santa Luzia do Itanhy, em Sergipe. Veja histórico e situação atual.",
-      "details": "Acompanhe o status atual de concursos da Prefeitura de Santa Luzia do Itanhy, em Sergipe. Veja histórico e situação atual.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-santa-luzia-do-itanhy/amp/",
+      "summary": "Publicado às 19h12 A B3 amplia seu portfólio de índices de renda fixa com o […]",
+      "details": "Publicado às 19h12 A B3 amplia seu portfólio de índices de renda fixa com o […]",
+      "url": "https://financenews.com.br/2026/07/b3-amplia-familia-de-indices-de-renda-fixa-ao-lancar-tres-novos-indicadores-atrelados-a-inflacao/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -513,14 +618,14 @@
       "updatedAt": "2026-07-18T22:38:47Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
+      "imageUrl": "https://financenews.com.br/wp-content/uploads/2025/02/b3-bolsa.png"
     },
     {
       "id": "latest-4eda31101e6f8352732d1f18",
       "title": "O avanço feminino no mercado financeiro: uma transformação que veio para ficar, por Julianne Pires",
-      "summary": "O Otimista - O avanço feminino no mercado financeiro: uma transformação que veio para ficar, por Julianne Pires",
-      "details": "O Otimista - O avanço feminino no mercado financeiro: uma transformação que veio para ficar, por Julianne Pires",
-      "url": "https://ootimista.com.br/noticias/o-avanco-feminino-no-mercado-financeiro-uma-transformacao-que-veio-para-ficar-por-julianne-pires?category=opinion&page=1",
+      "summary": "Concurso Riachuelo (SE): sem edital previsto. Últimas provas foram em 2010, com banca CONSULPLAN. Veja histórico e situação atual.",
+      "details": "Concurso Riachuelo (SE): sem edital previsto. Últimas provas foram em 2010, com banca CONSULPLAN. Veja histórico e situação atual.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-riachuelo-se/amp/",
       "source": "O Otimista",
       "category": "latest",
       "tags": [
@@ -532,14 +637,14 @@
       "updatedAt": "2026-07-18T22:23:11Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://api.ootimista.com.br/wp-content/uploads/2026/07/1807op0210_3c-scaled.jpeg"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
     },
     {
       "id": "macro-1cb0b1d2c55052691b3e963c",
       "title": "Concurso Maruim (SE): sem novo edital previsto",
-      "summary": "A Prefeitura de Maruim (SE) realizou seu último PS em 2019, com 96 vagas e salários de até R$ 10.400. Veja histórico e situação atual.",
-      "details": "A Prefeitura de Maruim (SE) realizou seu último PS em 2019, com 96 vagas e salários de até R$ 10.400. Veja histórico e situação atual.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-maruim/amp/",
+      "summary": "O Otimista - O avanço feminino no mercado financeiro: uma transformação que veio para ficar, por Julianne Pires",
+      "details": "O Otimista - O avanço feminino no mercado financeiro: uma transformação que veio para ficar, por Julianne Pires",
+      "url": "https://ootimista.com.br/noticias/o-avanco-feminino-no-mercado-financeiro-uma-transformacao-que-veio-para-ficar-por-julianne-pires?category=opinion&page=1",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -551,14 +656,14 @@
       "updatedAt": "2026-07-18T22:22:33Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
+      "imageUrl": "https://api.ootimista.com.br/wp-content/uploads/2026/07/1807op0210_3c-scaled.jpeg"
     },
     {
       "id": "macro-fd5c43c1926f84f7031430f2",
       "title": "B3 amplia família de índices de renda fixa ao lançar três novos indicadores atrelados a inflação",
-      "summary": "Publicado às 19h12 A B3 amplia seu portfólio de índices de renda fixa com o […]",
-      "details": "Publicado às 19h12 A B3 amplia seu portfólio de índices de renda fixa com o […]",
-      "url": "https://financenews.com.br/2026/07/b3-amplia-familia-de-indices-de-renda-fixa-ao-lancar-tres-novos-indicadores-atrelados-a-inflacao/",
+      "summary": "Concurso Malhador (SE): último certame foi em 2020, com 3 vagas para níveis fundamental e médio. Veja histórico e situação atual.",
+      "details": "Concurso Malhador (SE): último certame foi em 2020, com 3 vagas para níveis fundamental e médio. Veja histórico e situação atual.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-malhador/amp/",
       "source": "financenews.com.br",
       "category": "macro",
       "tags": [
@@ -570,14 +675,14 @@
       "updatedAt": "2026-07-18T22:20:55Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://financenews.com.br/wp-content/uploads/2025/02/b3-bolsa.png"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
     },
     {
       "id": "macro-35461fa9abf102334d1759b3",
       "title": "Concurso Malhador (SE): sem novo edital previsto",
-      "summary": "A Prefeitura de Macambira (SE) tem movimentação para concurso em 2026 com inscrições abertas. Veja o edital e como participar.",
-      "details": "A Prefeitura de Macambira (SE) tem movimentação para concurso em 2026 com inscrições abertas. Veja o edital e como participar.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-macambira/amp/",
+      "summary": "Santana do São Francisco (SE) não possui edital vigente de concurso público ou processo seletivo municipal. Veja histórico e situação atual.",
+      "details": "Santana do São Francisco (SE) não possui edital vigente de concurso público ou processo seletivo municipal. Veja histórico e situação atual.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-santana-do-sao-francisco/amp/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -594,9 +699,9 @@
     {
       "id": "macro-5940fd5c0742021d627a46fa",
       "title": "Concurso Malhada dos Bois (SE): sem novo edital previsto",
-      "summary": "Veja quais fatores orientam as ações mais recomendadas para julho e entenda como bancos e corretoras selecionam empresas para suas carteiras.",
-      "details": "Veja quais fatores orientam as ações mais recomendadas para julho e entenda como bancos e corretoras selecionam empresas para suas carteiras.",
-      "url": "https://seucreditodigital.com.br/acoes-mais-recomendadas-julho/",
+      "summary": "Atualizacao de macro capturada em Estratégia Concursos.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeDJXMVBUbmdKbmNqcDU3TlNpaU5DUEpBY0FjQUFhUWdPbC16c0lmYXB6MGVQQmdUVDJrTEc0aS1zSm5ocEgtdzZsRktuSVRKbjhNMUd3dlU2REpLaUt2SHZDY245aFE5NGE0OGVjd0JhQXVPdTltM21oTTlvSEpwd1ZxMktJd1JtNndPMmNn0gGOAUFVX3lxTFB4MlcxUFRuZ0puY2pwNTdOU2lpTkNQSkFjQWNBQWFRZ09sLXpzSWZhcHowZVBCZ1RUMmtMRzRpLXNKbmhwSC13NmxGS25JVEpuOE0xR3d2VTZESktpS3ZIdkNjbjloUTk0YTQ4ZWN3QmFBdU91OW0zbWhNOW9ISnB3VnEyS0l3Um02d08yY2c?oc=5",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -607,15 +712,14 @@
       "publishedAt": "2026-07-18T22:18:25Z",
       "updatedAt": "2026-07-18T22:18:25Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://seucreditodigital.com.br/wp-content/uploads/2026/07/Acoes-6.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-ac7ed3cfe13af61c86305be0",
       "title": "Concurso Macambira (SE): seleção 2026",
       "summary": "Atualizacao de macro capturada em Estratégia Concursos.",
       "details": "",
-      "url": "https://acionista.com.br/ponto-de-conflito-fiis-ou-acoes-que-pagam-dividendos/",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVnFmWk0xTkVlTm8zeFpCa0c4VnZSZmdobC1aLVJtSnFmem0yWWluUEVsTTcwNjBMWUhzTENXRWxjVjF6SGU0a1hRZThJUGRqa2ZnR1Z5dU9aaERCUi0yZ21YUk9mRFc2S1BBZXUwblowaFBPbU9vVU1nUXZqd0pYQm1nclnSAYQBQVVfeXFMT1ZxZlpNMU5FZU5vM3haQmtHOFZ2UmZnaGwtWi1SbUpxZnptMllpblBFbE03MDYwTFlIc0xDV0VsY1YxekhlNGtYUWU4SVBkamtmZ0dWeXVPWmhEQlItMmdtWFJPZkRXNktQQWV1MG5aMGhQT21Pb1VNZ1F2andKWEJtZ3JZ?oc=5",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -629,30 +733,11 @@
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "macro-f87ac800266126207692e896",
-      "title": "Concurso Ilha das Flores (SE): sem novo edital previsto",
-      "summary": "Consultor avalia que é imprescindível que governo eleito apresente novas soluções estruturais para quadro fiscal no projeto da Lei de Diretrizes Orçamentárias de 2028",
-      "details": "Consultor avalia que é imprescindível que governo eleito apresente novas soluções estruturais para quadro fiscal no projeto da Lei de Diretrizes Orçamentárias de 2028",
-      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/pais-enfrenta-fadiga-fiscal-e-divida-pode-bater-100-ate-2035-diz-estudo/",
-      "source": "Estratégia Concursos",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-18T22:06:25Z",
-      "updatedAt": "2026-07-18T22:06:25Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/ChatGPT-Image-15-de-abr.-de-2026-21_32_44.png?w=1200&h=630&crop=1"
-    },
-    {
       "id": "funds-baeff33bd329ff4addacd0a7",
       "title": "Ponto de conflito: FIIs ou ações que pagam dividendos?",
-      "summary": "Acompanhe a situação atual do concurso da Prefeitura de Malhada dos Bois (SE). Não há edital previsto para o município. Veja histórico e situação atual.",
-      "details": "Acompanhe a situação atual do concurso da Prefeitura de Malhada dos Bois (SE). Não há edital previsto para o município. Veja histórico e situação atual.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-malhada-dos-bois/amp/",
+      "summary": "Atualizacao de fundos capturada em Acionista.com.br.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMkhGN20ybWJoOGgyRTN3eFBVcER6QUw4aVNjN1Q4aGJiY3RFd1EyaWlBdmRrU1hIOWFIM2Z2LUlGUzg2aDVVN1hhYW92eDkzM0pmUXREUlRTUXZXUTZCRFVkLVZIcm1KU0FLWlpUUTBiMUhVRzdsb01QcS1jZTNNT05ud2E?oc=5",
       "source": "Acionista.com.br",
       "category": "funds",
       "tags": [
@@ -663,34 +748,14 @@
       "publishedAt": "2026-07-18T22:05:34Z",
       "updatedAt": "2026-07-18T22:05:34Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
-    },
-    {
-      "id": "macro-615ca19f657b8aa9eb74590f",
-      "title": "País enfrenta \"fadiga fiscal\" e dívida pode bater 100% até 2035, diz estudo",
-      "summary": "Acompanhe a situação de concursos da Prefeitura de Ilha das Flores (SE). Sem edital previsto até o momento. Veja histórico e situação atual.",
-      "details": "Acompanhe a situação de concursos da Prefeitura de Ilha das Flores (SE). Sem edital previsto até o momento. Veja histórico e situação atual.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-ilha-das-flores/amp/",
-      "source": "CNN Brasil",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-18T21:50:22Z",
-      "updatedAt": "2026-07-18T21:50:22Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "latest-d78ecb9026cbd8244573d9b8",
       "title": "Ranking de julho reúne as ações favoritas de 10 bancos e corretoras",
-      "summary": "Concurso Malhador (SE): último certame foi em 2020, com 3 vagas para níveis fundamental e médio. Veja histórico e situação atual.",
-      "details": "Concurso Malhador (SE): último certame foi em 2020, com 3 vagas para níveis fundamental e médio. Veja histórico e situação atual.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-malhador/amp/",
+      "summary": "Atualizacao de ultima hora capturada em Seu Crédito Digital.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1PVUpja0I4bHg1US11ZXdWeS10MHd6azZ3VmV5SzB1Y1lncHdGdWlxaEI5ZU9WMUluZk5iWk1xVE9LcG5Na3ptQWxzLUZYNG5oOG5yUXdMOE9ONnZTODhNVkN2bG9YU04yYXdsMVBjY08?oc=5",
       "source": "Seu Crédito Digital",
       "category": "latest",
       "tags": [
@@ -701,8 +766,7 @@
       "publishedAt": "2026-07-18T21:30:00Z",
       "updatedAt": "2026-07-18T21:30:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2025/03/05201612/concursos-prefeituras-1024x536-1.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-2d842a9f765584bed5309afb",
@@ -903,60 +967,6 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-72c67d8e4a5e548d95588abc",
-      "title": "Copa do Mundo impulsiona ações da adidas enquanto Nike enfrenta ano difícil",
-      "summary": "Atualizacao de ultima hora capturada em MKT Esportivo.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRUNEcHMxSnhUTlVlOVdnWVZlNVV0X0lKY09XbGtQTm9DTWZnUFpxZkRIeVgwNHFjVHRLNzI5RzZaSWhQZVFVTy0yaFlsUWZXYkw0MHNGaDR1UW1Ua1ZUa2NfZDRmMVNmbkJ3MEpja0I4T2h5Q0c1OUNXbGVQcjMwX25tQXFCeDlSV3AwVXE3eEpXQkdsWjBFRmRZMFU2blBkNFhTdVpuTW1CVWN5VXNMcUtPaDIzbEZ4MVJxZ3pudFk?oc=5",
-      "source": "MKT Esportivo",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-18T17:01:49Z",
-      "updatedAt": "2026-07-18T17:01:49Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-5c0597abf0fb65480c10e94f",
-      "title": "Reciprocidade tarifária pode piorar situação do Brasil, diz Abiplast - Portal 93",
-      "summary": "Atualizacao de ultima hora capturada em Portal 93.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSUpsTVBmZ3dkWENISnJFNlg0LUU1S1dCUWJUMFFJbzA0R2pnR0JVNEM0MFpfcEMza3hhdG1RUnhSNXFZa2dQNEsxRWhzTHJtdDB5Tk5VU1Y4REwtaF9ZZDZSdHV4QVZXQzcxM0F5c1VxRmdmZjJxY2U3Uy1Ea2ZJb0xtNXZMZjhfUTVoTjNMZDNmSUZZV2xibzRrT0FLd9IBngFBVV95cUxNSUpsTVBmZ3dkWENISnJFNlg0LUU1S1dCUWJUMFFJbzA0R2pnR0JVNEM0MFpfcEMza3hhdG1RUnhSNXFZa2dQNEsxRWhzTHJtdDB5Tk5VU1Y4REwtaF9ZZDZSdHV4QVZXQzcxM0F5c1VxRmdmZjJxY2U3Uy1Ea2ZJb0xtNXZMZjhfUTVoTjNMZDNmSUZZV2xibzRrT0FLdw?oc=5",
-      "source": "Portal 93",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-18T16:30:34Z",
-      "updatedAt": "2026-07-18T16:30:34Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-f55fc8ff01f457050b327763",
-      "title": "Economia: Fraudes financeiras crescem 10% no país",
-      "summary": "Atualizacao de ultima hora capturada em Portal Terra da Luz.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQb2dUZWRRdzA3dVk2SjFlX3YzdGZKTGx6d3dtQ3RaWWpUSHdGRkpJY2VfeGdsZ3pGTFNxcWVKaklsZ3Mwamt2Z0tNSV9GWE9WNUNTQl8zNEpYREQtZEwtOE81UGFwbURPRkJraDBRdFBZeUl5T3lSQ1VPd0dySmNxRkZvS1g4bzZxTzhyNDZhcFVLeUlC?oc=5",
-      "source": "Portal Terra da Luz",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-18T16:27:01Z",
-      "updatedAt": "2026-07-18T16:27:01Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "companies-d0305e4043ab9dbd6f05fc62",
       "title": "Tarifaço abre espaço para exportações brasileiras em novos mercados, diz levantamento",
       "summary": "Atualizacao de empresas capturada em Rádio Itatiaia.",
@@ -1027,6 +1037,24 @@
       "updatedAt": "2026-07-18T12:43:47Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "funds-d56e2c39ec169d76047a3f7a",
+      "title": "Banco Master repassou R$ 357 milhões em créditos para fundo ligado ao PCC",
+      "summary": "Atualizacao de fundos capturada em AM POST.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNXzJ2QTNLVW9TLVM5RVQ1VTBqVHhuYUFHT3dFYjcxV3pLM3JPRElmQ2ItUFhnblBpcElQckp4U2t6LTNiTnRpcThqRU9NRUdERENINlU0eHpQdmdQdDgyS3hwQ0o1VkRydW5BX2VrOGNoY1QzYzNkZVVicXl2UWpOWFBlZ2VNbndSNUhxTExqWnkwY1A3dVZSNWF0R1dyX0swWEhubw?oc=5",
+      "source": "AM POST",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-07-18T12:32:22Z",
+      "updatedAt": "2026-07-18T12:32:22Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "companies-6a1f1a92d8c770840f9d49b1",
@@ -1315,42 +1343,6 @@
       "updatedAt": "2026-07-17T21:58:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-e9465097896d5f5240cb717b",
-      "title": "Exportações brasileiras para China, Europa e Índia superam queda para os EUA em 2026",
-      "summary": "Atualizacao de empresas capturada em Tribuna do Sertão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZzV3Z0VvRVUxWDB0dmdZZ2V4RVJWdUZOdi0zNGphZFNrZDlzTTJtMUFpRndsbXpMbE1pR2N4akZEV2xDOEN4bkVaUlFQVWZUa2NtOFVGWktfVEp1S2NNenRmQWwxQ1owaWk5bkl2cXNzaXM0RE9nU2YxRjhQcENDNFBaZDFpajlkVjZ6MEZwa1loQU12WU1ZRnItOExVNGtObU5sLTNJZUNkREpONm5CVUZXWDJIdlFYQTU2WlZTTjRFVjNJd2hiZ0VRMmp5NmFzd1ZCOC1mcWM5dw?oc=5",
-      "source": "Tribuna do Sertão",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-07-17T21:40:00Z",
-      "updatedAt": "2026-07-17T21:40:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-e4ccf0b888c349d7b8fe964c",
-      "title": "Exportações brasileiras aumentam para China, Europa e Índia em relação aos EUA",
-      "summary": "Atualizacao de empresas capturada em Tribuna do Agreste.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMG40WTg1UUUxTnkwdGNwdVRjUm9mUTNBZ0UtLWY3NXNuWW1Za2d1TmwxaEFTZmpCWmxmX1ZTSlJweGFLcXVUMjNuMjBBd19MRWFkLXJ5NllyYU1zQ1kzVmJZbXh4ZC1BZ21JZkFUSEI1QWkyLVY0T2N2LWJJeXNLLU9rVzRfTWc3RUMyUTBPM0tSZEJIZHNTa3pmY0swNU5lMWxySU1abXVEYm1XSGcwWmVEV2pGOHg4YlBpMHVzSEh6ZVZ1TG9OempjYTBCQUs1THk4?oc=5",
-      "source": "Tribuna do Agreste",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-07-17T21:40:00Z",
-      "updatedAt": "2026-07-17T21:40:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     }
   ]
 }
