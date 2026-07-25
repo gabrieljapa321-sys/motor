@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-25T20:48:18Z",
-  "generatedAt": "2026-07-25T20:48:18Z",
+  "updatedAt": "2026-07-25T21:51:52Z",
+  "generatedAt": "2026-07-25T21:51:52Z",
   "categories": [
     {
       "id": "all",
@@ -25,6 +25,10 @@
   ],
   "sources": [
     {
+      "id": "93-not-cias",
+      "label": "93 Notícias"
+    },
+    {
       "id": "ajn1",
       "label": "AJN1"
     },
@@ -33,8 +37,8 @@
       "label": "AM POST"
     },
     {
-      "id": "aos-fatos",
-      "label": "Aos Fatos"
+      "id": "bitcoin-news",
+      "label": "Bitcoin News"
     },
     {
       "id": "blocktrends",
@@ -53,6 +57,10 @@
       "label": "capitalnews.com.br"
     },
     {
+      "id": "cnn-brasil",
+      "label": "CNN Brasil"
+    },
+    {
       "id": "correio-braziliense",
       "label": "Correio Braziliense"
     },
@@ -63,10 +71,6 @@
     {
       "id": "estad-o",
       "label": "Estadão"
-    },
-    {
-      "id": "euqueroinvestir",
-      "label": "EuQueroInvestir"
     },
     {
       "id": "g1",
@@ -105,12 +109,24 @@
       "label": "Money Times"
     },
     {
+      "id": "not-cias-ao-minuto-brasil",
+      "label": "Notícias ao Minuto Brasil"
+    },
+    {
       "id": "o-imparcial",
       "label": "O Imparcial"
     },
     {
+      "id": "o-liberal",
+      "label": "O Liberal"
+    },
+    {
       "id": "o-rebate",
       "label": "O Rebate"
+    },
+    {
+      "id": "okx",
+      "label": "OKX"
     },
     {
       "id": "oreporter-com",
@@ -145,10 +161,6 @@
       "label": "portalunico.com"
     },
     {
-      "id": "r-dio-itatiaia",
-      "label": "Rádio Itatiaia"
-    },
-    {
       "id": "sctododia",
       "label": "sctododia"
     },
@@ -163,10 +175,6 @@
     {
       "id": "spacemoney",
       "label": "SpaceMoney"
-    },
-    {
-      "id": "studio-not-cias",
-      "label": "Studio Notícias"
     },
     {
       "id": "suno-com-br",
@@ -197,6 +205,10 @@
       "label": "URB News"
     },
     {
+      "id": "valor-econ-mico",
+      "label": "Valor Econômico"
+    },
+    {
       "id": "veja",
       "label": "VEJA"
     },
@@ -211,11 +223,30 @@
   ],
   "items": [
     {
+      "id": "funds-21f976c890a8600340f2f2cb",
+      "title": "A Korbit muda sua marca para Digital X após a Mirae Asset concluir a aquisição no valor de US$ 102 milhões",
+      "summary": "TCU alerta que universalização dos Correios exige mecanismo de compensação e cita custo de R$ 4,6 bilhões em 2024.",
+      "details": "TCU alerta que universalização dos Correios exige mecanismo de compensação e cita custo de R$ 4,6 bilhões em 2024.",
+      "url": "https://blogdoedisonsilva.com.br/2026/07/25/tcu-cita-risco-fiscal-dos-correios-e-defende-compensacao-de-custos/",
+      "source": "Bitcoin News",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-07-25T20:29:04Z",
+      "updatedAt": "2026-07-25T20:29:04Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://blogdoedisonsilva.com.br/wp-content/uploads/2026/07/pzzb6138.webp"
+    },
+    {
       "id": "macro-a98d8f3a0915bf0f68d1cab4",
       "title": "Arcabouço fiscal sob pressão: os desafios das contas públicas brasileiras",
-      "summary": "Dólar fecha estável em R$ 5,08, pressionado por novas tarifas dos EUA e tensão no Oriente Médio. Bolsa cai 1,5%, petróleo recua com expectativa de negociações EUA-Irã.",
-      "details": "Dólar fecha estável em R$ 5,08, pressionado por novas tarifas dos EUA e tensão no Oriente Médio. Bolsa cai 1,5%, petróleo recua com expectativa de negociações EUA-Irã.",
-      "url": "https://politizabrasil.com.br/dolar-trava-r-508-tarifacao-tensao-oriente-medio/",
+      "summary": "Atualizacao de macro capturada em capitalnews.com.br.",
+      "details": "",
+      "url": "https://www.capitalnews.com.br/opiniao/arcabouco-fiscal-sob-pressao-os-desafios-das-contas-publicas-brasileiras/444336",
       "source": "capitalnews.com.br",
       "category": "macro",
       "tags": [
@@ -226,15 +257,14 @@
       "publishedAt": "2026-07-25T20:22:00Z",
       "updatedAt": "2026-07-25T20:22:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://politizabrasil.com.br/wp-content/uploads/2026/07/dolar_moeda_0803221210.webp"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-77ed9a6fac302384ec1d933b",
       "title": "Dólar trava em R$ 5,08 diante de tarifação e tensão no Oriente Médio",
-      "summary": "O governador Elmano de Freitas (PT) reuniu os secretários e secretárias estaduais na Residência Oficial, na tarde deste sábado (25).",
-      "details": "O governador Elmano de Freitas (PT) reuniu os secretários e secretárias estaduais na Residência Oficial, na tarde deste sábado (25).",
-      "url": "https://urbnews.com.br/2026/07/25/elmano-destaca-equilibrio-fiscal-do-ceara-e-diz-que-governo-nao-vai-parar-por-conta-da-eleicao/",
+      "summary": "Paraíba Business - Negócios e economia",
+      "details": "Paraíba Business - Negócios e economia",
+      "url": "https://paraibabusiness.com.br/corretores-ainda-precisam-abrir-empresa-para-emitir-nota-fiscal-joao-teodoro-explica-o-que-muda/",
       "source": "politiza brasil",
       "category": "latest",
       "tags": [
@@ -246,14 +276,14 @@
       "updatedAt": "2026-07-25T20:16:28Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://urbnews.com.br/wp-content/uploads/2026/07/NOTICIAS-Urbnews-26-56.jpeg"
+      "imageUrl": "https://paraibabusiness.com.br/atual/wp-content/uploads/2025/03/IMG_8792-scaled.jpg"
     },
     {
       "id": "macro-a8e87c284467d56ab68e0ff7",
       "title": "TCU cita risco fiscal dos Correios e defende compensação de custos",
-      "summary": "O primário está hoje onde estava no começo de 1998, o que não parece tão ruim, mas a dívida pública é o dobro, os juros estão na máxima das máximas e todos estão nervosos",
-      "details": "O primário está hoje onde estava no começo de 1998, o que não parece tão ruim, mas a dívida pública é o dobro, os juros estão na máxima das máximas e todos estão nervosos",
-      "url": "https://www.estadao.com.br/economia/gustavo-hb-franco/crise-fiscal-terror-sem-fim/",
+      "summary": "A Mirae Asset assume o controle de 97% da Korbit, renomeia-a como Digital X e planeja integrar ações, ativos ponderados pelo risco (RWAs) e stablecoins.",
+      "details": "A Mirae Asset assume o controle de 97% da Korbit, renomeia-a como Digital X e planeja integrar ações, ativos ponderados pelo risco (RWAs) e stablecoins.",
+      "url": "https://news.bitcoin.com/pt/a-korbit-muda-sua-marca-para-digital-x-apos-a-mirae-asset-concluir-a-aquisicao-no-valor-de-us-102-milhoes/",
       "source": "Blog Edison Silva",
       "category": "macro",
       "tags": [
@@ -265,14 +295,14 @@
       "updatedAt": "2026-07-25T20:04:29Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/QJI6NWRUZBPFHHQSWSDKGUJH5Q.jpg?quality=80&auth=efb39f0239be8f48f05702b95e150e81833239b0946ac2b135572991917d2c03&width=1200&height=630&focal=391,178"
+      "imageUrl": "https://static.news.bitcoin.com/wp-content/uploads/2026/07/korbit-rebrands-as-digital-x-after-mirae-asset-closes-102-million-takeover.png"
     },
     {
       "id": "macro-2ca12269fea58a98aa50ddfa",
       "title": "A crise fiscal não é uma explosão, mas um terror sem fim",
-      "summary": "Agressão aconteceu no Terminal Fernando Sávio; homem foi localizado pela Guarda Municipal de Aracaju e conduzido à delegacia.",
-      "details": "Agressão aconteceu no Terminal Fernando Sávio; homem foi localizado pela Guarda Municipal de Aracaju e conduzido à delegacia.",
-      "url": "https://g1.globo.com/se/sergipe/video/homem-e-preso-apos-agredir-fiscal-com-pedaco-de-madeira-em-terminal-de-aracaju-14811998.ghtml",
+      "summary": "O governador Elmano de Freitas (PT) reuniu os secretários e secretárias estaduais na Residência Oficial, na tarde deste sábado (25).",
+      "details": "O governador Elmano de Freitas (PT) reuniu os secretários e secretárias estaduais na Residência Oficial, na tarde deste sábado (25).",
+      "url": "https://urbnews.com.br/2026/07/25/elmano-destaca-equilibrio-fiscal-do-ceara-e-diz-que-governo-nao-vai-parar-por-conta-da-eleicao/",
       "source": "Estadão",
       "category": "macro",
       "tags": [
@@ -284,14 +314,14 @@
       "updatedAt": "2026-07-25T20:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s03.video.glbimg.com/x720/14811998.jpg"
+      "imageUrl": "https://urbnews.com.br/wp-content/uploads/2026/07/NOTICIAS-Urbnews-26-56.jpeg"
     },
     {
       "id": "macro-b3011a9d3cc0e30614707ccb",
       "title": "Elmano destaca equilíbrio fiscal do Ceará e diz que governo não vai parar por conta da eleição",
-      "summary": "Atualizacao de macro capturada em URB News.",
-      "details": "",
-      "url": "https://www.capitalnews.com.br/opiniao/arcabouco-fiscal-sob-pressao-os-desafios-das-contas-publicas-brasileiras/444336",
+      "summary": "Dólar fecha estável em R$ 5,08, pressionado por novas tarifas dos EUA e tensão no Oriente Médio. Bolsa cai 1,5%, petróleo recua com expectativa de negociações EUA-Irã.",
+      "details": "Dólar fecha estável em R$ 5,08, pressionado por novas tarifas dos EUA e tensão no Oriente Médio. Bolsa cai 1,5%, petróleo recua com expectativa de negociações EUA-Irã.",
+      "url": "https://politizabrasil.com.br/dolar-trava-r-508-tarifacao-tensao-oriente-medio/",
       "source": "URB News",
       "category": "macro",
       "tags": [
@@ -302,14 +332,15 @@
       "publishedAt": "2026-07-25T19:52:00Z",
       "updatedAt": "2026-07-25T19:52:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://politizabrasil.com.br/wp-content/uploads/2026/07/dolar_moeda_0803221210.webp"
     },
     {
       "id": "macro-8d59c4032884a3c23926228e",
       "title": "Corretores ainda precisam abrir empresa para emitir nota fiscal? João Teodoro explica o que muda",
-      "summary": "Paraíba Business - Negócios e economia",
-      "details": "Paraíba Business - Negócios e economia",
-      "url": "https://paraibabusiness.com.br/corretores-ainda-precisam-abrir-empresa-para-emitir-nota-fiscal-joao-teodoro-explica-o-que-muda/",
+      "summary": "O primário está hoje onde estava no começo de 1998, o que não parece tão ruim, mas a dívida pública é o dobro, os juros estão na máxima das máximas e todos estão nervosos",
+      "details": "O primário está hoje onde estava no começo de 1998, o que não parece tão ruim, mas a dívida pública é o dobro, os juros estão na máxima das máximas e todos estão nervosos",
+      "url": "https://www.estadao.com.br/amp/economia/gustavo-hb-franco/crise-fiscal-terror-sem-fim/",
       "source": "Paraíba Business",
       "category": "macro",
       "tags": [
@@ -321,14 +352,14 @@
       "updatedAt": "2026-07-25T19:33:02Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://paraibabusiness.com.br/atual/wp-content/uploads/2025/03/IMG_8792-scaled.jpg"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/QJI6NWRUZBPFHHQSWSDKGUJH5Q.jpg?quality=80&auth=efb39f0239be8f48f05702b95e150e81833239b0946ac2b135572991917d2c03&width=1200"
     },
     {
       "id": "macro-98c191b80f00ab30a047dcca",
       "title": "Homem é preso após agredir fiscal com pedaço de madeira em terminal de Aracaju",
-      "summary": "Homem preso por agredir fiscal em terminal de Aracaju portava facas e foi detido pela Guarda Municipal no Terminal Fernando Sávio após o ataque nesta sexta.",
-      "details": "Homem preso por agredir fiscal em terminal de Aracaju portava facas e foi detido pela Guarda Municipal no Terminal Fernando Sávio após o ataque nesta sexta.",
-      "url": "https://g1.globo.com/se/sergipe/noticia/2026/07/25/homem-e-preso-apos-agredir-fiscal-de-empresa-de-onibus-com-pedaco-de-madeira-em-terminal-de-aracaju.ghtml",
+      "summary": "Agressão aconteceu no Terminal Fernando Sávio; homem foi localizado pela Guarda Municipal de Aracaju e conduzido à delegacia.",
+      "details": "Agressão aconteceu no Terminal Fernando Sávio; homem foi localizado pela Guarda Municipal de Aracaju e conduzido à delegacia.",
+      "url": "https://g1.globo.com/se/sergipe/video/homem-e-preso-apos-agredir-fiscal-com-pedaco-de-madeira-em-terminal-de-aracaju-14811998.ghtml",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -340,14 +371,14 @@
       "updatedAt": "2026-07-25T19:26:56Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-g1.glbimg.com/7bLEYFYr9twpIjMKkOmhWoClPhw=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/D/P/DWoTjFTXKA1y0GkphN0g/apreensao.jpeg"
+      "imageUrl": "https://s03.video.glbimg.com/x720/14811998.jpg"
     },
     {
       "id": "macro-7e1054c0943cf0306af1cfea",
       "title": "Homem é preso após agredir fiscal de empresa de ônibus com pedaço de madeira em terminal de Aracaju",
-      "summary": "Proprietário de um dos estabelecimentos admitiu não possuir documentação. Equipes também encontraram poços artesianos sem autorização e madeira sem nota fiscal.",
-      "details": "Proprietário de um dos estabelecimentos admitiu não possuir documentação. Equipes também encontraram poços artesianos sem autorização e madeira sem nota fiscal.",
-      "url": "https://g1.globo.com/google/amp/rj/norte-fluminense/noticia/2026/07/25/policia-ambiental-identifica-duas-olarias-clandestinas-durante-fiscalizacoes-em-campos.ghtml",
+      "summary": "Homem preso por agredir fiscal em terminal de Aracaju portava facas e foi detido pela Guarda Municipal no Terminal Fernando Sávio após o ataque nesta sexta.",
+      "details": "Homem preso por agredir fiscal em terminal de Aracaju portava facas e foi detido pela Guarda Municipal no Terminal Fernando Sávio após o ataque nesta sexta.",
+      "url": "https://g1.globo.com/se/sergipe/noticia/2026/07/25/homem-e-preso-apos-agredir-fiscal-de-empresa-de-onibus-com-pedaco-de-madeira-em-terminal-de-aracaju.ghtml",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -359,7 +390,26 @@
       "updatedAt": "2026-07-25T19:23:54Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-g1.glbimg.com/igdygnoOIIKjRW4EiTZOEYB4Rn4=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/o/72lpj2QhS4OxB5jqwJZA/whatsapp-image-2026-07-24-at-17.38.31.jpeg"
+      "imageUrl": "https://s2-g1.glbimg.com/7bLEYFYr9twpIjMKkOmhWoClPhw=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/D/P/DWoTjFTXKA1y0GkphN0g/apreensao.jpeg"
+    },
+    {
+      "id": "macro-955c8b1dd46d51c82c78b47a",
+      "title": "Mais de 4 toneladas de drogas: Policia Federal incinera cargs apreendidas em operações",
+      "summary": "Confira mais detalhes mais detalhes no vídeo.",
+      "details": "Confira mais detalhes mais detalhes no vídeo.",
+      "url": "https://g1.globo.com/google/amp/pa/santarem-regiao/videos-jornal-tapajos-1-edicao/video/mais-de-4-toneladas-de-drogas-policia-federal-incinera-cargs-apreendidas-em-operacoes-14811990.ghtml",
+      "source": "G1",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-25T19:14:13Z",
+      "updatedAt": "2026-07-25T19:14:13Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s03.video.glbimg.com/x720/14811990.jpg"
     },
     {
       "id": "macro-515ded0c37e7e5cccf5a7d1c",
@@ -383,9 +433,9 @@
     {
       "id": "macro-f5ff523b90cd723d32cfc59b",
       "title": "Tarcísio e Milei trocam experiências sobre austeridade fiscal e gestão liberal",
-      "summary": "TCU alerta que universalização dos Correios exige mecanismo de compensação e cita custo de R$ 4,6 bilhões em 2024.",
-      "details": "TCU alerta que universalização dos Correios exige mecanismo de compensação e cita custo de R$ 4,6 bilhões em 2024.",
-      "url": "https://blogdoedisonsilva.com.br/2026/07/25/tcu-cita-risco-fiscal-dos-correios-e-defende-compensacao-de-custos/",
+      "summary": "Consultoria mantém previsão de crescimento da economia gaúcha mesmo com sobretaxa de 37,5%",
+      "details": "Consultoria mantém previsão de crescimento da economia gaúcha mesmo com sobretaxa de 37,5%",
+      "url": "https://gauchazh.clicrbs.com.br/colunistas/giane-guerra/noticia/2026/07/por-que-novo-tarifaco-dos-eua-tem-baixo-impacto-sobre-projecao-do-pib-do-rs-cmrzbeshw01wy01637b8bobef.html",
       "source": "VEJA",
       "category": "macro",
       "tags": [
@@ -397,14 +447,14 @@
       "updatedAt": "2026-07-25T18:29:48Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://blogdoedisonsilva.com.br/wp-content/uploads/2026/07/pzzb6138.webp"
+      "imageUrl": "https://www.rbsdirect.com.br/filestore/4/5/0/7/7/0/2_e693d58d00491b7/2077054_df3346f27323942.jpg?w=1024&h=512&a=c&version=1575255600"
     },
     {
       "id": "macro-976e431e809540bd21498772",
       "title": "Receita prevê arrecadar R$ 17,2 bilhões com IR sobre dividendos",
-      "summary": "Consultoria mantém previsão de crescimento da economia gaúcha mesmo com sobretaxa de 37,5%",
-      "details": "Consultoria mantém previsão de crescimento da economia gaúcha mesmo com sobretaxa de 37,5%",
-      "url": "https://gauchazh.clicrbs.com.br/colunistas/giane-guerra/noticia/2026/07/por-que-novo-tarifaco-dos-eua-tem-baixo-impacto-sobre-projecao-do-pib-do-rs-cmrzbeshw01wy01637b8bobef.html",
+      "summary": "Recursos ficam abaixo da estimativa inicial de R$ 28 bilhões",
+      "details": "Recursos ficam abaixo da estimativa inicial de R$ 28 bilhões",
+      "url": "https://www.infomoney.com.br/economia/receita-preve-arrecadar-r-172-bilhoes-com-ir-sobre-dividendos/",
       "source": "InfoMoney",
       "category": "macro",
       "tags": [
@@ -416,14 +466,14 @@
       "updatedAt": "2026-07-25T18:14:11Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.rbsdirect.com.br/filestore/4/5/0/7/7/0/2_e693d58d00491b7/2077054_df3346f27323942.jpg?w=1024&h=512&a=c&version=1575255600"
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2024/11/receita-federal.webp"
     },
     {
       "id": "macro-68f2d5770a83a4a8a50898d8",
       "title": "Por que novo tarifaço dos EUA tem baixo impacto sobre projeção do PIB do RS",
-      "summary": "A exclusão de produtos essenciais revela a estratégia do governo americano de proteger o mercado interno",
-      "details": "A exclusão de produtos essenciais revela a estratégia do governo americano de proteger o mercado interno",
-      "url": "https://portalimpactto.com.br/noticia/15741/eua-poupam-produtos-estrategicos-em-novo-tarifaco-ao-brasil-para-conter-inflacao",
+      "summary": "Proprietário de um dos estabelecimentos admitiu não possuir documentação. Equipes também encontraram poços artesianos sem autorização e madeira sem nota fiscal.",
+      "details": "Proprietário de um dos estabelecimentos admitiu não possuir documentação. Equipes também encontraram poços artesianos sem autorização e madeira sem nota fiscal.",
+      "url": "https://g1.globo.com/google/amp/rj/norte-fluminense/noticia/2026/07/25/policia-ambiental-identifica-duas-olarias-clandestinas-durante-fiscalizacoes-em-campos.ghtml",
       "source": "GZH",
       "category": "macro",
       "tags": [
@@ -435,33 +485,14 @@
       "updatedAt": "2026-07-25T18:00:14Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://portalimpactto.com.br/images/noticias/15741/52b2c6037aad5a8a18ef89a13c24619a.webp"
-    },
-    {
-      "id": "macro-da9613a65e640b14b8050483",
-      "title": "Governo desbloqueia R$ 5,7 bilhões do Orçamento, mas mantém R$ 17,9 bilhões retidos",
-      "summary": "Augusto Bernardo Cecílio",
-      "details": "Augusto Bernardo Cecílio",
-      "url": "https://portalunico.com/novos-rumos-da-cidadania-fiscal/",
-      "source": "Rádio Itatiaia",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-25T17:57:59Z",
-      "updatedAt": "2026-07-25T17:57:59Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://portalunico.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-25-at-13.21.41.jpeg"
+      "imageUrl": "https://s2-g1.glbimg.com/igdygnoOIIKjRW4EiTZOEYB4Rn4=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/o/72lpj2QhS4OxB5jqwJZA/whatsapp-image-2026-07-24-at-17.38.31.jpeg"
     },
     {
       "id": "macro-96fdc1c1da07623d6b39d348",
       "title": "Novos rumos da Cidadania Fiscal",
-      "summary": "Will Smith participa da Expert XP 2026 e interage com fãs em SP, trazendo insights sobre carreira e negócios.",
-      "details": "Will Smith participa da Expert XP 2026 e interage com fãs em SP, trazendo insights sobre carreira e negócios.",
-      "url": "https://diariodoestadogo.com.br/will-smith-encanta-fas-em-sao-paulo-e-fala-sobre-empreendedorismo/",
+      "summary": "Augusto Bernardo Cecílio",
+      "details": "Augusto Bernardo Cecílio",
+      "url": "https://portalunico.com/novos-rumos-da-cidadania-fiscal/",
       "source": "portalunico.com",
       "category": "macro",
       "tags": [
@@ -473,14 +504,14 @@
       "updatedAt": "2026-07-25T17:24:24Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/07/will-smith-encanta-fas-em-sao-paulo-e-fala-sobre-empreendedorismo.png"
+      "imageUrl": "https://portalunico.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-25-at-13.21.41.jpeg"
     },
     {
       "id": "macro-839c4d3b18a5ffd643244ca7",
       "title": "EUA poupam produtos estratégicos em novo tarifaço ao Brasil para conter inflação",
-      "summary": "Atualizacao de macro capturada em Impactto News.",
-      "details": "",
-      "url": "https://www.metropoles.com/colunas/grande-angular/milei-critica-politica-fiscal-de-lula-brasil-a-caminho-da-crise-da-divida",
+      "summary": "A exclusão de produtos essenciais revela a estratégia do governo americano de proteger o mercado interno",
+      "details": "A exclusão de produtos essenciais revela a estratégia do governo americano de proteger o mercado interno",
+      "url": "https://portalimpactto.com.br/noticia/15741/eua-poupam-produtos-estrategicos-em-novo-tarifaco-ao-brasil-para-conter-inflacao",
       "source": "Impactto News",
       "category": "macro",
       "tags": [
@@ -491,14 +522,15 @@
       "publishedAt": "2026-07-25T17:03:15Z",
       "updatedAt": "2026-07-25T17:03:15Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://portalimpactto.com.br/images/noticias/15741/52b2c6037aad5a8a18ef89a13c24619a.webp"
     },
     {
       "id": "macro-d0b5aacf738da4cdc5c9a4b5",
       "title": "Milei critica política fiscal de Lula: \"Brasil a caminho da crise da dívida\"",
-      "summary": "Governador de São Paulo afirmou que o modelo econômico adotado na Argentina pode ser aplicado no Brasil",
-      "details": "Governador de São Paulo afirmou que o modelo econômico adotado na Argentina pode ser aplicado no Brasil",
-      "url": "https://www.correiobraziliense.com.br/politica/2026/07/7467949-tarcisio-defende-ajuste-fiscal-inspirado-em-milei-mostrou-o-caminho.html",
+      "summary": "Atualizacao de macro capturada em Metrópoles.",
+      "details": "",
+      "url": "https://www.metropoles.com/colunas/grande-angular/milei-critica-politica-fiscal-de-lula-brasil-a-caminho-da-crise-da-divida",
       "source": "Metrópoles",
       "category": "macro",
       "tags": [
@@ -509,15 +541,14 @@
       "publishedAt": "2026-07-25T17:00:00Z",
       "updatedAt": "2026-07-25T17:00:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2025/11/16/675x450/1_54926220729-23a530a2a3-o-60987243.jpg?20260324234903?20260324234903"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "companies-c7c059eda45498c6fa3cd664",
       "title": "As 10 fintechs brasileiras entre as melhores do mundo em 2026",
-      "summary": "Equipe econômica revisou para baixo a projeção de despesas obrigatórias e descartou novos contingenciamentos para cumprir a meta fiscal",
-      "details": "Equipe econômica revisou para baixo a projeção de despesas obrigatórias e descartou novos contingenciamentos para cumprir a meta fiscal",
-      "url": "https://www.itatiaia.com.br/economia/governo-desbloqueia-r-57-bilhoes-do-orcamento-mas-mantem-r-179-bilhoes-retidos/",
+      "summary": "Governador de São Paulo afirmou que o modelo econômico adotado na Argentina pode ser aplicado no Brasil",
+      "details": "Governador de São Paulo afirmou que o modelo econômico adotado na Argentina pode ser aplicado no Brasil",
+      "url": "https://www.correiobraziliense.com.br/politica/2026/07/7467949-tarcisio-defende-ajuste-fiscal-inspirado-em-milei-mostrou-o-caminho.html",
       "source": "Época Negócios",
       "category": "companies",
       "tags": [
@@ -529,7 +560,7 @@
       "updatedAt": "2026-07-25T16:47:55Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://admin.itatiaia.com.br/wp-content/uploads/sites/27/2026/02/ministerio-da-fazenda-fachada.webp?resize=1280%2C720&w=1280&h=720&quality=75&crop=1"
+      "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2025/11/16/675x450/1_54926220729-23a530a2a3-o-60987243.jpg?20260324234903?20260324234903"
     },
     {
       "id": "macro-df711920ebebcfbc7daffde7",
@@ -553,9 +584,9 @@
     {
       "id": "latest-bcd734bec2bd7c170b31428e",
       "title": "Will Smith encanta fãs em São Paulo e fala sobre empreendedorismo",
-      "summary": "Recursos ficam abaixo da estimativa inicial de R$ 28 bilhões",
-      "details": "Recursos ficam abaixo da estimativa inicial de R$ 28 bilhões",
-      "url": "https://www.infomoney.com.br/economia/receita-preve-arrecadar-r-172-bilhoes-com-ir-sobre-dividendos/",
+      "summary": "Will Smith participa da Expert XP 2026 e interage com fãs em SP, trazendo insights sobre carreira e negócios.",
+      "details": "Will Smith participa da Expert XP 2026 e interage com fãs em SP, trazendo insights sobre carreira e negócios.",
+      "url": "https://diariodoestadogo.com.br/will-smith-encanta-fas-em-sao-paulo-e-fala-sobre-empreendedorismo/",
       "source": "Diário do Estado",
       "category": "latest",
       "tags": [
@@ -567,14 +598,14 @@
       "updatedAt": "2026-07-25T15:47:11Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2024/11/receita-federal.webp"
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/07/will-smith-encanta-fas-em-sao-paulo-e-fala-sobre-empreendedorismo.png"
     },
     {
       "id": "latest-ad29bb6d37e9889967793969",
       "title": "Entenda como a IA está moldando o mercado financeiro",
-      "summary": "Inteligência artificial é aliada, mas traz desafios de custo e análise no mercado financeiro.",
-      "details": "Inteligência artificial é aliada, mas traz desafios de custo e análise no mercado financeiro.",
-      "url": "https://diariodoestadogo.com.br/entenda-como-a-ia-esta-moldando-o-mercado-financeiro/",
+      "summary": "Dólar fecha estável, Bolsa cai mais de 1,5% e petróleo recua após novas tarifas dos EUA e tensão no Oriente Médio.",
+      "details": "Dólar fecha estável, Bolsa cai mais de 1,5% e petróleo recua após novas tarifas dos EUA e tensão no Oriente Médio.",
+      "url": "https://sctd.com.br/economia/dolar-fica-estavel-e-bolsa-despenca-com-tensao-global-veja-o-que-mexeu-com-o-mercado/",
       "source": "Diário do Estado",
       "category": "latest",
       "tags": [
@@ -586,14 +617,14 @@
       "updatedAt": "2026-07-25T15:46:40Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/07/entenda-como-a-ia-esta-moldando-o-mercado-financeiro.jpg"
+      "imageUrl": "https://sctd.com.br/wp-content/uploads/2026/07/Dolar-fica-estavel-e-Bolsa-despenca-com-tensao-global-veja-o-que-mexeu-com-o-mercado.png"
     },
     {
       "id": "latest-1187f58ab50aae9c5bccd5ec",
       "title": "Dólar fica estável e Bolsa despenca com tensão global; veja o que mexeu com o mercado",
-      "summary": "Ex-presidente do Fed disse que inteligência artificial ainda não gera ganhos de produtividade e que o banco central americano pode voltar a elevar juros.",
-      "details": "Ex-presidente do Fed disse que inteligência artificial ainda não gera ganhos de produtividade e que o banco central americano pode voltar a elevar juros.",
-      "url": "https://blocktrends.com.br/yellen-ve-ia-como-fator-inflacionario-fed-pronto-para-agir/",
+      "summary": "Galípolo afirma que críticas sobre juros altos não têm fundamento e prejudicam o mercado.",
+      "details": "Galípolo afirma que críticas sobre juros altos não têm fundamento e prejudicam o mercado.",
+      "url": "https://93noticias.com.br/galipolo-diz-que-ouvir-mercado-nao-busca-reduzir-juros/",
       "source": "sctododia",
       "category": "latest",
       "tags": [
@@ -605,14 +636,14 @@
       "updatedAt": "2026-07-25T15:43:33Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://blocktrends.com.br/wp-content/uploads/2026/07/bt-358889-1784993557.jpg"
+      "imageUrl": "https://93noticias.com.br/wp-content/uploads/2026/07/galipolo-diz-que-ouvir-mercado-nao-busca-reduzir-juros-20260724.jpg"
     },
     {
       "id": "macro-6e7f2c888c31dfb3701259ed",
       "title": "Janet Yellen alerta que investimentos em IA são inflacionários e diz que Fed está pronto para subir juros se necessário",
-      "summary": "Historicamente conhecido como destino de turismo de compras para os brasileiros, o Paraguai tem se consolidado nos últimos anos como um endereço estratégico",
-      "details": "Historicamente conhecido como destino de turismo de compras para os brasileiros, o Paraguai tem se consolidado nos últimos anos como um endereço estratégico",
-      "url": "https://ajn1.com.br/com-incentivos-fiscais-e-baixos-custos-operacionais-para-producao-paraguai-torna-se-destino-cobicado-por-empresas-brasileiras/",
+      "summary": "Ex-presidente do Fed disse que inteligência artificial ainda não gera ganhos de produtividade e que o banco central americano pode voltar a elevar juros.",
+      "details": "Ex-presidente do Fed disse que inteligência artificial ainda não gera ganhos de produtividade e que o banco central americano pode voltar a elevar juros.",
+      "url": "https://blocktrends.com.br/yellen-ve-ia-como-fator-inflacionario-fed-pronto-para-agir/",
       "source": "BlockTrends",
       "category": "macro",
       "tags": [
@@ -624,14 +655,33 @@
       "updatedAt": "2026-07-25T15:32:31Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://ajn1.com.br/wp-content/uploads/2026/07/67e372c2275b104bbb5fb818a1c13613.webp"
+      "imageUrl": "https://blocktrends.com.br/wp-content/uploads/2026/07/bt-358889-1784993557.jpg"
+    },
+    {
+      "id": "latest-152d0a1caf8820ba772ca0ce",
+      "title": "Galípolo diz que ouvir mercado não busca reduzir juros",
+      "summary": "Descubra como a IA está mudando o trabalho dos traders e quais habilidades serão essenciais para se manter competitivo no mercado financeiro",
+      "details": "Descubra como a IA está mudando o trabalho dos traders e quais habilidades serão essenciais para se manter competitivo no mercado financeiro",
+      "url": "https://www.spacemoney.com.br/investimentos/ia-transforma-carreira-dos-traders/",
+      "source": "93 Notícias",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-25T15:07:46Z",
+      "updatedAt": "2026-07-25T15:07:46Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/07/pexels-photo-7681671.webp"
     },
     {
       "id": "latest-d14d2e0f5568174a21dc2d8a",
       "title": "Ia transforma carreira dos traders: o que o profissional precisa saber hoje",
-      "summary": "Dólar fecha estável, Bolsa cai mais de 1,5% e petróleo recua após novas tarifas dos EUA e tensão no Oriente Médio.",
-      "details": "Dólar fecha estável, Bolsa cai mais de 1,5% e petróleo recua após novas tarifas dos EUA e tensão no Oriente Médio.",
-      "url": "https://sctd.com.br/economia/dolar-fica-estavel-e-bolsa-despenca-com-tensao-global-veja-o-que-mexeu-com-o-mercado/",
+      "summary": "Empresas aceleram uso de IA, mas enfrentam custos maiores e risco de decisões equivocadas sem análise humana.",
+      "details": "Empresas aceleram uso de IA, mas enfrentam custos maiores e risco de decisões equivocadas sem análise humana.",
+      "url": "https://www.infomoney.com.br/mercados/ia-acelera-decisoes-no-mercado-financeiro-mas-exige-mais-capacidade-analitica/",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -643,14 +693,14 @@
       "updatedAt": "2026-07-25T15:05:06Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://sctd.com.br/wp-content/uploads/2026/07/Dolar-fica-estavel-e-Bolsa-despenca-com-tensao-global-veja-o-que-mexeu-com-o-mercado.png"
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/07/expert-xp-20260724-13h20-learning-session-02-2.jpg"
     },
     {
       "id": "latest-6842bc93b1c57af737fb5092",
       "title": "IA acelera decisões no mercado financeiro, mas exige mais capacidade analítica",
-      "summary": "Descubra como a IA está mudando o trabalho dos traders e quais habilidades serão essenciais para se manter competitivo no mercado financeiro",
-      "details": "Descubra como a IA está mudando o trabalho dos traders e quais habilidades serão essenciais para se manter competitivo no mercado financeiro",
-      "url": "https://www.spacemoney.com.br/investimentos/ia-transforma-carreira-dos-traders/",
+      "summary": "Inteligência artificial é aliada, mas traz desafios de custo e análise no mercado financeiro.",
+      "details": "Inteligência artificial é aliada, mas traz desafios de custo e análise no mercado financeiro.",
+      "url": "https://diariodoestadogo.com.br/entenda-como-a-ia-esta-moldando-o-mercado-financeiro/",
       "source": "InfoMoney",
       "category": "latest",
       "tags": [
@@ -662,14 +712,14 @@
       "updatedAt": "2026-07-25T15:03:45Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/07/pexels-photo-7681671.webp"
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/07/entenda-como-a-ia-esta-moldando-o-mercado-financeiro.jpg"
     },
     {
       "id": "companies-a731fa210209ebe1cbff86fb",
       "title": "Com incentivos fiscais e baixos custos operacionais para produção, Paraguai torna-se destino cobiçado por empresas brasileiras",
-      "summary": "Atualizacao de empresas capturada em AJN1.",
-      "details": "",
-      "url": "https://pt.org.br/com-flavio-milei-exibe-milagre-economico-as-custas-do-trabalhador/?amp=1",
+      "summary": "Historicamente conhecido como destino de turismo de compras para os brasileiros, o Paraguai tem se consolidado nos últimos anos como um endereço estratégico",
+      "details": "Historicamente conhecido como destino de turismo de compras para os brasileiros, o Paraguai tem se consolidado nos últimos anos como um endereço estratégico",
+      "url": "https://ajn1.com.br/com-incentivos-fiscais-e-baixos-custos-operacionais-para-producao-paraguai-torna-se-destino-cobicado-por-empresas-brasileiras/",
       "source": "AJN1",
       "category": "companies",
       "tags": [
@@ -680,14 +730,34 @@
       "publishedAt": "2026-07-25T15:00:40Z",
       "updatedAt": "2026-07-25T15:00:40Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://ajn1.com.br/wp-content/uploads/2026/07/67e372c2275b104bbb5fb818a1c13613.webp"
+    },
+    {
+      "id": "latest-9a8d97bd0639230babc1c17d",
+      "title": "Onde investir o bônus da Faria Lima?",
+      "summary": "Analistas recomendam priorizar liquidez, diversificação e investimentos de longo prazo em meio aos juros elevados e às incertezas no mercado",
+      "details": "Analistas recomendam priorizar liquidez, diversificação e investimentos de longo prazo em meio aos juros elevados e às incertezas no mercado",
+      "url": "https://www.cnnbrasil.com.br/economia/investimentos/onde-investir-o-bonus-da-faria-lima/",
+      "source": "CNN Brasil",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-25T15:00:14Z",
+      "updatedAt": "2026-07-25T15:00:14Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/ouro-dolar-investimentos-IA.png?w=1200&h=630&crop=1"
     },
     {
       "id": "macro-338ca36536b349c35c61933a",
       "title": "Com Flávio, Milei exibe “milagre econômico” às custas do trabalhador",
-      "summary": "Descubra quais segmentos de FIIs se destacam com a Selic elevada e como investir com retorno ajustado ao risco",
-      "details": "Descubra quais segmentos de FIIs se destacam com a Selic elevada e como investir com retorno ajustado ao risco",
-      "url": "https://www.spacemoney.com.br/investimentos/fiis-de-cdi-dominam-cenario-de-juros-altos/",
+      "summary": "Atualizacao de macro capturada em Partido dos Trabalhadores.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVC1va2dUOWxCaWNTTXR1dXphYWc1RWdJZVpKdGNhV0ZDSkZvVXhXV3MzaEQzTEVqOFZ0OG5QaDlBcnlwTUJYLWx5NGFhZHQ5dzlyQ3pWdEhpQW5ZWC0wbXNyNDE0eTlic0xoaW5Wb0I5bFZjblpqdFVrN2drQmNtNkFKaExMeDZwa3V6c3ZwQnQtUTV10gGUAUFVX3lxTFBULW9rZ1Q5bEJpY1NNdHV1emFhZzVFZ0llWkp0Y2FXRkNKRm9VeFdXczNoRDNMRWo4VnQ4blBoOUFyeXBNQlgtbHk0YWFkdDl3OXJDelZ0SGlBbllYLTBtc3I0MTR5OWJzTGhpblZvQjlsVmNuWmp0VWs3Z2tCY202QUpoTEx4NnBrdXpzdnBCdC1RNXU?oc=5",
       "source": "Partido dos Trabalhadores",
       "category": "macro",
       "tags": [
@@ -698,15 +768,14 @@
       "publishedAt": "2026-07-25T14:47:28Z",
       "updatedAt": "2026-07-25T14:47:28Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/07/pexels-photo-20208884-1.webp"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-199a42ca352eaf54b8fb25dc",
       "title": "FIIs de CDI dominam cenário de juros altos",
-      "summary": "Empresas aceleram uso de IA, mas enfrentam custos maiores e risco de decisões equivocadas sem análise humana.",
-      "details": "Empresas aceleram uso de IA, mas enfrentam custos maiores e risco de decisões equivocadas sem análise humana.",
-      "url": "https://www.infomoney.com.br/mercados/ia-acelera-decisoes-no-mercado-financeiro-mas-exige-mais-capacidade-analitica/",
+      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOWFHdEZQVXQ4anNZT1hfbVFoSE84c0tzeTN2RDE2SkxuMHk0UHpOYzduWktIYWhwMlVkZG1YRVhpeXU0UEFna2NyNkgyTHctU19raGhvOFY4ZTBsYWRQVVNGbERXVTZpSExlcmpFRzh5c3pBOEE5VTd0R19oX19sSmdoR09GZDZWWVVvMTZDc3Q?oc=5",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -717,15 +786,14 @@
       "publishedAt": "2026-07-25T14:20:48Z",
       "updatedAt": "2026-07-25T14:20:48Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/07/expert-xp-20260724-13h20-learning-session-02-2.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-5a59f3a3fdef8846f91b771b",
       "title": "Gazeta de Limeira",
-      "summary": "Portal de notícias Gazeta de Limeira.",
-      "details": "Portal de notícias Gazeta de Limeira.",
-      "url": "https://www.gazetadelimeira.com.br/noticia/economia/2026/07/dolar-fica-estavel-em-r-508-mas-cai-058-na-semana/mZXv?preview=",
+      "summary": "Atualizacao de ultima hora capturada em Gazeta de Limeira.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWDJGMWlVNzJlbzA5b1pLZWpCbVN5SjZJY0ZXZ3dPd0pXR19DSjEtN09tdlhFMWJJVklmajBMQm8tcFlSVXFGSGFHaXM5bXM3bWh3Y2JrcktiRE9oV25FS1RqUWtsMll5SUxrV2lVbEFJYkdmbkdNREdRNUpVNkE4eE9LdlFramlwSktjQmtfUXZYWWdsSTc1UXpjLW9SQnN5TlJISHdfYmsyVzdNSnFHOFJsME9uSnNzb3F3dGx3VlM?oc=5",
       "source": "Gazeta de Limeira",
       "category": "latest",
       "tags": [
@@ -901,6 +969,24 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
+      "id": "funds-49c04d3c43240e4bc7e7c958",
+      "title": "Preços Global Oil Asset Plan | Índice de preços GOAP, gráfico ao vivo e cap. do mercado de mercado (USD)",
+      "summary": "Atualizacao de fundos capturada em OKX.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMTnFLVlFIV2duZ0NITXZ3X1Y2eUw2Tk11dTJkWjF2RHU0cVZsSU1CeENGeklLeGVHSGNna0p5SktzTGJLV1pVSEVieFRYOC1yYUZsamd3SUhsZVZJTHFLNTVLS3hXSDFvc0E?oc=5",
+      "source": "OKX",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-07-25T11:32:28Z",
+      "updatedAt": "2026-07-25T11:32:28Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
       "id": "funds-6621bc3ac87040c43b6c8ba7",
       "title": "SAAQ|Space Asset Acquisition Units|Preço:10.175|",
       "summary": "Atualizacao de fundos capturada em TradingKey.",
@@ -937,22 +1023,22 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-d5667386dbaa0651bf714852",
-      "title": "Dólar fecha a R$ 5,08 e Ibovespa recua 1,52% no último pregão da semana",
-      "summary": "Atualizacao de ultima hora capturada em Studio Notícias.",
+      "id": "companies-ddbf0efc35c5b901bd2081dd",
+      "title": "Para especialistas, aumento das reservas brasileiras de petróleo passa por mais leilões e menos entraves de licenciamento",
+      "summary": "Atualizacao de empresas capturada em Valor Econômico.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUzBjWEh2VXhEUlM4T19HR21iMFlRYUp2Rk9OTUItdm5QbDhYM29sMjI1NV9jdXFDX1h0ODYxNzJHYUhLTVVOZDlPQVIwZ2wzVkh0djFvem5GS1F3S0I1dWpnTFNwRmVSSnVhbVdxN3hXSWFkdlduWFdjQnBCbndsZVBueEpLWktBRWVjTTlUS2x4VDBUdUNkSDFob1VqbkczUC1r?oc=5",
-      "source": "Studio Notícias",
-      "category": "latest",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQTDh5MGxDYTRLTDJteHlQazctNWFXR2pFQ1p2c3M5d1Z2Y2FjSkhPTmxCSUh5UGZfaGpkQVJlVFFSdG5aNko1QTBFdU05ZFBXc3gzd1VseUZSYl9VM2NMYXdMdnVJNk5OUTN1NFhGQjFDUU1CUXZfbzFqWC1fZzk2ZlAzZnNsTjRRbU9vckdLOTkzakQ0TG5ja21jTXJPbFBzcm9FTzVJdDJHZDFLVUxsVkdyMWR3Qk4tY3RGR1UwbFFpelFJTkZBTHpKM1FoU0JxWWdlWll3VlY1Q3NuaFhwSHJlZjVDb3hKdm5hLWhDNmJTb3NYMVFWSTZjLXpYd3RRX2RBbTZJazNqZ9IBmAJBVV95cUxQUEs3SjJVbEVSVXBEWXE3V2MxOTZEeklrb3VBOFd4cF9tT1I4Tm05SUg5OXBlNUtHU2lhaUtsNWtVZVZ2UzR5S003TDlqRlJPcEJuZWtTVXRzOGczV3RrNkl2TmtVS0pPMm9xNy1UM1JrUk9rTG5fTGV4dEgxVzBRMm9xYkJ2anpLSEVUVFZsV2o5eE5MYTNFSDVGY1hYdUt2OXE0TGRPREg4UkVjSG5fZEE0N19SeEpIdjJFZTFGUlk1aEFuZmdVUmp6QTQ1bWgtQ0hoYllsXzVGeWNVYWc4UXViZk9yWTlVSE43T3hlT2pLTmplOUVCN1lWdjc1b1RGSkhFbGRJTXdZS3BTMnl6cnBlUVhGR2ht?oc=5",
+      "source": "Valor Econômico",
+      "category": "companies",
       "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
+        "empresas",
+        "resultados",
+        "m&a"
       ],
-      "publishedAt": "2026-07-25T10:52:03Z",
-      "updatedAt": "2026-07-25T10:52:03Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "publishedAt": "2026-07-25T10:55:09Z",
+      "updatedAt": "2026-07-25T10:55:09Z",
+      "premium": true,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-f9f70ab314e5262d480ba013",
@@ -1009,22 +1095,22 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "latest-9b3098ce0d7641d80ce3434b",
-      "title": "Força institucional no curto prazo redefine a precificação",
-      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
+      "id": "companies-7cf12c095b58b1c276ab2fde",
+      "title": "Acordo Mercosul-União Europeia amplia exportações e exige adequação no Pará | Economia | O Liberal",
+      "summary": "Atualizacao de empresas capturada em O Liberal.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUWJCcURiT1BrSE52QzVVTUNSUEtQODRwMGwzMW5penVfajhRX2Z0dDVfTjRKd2Y0NU5ic2ltOGZFV3k0cmppb3U0Rmt0TWJWZ3BJQk5JcXJtNDJiYmR6akpLLVkycHowblBfZUpVTlZOQkR0b3c4TV9KSGhkTFlDTE8waFhpY0gzU2JKbzFFWFJmcUlDc1Zkd3J0emV4eG1DVS1v?oc=5",
-      "source": "SpaceMoney",
-      "category": "latest",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSWhOWlFBNG55aTZxM2ExVFdaZmhtMnQ5YjFfVUxwcU50WGE5dlV2Q180VnZXeXE3b05GdzVPY0VkUHV1dmRQNDYybmVzam9zVjlJclJJOVFFR1BqOXhnRmdMd2tGSXF3M2RqWTFGLTJnYTFteXROWVNkTUZhLU1teEU1WW8wYlJlMmt3R2tKWTZKUjg2R0pzbzhMSnBMVmV5V0FGY2hCQVZ6SVozTlRkVXlwV2RtU1gzUzZzNnEwOG7SAcABQVVfeXFMT0loTlpRQTRueWk2cTNhMVRXWmZobTJ0OWIxX1VMcHFOdFhhOXZVdkNfNFZ2V3lxN29ORnc1T2NFZFB1dXZkUDQ2Mm5lc2pvc1Y5SXJSSTlRRUdQajl4Z0ZnTHdrRklxdzNkalkxRi0yZ2ExbXl0TllTZE1GYS1NbXhFNVlvMGJSZTJrd0drSlk2SlI4NkdKc284TEpwTFZleVdBRmNoQkFWeklaM05UZFV5cFdkbVNYM1M2czZxMDhu?oc=5",
+      "source": "O Liberal",
+      "category": "companies",
       "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
+        "empresas",
+        "resultados",
+        "m&a"
       ],
-      "publishedAt": "2026-07-25T10:20:50Z",
-      "updatedAt": "2026-07-25T10:20:50Z",
+      "publishedAt": "2026-07-25T10:06:58Z",
+      "updatedAt": "2026-07-25T10:06:58Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-66ac5c9904a5f34cb0b7e705",
@@ -1117,24 +1203,6 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "funds-e98142ebb8f6e6190db9af99",
-      "title": "Confiança Institucional em Thomson Reuters Corp (TRI)",
-      "summary": "Atualizacao de fundos capturada em TradingKey.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XcVBPcTNCT21GbktaZloxYlBFRkhkOW1UTUk1WGh5WHRqdG16bVg5S1VBVHNjeTVYOUNDUTQzV1dmZ2Y3VlN4VUdwUnVmSXd0ajR6X0NIWVFtWEREX0tOVXB2eTRKRGhUX1E?oc=5",
-      "source": "TradingKey",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-07-25T06:25:09Z",
-      "updatedAt": "2026-07-25T06:25:09Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
       "id": "companies-28348ccb9f5c8dfd970a9101",
       "title": "Tarifa deixa mercado americano mais distante, mas empresas defendem negociações",
       "summary": "Atualizacao de empresas capturada em Tribuna da Bahia.",
@@ -1185,6 +1253,24 @@
       ],
       "publishedAt": "2026-07-24T23:01:00Z",
       "updatedAt": "2026-07-24T23:01:00Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "funds-1dff48d3f519ff6f5d3763ac",
+      "title": "Justiça manda bloquear R$ 135 mi para recuperar prejuízo do Rioprevidência ligado ao Master",
+      "summary": "Atualizacao de fundos capturada em Notícias ao Minuto Brasil.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNM2FEcF8wUkljOThKZjhPLUJnWlFtLXAwS3I3bE1leXUybUg3WnQtYmhtVGhJRGRMTm1UNFM1c1BaQ3JxQ2o0aWlJc2h6MzExcnhsNmlLMlBJWnBvOGdfbDB2dTloUXNiWEVLeHpabG1sOHFuZ1kyNVRGMnh5X3RSS3dzS3hrcWlMay0zc1R1Rm85MzdhWUNkZlE5clZJUGE1QlhUeGhLczJlR2xVVWRuX28tYWJMWlJqa3JfUlhBdEw2QjZneUVvUnMyMjJNR0VvYTl4SFBnOURTaTg?oc=5",
+      "source": "Notícias ao Minuto Brasil",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-07-24T23:00:00Z",
+      "updatedAt": "2026-07-24T23:00:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
@@ -1241,24 +1327,6 @@
       "updatedAt": "2026-07-24T22:02:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-74abb08bde1107d88cef9962",
-      "title": "Alta do petróleo e ganhos de eficiência impulsionam petroleiras, siderúrgicas e varejo no balanço do 1T26",
-      "summary": "Atualizacao de empresas capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRENycDZrdnpiNVFnZC1qTGk2TmE5akJGdjlvM0VZbmVBTVdiN3dFQi1DcEUzTWVWZmw3U285NDNwT3RZM2lMUU9xWWltSnRydmZVcTF4emsyR3gwN1Q2TDVDbUt0ODNXeG45ZG51d0NfbElLdm9sWXpveF8zcUZzZXIwOTZDcFRDWHNvZVczakhtVkRWaGpHeWV4S2llb3RZSzU4VFdaS090cExhSExzM21zUmVFNGk1ZE54S19MREFhZjQ5eHk5bUdxektMV3lrTEFjdy1teDNKTEJM0gHiAUFVX3lxTE02VTVGOExKNmlsNzVnXzhKMDlacTA1ZE9pX0F3eFZJdUs0N0l4U2hmZWh6N3UycU5fN3hJNEJRNkNJQkoyRlA3V3pjcjZxWHBweW1LdkdJM19CVzdnUnppaTY2ZVQ2VW9SV09FWDZaZU5lUGo5Sks0R2xNaDh2dC1vYmlBUVFPdTZrMkJJWnZMSy1aVVBxb1czajVwLVlSclRrc2poMkhmWThvbTRvRVo3cjlzd0dQdFBmX2hSSENUUGxwa1BXTk5VZnpib3FpYU92YS1rem5iTlc2S25DMV9OQlE?oc=5",
-      "source": "Estadão",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-07-24T21:59:05Z",
-      "updatedAt": "2026-07-24T21:59:05Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-eaf47a5519bbaba29aa8556f",
@@ -1331,60 +1399,6 @@
       "updatedAt": "2026-07-24T20:51:35Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-932a6c7b4889d78e4d1070bc",
-      "title": "É falso que Smartmatic desenvolveu as urnas eletrônicas brasileiras",
-      "summary": "Atualizacao de empresas capturada em Aos Fatos.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZzgtamFtMUswWGdURWVlS3VMVVgzT2JjeTg3cU0zejRHXzVHOGFzUjlXZFlLYzA3NE9nSV9nc3VMMmp1RUFRY3dydnFyTTEwVF96ZEVLZFJRT1puOE04cThDOTBxREtfLTFhS1NFN0ZJb1dLNWFhN0FpR254STg2WQ?oc=5",
-      "source": "Aos Fatos",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-07-24T19:57:12Z",
-      "updatedAt": "2026-07-24T19:57:12Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "funds-0bf1a54f0459e10341b2b25c",
-      "title": "Política fiscal: ‘Titanic está indo ao iceberg e não dá para tocar violino’, diz ARX",
-      "summary": "Atualizacao de fundos capturada em InfoMoney.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOX3BEclBxYlhGMnNpU1NBN3RLSmRxekFQc0xLT1g3c2liM282bEtfdE1ucE83blhjQ3pEM2F6ZXI5S0dGemdaTFVQclhxbXJqR3JtNWozUGN0TTdKaFpDMWpTVFY5NVQ3S3BLM1FHTGVUb0c0c2x0dWtmMkRKcFhDMGMyUkV5MnZ1dUdYMEFFWdIBlAFBVV95cUxOVzVFMThvd2FNTDhsY0NLczJYZm9ZZmprdEltemJKdE8yUUw3UXVYTXFNRTNDU0NidDk4b2RoYURuVTFJanFvUTA0Y1pseThEdnAzeXBGaTBWb2F2R3pLVEVHSHNrTkpiNGhKTGpJcncxZHNHM2Vmc1FwaXdTbWV1TlFSYm9nUkVYcVhqM3FTN05ET0Nj?oc=5",
-      "source": "InfoMoney",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-07-24T19:35:13Z",
-      "updatedAt": "2026-07-24T19:35:13Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-12150f4945c54abbec35d43e",
-      "title": "Spreads voltam a cair: onde a EQI Research ainda vê oportunidades em FI-Infras?",
-      "summary": "Atualizacao de fundos capturada em EuQueroInvestir.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNEJKeG9WSkxmNkthTUdyY2RMeGZSQTRaVTlvUHMxZTd3UFdlUGF4X214MzhWd1djdmk1OHBuVnNjWXpSdlM0VnFSTXdPNGVBVFJsdWpaZHhvZTBKQ2dValh2LU1Bdjk4SS02dlZkUEZGbnQwT1A5TmlWUTljZ3JJd0xLWUR5TWlybmZEOU9oWQ?oc=5",
-      "source": "EuQueroInvestir",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-07-24T19:03:51Z",
-      "updatedAt": "2026-07-24T19:03:51Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     }
   ]
 }
