@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-24T23:15:10Z",
-  "generatedAt": "2026-07-24T23:15:10Z",
+  "updatedAt": "2026-07-25T00:16:28Z",
+  "generatedAt": "2026-07-25T00:16:28Z",
   "categories": [
     {
       "id": "all",
@@ -25,12 +25,20 @@
   ],
   "sources": [
     {
+      "id": "advfn",
+      "label": "ADVFN"
+    },
+    {
       "id": "al1-com-br",
       "label": "al1.com.br"
     },
     {
       "id": "bitcoin-news",
       "label": "Bitcoin News"
+    },
+    {
+      "id": "bnews",
+      "label": "Bnews"
     },
     {
       "id": "boca-com-br",
@@ -85,10 +93,6 @@
       "label": "Estratégia Concursos"
     },
     {
-      "id": "euqueroinvestir",
-      "label": "EuQueroInvestir"
-    },
-    {
       "id": "exame",
       "label": "Exame"
     },
@@ -121,6 +125,10 @@
       "label": "Mercado&Consumo"
     },
     {
+      "id": "metr-news-jornal",
+      "label": "Metrô News Jornal"
+    },
+    {
       "id": "money-times",
       "label": "Money Times"
     },
@@ -133,10 +141,6 @@
       "label": "Notícias Agrícolas"
     },
     {
-      "id": "o-globo",
-      "label": "O GLOBO"
-    },
-    {
       "id": "poder360",
       "label": "Poder360"
     },
@@ -147,6 +151,10 @@
     {
       "id": "portal-do-agroneg-cio",
       "label": "Portal do Agronegócio"
+    },
+    {
+      "id": "portal-do-marcos-santos",
+      "label": "Portal do Marcos Santos"
     },
     {
       "id": "revista-oeste",
@@ -165,12 +173,8 @@
       "label": "The AgriBiz"
     },
     {
-      "id": "times-brasil-cnbc",
-      "label": "Times Brasil | CNBC"
-    },
-    {
-      "id": "tmc-com-br",
-      "label": "tmc.com.br"
+      "id": "trademap-com-br",
+      "label": "trademap.com.br"
     },
     {
       "id": "tradingkey",
@@ -195,13 +199,47 @@
     {
       "id": "veja",
       "label": "VEJA"
-    },
-    {
-      "id": "rea-vip",
-      "label": "Área VIP"
     }
   ],
   "items": [
+    {
+      "id": "latest-9fd0cc8e8dce325e1f4e86fa",
+      "title": "Mercado Financeiro: Dólar Estável e Queda do Ibovespa em Meio a Incertezas",
+      "summary": "A bolsa caiu mais de 1,5%, pressionada pela queda no petróleo, que recuou em meio a expectativas de retomada das negociações entre EUA e Irã.",
+      "details": "A bolsa caiu mais de 1,5%, pressionada pela queda no petróleo, que recuou em meio a expectativas de retomada das negociações entre EUA e Irã.",
+      "url": "https://www.portalmarcossantos.com.br/2026/07/24/dolar-fecha-estavel-em-r-508-mas-registra-queda-de-058-na-semana/",
+      "source": "Metrô News Jornal",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-25T00:09:00Z",
+      "updatedAt": "2026-07-25T00:09:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://img.portalmarcossantos.com.br/wp-content/uploads/2022/06/20073338/dolar_moeda_0803221205-e1657115443279.jpg"
+    },
+    {
+      "id": "latest-956525c3b156b9066e2390d7",
+      "title": "Dólar fecha estável em R$ 5,08, mas registra queda de 0,58% na semana",
+      "summary": "Na última sexta-feira (24), o mercado financeiro demonstrou um comportamento cauteloso, refletindo as novas tarifas comerciais dos Estados Unidos e os desdobramentos da guerra no Oriente Médio. O dólar encerrou o dia praticamente inalterado em relação ao real, enquanto a bolsa re",
+      "details": "Na última sexta-feira (24), o mercado financeiro demonstrou um comportamento cauteloso, refletindo as novas tarifas comerciais dos Estados Unidos e os desdobramentos da guerra no Oriente Médio. O dólar encerrou o dia praticamente inalterado em relação ao real, enquanto a bolsa registrou uma queda superior a 1,5%, influ",
+      "url": "https://metronews.com.br/mercado-financeiro-dolar-estavel-e-queda-do-ibovespa-em-meio-a-incertezas/",
+      "source": "Portal do Marcos Santos",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-25T00:01:38Z",
+      "updatedAt": "2026-07-25T00:01:38Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://metronews.com.br/wp-content/uploads/2025/09/imagem-padrao-post.png"
+    },
     {
       "id": "macro-eac10b7efc25490d0bce33a1",
       "title": "Lula defende que projetos científicos com ‘sustentação’ possam ser excluídos do arcabouço fiscal",
@@ -224,9 +262,9 @@
     {
       "id": "macro-b07b2983bd644fc83b8c860c",
       "title": "IA, eleições e crise fiscal: o xadrez que desafia os investidores",
-      "summary": "Atualizacao de macro capturada em Bora Investir.",
-      "details": "",
-      "url": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-queda-de-152-e-dolar-comercial-recua-a-r-50809/",
+      "summary": "Agentes de mercado acreditam que a supremacia dos Estados Unidos é o principal motivo de crises geopolíticas. Acesse na íntegra no Bora Investir.",
+      "details": "Agentes de mercado acreditam que a supremacia dos Estados Unidos é o principal motivo de crises geopolíticas. Acesse na íntegra no Bora Investir.",
+      "url": "https://borainvestir.b3.com.br/objetivos-financeiros/investir-melhor/ia-eleicoes-e-crise-fiscal-o-xadrez-que-desafia-os-investidores/",
       "source": "Bora Investir",
       "category": "macro",
       "tags": [
@@ -237,14 +275,15 @@
       "publishedAt": "2026-07-24T22:43:00Z",
       "updatedAt": "2026-07-24T22:43:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://cdn.borainvestir.b3.com.br/2026/07/24194133/FOTOS-PAULO-BARETA20260724_32-618-1200x675.jpg"
     },
     {
       "id": "macro-6b79ca48eccbf6a1bf23b41a",
       "title": "“Juro precisa cair ou quebramos”: gestores alertam contra renda fixa atrelada ao CDI",
-      "summary": "Agentes de mercado acreditam que a supremacia dos Estados Unidos é o principal motivo de crises geopolíticas. Acesse na íntegra no Bora Investir.",
-      "details": "Agentes de mercado acreditam que a supremacia dos Estados Unidos é o principal motivo de crises geopolíticas. Acesse na íntegra no Bora Investir.",
-      "url": "https://borainvestir.b3.com.br/objetivos-financeiros/investir-melhor/ia-eleicoes-e-crise-fiscal-o-xadrez-que-desafia-os-investidores/",
+      "summary": "Gestores avaliaram cenário durante painel na Expert XP: há chance de recessão e dificuldades para ajustes fiscais em 2027.",
+      "details": "Gestores avaliaram cenário durante painel na Expert XP: há chance de recessão e dificuldades para ajustes fiscais em 2027.",
+      "url": "https://www.infomoney.com.br/onde-investir/juro-precisa-cair-ou-quebramos-gestores-alertam-contra-renda-fixa-atrelada-ao-cdi/",
       "source": "InfoMoney",
       "category": "macro",
       "tags": [
@@ -256,14 +295,14 @@
       "updatedAt": "2026-07-24T22:24:08Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://cdn.borainvestir.b3.com.br/2026/07/24194133/FOTOS-PAULO-BARETA20260724_32-618-1200x675.jpg"
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/07/expert-xp-20260724-17h20-expert-session-2_316f98.jpg"
     },
     {
       "id": "latest-30810c0afd1d92998cb122bc",
       "title": "Ibovespa na semana: CSN Mineração (CMIN3) e CSN (CSNA3) saltam; Hapvida (HAPV3) cai quase 13%",
-      "summary": "Gestores avaliaram cenário durante painel na Expert XP: há chance de recessão e dificuldades para ajustes fiscais em 2027.",
-      "details": "Gestores avaliaram cenário durante painel na Expert XP: há chance de recessão e dificuldades para ajustes fiscais em 2027.",
-      "url": "https://www.infomoney.com.br/onde-investir/juro-precisa-cair-ou-quebramos-gestores-alertam-contra-renda-fixa-atrelada-ao-cdi/",
+      "summary": "Alta do petróleo e temporada de balanços do segundo trimestre movimentaram os mercados no período",
+      "details": "Alta do petróleo e temporada de balanços do segundo trimestre movimentaram os mercados no período",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-na-semana-csn-mineracao-cmin3-e-csn-csna3-saltam-hapvida-hapv3-cai-quase-13/",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -275,14 +314,14 @@
       "updatedAt": "2026-07-24T22:24:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/07/expertxp-2026-corredores-publico-04.jpg"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/WLLVNV6YZFKBDDCU7DP4VAX45E.png?quality=80&auth=ef7b4601cca7a3bd0a83a1c40bafafed3b6c92a913e9e552f984ccd23c268a8b&width=1200&height=630&smart=true"
     },
     {
       "id": "latest-bee407ea044607a36d9beae2",
       "title": "Mercado do boi gordo apresenta ritmo truncado e preços estáveis",
-      "summary": "Alta do petróleo e temporada de balanços do segundo trimestre movimentaram os mercados no período",
-      "details": "Alta do petróleo e temporada de balanços do segundo trimestre movimentaram os mercados no período",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-na-semana-csn-mineracao-cmin3-e-csn-csna3-saltam-hapvida-hapv3-cai-quase-13/",
+      "summary": "Análise aponta dificuldades na oferta e pressão sobre preços",
+      "details": "Análise aponta dificuldades na oferta e pressão sobre preços",
+      "url": "https://boca.com.br/mercado-financeiro/mercado-do-boi-gordo-apresenta-ritmo-truncado-e-precos-estaveis",
       "source": "boca.com.br",
       "category": "latest",
       "tags": [
@@ -294,14 +333,14 @@
       "updatedAt": "2026-07-24T22:15:17Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/WLLVNV6YZFKBDDCU7DP4VAX45E.png?quality=80&auth=ef7b4601cca7a3bd0a83a1c40bafafed3b6c92a913e9e552f984ccd23c268a8b&width=1200&height=630&smart=true"
+      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/5327dabfc7eb16d4112c369f44eff220_858x483.jpg"
     },
     {
       "id": "funds-34076a41c642843d1aaa13d6",
       "title": "Mink Brook Asset Management compra US$ 2.396 em ações da DLHC",
-      "summary": "Análise aponta dificuldades na oferta e pressão sobre preços",
-      "details": "Análise aponta dificuldades na oferta e pressão sobre preços",
-      "url": "https://boca.com.br/mercado-financeiro/mercado-do-boi-gordo-apresenta-ritmo-truncado-e-precos-estaveis",
+      "summary": "Atualizacao de fundos capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
+      "details": "",
+      "url": "https://br.investing.com/news/insider-trading-news/mink-brook-asset-management-compra-us-2396-em-acoes-da-dlhc-93CH-2013472",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "funds",
       "tags": [
@@ -312,15 +351,14 @@
       "publishedAt": "2026-07-24T22:02:00Z",
       "updatedAt": "2026-07-24T22:02:00Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/5327dabfc7eb16d4112c369f44eff220_858x483.jpg"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "macro-bc8a5dc3549dac2e4faa288f",
       "title": "Petróleo mais baixo e ajuste fiscal podem abrir espaço para cortes maiores de juros, afirma economista",
-      "summary": "Atualizacao de macro capturada em BPMoney.",
-      "details": "",
-      "url": "https://br.investing.com/news/insider-trading-news/mink-brook-asset-management-compra-us-2396-em-acoes-da-dlhc-93CH-2013472",
+      "summary": "Bruno Perri afirma que petróleo mais baixo, inflação em queda e controle de gastos podem permitir cortes maiores da Selic pelo Banco Central",
+      "details": "Bruno Perri afirma que petróleo mais baixo, inflação em queda e controle de gastos podem permitir cortes maiores da Selic pelo Banco Central",
+      "url": "https://bpmoney.com.br/coberturas/petroleo-mais-baixo-e-ajuste-fiscal-podem-abrir-espaco-para-cortes-maiores-de-juros-afirma-economista/",
       "source": "BPMoney",
       "category": "macro",
       "tags": [
@@ -331,14 +369,15 @@
       "publishedAt": "2026-07-24T22:00:00Z",
       "updatedAt": "2026-07-24T22:00:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://uploads.bpmoney.com.br/2026/07/WhatsApp-Image-2026-07-24-at-17.49.57.jpeg"
     },
     {
       "id": "latest-1e380681bf26b0099f3a2c3b",
       "title": "Juros altos, inflação pressionada e dólar resiliente: o novo cenário para quem busca investir nos próximos meses, segundo gestores",
-      "summary": "Bruno Perri afirma que petróleo mais baixo, inflação em queda e controle de gastos podem permitir cortes maiores da Selic pelo Banco Central",
-      "details": "Bruno Perri afirma que petróleo mais baixo, inflação em queda e controle de gastos podem permitir cortes maiores da Selic pelo Banco Central",
-      "url": "https://bpmoney.com.br/coberturas/petroleo-mais-baixo-e-ajuste-fiscal-podem-abrir-espaco-para-cortes-maiores-de-juros-afirma-economista/",
+      "summary": "Agentes de mercado destacaram também a importância de investir em mercados emergentes, apesar do boom da IA turbinando as bolsas americanas. Acesse no Bora Investir.",
+      "details": "Agentes de mercado destacaram também a importância de investir em mercados emergentes, apesar do boom da IA turbinando as bolsas americanas. Acesse no Bora Investir.",
+      "url": "https://borainvestir.b3.com.br/objetivos-financeiros/investir-melhor/juros-altos-inflacao-pressionada-e-dolar-resiliente-o-novo-cenario-para-quem-busca-investir-nos-proximos-meses-segundo-gestores/",
       "source": "Bora Investir",
       "category": "latest",
       "tags": [
@@ -350,14 +389,14 @@
       "updatedAt": "2026-07-24T21:59:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://uploads.bpmoney.com.br/2026/07/WhatsApp-Image-2026-07-24-at-17.49.57.jpeg"
+      "imageUrl": "https://cdn.borainvestir.b3.com.br/2024/12/11082410/Bolsa.webp"
     },
     {
       "id": "latest-27fcc9835418ce11d7e9bf23",
       "title": "Ibovespa fecha em baixa de 1,5%, mas acumula leve alta na semana",
-      "summary": "Agentes de mercado destacaram também a importância de investir em mercados emergentes, apesar do boom da IA turbinando as bolsas americanas. Acesse no Bora Investir.",
-      "details": "Agentes de mercado destacaram também a importância de investir em mercados emergentes, apesar do boom da IA turbinando as bolsas americanas. Acesse no Bora Investir.",
-      "url": "https://borainvestir.b3.com.br/objetivos-financeiros/investir-melhor/juros-altos-inflacao-pressionada-e-dolar-resiliente-o-novo-cenario-para-quem-busca-investir-nos-proximos-meses-segundo-gestores/",
+      "summary": "Atualizacao de ultima hora capturada em Exame.",
+      "details": "",
+      "url": "https://exame.com/invest/mercados/ibovespa-fecha-em-baixa-de-15-mas-acumula-leve-alta-na-semana/",
       "source": "Exame",
       "category": "latest",
       "tags": [
@@ -368,15 +407,14 @@
       "publishedAt": "2026-07-24T21:51:25Z",
       "updatedAt": "2026-07-24T21:51:25Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://cdn.borainvestir.b3.com.br/2024/12/11082410/Bolsa.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-fe57d44d858b9aedfe57a2d7",
       "title": "Ibovespa fecha em queda de 1,52% e dólar comercial recua a R$ 5,0809",
-      "summary": "Atualizacao de ultima hora capturada em Canal Rural.",
-      "details": "",
-      "url": "https://exame.com/invest/mercados/ibovespa-fecha-em-baixa-de-15-mas-acumula-leve-alta-na-semana/",
+      "summary": "Uma ação conjunta entre a polícia do interior de São Paulo e do Mato Grosso investiga um esquema milionário de fraude fiscal e estelionato na região de Presidente Prudente (SP).",
+      "details": "Uma ação conjunta entre a polícia do interior de São Paulo e do Mato Grosso investiga um esquema milionário de fraude fiscal e estelionato na região de Presidente Prudente (SP).",
+      "url": "https://g1.globo.com/sp/presidente-prudente-e-regiao/noticia/2026/07/24/policias-de-sp-e-mt-cumprem-mandados-contra-esquema-milionario-de-fraude-fiscal-e-estelionato.ghtml",
       "source": "Canal Rural",
       "category": "latest",
       "tags": [
@@ -387,14 +425,15 @@
       "publishedAt": "2026-07-24T21:41:48Z",
       "updatedAt": "2026-07-24T21:41:48Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://s2-g1.glbimg.com/Gpuq2xndwo_xVGUh9rlAtoN90Fw=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/6/EbLHz4REyg2yRPjGNv4w/1200x800-3-2-.png"
     },
     {
       "id": "macro-8aa2e8dfd1d96e9253068a6f",
       "title": "Polícias de SP e MT cumprem mandados contra esquema milionário de fraude fiscal e estelionato",
-      "summary": "Novo concurso Sefaz SC será organizado pela Fundação Carlos Chagas (FCC); serão 50 vagas para Auditor Estadual de Finanças Públicas!",
-      "details": "Novo concurso Sefaz SC será organizado pela Fundação Carlos Chagas (FCC); serão 50 vagas para Auditor Estadual de Finanças Públicas!",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-sefaz-sc-auditor-financas-fcc-banca/",
+      "summary": "Atualizacao de macro capturada em G1.",
+      "details": "",
+      "url": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-queda-de-152-e-dolar-comercial-recua-a-r-50809/",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -405,15 +444,14 @@
       "publishedAt": "2026-07-24T21:41:42Z",
       "updatedAt": "2026-07-24T21:41:42Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2021/10/27165653/sefaz-sc-2.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-4d319ec33873b3f1953daf9f",
       "title": "FCC organiza novo Concurso Sefaz SC para Auditor de Finanças!",
-      "summary": "Cenário internacional do cereal é impactado por tensões geopolíticas",
-      "details": "Cenário internacional do cereal é impactado por tensões geopolíticas",
-      "url": "https://boca.com.br/mercado-financeiro/mercado-de-trigo-valorizaconflictos-na-ucrania",
+      "summary": "CEO da Bradesco Asset, Bruno Funchal, afirma que Selic elevada reduz atratividade de investimentos de risco. Leia no Poder360.",
+      "details": "CEO da Bradesco Asset, Bruno Funchal, afirma que Selic elevada reduz atratividade de investimentos de risco. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-economia/juros-altos-tornam-titulos-publicos-concorrentes-dificeis-diz-bradesco/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -425,14 +463,14 @@
       "updatedAt": "2026-07-24T21:40:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/5ceaf7b54c1de159aed53ad1899ebd40_858x483.jpg"
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/07/CEO-Bradesco-Asset-Bruno-Funchal-848x477.jpg"
     },
     {
       "id": "funds-01a4ea1d529aefcc3466274c",
       "title": "Juros altos tornam títulos públicos concorrentes difíceis, diz Bradesco",
-      "summary": "Uma ação conjunta entre a polícia do interior de São Paulo e do Mato Grosso investiga um esquema milionário de fraude fiscal e estelionato na região de Presidente Prudente (SP).",
-      "details": "Uma ação conjunta entre a polícia do interior de São Paulo e do Mato Grosso investiga um esquema milionário de fraude fiscal e estelionato na região de Presidente Prudente (SP).",
-      "url": "https://g1.globo.com/sp/presidente-prudente-e-regiao/noticia/2026/07/24/policias-de-sp-e-mt-cumprem-mandados-contra-esquema-milionario-de-fraude-fiscal-e-estelionato.ghtml",
+      "summary": "Novo concurso Sefaz SC será organizado pela Fundação Carlos Chagas (FCC); serão 50 vagas para Auditor Estadual de Finanças Públicas!",
+      "details": "Novo concurso Sefaz SC será organizado pela Fundação Carlos Chagas (FCC); serão 50 vagas para Auditor Estadual de Finanças Públicas!",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-sefaz-sc-auditor-financas-fcc-banca/",
       "source": "Poder360",
       "category": "funds",
       "tags": [
@@ -444,14 +482,14 @@
       "updatedAt": "2026-07-24T21:35:03Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://s2-g1.glbimg.com/Gpuq2xndwo_xVGUh9rlAtoN90Fw=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/6/EbLHz4REyg2yRPjGNv4w/1200x800-3-2-.png"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2021/10/27165653/sefaz-sc-2.jpg"
     },
     {
       "id": "latest-1cd47ff1819d7514ca04d5a6",
       "title": "Fechamento do mercado financeiro",
-      "summary": "CEO da Bradesco Asset, Bruno Funchal, afirma que Selic elevada reduz atratividade de investimentos de risco. Leia no Poder360.",
-      "details": "CEO da Bradesco Asset, Bruno Funchal, afirma que Selic elevada reduz atratividade de investimentos de risco. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-economia/juros-altos-tornam-titulos-publicos-concorrentes-dificeis-diz-bradesco/",
+      "summary": "Atualizacao de ultima hora capturada em UOL Economia.",
+      "details": "",
+      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/07/24/fechamento-do-mercado-financeiro.htm",
       "source": "UOL Economia",
       "category": "latest",
       "tags": [
@@ -462,15 +500,14 @@
       "publishedAt": "2026-07-24T21:35:00Z",
       "updatedAt": "2026-07-24T21:35:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/07/CEO-Bradesco-Asset-Bruno-Funchal-848x477.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-74e1b14937771934e167cead",
       "title": "Ibovespa hoje: Yduqs (YDUQ3) salta; ISA Energia (ISAE4) tomba após precificação de oferta de ações",
-      "summary": "Atualizacao de ultima hora capturada em Estadão.",
-      "details": "",
-      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/07/24/fechamento-do-mercado-financeiro.htm",
+      "summary": "Ações de peso dentro da carteira do índice da B3 fecharam em queda nesta sexta-feira (24); petróleo recuou após altas recentes",
+      "details": "Ações de peso dentro da carteira do índice da B3 fecharam em queda nesta sexta-feira (24); petróleo recuou após altas recentes",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-yduqs-yduq3-salta-isa-energia-isae4-tomba-apos-precificacao-de-oferta-de-acoes/",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -481,14 +518,15 @@
       "publishedAt": "2026-07-24T21:23:00Z",
       "updatedAt": "2026-07-24T21:23:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/6Z2525B6IFIZ3O3NCJU4IXT5VQ.png?quality=80&auth=0d32ddc30c8c467d962cb7dd824cd1f9755e0ada25b096ce7b511a70d024e1b8&width=1200&height=630&smart=true"
     },
     {
       "id": "latest-c74fb4aa07bfc44fdbb6dd07",
       "title": "Ibovespa desvaloriza mais de 1% devido a preocupações com cenário fiscal brasileiro",
-      "summary": "Enquanto principal índice da B3 encerra em baixa, dólar opera próximo à estabilidade; entenda",
-      "details": "Enquanto principal índice da B3 encerra em baixa, dólar opera próximo à estabilidade; entenda",
-      "url": "https://veja.abril.com.br/economia/ibovespa-desvaloriza-mais-de-1-devido-a-preocupacoes-com-cenario-fiscal-brasileiro/",
+      "summary": "Cenário internacional do cereal é impactado por tensões geopolíticas",
+      "details": "Cenário internacional do cereal é impactado por tensões geopolíticas",
+      "url": "https://boca.com.br/mercado-financeiro/mercado-de-trigo-valorizaconflictos-na-ucrania",
       "source": "VEJA",
       "category": "latest",
       "tags": [
@@ -500,14 +538,14 @@
       "updatedAt": "2026-07-24T21:19:16Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2025/11/GettyImages-2189881425.jpg.jpg?quality=70&strip=info&resize=1080,565&crop=1"
+      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/5ceaf7b54c1de159aed53ad1899ebd40_858x483.jpg"
     },
     {
       "id": "latest-b0cb01c9e0d0696da73e0aa9",
       "title": "Mercado de trigo valoriza com alta na produção e conflitos na Ucrânia",
-      "summary": "Ações de peso dentro da carteira do índice da B3 fecharam em queda nesta sexta-feira (24); petróleo recuou após altas recentes",
-      "details": "Ações de peso dentro da carteira do índice da B3 fecharam em queda nesta sexta-feira (24); petróleo recuou após altas recentes",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-yduqs-yduq3-salta-isa-energia-isae4-tomba-apos-precificacao-de-oferta-de-acoes/",
+      "summary": "Enquanto principal índice da B3 encerra em baixa, dólar opera próximo à estabilidade; entenda",
+      "details": "Enquanto principal índice da B3 encerra em baixa, dólar opera próximo à estabilidade; entenda",
+      "url": "https://veja.abril.com.br/economia/ibovespa-desvaloriza-mais-de-1-devido-a-preocupacoes-com-cenario-fiscal-brasileiro/",
       "source": "boca.com.br",
       "category": "latest",
       "tags": [
@@ -519,14 +557,71 @@
       "updatedAt": "2026-07-24T21:15:37Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/6Z2525B6IFIZ3O3NCJU4IXT5VQ.png?quality=80&auth=0d32ddc30c8c467d962cb7dd824cd1f9755e0ada25b096ce7b511a70d024e1b8&width=1200&height=630&smart=true"
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2025/11/GettyImages-2189881425.jpg.jpg?quality=70&strip=info&resize=1080,565&crop=1"
+    },
+    {
+      "id": "latest-5153c83e8606c805d86bb593",
+      "title": "Indústria do Tabaco pede isenção de tarifas dos EUA",
+      "summary": "Setor apela ao governo para incluir tabaco em lista de exceções",
+      "details": "Setor apela ao governo para incluir tabaco em lista de exceções",
+      "url": "https://boca.com.br/mercado-financeiro/industria-do-tabaco-pede-isencao-de-tarifas-dos-eua",
+      "source": "boca.com.br",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-24T21:15:23Z",
+      "updatedAt": "2026-07-24T21:15:23Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/38a01c792683f742b3a086a4d0ee38f1_858x483.jpg"
+    },
+    {
+      "id": "latest-ca4e2b0ce57117279ea5436e",
+      "title": "Ibovespa cai 1,52% com Petrobras (PETR4), Vale (VALE3) e bancos em baixa",
+      "summary": "Mercado sofreu com os efeitos da queda de commodities e fechamento negativo das bolsas americanas.",
+      "details": "Mercado sofreu com os efeitos da queda de commodities e fechamento negativo das bolsas americanas.",
+      "url": "https://www.tribunadosertao.com.br/geral/2026/07/24/946467-ibovespa-cai-15-com-falta-de-fluxo-e-perdas-em-blue-chips-mas-sobe-na-semana",
+      "source": "suno.com.br",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-24T21:15:05Z",
+      "updatedAt": "2026-07-24T21:15:05Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://img.dhost.cloud/DH558W96nEGWH0SVStss7gOTxvY=/1280x720/smart/https://tdan.nyc3.digitaloceanspaces.com/images/8ffc1/239e2de11a69a1b696023600a3f7c5c8d2c.webp"
+    },
+    {
+      "id": "macro-4a57587cb5e0826c1215ab31",
+      "title": "Lula defende que projetos científicos robustos possam ser excluídos do arcabouço fiscal",
+      "summary": "Caio Megale conversou com a equipe do Bnews durante a Expert XP 2026 que acontece em SP",
+      "details": "Caio Megale conversou com a equipe do Bnews durante a Expert XP 2026 que acontece em SP",
+      "url": "https://www.bnews.com.br/amp/noticias/economia-e-mercado/economista-chefe-da-xp-revela-amadurecimento-do-mercado-financeiro-brasileiro.html",
+      "source": "Correio do Povo",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-24T21:13:48Z",
+      "updatedAt": "2026-07-24T21:13:48Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.bnews.com.br/media/_versions/2026/07/economista-chefe-xp_widelg.jpg"
     },
     {
       "id": "latest-5a3279f00b8ef2e289e8559a",
       "title": "Ibovespa cai 1,5%, com falta de fluxo e perdas em blue chips, mas sobe na semana",
-      "summary": "Mercado sofreu com os efeitos da queda de commodities e fechamento negativo das bolsas americanas.",
-      "details": "Mercado sofreu com os efeitos da queda de commodities e fechamento negativo das bolsas americanas.",
-      "url": "https://www.tribunadosertao.com.br/geral/2026/07/24/946467-ibovespa-cai-15-com-falta-de-fluxo-e-perdas-em-blue-chips-mas-sobe-na-semana",
+      "summary": "Ibovespa fecha em queda de 1,52%, pressionado por Petrobras (PETR4), Vale (VALE3) e bancos. Dólar encerra praticamente estável, a R$ 5,081.",
+      "details": "Ibovespa fecha em queda de 1,52%, pressionado por Petrobras (PETR4), Vale (VALE3) e bancos. Dólar encerra praticamente estável, a R$ 5,081.",
+      "url": "https://www.suno.com.br/noticias/ibovespa-hoje-24-julho-2026-petr4-vale3-mt/",
       "source": "Tribuna do Sertão",
       "category": "latest",
       "tags": [
@@ -538,33 +633,33 @@
       "updatedAt": "2026-07-24T21:12:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://img.dhost.cloud/DH558W96nEGWH0SVStss7gOTxvY=/1280x720/smart/https://tdan.nyc3.digitaloceanspaces.com/images/8ffc1/239e2de11a69a1b696023600a3f7c5c8d2c.webp"
+      "imageUrl": "http://files.sunoresearch.com.br/n/uploads/2026/07/c05e2f54-ibovespa-800x450-1-2-2-jpg.webp"
     },
     {
-      "id": "macro-51c33ba308dd138ac4f2a3d4",
-      "title": "Lula defende que projetos científicos robustos possam ser excluídos do arcabouço fiscal",
-      "summary": "Em painel na Expert XP, gestores afirmaram que os Fundos de Investimento em Direitos Creditórios ganharam protagonismo com a desintermediação bancária e destacaram os cuidados para investir na classe. Acesse no Bora Investir.",
-      "details": "Em painel na Expert XP, gestores afirmaram que os Fundos de Investimento em Direitos Creditórios ganharam protagonismo com a desintermediação bancária e destacaram os cuidados para investir na classe. Acesse no Bora Investir.",
-      "url": "https://borainvestir.b3.com.br/tipos-de-investimentos/renda-variavel/fundos-investimento/fidcs-ganham-espaco-ampliam-acesso-de-empresas-ao-credito-e-aumentam-oportunidades-para-investidores/",
-      "source": "Correio do Povo",
-      "category": "macro",
+      "id": "latest-96d347971d4bb72d9cb1ee60",
+      "title": "Economista-chefe da XP revela amadurecimento do mercado financeiro brasileiro",
+      "summary": "Presidente se reuniu com lideranças da Sociedade Brasileira para o Progresso da Ciência (SBPC)",
+      "details": "Presidente se reuniu com lideranças da Sociedade Brasileira para o Progresso da Ciência (SBPC)",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/lula-defende-que-projetos-cientificos-robustos-possam-ser-excluidos-do-arcabouco-fiscal-1.1733975",
+      "source": "Bnews",
+      "category": "latest",
       "tags": [
-        "macro",
-        "juros",
-        "inflacao"
+        "mercado",
+        "bolsa",
+        "macro"
       ],
-      "publishedAt": "2026-07-24T21:11:15Z",
-      "updatedAt": "2026-07-24T21:11:15Z",
+      "publishedAt": "2026-07-24T21:10:55Z",
+      "updatedAt": "2026-07-24T21:10:55Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://cdn.borainvestir.b3.com.br/2025/01/27123456/acordo-de-supervisao-entre-cvm-e-anbima-passa-a-incluir-fidcs.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.correiodopovo.com.br/image/contentid/policy:1.1733974:1784927281/55416234238_2f67d3856f_o.jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=4974144"
     },
     {
       "id": "funds-5a61e1d8c36c3108fa2e86bf",
       "title": "FIDCs ganham espaço, ampliam acesso de empresas ao crédito e aumentam oportunidades para investidores",
-      "summary": "Presidente se reuniu com lideranças da Sociedade Brasileira para o Progresso da Ciência (SBPC)",
-      "details": "Presidente se reuniu com lideranças da Sociedade Brasileira para o Progresso da Ciência (SBPC)",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/lula-defende-que-projetos-cientificos-robustos-possam-ser-excluidos-do-arcabouco-fiscal-1.1733975",
+      "summary": "Em painel na Expert XP, gestores afirmaram que os Fundos de Investimento em Direitos Creditórios ganharam protagonismo com a desintermediação bancária e destacaram os cuidados para investir na classe. Acesse no Bora Investir.",
+      "details": "Em painel na Expert XP, gestores afirmaram que os Fundos de Investimento em Direitos Creditórios ganharam protagonismo com a desintermediação bancária e destacaram os cuidados para investir na classe. Acesse no Bora Investir.",
+      "url": "https://borainvestir.b3.com.br/tipos-de-investimentos/renda-variavel/fundos-investimento/fidcs-ganham-espaco-ampliam-acesso-de-empresas-ao-credito-e-aumentam-oportunidades-para-investidores/",
       "source": "Bora Investir",
       "category": "funds",
       "tags": [
@@ -576,7 +671,26 @@
       "updatedAt": "2026-07-24T21:10:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://www.correiodopovo.com.br/image/contentid/policy:1.1733974:1784927281/55416234238_2f67d3856f_o.jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=4974144"
+      "imageUrl": "https://cdn.borainvestir.b3.com.br/2025/01/27123456/acordo-de-supervisao-entre-cvm-e-anbima-passa-a-incluir-fidcs.webp"
+    },
+    {
+      "id": "latest-716936d9eb18513c9c6c7aa7",
+      "title": "Ibovespa fecha em baixa pressionado por commodities e tarifas dos EUA",
+      "summary": "O Ibovespa fechou o pregão desta sexta-feira (24) em baixa de 1,52%, aos 174.042 pontos, encerrando a semana com avanço de 0,19%. O desempenho do índice foi pressionado pela queda das commodities, em meio às preocupações com o agravamento das tensões entre Estados Unidos e Irã e ",
+      "details": "O Ibovespa fechou o pregão desta sexta-feira (24) em baixa de 1,52%, aos 174.042 pontos, encerrando a semana com avanço de 0,19%. O desempenho do índice foi pressionado pela queda das commodities, em meio às preocupações com o agravamento das tensões entre Estados Unidos e Irã e os impactos das novas tarifas impostas p",
+      "url": "https://trademap.com.br/agencia/ibovespa-fecha-em-baixa-pressionado-por-commodities-e-tarifas-dos-eua",
+      "source": "trademap.com.br",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-24T21:08:00Z",
+      "updatedAt": "2026-07-24T21:08:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://trademap.com.br/wp-content/uploads/2026/07/shutterstock_2179447083-13.jpg"
     },
     {
       "id": "macro-b723fa0d13883cd5a56261f1",
@@ -600,9 +714,9 @@
     {
       "id": "latest-fbe0bae81c457984983a8698",
       "title": "Ibovespa cai 1,5% nesta 6ª com Petrobras e bancos e fecha semana praticamente no zero",
-      "summary": "Nova alíquota atinge US$ 12,4 bilhões em exportações e maior parte terá tarifa acumulada de 37,5%. Leia no Poder360.",
-      "details": "Nova alíquota atinge US$ 12,4 bilhões em exportações e maior parte terá tarifa acumulada de 37,5%. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-economia/sobretaxa-de-125-dos-eua-afeta-29-das-vendas-brasileiras-diz-cni/",
+      "summary": "Alívio no petróleo se refletiu nas ações da Petrobras, que registraram perdas ao longo do pregão",
+      "details": "Alívio no petróleo se refletiu nas ações da Petrobras, que registraram perdas ao longo do pregão",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-cai-15-nesta-6a-com-petrobras-e-bancos-e-fecha-semana-praticamente-no-zero/",
       "source": "InfoMoney",
       "category": "latest",
       "tags": [
@@ -614,14 +728,14 @@
       "updatedAt": "2026-07-24T21:00:59Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/06/ricardo-alban-cni-2024-848x477.jpg"
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2024/09/Captura-de-tela-2024-09-06-100616.png"
     },
     {
       "id": "companies-7e6e0fe8ed9dbc28b5af70ad",
       "title": "Sobretaxa de 12,5% dos EUA afeta 29% das vendas brasileiras, diz CNI",
-      "summary": "Alívio no petróleo se refletiu nas ações da Petrobras, que registraram perdas ao longo do pregão",
-      "details": "Alívio no petróleo se refletiu nas ações da Petrobras, que registraram perdas ao longo do pregão",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-cai-15-nesta-6a-com-petrobras-e-bancos-e-fecha-semana-praticamente-no-zero/",
+      "summary": "Atualizacao de empresas capturada em Poder360.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZllZNGNRaU9CQm4ySjZvN0t5WE5rQm1SbVVqLW9KSF9wd051MU9kNzQ1RDVyZ3p3YWlhLXVQVXI5enRFT3RxSEY1RUx4SlR3cmgtYWx1OEI5bUJfVWpiNFVpeGJWSXJwTFlqZ19zMnYyZ0Nla3VhZmY1RkxJdUNhUmtjSmlpSkFMSWxqcHJ0bXI5bGV5dTFrRXI0QWExcGJRdEczam41SjFqZ0dh?oc=5",
       "source": "Poder360",
       "category": "companies",
       "tags": [
@@ -632,15 +746,14 @@
       "publishedAt": "2026-07-24T20:51:35Z",
       "updatedAt": "2026-07-24T20:51:35Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2024/09/Captura-de-tela-2024-09-06-100616.png"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "latest-3eebfe6a9f0a060091858143",
       "title": "Qualidade do crédito vira principal preocupação para bancos no 2T26; veja as ações favoritas do BofA",
-      "summary": "Pesquisa com investidores mostra que a deterioração da qualidade dos ativos e o aumento das provisões dominam as preocupações para a temporada de balanços",
-      "details": "Pesquisa com investidores mostra que a deterioração da qualidade dos ativos e o aumento das provisões dominam as preocupações para a temporada de balanços",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/qualidade-do-credito-vira-principal-preocupacao-para-bancos-no-2t26-veja-as-acoes-favoritas-do-bofa/",
+      "summary": "Atualizacao de ultima hora capturada em Estadão.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNLTZBbzFnRTJXaE43NDhPWGhEXzF2dXI5Q0VLVHJHYWFnQ1M3WGttb1dXbFNZTkFqakV1S192SXluWXRON0lFZVZJY1RMTWtXMk9PaFJ2c0tHMkZnN0dwTGlNZHpSMDQ2XzRqWHNGWGZJVmpsNE9udWtrdE1sc1A5Rjc1MkY2MXlmbm82QzhXbTNwZkFlbjFPdzJyM1JTdkFERlpRbUpNbFplUlRzTVp0V29DbmlzOXM4dFc4YlpLa3FZY213TGk4S0dOcDhIaW13Z3pXTEdsQVpVZG12MmV2ampSZ0FqUDN1NHpYOVJCZ9IB9AFBVV95cUxOWUowQjRRd3FTRjFZWDEwaDB4ZHY0RjNwWlNJYlpOMDFtXzEtb3pmaUx1dTBrWWM0ZnFyVGY1RFZOUUNselZYaHZ5Y21NRlJRenFucEJpRXozejE1Rl9vY0RDaTdtczBISGhkZlcyZ1ZWbW5ac2VWWmJ0b0wzVWxFZFV1QmRld3NNdG14SzBqN3dIVnRpX2dfcWltUEtWUkRxS010RVNVYU5UYzFOVW5RX3BzWnVmYkxEQmVwZmhYcXNCcU5tMC13aGtTQktjdkhhY3RGb3JWRWVvUlFBRzEtR2xsV2dTYUswZzFPS0FtOVFzNGFl?oc=5",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -651,34 +764,14 @@
       "publishedAt": "2026-07-24T20:45:00Z",
       "updatedAt": "2026-07-24T20:45:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/LJIENILQ5BL5PK5APRGOSOCGQI.png?quality=80&auth=e19ab6de7c796c5f28aaacb28569efd3db664abf2e3a52551445c66879a8a6dc&width=1200&height=630&smart=true"
-    },
-    {
-      "id": "latest-1d6a936bbc2ab61687065d39",
-      "title": "Ibovespa encerra semana em baixa de 1,52% puxado por Petrobras e bancos",
-      "summary": "O Ibovespa fechou em forte queda nesta sexta-feira (24), pressionado pelo recuo das ações de Petrobras (PETR3; PETR4) e dos principais bancos, em uma",
-      "details": "O Ibovespa fechou em forte queda nesta sexta-feira (24), pressionado pelo recuo das ações de Petrobras (PETR3; PETR4) e dos principais bancos, em uma",
-      "url": "https://timesbrasil.com.br/investimentos/bolsa/ibovespa-encerra-semana-em-baixa-de-152-puxado-por-petrobras-e-bancos/",
-      "source": "Times Brasil | CNBC",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-24T20:44:00Z",
-      "updatedAt": "2026-07-24T20:44:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/05/657caae4-boletim_mercado_de_capitais_unifor_800-e1780103150884.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-df1d8edf1ea6a43b6ca2c7f5",
       "title": "Governo prevê descongelar R$5,7 bi em verbas de ministérios apesar de frustração em taxação de dividendos",
-      "summary": "Por Bernardo Caram BRASÍLIA, 24 Jul (Reuters) - O governo Luiz Inácio Lula da Silva informou nesta sexta-feira que reduzirá de R$23,7 bilhões para R$17,9 bilhões o bloqueio nas verbas orçamentárias de",
-      "details": "Por Bernardo Caram BRASÍLIA, 24 Jul (Reuters) - O governo Luiz Inácio Lula da Silva informou nesta sexta-feira que reduzirá de R$23,7 bilhões para R$17,9 bilhões o bloqueio nas verbas orçamentárias de",
-      "url": "https://www.noticiasagricolas.com.br/noticias/politica-economia/425336-governo-preve-descongelar-r57-bi-em-verbas-de-ministerios-apesar-de-frustracao-em-taxacao-de-dividendos.amp.html",
+      "summary": "Atualizacao de macro capturada em Notícias Agrícolas.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPdFhabTk0YVhrTHVZOU5mREpRZWVwVXg5SVRRTlNzSGdub3V0RnBiNTVJM21BS2otWllRMW1nYXFEalQ1SlVuZUF0ZmtoQUhHa3dldEducUpWTFJSaS1aZjRzRlh3YTljT0s5T0U0LUNVb05nUXZWVnZXUFRxNU9OT2VzSXp0cXlUcHhfSkdWeW9ESE5jcUQwU3MxUk1HajRKTE1GaVVhVjNXR2Z4VkZPSFlMVURRbk13YVVfZzJxbjhQM1RBWFg3a1pFNmZ2Ynptek05MkNuTlU4NE1GY21RTVVEalI3T2IxWXJCd2dEQTRmYWpTaVJuR0ZmTUJSQ1I1STRJSElWcElVczJVZUV5a9IBkAJBVV95cUxPdFhabTk0YVhrTHVZOU5mREpRZWVwVXg5SVRRTlNzSGdub3V0RnBiNTVJM21BS2otWllRMW1nYXFEalQ1SlVuZUF0ZmtoQUhHa3dldEducUpWTFJSaS1aZjRzRlh3YTljT0s5T0U0LUNVb05nUXZWVnZXUFRxNU9OT2VzSXp0cXlUcHhfSkdWeW9ESE5jcUQwU3MxUk1HajRKTE1GaVVhVjNXR2Z4VkZPSFlMVURRbk13YVVfZzJxbjhQM1RBWFg3a1pFNmZ2Ynptek05MkNuTlU4NE1GY21RTVVEalI3T2IxWXJCd2dEQTRmYWpTaVJuR0ZmTUJSQ1I1STRJSElWcElVczJVZUV5aw?oc=5",
       "source": "Notícias Agrícolas",
       "category": "macro",
       "tags": [
@@ -689,34 +782,14 @@
       "publishedAt": "2026-07-24T20:43:31Z",
       "updatedAt": "2026-07-24T20:43:31Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://cdn.noticiasagricolas.com.br/dbimagens/top-view-of-brazilian-real-banknotes-and-coins-202-XM1ql.jpg"
-    },
-    {
-      "id": "latest-d2dfc1c8270d2555b8ca9e9e",
-      "title": "Ibovespa despenca 1,52% com queda do petróleo e tombo dos bancos e da Petrobras",
-      "summary": "Dario Durigan, ministro da Fazenda, diz que medidas de crédito não pressionam os preços, durante evento de investimentos em São Paulo.",
-      "details": "Dario Durigan, ministro da Fazenda, diz que medidas de crédito não pressionam os preços, durante evento de investimentos em São Paulo.",
-      "url": "https://revistaoeste.com/politica/durigan-atribui-inflacao-a-guerra-no-ira-e-suaviza-impacto-dos-gastos-do-governo/",
-      "source": "tmc.com.br",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-24T20:42:08Z",
-      "updatedAt": "2026-07-24T20:42:08Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/03/IMAGE-2026-03-20-112043.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-ed0b8c9cf6412cc7e093fedc",
       "title": "Durigan atribui inflação à guerra no Irã e suaviza impacto dos gastos do governo",
-      "summary": "Alívio nos preços do barril no exterior atinge a estatal, enquanto ISA Energia desaba mais de 7% após oferta de ações. Confira na íntegra.",
-      "details": "Alívio nos preços do barril no exterior atinge a estatal, enquanto ISA Energia desaba mais de 7% após oferta de ações. Confira na íntegra.",
-      "url": "https://tmc.com.br/economia/ibovespa-despenca-152-com-queda-do-petroleo-e-tombo-dos-bancos-e-da-petrobras/",
+      "summary": "Atualizacao de macro capturada em Revista Oeste.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMS1KSGlzQlJDa1AwR050T1ljSk5rVDZ0ZVZTeW94RURjRUlDUzI0Z1dGOGhBQVRqbkhIUEdxcnhuNEtITDB4RVh3WWVDNWVwWXpuMlEzdW5iT1ozZExBeF9heDFrNHo0QmhQZTVaWnUtLWpqQjlaOWs5QWpWeHNPNFNKR1VudXZCeEtHeE43blI4RW93WDUxclFBeDhWWFRSV0N6RlA4YkdnNkthTEhmRndHNHZZZw?oc=5",
       "source": "Revista Oeste",
       "category": "macro",
       "tags": [
@@ -727,80 +800,25 @@
       "publishedAt": "2026-07-24T20:38:53Z",
       "updatedAt": "2026-07-24T20:38:53Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://tmc.com.br/wp-content/uploads/2025/12/PIX-5.jpg.optimal.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "latest-8df5f88787bf7c23361c8566",
-      "title": "Ibovespa hoje cai mais de 1% com novas tarifas dos EUA sobre o Brasil; dólar tem leve baixa",
-      "summary": "Atualizacao de ultima hora capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZFJMZVYyeGVpdzRuZDd1RTNjc2RlUFVmWHhkMUowTHNXSS1vc24zN182LXQtdF9aLUJJY1VpUjZubUtpNU9kejZad3h6N0pLT0F3MGM5a1RxRUhhUWdpQWVic2xKZnFDQnMyN1BOT0R5WF8tb0R0ZTlFTDVfcmhldjBLaWhtOTg1TmZsYnQzMkh6UE1uajJWSmt1dHlKM2ZlWndDd0lGMUthaDBoTWl4Ym1BajQ0XzlGZlFwSFJhTTRXdU4wN2JqcnFnUFhSUDDSAdQBQVVfeXFMTzZSNzh6eDFEWHlGQW5rNHR6Vm16UVp6a2RPek5sWFJSNS1pVkwwWVZBRGVIdDdSb1VNM2NUT0U4WEpKbUNuS2stZ1hHTnNLWHR0MUdwVU12QmtweEhCQmlwdXJoWmU1Qk4zbm1iRzZlVVd2WVRXNkhQVjhiMEZ6cVRITlk0ZG1VVmg0NFQ0SjJESm9feU1UYXlvRXlVcWNPSXV3cXVySks0YTVRR0lpTFQ4ZFRpNGFXTUdGR2tkUnZBOFhvVk10aW9BMkVNZ1huM2RyZVU?oc=5",
-      "source": "Estadão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-24T20:34:00Z",
-      "updatedAt": "2026-07-24T20:34:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-4f5628cd545849e572ec88b7",
+      "id": "macro-395565837cc653fb1127d934",
       "title": "Galípolo afirma que Selic alta nem sempre beneficia o mercado financeiro",
-      "summary": "Atualizacao de ultima hora capturada em Exame.",
+      "summary": "Atualizacao de macro capturada em Exame.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYmtGWHdxNlV5X1lTX1pOcDZBYVlqRHNDM0VfZnhBVlJYUHZBN0tmM1Etd0t6R1VLbFQ5UkcxZUU2eUYwbDlTeG5oZE5BWmlWbGxfUWx5RDJaUzNjNUljenI0Y2xSMzRuTTBhUllPWUJxaWxpTmUyc2EwZDBUT1EyQ3JzUWZFZE9Rd0ROSFBuams3MzMwRWJ3SlhReW5ucmVzRXc?oc=5",
       "source": "Exame",
-      "category": "latest",
+      "category": "macro",
       "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
+        "macro",
+        "juros",
+        "inflacao"
       ],
       "publishedAt": "2026-07-24T20:29:57Z",
       "updatedAt": "2026-07-24T20:29:57Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-613fd3171fc4523f39126cab",
-      "title": "Ideia de que juros altos sempre beneficiam o mercado financeiro não se comprova, diz Galípolo",
-      "summary": "Atualizacao de ultima hora capturada em Tribuna do Sertão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOczQwTEhESzBBTGdjSnBnLVF1Ty1RNlpfZk9rbFI0djllYXVNVzFEV0hPQWI0NWdyRURQeG1qdGFqZEdHSEZfLWNXb1FXdDVyMjgtZjRnUzFPcDI2bnlfaGM1UFVDOXgxRlk4MFZ1c21hOGlmS29KdFJ0M3JfM0kyRGt6bWtBN09OUW1EVUxWZ01mbFlqSDdhSG5uT1I4WXlGLWJDZi10MC1McGFpTlJvd252TEpDUDFCd1JPQ19fNmdBYUp6Q0U4Ul9fNVhiaGNvakVlUk5yUy1QMWFneUl6dl9kYndNc0NJamc?oc=5",
-      "source": "Tribuna do Sertão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-24T20:26:00Z",
-      "updatedAt": "2026-07-24T20:26:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-2633f6f0dd43aef5908d4189",
-      "title": "Ibovespa cai e fecha aos 174 mil pontos, na mínima do dia",
-      "summary": "Atualizacao de ultima hora capturada em BPMoney.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcVF4dU0zV2ZWYk9fNVo2bi1OLVRqTVNfWU5ZLXdLVVB3ejc1M2ZHNEQwVDZmMHJUUWtUSkhvamFyRDJBa3QxeXB4M3dwT2dNeU5ma3BDcVNZMVNjaGZhcUFaRkM5TlNQQldrSzU5WDg1T2YzMTJJQjBDTjRGUC1YYm5FYnZaWG5jT0tyQ0JUM2FBQQ?oc=5",
-      "source": "BPMoney",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-24T20:22:39Z",
-      "updatedAt": "2026-07-24T20:22:39Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-738b7828fd6de2fbc2f7069c",
@@ -835,24 +853,6 @@
       ],
       "publishedAt": "2026-07-24T19:41:52Z",
       "updatedAt": "2026-07-24T19:41:52Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-8cee2a1999a7d4aeaf304fdc",
-      "title": "PL oficializa Rebeca Ramagem como candidata a deputada federal pelo Rio de Janeiro",
-      "summary": "Atualizacao de macro capturada em O GLOBO.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZDlCLWNzQ1Z0SS16RXpZdGlNSUlodmZmVVdkUVJGN3Nia2R3Qjg5aUVzb3g3cDEwODZDejdXS2dja0ZoYmxlRnVwakF4eFVnR0dfVkgwcmdQZTNzUlhnVGdURnJydjhsM1ZLeGxSWkdITnA5M2h1YUtHbEZ0SmdOUDlKajdVc0djOF9WeE1wU01qbXBEWlUwNHNqbk03TW5VWDVwLXNXS25hR0J1YW1sdXUyWFFkaFd4Vy1TLWRyUE5XRkx5bzFRSmdCUXNnVU0zbVZFSFJZLXBnQmlTWFlLQ1ZNZ1haNi1sSExJ0gH6AUFVX3lxTE9UODdYbjhoc2I0dkpkVERtNVc3MHkyM1c2LXExMUpCSlNUdUp1X0xRVFZ4UnJoZmhMdnNCMS1CLU5IelQzVzRRWWpsQUtwVC15eTFCMmQ0dS1FbmRnSFNWZzQxdm5sS3FYdmNONmxjOG8yYUNPZF8tNDlieF9mMWZwaGpONkthbk5MZWpIemFUSExIMVVtS24yQ2lyQUdUcElrdEpSd2FMWmgycXhjQWZGdGdaSU1obFpPdXk4ak9NeVpSOXZRYWlGbU1VVmVWYy1QX3NEb0h2UVVPN2huRm1JZGw4TXNLYVdqc3VoYWNJdTctY2hWcTZIRlE?oc=5",
-      "source": "O GLOBO",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-24T19:38:36Z",
-      "updatedAt": "2026-07-24T19:38:36Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
@@ -893,6 +893,24 @@
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
+      "id": "macro-000789df2aac8b0aec1695c2",
+      "title": "World Acceptance (WRLD) avança 13% após lucro do 1º tri fiscal surpreender",
+      "summary": "Atualizacao de macro capturada em ADVFN.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUjViUnVRTmN1a3oyV3NMMlJxU1B1MTdHVy1SM1Ztc1JmV2RrMWpCRk5fdnZsdGk1R1FwWXk5S3E0WjE1NjRQekFpZk0zdEpGVGctZm8xcTFibktHODB0X00xTlBIRHo0TUZtUC12ZXlhVWExbDA1U05EOWlnbnhkSUxYaVZfcjN6ZGJGUUhIVEU1M1VGZVBHY0hVNGk?oc=5",
+      "source": "ADVFN",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-24T19:36:43Z",
+      "updatedAt": "2026-07-24T19:36:43Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
       "id": "funds-0bf1a54f0459e10341b2b25c",
       "title": "Política fiscal: ‘Titanic está indo ao iceberg e não dá para tocar violino’, diz ARX",
       "summary": "Atualizacao de fundos capturada em InfoMoney.",
@@ -929,6 +947,24 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
+      "id": "funds-4054ef492c0b6948114fb3f0",
+      "title": "“Caminho para o dólar perder força é estreito”: como investir no novo cenário global?",
+      "summary": "Atualizacao de fundos capturada em InfoMoney.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRDNoeHJWb1dld3FqNjJZeVA1MkN3eTFqRE5IWDdUMUwxSEw5VjVoOUh5V04xSnhPcUJSdFdTUVBXVWlsbkJMM3QtdFcwZVlQYlV6ME9ramo1R2NGQ1E2VjZCT0RuOFZ3d3ZIQXlCRmFQVXMzVGJHcklsUW95Vjg4WjFkUzhzY29lZGRNdGU3NnNjeFcwV1JFWVdzLVlYYlpYdkk5R2JFUXRZY1dHc3A5blN2VDlSMWtVQUJaOGkzNWloTU1vRzFzVtIByAFBVV95cUxPRDNoeHJWb1dld3FqNjJZeVA1MkN3eTFqRE5IWDdUMUwxSEw5VjVoOUh5V04xSnhPcUJSdFdTUVBXVWlsbkJMM3QtdFcwZVlQYlV6ME9ramo1R2NGQ1E2VjZCT0RuOFZ3d3ZIQXlCRmFQVXMzVGJHcklsUW95Vjg4WjFkUzhzY29lZGRNdGU3NnNjeFcwV1JFWVdzLVlYYlpYdkk5R2JFUXRZY1dHc3A5blN2VDlSMWtVQUJaOGkzNWloTU1vRzFzVg?oc=5",
+      "source": "InfoMoney",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-07-24T18:53:50Z",
+      "updatedAt": "2026-07-24T18:53:50Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
       "id": "funds-ca1df4bf88059789570466da",
       "title": "Inter Asset quer transformar INHF11 em megafundo imobiliário",
       "summary": "Atualizacao de fundos capturada em Clube FII News.",
@@ -947,6 +983,24 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
+      "id": "companies-2ececf092923dbc484b2d3af",
+      "title": "Mapa da internet brasileira: levantamento revela os estados por trás do maior número de criação de sites no Brasil",
+      "summary": "Atualizacao de empresas capturada em al1.com.br.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxON0xreHJMT04tZWZ5bzhZV2dYYzBiNnJ2eWZ5Smc4TnZwQlZuVy1DYXhYYlhpUTFlVkFqU3hpOUthZUh4bGdONlBZU0lTZ2RMUEplNW1MYnllelNDVVdVdngycnJBUC1adXpQZi13WTRlbTYtZVBBUzVQNFA5T0Q4TWI0X1BWNzJmb1dEVEVtd1ZUclJQZUdoVkFOR012MUpMbXVxUFZBVURZOWNfd3ZDZFJrdW5XRUhxUzJOSlV1MjFWNmFNTjczdkxPUlJYZjd2emFtcENDemlUMml1azYzaXlGRXVwcFh2MVltNHZ3?oc=5",
+      "source": "al1.com.br",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-07-24T18:24:10Z",
+      "updatedAt": "2026-07-24T18:24:10Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
       "id": "funds-5351f989ade767cd47c5c29a",
       "title": "BB Asset vê 'janela de oportunidade' para investir na Bolsa no segundo semestre",
       "summary": "Atualizacao de fundos capturada em InvesTalk.",
@@ -963,24 +1017,6 @@
       "updatedAt": "2026-07-24T18:21:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-4bff27da327c624bf70347b0",
-      "title": "Mapa da internet brasileira: levantamento revela os estados por trás do maior número de criação de sites no Brasil",
-      "summary": "Atualizacao de empresas capturada em al1.com.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxON0xreHJMT04tZWZ5bzhZV2dYYzBiNnJ2eWZ5Smc4TnZwQlZuVy1DYXhYYlhpUTFlVkFqU3hpOUthZUh4bGdONlBZU0lTZ2RMUEplNW1MYnllelNDVVdVdngycnJBUC1adXpQZi13WTRlbTYtZVBBUzVQNFA5T0Q4TWI0X1BWNzJmb1dEVEVtd1ZUclJQZUdoVkFOR012MUpMbXVxUFZBVURZOWNfd3ZDZFJrdW5XRUhxUzJOSlV1MjFWNmFNTjczdkxPUlJYZjd2emFtcENDemlUMml1azYzaXlGRXVwcFh2MVltNHZ3?oc=5",
-      "source": "al1.com.br",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-07-24T18:09:39Z",
-      "updatedAt": "2026-07-24T18:09:39Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-538dba294f936cf898de0982",
@@ -1217,8 +1253,8 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "funds-2265934bcfb1e21f2365e731",
-      "title": "Fundos da Suno Asset pagam hoje dividendos de até 1,50% ao mês",
+      "id": "funds-ffccc7337172ed15fdf91de6",
+      "title": "SNEL11 paga dividendos de 1,18%; veja os valores dos fundos da Suno Asset hoje (24)",
       "summary": "Atualizacao de fundos capturada em Fiis.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMnNoVmdrVTUyVkdENlBfLVpYSXNfazFUSnliZDFVYXMweTIxbGVhdG1ZSWZ3X282MDVFUTdCczdmZGhabVg5bTk1TnNnaU5jNU9CeUYzVzRna1BoWHVMNlgyWFRDVWRjQU51cnBYSFBBMFNZRkd3ZHdwNThVcXNkMWM4Mzdaalk3QXhNWnlLZW1LNmNaT1pVRTg2SE1rVkYzZjRhSzFzeHhjaW12TkE?oc=5",
@@ -1250,24 +1286,6 @@
       "publishedAt": "2026-07-24T14:34:02Z",
       "updatedAt": "2026-07-24T14:34:02Z",
       "premium": true,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-72b226fd64ad5c5f3398d82e",
-      "title": "Raphael Barcelos na Money Week 2026: Infraestrutura",
-      "summary": "Atualizacao de fundos capturada em EuQueroInvestir.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVUFrYms0SmlPVVhYNVhJQlNPVlYwZFJZT2lfUERpLUtEeUx5Y2o3MllJLUZyUXBwUnA5aXpVeU1fT2dwS2JEX29KdWQwbEY1OHhNMzdNVHo2Z0lxbEkxZ1R4RDJQbzY4TENwZklXS0wyXzM4UGJ0X05iTGRLOTUyWHpJVkFhSTZjSnBpMzBRdDQtWWdGVmp6RFAwOA?oc=5",
-      "source": "EuQueroInvestir",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-07-24T14:20:52Z",
-      "updatedAt": "2026-07-24T14:20:52Z",
-      "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
@@ -1357,24 +1375,6 @@
       ],
       "publishedAt": "2026-07-24T12:30:00Z",
       "updatedAt": "2026-07-24T12:30:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-8f27aa2974b7a8819e73db26",
-      "title": "Flávio dispara: \"Lula está se lixando para produtos brasileiros\"",
-      "summary": "Atualizacao de empresas capturada em Área VIP.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNFFwMVA3czlTM3I1X0FlNDltMWVRVGZJUXpVV3lzZlU1UHVrdWs0eWdueE1IVjJJNC1jR1ZjN0EzdzhUbUNSanZ6MmZXdVNNWWJCVk5mNUttczZ6c0ZMdFFReWszTTdmOGxnb1hBaVBLS1RqbEVoeVN1WUJjVjVBOFNSUTdpZklGTzJOVGYwU3l6UVNLXzRKTGgzMU9pempzNndMT25kcXhqV1k?oc=5",
-      "source": "Área VIP",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-07-24T12:18:12Z",
-      "updatedAt": "2026-07-24T12:18:12Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     }
