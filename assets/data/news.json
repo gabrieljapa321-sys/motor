@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-29T23:14:23Z",
-  "generatedAt": "2026-07-29T23:14:23Z",
+  "updatedAt": "2026-07-30T00:12:43Z",
+  "generatedAt": "2026-07-30T00:12:43Z",
   "categories": [
     {
       "id": "all",
@@ -25,10 +25,6 @@
   ],
   "sources": [
     {
-      "id": "misto-brasil",
-      "label": "- Misto Brasil"
-    },
-    {
       "id": "a-cr-tica-de-campo-grande",
       "label": "A Crítica de Campo Grande"
     },
@@ -41,12 +37,12 @@
       "label": "Acontecendo Aqui"
     },
     {
-      "id": "ayurveda-gov-lk",
-      "label": "ayurveda.gov.lk"
+      "id": "band-com-br",
+      "label": "band.com.br"
     },
     {
-      "id": "bem-paran",
-      "label": "Bem Paraná"
+      "id": "blocktrends",
+      "label": "BlockTrends"
     },
     {
       "id": "bloomberg-l-nea-brasil",
@@ -57,8 +53,8 @@
       "label": "bra1.com.br"
     },
     {
-      "id": "campograndenews-com-br",
-      "label": "campograndenews.com.br"
+      "id": "campo-grande-news",
+      "label": "Campo Grande News"
     },
     {
       "id": "cartacapital",
@@ -69,16 +65,20 @@
       "label": "CNN Brasil"
     },
     {
+      "id": "correio-braziliense",
+      "label": "Correio Braziliense"
+    },
+    {
       "id": "d24am",
       "label": "D24AM"
     },
     {
-      "id": "estad-o",
-      "label": "Estadão"
+      "id": "economiasp-com",
+      "label": "economiasp.com"
     },
     {
-      "id": "euqueroinvestir",
-      "label": "EuQueroInvestir"
+      "id": "estad-o",
+      "label": "Estadão"
     },
     {
       "id": "exame",
@@ -137,12 +137,20 @@
       "label": "Money Times"
     },
     {
-      "id": "ne9-com-br",
-      "label": "ne9.com.br"
+      "id": "monitor-mercantil",
+      "label": "Monitor Mercantil"
+    },
+    {
+      "id": "ne9",
+      "label": "NE9"
     },
     {
       "id": "niddedigital-com",
       "label": "niddedigital.com"
+    },
+    {
+      "id": "nord-investimentos",
+      "label": "Nord Investimentos"
     },
     {
       "id": "novarejo",
@@ -173,10 +181,6 @@
       "label": "SpaceMoney"
     },
     {
-      "id": "suno-com-br",
-      "label": "suno.com.br"
-    },
-    {
       "id": "times-brasil-cnbc",
       "label": "Times Brasil | CNBC"
     },
@@ -197,8 +201,8 @@
       "label": "UOL Economia"
     },
     {
-      "id": "urb-news",
-      "label": "URB News"
+      "id": "urbnews-com-br",
+      "label": "urbnews.com.br"
     },
     {
       "id": "valor-econ-mico",
@@ -215,11 +219,67 @@
   ],
   "items": [
     {
+      "id": "macro-95ba8f892c9fcc1bc0bf5950",
+      "title": "EUA mantêm taxa de juros na faixa de 3,5% a 3,75%, mas levanta incertezas",
+      "summary": "Fernanda Rocha avalia que mercado segue apostando em redução de 0,25 ponto percentual da Selic na próxima reunião do Copom.",
+      "details": "Fernanda Rocha avalia que mercado segue apostando em redução de 0,25 ponto percentual da Selic na próxima reunião do Copom.",
+      "url": "https://timesbrasil.com.br/brasil/economia-brasileira/fernanda-rocha-mercado-mantem-expectativa-de-corte-da-selic/",
+      "source": "band.com.br",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-29T23:36:23Z",
+      "updatedAt": "2026-07-29T23:36:23Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/07/1b9ba5ea-14a.webp"
+    },
+    {
+      "id": "latest-0548d35b0eeba456d01d22b8",
+      "title": "Caged de junho: ritmo de novos empregos com carteira diminui com juros e tarifaço",
+      "summary": "Petroleiras se",
+      "details": "Petroleiras se",
+      "url": "https://www.correiobraziliense.com.br/economia/2026/07/amp/7470500-ibovespa-cai-15-com-acoes-de-bancos-liderando-perdas-do-dia.html",
+      "source": "Monitor Mercantil",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-29T23:23:30Z",
+      "updatedAt": "2026-07-29T23:23:30Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "latest-055f911b95a8eaf89214b011",
+      "title": "Ibovespa cai 1,5% com ações de bancos liderando perdas do dia",
+      "summary": "Apesar de esperada, decisão do Fed foi tomada sem unanimidade, por 9 votos a 3",
+      "details": "Apesar de esperada, decisão do Fed foi tomada sem unanimidade, por 9 votos a 3",
+      "url": "https://www.band.com.br/noticias/fed-mantem-taxa-de-juros-na-faixa-de-35-a-375-mas-levanta-incertezas-202607292036",
+      "source": "Correio Braziliense",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-29T23:18:00Z",
+      "updatedAt": "2026-07-29T23:18:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://img.band.com.br/image/2023/07/26/fed-aumenta-juros-em-025-ponto-porcentual-nos-eua-202633.jpg"
+    },
+    {
       "id": "latest-ff575273d8559290e0fdbb7a",
       "title": "Dólar cai a R$ 5,10 após Fed manter juros nos Estados Unidos",
       "summary": "Atualizacao de ultima hora capturada em A Crítica de Campo Grande.",
       "details": "",
-      "url": "https://ne9.com.br/webstories/investe-recife-hub-mercado-capitais-investimentos/",
+      "url": "https://d24am.com/economia/dolar-cai-para-r-510-apos-juros-serem-mantidos-nos-eua/",
       "source": "A Crítica de Campo Grande",
       "category": "latest",
       "tags": [
@@ -230,16 +290,15 @@
       "publishedAt": "2026-07-29T23:05:00Z",
       "updatedAt": "2026-07-29T23:05:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://ne9.com.br/wp-content/uploads/2026/07/Invest-Recife-Hub-Foto-Marlon-Diego-720x734.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-aee721444d61df4555d6bc5c",
+      "id": "latest-c9d2e09d306462c65a5980ef",
       "title": "Investe Recife Hub fortalece negócios e faz aproximação com o mercado financeiro",
-      "summary": "Decisão sobre juros nos EUA e discurso ponderado de Kevin Warsh aliviam o câmbio, mas tensão no Oriente Médio pesa sobre as ações",
-      "details": "Decisão sobre juros nos EUA e discurso ponderado de Kevin Warsh aliviam o câmbio, mas tensão no Oriente Médio pesa sobre as ações",
-      "url": "https://gpsbrasilia.com.br/dolar-recua-ibovespa-cede-disparada-do-petroleo/",
-      "source": "ne9.com.br",
+      "summary": "Atualizacao de ultima hora capturada em NE9.",
+      "details": "",
+      "url": "https://monitormercantil.com.br/caged-de-junho-ritmo-de-novos-empregos-com-carteira-diminui-com-juros-e-tarifaco/",
+      "source": "NE9",
       "category": "latest",
       "tags": [
         "mercado",
@@ -249,15 +308,14 @@
       "publishedAt": "2026-07-29T22:36:39Z",
       "updatedAt": "2026-07-29T22:36:39Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://gpsbrasilia.com.br/wp-content/uploads/2026/07/gpsbrasilia-economia-dolar2-22072026-1.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-e1df66aa49e5888e241525bc",
       "title": "Dólar recua e Ibovespa cede em dia de Fed mantido e disparada do petróleo",
-      "summary": "Ibovespa perde 1,52%, enquanto petróleo sobe mais de 7% com tensões no Oriente Médio",
-      "details": "Ibovespa perde 1,52%, enquanto petróleo sobe mais de 7% com tensões no Oriente Médio",
-      "url": "https://acritica.net/economia/dolar-cai-a-r-510-apos-fed-manter-juros-nos-estados-unidos/",
+      "summary": "Atualizacao de ultima hora capturada em GPS Brasília.",
+      "details": "",
+      "url": "https://ne9.com.br/webstories/investe-recife-hub-mercado-capitais-investimentos/",
       "source": "GPS Brasília",
       "category": "latest",
       "tags": [
@@ -269,14 +327,14 @@
       "updatedAt": "2026-07-29T22:24:44Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://uploads.acritica.net/2026/06/Notas-de-Dolar-na-Mesa.jpg"
+      "imageUrl": "https://ne9.com.br/wp-content/uploads/2026/07/Invest-Recife-Hub-Foto-Marlon-Diego-720x734.webp"
     },
     {
-      "id": "latest-5dab33d9bf98045060a8f300",
+      "id": "latest-31e9d391cff43e0a1e22a00f",
       "title": "Durigan indica Lula 4 mais austero e tenta acalmar o mercado",
-      "summary": "Chefe da economia apontou na direção de um arcabouço fiscal mais rígido e sustentável ao longo dos anos. Leia no Poder360.",
-      "details": "Chefe da economia apontou na direção de um arcabouço fiscal mais rígido e sustentável ao longo dos anos. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-economia/durigan-indica-lula-4-mais-austero-e-tenta-acalmar-o-mercado/",
+      "summary": "Ibovespa perde 1,52%, enquanto petróleo sobe mais de 7% com tensões no Oriente Médio",
+      "details": "Ibovespa perde 1,52%, enquanto petróleo sobe mais de 7% com tensões no Oriente Médio",
+      "url": "https://acritica.net/economia/dolar-cai-a-r-510-apos-fed-manter-juros-nos-estados-unidos/",
       "source": "Poder360",
       "category": "latest",
       "tags": [
@@ -284,18 +342,18 @@
         "bolsa",
         "macro"
       ],
-      "publishedAt": "2026-07-29T22:21:06Z",
-      "updatedAt": "2026-07-29T22:21:06Z",
+      "publishedAt": "2026-07-29T22:24:07Z",
+      "updatedAt": "2026-07-29T22:24:07Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/07/Dario-Durigan-20-jul-2026-sergio-lima-848x477.jpg"
+      "imageUrl": "https://uploads.acritica.net/2026/06/Notas-de-Dolar-na-Mesa.jpg"
     },
     {
       "id": "latest-a08bdfeab5c5266e7eabb8e8",
       "title": "Banco Central norte-americano mantém juros, mas dois fatores chamam a atenção do mercado",
-      "summary": "O Federal Reserve (Fed), banco central dos Estados Unidos, decidiu nesta quarta-feira (29) manter a taxa básica de juros na faixa entre 3,5% e 3,75% ao ano. A decisão era a mais esperada pelo mercado financeiro, mas esteve longe de ser um consenso, tanto entre investidores quanto",
-      "details": "O Federal Reserve (Fed), banco central dos Estados Unidos, decidiu nesta quarta-feira (29) manter a taxa básica de juros na faixa entre 3,5% e 3,75% ao ano. A decisão era a mais esperada pelo mercado financeiro, mas esteve longe de ser um consenso, tanto entre investidores quanto entre os integrantes…",
-      "url": "https://www.osul.com.br/banco-central-norte-americano-mantem-juros-mas-dois-fatores-chamam-a-atencao-do-mercado/",
+      "summary": "Chefe da economia apontou na direção de um arcabouço fiscal mais rígido e sustentável ao longo dos anos. Leia no Poder360.",
+      "details": "Chefe da economia apontou na direção de um arcabouço fiscal mais rígido e sustentável ao longo dos anos. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-economia/durigan-indica-lula-4-mais-austero-e-tenta-acalmar-o-mercado/",
       "source": "Jornal O Sul",
       "category": "latest",
       "tags": [
@@ -307,14 +365,14 @@
       "updatedAt": "2026-07-29T22:21:05Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.osul.com.br/wp-content/uploads/2026/07/fesds.jpg"
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/07/Dario-Durigan-20-jul-2026-sergio-lima-848x477.jpg"
     },
     {
       "id": "latest-6111f8dc9f1b36a741b8f155",
       "title": "Fernanda Rocha: Mercado mantém expectativa de corte da Selic apesar das incertezas no cenário externo",
-      "summary": "Fernanda Rocha avalia que mercado segue apostando em redução de 0,25 ponto percentual da Selic na próxima reunião do Copom.",
-      "details": "Fernanda Rocha avalia que mercado segue apostando em redução de 0,25 ponto percentual da Selic na próxima reunião do Copom.",
-      "url": "https://timesbrasil.com.br/brasil/economia-brasileira/fernanda-rocha-mercado-mantem-expectativa-de-corte-da-selic/",
+      "summary": "Decisão sobre juros nos EUA e discurso ponderado de Kevin Warsh aliviam o câmbio, mas tensão no Oriente Médio pesa sobre as ações",
+      "details": "Decisão sobre juros nos EUA e discurso ponderado de Kevin Warsh aliviam o câmbio, mas tensão no Oriente Médio pesa sobre as ações",
+      "url": "https://gpsbrasilia.com.br/dolar-recua-ibovespa-cede-disparada-do-petroleo/",
       "source": "Times Brasil | CNBC",
       "category": "latest",
       "tags": [
@@ -326,14 +384,14 @@
       "updatedAt": "2026-07-29T22:20:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/07/1b9ba5ea-14a.webp"
+      "imageUrl": "https://gpsbrasilia.com.br/wp-content/uploads/2026/07/gpsbrasilia-economia-dolar2-22072026-1.jpg"
     },
     {
       "id": "latest-278f733362809a4c61cbd0c7",
       "title": "Dólar cai para R$ 5,10, após juros serem mantidos nos EUA",
-      "summary": "Receita caiu para US$ 9,94 bilhões, em um recuo de 4% com relação a 2025",
-      "details": "Receita caiu para US$ 9,94 bilhões, em um recuo de 4% com relação a 2025",
-      "url": "https://www.cnnbrasil.com.br/economia/negocios/qualcomm-registra-queda-de-25-no-lucro-do-3o-tri-fiscal-a-us-2-bilhoes/",
+      "summary": "O Federal Reserve (Fed), banco central dos Estados Unidos, decidiu nesta quarta-feira (29) manter a taxa básica de juros na faixa entre 3,5% e 3,75% ao ano. A decisão era a mais esperada pelo mercado financeiro, mas esteve longe de ser um consenso, tanto entre investidores quanto",
+      "details": "O Federal Reserve (Fed), banco central dos Estados Unidos, decidiu nesta quarta-feira (29) manter a taxa básica de juros na faixa entre 3,5% e 3,75% ao ano. A decisão era a mais esperada pelo mercado financeiro, mas esteve longe de ser um consenso, tanto entre investidores quanto entre os integrantes…",
+      "url": "https://www.osul.com.br/banco-central-norte-americano-mantem-juros-mas-dois-fatores-chamam-a-atencao-do-mercado/",
       "source": "D24AM",
       "category": "latest",
       "tags": [
@@ -345,14 +403,14 @@
       "updatedAt": "2026-07-29T22:16:52Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportTechnologyNews/tagreuters.com2025binary_LYNXMPEL9Q0O0-BASEIMAGE.jpg?w=800&h=534&crop=1"
+      "imageUrl": "https://www.osul.com.br/wp-content/uploads/2026/07/fesds.jpg"
     },
     {
       "id": "macro-3109c826652de58f02908321",
       "title": "Qualcomm registra queda de 25% no lucro do 3º tri fiscal, a US$ 2 bilhões",
-      "summary": "Atualizacao de macro capturada em CNN Brasil.",
-      "details": "",
-      "url": "https://d24am.com/economia/dolar-cai-para-r-510-apos-juros-serem-mantidos-nos-eua/",
+      "summary": "Petróleo voltou a subir com acirramento das tensões no Oriente Médio, enquanto investidores repercutiram decisão do Federal Reserve (Fed)",
+      "details": "Petróleo voltou a subir com acirramento das tensões no Oriente Médio, enquanto investidores repercutiram decisão do Federal Reserve (Fed)",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-petroleiras-lideram-altas-csn-csna3-e-santander-sanb11-derretem/",
       "source": "CNN Brasil",
       "category": "macro",
       "tags": [
@@ -363,14 +421,15 @@
       "publishedAt": "2026-07-29T22:16:39Z",
       "updatedAt": "2026-07-29T22:16:39Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/KVY7ZEFMURHOZLLEW3JAACC3NI.jpg?quality=80&auth=10fb44ed60f44406fe675c1b9efe56ea519818587df47b48c8014c83302a8d60&width=1200&height=630&smart=true"
     },
     {
       "id": "funds-25aa1e266a4971fbc9f70116",
       "title": "Acadian Asset Management divulga resultados: o crescimento vai continuar?",
-      "summary": "Na quarta-feira (29), o dólar teve uma queda significativa e a bolsa brasileira apresentou um recuo, em um dia marcado pela decisão do Federal Reserve (Fed) de manter a taxa de juros nos Estados Unidos entre 3,50% e 3,75%. Essa decisão é relevante, pois influencia diretamente o m",
-      "details": "Na quarta-feira (29), o dólar teve uma queda significativa e a bolsa brasileira apresentou um recuo, em um dia marcado pela decisão do Federal Reserve (Fed) de manter a taxa de juros nos Estados Unidos entre 3,50% e 3,75%. Essa decisão é relevante, pois influencia diretamente o mercado financeiro global. A reação do me",
-      "url": "https://portalnovarejo.com.br/economia/dolar-cai-e-bolsa-recua-apos-decisao-do-fed-sobre-juros-nos-eua/",
+      "summary": "Receita caiu para US$ 9,94 bilhões, em um recuo de 4% com relação a 2025",
+      "details": "Receita caiu para US$ 9,94 bilhões, em um recuo de 4% com relação a 2025",
+      "url": "https://www.cnnbrasil.com.br/economia/negocios/qualcomm-registra-queda-de-25-no-lucro-do-3o-tri-fiscal-a-us-2-bilhoes/",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "funds",
       "tags": [
@@ -382,14 +441,14 @@
       "updatedAt": "2026-07-29T22:15:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://portalnovarejo.com.br/wp-content/uploads/2026/05/imagem-padrao-post.jpeg"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportTechnologyNews/tagreuters.com2025binary_LYNXMPEL9Q0O0-BASEIMAGE.jpg?w=800&h=534&crop=1"
     },
     {
       "id": "latest-67fe702aa7d8ed7159ac35dd",
       "title": "Dólar cai e bolsa recua após decisão do Fed sobre juros nos EUA",
-      "summary": "Atualizacao de ultima hora capturada em novarejo.",
-      "details": "",
-      "url": "https://br.investing.com/news/earnings/acadian-asset-management-divulga-resultados-o-crescimento-vai-continuar-93CH-2019047",
+      "summary": "A formação sobre cidadania, arrecadação tributária e investimentos no serviço público será realizada ao longo de três dias e culminará com a apresentação de projetos de Educação Fiscal para execução nas 22 escolas participantes.",
+      "details": "A formação sobre cidadania, arrecadação tributária e investimentos no serviço público será realizada ao longo de três dias e culminará com a apresentação de projetos de Educação Fiscal para execução nas 22 escolas participantes.",
+      "url": "https://santarem.pa.gov.br/noticias/financas/grupo-municipal-de-educacao-fiscal-de-santarem-reune-pedagogos-e-professores-da-regiao-varzea-na-escola-de-artes-emir-bemerguy-para-formacao-sobre-arr-5pqj7b",
       "source": "novarejo",
       "category": "latest",
       "tags": [
@@ -400,14 +459,15 @@
       "publishedAt": "2026-07-29T22:12:10Z",
       "updatedAt": "2026-07-29T22:12:10Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://santarem.pa.gov.br/storage/posts/July2026/medium/foto-ronaldo-ferreira-rfS59E.jpg"
     },
     {
       "id": "macro-75b6d0634e29eb2c73e32edb",
       "title": "Grupo Municipal de Educação Fiscal inicia formação para professores da região de Várzea",
-      "summary": "Atualizacao de macro capturada em Prefeitura de Santarém.",
-      "details": "",
-      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/07/29/fechamento-do-mercado-financeiro.htm",
+      "summary": "Na quarta-feira (29), o dólar teve uma queda significativa e a bolsa brasileira apresentou um recuo, em um dia marcado pela decisão do Federal Reserve (Fed) de manter a taxa de juros nos Estados Unidos entre 3,50% e 3,75%. Essa decisão é relevante, pois influencia diretamente o m",
+      "details": "Na quarta-feira (29), o dólar teve uma queda significativa e a bolsa brasileira apresentou um recuo, em um dia marcado pela decisão do Federal Reserve (Fed) de manter a taxa de juros nos Estados Unidos entre 3,50% e 3,75%. Essa decisão é relevante, pois influencia diretamente o mercado financeiro global. A reação do me",
+      "url": "https://portalnovarejo.com.br/economia/dolar-cai-e-bolsa-recua-apos-decisao-do-fed-sobre-juros-nos-eua/",
       "source": "Prefeitura de Santarém",
       "category": "macro",
       "tags": [
@@ -418,14 +478,15 @@
       "publishedAt": "2026-07-29T22:10:00Z",
       "updatedAt": "2026-07-29T22:10:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://portalnovarejo.com.br/wp-content/uploads/2026/05/imagem-padrao-post.jpeg"
     },
     {
       "id": "latest-8f5c089f10f9510f88ebfdc2",
       "title": "Ibovespa hoje: petroleiras lideram altas; CSN (CSNA3) e Santander (SANB11) derretem",
-      "summary": "A decisão, abaixo das expectativas mais duras do mercado, impulsionou ativos de risco e favoreceu o real, enquanto a Bolsa brasileira caiu.",
-      "details": "A decisão, abaixo das expectativas mais duras do mercado, impulsionou ativos de risco e favoreceu o real, enquanto a Bolsa brasileira caiu.",
-      "url": "https://urbnews.com.br/2026/07/29/dolar-fecha-em-queda-com-manutencao-dos-juros-nos-eua-bolsa-cai-pressionada-pelo-santander/",
+      "summary": "Atualizacao de ultima hora capturada em Estadão.",
+      "details": "",
+      "url": "https://br.investing.com/news/earnings/acadian-asset-management-divulga-resultados-o-crescimento-vai-continuar-93CH-2019047",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -436,16 +497,15 @@
       "publishedAt": "2026-07-29T22:02:00Z",
       "updatedAt": "2026-07-29T22:02:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://urbnews.com.br/wp-content/uploads/2026/07/dolar-em-alta-1.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-9d3f2478f311b8eeedb4d92a",
+      "id": "latest-30cd521f813f9e205348a016",
       "title": "Dólar fecha em queda com manutenção dos juros nos EUA; Bolsa cai pressionada pelo Santander",
-      "summary": "Petróleo voltou a subir com acirramento das tensões no Oriente Médio, enquanto investidores repercutiram decisão do Federal Reserve (Fed)",
-      "details": "Petróleo voltou a subir com acirramento das tensões no Oriente Médio, enquanto investidores repercutiram decisão do Federal Reserve (Fed)",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-hoje-petroleiras-lideram-altas-csn-csna3-e-santander-sanb11-derretem/",
-      "source": "URB News",
+      "summary": "A decisão, abaixo das expectativas mais duras do mercado, impulsionou ativos de risco e favoreceu o real, enquanto a Bolsa brasileira caiu.",
+      "details": "A decisão, abaixo das expectativas mais duras do mercado, impulsionou ativos de risco e favoreceu o real, enquanto a Bolsa brasileira caiu.",
+      "url": "https://urbnews.com.br/2026/07/29/dolar-fecha-em-queda-com-manutencao-dos-juros-nos-eua-bolsa-cai-pressionada-pelo-santander/",
+      "source": "urbnews.com.br",
       "category": "latest",
       "tags": [
         "mercado",
@@ -456,7 +516,7 @@
       "updatedAt": "2026-07-29T21:56:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/KVY7ZEFMURHOZLLEW3JAACC3NI.jpg?quality=80&auth=10fb44ed60f44406fe675c1b9efe56ea519818587df47b48c8014c83302a8d60&width=1200&height=630&smart=true"
+      "imageUrl": "https://urbnews.com.br/wp-content/uploads/2026/07/dolar-em-alta-1.jpg"
     },
     {
       "id": "latest-652439090de3b1abb8ad0865",
@@ -480,9 +540,9 @@
     {
       "id": "macro-c938d7e2bc1c169f934e7641",
       "title": "Dólar fecha a R$ 5,11 e Ibovespa recua após decisão de juros nos EUA",
-      "summary": "A formação sobre cidadania, arrecadação tributária e investimentos no serviço público será realizada ao longo de três dias e culminará com a apresentação de projetos de Educação Fiscal para execução nas 22 escolas participantes.",
-      "details": "A formação sobre cidadania, arrecadação tributária e investimentos no serviço público será realizada ao longo de três dias e culminará com a apresentação de projetos de Educação Fiscal para execução nas 22 escolas participantes.",
-      "url": "https://santarem.pa.gov.br/noticias/financas/grupo-municipal-de-educacao-fiscal-de-santarem-reune-pedagogos-e-professores-da-regiao-varzea-na-escola-de-artes-emir-bemerguy-para-formacao-sobre-arr-5pqj7b",
+      "summary": "Atualizacao de macro capturada em UOL Economia.",
+      "details": "",
+      "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/07/29/dolar-bolsa-fechamento-hoje-29-de-julho-de-2026.ghtm",
       "source": "UOL Economia",
       "category": "macro",
       "tags": [
@@ -493,15 +553,32 @@
       "publishedAt": "2026-07-29T21:38:08Z",
       "updatedAt": "2026-07-29T21:38:08Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://santarem.pa.gov.br/storage/posts/July2026/medium/foto-ronaldo-ferreira-rfS59E.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-c7bdce1c4416c116f28d9ad8",
+      "title": "Não existe meta flexível de inflação e não hesitaremos em agir, diz Warsh",
+      "summary": "Atualizacao de macro capturada em CNN Brasil.",
+      "details": "",
+      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/07/29/fechamento-do-mercado-financeiro.htm",
+      "source": "CNN Brasil",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-07-29T21:34:27Z",
+      "updatedAt": "2026-07-29T21:34:27Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-53c5288cedc368729f4f5577",
       "title": "Fechamento do mercado financeiro",
-      "summary": "Atualizacao de ultima hora capturada em UOL Economia.",
-      "details": "",
-      "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/07/29/dolar-bolsa-fechamento-hoje-29-de-julho-de-2026.ghtm",
+      "summary": "Segundo o presidente do Fed, meta é inflação em 2%",
+      "details": "Segundo o presidente do Fed, meta é inflação em 2%",
+      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/nao-existe-meta-flexivel-de-inflacao-e-nao-hesitaremos-em-agir-diz-warsh/",
       "source": "UOL Economia",
       "category": "latest",
       "tags": [
@@ -512,7 +589,8 @@
       "publishedAt": "2026-07-29T21:34:00Z",
       "updatedAt": "2026-07-29T21:34:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/warsh-1-julho.jpg?w=1200&h=630&crop=1"
     },
     {
       "id": "latest-1de562d78b4b219e055d4346",
@@ -534,11 +612,30 @@
       "imageUrl": "https://img.dhost.cloud/5M11VLly62sXWSEtZJn_J-BaZm4=/1200x630/smart/https://tdan.nyc3.digitaloceanspaces.com/images/a1a53/d93c0412c69c95e85f88a03cbfe76bb4608.jpg"
     },
     {
+      "id": "latest-58a8acc0e56641af33fb4d1c",
+      "title": "Fed mantém juros pela 5ª vez, mas três votos dissidentes pressionam bolsas e acendem alerta sobre inflação",
+      "summary": "Três membros do Fed votaram por alta de juros, maior dissidência desde 2016. Ibovespa caiu 1,52% e Treasuries longos bateram máxima em 18 anos.",
+      "details": "Três membros do Fed votaram por alta de juros, maior dissidência desde 2016. Ibovespa caiu 1,52% e Treasuries longos bateram máxima em 18 anos.",
+      "url": "https://blocktrends.com.br/fed-mantem-juros-tres-dissidencias-alerta-mercados/",
+      "source": "BlockTrends",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-07-29T21:33:32Z",
+      "updatedAt": "2026-07-29T21:33:32Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://blocktrends.com.br/wp-content/uploads/2026/07/bt-361153-1785360813.jpg"
+    },
+    {
       "id": "macro-a68e819da5f54836369af425",
       "title": "BC dos EUA mantém juros entre 3,5% e 3,75% ao ano pela 5ª vez seguida",
-      "summary": "Atualizacao de macro capturada em UOL Economia.",
-      "details": "",
-      "url": "https://economia.uol.com.br/noticias/redacao/2026/07/29/fed---juros-29-de-julho-de-2026.ghtm",
+      "summary": "Republicano fez duras críticas ao BC quando Powell presidia a instituição. Agora, sob o comando de seu indicado, defende que a decisão sobre os juros depende de um conselho.",
+      "details": "Republicano fez duras críticas ao BC quando Powell presidia a instituição. Agora, sob o comando de seu indicado, defende que a decisão sobre os juros depende de um conselho.",
+      "url": "https://g1.globo.com/economia/noticia/2026/07/29/trump-fed-warsh.ghtml",
       "source": "UOL Economia",
       "category": "macro",
       "tags": [
@@ -549,14 +646,15 @@
       "publishedAt": "2026-07-29T21:33:27Z",
       "updatedAt": "2026-07-29T21:33:27Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s2-g1.glbimg.com/ewZ7kskuXzOpHWr5lf0tY3E7VFs=/3984x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/D/9/wAIln4TdGvwCvIMoxdFw/2026-07-29t211537z-1397137891-rc2helaaf8pj-rtrmadp-3-usa-trump-fed.jpg"
     },
     {
       "id": "macro-adb827ef646546a92dcc47a4",
       "title": "Trump ameniza tom e mantém apoio a Warsh apesar de Fed não cortar juros: 'Ele é brilhante'",
-      "summary": "A pressão foi concentrada nos bancos e em outras ações de peso. Na direção oposta, Petrobras e companhias do setor de petróleo avançaram",
-      "details": "A pressão foi concentrada nos bancos e em outras ações de peso. Na direção oposta, Petrobras e companhias do setor de petróleo avançaram",
-      "url": "https://mistobrasil.com/2026/07/29/ibovespa-fechou-em-forte-queda-dolar-tambem-caiu/",
+      "summary": "Atualizacao de macro capturada em G1.",
+      "details": "",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/07/29/fed---juros-29-de-julho-de-2026.ghtm",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -567,34 +665,14 @@
       "publishedAt": "2026-07-29T21:29:36Z",
       "updatedAt": "2026-07-29T21:29:36Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://mistobrasil.com/wp-content/uploads/2026/04/mercado-financeiro-bolsa-numeros.webp"
-    },
-    {
-      "id": "latest-7e7b29c121fd5b6dc75dbeeb",
-      "title": "Ibovespa fechou em forte queda. Dólar também caiu",
-      "summary": "Misto Brasil",
-      "details": "Republicano fez duras críticas ao BC quando Powell presidia a instituição. Agora, sob o comando de seu indicado, defende que a decisão sobre os juros depende de um conselho.",
-      "url": "https://g1.globo.com/economia/noticia/2026/07/29/trump-fed-warsh.ghtml",
-      "source": "- Misto Brasil",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-29T21:27:41Z",
-      "updatedAt": "2026-07-29T21:27:41Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://s2-g1.glbimg.com/ewZ7kskuXzOpHWr5lf0tY3E7VFs=/3984x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/D/9/wAIln4TdGvwCvIMoxdFw/2026-07-29t211537z-1397137891-rc2helaaf8pj-rtrmadp-3-usa-trump-fed.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-908115516c4fabf1db4737f7",
       "title": "Ibovespa cai com decisão de política monetária nos EUA e tensões no Oriente Médio",
-      "summary": "Banco central vota 9 a 3 pela manutenção da taxa entre 3,5% e 3,75%; probabilidade de alta em setembro sobe a 60% com três dissidências a favor do aperto",
-      "details": "Banco central vota 9 a 3 pela manutenção da taxa entre 3,5% e 3,75%; probabilidade de alta em setembro sobe a 60% com três dissidências a favor do aperto",
-      "url": "https://www.infomoney.com.br/mercados/treasuries-de-30-anos-atingem-maior-nivel-desde-2007-apos-fed-manter-juros/",
+      "summary": "Atualizacao de ultima hora capturada em trademap.com.br.",
+      "details": "",
+      "url": "https://trademap.com.br/agencia/ibovespa-cai-com-decisao-de-politica-monetaria-nos-eua-e-tensoes-no-oriente-medio",
       "source": "trademap.com.br",
       "category": "latest",
       "tags": [
@@ -605,26 +683,26 @@
       "publishedAt": "2026-07-29T21:25:00Z",
       "updatedAt": "2026-07-29T21:25:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/07/461744898.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "macro-74ecb748e8c7962194f291a5",
+      "id": "latest-c1181346347d8274695d791e",
       "title": "Petróleo Dispara com Tensão no Oriente Médio; Fed Derruba Ibovespa e Dólar Recua",
-      "summary": "Atualizacao de macro capturada em Forbes Brasil.",
-      "details": "",
-      "url": "https://trademap.com.br/agencia/ibovespa-cai-com-decisao-de-politica-monetaria-nos-eua-e-tensoes-no-oriente-medio",
+      "summary": "Banco central vota 9 a 3 pela manutenção da taxa entre 3,5% e 3,75%; probabilidade de alta em setembro sobe a 60% com três dissidências a favor do aperto",
+      "details": "Banco central vota 9 a 3 pela manutenção da taxa entre 3,5% e 3,75%; probabilidade de alta em setembro sobe a 60% com três dissidências a favor do aperto",
+      "url": "https://www.infomoney.com.br/mercados/treasuries-de-30-anos-atingem-maior-nivel-desde-2007-apos-fed-manter-juros/",
       "source": "Forbes Brasil",
-      "category": "macro",
+      "category": "latest",
       "tags": [
-        "macro",
-        "juros",
-        "inflacao"
+        "mercado",
+        "bolsa",
+        "macro"
       ],
       "publishedAt": "2026-07-29T21:23:57Z",
       "updatedAt": "2026-07-29T21:23:57Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/07/461744898.jpg"
     },
     {
       "id": "macro-e0bb2060f43fa3caedd4cc95",
@@ -666,9 +744,9 @@
     {
       "id": "macro-f981aff367ea1e8c6f40b2df",
       "title": "Juros longos dos EUA atingem máxima em 18 anos após Fed manter juros pela 5ª vez consecutiva",
-      "summary": "Segundo a plataforma Binance, a Criptomoeda subiu 0,73%, enquanto o Ethereum baixou 0,03%",
-      "details": "Segundo a plataforma Binance, a Criptomoeda subiu 0,73%, enquanto o Ethereum baixou 0,03%",
-      "url": "https://www.cnnbrasil.com.br/economia/mercado/bitcoin-opera-em-alta-apos-decisao-do-fed-e-a-espera-de-balancos-tech/",
+      "summary": "Atualizacao de macro capturada em Money Times.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaXVseFFIQ1pIR0IyVU43d2VMbFJRM2JiM1NlUFNVNlk2NzdCalBldkdnR2g2NWFnTTlOMUYyT21qbE1ORUxiZnBTUTMzX3RKTlVwSmdsRFMyZWFGLTN0SU1xS2h0RjZyVlhpcjhsS19mSlZKY3lVRGFZOWRTaHRuTkc5bEhGTGZYLVpOeHZzWE9sNmxiMEtLNk1kckhEZEhvTWRITjN3UjM2a21sVVFfdG1aU2RaS1ZlRzNwbUlUYWZKQ1ZVbHNr?oc=5",
       "source": "Money Times",
       "category": "macro",
       "tags": [
@@ -679,15 +757,14 @@
       "publishedAt": "2026-07-29T21:19:00Z",
       "updatedAt": "2026-07-29T21:19:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/qndo-bitcoin-pizzaday-WirestockMagnific-e1784589526671.jpg?w=1200&h=630&crop=1"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-e5d5266445a167f659ba805a",
       "title": "Bitcoin opera em alta após decisão do Fed e à espera de balanços tech",
-      "summary": "O rendimento do titulo de 30 ano atingiu o maior patamar desde julho de 2007 após a decisão do Fed de manter os juros inalterados",
-      "details": "O rendimento do titulo de 30 ano atingiu o maior patamar desde julho de 2007 após a decisão do Fed de manter os juros inalterados",
-      "url": "https://www.moneytimes.com.br/juros-longos-dos-eua-atingem-maxima-em-18-anos-apos-fed-manter-juros-pela-5a-vez-consecutiva-lils/",
+      "summary": "Atualizacao de macro capturada em CNN Brasil.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQU05UMWNZa0UxRUNsdFotMXNublBxX0JLZXQzRWprcWpBWHB3RXlWSFVZdXdQTV9aQy1kbkt2MzFVblFVSjhMbi1IT1VDNk5wOFNVMjV0Skh6VlJiM0NwMElBVzRCWlNGZWhaeHgwX0FjOWM5NWwtb0xoclcxLXMxZ19VV2tBS0lhYXVRakxWNlJ3OU9paUFvbzdQSjVEbjZHOUM3a2UwQVNTRldnNzMxSTNNV19mRGs?oc=5",
       "source": "CNN Brasil",
       "category": "macro",
       "tags": [
@@ -698,15 +775,14 @@
       "publishedAt": "2026-07-29T21:18:59Z",
       "updatedAt": "2026-07-29T21:18:59Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/07/federal-reserve-fed-fomc-eua-estados-unidos-4.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-22a4112155cf1c997f290556",
       "title": "Juros futuros seguem Treasuries e fecham sem direção única após Fed",
-      "summary": "Na ponta curta, as taxas terminaram em leve queda ou estáveis, ao passo que as taxas de longo prazo subiram",
-      "details": "Na ponta curta, as taxas terminaram em leve queda ou estáveis, ao passo que as taxas de longo prazo subiram",
-      "url": "https://valor.globo.com/financas/noticia/2026/07/29/juros-futuros-seguem-treasuries-e-fecham-sem-direcao-unica-apos-fed.ghtml",
+      "summary": "Atualizacao de macro capturada em Valor Econômico.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNd3J0Mmh3Rk5OMy1VS1JETEJUSEpjS1N4RzJ5c25XU0NFaHVGazJUVXUxOU5xVkR1Tmpnc0VyRlhGa2F1aHFXUGR5aHg1d3JxWVl6MU8yWURUb0dpRVZYcVZ5cnZQamVUTWhFZ3dmR2xLLUlNWEFUTXFiNTltVGJkb0p5dWVucS1uZ1d0bFpPMGt6OTVQWGNDUFVXZWdfWkEyM09CMzZ4V0ZQX09aX1p2NWZyRUZVZTdacmpoQVR3ZEx0TDTSAdIBQVVfeXFMTnl3ajVBa2NxdE1JTVFwM0VSQ085RmluRTNDN3hGLU00OGdacEZsTkVBS3I0ZTIwVGY0VldUY05fWmMwT0tnR3d1YnZJT2htQUlUU2pPeGhGTHRuNnhsRkFsdkpPUEdsOVJyV0gyclVEOFEzWm5OLUJtQW1MNFhjYW01MnhXdGRWYkJJM3NCczhGaHpXd3ZLV3o5U1pKY2hHNDNTWnJsbk1iWlVtY2xYV0VhRmg0RHZaSDBSX0Rzczg2WVV4VWV5RkdYSUhLQlRyUmFB?oc=5",
       "source": "Valor Econômico",
       "category": "macro",
       "tags": [
@@ -717,26 +793,7 @@
       "publishedAt": "2026-07-29T21:18:30Z",
       "updatedAt": "2026-07-29T21:18:30Z",
       "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/vKjHv8CQnMi0roUV58xd7FS3Ga4=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/m/a/BgKU87QOGJ1BiHQBMZFA/juros-percentual-porcento-taxas-buffik-pixabay.jpg"
-    },
-    {
-      "id": "latest-a42f76d8714ab1a6ce245396",
-      "title": "Ibovespa hoje fecha em queda de 1,52% com bancos e NY",
-      "summary": "Ibovespa hoje caiu 1,52%, pressionado por bancos e Wall Street. Petróleo impulsionou Petrobras e PRIO, e dólar recuou a R$ 5,10 no dia",
-      "details": "Ibovespa hoje caiu 1,52%, pressionado por bancos e Wall Street. Petróleo impulsionou Petrobras e PRIO, e dólar recuou a R$ 5,10 no dia",
-      "url": "https://euqueroinvestir.com/acoes/ibovespa-hoje-queda-bancos-wall-street",
-      "source": "EuQueroInvestir",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-29T21:16:13Z",
-      "updatedAt": "2026-07-29T21:16:13Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-bf20d049280e6b9af0b50ed7",
@@ -775,58 +832,22 @@
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "macro-2748ad3668639ecd333c11d5",
-      "title": "Em pregão volátil, taxas de juros fecham em alta, com aposta de aperto do Fed à frente",
-      "summary": "Atualizacao de macro capturada em UOL Economia.",
+      "id": "macro-69ff3e22e8bff6eb6609d58f",
+      "title": "Ibovespa segue Wall Street e fecha em baixa em dia de Fed; dólar cai a R$ 5,10",
+      "summary": "Atualizacao de macro capturada em Money Times.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQR2N5OXdILXVRZHM0Nlc0a2loNjJtaExaWnJKUnB3d3QxMzJYUFJhdDhHUEpXYTdoZEVPT3duUTlwZ3VkZUF2ZGRiMjFtdThIamw3ZjFCdkk3ZTZJUHR4TmdhcEZ3QV9ZU05tUWtDUmFuaG90OGVUSVotWWx6VUthOVZ0cGZxWGNuV0dLYmJOUFRZOTJRa3dqdGZqQmRhMGZpaWotM21hVHl5SW5NUndsMzBuWGYtMFBKMmdWMTAtMXFvM0dnVVRWOHl5RVgzRjlhcXZHVUxCd2h4N0pTdFhPakNWQnNLWnE3?oc=5",
-      "source": "UOL Economia",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNE5aaW9Qb3B3dzFTUm1hSGo5eUFoTmZiN2VjVy03LWZvNFY5ZFlvLUlPQThxWE5fMkNMRHN1Zmg2VC1vZWtqdXpSSW12UVVlMVFrMm1abDd3RzA5MVJJbzlINWVoRzlpVlVINVNsbEMwVVQ4NGhEVHZmWGtacnJEd0IyMGZPOXZyUXRkZWZPQnY5Mlg3RGxVYXAwSXNHcWlaZFpSWHBQQUhXZw?oc=5",
+      "source": "Money Times",
       "category": "macro",
       "tags": [
         "macro",
         "juros",
         "inflacao"
       ],
-      "publishedAt": "2026-07-29T21:13:00Z",
-      "updatedAt": "2026-07-29T21:13:00Z",
+      "publishedAt": "2026-07-29T21:12:00Z",
+      "updatedAt": "2026-07-29T21:12:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "latest-43fc58b225a1e2fd213f8cf3",
-      "title": "Dólar cai 0,24% com manutenção dos juros nos Estados Unidos",
-      "summary": "Atualizacao de ultima hora capturada em Bem Paraná.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYlM1LUdrQm9MbE1RaHNxbTJud1VDMF9LS1RDLXkzMTBIUFFuVktLLU1yLU1oTnhhbWg1NWpXVHBDUDBSZ2owczVkXzdDZU5xcVZBaG8tMWJzTGpOSGJXbjB4VFgzTGdXcVJQQXpjOHNQM2hpRlVsZ2RPZmF6aEQ4RnJvZ2d4TUlQeTdIMktBWkhLQ2FJZlc0VnN3REZ5bDUtQzRXUTlzeHbSAa4BQVVfeXFMTlRraDRzSGRUSlhiNHN3MEVMUzJEdTc0TEhYMEwzb3dEa2NjOW1sWlhyMVdKZXFZMDNGVFA4Q1VuXzhpT2dQQUlXYlUySTY2aGZWVHd5MXdqNXVheGZTZDdOUVJ3YmloWG5PRl9SUTdxd1ZfSEcxajZ4WXJOVDZiZmplTklQdFNDTnU1SGJiX1ZXUjdmWlQ1OVBlWUtmWG4tQzkzYnpPTnJjZzRWVmhR?oc=5",
-      "source": "Bem Paraná",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-29T21:11:00Z",
-      "updatedAt": "2026-07-29T21:11:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-ab5b63f77e690f752582acf3",
-      "title": "Ibovespa cai mais de 1% após manutenção de juros nos EUA e tensões no Oriente Médio",
-      "summary": "Atualizacao de ultima hora capturada em VEJA.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdEVVXzNMd2kwdjdOR3JoeG9tYlctemNXa0hZdlI4cEZWblNmVHRXblNiR243cVhvVWlNdk1zbmVOMmthQmZ1TG16Q2F3YjRSOW9ua1FUMkxMMVdZbXdjMG84Qm5wRHQzQ0hBUG9fRzRucW9JcEk3WnhDdWc3b19lS3JiQTlOSmxMTVZ4SXJYY3VwaWZRQ3c0OUg4SWh0Qkh4QzBOdjUwTUhRUHRzdHBZOVU1Ty1RRVNUbWc?oc=5",
-      "source": "VEJA",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-07-29T21:03:10Z",
-      "updatedAt": "2026-07-29T21:03:10Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-81ebbaa66126233b5f033150",
@@ -862,42 +883,6 @@
       "publishedAt": "2026-07-29T20:58:30Z",
       "updatedAt": "2026-07-29T20:58:30Z",
       "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-7f42985a74eb3596fda681c1",
-      "title": "Ibovespa cai 1,52% e fecha na mínima do dia após Fed manter juros: o que desanimou?",
-      "summary": "Atualizacao de macro capturada em InfoMoney.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNR1c1TkJvSnVpY2NLOGM5dzhFQkVxWTZ4MU1tZnpkVGJ1MzBheUVtX1ZrYUE5R19MWWRCaUpMdTRiOVJqenZvcTlFT3V4Ym5CQnF2blVwblJId2gxYi10LUxuOEdZQnpLUHU0WFp0VmE0ekNCUHpfQnJKcnJFb1dCRnVfbDNHUXRtVVRPNFJwNy1HSW9WR0ZWN09veVJQZUnSAaQBQVVfeXFMUGh1akIxN0tfb2FRUlFlT3BMaUhQRjNYQWFDN0JkRUhFdXVNLTltcGV2T2d4V1hsTXJmN3Y1UGN2dU5ISWZTRHVMeGNrZWtveW5sR0pDSnlvQkNqd3BodnJ1dXU5SmgtdHpQbnVqaTNkN1QtMjV6cjFwQ0pWRGhWaFlWSnlWc3lEZ0FmME9ZU2Y5UXpzMUpWRmhuOEZtQ3VKeUxKemk?oc=5",
-      "source": "InfoMoney",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-29T20:55:16Z",
-      "updatedAt": "2026-07-29T20:55:16Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-def53df06d2ef1c8e9bff4a6",
-      "title": "Ibovespa cai 1,52% após Fed manter juros e tensão no Oriente Médio ganhar força",
-      "summary": "Atualizacao de macro capturada em suno.com.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0xYjJRdklTOV9jdk9BZmItUDR1cUs0OV96RHNlUWR2NUFFQlNVQ012ZmkwbGxfU2tYMkJWcWVJSWhQaVhzQy1Eb3lSSmZBMHRaenAza29UQ1VIZHdJRjd1RE9aQlBtMmEzendJYkVBYnZRSHRkUFpuSHVOMHRmbTQ?oc=5",
-      "source": "suno.com.br",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-29T20:55:08Z",
-      "updatedAt": "2026-07-29T20:55:08Z",
-      "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
@@ -1009,6 +994,24 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
+      "id": "funds-bc37f84512fa72c3e4089225",
+      "title": "Consolidação de FIIs da Inter avança pela metade",
+      "summary": "Atualizacao de fundos capturada em Nord Investimentos.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTVdONEFaUE9qaWItems1dzY4aVJxVk1TUndlYXZ4ZTd6bGZDWnU0bmZxUmx1RDVoSEJ3RUxtMXZlMDVmbkl4SHVYVnRnbldXSFlLZFhoWGsyWnFKdUZBdHZkNGNBUk04d3FrcnBqTkJ1dXc1M1hwbUFoUHA3djVaM2VVOFBZUWFDN1BtVi0wZ2VJaWV3bXfSAZYBQVVfeXFMTk1XTjRBWlBPamliLXprNXc2OGlScVZNU1J3ZWF2eGU3emxmQ1p1NG5mcVJsdUQ1aEhCd0VMbTF2ZTA1Zm5JeEh1WFZ0Z25XV0hZS2RYaFhrMlpxSnVGQXR2ZDRjQVJNOHdxa3Jwak5CdXV3NTNYcG1BaFBwN3Y1WjNlVThQWVFhQzdQbVYtMGdlSWlld213?oc=5",
+      "source": "Nord Investimentos",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-07-29T17:32:00Z",
+      "updatedAt": "2026-07-29T17:32:00Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
       "id": "funds-65796306728a5655fc3b1174",
       "title": "Horizon Kinetics Asset Management compra ações do RENN Fund por US$ 2.305",
       "summary": "Atualizacao de fundos capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
@@ -1117,12 +1120,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "companies-46c1521a8f433231509beb3b",
+      "id": "companies-87ef6886e30b9a555a3f0ddf",
       "title": "Shadow AI: o risco invisível nas empresas brasileiras",
-      "summary": "Atualizacao de empresas capturada em campograndenews.com.br.",
+      "summary": "Atualizacao de empresas capturada em Campo Grande News.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTWRmNVkyNXVFTGNDT2gyX0FVeUdXSl9tdFNaRXk2cU91Vk5IXzZZeUJVQTRwLUJnbFl3M0dpajUwV3JaRFpGMnB1RUlPSzJFM0tEak83ckpKOUtwc0tPemx2Smp5Qkptd0NTbGM2VlBrbVJOWnJnQlQ5dEJQWmxWX0phTW80SHlGdFVPa2ZkT2dIc1pXeUhReGpWVFpHNWJvSVNNUFNCaUZrVHVqQzk2bjdlRzNYSno1SWNYeGk3eUZyN0I4eTZDYlQ1ZVFJd9IBzgFBVV95cUxOZm0yZzBYcTFDekxGTlVuT19MVUxnYnpaT0V4WXp1Yy0wU01RVmRZZTJjMFlKRmtCWm9oUFo5UU5FTzA1QWgwU3Q5aUJWLTdYbVZLUm16eEtDbkR3Y1BvWVRENEtLUEVzQnpyVm1oZDFiYU5CbzJ6NFRxemw5UkxnTV9LTXgxTmxrMG5OYkRCNkkzVFhjRnplQldlU1c4a1VNWk90dUlnSktzQXlOcjk1cERtREJteUY0enZEWjk0eVl6Q2FpaVZzTUpZQW10Zw?oc=5",
-      "source": "campograndenews.com.br",
+      "source": "Campo Grande News",
       "category": "companies",
       "tags": [
         "empresas",
@@ -1261,12 +1264,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "companies-7b71e24284c55be31cbed6c9",
+      "id": "companies-b1a091769ff284dd7982b0d7",
       "title": "Por que consultorias de CRM estão se tornando as novas parceiras estratégicas das empresas brasileiras?",
-      "summary": "Atualizacao de empresas capturada em ayurveda.gov.lk.",
+      "summary": "Atualizacao de empresas capturada em economiasp.com.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORUg4UGxmemRiS3pyOTBJRkNXcnUyRnlxWEFtQ190ZFc4TEJLY3NwRUZSMkl4SDhmRklaY3NiMTgzR0pWQWtWSU9uQUtXZWE2YWo5TnZoUkdRX2hydF90U0syaC1tUDFoclE1WTVBcF9kODNhQnNacE5xQ210ODFwZG5scC03Z3NEYjR2cWtKdDRzeHItMFQ5eUt3Mm9waDdJSGpIbEdEdFV4bjQ3MWJRNWsxcTZaMnVQd0xINjFERmE0eWZDajhlQUdiVURZdUFWT1Y4?oc=5",
-      "source": "ayurveda.gov.lk",
+      "source": "economiasp.com",
       "category": "companies",
       "tags": [
         "empresas",
