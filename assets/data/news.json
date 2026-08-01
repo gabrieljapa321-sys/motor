@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-01T07:14:42Z",
-  "generatedAt": "2026-08-01T07:14:42Z",
+  "updatedAt": "2026-08-01T09:23:05Z",
+  "generatedAt": "2026-08-01T09:23:05Z",
   "categories": [
     {
       "id": "all",
@@ -24,14 +24,6 @@
     }
   ],
   "sources": [
-    {
-      "id": "ayurveda-gov-lk",
-      "label": "ayurveda.gov.lk"
-    },
-    {
-      "id": "bluestudio-estadao-com-br",
-      "label": "bluestudio.estadao.com.br"
-    },
     {
       "id": "boca-com-br",
       "label": "boca.com.br"
@@ -57,16 +49,24 @@
       "label": "Contas Poupança"
     },
     {
+      "id": "diariodorio-com",
+      "label": "diariodorio.com"
+    },
+    {
       "id": "di-rio-do-com-rcio",
       "label": "Diário do Comércio"
     },
     {
-      "id": "di-rio-do-rio",
-      "label": "Diário do Rio"
+      "id": "economiasp-com",
+      "label": "economiasp.com"
     },
     {
       "id": "estad-o",
       "label": "Estadão"
+    },
+    {
+      "id": "estad-o-blue-studio",
+      "label": "Estadão Blue Studio"
     },
     {
       "id": "exame",
@@ -77,16 +77,12 @@
       "label": "Fato Paulista"
     },
     {
-      "id": "fator-brasil",
-      "label": "Fator Brasil"
-    },
-    {
       "id": "folha-de-cianorte",
       "label": "Folha de Cianorte"
     },
     {
-      "id": "folha-de-s-paulo",
-      "label": "Folha de S.Paulo"
+      "id": "folha-uol-com-br",
+      "label": "folha.uol.com.br"
     },
     {
       "id": "g1",
@@ -101,12 +97,12 @@
       "label": "ISTOÉ DINHEIRO"
     },
     {
-      "id": "jornaldebrasilia-com-br",
-      "label": "jornaldebrasilia.com.br"
+      "id": "jornal-de-bras-lia",
+      "label": "Jornal de Brasília"
     },
     {
-      "id": "mix-vale",
-      "label": "Mix Vale"
+      "id": "jota-info",
+      "label": "JOTA Info"
     },
     {
       "id": "monitor-mercantil",
@@ -141,12 +137,20 @@
       "label": "Prefeitura de São José dos Campos"
     },
     {
-      "id": "rcwtv",
-      "label": "RCWTV"
+      "id": "rcwtv-com-br",
+      "label": "rcwtv.com.br"
     },
     {
-      "id": "segs-portal-nacional",
-      "label": "SEGS Portal Nacional"
+      "id": "revistafatorbrasil-com-br",
+      "label": "revistafatorbrasil.com.br"
+    },
+    {
+      "id": "segs-com-br",
+      "label": "segs.com.br"
+    },
+    {
+      "id": "timesbrasil-com-br",
+      "label": "timesbrasil.com.br"
     },
     {
       "id": "trademap-com-br",
@@ -165,17 +169,55 @@
       "label": "VEJA"
     },
     {
-      "id": "vero-not-cias",
-      "label": "Vero Notícias"
+      "id": "yellow-com",
+      "label": "Yellow.com"
     }
   ],
   "items": [
     {
+      "id": "macro-f8f98c84e155f456b633b050",
+      "title": "Corte de juros deve continuar, mas petróleo preocupa Copom",
+      "summary": "Novo corte de 0,25 ponto da Selic na próxima reunião do Copom é o cenário mais provável, avalia Everton Gonçalves.",
+      "details": "Novo corte de 0,25 ponto da Selic na próxima reunião do Copom é o cenário mais provável, avalia Everton Gonçalves.",
+      "url": "https://timesbrasil.com.br/brasil/economia-brasileira/corte-de-juros-deve-continuar-mas-petroleo-preocupa-copom/",
+      "source": "timesbrasil.com.br",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-01T09:00:00Z",
+      "updatedAt": "2026-08-01T09:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/07/5fdaa8c1-03.webp"
+    },
+    {
+      "id": "macro-ef06b1c7703329b89b0d5d61",
+      "title": "A regulamentação da relevância da questão federal",
+      "summary": "Quando o banco central fala de mais (e de menos)",
+      "details": "Quando o banco central fala de mais (e de menos)",
+      "url": "https://oglobo.globo.com/economia/tony-volpon/coluna/2026/08/quando-o-banco-central-fala-de-mais-e-de-menos.ghtml",
+      "source": "JOTA Info",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-01T08:30:15Z",
+      "updatedAt": "2026-08-01T08:30:15Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://ogcss.infoglobo.com.br/9876543210/img/oglobo.jpg"
+    },
+    {
       "id": "macro-64f17998f7573587a00c275c",
       "title": "Milei reduz gasto público da Argentina com ajuste fiscal, apoiado por conjuntura externa",
-      "summary": "Em três anos, despesa pública do país caiu de 19,5% do PIB para 14,3% do PIB",
-      "details": "Em três anos, despesa pública do país caiu de 19,5% do PIB para 14,3% do PIB",
-      "url": "https://oglobo.globo.com/economia/noticia/2026/08/01/milei-reduz-gasto-publico-da-argentina-com-ajuste-fiscal-apoiado-por-conjuntura-externa.ghtml",
+      "summary": "Perspectivas e espaços de conformação do Regimento Interno do STJ",
+      "details": "Perspectivas e espaços de conformação do Regimento Interno do STJ",
+      "url": "https://www.jota.info/opiniao-e-analise/colunas/observatorio-constitucional/a-regulamentacao-da-relevancia-da-questao-federal",
       "source": "O GLOBO",
       "category": "macro",
       "tags": [
@@ -187,14 +229,14 @@
       "updatedAt": "2026-08-01T07:00:26Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-oglobo.glbimg.com/33MUIcF8-60zu_xcexQBGt_pRTo=/5114x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/h/N/Ex9LARQey3U0cKwnqe5g/milei-hoje-2-bloomberg.jpg"
+      "imageUrl": "https://images.jota.info/wp-content/uploads/2026/06/edificio-sede-do-stj-pert.jpg"
     },
     {
       "id": "macro-f70bd26bdd5364d9c1becba7",
       "title": "Quando o banco central fala de mais (e de menos)",
-      "summary": "Quando o banco central fala de mais (e de menos)",
-      "details": "Quando o banco central fala de mais (e de menos)",
-      "url": "https://oglobo.globo.com/economia/tony-volpon/coluna/2026/08/quando-o-banco-central-fala-de-mais-e-de-menos.ghtml",
+      "summary": "Em três anos, despesa pública do país caiu de 19,5% do PIB para 14,3% do PIB",
+      "details": "Em três anos, despesa pública do país caiu de 19,5% do PIB para 14,3% do PIB",
+      "url": "https://oglobo.globo.com/economia/noticia/2026/08/01/milei-reduz-gasto-publico-da-argentina-com-ajuste-fiscal-apoiado-por-conjuntura-externa.ghtml",
       "source": "O GLOBO",
       "category": "macro",
       "tags": [
@@ -206,15 +248,15 @@
       "updatedAt": "2026-08-01T07:00:22Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://ogcss.infoglobo.com.br/9876543210/img/oglobo.jpg"
+      "imageUrl": "https://s2-oglobo.glbimg.com/33MUIcF8-60zu_xcexQBGt_pRTo=/5114x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/h/N/Ex9LARQey3U0cKwnqe5g/milei-hoje-2-bloomberg.jpg"
     },
     {
-      "id": "macro-85dab5134249647b2989a1b6",
+      "id": "macro-6ec25eb63a32cb799d164183",
       "title": "Presidente do Fed avalia reduzir frequência de reuniões que definem taxa de juros dos EUA",
-      "summary": "Mudança romperia com calendário adotado desde 1981 e nublaria busca do banco por mais transparência",
-      "details": "Mudança romperia com calendário adotado desde 1981 e nublaria busca do banco por mais transparência",
-      "url": "https://www1.folha.uol.com.br/mercado/2026/08/presidente-do-fed-avalia-reduzir-frequencia-de-reunioes-que-definem-taxa-de-juros-dos-eua.shtml",
-      "source": "Folha de S.Paulo",
+      "summary": "Atualizacao de macro capturada em folha.uol.com.br.",
+      "details": "",
+      "url": "https://br.investing.com/news/economy-news/venda-de-treasuries-mostra-que-fed-precisa-reforcar-credibilidade-no-combate-a-inflacao-2022560",
+      "source": "folha.uol.com.br",
       "category": "macro",
       "tags": [
         "macro",
@@ -224,15 +266,14 @@
       "publishedAt": "2026-08-01T07:00:00Z",
       "updatedAt": "2026-08-01T07:00:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/31/17855526596a6d5f1392e52_1785552659_3x2_rt.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "companies-b9ecbb441ee2fed5722d09cc",
       "title": "Receita Federal passará a reter imposto instantaneamente em vendas no comércio",
-      "summary": "O split payment está prestes a impactar a reforma tributária de 2026 no Brasil, modificando o tratamento dos tributos pelas",
-      "details": "O split payment está prestes a impactar a reforma tributária de 2026 no Brasil, modificando o tratamento dos tributos pelas",
-      "url": "https://diariodocomercio.com.br/mix/receita-federal-passara-a-cobrar-imposto-em-transferencias-bancarias-feitas-via-pix/",
+      "summary": "Mudança romperia com calendário adotado desde 1981 e nublaria busca do banco por mais transparência",
+      "details": "Mudança romperia com calendário adotado desde 1981 e nublaria busca do banco por mais transparência",
+      "url": "https://www1.folha.uol.com.br/mercado/2026/08/presidente-do-fed-avalia-reduzir-frequencia-de-reunioes-que-definem-taxa-de-juros-dos-eua.shtml",
       "source": "Diário do Comércio",
       "category": "companies",
       "tags": [
@@ -244,14 +285,14 @@
       "updatedAt": "2026-08-01T04:40:47Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://diariodocomercio.com.br/mix/wp-content/uploads/2025/07/20032014dinheirofotomarcossantos007-810x540-1.jpg"
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/31/17855526596a6d5f1392e52_1785552659_3x2_rt.jpg"
     },
     {
       "id": "macro-c5458d68e344a254f7ff9b78",
       "title": "Venda de treasuries mostra que Fed precisa reforçar credibilidade no combate à inflação",
-      "summary": "Atualizacao de macro capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
-      "details": "",
-      "url": "https://br.investing.com/news/economy-news/venda-de-treasuries-mostra-que-fed-precisa-reforcar-credibilidade-no-combate-a-inflacao-2022560",
+      "summary": "O split payment está prestes a impactar a reforma tributária de 2026 no Brasil, modificando o tratamento dos tributos pelas",
+      "details": "O split payment está prestes a impactar a reforma tributária de 2026 no Brasil, modificando o tratamento dos tributos pelas",
+      "url": "https://diariodocomercio.com.br/mix/receita-federal-passara-a-cobrar-imposto-em-transferencias-bancarias-feitas-via-pix/",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "macro",
       "tags": [
@@ -262,14 +303,15 @@
       "publishedAt": "2026-08-01T04:05:00Z",
       "updatedAt": "2026-08-01T04:05:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://diariodocomercio.com.br/mix/wp-content/uploads/2025/07/20032014dinheirofotomarcossantos007-810x540-1.jpg"
     },
     {
       "id": "macro-0651b7bd9ab96f9e773ae41b",
       "title": "Reuniões Federal Reserve: Fed pode reduzir encontros para juros",
-      "summary": "Portal de notícias e análises de economia, negócios, finanças, tecnologia e investimentos",
-      "details": "Portal de notícias e análises de economia, negócios, finanças, tecnologia e investimentos",
-      "url": "https://istoedinheiro.com.br/quais-impactos-para-o-brasil-se-o-fed-reduzir-o-numero-de-reunioes-de-politica-monetaria",
+      "summary": "Impulsionado pelo descompasso entre receitas e despesas, número divulgado pelo BC revela aumento de 10 pontos percentuais desde janeiro de 2023. Especialistas alertam que endividamento sufoca investimentos privados e pressiona por novos impostos.",
+      "details": "Impulsionado pelo descompasso entre receitas e despesas, número divulgado pelo BC revela aumento de 10 pontos percentuais desde janeiro de 2023. Especialistas alertam que endividamento sufoca investimentos privados e pressiona por novos impostos.",
+      "url": "https://g1.globo.com/jornal-da-globo/video/divida-publica-brasileira-atinge-82-do-pib-maior-patamar-desde-a-pandemia-de-covid-14830837.ghtml",
       "source": "ISTOÉ DINHEIRO",
       "category": "macro",
       "tags": [
@@ -281,14 +323,14 @@
       "updatedAt": "2026-08-01T03:42:21Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://istoedinheiro.com.br/wp-content/uploads/sites/17/2026/01/f9e74d75a2e97867d804611cde4c8d7e1ace77a1.jpg"
+      "imageUrl": "https://s02.video.glbimg.com/x720/14830837.jpg"
     },
     {
       "id": "macro-227ff24fdfbb9cc94f63ec2e",
       "title": "Dívida pública brasileira atinge 82% do PIB, maior patamar desde a pandemia de Covid",
-      "summary": "Impulsionado pelo descompasso entre receitas e despesas, número divulgado pelo BC revela aumento de 10 pontos percentuais desde janeiro de 2023. Especialistas alertam que endividamento sufoca investimentos privados e pressiona por novos impostos.",
-      "details": "Impulsionado pelo descompasso entre receitas e despesas, número divulgado pelo BC revela aumento de 10 pontos percentuais desde janeiro de 2023. Especialistas alertam que endividamento sufoca investimentos privados e pressiona por novos impostos.",
-      "url": "https://g1.globo.com/jornal-da-globo/video/divida-publica-brasileira-atinge-82-do-pib-maior-patamar-desde-a-pandemia-de-covid-14830837.ghtml",
+      "summary": "Portal de notícias e análises de economia, negócios, finanças, tecnologia e investimentos",
+      "details": "Portal de notícias e análises de economia, negócios, finanças, tecnologia e investimentos",
+      "url": "https://istoedinheiro.com.br/quais-impactos-para-o-brasil-se-o-fed-reduzir-o-numero-de-reunioes-de-politica-monetaria",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -300,14 +342,14 @@
       "updatedAt": "2026-08-01T03:35:16Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s02.video.glbimg.com/x720/14830837.jpg"
+      "imageUrl": "https://istoedinheiro.com.br/wp-content/uploads/sites/17/2026/01/f9e74d75a2e97867d804611cde4c8d7e1ace77a1.jpg"
     },
     {
       "id": "macro-286dd24c8677b183732f1850",
       "title": "Contas públicas atestam fracasso do arcabouço fiscal",
-      "summary": "A Bolsa brasileira encerrou a sexta-feira (31) após um pregão marcado por atraso na abertura das negociações devido a uma intercorrência operacional. Confira o",
-      "details": "A Bolsa brasileira encerrou a sexta-feira (31) após um pregão marcado por atraso na abertura das negociações devido a uma intercorrência operacional. Confira o",
-      "url": "https://boca.com.br/economia/bolsa-b3-hoje-01-08-2026",
+      "summary": "Nos últimos 12 meses, rombo alcançou 10% do PIB, o pior resultado desde a pandemia",
+      "details": "Nos últimos 12 meses, rombo alcançou 10% do PIB, o pior resultado desde a pandemia",
+      "url": "https://oglobo.globo.com/opiniao/editorial/coluna/2026/08/contas-publicas-atestam-fracasso-do-arcabouco-fiscal.ghtml",
       "source": "O GLOBO",
       "category": "macro",
       "tags": [
@@ -319,7 +361,7 @@
       "updatedAt": "2026-08-01T03:10:08Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/830277b17f043c9769e4ed7972776e40_858x483.jpg"
+      "imageUrl": "https://s2-oglobo.glbimg.com/JTaisQ1z5Oi8VXxU4jSkSasEyAI=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/u/6/d6G4wFQLaYvAPyiX0nkg/whatsapp-image-2023-05-10-at-16.11.09.jpeg"
     },
     {
       "id": "latest-71a4a83a4c57997e9549b199",
@@ -343,9 +385,9 @@
     {
       "id": "macro-733d6f71b48b241254ee73ce",
       "title": "Da inflação às novas receitas: o que mudou nos biscoitos?",
-      "summary": "Nos últimos 12 meses, rombo alcançou 10% do PIB, o pior resultado desde a pandemia",
-      "details": "Nos últimos 12 meses, rombo alcançou 10% do PIB, o pior resultado desde a pandemia",
-      "url": "https://oglobo.globo.com/opiniao/editorial/coluna/2026/08/contas-publicas-atestam-fracasso-do-arcabouco-fiscal.ghtml",
+      "summary": "O Observatório Nacional de Segurança Viária (ONSV) lançou nesta semana o DDS 6.0, novo formato do tradicional Diálogo Diário de Segurança, voltado a empresas de transporte e logística. A proposta substitui campanhas pontuais de orientação por um processo contínuo, com conteúdo se",
+      "details": "O Observatório Nacional de Segurança Viária (ONSV) lançou nesta semana o DDS 6.0, novo formato do tradicional Diálogo Diário de Segurança, voltado a empresas de transporte e logística. A proposta substitui campanhas pontuais de orientação por um processo contínuo, com conteúdo semanal e mecanismos que registram a parti",
+      "url": "https://www.broadcast.com.br/knewin-dino/onsv-lanca-programa-de-seguranca-viaria-para-logistica/",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -357,14 +399,14 @@
       "updatedAt": "2026-08-01T02:19:19Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-oglobo.glbimg.com/JTaisQ1z5Oi8VXxU4jSkSasEyAI=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/u/6/d6G4wFQLaYvAPyiX0nkg/whatsapp-image-2023-05-10-at-16.11.09.jpeg"
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K4zpb6h2WVtxysEjqum5KPf13Cc5eDRxF4KI-9k58xMtQbpHzRCUJ7cvXsxYVcKv40LGIVovL0TY6pJHdhpns94wxy6YZdyFyVHcl30UkMSIKiwTQ86hfVmqR1B8Q9SzC41.png"
     },
     {
       "id": "latest-59d984725447b31d594ad97a",
       "title": "ONSV lança programa de segurança viária para logística",
-      "summary": "A Federação Nacional de Associações dos Servidores do Banco Central (Fenasbac) e a Global Anti-Scam Alliance (GASA) lançam o relatório “O Impacto dos Golpes Digitais no Sistema Financeiro Brasileiro – The Brazil Blueprint”, material que mapeia o avanço dos golpes digitais e das f",
-      "details": "A Federação Nacional de Associações dos Servidores do Banco Central (Fenasbac) e a Global Anti-Scam Alliance (GASA) lançam o relatório “O Impacto dos Golpes Digitais no Sistema Financeiro Brasileiro – The Brazil Blueprint”, material que mapeia o avanço dos golpes digitais e das fraudes digitais no país e compartilha a ",
-      "url": "https://www.broadcast.com.br/knewin-dino/fenasbac-e-gasa-lancam-estudo-sobre-golpes-digitais/",
+      "summary": "A estruturação do atendimento após a venda deixou de ser um serviço acessório e passou a ocupar posição central na estratégia das empresas de ferramentas e equipamentos. Em segmentos como construção civil, locação e manutenção, em que a parada de uma ferramenta gera atrasos em ob",
+      "details": "A estruturação do atendimento após a venda deixou de ser um serviço acessório e passou a ocupar posição central na estratégia das empresas de ferramentas e equipamentos. Em segmentos como construção civil, locação e manutenção, em que a parada de uma ferramenta gera atrasos em obras e queda de faturamento, […]",
+      "url": "https://www.broadcast.com.br/knewin-dino/assistencia-tecnica-fortalece-o-setor-de-ferramentas/",
       "source": "broadcast.com.br",
       "category": "latest",
       "tags": [
@@ -376,14 +418,14 @@
       "updatedAt": "2026-08-01T02:08:15Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K4zpb6h2WVtxysEjqum5KPf13Cc5eDRxF4KI-9k58xMtQbpHzRCUJ7cvXsxYVcKv40LGIVovL0TY6pJHdhpns94wxy6YZdyFyVHcl30UkMSIB1FQQst9vawLcvo_Ya-Rmo1.png"
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K4zpb6h2WVtxysEjqum5KPf13Cc5eDRxF4KI-9k58xMtQbpHzRCUJ7cvXsxYVcKv40LGIVovL0TY6pJHdhpns94wxy6YZdyFyVHcl30UkMSIIsS62TjJVvJBEH0VDOtNaE1.png"
     },
     {
       "id": "latest-77670515ac801a21c9a072e7",
       "title": "Fenasbac e GASA lançam estudo sobre golpes digitais",
-      "summary": "O Observatório Nacional de Segurança Viária (ONSV) lançou nesta semana o DDS 6.0, novo formato do tradicional Diálogo Diário de Segurança, voltado a empresas de transporte e logística. A proposta substitui campanhas pontuais de orientação por um processo contínuo, com conteúdo se",
-      "details": "O Observatório Nacional de Segurança Viária (ONSV) lançou nesta semana o DDS 6.0, novo formato do tradicional Diálogo Diário de Segurança, voltado a empresas de transporte e logística. A proposta substitui campanhas pontuais de orientação por um processo contínuo, com conteúdo semanal e mecanismos que registram a parti",
-      "url": "https://www.broadcast.com.br/knewin-dino/onsv-lanca-programa-de-seguranca-viaria-para-logistica/",
+      "summary": "A Bolsa brasileira encerrou a sexta-feira (31) após um pregão marcado por atraso na abertura das negociações devido a uma intercorrência operacional. Confira o",
+      "details": "A Bolsa brasileira encerrou a sexta-feira (31) após um pregão marcado por atraso na abertura das negociações devido a uma intercorrência operacional. Confira o",
+      "url": "https://boca.com.br/economia/bolsa-b3-hoje-01-08-2026",
       "source": "broadcast.com.br",
       "category": "latest",
       "tags": [
@@ -395,14 +437,14 @@
       "updatedAt": "2026-08-01T02:08:14Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K4zpb6h2WVtxysEjqum5KPf13Cc5eDRxF4KI-9k58xMtQbpHzRCUJ7cvXsxYVcKv40LGIVovL0TY6pJHdhpns94wxy6YZdyFyVHcl30UkMSIKiwTQ86hfVmqR1B8Q9SzC41.png"
+      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/830277b17f043c9769e4ed7972776e40_858x483.jpg"
     },
     {
       "id": "latest-4fccb30dbf3fc9b82369c485",
       "title": "Hospital paraense promove piquenique para pacientes",
-      "summary": "Mais de 118 mil processos de compras públicas foram analisados em 2024 pelo Analisador de Licitações, Contratos e Editais (Alice), ferramenta de inteligência artificial desenvolvida pela Controladoria-Geral da União (CGU) para identificar riscos em licitações federais. O resultad",
-      "details": "Mais de 118 mil processos de compras públicas foram analisados em 2024 pelo Analisador de Licitações, Contratos e Editais (Alice), ferramenta de inteligência artificial desenvolvida pela Controladoria-Geral da União (CGU) para identificar riscos em licitações federais. O resultado foi a economia de R$ 257,25 milhões em",
-      "url": "https://www.broadcast.com.br/knewin-dino/arquitetura-de-software-sustenta-ia-na-auditoria-publica/",
+      "summary": "O Hospital Regional Público dos Caetés, em Capanema (PA), 120 leitos, administrado pelo INDSH desde 2021, promoveu em 29 de julho um piquenique para os pacientes, com objetivo de acolhimento, integração e bem-estar. A atividade aconteceu na sala de treinamento técnico, localizada",
+      "details": "O Hospital Regional Público dos Caetés, em Capanema (PA), 120 leitos, administrado pelo INDSH desde 2021, promoveu em 29 de julho um piquenique para os pacientes, com objetivo de acolhimento, integração e bem-estar. A atividade aconteceu na sala de treinamento técnico, localizada no primeiro andar da unidade, com decor",
+      "url": "https://www.broadcast.com.br/knewin-dino/hospital-paraense-promove-piquenique-para-pacientes/",
       "source": "broadcast.com.br",
       "category": "latest",
       "tags": [
@@ -414,7 +456,7 @@
       "updatedAt": "2026-08-01T02:08:12Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K4zpb6h2WVtxysEjqum5KPf13Cc5eDRxF4KI-9k58xMtQbpHzRCUJ7cvXsxYVcKv40LGIVovL0TY6pJHdhpns94wxy6YZdyFyVHcl30UkMSIBeEJsiaq5rIB9mK7qGi6dA1.png"
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K7eb-8nbhOMLTbCv3gI0np4L5g-0Q7XTQntXGqa0IGZe4BhFNPK2CWQxUptSgf8gGIhNmW1KQxo0XDU9uj3lKEeGO145f2oH2mVnXeriYGDMMJRg_M11SVUWxAEQ6p73E01.png"
     },
     {
       "id": "latest-f81d703d8bd8ad8a45f13f45",
@@ -438,9 +480,9 @@
     {
       "id": "latest-07947492261e128441d434bb",
       "title": "Arquitetura de software sustenta IA na auditoria pública",
-      "summary": "O Hospital Regional Público dos Caetés, em Capanema (PA), 120 leitos, administrado pelo INDSH desde 2021, promoveu em 29 de julho um piquenique para os pacientes, com objetivo de acolhimento, integração e bem-estar. A atividade aconteceu na sala de treinamento técnico, localizada",
-      "details": "O Hospital Regional Público dos Caetés, em Capanema (PA), 120 leitos, administrado pelo INDSH desde 2021, promoveu em 29 de julho um piquenique para os pacientes, com objetivo de acolhimento, integração e bem-estar. A atividade aconteceu na sala de treinamento técnico, localizada no primeiro andar da unidade, com decor",
-      "url": "https://www.broadcast.com.br/knewin-dino/hospital-paraense-promove-piquenique-para-pacientes/",
+      "summary": "Mais de 118 mil processos de compras públicas foram analisados em 2024 pelo Analisador de Licitações, Contratos e Editais (Alice), ferramenta de inteligência artificial desenvolvida pela Controladoria-Geral da União (CGU) para identificar riscos em licitações federais. O resultad",
+      "details": "Mais de 118 mil processos de compras públicas foram analisados em 2024 pelo Analisador de Licitações, Contratos e Editais (Alice), ferramenta de inteligência artificial desenvolvida pela Controladoria-Geral da União (CGU) para identificar riscos em licitações federais. O resultado foi a economia de R$ 257,25 milhões em",
+      "url": "https://www.broadcast.com.br/knewin-dino/arquitetura-de-software-sustenta-ia-na-auditoria-publica/",
       "source": "broadcast.com.br",
       "category": "latest",
       "tags": [
@@ -452,14 +494,14 @@
       "updatedAt": "2026-08-01T02:08:07Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K7eb-8nbhOMLTbCv3gI0np4L5g-0Q7XTQntXGqa0IGZe4BhFNPK2CWQxUptSgf8gGIhNmW1KQxo0XDU9uj3lKEeGO145f2oH2mVnXeriYGDMMJRg_M11SVUWxAEQ6p73E01.png"
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K4zpb6h2WVtxysEjqum5KPf13Cc5eDRxF4KI-9k58xMtQbpHzRCUJ7cvXsxYVcKv40LGIVovL0TY6pJHdhpns94wxy6YZdyFyVHcl30UkMSIBeEJsiaq5rIB9mK7qGi6dA1.png"
     },
     {
       "id": "latest-2903a3c6f4e6c93f62b7098f",
       "title": "Influenciadores Gamers de Brasília: Eldo Gomes",
-      "summary": "Com a conquista do SIF nacional, a Temperatta amplia a distribuição de seus temperos para todo o país e reforça o protagonismo de Minas Gerais na produção de insumos para a gastronomia Minas Gerais consolida sua posição como um dos polos mais relevantes da indústria de alimentos ",
-      "details": "Com a conquista do SIF nacional, a Temperatta amplia a distribuição de seus temperos para todo o país e reforça o protagonismo de Minas Gerais na produção de insumos para a gastronomia Minas Gerais consolida sua posição como um dos polos mais relevantes da indústria de alimentos do Brasil, e […]",
-      "url": "https://www.broadcast.com.br/knewin-dino/industria-amplia-uso-de-ingredientes-mineiros/",
+      "summary": "A Federação Nacional de Associações dos Servidores do Banco Central (Fenasbac) e a Global Anti-Scam Alliance (GASA) lançam o relatório “O Impacto dos Golpes Digitais no Sistema Financeiro Brasileiro – The Brazil Blueprint”, material que mapeia o avanço dos golpes digitais e das f",
+      "details": "A Federação Nacional de Associações dos Servidores do Banco Central (Fenasbac) e a Global Anti-Scam Alliance (GASA) lançam o relatório “O Impacto dos Golpes Digitais no Sistema Financeiro Brasileiro – The Brazil Blueprint”, material que mapeia o avanço dos golpes digitais e das fraudes digitais no país e compartilha a ",
+      "url": "https://www.broadcast.com.br/knewin-dino/fenasbac-e-gasa-lancam-estudo-sobre-golpes-digitais/",
       "source": "broadcast.com.br",
       "category": "latest",
       "tags": [
@@ -471,14 +513,14 @@
       "updatedAt": "2026-08-01T02:08:03Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K7eb-8nbhOMLTbCv3gI0np4L5g-0Q7XTQntXGqa0IGZe4BhFNPK2CWQxUptSgf8gGIhNmW1KQxo0XDU9uj3lKEeGO145f2oH2mVnXeriYGDMAXl1y71x0zLSX2KS7FJKE01.png"
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K4zpb6h2WVtxysEjqum5KPf13Cc5eDRxF4KI-9k58xMtQbpHzRCUJ7cvXsxYVcKv40LGIVovL0TY6pJHdhpns94wxy6YZdyFyVHcl30UkMSIB1FQQst9vawLcvo_Ya-Rmo1.png"
     },
     {
       "id": "latest-2ff996c96f7dd152ef224f68",
       "title": "Indústria amplia uso de ingredientes mineiros",
-      "summary": "Esse é o maior nível desde abril de 2021, em meio à pandemia de Covid-19.",
-      "details": "Esse é o maior nível desde abril de 2021, em meio à pandemia de Covid-19.",
-      "url": "https://g1.globo.com/google/amp/globonews/conexao-globonews/video/divida-publica-chega-a-819-do-pib-em-julho-14830759.ghtml",
+      "summary": "Entre os influenciadores gamers de Brasília, Eldo Gomes (@EldoGomes), lançou a série “Jogando Super Mario World”. A produção consiste em 14 episódios publicados em uma playlist oficial no canal do YouTube, que resgata a nostalgia e traz um game play sobre um jogo clássico no mund",
+      "details": "Entre os influenciadores gamers de Brasília, Eldo Gomes (@EldoGomes), lançou a série “Jogando Super Mario World”. A produção consiste em 14 episódios publicados em uma playlist oficial no canal do YouTube, que resgata a nostalgia e traz um game play sobre um jogo clássico no mundo gamer. A série apresenta […]",
+      "url": "https://www.broadcast.com.br/knewin-dino/influenciadores-gamers-de-brasilia-eldo-gomes/",
       "source": "broadcast.com.br",
       "category": "latest",
       "tags": [
@@ -490,14 +532,14 @@
       "updatedAt": "2026-08-01T02:08:01Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://s04.video.glbimg.com/x720/14830759.jpg"
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K7eb-8nbhOMLTbCv3gI0np4L5g-0Q7XTQntXGqa0IGZe4BhFNPK2CWQxUptSgf8gGIhNmW1KQxo0XDU9uj3lKEeGO145f2oH2mVnXeriYGDMEblS5GHItG96iufQAZvuew1.png"
     },
     {
       "id": "latest-6a50f916a7d08d9d789adf36",
       "title": "Assistência técnica fortalece o setor de ferramentas",
-      "summary": "A estruturação do atendimento após a venda deixou de ser um serviço acessório e passou a ocupar posição central na estratégia das empresas de ferramentas e equipamentos. Em segmentos como construção civil, locação e manutenção, em que a parada de uma ferramenta gera atrasos em ob",
-      "details": "A estruturação do atendimento após a venda deixou de ser um serviço acessório e passou a ocupar posição central na estratégia das empresas de ferramentas e equipamentos. Em segmentos como construção civil, locação e manutenção, em que a parada de uma ferramenta gera atrasos em obras e queda de faturamento, […]",
-      "url": "https://www.broadcast.com.br/knewin-dino/assistencia-tecnica-fortalece-o-setor-de-ferramentas/",
+      "summary": "Com a conquista do SIF nacional, a Temperatta amplia a distribuição de seus temperos para todo o país e reforça o protagonismo de Minas Gerais na produção de insumos para a gastronomia Minas Gerais consolida sua posição como um dos polos mais relevantes da indústria de alimentos ",
+      "details": "Com a conquista do SIF nacional, a Temperatta amplia a distribuição de seus temperos para todo o país e reforça o protagonismo de Minas Gerais na produção de insumos para a gastronomia Minas Gerais consolida sua posição como um dos polos mais relevantes da indústria de alimentos do Brasil, e […]",
+      "url": "https://www.broadcast.com.br/knewin-dino/industria-amplia-uso-de-ingredientes-mineiros/",
       "source": "broadcast.com.br",
       "category": "latest",
       "tags": [
@@ -509,14 +551,14 @@
       "updatedAt": "2026-08-01T02:08:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K4zpb6h2WVtxysEjqum5KPf13Cc5eDRxF4KI-9k58xMtQbpHzRCUJ7cvXsxYVcKv40LGIVovL0TY6pJHdhpns94wxy6YZdyFyVHcl30UkMSIIsS62TjJVvJBEH0VDOtNaE1.png"
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K7eb-8nbhOMLTbCv3gI0np4L5g-0Q7XTQntXGqa0IGZe4BhFNPK2CWQxUptSgf8gGIhNmW1KQxo0XDU9uj3lKEeGO145f2oH2mVnXeriYGDMAXl1y71x0zLSX2KS7FJKE01.png"
     },
     {
       "id": "latest-d31adad4db16c54d8d3741e2",
       "title": "Contratos passam a exigir governança de IA auditável",
-      "summary": "Entre os influenciadores gamers de Brasília, Eldo Gomes (@EldoGomes), lançou a série “Jogando Super Mario World”. A produção consiste em 14 episódios publicados em uma playlist oficial no canal do YouTube, que resgata a nostalgia e traz um game play sobre um jogo clássico no mund",
-      "details": "Entre os influenciadores gamers de Brasília, Eldo Gomes (@EldoGomes), lançou a série “Jogando Super Mario World”. A produção consiste em 14 episódios publicados em uma playlist oficial no canal do YouTube, que resgata a nostalgia e traz um game play sobre um jogo clássico no mundo gamer. A série apresenta […]",
-      "url": "https://www.broadcast.com.br/knewin-dino/influenciadores-gamers-de-brasilia-eldo-gomes/",
+      "summary": "Atualizacao de ultima hora capturada em broadcast.com.br.",
+      "details": "",
+      "url": "https://folhadecianorte.com/2026/07/dolar-cai-a-r-5061-e-vai-ao-menor-nivel-em-2-meses/",
       "source": "broadcast.com.br",
       "category": "latest",
       "tags": [
@@ -527,15 +569,14 @@
       "publishedAt": "2026-08-01T02:07:57Z",
       "updatedAt": "2026-08-01T02:07:57Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K7eb-8nbhOMLTbCv3gI0np4L5g-0Q7XTQntXGqa0IGZe4BhFNPK2CWQxUptSgf8gGIhNmW1KQxo0XDU9uj3lKEeGO145f2oH2mVnXeriYGDMEblS5GHItG96iufQAZvuew1.png"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-2aeb51049a80f33dc6892306",
       "title": "Dívida pública chega a 81,9% do PIB em julho",
-      "summary": "A comprovação de governança de inteligência artificial começou a migrar do campo regulatório para o contratual. Levantamento sobre governança de IA no Brasil, publicado em maio de 2026, aponta que grandes organizações passaram a exigir padrões mínimos de governança de seus fornec",
-      "details": "A comprovação de governança de inteligência artificial começou a migrar do campo regulatório para o contratual. Levantamento sobre governança de IA no Brasil, publicado em maio de 2026, aponta que grandes organizações passaram a exigir padrões mínimos de governança de seus fornecedores, e descreve normas de gestão de I",
-      "url": "https://www.broadcast.com.br/knewin-dino/contratos-passam-a-exigir-governanca-de-ia-auditavel/",
+      "summary": "Esse é o maior nível desde abril de 2021, em meio à pandemia de Covid-19.",
+      "details": "Esse é o maior nível desde abril de 2021, em meio à pandemia de Covid-19.",
+      "url": "https://g1.globo.com/google/amp/globonews/conexao-globonews/video/divida-publica-chega-a-819-do-pib-em-julho-14830759.ghtml",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -547,14 +588,14 @@
       "updatedAt": "2026-08-01T01:53:24Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K7eb-8nbhOMLTbCv3gI0np4L5g-0Q7XTQntXGqa0IGZe4BhFNPK2CWQxUptSgf8gGIhNmW1KQxo0XDU9uj3lKEeGO145f2oH2mVnXeriYGDMNebA2o6uaibYIWcKWMwObw1.png"
+      "imageUrl": "https://s04.video.glbimg.com/x720/14830759.jpg"
     },
     {
       "id": "latest-655044e1166d416190de5f1b",
       "title": "Dólar cai a R$ 5,061 e vai ao menor nível em 2 meses",
-      "summary": "Caso seja adotada, a medida romperá com uma prática de quase meio século",
-      "details": "Caso seja adotada, a medida romperá com uma prática de quase meio século",
-      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/warsh-cogitou-reduzir-frequencia-de-reunioes-do-fed-diz-jornal/",
+      "summary": "Atualizacao de ultima hora capturada em Folha de Cianorte.",
+      "details": "",
+      "url": "https://monitormercantil.com.br/resultados-da-vale-vieram-acima-da-media-de-expectativa/",
       "source": "Folha de Cianorte",
       "category": "latest",
       "tags": [
@@ -565,15 +606,14 @@
       "publishedAt": "2026-08-01T01:48:32Z",
       "updatedAt": "2026-08-01T01:48:32Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/WARSH-FED-JUROS-EUA.jpg?w=960&h=540&crop=1"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-536ca0933b6de14ad6effc19",
       "title": "Warsh cogitou reduzir frequência de reuniões do Fed, diz jornal",
-      "summary": "Atualizacao de macro capturada em CNN Brasil.",
-      "details": "",
-      "url": "https://folhadecianorte.com/2026/07/dolar-cai-a-r-5061-e-vai-ao-menor-nivel-em-2-meses/",
+      "summary": "Caso seja adotada, a medida romperá com uma prática de quase meio século",
+      "details": "Caso seja adotada, a medida romperá com uma prática de quase meio século",
+      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/warsh-cogitou-reduzir-frequencia-de-reunioes-do-fed-diz-jornal/",
       "source": "CNN Brasil",
       "category": "macro",
       "tags": [
@@ -584,14 +624,15 @@
       "publishedAt": "2026-08-01T00:16:51Z",
       "updatedAt": "2026-08-01T00:16:51Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/WARSH-FED-JUROS-EUA.jpg?w=960&h=540&crop=1"
     },
     {
       "id": "latest-5164c3611ea29eba7c72bddf",
       "title": "Resultados da Vale vieram acima da média de expectativa",
       "summary": "Atualizacao de ultima hora capturada em Monitor Mercantil.",
       "details": "",
-      "url": "https://monitormercantil.com.br/resultados-da-vale-vieram-acima-da-media-de-expectativa/",
+      "url": "https://monitormercantil.com.br/segundo-trimestre-marcou-a-retomada-das-ofertas-de-acoes/",
       "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
@@ -607,9 +648,9 @@
     {
       "id": "latest-04d8bb593f243f58b6f580d8",
       "title": "Segundo trimestre marcou a retomada das ofertas de ações",
-      "summary": "Endividamento do setor público alcançou R$ 10,8 trilhões em junho; especialistas alertam para impacto dos juros e menor espaço para investimentos",
-      "details": "Endividamento do setor público alcançou R$ 10,8 trilhões em junho; especialistas alertam para impacto dos juros e menor espaço para investimentos",
-      "url": "https://g1.globo.com/jornal-nacional/noticia/2026/07/31/divida-publica-chega-a-82percent-do-pib-e-atinge-maior-nivel-desde-2021.ghtml",
+      "summary": "Os projetos serão desenvolvidos nas escolas participantes para fortalecer a cidadania ativa e ampliar a compreensão sobre a arrecadação de tributos e a aplicação dos recursos públicos.",
+      "details": "Os projetos serão desenvolvidos nas escolas participantes para fortalecer a cidadania ativa e ampliar a compreensão sobre a arrecadação de tributos e a aplicação dos recursos públicos.",
+      "url": "https://santarem.pa.gov.br/noticias/financas/elaboracao-de-projetos-de-educacao-fiscal-encerra-formacao-para-professores-e-pedagogos-da-regiao-de-varzea-de-santarem-cnerhh",
       "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
@@ -621,14 +662,14 @@
       "updatedAt": "2026-08-01T00:00:50Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://s2-g1.glbimg.com/nPDRcRZ73HYndItc1SZgB_v2adk=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/u/K/2Sr6muRqyQ6DXgC8x15A/videoframe-7054647.png"
+      "imageUrl": "https://santarem.pa.gov.br/storage/posts/July2026/medium/ultimo-de-formacao-de-educacao-fiscal-1-bDdOzF.jpg"
     },
     {
       "id": "macro-f0dedb85e377560ce4823116",
       "title": "Dívida pública chega a 82% do PIB e atinge maior nível desde 2021",
-      "summary": "Os projetos serão desenvolvidos nas escolas participantes para fortalecer a cidadania ativa e ampliar a compreensão sobre a arrecadação de tributos e a aplicação dos recursos públicos.",
-      "details": "Os projetos serão desenvolvidos nas escolas participantes para fortalecer a cidadania ativa e ampliar a compreensão sobre a arrecadação de tributos e a aplicação dos recursos públicos.",
-      "url": "https://santarem.pa.gov.br/noticias/financas/elaboracao-de-projetos-de-educacao-fiscal-encerra-formacao-para-professores-e-pedagogos-da-regiao-de-varzea-de-santarem-cnerhh",
+      "summary": "A comprovação de governança de inteligência artificial começou a migrar do campo regulatório para o contratual. Levantamento sobre governança de IA no Brasil, publicado em maio de 2026, aponta que grandes organizações passaram a exigir padrões mínimos de governança de seus fornec",
+      "details": "A comprovação de governança de inteligência artificial começou a migrar do campo regulatório para o contratual. Levantamento sobre governança de IA no Brasil, publicado em maio de 2026, aponta que grandes organizações passaram a exigir padrões mínimos de governança de seus fornecedores, e descreve normas de gestão de I",
+      "url": "https://www.broadcast.com.br/knewin-dino/contratos-passam-a-exigir-governanca-de-ia-auditavel/",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -640,14 +681,14 @@
       "updatedAt": "2026-07-31T23:54:37Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://santarem.pa.gov.br/storage/posts/July2026/medium/ultimo-de-formacao-de-educacao-fiscal-1-bDdOzF.jpg"
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/07/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K7eb-8nbhOMLTbCv3gI0np4L5g-0Q7XTQntXGqa0IGZe4BhFNPK2CWQxUptSgf8gGIhNmW1KQxo0XDU9uj3lKEeGO145f2oH2mVnXeriYGDMNebA2o6uaibYIWcKWMwObw1.png"
     },
     {
       "id": "macro-885069273c4622cf870c839b",
       "title": "Elaboração de Projetos de Educação Fiscal encerra formação para professores e pedagogos da região de Várzea",
-      "summary": "Atualizacao de macro capturada em Prefeitura de Santarém.",
-      "details": "",
-      "url": "https://monitormercantil.com.br/segundo-trimestre-marcou-a-retomada-das-ofertas-de-acoes/",
+      "summary": "Endividamento do setor público alcançou R$ 10,8 trilhões em junho; especialistas alertam para impacto dos juros e menor espaço para investimentos",
+      "details": "Endividamento do setor público alcançou R$ 10,8 trilhões em junho; especialistas alertam para impacto dos juros e menor espaço para investimentos",
+      "url": "https://g1.globo.com/jornal-nacional/noticia/2026/07/31/divida-publica-chega-a-82percent-do-pib-e-atinge-maior-nivel-desde-2021.ghtml",
       "source": "Prefeitura de Santarém",
       "category": "macro",
       "tags": [
@@ -658,14 +699,15 @@
       "publishedAt": "2026-07-31T23:25:00Z",
       "updatedAt": "2026-07-31T23:25:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s2-g1.glbimg.com/nPDRcRZ73HYndItc1SZgB_v2adk=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/u/K/2Sr6muRqyQ6DXgC8x15A/videoframe-7054647.png"
     },
     {
       "id": "funds-9f5b448844cfca2b448fd994",
       "title": "Mink Brook Asset Management compra US$ 50 em ações da DLHC",
       "summary": "Atualizacao de fundos capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
       "details": "",
-      "url": "https://br.investing.com/news/insider-trading-news/mink-brook-asset-management-compra-us-50-em-acoes-da-dlhc-93CH-2022503",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYzUzQjh6TlpkVVVCd2pSbGo1SXVlbXRpWlRmVXR4MHdJUWlYRENabVB2dE9HWGNtWmY1Yi1xZXc0ZE5kYUFqRndWWW1lOWc5TVFaYUJkWHRxaXFqYlJWYWRyeW1wNTdIelk3ME9PZ3RnQXJ5RXBmTDhZYktEZXhET2RRUnVhS1BNMXZDZ3RDcG8zU0tYd1VYb2poVG1wcktDSFNKN1R3eEJwVlhWT05XcURQS3VFTG9ha3JaWUJB?oc=5",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "funds",
       "tags": [
@@ -683,7 +725,7 @@
       "title": "Mink Brook Asset Management amplia participação na DLH Holdings com compra de US$ 22.443",
       "summary": "Atualizacao de fundos capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
       "details": "",
-      "url": "https://br.investing.com/news/insider-trading-news/mink-brook-asset-management-amplia-participacao-na-dlh-holdings-com-compra-de-us-22443-93CH-2022502",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMGxOSmMyR1hzR3BuR3NManhiREg1UUFnNHVNSUNhMXNiUkdNUl9nQlZpZ0pxX3BsWElIV0pya3BodUg5QkFqWFBpVkxtQXRwSHk5dnRUM2pNOXNWdFU0VjFDZVNsdHpBeHl5MGNGcW1ScFJXSkN3cTUwOFM4Z2RYVzhQOTAxU2IwejVsWEVRdEE1VU9kX0xmdGhLNU0wbk50NEF1ai1RaFVoUkNlQTZkVkRhRnlmLXNia0xsT3c5WG1wckJVMjNzeXpMZzlGS3RBUUpObXpFbTR3WVoydTY1LTN6SVI?oc=5",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "funds",
       "tags": [
@@ -733,12 +775,12 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "macro-e5e73caf25c9a03829cc8092",
+      "id": "macro-f958f2c9b2d0fe44eadb0068",
       "title": "Dívida pública vai a 81,9% do PIB, maior patamar em mais de 5 anos",
-      "summary": "Atualizacao de macro capturada em jornaldebrasilia.com.br.",
+      "summary": "Atualizacao de macro capturada em Jornal de Brasília.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQ1FXVWVTNXJjQXdjam1kVmc3dFktSlpwOFlEakJMUi1TSU9GNmxKZFlLNEtfV0lMWktQbGVGTlNMc2F1XzJNV0x6WHc1LTNTdVZaN1FpVWg1R0lWdXlBYUVmeWhFajJEV1F4dmNickc1OUZLNEEtWEJXMDZ6ZF94RzhMYUxoVEhLSU51QkRzem5YZW5CVHNpVmN0TVV6MkZWbVlhNmtQeUM4QjVIZ09PT2lVMUQ?oc=5",
-      "source": "jornaldebrasilia.com.br",
+      "source": "Jornal de Brasília",
       "category": "macro",
       "tags": [
         "macro",
@@ -949,24 +991,6 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "macro-82157bc78a8aa8b6a5f86bff",
-      "title": "Mercado pressiona Fed após fala de Warsh sobre inflação e juros",
-      "summary": "Atualizacao de macro capturada em Vero Notícias.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMkg4Z3loQ0RPMl85YlF1YTBsTUEtdVcycnRHN3ktNndILUVvZndCZ0MxUWFhVFVHWm45Z3NhVVBzdVc2ZWNNTXl2dEJqaU5iOXpZazNlZ0lEaFk4VnRCTE1pbDRWQ0RsbzdkdF9lQ0NEa25VMFFKRmJ6bVJZeGw0QlU4THFGMFFDbWwyN2lNalFMZzNGXy02RzdQMkVnRkU?oc=5",
-      "source": "Vero Notícias",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-31T22:32:24Z",
-      "updatedAt": "2026-07-31T22:32:24Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
       "id": "companies-98e97ea7788d741dbb563bb7",
       "title": "Conheça 3 empresas brasileiras que se expandiram e abriram unidades no exterior",
       "summary": "Atualizacao de empresas capturada em VEJA.",
@@ -985,30 +1009,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "macro-6678f92ba36ee10ec660e653",
-      "title": "Presidente do Fed avalia reduzir número de reuniões que definem taxa de juros, diz jornal",
-      "summary": "Atualizacao de macro capturada em Exame.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNEhwd3JEdTgzYURnaC1hekt4eV9aZzlTUDRjdFBzVFNSSjFSRFNuSEFveWNqdEVLX3N1NHZDTmVTOEdwSUN5RmdFang3QXdVY29WbTg2S0pwakJFZy1pV0hqLXpJbVJ2UWU3QkcxRDBfeVQ5RU85bXNlMnVma2Z5ZFl6UUx4Mzd6Y2tKenJpMTRhampDdWRvT2d1WFhfMGlOTjNzMUhyNmI4c2tGdE9jTFVwQzRyQUtIZ1VvTTdVQkc?oc=5",
-      "source": "Exame",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-07-31T22:22:07Z",
-      "updatedAt": "2026-07-31T22:22:07Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "companies-499850dd6436ef9ee9b1c300",
+      "id": "companies-21828cc470be20c868f2c5dc",
       "title": "Diagnóstico avalia o preparo das empresas brasileiras para transformar dados, automação e IA em...",
-      "summary": "Atualizacao de empresas capturada em SEGS Portal Nacional.",
+      "summary": "Atualizacao de empresas capturada em segs.com.br.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRlJBS0JmRW9JaDlPa0NlTDVzU3Q1SmEzRzVyOTkyU2t0bmFvekRLV3dxUmNVNVVQWUhZeGlJM0VMSXk4WXBIQnRSUEx4UkFhQy1QSzFlYVlSMG9fbTdtbjlYVG03NmRoYTY2d3BxYU95MzR2XzZoUk1yRmN1cG9mSHRUWGY5S1ludmVLQ01hTm9vS0RJMW9nUTZFLS1jZ2F6cTdjZkJSRnIyaVVhNC1OUEU5OW5CZlljcVJWcEY5T2tlZ0R5RHhUSkxXNHY5WHpyQTNHcVZOOG81NmFD0gHiAUFVX3lxTE44OFZJQ05oblVBTXUzcFY5ZzdJQTNnWDFMR3BPa0JXNEQ1bkV3akZOWFl6a2Y3T1NjNGJOdzVQcjdYa0VRYWJUbkFkYXN2X3AyLTlLSG9iaWN1OUVHeGkwUnpldVJyeTVyWk1jbGlUVWJmRV9aOHFyb3F0OVVYbkxYMWxlZUdfZzNVeW56ME5xV1JIRzFBaktSMF80LUNQNWU3UjVRcVAxZHFrWWdSSG5iQkNERWh5UnlJbDh4MWVsZE1hUkVSdU02alJZZzNKMGtaZXBpUEFMSE5vakJxdV9HTkE?oc=5",
-      "source": "SEGS Portal Nacional",
+      "source": "segs.com.br",
       "category": "companies",
       "tags": [
         "empresas",
@@ -1057,12 +1063,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "companies-98a2d69be16d67763c6dc4fb",
+      "id": "companies-464bb09bed606fc85231052a",
       "title": "Acordo Mercosul-Singapura é visto como porta de entrada para produtos brasileiros no mercado do Sudeste Asiático",
-      "summary": "Atualizacao de empresas capturada em bluestudio.estadao.com.br.",
+      "summary": "Atualizacao de empresas capturada em Estadão Blue Studio.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNVFhUdUxwTW42RXN5M0w3N0EzLXJ0TWF5Mml3ZDBrbUZNYlMtNVhCTm5JNXdPNlBTYy1jUEdFVWZ5TzlYV2FCeDdFUlhsblNPUnQ2Uk9mLU51dVhUc0lhVWNESHdRSG1WdFhwMGhLN3RxUkl1M2ZGdjNzbmVfOURxTFprMWJnNV83QVlrMEV0N05CVGRfODEwT1BrR2ZvYmJQRGwweVRGOFV4ejlEXzhoZjB2TWRUWVp5djVIVHl5YWxycm1lWDF3Qld5SVA1Y2VQbnJkVkZ4dEl4M29ndDFhVWtTMTlmNmpFcGQ0b1NGeUhBY0xWUGRQdHF2WXdINlpVWEdZTHBiX2pKR3p1c280Y2lsV184RjQ5ZFQzNTJ0YzVtVFVjT0kySGtqdDE?oc=5",
-      "source": "bluestudio.estadao.com.br",
+      "source": "Estadão Blue Studio",
       "category": "companies",
       "tags": [
         "empresas",
@@ -1075,12 +1081,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "companies-02dbb7d9d6dd1fd9ebdd4c54",
+      "id": "companies-1a155c9aab0e0340f618e98e",
       "title": "Agência de Comunicação - Governança corporativa vira fator decisivo de crédito para empresas brasileiras em 2026, avalia Márcio Pires de Moraes",
-      "summary": "Atualizacao de empresas capturada em bluestudio.estadao.com.br.",
+      "summary": "Atualizacao de empresas capturada em Estadão Blue Studio.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOcUZxSWRkWnVCdUN2cHBDT2dSMEduZi1uU203TWVyYTNYSWVrc2U4Qk1CeTNDakczY0lEZjhtZERkS3BMMDUyVHQwZ3RZOEFMSFlnSUt5cWV1bzBEUmJ4YTlrQUEyUy13aFVhWk0wMnBJdmgwRm83YUhhT1hsU0ZTOGl3U3k0YkExMXQ2bi1Gb2lYNnFFZmI5WkpCbkR5T1JwLW4xZ2hGNXBTNDI5aXk0TDFzRHRxa1d2YUxhLTMtdlV1Y09EcXZOanZ1RWIwQUdRSHdYVnF1dDV1dzZOb1lyeDd2Nm1XNUNFd2JYV1RfWG5GdzVyV0xVZWlERTFQM3FnZ21qc2Fmd2xxekVQQlFIdmI2X1A1cHM2eHc?oc=5",
-      "source": "bluestudio.estadao.com.br",
+      "source": "Estadão Blue Studio",
       "category": "companies",
       "tags": [
         "empresas",
@@ -1111,12 +1117,30 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "companies-3829baee9fe7ba01999d31a0",
+      "id": "funds-4af69b8b3b9705b847bb4e28",
+      "title": "Bybit reforça Dual Asset com novo simulador e acesso VIP alargado",
+      "summary": "Atualizacao de fundos capturada em Yellow.com.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ1YyelF6YzUwdTBwb1pfLS10ekc3dktPMExadmttSHBqdmwyMDFsVkFPZ1Y2T0t5QVdVdFhXMHMzVTFON1huU1JLZ0FBdHZvd2tGa1hkdDJqaWdEZHpIaWlMQ1dGQjdxbTFPMUdJMU5jb2o5UjItUFY1Y2gwckZ6LWRzbUM5RWJhN1hGNTBpRGU0MTNqQ2dObzh5QlFSaDkxSVc1OFI2VmpVb2M?oc=5",
+      "source": "Yellow.com",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-07-31T18:14:16Z",
+      "updatedAt": "2026-07-31T18:14:16Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "companies-27955333b1c703092759e175",
       "title": "Empresa recupera R$ 2.5 milhões em créditos tributários para clientes em menos de seis meses",
-      "summary": "Atualizacao de empresas capturada em RCWTV.",
+      "summary": "Atualizacao de empresas capturada em rcwtv.com.br.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdHZqRkctUXNNSGRVeFlud0NONVprOXpQZzV1VGtKQl9CV1ZjQVhyUFhaLTZ4X19oX3pXRl9SYmxYN0czNDNvbkFFS055QkxrQnhfNXJ6NGRLMHR3bTNjSWZuQ1pvYnh3bUt4Y090VkdmUzBieXVpdXVMZXZyOEJpbVZtV0FVdS1pV2FEQnlRcEtldkNaN2NWVGZJNy1xTU41MVdVX192RmRHbGVTWHhSUU9zQl82TU1Kc3FSX1I0NXp2UQ?oc=5",
-      "source": "RCWTV",
+      "source": "rcwtv.com.br",
       "category": "companies",
       "tags": [
         "empresas",
@@ -1129,12 +1153,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "companies-8963e00dd06743ae94051022",
+      "id": "companies-6ab804ac7c587ef2e8b634b4",
       "title": "Agência de Comunicação - ACSP apoia acionamento da OMC contra tarifas impostas pelos Estados Unidos",
-      "summary": "Atualizacao de empresas capturada em bluestudio.estadao.com.br.",
+      "summary": "Atualizacao de empresas capturada em Estadão Blue Studio.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxORWxYeW0xUXpYRkEwY3VwYTZfQml4WHFmM1V6bTcySk9fd0p6dFVNTDFTWkJxb1VQaS1BMUJ1d0FVZk1qX19nazVYMkFTYWktcGNSREVyTHF3OU54ZUVRQmRWSUx0VldwUjV1R0YzNXJsRmpwTnFQb0NncnUwQXdnMTJCdUdvTlUyd3JRbWJ5NllUeFVVZWtnMENoWVp5OXk2YjItaVBCYUFnUWp5YzJmVFBkV2FUVTBBdF9JTGZMNUw4ajg3SGR4TW1VYVZDUFdOUWdpZTdSem1SWHFlZXptQlpLQzVjY2hhZld1LWY3eXpZbWlUOWVfRnRR?oc=5",
-      "source": "bluestudio.estadao.com.br",
+      "source": "Estadão Blue Studio",
       "category": "companies",
       "tags": [
         "empresas",
@@ -1147,12 +1171,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "companies-364d2803bfa69263929743bd",
+      "id": "companies-eb2ad0fbdf0bdb11a2753171",
       "title": "Saúde mental e benefícios diferenciados ganham peso na escolha dos candidatos por um emprego | SEGS...",
-      "summary": "Atualizacao de empresas capturada em SEGS Portal Nacional.",
+      "summary": "Atualizacao de empresas capturada em segs.com.br.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPN01BVnY4SHNBcDJmRlhnajh6UHBqNndWZ3dKMktfdEhuZmU1QVdtQXpIOEtzUVpGVHYyUWF2MzBINWhYX2hWc3hta1JMRVJTWnZwNEVqVG0ycHQ3V1JmaHJfU3NseHlrNGtpbkUyRHNiY2VraTA0WHdnWEd2Z252emJUS1c0YnlnWUd1NnNQWWFRbWxWVzVMRlNfQTZEbVpBbFIyaUt5T1otNS1ROUNyV05ydlpoUGJzc2NETVVOTXlfTll5VWhrX3BfUnowdFA20gHQAUFVX3lxTE83TUFWdjhIc0FwMmZGWGdqOHpQcGo2d1Znd0oyS190SG5mZTVBV21Bekg4S3NRWkZUdjJRYXYzMEg1aFhfaFZzeG1rUkxFUlNadnA0RWpUbTJwdDdXUmZocl9Tc2x4eWs0a2luRTJEc2JjZWtpMDRYd2dYR3ZnbnZ6YlRLVzRieWdZR3U2c1BZYVFtbFZXNUxGU19BNkRtWkFsUjJpS3lPWi01LVE5Q3JXTnJ2WmhQYnNzY0RNVU5NeV9OWXlVaGtfcF9SejB0UDY?oc=5",
-      "source": "SEGS Portal Nacional",
+      "source": "segs.com.br",
       "category": "companies",
       "tags": [
         "empresas",
@@ -1201,12 +1225,12 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "funds-505c2d5e1720043d6082ea72",
+      "id": "funds-95d4a0467487939e3b8746d6",
       "title": "Rio Innovation Week terá mais de 50 fundos de investimento em busca de startups e novos negócios",
-      "summary": "Atualizacao de fundos capturada em Diário do Rio.",
+      "summary": "Atualizacao de fundos capturada em diariodorio.com.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSjZvbEhIWUxOdWtvRXlkaHF2UEYtbWhGWGlvYXVUR0dLRUF1YV80RWtKSW5aclFkc0lxX2plR010bGZwOUQtTVM3bmlJVnNWS1BzQ2MwNHZ4czUzaGtVZFFzNVo2bjcwVnp3cjkybC0zT2hwS3FfOVJLbE5KcXpQWG9wUkR3emFkaGRTYThiLUdYd3B5Y1Jvb0stR1ZhRFR5cVpHY25fUGk4c1JLUlhGYVNMbXhpTVNpVjQySnpn?oc=5",
-      "source": "Diário do Rio",
+      "source": "diariodorio.com",
       "category": "funds",
       "tags": [
         "fundos",
@@ -1219,12 +1243,12 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "companies-42e5fa41cf9ed90e070d183f",
+      "id": "companies-82c2d8ce8a030eb606ca761a",
       "title": "O que as empresas brasileiras já aprenderam sobre inteligência artificial",
-      "summary": "Atualizacao de empresas capturada em Fator Brasil.",
+      "summary": "Atualizacao de empresas capturada em revistafatorbrasil.com.br.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMGxVMjdJVmVDR3ExRFZncXhFakRQNnNlTEFrZUFQUXE5MEV5NkhwUVdXb09GWk9IUGVIc1YzQ1lvTGhFVjBKYmVta3EtLW1SYjctWE1WU1dHckhST1B6MTBvblRzQVBfNkNiZEh3Z0J6OGZqWmdZWVV5VkdNSlNJa2FjOXY5NFhRdEpUNEVxYUtxdFdFZXVONU9vem53amI5aHdlZWxoTzJ0STg2V1liaDlHWlVMMThJVGhQdUM2N1k?oc=5",
-      "source": "Fator Brasil",
+      "source": "revistafatorbrasil.com.br",
       "category": "companies",
       "tags": [
         "empresas",
@@ -1237,11 +1261,11 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "companies-0272e6753b4ea818a45ee8d1",
-      "title": "PIT recebe evento sobre oportunidades de negócios nos EUA",
+      "id": "companies-dc0b4e9342828f2eaf809741",
+      "title": "PIT recebe evento sobre negócios nos EUA",
       "summary": "Atualizacao de empresas capturada em Prefeitura de São José dos Campos.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWVdzSWtnQlRBdWtLaEp3OVZyRHVyQjNLVWk5QlhZTzZmM1haY3M1SHNYRWR3eW83ZEU0dW0tM0oySDBlNkd4SDZ0eHg4NFo4OUdPWENqbE1JZE8ydTlHMk85aXdIdmZnYks5Q21TYTkyRnlVQURRbHgxbWdlei0yalNkMmRPZFZTQ3NhMjFGc1hIbzBHUmFEbWNOYnFsbnJjdUI4cS0xZHR5eDQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOVR2MVUwOV9pbEJRVzZfcWdQS2xJR1FjdkUyaktMRTl6ZUlnNlFnT0JqdU5rV2tIRUVEc1JKbGRWcEdvTmJFTDFjUTNXaFBHRzg1WWlkajFGQll4enZfNDFycWotcGpVZEJGMUhsUk83dXR3SmpNLVdGNG1zNXVaM2EzenEydDBJQmlsZnBxQ0ozWXRH?oc=5",
       "source": "Prefeitura de São José dos Campos",
       "category": "companies",
       "tags": [
@@ -1249,8 +1273,8 @@
         "resultados",
         "m&a"
       ],
-      "publishedAt": "2026-07-31T14:29:00Z",
-      "updatedAt": "2026-07-31T14:29:00Z",
+      "publishedAt": "2026-07-31T14:42:00Z",
+      "updatedAt": "2026-07-31T14:42:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
@@ -1273,30 +1297,12 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "companies-866522ca28ca9e8022e84cbb",
-      "title": "China abre mercado para polpas e frutas brasileiras em cenário de tensão com os EUA",
-      "summary": "Atualizacao de empresas capturada em Mix Vale.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSjFVeDlYVDNsOXhGcmducThtTHFZYUg4M0dwU2V3X2U5LXBmSkl3bEt2ZFVqOXdONnpvVTdCYWhRSlhOT2xEb1hYcVdZTnAyVlVHdlg3cVJhM3N2cHpaUXlRTzNoN0NvRHdHWTAyUW5CUkN3ZkQ3REUxOVFUOXB6RzdOZ1JjdEJxV2lVdndpYkVHdlFScmhManRaQmIwTWNkQnV6YTJ1MDFWZG05VlBOa29SQlNNS0NsRTJRN282RdIBxAFBVV95cUxOVU5FbkpUdmdkYXNteVV1eDdYZWt0ZGt2QkRwc1lvSnNfUXItbEsyZlU0Uy1sanE0aHo3ZFhqOTdVcVlacVpzUHdtcnl1MWJBanlXTGU0bUxsTFR3NnpTclBXZnZyaERpbk9uMkFLM2pHcFZQTk1mdzg0Zy1wWVhYWGhvbFl2MUxybHRFNEIwcjBTMGpTYXVjRl95b1d5VVBiT19FN3UtbTJ6OUdmc3pDbUhuekN5WG1VN0FadHVHRzV6WnFk?oc=5",
-      "source": "Mix Vale",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-07-31T14:17:05Z",
-      "updatedAt": "2026-07-31T14:17:05Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-41ae25a8b547acafa7ef04f4",
+      "id": "companies-4cdd2526bc1d72db25d04963",
       "title": "Aceleradora Midas amplia acesso de startups brasileiras ao Google for Startups",
-      "summary": "Atualizacao de empresas capturada em ayurveda.gov.lk.",
+      "summary": "Atualizacao de empresas capturada em economiasp.com.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMXZqM2sxQ1dEQ2xkaW1pTUYxWHIyYkhTejQ0WS1XUHczLXpLdTdfZkZ5UnViNzR0QkRVQlJMNjhwWUlYTlpFdDlfdTU0VjFXaXBsZTJxU1RyYXZPX3IzUGtqQUZRQnFzcll1WklsUWtlMDFSS2VoN0JRT2h2UDhOcUFWNVlEU2VnelFLY3JHSGtMTEtqQVg3Rm5lNXdpMjBoUXRQYTg5LUtvbWlTcHZaMmhUSQ?oc=5",
-      "source": "ayurveda.gov.lk",
+      "source": "economiasp.com",
       "category": "companies",
       "tags": [
         "empresas",
