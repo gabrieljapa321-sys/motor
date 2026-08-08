@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-08T18:14:23Z",
-  "generatedAt": "2026-08-08T18:14:23Z",
+  "updatedAt": "2026-08-08T19:00:20Z",
+  "generatedAt": "2026-08-08T19:00:20Z",
   "categories": [
     {
       "id": "all",
@@ -25,10 +25,6 @@
   ],
   "sources": [
     {
-      "id": "bahia-economica",
-      "label": "- Bahia Economica"
-    },
-    {
       "id": "93-not-cias",
       "label": "93 Notícias"
     },
@@ -39,10 +35,6 @@
     {
       "id": "ag-ncia-infra",
       "label": "Agência iNFRA"
-    },
-    {
-      "id": "alagoas-alerta",
-      "label": "Alagoas Alerta"
     },
     {
       "id": "anwalt-de",
@@ -77,10 +69,6 @@
       "label": "CNN Brasil"
     },
     {
-      "id": "coinfomania",
-      "label": "Coinfomania"
-    },
-    {
       "id": "consultor-jur-dico",
       "label": "Consultor Jurídico"
     },
@@ -93,8 +81,12 @@
       "label": "Correio de Corumbá"
     },
     {
-      "id": "dropsdejogos-uai-com-br",
-      "label": "dropsdejogos.uai.com.br"
+      "id": "di-rio-imobili-rio",
+      "label": "Diário Imobiliário"
+    },
+    {
+      "id": "drops-de-jogos",
+      "label": "Drops de Jogos"
     },
     {
       "id": "economicnewsbrasil-com-br",
@@ -105,12 +97,12 @@
       "label": "Estadão"
     },
     {
-      "id": "fiis",
-      "label": "Fiis"
+      "id": "estrat-gia-concursos",
+      "label": "Estratégia Concursos"
     },
     {
-      "id": "folha-bv",
-      "label": "Folha BV"
+      "id": "fiis",
+      "label": "Fiis"
     },
     {
       "id": "folha-de-s-paulo",
@@ -141,8 +133,8 @@
       "label": "Jornal O Sul"
     },
     {
-      "id": "moneytimes-com-br",
-      "label": "moneytimes.com.br"
+      "id": "money-times",
+      "label": "Money Times"
     },
     {
       "id": "monitor-do-mercado",
@@ -173,20 +165,24 @@
       "label": "Poder360"
     },
     {
-      "id": "portaldozacarias-com-br",
-      "label": "portaldozacarias.com.br"
+      "id": "revistaforum-com-br",
+      "label": "revistaforum.com.br"
     },
     {
-      "id": "revista-f-rum",
-      "label": "Revista Fórum"
+      "id": "r-dio-itatiaia",
+      "label": "Rádio Itatiaia"
     },
     {
       "id": "spacemoney",
       "label": "SpaceMoney"
     },
     {
-      "id": "tempo-real",
-      "label": "Tempo Real"
+      "id": "teles-ntese",
+      "label": "TeleSíntese"
+    },
+    {
+      "id": "temporealrj-com",
+      "label": "temporealrj.com"
     },
     {
       "id": "terra",
@@ -223,11 +219,49 @@
   ],
   "items": [
     {
+      "id": "funds-e50179b99a3e230d724e1cfd",
+      "title": "Square AM compra parque de escritórios em Madrid por 104 milhões de euros",
+      "summary": "Inteligência artificial impulsiona investimentos bilionários, mas também pressiona os juros; para entender a situação, basta olhar para os mercados de títulos públicos globais",
+      "details": "Inteligência artificial impulsiona investimentos bilionários, mas também pressiona os juros; para entender a situação, basta olhar para os mercados de títulos públicos globais",
+      "url": "https://www.estadao.com.br/economia/the-economist-governos-aposta-perigosa-boom-ia/",
+      "source": "Diário Imobiliário",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-08-08T18:50:56Z",
+      "updatedAt": "2026-08-08T18:50:56Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/NWEGGTQMUJGCXFK6UW5IVISY4Y.jpeg?quality=80&auth=9fbb8831c0e0b3fa835b4486f1dbedc64699dae813165250417c134c54d809ea&width=1200&height=630&focal=4050,1492"
+    },
+    {
+      "id": "macro-e00d119d2cd236f8e3ecaece",
+      "title": "Ex-presidente da Petrobras critica 'arrocho fiscal' e defenda taxação de super-ricos",
+      "summary": "Ex-presidente da Petrobras e coordenador do programa de governo de Lula, Gabrielli também culpa o Banco Central pela dívida e defende revisão de benefícios fiscais",
+      "details": "Ex-presidente da Petrobras e coordenador do programa de governo de Lula, Gabrielli também culpa o Banco Central pela dívida e defende revisão de benefícios fiscais",
+      "url": "https://www.itatiaia.com.br/economia/gabrielli-critica-arrocho-fiscal-juros-bc-divida-publica/",
+      "source": "Rádio Itatiaia",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-08T18:42:43Z",
+      "updatedAt": "2026-08-08T18:42:43Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://admin.itatiaia.com.br/wp-content/uploads/sites/27/2026/08/14594738684_6cd468144b_o.jpg?resize=1280%2C720&w=1280&h=720&quality=75&crop=1"
+    },
+    {
       "id": "macro-5a89c05d6ec95d9423f6c112",
       "title": "Efeito rebote do endividamento recorde pode levar à ressaca da economia em 2027",
-      "summary": "Levantamento da Amcham Brasil indica que avanço da cadeia de terras raras e outros minérios pode ampliar investimentos, empregos e processamento de matérias-primas no Estado",
-      "details": "Levantamento da Amcham Brasil indica que avanço da cadeia de terras raras e outros minérios pode ampliar investimentos, empregos e processamento de matérias-primas no Estado",
-      "url": "https://www.podergoias.com.br/materia/26971/minerais-criticos-podem-elevar-pib-de-goias-em-ate-10-ate-2050-aponta-estudo",
+      "summary": "Atualizacao de macro capturada em Folha de S.Paulo.",
+      "details": "",
+      "url": "https://diarioimobiliario.pt/Square-AM-compra-parque-de-escritorios-em-Madrid-por-104-milhoes-de-euros",
       "source": "Folha de S.Paulo",
       "category": "macro",
       "tags": [
@@ -238,15 +272,14 @@
       "publishedAt": "2026-08-08T18:00:00Z",
       "updatedAt": "2026-08-08T18:00:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.podergoias.com.br/img/not/fad5vhq5.png"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-067f8c9f3a3deb20c3237f06",
       "title": "Minerais críticos podem elevar PIB de Goiás em até 10% até 2050, aponta estudo",
-      "summary": "A crítica de Thomas Piketty ganha força quando florestas preservadas, vidas salvas e crianças educadas seguem invisíveis para o cálculo do Produto Interno…",
-      "details": "A crítica de Thomas Piketty ganha força quando florestas preservadas, vidas salvas e crianças educadas seguem invisíveis para o cálculo do Produto Interno…",
-      "url": "https://www.brasil247.com/blog/enquanto-o-pib-sobe-a-floresta-a-saude-e-a-dignidade-continuam-caindo/",
+      "summary": "Levantamento da Amcham Brasil indica que avanço da cadeia de terras raras e outros minérios pode ampliar investimentos, empregos e processamento de matérias-primas no Estado",
+      "details": "Levantamento da Amcham Brasil indica que avanço da cadeia de terras raras e outros minérios pode ampliar investimentos, empregos e processamento de matérias-primas no Estado",
+      "url": "https://www.podergoias.com.br/materia/26971/minerais-criticos-podem-elevar-pib-de-goias-em-ate-10-ate-2050-aponta-estudo",
       "source": "Poder Goiás",
       "category": "macro",
       "tags": [
@@ -258,14 +291,14 @@
       "updatedAt": "2026-08-08T17:42:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.brasil247.com/wp-content/uploads/2022/04/20220412190436_fcfcd3c7ddb5cc3136a931140ae98bbe05e7ccd47dda5a9cac3243c543a98bb8.jpg?w=1200&quality=88&strip=all"
+      "imageUrl": "https://www.podergoias.com.br/img/not/fad5vhq5.png"
     },
     {
       "id": "macro-9f319ad73156f2f48cc9c0e1",
       "title": "The Economist: Os governos estão fazendo uma aposta perigosa no boom da IA",
-      "summary": "Mais de 31 mil produtos de origem estrangeira e sem documentação fiscal foram apreendidos pela Polícia Rodoviária durante uma fiscalização a um ônibus em Presidente Prudente (SP).",
-      "details": "Mais de 31 mil produtos de origem estrangeira e sem documentação fiscal foram apreendidos pela Polícia Rodoviária durante uma fiscalização a um ônibus em Presidente Prudente (SP).",
-      "url": "https://g1.globo.com/sp/presidente-prudente-e-regiao/noticia/2026/08/08/produtos-sem-documentacao-fiscal-sao-apreendidos-com-passageiros-bolivianos-em-onibus.ghtml",
+      "summary": "Para economistas, excesso de dívidas desacelerará consumo de forma significativa quando emprego e renda piorarem",
+      "details": "Para economistas, excesso de dívidas desacelerará consumo de forma significativa quando emprego e renda piorarem",
+      "url": "https://www1.folha.uol.com.br/mercado/2026/08/efeito-rebote-do-endividamento-recorde-pode-levar-a-ressaca-da-economia-em-2027.shtml",
       "source": "Estadão",
       "category": "macro",
       "tags": [
@@ -277,14 +310,14 @@
       "updatedAt": "2026-08-08T17:30:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-g1.glbimg.com/sZiRBnrIIdavrTubUAEDczLek9s=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/U/B/xABqpcQx2kafROsADEDw/whatsapp-image-2026-08-08-at-12.29.41.jpeg"
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2022/10/13/1665694184634879e87f544_1665694184_3x2_rt.jpg"
     },
     {
       "id": "macro-67660b238107709ad4364616",
       "title": "Mais de 30 mil produtos sem documentação fiscal são apreendidos com passageiros bolivianos em ônibus",
-      "summary": "Para economistas, excesso de dívidas desacelerará consumo de forma significativa quando emprego e renda piorarem",
-      "details": "Para economistas, excesso de dívidas desacelerará consumo de forma significativa quando emprego e renda piorarem",
-      "url": "https://www1.folha.uol.com.br/mercado/2026/08/efeito-rebote-do-endividamento-recorde-pode-levar-a-ressaca-da-economia-em-2027.shtml",
+      "summary": "Mais de 31 mil produtos de origem estrangeira e sem documentação fiscal foram apreendidos pela Polícia Rodoviária durante uma fiscalização a um ônibus em Presidente Prudente (SP).",
+      "details": "Mais de 31 mil produtos de origem estrangeira e sem documentação fiscal foram apreendidos pela Polícia Rodoviária durante uma fiscalização a um ônibus em Presidente Prudente (SP).",
+      "url": "https://g1.globo.com/sp/presidente-prudente-e-regiao/noticia/2026/08/08/produtos-sem-documentacao-fiscal-sao-apreendidos-com-passageiros-bolivianos-em-onibus.ghtml",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -296,14 +329,52 @@
       "updatedAt": "2026-08-08T17:16:28Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2022/10/13/1665694184634879e87f544_1665694184_3x2_rt.jpg"
+      "imageUrl": "https://s2-g1.glbimg.com/sZiRBnrIIdavrTubUAEDczLek9s=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/U/B/xABqpcQx2kafROsADEDw/whatsapp-image-2026-08-08-at-12.29.41.jpeg"
+    },
+    {
+      "id": "macro-0edcb5e132943e8ec1f049b3",
+      "title": "Qual investimento em renda fixa rendeu 1,5% ao mês em julho de 2026?",
+      "summary": "...",
+      "details": "...",
+      "url": "https://investidor10.com.br/amp/noticias/qual-investimento-em-renda-fixa-rendeu-1-5-ao-mes-em-julho-de-2026-121936/",
+      "source": "Investidor10",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-08T17:16:00Z",
+      "updatedAt": "2026-08-08T17:16:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://investidor10.com.br/storage/news/6a775d9c05154.jpg"
+    },
+    {
+      "id": "macro-8f0a086872947cfd30e05a99",
+      "title": "Notificação de lançamento para SEFAZ/DF",
+      "summary": "O artigo traz um tema bastante importante para a prova de Auditor Fiscal do Distrito Federal: notificação de lançamento para SEFAZ/DF.",
+      "details": "O artigo traz um tema bastante importante para a prova de Auditor Fiscal do Distrito Federal: notificação de lançamento para SEFAZ/DF.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/notificacao-lancamento-sefaz-df/amp/",
+      "source": "Estratégia Concursos",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-08T17:09:05Z",
+      "updatedAt": "2026-08-08T17:09:05Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2026/07/24122402/image-108.png"
     },
     {
       "id": "latest-0914a8d2aeeeda9e105fe691",
       "title": "Lula critica Faria Lima e ajuste fiscal em evento de 30 anos do MTST",
-      "summary": "Inteligência artificial impulsiona investimentos bilionários, mas também pressiona os juros; para entender a situação, basta olhar para os mercados de títulos públicos globais",
-      "details": "Inteligência artificial impulsiona investimentos bilionários, mas também pressiona os juros; para entender a situação, basta olhar para os mercados de títulos públicos globais",
-      "url": "https://www.estadao.com.br/economia/the-economist-governos-aposta-perigosa-boom-ia/",
+      "summary": "Presidente questionou pressão por equilíbrio das contas e afirmou que mercado não conhece a realidade da população pobre. Leia no Poder360.",
+      "details": "Presidente questionou pressão por equilíbrio das contas e afirmou que mercado não conhece a realidade da população pobre. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-governo/lula-critica-faria-lima-e-ajuste-fiscal-em-evento-de-30-anos-do-mtst/",
       "source": "Poder360",
       "category": "latest",
       "tags": [
@@ -315,14 +386,14 @@
       "updatedAt": "2026-08-08T17:01:07Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/NWEGGTQMUJGCXFK6UW5IVISY4Y.jpeg?quality=80&auth=9fbb8831c0e0b3fa835b4486f1dbedc64699dae813165250417c134c54d809ea&width=1200&height=630&focal=4050,1492"
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/08/lula-mtst-6x1-1-848x477.jpg"
     },
     {
       "id": "macro-0edcc9b87526aa6f5d611f7b",
       "title": "Enquanto o PIB sobe, a floresta, a saúde e a dignidade continuam caindo",
-      "summary": "Presidente questionou pressão por equilíbrio das contas e afirmou que mercado não conhece a realidade da população pobre. Leia no Poder360.",
-      "details": "Presidente questionou pressão por equilíbrio das contas e afirmou que mercado não conhece a realidade da população pobre. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-governo/lula-critica-faria-lima-e-ajuste-fiscal-em-evento-de-30-anos-do-mtst/",
+      "summary": "A crítica de Thomas Piketty ganha força quando florestas preservadas, vidas salvas e crianças educadas seguem invisíveis para o cálculo do Produto Interno…",
+      "details": "A crítica de Thomas Piketty ganha força quando florestas preservadas, vidas salvas e crianças educadas seguem invisíveis para o cálculo do Produto Interno…",
+      "url": "https://www.brasil247.com/blog/enquanto-o-pib-sobe-a-floresta-a-saude-e-a-dignidade-continuam-caindo/",
       "source": "Brasil 247",
       "category": "macro",
       "tags": [
@@ -334,14 +405,14 @@
       "updatedAt": "2026-08-08T16:44:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/08/lula-mtst-6x1-1-848x477.jpg"
+      "imageUrl": "https://www.brasil247.com/wp-content/uploads/2022/04/20220412190436_fcfcd3c7ddb5cc3136a931140ae98bbe05e7ccd47dda5a9cac3243c543a98bb8.jpg?w=1200&quality=88&strip=all"
     },
     {
       "id": "macro-5e3a6a8767dbc9d9202a27c0",
       "title": "Contribuintes com débitos municipais são convocados a regularizar situação fiscal",
-      "summary": "Atualizacao de macro capturada em Correio de Corumbá.",
-      "details": "",
-      "url": "https://amp.correiodecorumbapantanal.com.br/cidade/contribuintes-com-debitos-municipais-sao-convocados-a-regularizar-situacao-fiscal",
+      "summary": "Contribuintes com débitos municipais são convocados a regularizar situação fiscal",
+      "details": "Contribuintes com débitos municipais são convocados a regularizar situação fiscal",
+      "url": "https://www.correiodecorumbapantanal.com.br/cidade/contribuintes-com-debitos-municipais-sao-convocados-a-regularizar-situacao-fiscal",
       "source": "Correio de Corumbá",
       "category": "macro",
       "tags": [
@@ -352,7 +423,8 @@
       "publishedAt": "2026-08-08T16:29:00Z",
       "updatedAt": "2026-08-08T16:29:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://cdn1.correiodecorumbapantanal.com.br/ui/app/site/assets/img/img-default.jpg"
     },
     {
       "id": "macro-90234e0ae99659aa36b60ef6",
@@ -376,9 +448,9 @@
     {
       "id": "macro-117460c5753896ccd189e497",
       "title": "PT divulga plano de governo de Lula com defesa de soberania em resposta a Trump, arcabouço fiscal e promessa de rever emendas",
-      "summary": "O PT divulgou o plano de governo que embasará a campanha à reeleição do presidente Luiz Inácio Lula da Silva com foco na defesa da soberania, em resposta ao presidente dos Estados Unidos, Donald Trump, a promessa de manutenção do arcabouço fiscal e a revisão do modelo de emendas ",
-      "details": "O PT divulgou o plano de governo que embasará a campanha à reeleição do presidente Luiz Inácio Lula da Silva com foco na defesa da soberania, em resposta ao presidente dos Estados Unidos, Donald Trump, a promessa de manutenção do arcabouço fiscal e a revisão do modelo de emendas parlamentares,…",
-      "url": "https://www.osul.com.br/pt-divulga-plano-de-governo-de-lula-com-defesa-de-soberania-em-resposta-a-trump-arcabouco-fiscal-e-promessa-de-rever-emendas/",
+      "summary": "Pesquisa aponta tristeza e raiva acima do entusiasmo popular",
+      "details": "Pesquisa aponta tristeza e raiva acima do entusiasmo popular",
+      "url": "https://www1.folha.uol.com.br/colunas/sylvia-colombo/2026/08/queda-da-inflacao-nao-melhora-humor-social-no-governo-milei.shtml",
       "source": "Jornal O Sul",
       "category": "macro",
       "tags": [
@@ -390,14 +462,14 @@
       "updatedAt": "2026-08-08T16:16:25Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.osul.com.br/wp-content/uploads/2026/08/lula-3.png"
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/08/17862002336a7740a9f0497_1786200233_3x2_rt.jpg"
     },
     {
       "id": "macro-d2a8c8f4fcdddd3f1e988e29",
       "title": "Gabrielli critica \"arrocho fiscal\" e defende taxação a super-ricos",
-      "summary": "Em texto, coordenador do programa de Lula à reeleição afirma que equilíbrio das contas públicas não pode ser \"fim em si mesmo\" e culpa BC por crescimento da dívida",
-      "details": "Em texto, coordenador do programa de Lula à reeleição afirma que equilíbrio das contas públicas não pode ser \"fim em si mesmo\" e culpa BC por crescimento da dívida",
-      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/gabrielli-critica-arrocho-fiscal-e-defende-taxacao-a-super-ricos/",
+      "summary": "O PT divulgou o plano de governo que embasará a campanha à reeleição do presidente Luiz Inácio Lula da Silva com foco na defesa da soberania, em resposta ao presidente dos Estados Unidos, Donald Trump, a promessa de manutenção do arcabouço fiscal e a revisão do modelo de emendas ",
+      "details": "O PT divulgou o plano de governo que embasará a campanha à reeleição do presidente Luiz Inácio Lula da Silva com foco na defesa da soberania, em resposta ao presidente dos Estados Unidos, Donald Trump, a promessa de manutenção do arcabouço fiscal e a revisão do modelo de emendas parlamentares,…",
+      "url": "https://www.osul.com.br/pt-divulga-plano-de-governo-de-lula-com-defesa-de-soberania-em-resposta-a-trump-arcabouco-fiscal-e-promessa-de-rever-emendas/",
       "source": "CNN Brasil",
       "category": "macro",
       "tags": [
@@ -409,14 +481,14 @@
       "updatedAt": "2026-08-08T16:15:43Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/Lucio-Bernardo-Jr-Camara-dos-Deputados.jpg?w=1170&h=630&crop=1"
+      "imageUrl": "https://www.osul.com.br/wp-content/uploads/2026/08/lula-3.png"
     },
     {
       "id": "macro-594c4ef548a2f5cdfb40af1c",
       "title": "Warsh deve provocar mudanças profundas no Fed, diz CEO da Stratton Capital",
-      "summary": "Pesquisa aponta tristeza e raiva acima do entusiasmo popular",
-      "details": "Pesquisa aponta tristeza e raiva acima do entusiasmo popular",
-      "url": "https://www1.folha.uol.com.br/colunas/sylvia-colombo/2026/08/queda-da-inflacao-nao-melhora-humor-social-no-governo-milei.shtml",
+      "summary": "Em texto, coordenador do programa de Lula à reeleição afirma que equilíbrio das contas públicas não pode ser \"fim em si mesmo\" e culpa BC por crescimento da dívida",
+      "details": "Em texto, coordenador do programa de Lula à reeleição afirma que equilíbrio das contas públicas não pode ser \"fim em si mesmo\" e culpa BC por crescimento da dívida",
+      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/gabrielli-critica-arrocho-fiscal-e-defende-taxacao-a-super-ricos/",
       "source": "Poder360",
       "category": "macro",
       "tags": [
@@ -428,14 +500,14 @@
       "updatedAt": "2026-08-08T16:15:36Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/08/17862002336a7740a9f0497_1786200233_3x2_rt.jpg"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/Lucio-Bernardo-Jr-Camara-dos-Deputados.jpg?w=1170&h=630&crop=1"
     },
     {
       "id": "macro-048734eb949cc6614f3fbcc5",
       "title": "Opinião - Sylvia Colombo: Queda da inflação não melhora humor social no governo Milei",
-      "summary": "Fed mantém taxa de juros entre 3,5% e 3,75%, gerando reações negativas no mercado.",
-      "details": "Fed mantém taxa de juros entre 3,5% e 3,75%, gerando reações negativas no mercado.",
-      "url": "https://93noticias.com.br/fed-mantem-juros-e-provoca-quedas-mercado-registra/",
+      "summary": "O presidente do banco central norte-americano assumiu o cargo neste ano depois de ser indicado por Donald Trump. Leia no Poder360.",
+      "details": "O presidente do banco central norte-americano assumiu o cargo neste ano depois de ser indicado por Donald Trump. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-economia/warsh-deve-provocar-mudancas-profundas-no-fed-diz-ceo-da-stratton-capital/",
       "source": "Folha de S.Paulo",
       "category": "macro",
       "tags": [
@@ -447,14 +519,14 @@
       "updatedAt": "2026-08-08T16:15:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://93noticias.com.br/wp-content/uploads/2026/08/fed-mantem-juros-e-provoca-quedas-mercado-registra-nervosism-20260808-1200x630.jpg"
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/08/Marcelo-Cabral-848x477.jpg"
     },
     {
       "id": "macro-3f2b098a446c2037c7e52c97",
       "title": "Selic e crédito se distanciam: juros às famílias ainda passam de 60%",
-      "summary": "O presidente do banco central norte-americano assumiu o cargo neste ano depois de ser indicado por Donald Trump. Leia no Poder360.",
-      "details": "O presidente do banco central norte-americano assumiu o cargo neste ano depois de ser indicado por Donald Trump. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-economia/warsh-deve-provocar-mudancas-profundas-no-fed-diz-ceo-da-stratton-capital/",
+      "summary": "Selic caiu para 14%, mas juros do crédito livre às famílias estavam em 62,8% ao ano. Entenda por que o crédito ainda custa caro.",
+      "details": "Selic caiu para 14%, mas juros do crédito livre às famílias estavam em 62,8% ao ano. Entenda por que o crédito ainda custa caro.",
+      "url": "https://economicnewsbrasil.com.br/2026/08/08/selic-e-credito-juros-consumidor/",
       "source": "economicnewsbrasil.com.br",
       "category": "macro",
       "tags": [
@@ -466,14 +538,14 @@
       "updatedAt": "2026-08-08T16:11:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/08/Marcelo-Cabral-848x477.jpg"
+      "imageUrl": "https://economicnewsbrasil.com.br/wp-content/uploads/2026/08/selic.png"
     },
     {
       "id": "latest-d9a70ee3a0be6d036728ea5b",
       "title": "Fed mantém juros, mas decisão dividida acende alerta",
-      "summary": "Selic caiu para 14%, mas juros do crédito livre às famílias estavam em 62,8% ao ano. Entenda por que o crédito ainda custa caro.",
-      "details": "Selic caiu para 14%, mas juros do crédito livre às famílias estavam em 62,8% ao ano. Entenda por que o crédito ainda custa caro.",
-      "url": "https://economicnewsbrasil.com.br/2026/08/08/selic-e-credito-juros-consumidor/",
+      "summary": "Atualizacao de ultima hora capturada em Nord Investimentos.",
+      "details": "",
+      "url": "https://revistaforum.com.br/opiniao/enquanto-o-pib-sobe-a-floresta-a-saude-e-a-dignidade-continuam-caindo/",
       "source": "Nord Investimentos",
       "category": "latest",
       "tags": [
@@ -484,16 +556,15 @@
       "publishedAt": "2026-08-08T16:09:29Z",
       "updatedAt": "2026-08-08T16:09:29Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://economicnewsbrasil.com.br/wp-content/uploads/2026/08/selic.png"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "macro-12b1e2510f5278a6480caaa8",
+      "id": "macro-f59ff174804adbb7355a1a16",
       "title": "Enquanto o PIB sobe, a floresta, a saúde e a dignidade continuam caindo",
       "summary": "Comitê manteve juros em 3,50% a 3,75% a.a., mas com três votos favoráveis à alta. Alta de juros neste ano está no radar do mercado",
       "details": "Comitê manteve juros em 3,50% a 3,75% a.a., mas com três votos favoráveis à alta. Alta de juros neste ano está no radar do mercado",
       "url": "https://www.nordinvestimentos.com.br/blog/juros-estados-unidos-hoje/",
-      "source": "Revista Fórum",
+      "source": "revistaforum.com.br",
       "category": "macro",
       "tags": [
         "macro",
@@ -509,9 +580,9 @@
     {
       "id": "macro-c22a3d44bc0c50a134ec4d2b",
       "title": "Caixa deve usar Taxa Referencial para corrigir valores apreendidos em investigações",
-      "summary": "Atualizacao de macro capturada em Consultor Jurídico.",
-      "details": "",
-      "url": "https://revistaforum.com.br/opiniao/enquanto-o-pib-sobe-a-floresta-a-saude-e-a-dignidade-continuam-caindo/",
+      "summary": "A Caixa Econômica Federal deve corrigir os valores apreendidos e depositos em investigações criminais pela TR, não pela Selic.",
+      "details": "A Caixa Econômica Federal deve corrigir os valores apreendidos e depositos em investigações criminais pela TR, não pela Selic.",
+      "url": "https://conjur.com.br/2026-ago-08/valores-apreendidos-em-investigacoes-devem-ser-corrigidos-pela-caixa-pela-tr/",
       "source": "Consultor Jurídico",
       "category": "macro",
       "tags": [
@@ -522,14 +593,15 @@
       "publishedAt": "2026-08-08T15:40:44Z",
       "updatedAt": "2026-08-08T15:40:44Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://conjur.com.br/wp-content/uploads/2026/08/fachada-caixa-economica-federal-300x200-1.jpeg"
     },
     {
       "id": "latest-263433f77febed2f06f11da1",
       "title": "Fed mantém juros e provoca quedas; mercado registra nervosismo",
-      "summary": "A Caixa Econômica Federal deve corrigir os valores apreendidos e depositos em investigações criminais pela TR, não pela Selic.",
-      "details": "A Caixa Econômica Federal deve corrigir os valores apreendidos e depositos em investigações criminais pela TR, não pela Selic.",
-      "url": "https://conjur.com.br/2026-ago-08/valores-apreendidos-em-investigacoes-devem-ser-corrigidos-pela-caixa-pela-tr/",
+      "summary": "O m&ecirc;s de julho foi marcado pela interrup&ccedil;&atilde;o de dois meses seguidos de sa&iacute;da substancial de capital estrangeiro da B3. A Bolsa fechou o m&ecirc;s com entrada de R$ 2,558 bilh&otilde;es, elevando o saldo do ano para R$ 36,406 bilh&otilde;es. O montante &e",
+      "details": "O m&ecirc;s de julho foi marcado pela interrup&ccedil;&atilde;o de dois meses seguidos de sa&iacute;da substancial de capital estrangeiro da B3. A Bolsa fechou o m&ecirc;s com entrada de R$ 2,558 bilh&otilde;es, elevando o saldo do ano para R$ 36,406 bilh&otilde;es. O montante &eacute; ainda 81% superior ao de igual pe",
+      "url": "https://www.gazetadigital.com.br/editorias/economia/brasileiros-sacam-mais-do-que-depositam-e-poupanca-tem-rombo-de-r-7-15-bilhoes/855689",
       "source": "93 Notícias",
       "category": "latest",
       "tags": [
@@ -541,33 +613,14 @@
       "updatedAt": "2026-08-08T15:36:31Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://conjur.com.br/wp-content/uploads/2026/08/fachada-caixa-economica-federal-300x200-1.jpeg"
-    },
-    {
-      "id": "macro-886aa2e711bda4e653fea289",
-      "title": "Selic cai para 14%: veja o que muda no cartão, nas parcelas e nos investimentos",
-      "summary": "A redução da taxa básica de juros para 14% ao ano começa a mudar o cenário financeiro para consumidores, empresas e investidores. A decisão foi tomada pelo Comitê de Política Monet",
-      "details": "A redução da taxa básica de juros para 14% ao ano começa a mudar o cenário financeiro para consumidores, empresas e investidores. A decisão foi tomada pelo Comitê de Política Monet",
-      "url": "https://www.alagoasalerta.com.br/noticia/selic-cai-para-14-veja-o-que-muda-no-cartao-nas-parcelas-e-nos-investimentos",
-      "source": "Alagoas Alerta",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-08T15:26:25Z",
-      "updatedAt": "2026-08-08T15:26:25Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://cdn.sanity.io/images/dqacgg2v/production/4d7677dc3deac4f5bae8cb53af4b159fcd50afc7-1170x700.jpg"
+      "imageUrl": "https://www.gazetadigital.com.br/storage/webdisco/2019/05/20/475x210/be20b55e82dd54f42cb577c596300cfc.jpg"
     },
     {
       "id": "latest-2e780117edeb106e0ce50d4e",
       "title": "Seis horas de pânico e recuperação nos ativos",
-      "summary": "Percentual aumentou 2,1 pontos em dois anos, segundo dados revisados pelo Tesouro Nacional",
-      "details": "Percentual aumentou 2,1 pontos em dois anos, segundo dados revisados pelo Tesouro Nacional",
-      "url": "https://www.folhabv.com.br/cotidiano/carga-tributaria-do-brasil-sobe-para-324-do-pib-em-2025-maior-nivel-da-serie-historica/",
+      "summary": "Valorização no físico contrasta com cautela em contratos futuros",
+      "details": "Valorização no físico contrasta com cautela em contratos futuros",
+      "url": "https://boca.com.br/mercado-financeiro/mercado-do-boi-gordo-mantem-precos-firmes-mas-futuro-mostra-cautela",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -579,52 +632,14 @@
       "updatedAt": "2026-08-08T15:15:34Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.folhabv.com.br/wp-content/uploads/2022/06/noti-1654178753.jpg"
-    },
-    {
-      "id": "macro-f6b022f0404adf60ba72c3fc",
-      "title": "Carga tributária do Brasil sobe para 32,4% do PIB em 2025, maior nível da série histórica",
-      "summary": "Entenda como o mercado financeiro brasileiro lidou com seis horas de forte estresse e o que esperar da próxima sessão",
-      "details": "Entenda como o mercado financeiro brasileiro lidou com seis horas de forte estresse e o que esperar da próxima sessão",
-      "url": "https://www.spacemoney.com.br/economia/seis-horas-de-turbulencia-no-mercado-financeiro/",
-      "source": "Folha BV",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-08T15:00:00Z",
-      "updatedAt": "2026-08-08T15:00:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-10628030.webp"
-    },
-    {
-      "id": "macro-6348c83bcf37417a9ab594da",
-      "title": "CARGA TRIBUTÁRIA ATINGE 32,4% DO PIB E BATE RECORDE",
-      "summary": "Bahia Economica",
-      "details": "Valorização no físico contrasta com cautela em contratos futuros",
-      "url": "https://boca.com.br/mercado-financeiro/mercado-do-boi-gordo-mantem-precos-firmes-mas-futuro-mostra-cautela",
-      "source": "- Bahia Economica",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-08T14:59:00Z",
-      "updatedAt": "2026-08-08T14:59:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
       "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/e95b5b3472093d4faa862c29a04a3ccc_858x483.jpg"
     },
     {
       "id": "latest-00b7943aedafe628145ce197",
       "title": "Brasileiros sacam mais do que depositam e poupança tem rombo de R$ 7,15 bilhões",
-      "summary": "O maior portal de Economia da Bahia DESTAQUE DO DIA, ECONOMIA / POLÍTICA Bahia Economica A carga tributária bruta do Governo Geral brasileiro",
-      "details": "O maior portal de Economia da Bahia DESTAQUE DO DIA, ECONOMIA / POLÍTICA Bahia Economica A carga tributária bruta do Governo Geral brasileiro",
-      "url": "https://bahiaeconomica.com.br/wp/2026/08/08/carga-tributaria-atinge-324-do-pib-e-bate-recorde/",
+      "summary": "Fed mantém taxa de juros entre 3,5% e 3,75%, gerando reações negativas no mercado.",
+      "details": "Fed mantém taxa de juros entre 3,5% e 3,75%, gerando reações negativas no mercado.",
+      "url": "https://93noticias.com.br/fed-mantem-juros-e-provoca-quedas-mercado-registra/",
       "source": "Gazeta Digital",
       "category": "latest",
       "tags": [
@@ -636,14 +651,14 @@
       "updatedAt": "2026-08-08T14:26:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://bahiaeconomica.com.br/wp/wp-content/uploads/2026/08/182041novo-desenrola-brasil-comeca-a-valer-nesta-terca-com-descontos-de-ate-90-em-dividas-3-1536x722-1.webp"
+      "imageUrl": "https://93noticias.com.br/wp-content/uploads/2026/08/fed-mantem-juros-e-provoca-quedas-mercado-registra-nervosism-20260808-1200x630.jpg"
     },
     {
       "id": "latest-64b6bd45d879da32b92c9bb0",
       "title": "Mercado do boi gordo mantém preços firmes, mas futuro mostra cautela",
-      "summary": "O m&ecirc;s de julho foi marcado pela interrup&ccedil;&atilde;o de dois meses seguidos de sa&iacute;da substancial de capital estrangeiro da B3. A Bolsa fechou o m&ecirc;s com entrada de R$ 2,558 bilh&otilde;es, elevando o saldo do ano para R$ 36,406 bilh&otilde;es. O montante &e",
-      "details": "O m&ecirc;s de julho foi marcado pela interrup&ccedil;&atilde;o de dois meses seguidos de sa&iacute;da substancial de capital estrangeiro da B3. A Bolsa fechou o m&ecirc;s com entrada de R$ 2,558 bilh&otilde;es, elevando o saldo do ano para R$ 36,406 bilh&otilde;es. O montante &eacute; ainda 81% superior ao de igual pe",
-      "url": "https://www.gazetadigital.com.br/editorias/economia/brasileiros-sacam-mais-do-que-depositam-e-poupanca-tem-rombo-de-r-7-15-bilhoes/855689",
+      "summary": "Entenda como o mercado financeiro brasileiro lidou com seis horas de forte estresse e o que esperar da próxima sessão",
+      "details": "Entenda como o mercado financeiro brasileiro lidou com seis horas de forte estresse e o que esperar da próxima sessão",
+      "url": "https://www.spacemoney.com.br/economia/seis-horas-de-turbulencia-no-mercado-financeiro/",
       "source": "boca.com.br",
       "category": "latest",
       "tags": [
@@ -655,7 +670,7 @@
       "updatedAt": "2026-08-08T13:45:21Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.gazetadigital.com.br/storage/webdisco/2019/05/20/475x210/be20b55e82dd54f42cb577c596300cfc.jpg"
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-10628030.webp"
     },
     {
       "id": "latest-cede9fcf857ce5f49fec2c91",
@@ -698,9 +713,9 @@
     {
       "id": "latest-37444cf5d2f765ec13dd13fd",
       "title": "OPINIÃO: Como a tecnologia e regras claras blindam o consumidor de juros abusivos e práticas predatórias",
-      "summary": "Por Rodolfo Takahashi* As investigações abertas pelo governo contra instituições financeiras suspeitas de cobrar juros abusivos recolocam em evidência um",
-      "details": "Por Rodolfo Takahashi* As investigações abertas pelo governo contra instituições financeiras suspeitas de cobrar juros abusivos recolocam em evidência um",
-      "url": "https://monitordomercado.com.br/noticias/visoes-de-mercado/415746-opiniao-como-a-tecnologia-e-regras-claras-blindam-o-consumidor-de-juros-abusivos-e-praticas-predatorias/",
+      "summary": "Previsões climáticas impactam cotações do cereal",
+      "details": "Previsões climáticas impactam cotações do cereal",
+      "url": "https://boca.com.br/agronegocio/mercado-de-milho-em-baixa-por-clima-nos-eua-e-na-europa",
       "source": "Monitor do Mercado",
       "category": "latest",
       "tags": [
@@ -712,14 +727,14 @@
       "updatedAt": "2026-08-08T13:01:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://monitordomercado.com.br/wp-content/uploads/2026/08/juros.jpg"
+      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/4ebdb8a85d61ecc0ea5ed187cfa605fc_858x483.jpg"
     },
     {
       "id": "latest-996534010786db9e0176d2a2",
       "title": "Mercado de milho em baixa por clima nos EUA e na Europa",
-      "summary": "Previsões climáticas impactam cotações do cereal",
-      "details": "Previsões climáticas impactam cotações do cereal",
-      "url": "https://boca.com.br/agronegocio/mercado-de-milho-em-baixa-por-clima-nos-eua-e-na-europa",
+      "summary": "Por Rodolfo Takahashi* As investigações abertas pelo governo contra instituições financeiras suspeitas de cobrar juros abusivos recolocam em evidência um",
+      "details": "Por Rodolfo Takahashi* As investigações abertas pelo governo contra instituições financeiras suspeitas de cobrar juros abusivos recolocam em evidência um",
+      "url": "https://monitordomercado.com.br/noticias/visoes-de-mercado/415746-opiniao-como-a-tecnologia-e-regras-claras-blindam-o-consumidor-de-juros-abusivos-e-praticas-predatorias/",
       "source": "boca.com.br",
       "category": "latest",
       "tags": [
@@ -731,14 +746,14 @@
       "updatedAt": "2026-08-08T12:45:20Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/4ebdb8a85d61ecc0ea5ed187cfa605fc_858x483.jpg"
+      "imageUrl": "https://monitordomercado.com.br/wp-content/uploads/2026/08/juros.jpg"
     },
     {
       "id": "latest-75af1814ba10e13c4d87ba66",
       "title": "Opinião: Elevadas taxas de juros no Brasil; Risco fiscal, credibilidade da política monetária ou pressão social do mercado financeiro?",
-      "summary": "Cada vertente de pensamento econômico tem uma estrutura para lidar com a pergunta “o que faz uma taxa de juros ser/estar elevada?”",
-      "details": "Cada vertente de pensamento econômico tem uma estrutura para lidar com a pergunta “o que faz uma taxa de juros ser/estar elevada?”",
-      "url": "https://matogrossoeconomico.com.br/opiniao/opiniao-elevadas-taxas-de-juros-no-brasil-risco-fiscal-credibilidade-da-politica-monetaria-ou-pressao-social-do-mercado-financeiro/",
+      "summary": "Atualizacao de ultima hora capturada em MT Econômico.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQbGpjSTBvUk5FMTB6d0IwZzk3X2F4TV9ZR2V4UGFvOFJuSUdFWEdqRUJaUVBZdGlQcVpXdUVXZ1l1TGJKNWo1dk9ZR3ZkRU92WVVQcWNrU2ljazJEbDE0d1o5UUNpeXNwU0RXUWFLM0ZOSUtaYlVaYUxnalBEZVpOVUlfbzhpSlJQUFNLLUw1V0VTdjRXbTJEd3BYOWpPQzdRUmFnWDdFQm1JVnZOZ3RhcWdJSm5JalJ1UjRxWGR3LWo1YjZPWXZleHc2bkV6SFlwVlQ3MG8wUEhEc1l4ZTgxY3NQN3FvbXBtZW50Ulh5N2t1TWhoWDdiTkh3U3ducTNYcDBoUQ?oc=5",
       "source": "MT Econômico",
       "category": "latest",
       "tags": [
@@ -749,8 +764,7 @@
       "publishedAt": "2026-08-08T12:34:50Z",
       "updatedAt": "2026-08-08T12:34:50Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://matogrossoeconomico.com.br/wp-content/uploads/2026/08/flauzino.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-875838a049569f97760f7442",
@@ -771,6 +785,24 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
+      "id": "latest-3052d58fbf9ff068a674e7d9",
+      "title": "Queda da Selic a 14% afeta dívidas, cartões e investimentos",
+      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZlQ5c1JtYlJIOWR4ZnlrTUwzZkQ5T0M4RU5IbF9JNzBuYmNuUThwcW5VSVYzWEN3NkVZYXZ5WTl2VFFKSm1UdGdOQ1Btblg1aUZZbTVDU1lIRHpQZHN6YmF3T1FtSU5IdWJxbDIzZTBaN1NtMVFwamloeHJDLXFCcFp1OW5uM3d0ejZDMA?oc=5",
+      "source": "SpaceMoney",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-08T12:16:50Z",
+      "updatedAt": "2026-08-08T12:16:50Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
       "id": "latest-8a4eee812eff855d77821d06",
       "title": "Eduardo Bolsonaro critica vacinação obrigatória no Brasil",
       "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
@@ -785,24 +817,6 @@
       ],
       "publishedAt": "2026-08-08T12:15:58Z",
       "updatedAt": "2026-08-08T12:15:58Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-cbb67f1129ad5e8d4672debe",
-      "title": "Padronização de ações tokenizadas pode transformar o mercado financeiro",
-      "summary": "Atualizacao de ultima hora capturada em Coinfomania.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTEt3NlNIcU92bThFR24wSW9NUFVqVHQ3VzI3c0JHdTlCUURaN3hwYmMxSWQ1dEo0M0VMSjl6NXZDc0xzMjRURUpLVGRqX25BRV9sQ2s5YmxkSkxaUEdHcmFJYng2SzlvdEl2ZTd0WHl2UmJuRzBCZmhjTnNYOGU4Nmg5UzhxYUFOaHZXLW8yUldIeUhVOHc?oc=5",
-      "source": "Coinfomania",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-08T12:08:42Z",
-      "updatedAt": "2026-08-08T12:08:42Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
@@ -913,24 +927,6 @@
       "updatedAt": "2026-08-08T08:51:10Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-c22d0c75fb03c97430aef627",
-      "title": "Mais de 300 empresas e entidades se manifestaram em audiências do USTR",
-      "summary": "Atualizacao de empresas capturada em CNN Brasil.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOX21GR0dRWW5HZlRKRnRPRkZ6NnhSMllFNU4yWWZBUllka0hDQUpWTUgtZXhUYkF3M2h4WmtoalFJbmdwZ2NkRUJUbUpNZS15ZEpBOXNHSnl0T202V2dmZEt4Sk0zUnlzbUxzakoxV1REVkFvZUdNWXEwclFiQmdvbnVNS3J0YXVBeUd1WHEwV3Vfd2dONW9sSnZuMVdLUUx2NmwxUUZHYllGUmNEV3RVMFVGcFY1QV9OTUJmY0VhcVh0MDF1TGVELVpkN3lQcjQycTR3?oc=5",
-      "source": "CNN Brasil",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-08-08T08:30:27Z",
-      "updatedAt": "2026-08-08T08:30:27Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-33ae2fcf94e2e989f5595a7e",
@@ -1095,12 +1091,12 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "companies-d6215668b21407f280528598",
+      "id": "companies-5f2c3413779281699e9730da",
       "title": "Ferramentas digitais brasileiras ganham espaço entre empresas, criadores e usuários comuns",
-      "summary": "Atualizacao de empresas capturada em dropsdejogos.uai.com.br.",
+      "summary": "Atualizacao de empresas capturada em Drops de Jogos.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQejFZczR2WFRaOFFzQjRQSWNBbFU5TTBqaE9BTDF3aW16MDJ0bkZhZ2dsUXJwaTB5QVFQNzFYcFdyeGY1SzljY1o5cXJqcDF3alR1eUdBaGxDYnhZX1dTbG9COTEza0psZjA0a0xRUGI2RE1kOTJnSDZsT0FLQlVOLVRVSlgzU2pKNDBlc3h5eU9DT3E0dlVYc3pTbDJjWHBLTVhrWmhjelYyaVFvVU45NXFxZXpTU2dVd2RQNDBGRUExZUNBZVZOYmtTWGY5UQ?oc=5",
-      "source": "dropsdejogos.uai.com.br",
+      "source": "Drops de Jogos",
       "category": "companies",
       "tags": [
         "empresas",
@@ -1167,12 +1163,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "funds-0f9fd4af88ee46ca3b53e623",
+      "id": "funds-5de4d50179dad3a4e68f0403",
       "title": "O Rio como vitrine: cidade atrai fundos de investimento em busca de novas oportunidades no mercado imobiliário",
-      "summary": "Atualizacao de fundos capturada em Tempo Real.",
+      "summary": "Atualizacao de fundos capturada em temporealrj.com.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UXzJTNHBCaHBNbGVKWmFOeFVWdUphWmNjbzF1Q1ZBS2FWOWNmaHNQMG9DdXBxOVpVTEhQbk4wd2VfUVcwOVdNa3RaeS1MSFFvTTQ4a0s5V2xOX0d3WVU3Qld3dUZUR1NJ?oc=5",
-      "source": "Tempo Real",
+      "source": "temporealrj.com",
       "category": "funds",
       "tags": [
         "fundos",
@@ -1221,12 +1217,12 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "funds-5818e1d384bc58c80caa65a0",
+      "id": "funds-fcf1bea1ee537e108912e003",
       "title": "BCDI11: Analistas da Empiricus recomendam FI-Infra atrelado ao CDI e com 'perfil defensivo'; veja os motivos",
-      "summary": "Atualizacao de fundos capturada em moneytimes.com.br.",
+      "summary": "Atualizacao de fundos capturada em Money Times.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVS03YVY5X2QxSExkYjlfeWdvaXFnb1YtMlg4Z3FZRUZrQjZMcGV5UWJ3bHNScU82N1JTOUtlOGlRLXN2VERGQ21LQk00cFdYVllGMmxocktlTHNzTExuWUdVcFVKVkU1a1gwWXRpaFY0d0d0WDVZSVlPMkxRcFNBd0UtenVfQ3REMGtxOVlpa0J3SXV6MjVnY2ZqVU1kUkxMczFWRzdCMkVlbnlHMmxQdA?oc=5",
-      "source": "moneytimes.com.br",
+      "source": "Money Times",
       "category": "funds",
       "tags": [
         "fundos",
@@ -1383,22 +1379,22 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "funds-6ef33eeb2a9bfb93a128038d",
-      "title": "Um ativo pode ser negociável antes de o dinheiro estar disponível: Perinotti Asset Management apresenta o Registro dos Quatro Relógios de Liquidez",
-      "summary": "Atualizacao de fundos capturada em portaldozacarias.com.br.",
+      "id": "companies-8d418596c5bbad23db0c50f6",
+      "title": "AI Act pode alcançar empresas brasileiras sem operação na Europa",
+      "summary": "Atualizacao de empresas capturada em TeleSíntese.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPWjJyOUtpVmRUVVdLU0VrYzAxajUyWlFRSGhvWUpwSmJra3pjZEhLVk5DQUhmQ2hESW9SUVFXVWlXcXF6ZnB3M2R1ZlBWcU0tQmk3ZFBYNFBtYkd2Ukg0WU52eWI2OTA4ci1nZ1VwWTktVmhBTHRSUHBaMnp2dGxtUThTNDNUU3N5eERpaWNvbUFDbFNYMTY3MXBORWEwaENvRHhRYXEycVp3UEQ0eWI3cEFjUkxIamM3SEhOTnBZNWxob20wMEplYjFfb3NEQ24wUGtJYWp3aHpKZzV2VDJITURDdGx5ODlXbVotRXpVT0FhRDdSNk9rUjluTHdZZWJHTFZiWGt4SVQzanNRdlVnYVVOUTBZT3EwWHVBeA?oc=5",
-      "source": "portaldozacarias.com.br",
-      "category": "funds",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdjdQMVU1d3YycnUxa2lvaXpqUVMwc09IY05jU2F2WDVPVkluMVR1dXFld0VWNE85RGRmdTJEVGZQeGlVX0FKQXBscnJQVFBIUjExTjZWM0F0eFgteTRkVHFaTHI4YkM1NnNOSFE3OVlFNEFLMjE3ZWNEYk1acnIwY2xHaWQxanhZY3BXMGNfbHBFR3ZHaTlJ?oc=5",
+      "source": "TeleSíntese",
+      "category": "companies",
       "tags": [
-        "fundos",
-        "asset",
-        "fiis"
+        "empresas",
+        "resultados",
+        "m&a"
       ],
-      "publishedAt": "2026-08-07T16:20:00Z",
-      "updatedAt": "2026-08-07T16:20:00Z",
+      "publishedAt": "2026-08-07T15:41:02Z",
+      "updatedAt": "2026-08-07T15:41:02Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     }
   ]
 }
