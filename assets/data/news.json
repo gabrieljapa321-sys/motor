@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-08T21:55:27Z",
-  "generatedAt": "2026-08-08T21:55:27Z",
+  "updatedAt": "2026-08-08T22:23:30Z",
+  "generatedAt": "2026-08-08T22:23:30Z",
   "categories": [
     {
       "id": "all",
@@ -69,10 +69,6 @@
       "label": "bra1.com.br"
     },
     {
-      "id": "brasil-247",
-      "label": "Brasil 247"
-    },
-    {
       "id": "brasil-not-cia",
       "label": "BRASIL NOTÍCIA"
     },
@@ -87,6 +83,10 @@
     {
       "id": "convergenciadigital",
       "label": "ConvergenciaDigital"
+    },
+    {
+      "id": "correio-braziliense",
+      "label": "Correio Braziliense"
     },
     {
       "id": "di-rio-do-grande-abc",
@@ -117,6 +117,10 @@
       "label": "folha.uol.com.br"
     },
     {
+      "id": "folhabv-com-br",
+      "label": "folhabv.com.br"
+    },
+    {
       "id": "g1",
       "label": "G1"
     },
@@ -131,6 +135,10 @@
     {
       "id": "investidor10",
       "label": "Investidor10"
+    },
+    {
+      "id": "itatiaia-com-br",
+      "label": "itatiaia.com.br"
     },
     {
       "id": "jornal-o-sul",
@@ -161,16 +169,8 @@
       "label": "Nord Investimentos"
     },
     {
-      "id": "poder-goi-s",
-      "label": "Poder Goiás"
-    },
-    {
       "id": "poder360",
       "label": "Poder360"
-    },
-    {
-      "id": "r-dio-itatiaia",
-      "label": "Rádio Itatiaia"
     },
     {
       "id": "sbt-news",
@@ -209,12 +209,16 @@
       "label": "vermelho.org.br"
     },
     {
+      "id": "vero-not-cias",
+      "label": "Vero Notícias"
+    },
+    {
       "id": "vietnam-vn",
       "label": "Vietnam.vn"
     },
     {
-      "id": "welivesecurity-com",
-      "label": "welivesecurity.com"
+      "id": "welivesecurity",
+      "label": "WeLiveSecurity"
     },
     {
       "id": "yellow-com",
@@ -223,11 +227,67 @@
   ],
   "items": [
     {
-      "id": "latest-1e2e6ea727408af041ab4cc3",
-      "title": "Payroll de julho vem abaixo do esperado e muda cenário de juros nos EUA: o que isso significa para o Bitcoin",
+      "id": "macro-5afd0403a03f5006ac165694",
+      "title": "Warsh deve promover mudanças profundas no Fed, diz executivo",
+      "summary": "Programa entrevista o contador Chiquinho Brasília, o economista Haroldo Amoras dos Santos e o deputado federal Gabriel Mota",
+      "details": "Programa entrevista o contador Chiquinho Brasília, o economista Haroldo Amoras dos Santos e o deputado federal Gabriel Mota",
+      "url": "https://www.folhabv.com.br/politica/agenda-da-semana-aborda-contabilidade-eleitoral-situacao-fiscal-e-exploracao-de-gas-e-petroleo-neste-domingo-9/",
+      "source": "Vero Notícias",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-08T22:00:00Z",
+      "updatedAt": "2026-08-08T22:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://uploads.folhabv.com.br/2026/07/WhatsApp-Image-2026-07-18-at-19.44.23.jpeg"
+    },
+    {
+      "id": "macro-48105acd011f7c9ad1c79c36",
+      "title": "Agenda da Semana aborda contabilidade eleitoral, situação fiscal e exploração de gás e petróleo neste domingo (9)",
       "summary": "Dado de emprego nos EUA surpreendeu para baixo, reduziu apostas de alta de juros e pode abrir espaço para ativos de risco. Entenda o impacto no cripto.",
       "details": "Dado de emprego nos EUA surpreendeu para baixo, reduziu apostas de alta de juros e pode abrir espaço para ativos de risco. Entenda o impacto no cripto.",
       "url": "https://blocktrends.com.br/payroll-fraco-muda-jogo-bitcoin-o-que-esperar/",
+      "source": "folhabv.com.br",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-08T22:00:00Z",
+      "updatedAt": "2026-08-08T22:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://blocktrends.com.br/wp-content/uploads/2026/08/bt-366817-1786224819.jpg"
+    },
+    {
+      "id": "companies-5af8195d3cde5c9242a4ddab",
+      "title": "Guerra no Irã faz preço do querosene de aviação disparar no Brasil",
+      "summary": "Atualizacao de empresas capturada em Correio Braziliense.",
+      "details": "",
+      "url": "https://veronoticias.com/economia/warsh-deve-promover-mudancas-profundas-no-fed-diz-executivo/",
+      "source": "Correio Braziliense",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-08-08T21:44:00Z",
+      "updatedAt": "2026-08-08T21:44:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "latest-1e2e6ea727408af041ab4cc3",
+      "title": "Payroll de julho vem abaixo do esperado e muda cenário de juros nos EUA: o que isso significa para o Bitcoin",
+      "summary": "Plataforma de governo promete manter arcabouço fiscal, afirma que governo Bolsonaro dilapidou os cofres públicos e fala em fazer “firme oposição” a qualquer tentativa de subordinar o Brasil a interesses estrangeiros",
+      "details": "Plataforma de governo promete manter arcabouço fiscal, afirma que governo Bolsonaro dilapidou os cofres públicos e fala em fazer “firme oposição” a qualquer tentativa de subordinar o Brasil a interesses estrangeiros",
+      "url": "https://www.estadao.com.br/politica/programa-de-lula-traz-31-vezes-a-palavra-soberania-e-rejeita-servilismo-a-ideologias-fracassadas/",
       "source": "BlockTrends",
       "category": "latest",
       "tags": [
@@ -239,14 +299,14 @@
       "updatedAt": "2026-08-08T21:33:38Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://blocktrends.com.br/wp-content/uploads/2026/08/bt-366817-1786224819.jpg"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/55WMGO76IVDW7KD3COE76YORRE.JPG?quality=80&auth=c25918d65dc85caebbd03091dfe3584e46bbdac378cae9834ca984c3ae3de9d1&width=1200&height=630&smart=true"
     },
     {
       "id": "macro-10d59a167e7e0d872fcdf624",
       "title": "Programa de Lula traz 31 vezes a palavra soberania e rejeita ‘servilismo’ a ideologias fracassadas",
-      "summary": "Os três principais candidatos ao Governo do Rio Grande do Norte apresentam propostas distintas para administrar o Estado a partir de 2027, mas convergem na preocupação com a situação fiscal e a necessidade de recuperar a capacidade de investimento. Os planos registrados na Justiç",
-      "details": "Os três principais candidatos ao Governo do Rio Grande do Norte apresentam propostas distintas para administrar o Estado a partir de 2027, mas convergem na preocupação com a situação fiscal e a necessidade de recuperar a capacidade de investimento. Os planos registrados na Justiça Eleitoral por Allyson Bezerra (União B",
-      "url": "https://tribunadonorte.com.br/tn-nas-eleicoes-2026/planos-poem-crise-fiscal-do-estado-no-centro-da-disputa/",
+      "summary": "Companhias gastam R$ 5,2 bilhões a mais com combustível desde fevereiro: BNDES anuncia R$ 13,2 bilhões em crédito para o setor aéreo",
+      "details": "Companhias gastam R$ 5,2 bilhões a mais com combustível desde fevereiro: BNDES anuncia R$ 13,2 bilhões em crédito para o setor aéreo",
+      "url": "https://www.correiobraziliense.com.br/economia/2026/08/7476477-guerra-no-ira-faz-preco-do-querosene-de-aviacao-disparar-no-brasil.html",
       "source": "Estadão",
       "category": "macro",
       "tags": [
@@ -258,14 +318,14 @@
       "updatedAt": "2026-08-08T21:08:31Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://tribunadonorte.com.br/wp-content/uploads/2026/08/Sem-titulo-08-de-julho-de-2026-as-19.36.15-1-1024x691.png"
+      "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/08/08/675x450/1_7476477-d5cb1f6efa914564a8f427e8d8281066-67370591.jpg?20260808184403?20260808184403"
     },
     {
       "id": "macro-d6087df731e651f0254df763",
       "title": "Patrimônio de Lula tem queda real de quase 50% em 4 anos",
-      "summary": "Plataforma de governo promete manter arcabouço fiscal, afirma que governo Bolsonaro dilapidou os cofres públicos e fala em fazer “firme oposição” a qualquer tentativa de subordinar o Brasil a interesses estrangeiros",
-      "details": "Plataforma de governo promete manter arcabouço fiscal, afirma que governo Bolsonaro dilapidou os cofres públicos e fala em fazer “firme oposição” a qualquer tentativa de subordinar o Brasil a interesses estrangeiros",
-      "url": "https://www.estadao.com.br/politica/programa-de-lula-traz-31-vezes-a-palavra-soberania-e-rejeita-servilismo-a-ideologias-fracassadas/",
+      "summary": "Vítimas viviam em barracos sem banheiro, tomavam banho ao ar livre com água fria e recebiam até R$ 50 por semana em Cotia",
+      "details": "Vítimas viviam em barracos sem banheiro, tomavam banho ao ar livre com água fria e recebiam até R$ 50 por semana em Cotia",
+      "url": "https://www.dgabc.com.br/Noticia/4340100/auditoria-fiscal-resgata-dois-trabalhadores-em-situacao-analoga-a-de-escravidao",
       "source": "SBT News",
       "category": "macro",
       "tags": [
@@ -277,7 +337,7 @@
       "updatedAt": "2026-08-08T20:42:01Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/55WMGO76IVDW7KD3COE76YORRE.JPG?quality=80&auth=c25918d65dc85caebbd03091dfe3584e46bbdac378cae9834ca984c3ae3de9d1&width=1200&height=630&smart=true"
+      "imageUrl": "https://www.dgabc.com.br/img/202688173212.jpg"
     },
     {
       "id": "companies-166e259d0fcf09beddc60418",
@@ -320,9 +380,9 @@
     {
       "id": "macro-1dafa76fa39c1c145a264d8f",
       "title": "Renda extra, pesquisa de preço e investimentos: como blindar seu salário da inflação",
-      "summary": "Vítimas viviam em barracos sem banheiro, tomavam banho ao ar livre com água fria e recebiam até R$ 50 por semana em Cotia",
-      "details": "Vítimas viviam em barracos sem banheiro, tomavam banho ao ar livre com água fria e recebiam até R$ 50 por semana em Cotia",
-      "url": "https://www.dgabc.com.br/Noticia/4340100/auditoria-fiscal-resgata-dois-trabalhadores-em-situacao-analoga-a-de-escravidao",
+      "summary": "Dados mostram que nem todo reajuste acompanha a inflação, e especialistas dão dicas para proteger o poder de compra",
+      "details": "Dados mostram que nem todo reajuste acompanha a inflação, e especialistas dão dicas para proteger o poder de compra",
+      "url": "https://www.agazeta.com.br/ta-no-lucro/renda-extra-pesquisa-de-preco-e-investimentos-como-blindar-seu-salario-da-inflacao-0726",
       "source": "A Gazeta",
       "category": "macro",
       "tags": [
@@ -334,14 +394,14 @@
       "updatedAt": "2026-08-08T20:07:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.dgabc.com.br/img/202688173212.jpg"
+      "imageUrl": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1780335031126_midias_jpg_2021_03_12_605x330_1_banking_and_saving_money_copyspace_background_idea_concept_6376763.jpg"
     },
     {
       "id": "macro-054374cd8745d79a4c4edf1e",
       "title": "Planos põem crise fiscal do Estado no centro da disputa",
-      "summary": "Dados mostram que nem todo reajuste acompanha a inflação, e especialistas dão dicas para proteger o poder de compra",
-      "details": "Dados mostram que nem todo reajuste acompanha a inflação, e especialistas dão dicas para proteger o poder de compra",
-      "url": "https://www.agazeta.com.br/ta-no-lucro/renda-extra-pesquisa-de-preco-e-investimentos-como-blindar-seu-salario-da-inflacao-0726",
+      "summary": "Os três principais candidatos ao Governo do Rio Grande do Norte apresentam propostas distintas para administrar o Estado a partir de 2027, mas convergem na preocupação com a situação fiscal e a necessidade de recuperar a capacidade de investimento. Os planos registrados na Justiç",
+      "details": "Os três principais candidatos ao Governo do Rio Grande do Norte apresentam propostas distintas para administrar o Estado a partir de 2027, mas convergem na preocupação com a situação fiscal e a necessidade de recuperar a capacidade de investimento. Os planos registrados na Justiça Eleitoral por Allyson Bezerra (União B",
+      "url": "https://tribunadonorte.com.br/tn-nas-eleicoes-2026/planos-poem-crise-fiscal-do-estado-no-centro-da-disputa/",
       "source": "Tribuna do Norte",
       "category": "macro",
       "tags": [
@@ -353,14 +413,14 @@
       "updatedAt": "2026-08-08T20:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1780335031126_midias_jpg_2021_03_12_605x330_1_banking_and_saving_money_copyspace_background_idea_concept_6376763.jpg"
+      "imageUrl": "https://tribunadonorte.com.br/wp-content/uploads/2026/08/Sem-titulo-08-de-julho-de-2026-as-19.36.15-1-1024x691.png"
     },
     {
       "id": "macro-2db4a0d5a6c84e30e47a17d9",
       "title": "Casal é preso com 21 celulares sem nota fiscal avaliados em mais de R$ 200 mil",
-      "summary": "Atualizacao de macro capturada em ACidade ON.",
-      "details": "",
-      "url": "https://www.acidadeon.com/campinas/cotidiano/casal-e-preso-com-21-celulares-sem-nota-fiscal-avaliados-em-mais-de-r-200-mil/",
+      "summary": "A expansão dos investimentos em inteligência artificial tem elevado a expectativa de crescimento econômico, mas também aumenta a pressão sobre os juros e Boom da inteligência artificial eleva investimentos e juros, enquanto governos apostam no crescimento para aliviar déficits pú",
+      "details": "A expansão dos investimentos em inteligência artificial tem elevado a expectativa de crescimento econômico, mas também aumenta a pressão sobre os juros e Boom da inteligência artificial eleva investimentos e juros, enquanto governos apostam no crescimento para aliviar déficits públicos.",
+      "url": "https://acritica.net/economia/boom-da-inteligencia-artificial-pressiona-juros-e-aumenta-risco-fiscal-dos-governos/",
       "source": "ACidade ON",
       "category": "macro",
       "tags": [
@@ -371,14 +431,15 @@
       "publishedAt": "2026-08-08T19:51:34Z",
       "updatedAt": "2026-08-08T19:51:34Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://uploads.acritica.net/2026/07/Brasil-precisa-garantir-contrapartidas-para-receber-data-centers.webp"
     },
     {
       "id": "macro-da5892547fc653b6aad5d4b9",
       "title": "Boom da inteligência artificial pressiona juros e aumenta risco fiscal dos governos",
-      "summary": "A expansão dos investimentos em inteligência artificial tem elevado a expectativa de crescimento econômico, mas também aumenta a pressão sobre os juros e Boom da inteligência artificial eleva investimentos e juros, enquanto governos apostam no crescimento para aliviar déficits pú",
-      "details": "A expansão dos investimentos em inteligência artificial tem elevado a expectativa de crescimento econômico, mas também aumenta a pressão sobre os juros e Boom da inteligência artificial eleva investimentos e juros, enquanto governos apostam no crescimento para aliviar déficits públicos.",
-      "url": "https://acritica.net/economia/boom-da-inteligencia-artificial-pressiona-juros-e-aumenta-risco-fiscal-dos-governos/",
+      "summary": "Atualizacao de macro capturada em A Crítica de Campo Grande.",
+      "details": "",
+      "url": "https://www.acidadeon.com/campinas/cotidiano/casal-e-preso-com-21-celulares-sem-nota-fiscal-avaliados-em-mais-de-r-200-mil/",
       "source": "A Crítica de Campo Grande",
       "category": "macro",
       "tags": [
@@ -389,8 +450,7 @@
       "publishedAt": "2026-08-08T19:50:00Z",
       "updatedAt": "2026-08-08T19:50:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://uploads.acritica.net/2026/07/Brasil-precisa-garantir-contrapartidas-para-receber-data-centers.webp"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-0a6d4a1d636d6a7b2a61d016",
@@ -414,9 +474,9 @@
     {
       "id": "latest-714c0a78d0543f3887c96741",
       "title": "Dólar recua em cenário pós-Copom, mesmo com alta do petróleo",
-      "summary": "O presidente participou do evento dos 30 anos do Movimento dos Trabalhadores Sem-Teto (MTST), neste sábado (8), em Taboão da Serra (SP)",
-      "details": "O presidente participou do evento dos 30 anos do Movimento dos Trabalhadores Sem-Teto (MTST), neste sábado (8), em Taboão da Serra (SP)",
-      "url": "https://vermelho.org.br/2026/08/08/lula-ataca-juros-e-diz-que-quem-decide-taxa-nao-sabe-como-vive-o-povo/",
+      "summary": "A carga tributária bruta do Governo Geral brasileiro avançou de 30,3% do PIB (Produto Interno Bruto) em 2023 para 32,4% do PIB em 2025, segundo a série histórica revisada divulgada pela Secretaria do Tesouro Nacional. O aumento acumulado foi de aproximadamente 2,1 pontos percentu",
+      "details": "A carga tributária bruta do Governo Geral brasileiro avançou de 30,3% do PIB (Produto Interno Bruto) em 2023 para 32,4% do PIB em 2025, segundo a série histórica revisada divulgada pela Secretaria do Tesouro Nacional. O aumento acumulado foi de aproximadamente 2,1 pontos percentuais do PIB em dois anos, refletindo…",
+      "url": "https://www.osul.com.br/carga-tributaria-bate-recorde-e-chega-a-32-do-pib-brasileiro/",
       "source": "Capital Política",
       "category": "latest",
       "tags": [
@@ -428,7 +488,7 @@
       "updatedAt": "2026-08-08T19:33:20Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://vermelho.org.br/wp-content/uploads/2026/08/MTST-Lula.jpg"
+      "imageUrl": "https://www.osul.com.br/wp-content/uploads/2026/02/tributos-impostos-dinheiro-reforma-tributaria.jpg"
     },
     {
       "id": "macro-3066e9e3a47070d9ce03462d",
@@ -452,9 +512,9 @@
     {
       "id": "funds-99ea52019461c92889376907",
       "title": "Fundos de investimento perdem R$ 25 bilhões e renda fixa lidera a debandada",
-      "summary": "A carga tributária bruta do Governo Geral brasileiro avançou de 30,3% do PIB (Produto Interno Bruto) em 2023 para 32,4% do PIB em 2025, segundo a série histórica revisada divulgada pela Secretaria do Tesouro Nacional. O aumento acumulado foi de aproximadamente 2,1 pontos percentu",
-      "details": "A carga tributária bruta do Governo Geral brasileiro avançou de 30,3% do PIB (Produto Interno Bruto) em 2023 para 32,4% do PIB em 2025, segundo a série histórica revisada divulgada pela Secretaria do Tesouro Nacional. O aumento acumulado foi de aproximadamente 2,1 pontos percentuais do PIB em dois anos, refletindo…",
-      "url": "https://www.osul.com.br/carga-tributaria-bate-recorde-e-chega-a-32-do-pib-brasileiro/",
+      "summary": "O dado mais surpreendente desse recuo não está nos investimentos arriscados, mas sim naquele que deveria ser o porto seguro do investidor: a renda fixa.",
+      "details": "O dado mais surpreendente desse recuo não está nos investimentos arriscados, mas sim naquele que deveria ser o porto seguro do investidor: a renda fixa.",
+      "url": "https://ncnews.com.br/2026/08/08/fundos-de-investimento-perdem-r-25-bilhoes-e-renda-fixa-lidera-a-debandada/",
       "source": "ncnews.com.br",
       "category": "funds",
       "tags": [
@@ -466,14 +526,14 @@
       "updatedAt": "2026-08-08T19:28:28Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://www.osul.com.br/wp-content/uploads/2026/02/tributos-impostos-dinheiro-reforma-tributaria.jpg"
+      "imageUrl": "https://ncnews.com.br/app/uploads/2026/07/71185905-ec-20s-c3-a3o-20paulo-20sp-2022-08-2017-20bolsa-20de-20valores-20bovespa-20alta-20na-20bolsa-20que-20agora-20tem-20novo-20nome.webp"
     },
     {
       "id": "latest-5368157b74330371ea2ce543",
       "title": "Bolsa de Valores sofre o maior tombo em três meses e derrete na primeira semana de agosto",
-      "summary": "O dado mais surpreendente desse recuo não está nos investimentos arriscados, mas sim naquele que deveria ser o porto seguro do investidor: a renda fixa.",
-      "details": "O dado mais surpreendente desse recuo não está nos investimentos arriscados, mas sim naquele que deveria ser o porto seguro do investidor: a renda fixa.",
-      "url": "https://ncnews.com.br/2026/08/08/fundos-de-investimento-perdem-r-25-bilhoes-e-renda-fixa-lidera-a-debandada/",
+      "summary": "A velha lenda de que agosto é o \"mês do desgosto\" começou a se provar amarga para quem investe no mercado financeiro brasileiro. Logo no primeiro capítulo do",
+      "details": "A velha lenda de que agosto é o \"mês do desgosto\" começou a se provar amarga para quem investe no mercado financeiro brasileiro. Logo no primeiro capítulo do",
+      "url": "https://ncnews.com.br/2026/08/08/bolsa-de-valores-sofre-o-maior-tombo-em-tres-meses-e-derrete-na-primeira-semana-de-agosto/",
       "source": "ncnews.com.br",
       "category": "latest",
       "tags": [
@@ -485,14 +545,14 @@
       "updatedAt": "2026-08-08T19:23:52Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://ncnews.com.br/app/uploads/2026/07/71185905-ec-20s-c3-a3o-20paulo-20sp-2022-08-2017-20bolsa-20de-20valores-20bovespa-20alta-20na-20bolsa-20que-20agora-20tem-20novo-20nome.webp"
+      "imageUrl": "https://ncnews.com.br/app/uploads/2026/07/bolsa-ibovespa.webp"
     },
     {
       "id": "latest-d8ee0933d62732fba76214da",
       "title": "Lula ataca juros e diz que quem decide taxa não sabe como vive o povo",
-      "summary": "A velha lenda de que agosto é o \"mês do desgosto\" começou a se provar amarga para quem investe no mercado financeiro brasileiro. Logo no primeiro capítulo do",
-      "details": "A velha lenda de que agosto é o \"mês do desgosto\" começou a se provar amarga para quem investe no mercado financeiro brasileiro. Logo no primeiro capítulo do",
-      "url": "https://ncnews.com.br/2026/08/08/bolsa-de-valores-sofre-o-maior-tombo-em-tres-meses-e-derrete-na-primeira-semana-de-agosto/",
+      "summary": "O presidente participou do evento dos 30 anos do Movimento dos Trabalhadores Sem-Teto (MTST), neste sábado (8), em Taboão da Serra (SP)",
+      "details": "O presidente participou do evento dos 30 anos do Movimento dos Trabalhadores Sem-Teto (MTST), neste sábado (8), em Taboão da Serra (SP)",
+      "url": "https://vermelho.org.br/2026/08/08/lula-ataca-juros-e-diz-que-quem-decide-taxa-nao-sabe-como-vive-o-povo/",
       "source": "vermelho.org.br",
       "category": "latest",
       "tags": [
@@ -504,7 +564,7 @@
       "updatedAt": "2026-08-08T19:13:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://ncnews.com.br/app/uploads/2026/07/bolsa-ibovespa.webp"
+      "imageUrl": "https://vermelho.org.br/wp-content/uploads/2026/08/MTST-Lula.jpg"
     },
     {
       "id": "funds-e50179b99a3e230d724e1cfd",
@@ -525,12 +585,12 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "macro-e00d119d2cd236f8e3ecaece",
+      "id": "macro-8d9dca99c2d77c020de344e4",
       "title": "Ex-presidente da Petrobras critica 'arrocho fiscal' e defenda taxação de super-ricos",
       "summary": "Ex-presidente da Petrobras e coordenador do programa de governo de Lula, Gabrielli também culpa o Banco Central pela dívida e defende revisão de benefícios fiscais",
       "details": "Ex-presidente da Petrobras e coordenador do programa de governo de Lula, Gabrielli também culpa o Banco Central pela dívida e defende revisão de benefícios fiscais",
       "url": "https://www.itatiaia.com.br/economia/gabrielli-critica-arrocho-fiscal-juros-bc-divida-publica/",
-      "source": "Rádio Itatiaia",
+      "source": "itatiaia.com.br",
       "category": "macro",
       "tags": [
         "macro",
@@ -546,9 +606,9 @@
     {
       "id": "macro-0bc12ee5a28632b6e1e3b11a",
       "title": "Fiscalização resgata trabalhadores que viviam em barracos e recebiam até R$ 50 por semana em Cotia, na Grande SP",
-      "summary": "Levantamento da Amcham Brasil indica que avanço da cadeia de terras raras e outros minérios pode ampliar investimentos, empregos e processamento de matérias-primas no Estado",
-      "details": "Levantamento da Amcham Brasil indica que avanço da cadeia de terras raras e outros minérios pode ampliar investimentos, empregos e processamento de matérias-primas no Estado",
-      "url": "https://www.podergoias.com.br/materia/26971/minerais-criticos-podem-elevar-pib-de-goias-em-ate-10-ate-2050-aponta-estudo",
+      "summary": "Auditores encontraram moradias sem banheiro, camas ou armários. Trabalhadores eram obrigados a tomar banho ao ar livre e fazer necessidades em área de mata. Situação foi considerada análoga à escravidão",
+      "details": "Auditores encontraram moradias sem banheiro, camas ou armários. Trabalhadores eram obrigados a tomar banho ao ar livre e fazer necessidades em área de mata. Situação foi considerada análoga à escravidão",
+      "url": "https://g1.globo.com/google/amp/sp/sao-paulo/noticia/2026/08/08/fiscalizacao-resgata-trabalhadores-que-viviam-em-barracos-e-recebiam-ate-r-50-por-semana-em-cotia-na-grande-sp.ghtml",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -560,14 +620,14 @@
       "updatedAt": "2026-08-08T18:07:23Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.podergoias.com.br/img/not/fad5vhq5.png"
+      "imageUrl": "https://s2-g1.glbimg.com/-6j8Miw5yR3t3E6mh8LjkVIht6A=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/W/SBS9sMRFCvq8TbaiVQTw/fotojet-25-.jpg"
     },
     {
       "id": "macro-c62653b868125ec6aae30edb",
       "title": "Efeito rebote do endividamento recorde pode levar à ressaca da economia em 2027",
-      "summary": "Para economistas, excesso de dívidas desacelerará consumo de forma significativa quando emprego e renda piorarem",
-      "details": "Para economistas, excesso de dívidas desacelerará consumo de forma significativa quando emprego e renda piorarem",
-      "url": "https://www1.folha.uol.com.br/mercado/2026/08/efeito-rebote-do-endividamento-recorde-pode-levar-a-ressaca-da-economia-em-2027.shtml",
+      "summary": "...",
+      "details": "...",
+      "url": "https://investidor10.com.br/amp/noticias/qual-investimento-em-renda-fixa-rendeu-1-5-ao-mes-em-julho-de-2026-121936/",
       "source": "folha.uol.com.br",
       "category": "macro",
       "tags": [
@@ -579,33 +639,14 @@
       "updatedAt": "2026-08-08T18:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2022/10/13/1665694184634879e87f544_1665694184_3x2_rt.jpg"
-    },
-    {
-      "id": "macro-067f8c9f3a3deb20c3237f06",
-      "title": "Minerais críticos podem elevar PIB de Goiás em até 10% até 2050, aponta estudo",
-      "summary": "Auditores encontraram moradias sem banheiro, camas ou armários. Trabalhadores eram obrigados a tomar banho ao ar livre e fazer necessidades em área de mata. Situação foi considerada análoga à escravidão",
-      "details": "Auditores encontraram moradias sem banheiro, camas ou armários. Trabalhadores eram obrigados a tomar banho ao ar livre e fazer necessidades em área de mata. Situação foi considerada análoga à escravidão",
-      "url": "https://g1.globo.com/google/amp/sp/sao-paulo/noticia/2026/08/08/fiscalizacao-resgata-trabalhadores-que-viviam-em-barracos-e-recebiam-ate-r-50-por-semana-em-cotia-na-grande-sp.ghtml",
-      "source": "Poder Goiás",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-08T17:42:00Z",
-      "updatedAt": "2026-08-08T17:42:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-g1.glbimg.com/-6j8Miw5yR3t3E6mh8LjkVIht6A=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/W/SBS9sMRFCvq8TbaiVQTw/fotojet-25-.jpg"
+      "imageUrl": "https://investidor10.com.br/storage/news/6a775d9c05154.jpg"
     },
     {
       "id": "macro-67660b238107709ad4364616",
       "title": "Mais de 30 mil produtos sem documentação fiscal são apreendidos com passageiros bolivianos em ônibus",
-      "summary": "Mais de 31 mil produtos de origem estrangeira e sem documentação fiscal foram apreendidos pela Polícia Rodoviária durante uma fiscalização a um ônibus em Presidente Prudente (SP).",
-      "details": "Mais de 31 mil produtos de origem estrangeira e sem documentação fiscal foram apreendidos pela Polícia Rodoviária durante uma fiscalização a um ônibus em Presidente Prudente (SP).",
-      "url": "https://g1.globo.com/sp/presidente-prudente-e-regiao/noticia/2026/08/08/produtos-sem-documentacao-fiscal-sao-apreendidos-com-passageiros-bolivianos-em-onibus.ghtml",
+      "summary": "O artigo traz um tema bastante importante para a prova de Auditor Fiscal do Distrito Federal: notificação de lançamento para SEFAZ/DF.",
+      "details": "O artigo traz um tema bastante importante para a prova de Auditor Fiscal do Distrito Federal: notificação de lançamento para SEFAZ/DF.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/notificacao-lancamento-sefaz-df/amp/",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -617,14 +658,14 @@
       "updatedAt": "2026-08-08T17:16:28Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-g1.glbimg.com/sZiRBnrIIdavrTubUAEDczLek9s=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/U/B/xABqpcQx2kafROsADEDw/whatsapp-image-2026-08-08-at-12.29.41.jpeg"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2026/07/24122402/image-108.png"
     },
     {
       "id": "macro-0edcb5e132943e8ec1f049b3",
       "title": "Qual investimento em renda fixa rendeu 1,5% ao mês em julho de 2026?",
-      "summary": "Presidente questionou pressão por equilíbrio das contas e afirmou que mercado não conhece a realidade da população pobre. Leia no Poder360.",
-      "details": "Presidente questionou pressão por equilíbrio das contas e afirmou que mercado não conhece a realidade da população pobre. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-governo/lula-critica-faria-lima-e-ajuste-fiscal-em-evento-de-30-anos-do-mtst/",
+      "summary": "Comitê manteve juros em 3,50% a 3,75% a.a., mas com três votos favoráveis à alta. Alta de juros neste ano está no radar do mercado",
+      "details": "Comitê manteve juros em 3,50% a 3,75% a.a., mas com três votos favoráveis à alta. Alta de juros neste ano está no radar do mercado",
+      "url": "https://www.nordinvestimentos.com.br/blog/juros-estados-unidos-hoje/",
       "source": "Investidor10",
       "category": "macro",
       "tags": [
@@ -636,14 +677,14 @@
       "updatedAt": "2026-08-08T17:16:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/08/lula-mtst-6x1-1-848x477.jpg"
+      "imageUrl": "https://www.nordinvestimentos.com.br/cdn-cgi/imagedelivery/WVyV4OkToIxntlRloKFH7Q/blog/uploads/4f4f56ce-84e5-4ae0-a861-4dc1c3eb38f9/juros-estados-unidos-hoje.webp/format=auto,fit=cover,w=1280,h=720"
     },
     {
       "id": "macro-8f0a086872947cfd30e05a99",
       "title": "Notificação de lançamento para SEFAZ/DF",
-      "summary": "O artigo traz um tema bastante importante para a prova de Auditor Fiscal do Distrito Federal: notificação de lançamento para SEFAZ/DF.",
-      "details": "O artigo traz um tema bastante importante para a prova de Auditor Fiscal do Distrito Federal: notificação de lançamento para SEFAZ/DF.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/notificacao-lancamento-sefaz-df/amp/",
+      "summary": "Incerteza sobre juros do Fed alimenta demanda por CLOs; veja como isso pode impulsionar os ETFs de renda fixa",
+      "details": "Incerteza sobre juros do Fed alimenta demanda por CLOs; veja como isso pode impulsionar os ETFs de renda fixa",
+      "url": "https://www.spacemoney.com.br/economia/exterior/clos-etfs-renda-fixa-juros/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -655,14 +696,14 @@
       "updatedAt": "2026-08-08T17:09:05Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2026/07/24122402/image-108.png"
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-5849575.webp"
     },
     {
       "id": "latest-0914a8d2aeeeda9e105fe691",
       "title": "Lula critica Faria Lima e ajuste fiscal em evento de 30 anos do MTST",
-      "summary": "...",
-      "details": "...",
-      "url": "https://investidor10.com.br/amp/noticias/qual-investimento-em-renda-fixa-rendeu-1-5-ao-mes-em-julho-de-2026-121936/",
+      "summary": "Mais de 31 mil produtos de origem estrangeira e sem documentação fiscal foram apreendidos pela Polícia Rodoviária durante uma fiscalização a um ônibus em Presidente Prudente (SP).",
+      "details": "Mais de 31 mil produtos de origem estrangeira e sem documentação fiscal foram apreendidos pela Polícia Rodoviária durante uma fiscalização a um ônibus em Presidente Prudente (SP).",
+      "url": "https://g1.globo.com/sp/presidente-prudente-e-regiao/noticia/2026/08/08/produtos-sem-documentacao-fiscal-sao-apreendidos-com-passageiros-bolivianos-em-onibus.ghtml",
       "source": "Poder360",
       "category": "latest",
       "tags": [
@@ -674,33 +715,14 @@
       "updatedAt": "2026-08-08T17:01:07Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://investidor10.com.br/storage/news/6a775d9c05154.jpg"
-    },
-    {
-      "id": "macro-0edcc9b87526aa6f5d611f7b",
-      "title": "Enquanto o PIB sobe, a floresta, a saúde e a dignidade continuam caindo",
-      "summary": "Incerteza sobre juros do Fed alimenta demanda por CLOs; veja como isso pode impulsionar os ETFs de renda fixa",
-      "details": "Incerteza sobre juros do Fed alimenta demanda por CLOs; veja como isso pode impulsionar os ETFs de renda fixa",
-      "url": "https://www.spacemoney.com.br/economia/exterior/clos-etfs-renda-fixa-juros/",
-      "source": "Brasil 247",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-08T16:44:00Z",
-      "updatedAt": "2026-08-08T16:44:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-5849575.webp"
+      "imageUrl": "https://s2-g1.glbimg.com/sZiRBnrIIdavrTubUAEDczLek9s=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/U/B/xABqpcQx2kafROsADEDw/whatsapp-image-2026-08-08-at-12.29.41.jpeg"
     },
     {
       "id": "latest-d9a70ee3a0be6d036728ea5b",
       "title": "Fed mantém juros, mas decisão dividida acende alerta",
-      "summary": "Comitê manteve juros em 3,50% a 3,75% a.a., mas com três votos favoráveis à alta. Alta de juros neste ano está no radar do mercado",
-      "details": "Comitê manteve juros em 3,50% a 3,75% a.a., mas com três votos favoráveis à alta. Alta de juros neste ano está no radar do mercado",
-      "url": "https://www.nordinvestimentos.com.br/blog/juros-estados-unidos-hoje/",
+      "summary": "Presidente questionou pressão por equilíbrio das contas e afirmou que mercado não conhece a realidade da população pobre. Leia no Poder360.",
+      "details": "Presidente questionou pressão por equilíbrio das contas e afirmou que mercado não conhece a realidade da população pobre. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-governo/lula-critica-faria-lima-e-ajuste-fiscal-em-evento-de-30-anos-do-mtst/",
       "source": "Nord Investimentos",
       "category": "latest",
       "tags": [
@@ -712,14 +734,14 @@
       "updatedAt": "2026-08-08T16:09:29Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.nordinvestimentos.com.br/cdn-cgi/imagedelivery/WVyV4OkToIxntlRloKFH7Q/blog/uploads/4f4f56ce-84e5-4ae0-a861-4dc1c3eb38f9/juros-estados-unidos-hoje.webp/format=auto,fit=cover,w=1280,h=720"
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/08/lula-mtst-6x1-1-848x477.jpg"
     },
     {
       "id": "latest-e451fa3bdca03e9db26af9f9",
       "title": "CLOs ganham força como nova fronteira dos ETFs de renda fixa",
-      "summary": "A crítica de Thomas Piketty ganha força quando florestas preservadas, vidas salvas e crianças educadas seguem invisíveis para o cálculo do Produto Interno…",
-      "details": "A crítica de Thomas Piketty ganha força quando florestas preservadas, vidas salvas e crianças educadas seguem invisíveis para o cálculo do Produto Interno…",
-      "url": "https://www.brasil247.com/blog/enquanto-o-pib-sobe-a-floresta-a-saude-e-a-dignidade-continuam-caindo/",
+      "summary": "Para economistas, excesso de dívidas desacelerará consumo de forma significativa quando emprego e renda piorarem",
+      "details": "Para economistas, excesso de dívidas desacelerará consumo de forma significativa quando emprego e renda piorarem",
+      "url": "https://www1.folha.uol.com.br/mercado/2026/08/efeito-rebote-do-endividamento-recorde-pode-levar-a-ressaca-da-economia-em-2027.shtml",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -731,14 +753,14 @@
       "updatedAt": "2026-08-08T15:15:49Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.brasil247.com/wp-content/uploads/2022/04/20220412190436_fcfcd3c7ddb5cc3136a931140ae98bbe05e7ccd47dda5a9cac3243c543a98bb8.jpg?w=1200&quality=88&strip=all"
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2022/10/13/1665694184634879e87f544_1665694184_3x2_rt.jpg"
     },
     {
       "id": "latest-2e780117edeb106e0ce50d4e",
       "title": "Seis horas de pânico e recuperação nos ativos",
-      "summary": "Entenda como o mercado financeiro brasileiro lidou com seis horas de forte estresse e o que esperar da próxima sessão",
-      "details": "Entenda como o mercado financeiro brasileiro lidou com seis horas de forte estresse e o que esperar da próxima sessão",
-      "url": "https://www.spacemoney.com.br/economia/seis-horas-de-turbulencia-no-mercado-financeiro/",
+      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSzBucThGakZkRkd4RnRQbFNqWVFqSE9sMGNfYWt1MkU0ZnpaVHVjZlZBYVVyWlhWYnl1d2RDNFNYamZNZVFKTGdUdGhvQUdOUnlhSWdveDAxQlpXajZwSHp3ek9pNkdyRWU1VFgyOVNVVTFNVU5CU1VQSDNyZVhQLWFDV256LThubFFMbExHUEQ?oc=5",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -749,8 +771,7 @@
       "publishedAt": "2026-08-08T15:15:34Z",
       "updatedAt": "2026-08-08T15:15:34Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-10628030.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-00b7943aedafe628145ce197",
@@ -937,7 +958,7 @@
       "title": "Padronização de ações tokenizadas pode transformar o mercado financeiro",
       "summary": "Atualizacao de ultima hora capturada em Coinfomania.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdXhNbnJPSVFtRDVvQm11QWt6R3lqN1JoZEdxOUh1dUJaNVBPVUV0UlpPYVhlYkg5OXpaZ0RNdVZIemJWM2VuWS1ZQjRqMXMzdlQ2c1BTVGRCN2NtTjhvQlV4WVlMemJ4eUxpbVRHVThzVFFSdXNPcEdzLTlmdENVUXRWUWZhcU1QcVpTR1RDOXhLdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTEt3NlNIcU92bThFR24wSW9NUFVqVHQ3VzI3c0JHdTlCUURaN3hwYmMxSWQ1dEo0M0VMSjl6NXZDc0xzMjRURUpLVGRqX25BRV9sQ2s5YmxkSkxaUEdHcmFJYng2SzlvdEl2ZTd0WHl2UmJuRzBCZmhjTnNYOGU4Nmg5UzhxYUFOaHZXLW8yUldIeUhVOHc?oc=5",
       "source": "Coinfomania",
       "category": "latest",
       "tags": [
@@ -1077,12 +1098,12 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "companies-8d5d3a40d5e35fb1171df86f",
+      "id": "companies-3678c7c172943e6c7b24fcaf",
       "title": "ESET Security Report traça um retrato da cibersegurança nas empresas brasileiras",
-      "summary": "Atualizacao de empresas capturada em welivesecurity.com.",
+      "summary": "Atualizacao de empresas capturada em WeLiveSecurity.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeVZjbmZlOUR3YWpnTnVYZFcxR19QdU9SS05Uc2MxOXZJdE1yMm1hVXRqdVl6RHA2V3V0b2lGZkc1dEhmMjZxUFhFamxWejFNa3pVYlQyNWx5SFJmLXFIaXFVVkhlWHMxZXhBQ2FzZ2tfNkx5S2toOHY3SU5hN3FWY1d0WUZFNXhsQ0NERnE5TFFmb2pmX0JiVHRfaEF2blhFSnJuVGZjWlVUOXB2eFJxWGRSdi1aY2hWbXJBRGw2SlpzY19k?oc=5",
-      "source": "welivesecurity.com",
+      "source": "WeLiveSecurity",
       "category": "companies",
       "tags": [
         "empresas",
@@ -1381,24 +1402,6 @@
       "updatedAt": "2026-08-07T17:36:39Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-7a7dfe7d4613cba2e53bfd14",
-      "title": "Crise na fronteira entre Chile e Argentina gera prejuízo de US 10 milhões e impacta empresas brasileiras de transporte de cargas",
-      "summary": "Atualizacao de empresas capturada em bra1.com.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNMzQyOU1JT0hpRzc4R09UZC1YSHA4RTJfTFdKUzNFT2FpSmlOMWpkQWVrRk1maVpOR21nRHhqcm9IckJCVHg4UnNKU2k2RGY1S2NGWGp3bG5OMTJrejR1VUpEaVlVYlNtWWFDYTh2X00yQjl2UGJlNi11Rzg4MWNpaU1Vbm82U2U4NUJza2taU2lqUUNTLUp2YkZDX2ZiRFBDUUxOaVJETDU0UDNoU25rbldadTNvSUR5VFU3enNINHQxVk9PRXdfa0ZEODFfbTdXQml1S0R3Y3hlVnJzcWVUREZ6ZUZsZ1Z6cDc1bVdBVDEwQkw2bjlxR3piVWlXeFVGcFE?oc=5",
-      "source": "bra1.com.br",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-08-07T17:21:00Z",
-      "updatedAt": "2026-08-07T17:21:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     }
   ]
 }
