@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-09T11:44:18Z",
-  "generatedAt": "2026-08-09T11:44:18Z",
+  "updatedAt": "2026-08-09T12:04:54Z",
+  "generatedAt": "2026-08-09T12:04:54Z",
   "categories": [
     {
       "id": "all",
@@ -45,8 +45,20 @@
       "label": "BlockTrends"
     },
     {
+      "id": "blog-do-gustavo-negreiros",
+      "label": "Blog do Gustavo Negreiros"
+    },
+    {
+      "id": "boca-com-br",
+      "label": "boca.com.br"
+    },
+    {
       "id": "bra1-com-br",
       "label": "bra1.com.br"
+    },
+    {
+      "id": "brasil-not-cia",
+      "label": "BRASIL NOTÍCIA"
     },
     {
       "id": "campo-grande-news",
@@ -77,28 +89,20 @@
       "label": "Estadão"
     },
     {
-      "id": "g1-globo-com",
-      "label": "g1.globo.com"
+      "id": "g1",
+      "label": "G1"
     },
     {
-      "id": "infomoney-com-br",
-      "label": "infomoney.com.br"
+      "id": "infomoney",
+      "label": "InfoMoney"
     },
     {
       "id": "investidor10",
       "label": "Investidor10"
     },
     {
-      "id": "investing-com-brasil-finan-as-c-mbio-e-investimentos",
-      "label": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
-    },
-    {
       "id": "investnews",
       "label": "InvestNews"
-    },
-    {
-      "id": "jc",
-      "label": "JC"
     },
     {
       "id": "jornal-not-cias-do-estado",
@@ -121,8 +125,8 @@
       "label": "JOTA Info"
     },
     {
-      "id": "midiajur-com-br",
-      "label": "midiajur.com.br"
+      "id": "money-times",
+      "label": "Money Times"
     },
     {
       "id": "monitor-mercantil",
@@ -137,8 +141,8 @@
       "label": "ncnews.com.br"
     },
     {
-      "id": "nd-mais",
-      "label": "ND Mais"
+      "id": "ndmais-com-br",
+      "label": "ndmais.com.br"
     },
     {
       "id": "nord-investimentos",
@@ -181,12 +185,12 @@
       "label": "Times Brasil | CNBC"
     },
     {
-      "id": "tradingkey",
-      "label": "TradingKey"
+      "id": "tnonline",
+      "label": "TNOnline"
     },
     {
-      "id": "tribuna-do-sert-o",
-      "label": "Tribuna do Sertão"
+      "id": "tradingkey",
+      "label": "TradingKey"
     },
     {
       "id": "turbo-pt",
@@ -203,11 +207,30 @@
   ],
   "items": [
     {
+      "id": "macro-e64d86ef08ef5e4a663da8bf",
+      "title": "Bitcoin (BTC) tenta sustentar os US$ 65 mil antes de dados da inflação dos EUA; veja preços das criptomoedas neste domingo (9)",
+      "summary": "CPI mostrou alta de 0,5% em 12 meses em julho e PPI subiu 3,5%",
+      "details": "CPI mostrou alta de 0,5% em 12 meses em julho e PPI subiu 3,5%",
+      "url": "https://www.infomoney.com.br/economia/indices-de-inflacao-do-consumidor-e-produtor-na-china-ficam-abaixo-do-esperado/",
+      "source": "Money Times",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-09T11:51:00Z",
+      "updatedAt": "2026-08-09T11:51:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/06/Captura-de-tela-2026-06-16-073729.png"
+    },
+    {
       "id": "funds-95c3b7e4ac1737206e7a9592",
       "title": "Holding de Daniel Vorcaro é liquidada nas Ilhas Cayman, no Caribe",
-      "summary": "Empresa foi fechada de forma definitiva pela suprema corte do país; instalação foi usada para lavagem de dinheiro",
-      "details": "Empresa foi fechada de forma definitiva pela suprema corte do país; instalação foi usada para lavagem de dinheiro",
-      "url": "https://www.bra1.com.br/economia/id-676252/holding_de_daniel_vorcaro_e_liquidada_nas_ilhas_cayman__no_caribe",
+      "summary": "Comunicação e colaboração também estão entre as razões para empresas ampliarem trabalho presencial",
+      "details": "Comunicação e colaboração também estão entre as razões para empresas ampliarem trabalho presencial",
+      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/68-das-empresas-ampliam-presencial-para-fortalecer-cultura-diz-estudo/",
       "source": "bra1.com.br",
       "category": "funds",
       "tags": [
@@ -219,14 +242,14 @@
       "updatedAt": "2026-08-09T11:32:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/676252.jpg"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/8248_70B46C22380DF24F-4.jpg?w=1200&h=630&crop=1"
     },
     {
       "id": "companies-dda9ec07dacbad73449227ba",
       "title": "68% das empresas ampliam presencial para fortalecer cultura, diz estudo",
-      "summary": "Para Gianluca Benigno, elevação dos juros reais desde junho mostra que investidores entenderam a nova função de reação do Fed sob Kevin Warsh",
-      "details": "Para Gianluca Benigno, elevação dos juros reais desde junho mostra que investidores entenderam a nova função de reação do Fed sob Kevin Warsh",
-      "url": "https://valor.globo.com/financas/intraday/post/2026/08/uma-leitura-alternativa-sobre-a-funcao-de-reacao-do-fed-de-warsh.ghtml",
+      "summary": "Empresa foi fechada de forma definitiva pela suprema corte do país; instalação foi usada para lavagem de dinheiro",
+      "details": "Empresa foi fechada de forma definitiva pela suprema corte do país; instalação foi usada para lavagem de dinheiro",
+      "url": "https://www.bra1.com.br/economia/id-676252/holding_de_daniel_vorcaro_e_liquidada_nas_ilhas_cayman__no_caribe",
       "source": "CNN Brasil",
       "category": "companies",
       "tags": [
@@ -238,14 +261,14 @@
       "updatedAt": "2026-08-09T11:30:47Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/uA1lH2kzzCpUCM33kaBwmKJwmKU=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/u/J/LCVRG3Sl6V5u6LB2BFUQ/sem-titulo.png"
+      "imageUrl": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/676252.jpg"
     },
     {
       "id": "companies-cede7e07be57b073e4b14399",
       "title": "Guerra causada pelos ataques dos EUA ao Irã já custou R$ 5,2 bilhões extras às aéreas brasileiras e ao bolso do viajante",
-      "summary": "Comunicação e colaboração também estão entre as razões para empresas ampliarem trabalho presencial",
-      "details": "Comunicação e colaboração também estão entre as razões para empresas ampliarem trabalho presencial",
-      "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/68-das-empresas-ampliam-presencial-para-fortalecer-cultura-diz-estudo/",
+      "summary": "O preço do bitcoin está em US$ 64.938,04. Explore a estabilidade e flutuações atuais do mercado de criptomoedas.",
+      "details": "O preço do bitcoin está em US$ 64.938,04. Explore a estabilidade e flutuações atuais do mercado de criptomoedas.",
+      "url": "https://www.moneytimes.com.br/bom-dia-bitcoin-btc-criptomoedas-precos-hoje-rens-090826/",
       "source": "Times Brasil | CNBC",
       "category": "companies",
       "tags": [
@@ -257,15 +280,15 @@
       "updatedAt": "2026-08-09T11:29:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/8248_70B46C22380DF24F-4.jpg?w=1200&h=630&crop=1"
+      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/07/bitcoin-btc-em-alta-imagem-chatgpt.png"
     },
     {
-      "id": "macro-13fe7bab3ee520469b5277af",
+      "id": "macro-580a8f44bee5e2faf232e839",
       "title": "Índices de inflação do consumidor e produtor na China ficam abaixo do esperado",
-      "summary": "Atualizacao de macro capturada em infomoney.com.br.",
-      "details": "",
-      "url": "https://ndmais.com.br/tecnologia/florianopolis-troca-sistema-nota-fiscal-tributos-betha/",
-      "source": "infomoney.com.br",
+      "summary": "Guerra entre Estados Unidos e Irã elevou em 49% o querosene de aviação e já custou R$ 5,2 bilhões extras às aéreas brasileiras",
+      "details": "Guerra entre Estados Unidos e Irã elevou em 49% o querosene de aviação e já custou R$ 5,2 bilhões extras às aéreas brasileiras",
+      "url": "https://timesbrasil.com.br/empresas-e-negocios/aviacao/guerra-eua-ira-custa-52-bilhoes-extras-companhias-aereas-brasileiras/",
+      "source": "InfoMoney",
       "category": "macro",
       "tags": [
         "macro",
@@ -280,9 +303,9 @@
     {
       "id": "macro-fa5e4a5c0df869a6951b5ad3",
       "title": "Despesa em alta amplia desafio no arcabouço fiscal",
-      "summary": "Principais gastos obrigatórios do governo já crescem bem acima do limite atual, de 2,5% acima da inflação",
-      "details": "Principais gastos obrigatórios do governo já crescem bem acima do limite atual, de 2,5% acima da inflação",
-      "url": "https://valor.globo.com/brasil/noticia/2026/08/09/despesa-em-alta-amplia-desafio-no-arcabouo-fiscal.ghtml",
+      "summary": "As companhias aéreas brasileiras gastaram R$ 5,2 bilhões a mais do que o previsto com querosene de aviação (QAV) desde o início do conflito entre Estados Unidos e Irã, em 28 de fevereiro, segundo a Associação Brasileira das Empresas Aéreas (Abear), entida",
+      "details": "As companhias aéreas brasileiras gastaram R$ 5,2 bilhões a mais do que o previsto com querosene de aviação (QAV) desde o início do conflito entre Estados Unidos e Irã, em 28 de fevereiro, segundo a Associação Brasileira das Empresas Aéreas (Abear), entida",
+      "url": "https://tnonline.uol.com.br/noticias/economia/com-guerra-aereas-registram-gastos-extras-de-r-52-bilhoes-1125220",
       "source": "Valor Econômico",
       "category": "macro",
       "tags": [
@@ -294,15 +317,15 @@
       "updatedAt": "2026-08-09T11:16:48Z",
       "premium": true,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/sF8z5tBkYCN-7qkvVpcC0oJURrI=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2019/F/n/kgqr5uRLiOUJKV7qdhEA/moeda1.jpg"
+      "imageUrl": "https://tnonline.uol.com.br/themes/portal-tno-deploy/assets/img/tnonline-share.png"
     },
     {
-      "id": "companies-772d72a0af9b38d7966d4fa3",
-      "title": "Companhias aéreas acumulam gastos extras de R$ 5,2 bilhões com QAV",
-      "summary": "Guerra entre Estados Unidos e Irã elevou em 49% o querosene de aviação e já custou R$ 5,2 bilhões extras às aéreas brasileiras",
-      "details": "Guerra entre Estados Unidos e Irã elevou em 49% o querosene de aviação e já custou R$ 5,2 bilhões extras às aéreas brasileiras",
-      "url": "https://timesbrasil.com.br/empresas-e-negocios/aviacao/guerra-eua-ira-custa-52-bilhoes-extras-companhias-aereas-brasileiras/",
-      "source": "Tribuna do Sertão",
+      "id": "companies-785f97d3072e75e201f07856",
+      "title": "Com guerra, aéreas registram gastos extras de R$ 5,2 bilhões - TNOnline",
+      "summary": "Principais gastos obrigatórios do governo já crescem bem acima do limite atual, de 2,5% acima da inflação",
+      "details": "Principais gastos obrigatórios do governo já crescem bem acima do limite atual, de 2,5% acima da inflação",
+      "url": "https://valor.globo.com/brasil/noticia/2026/08/09/despesa-em-alta-amplia-desafio-no-arcabouo-fiscal.ghtml",
+      "source": "TNOnline",
       "category": "companies",
       "tags": [
         "empresas",
@@ -312,14 +335,15 @@
       "publishedAt": "2026-08-09T11:10:00Z",
       "updatedAt": "2026-08-09T11:10:00Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://s2-valor.glbimg.com/sF8z5tBkYCN-7qkvVpcC0oJURrI=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2019/F/n/kgqr5uRLiOUJKV7qdhEA/moeda1.jpg"
     },
     {
       "id": "macro-ad149fb0502dbf636f917904",
       "title": "Uma leitura alternativa sobre a função de reação do Fed de Warsh",
-      "summary": "CPI mostrou alta de 0,5% em 12 meses em julho e PPI subiu 3,5%",
-      "details": "CPI mostrou alta de 0,5% em 12 meses em julho e PPI subiu 3,5%",
-      "url": "https://www.infomoney.com.br/economia/indices-de-inflacao-do-consumidor-e-produtor-na-china-ficam-abaixo-do-esperado/",
+      "summary": "O presidente Lula criticou neste sábado (8) o mercado financeiro durante um evento em comemoração aos 30 anos do Movimento dos Trabalhadores Sem-Teto (MTST), em Taboão da Serra (SP). O petista questionou as cobranças por ajuste fiscal e afirmou que quem define a política de juros",
+      "details": "O presidente Lula criticou neste sábado (8) o mercado financeiro durante um evento em comemoração aos 30 anos do Movimento dos Trabalhadores Sem-Teto (MTST), em Taboão da Serra (SP). O petista questionou as cobranças por ajuste fiscal e afirmou que quem define a política de juros não conhece a realidade...",
+      "url": "https://gustavonegreiros.com.br/2026/8/9/mendonca-enquadra-a-policia-federal/166009",
       "source": "Valor Econômico",
       "category": "macro",
       "tags": [
@@ -331,15 +355,34 @@
       "updatedAt": "2026-08-09T11:01:09Z",
       "premium": true,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/06/Captura-de-tela-2026-06-16-073729.png"
+      "imageUrl": "https://gustavonegreiros.com.br/storage/2026/08/08/01KZJ2201447X9RQCA8SMFB20T.jpeg"
     },
     {
-      "id": "macro-0f84fe69b325e8b9e4d816ba",
+      "id": "latest-94db7f95e96c445fec108a0c",
+      "title": "Lula ataca Faria Lima em evento do MTST",
+      "summary": "Para Gianluca Benigno, elevação dos juros reais desde junho mostra que investidores entenderam a nova função de reação do Fed sob Kevin Warsh",
+      "details": "Para Gianluca Benigno, elevação dos juros reais desde junho mostra que investidores entenderam a nova função de reação do Fed sob Kevin Warsh",
+      "url": "https://valor.globo.com/financas/intraday/post/2026/08/uma-leitura-alternativa-sobre-a-funcao-de-reacao-do-fed-de-warsh.ghtml",
+      "source": "Blog do Gustavo Negreiros",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-09T11:00:33Z",
+      "updatedAt": "2026-08-09T11:00:33Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://s2-valor.glbimg.com/uA1lH2kzzCpUCM33kaBwmKJwmKU=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/u/J/LCVRG3Sl6V5u6LB2BFUQ/sem-titulo.png"
+    },
+    {
+      "id": "macro-908801d5181e637bd41da184",
       "title": "Empresa de referência nacional vence licitação de R$ 7,8 milhões e assume portal fiscal de Florianópolis",
-      "summary": "Aumento dos custos de combustível impacta o setor aéreo nacional.",
-      "details": "Aumento dos custos de combustível impacta o setor aéreo nacional.",
-      "url": "https://www.tribunadosertao.com.br/geral/2026/08/09/956042-companhias-aereas-acumulam-gastos-extras-de-r-52-bilhoes-com-qav",
-      "source": "ND Mais",
+      "summary": "Prefeitura de Florianópolis fecha contrato de R$ 7,8 milhões com a Betha Sistemas para lançar novo portal tributário e sistema de nota fiscal eletrônica",
+      "details": "Prefeitura de Florianópolis fecha contrato de R$ 7,8 milhões com a Betha Sistemas para lançar novo portal tributário e sistema de nota fiscal eletrônica",
+      "url": "https://ndmais.com.br/tecnologia/florianopolis-troca-sistema-nota-fiscal-tributos-betha/",
+      "source": "ndmais.com.br",
       "category": "macro",
       "tags": [
         "macro",
@@ -350,14 +393,14 @@
       "updatedAt": "2026-08-09T11:00:01Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://img.dhost.cloud/cdQvdYwW-YuTfcJZHlwScX0-m60=/1280x720/smart/https://tdan.nyc3.digitaloceanspaces.com/images/38472/7b238f97bf9ec9a964fe86e2c005d8c1015.png"
+      "imageUrl": "https://static.ndmais.com.br/2026/08/florianopolis-troca-sistema-nota-fiscal-tributos-betha-1-1200x675.jpg"
     },
     {
       "id": "macro-e64b0c8eb09b7a0567089fe4",
       "title": "Agenda de mercados: dados de inflação nos EUA e no Brasil são destaque na semana",
-      "summary": "Holding era usada em esquema de ocultação de patrimônio e lavagem de dinheiro do Banco Master",
-      "details": "Holding era usada em esquema de ocultação de patrimônio e lavagem de dinheiro do Banco Master",
-      "url": "https://odia.ig.com.br/brasil/2026/08/amp/7288423-empresa-de-vorcaro-titan-capital-e-liquidada-nas-ilhas-cayman.html",
+      "summary": "A questão é se esse ritmo de aporte estatal será mantido ou, pelo menos, se continuará em patamar razoável para atender as empresas e a sociedade",
+      "details": "A questão é se esse ritmo de aporte estatal será mantido ou, pelo menos, se continuará em patamar razoável para atender as empresas e a sociedade",
+      "url": "https://www.atribuna.com.br/opiniao/editorial-atribuna/resiliencia-no-credito-habitacional-1.524812",
       "source": "Valor Econômico",
       "category": "macro",
       "tags": [
@@ -369,7 +412,7 @@
       "updatedAt": "2026-08-09T10:50:10Z",
       "premium": true,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://odia.ig.com.br/_midias/jpg/2026/03/04/1200x750/1_vorca_2_scaled_e1767922829627_1024x688_1-38231354.jpeg"
+      "imageUrl": "https://www.atribuna.com.br/image/policy:1.524813:1786222896/image.jpg?f=3x2"
     },
     {
       "id": "funds-b88099d81be02492283cc601",
@@ -393,9 +436,9 @@
     {
       "id": "macro-8b3bde9d2b8bd7f25ced4f2a",
       "title": "Resiliência no crédito habitacional",
-      "summary": "Descubra as previsões financeiras de hoje para o seu signo. Clique e veja as melhores oportunidades de investimento e alertas de gastos.",
-      "details": "Descubra as previsões financeiras de hoje para o seu signo. Clique e veja as melhores oportunidades de investimento e alertas de gastos.",
-      "url": "https://www.spacemoney.com.br/horoscopo/horoscopo-financeiro-hoje-previsoes-signos-mercado/",
+      "summary": "Fisco tributa crédito judicial do contribuinte, mas dificulta seu uso na transação tributária",
+      "details": "Fisco tributa crédito judicial do contribuinte, mas dificulta seu uso na transação tributária",
+      "url": "https://www.jota.info/opiniao-e-analise/colunas/pauta-fiscal/creditos-habilitados-na-transacao-tributaria-regulamentacao-nao-pode-mais-esperar",
       "source": "A Tribuna",
       "category": "macro",
       "tags": [
@@ -407,14 +450,14 @@
       "updatedAt": "2026-08-09T09:49:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-38782892.webp"
+      "imageUrl": "https://images.jota.info/wp-content/uploads/2025/03/transacao-tributaria.jpg"
     },
     {
       "id": "latest-ac59d1aa1ff3b81e824396ac",
       "title": "Payroll de julho surpreende para baixo e muda apostas do Fed: o que isso significa para o Bitcoin",
-      "summary": "Criação de vagas nos EUA decepcionou e revisões drásticas derrubaram apostas de alta de juros. O cenário pode beneficiar o Bitcoin, mas há obstáculos.",
-      "details": "Criação de vagas nos EUA decepcionou e revisões drásticas derrubaram apostas de alta de juros. O cenário pode beneficiar o Bitcoin, mas há obstáculos.",
-      "url": "https://blocktrends.com.br/payroll-fraco-muda-cenario-bitcoin-fed-juros/",
+      "summary": "Descubra as previsões financeiras de hoje para o seu signo. Clique e veja as melhores oportunidades de investimento e alertas de gastos.",
+      "details": "Descubra as previsões financeiras de hoje para o seu signo. Clique e veja as melhores oportunidades de investimento e alertas de gastos.",
+      "url": "https://www.spacemoney.com.br/horoscopo/horoscopo-financeiro-hoje-previsoes-signos-mercado/",
       "source": "BlockTrends",
       "category": "latest",
       "tags": [
@@ -426,14 +469,14 @@
       "updatedAt": "2026-08-09T09:33:26Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://blocktrends.com.br/wp-content/uploads/2026/08/bt-366942-1786268007.jpg"
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-38782892.webp"
     },
     {
       "id": "latest-4a5727e311605fd9ae6bbf64",
       "title": "Horóscopo financeiro de hoje: Mercado em alerta",
-      "summary": "A questão é se esse ritmo de aporte estatal será mantido ou, pelo menos, se continuará em patamar razoável para atender as empresas e a sociedade",
-      "details": "A questão é se esse ritmo de aporte estatal será mantido ou, pelo menos, se continuará em patamar razoável para atender as empresas e a sociedade",
-      "url": "https://www.atribuna.com.br/opiniao/editorial-atribuna/resiliencia-no-credito-habitacional-1.524812",
+      "summary": "Holding era usada em esquema de ocultação de patrimônio e lavagem de dinheiro do Banco Master",
+      "details": "Holding era usada em esquema de ocultação de patrimônio e lavagem de dinheiro do Banco Master",
+      "url": "https://odia.ig.com.br/brasil/2026/08/amp/7288423-empresa-de-vorcaro-titan-capital-e-liquidada-nas-ilhas-cayman.html",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -445,14 +488,14 @@
       "updatedAt": "2026-08-09T09:30:31Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.atribuna.com.br/image/policy:1.524813:1786222896/image.jpg?f=3x2"
+      "imageUrl": "https://odia.ig.com.br/_midias/jpg/2026/03/04/1200x750/1_vorca_2_scaled_e1767922829627_1024x688_1-38231354.jpeg"
     },
     {
       "id": "latest-0cc520ed8591e5c5f4d0d835",
       "title": "Pesquisa revela que 83% dos trabalhadores desconhecem os juros da própria dívida",
-      "summary": "Atualizacao de ultima hora capturada em Monitor Mercantil.",
-      "details": "",
-      "url": "https://monitormercantil.com.br/pesquisa-revela-que-83-dos-trabalhadores-desconhecem-os-juros-da-propria-divida/",
+      "summary": "Criação de vagas nos EUA decepcionou e revisões drásticas derrubaram apostas de alta de juros. O cenário pode beneficiar o Bitcoin, mas há obstáculos.",
+      "details": "Criação de vagas nos EUA decepcionou e revisões drásticas derrubaram apostas de alta de juros. O cenário pode beneficiar o Bitcoin, mas há obstáculos.",
+      "url": "https://blocktrends.com.br/payroll-fraco-muda-cenario-bitcoin-fed-juros/",
       "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
@@ -463,14 +506,15 @@
       "publishedAt": "2026-08-09T09:09:31Z",
       "updatedAt": "2026-08-09T09:09:31Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://blocktrends.com.br/wp-content/uploads/2026/08/bt-366942-1786268007.jpg"
     },
     {
       "id": "macro-352344356b3c04d7dfab495c",
       "title": "Brasil descobriu tesouro de R$ 23,6 trilhões em seu território, com quase o dobro do PIB do país",
-      "summary": "Dados compilados pela equipe de DADOS de O TEMPO mostram que a inflação só ficou abaixo da meta em 5 anos no Século XXI",
-      "details": "Dados compilados pela equipe de DADOS de O TEMPO mostram que a inflação só ficou abaixo da meta em 5 anos no Século XXI",
-      "url": "https://www.otempo.com.br/economia/2026/8/9/como-a-inflacao-sempre-foi-fantasma-para-os-brasileiros",
+      "summary": "Atualizacao de macro capturada em jornalcruzeiro.com.br.",
+      "details": "",
+      "url": "https://monitormercantil.com.br/pesquisa-revela-que-83-dos-trabalhadores-desconhecem-os-juros-da-propria-divida/",
       "source": "jornalcruzeiro.com.br",
       "category": "macro",
       "tags": [
@@ -481,15 +525,14 @@
       "publishedAt": "2026-08-09T09:01:00Z",
       "updatedAt": "2026-08-09T09:01:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.otempo.com.br/content/dam/otempo/editorias/economia/2026/6/economia-sal-rio---dinheiro-1782479829.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-b87d91eb9794eb6890006899",
       "title": "Como a inflação sempre foi fantasma para os brasileiros",
-      "summary": "Atualizacao de macro capturada em O TEMPO.",
-      "details": "",
-      "url": "https://mshale.com/dfd7ed2f/f6fba00d_8H5yVdXcac",
+      "summary": "O Brasil abriga um dos maiores potenciais minerais do mundo com a presença de terras raras em seu território. As",
+      "details": "O Brasil abriga um dos maiores potenciais minerais do mundo com a presença de terras raras em seu território. As",
+      "url": "https://www.jornalcruzeiro.com.br/tendencias/brasil-descobriu-tesouro-de-r-236-trilhoes-em-seu-territorio-com-quase-o-dobro-do-pib-do-pais/",
       "source": "O TEMPO",
       "category": "macro",
       "tags": [
@@ -500,7 +543,8 @@
       "publishedAt": "2026-08-09T09:00:01Z",
       "updatedAt": "2026-08-09T09:00:01Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.jornalcruzeiro.com.br/tendencias/wp-content/uploads/2026/08/dan-dennis-pZ56pVKd_6c-unsplash-1.jpg"
     },
     {
       "id": "macro-c224c954f99306a00f3a163b",
@@ -524,9 +568,9 @@
     {
       "id": "macro-f924ee7ccaf286d3f35aa532",
       "title": "Menos dinheiro no fim do mês: renda disponível do brasileiro cai para menor nível da história",
-      "summary": "Atualizacao de macro capturada em Estadão.",
-      "details": "",
-      "url": "https://conexaosafra.com/agropecuaria/pib-do-agro-recua-2-no-primeiro-trimestre-apos-avanco-em-2025/",
+      "summary": "Dados compilados pela equipe de DADOS de O TEMPO mostram que a inflação só ficou abaixo da meta em 5 anos no Século XXI",
+      "details": "Dados compilados pela equipe de DADOS de O TEMPO mostram que a inflação só ficou abaixo da meta em 5 anos no Século XXI",
+      "url": "https://www.otempo.com.br/economia/2026/8/9/como-a-inflacao-sempre-foi-fantasma-para-os-brasileiros",
       "source": "Estadão",
       "category": "macro",
       "tags": [
@@ -537,14 +581,34 @@
       "publishedAt": "2026-08-09T08:30:00Z",
       "updatedAt": "2026-08-09T08:30:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.otempo.com.br/content/dam/otempo/editorias/economia/2026/6/economia-sal-rio---dinheiro-1782479829.jpg"
+    },
+    {
+      "id": "latest-a1848f5d32e8095350cd6600",
+      "title": "Investidores acima de 60 anos na B3 crescem 358% em 10 anos",
+      "summary": "Aumento no custo de vida e educação financeira impulsionam crescimento",
+      "details": "Aumento no custo de vida e educação financeira impulsionam crescimento",
+      "url": "https://boca.com.br/economia/investidores-acima-de-60-anos-na-b3-crescem-358-em-10-anos",
+      "source": "boca.com.br",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-09T07:50:28Z",
+      "updatedAt": "2026-08-09T07:50:28Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/2099259b2ed6be1e869df93a92e520b3_858x483.png"
     },
     {
       "id": "macro-d80eb6043ba8439d3b845348",
       "title": "PIB do agro recua 2% no primeiro trimestre após avanço em 2025",
-      "summary": "Fisco tributa crédito judicial do contribuinte, mas dificulta seu uso na transação tributária",
-      "details": "Fisco tributa crédito judicial do contribuinte, mas dificulta seu uso na transação tributária",
-      "url": "https://www.jota.info/opiniao-e-analise/colunas/pauta-fiscal/creditos-habilitados-na-transacao-tributaria-regulamentacao-nao-pode-mais-esperar",
+      "summary": "PIB do agronegócio recua 2% no primeiro trimestre após forte avanço em 2025, aponta levantamento do Cepea",
+      "details": "PIB do agronegócio recua 2% no primeiro trimestre após forte avanço em 2025, aponta levantamento do Cepea",
+      "url": "https://conexaosafra.com/agropecuaria/pib-do-agro-recua-2-no-primeiro-trimestre-apos-avanco-em-2025/",
       "source": "Conexão Safra",
       "category": "macro",
       "tags": [
@@ -556,14 +620,14 @@
       "updatedAt": "2026-08-09T07:41:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://images.jota.info/wp-content/uploads/2025/03/transacao-tributaria.jpg"
+      "imageUrl": "https://conexaosafra.com/wp-content/uploads/2025/12/investir-na-agricultura-uma-mao-segurando-um-saco-de-dinheiro-em-um-campo-copiar.jpg"
     },
     {
       "id": "latest-5553b290a60ec7c54c3e7b25",
       "title": "BRASIL LIDERA RANKING DE JUROS REAIS MESMO COM SELIC MENOR - ICL MERCADO E INVESTIMENTOS - 06/08/26 Playoff Nba (6gJwqB6UJE)",
-      "summary": "O Brasil abriga um dos maiores potenciais minerais do mundo com a presença de terras raras em seu território. As",
-      "details": "O Brasil abriga um dos maiores potenciais minerais do mundo com a presença de terras raras em seu território. As",
-      "url": "https://www.jornalcruzeiro.com.br/tendencias/brasil-descobriu-tesouro-de-r-236-trilhoes-em-seu-territorio-com-quase-o-dobro-do-pib-do-pais/",
+      "summary": "Anderson da Cruz largou emprego no mercado financeiro por função onde poderia acompanhar mais de perto a saúde do filho Joaquim.",
+      "details": "Anderson da Cruz largou emprego no mercado financeiro por função onde poderia acompanhar mais de perto a saúde do filho Joaquim.",
+      "url": "https://g1.globo.com/google/amp/sc/santa-catarina/noticia/2026/08/09/pai-abre-mao-de-75-por-cento-do-salario-para-estudar-fonoaudiologia-e-ajudar-filho-autista.ghtml",
       "source": "Mshale",
       "category": "latest",
       "tags": [
@@ -575,14 +639,14 @@
       "updatedAt": "2026-08-09T07:36:15Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.jornalcruzeiro.com.br/tendencias/wp-content/uploads/2026/08/dan-dennis-pZ56pVKd_6c-unsplash-1.jpg"
+      "imageUrl": "https://s2-g1.glbimg.com/mMGkYXVOVpEqOf0yJnD8FsaQ7Wc=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/E/G/qXm2f0QzeLPwjdAkhACA/pai-atipico-2.jpg"
     },
     {
       "id": "macro-b79b6ad1a511878c8cde9226",
       "title": "Endividamento recorde e juro elevado preocupam setores da economia",
-      "summary": "Em meio ao aumento acentuado dos custos de capital e à diminuição da liquidez do mercado, muitas construtoras estão lançando programas para apoiar as taxas de juros, oferecer vouchers e estender os prazos de pagamento.",
-      "details": "Em meio ao aumento acentuado dos custos de capital e à diminuição da liquidez do mercado, muitas construtoras estão lançando programas para apoiar as taxas de juros, oferecer vouchers e estender os prazos de pagamento.",
-      "url": "https://www.vietnam.vn/pt/lai-vay-cao-chu-dau-tu-tung-chieu-keo-khach-mua-nha",
+      "summary": "Atualizacao de macro capturada em CNN Brasil.",
+      "details": "",
+      "url": "https://mshale.com/dfd7ed2f/f6fba00d_8H5yVdXcac",
       "source": "CNN Brasil",
       "category": "macro",
       "tags": [
@@ -593,16 +657,15 @@
       "publishedAt": "2026-08-09T07:00:42Z",
       "updatedAt": "2026-08-09T07:00:42Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/17/1784276137916_scenicvaley_znews.jpeg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "latest-5488282f792ed3d77d173f35",
+      "id": "latest-0408a1116d6a2e5a45b594e4",
       "title": "Pai abre mão de 75% do salário para estudar fonoaudiologia e ajudar filho autista a desenvolver a fala: 'Sou muito mais feliz'",
-      "summary": "No norte de Santa Catarina, encravada entre a Serra do Mar e o vale do rio Itapocu, uma cidade de",
-      "details": "No norte de Santa Catarina, encravada entre a Serra do Mar e o vale do rio Itapocu, uma cidade de",
-      "url": "https://www.correiobraziliense.com.br/cbradar/a-cidade-de-santa-catarina-com-pib-per-capita-33-acima-da-media-que-virou-reduto-de-bilionarios/",
-      "source": "g1.globo.com",
+      "summary": "Gestora independente fundada em 2003 tinha cerca de R$ 5 bilhões de AuM e decidiu encerrar a atividade de gestão de recursos de terceiros em multimercados",
+      "details": "Gestora independente fundada em 2003 tinha cerca de R$ 5 bilhões de AuM e decidiu encerrar a atividade de gestão de recursos de terceiros em multimercados",
+      "url": "https://www.estadao.com.br/em-alta/einvestidor/direto-da-faria-lima/bradesco-asset-assume-gestao-dos-multimercados-da-gavea-gestora-de-arminio-fraga-entenda/",
+      "source": "G1",
       "category": "latest",
       "tags": [
         "mercado",
@@ -613,7 +676,7 @@
       "updatedAt": "2026-08-09T07:00:33Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.correiobraziliense.com.br/cbradar/wp-content/uploads/2026/04/aaa-2026-04-30T011025.903.png"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/YQLPAPEB4BJFTJYN2QEENCUEUY.png?quality=80&auth=c349b9a3b8986883daf0d11feff7ded397a109f41256f9abb0adbac2375452e7&width=1200&height=630&smart=true"
     },
     {
       "id": "macro-7ecf5dbead39c5e328e620eb",
@@ -635,11 +698,11 @@
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/10/taxa-selic-inflacao-e1761933182254.jpg?w=1024&h=577&crop=1"
     },
     {
-      "id": "macro-302b84f6e98cef1348ccf446",
+      "id": "macro-732fa09057a302db02d33683",
       "title": "Endividamento familiar ameaça consumo e PIB em 2027",
-      "summary": "Gestora independente fundada em 2003 tinha cerca de R$ 5 bilhões de AuM e decidiu encerrar a atividade de gestão de recursos de terceiros em multimercados",
-      "details": "Gestora independente fundada em 2003 tinha cerca de R$ 5 bilhões de AuM e decidiu encerrar a atividade de gestão de recursos de terceiros em multimercados",
-      "url": "https://www.estadao.com.br/em-alta/einvestidor/direto-da-faria-lima/bradesco-asset-assume-gestao-dos-multimercados-da-gavea-gestora-de-arminio-fraga-entenda/",
+      "summary": "Atualizacao de macro capturada em Associação Comercial e Industrial de Araçatuba.",
+      "details": "",
+      "url": "https://www.correiobraziliense.com.br/cbradar/a-cidade-de-santa-catarina-com-pib-per-capita-33-acima-da-media-que-virou-reduto-de-bilionarios/",
       "source": "Associação Comercial e Industrial de Araçatuba",
       "category": "macro",
       "tags": [
@@ -647,18 +710,17 @@
         "juros",
         "inflacao"
       ],
-      "publishedAt": "2026-08-09T06:25:54Z",
-      "updatedAt": "2026-08-09T06:25:54Z",
+      "publishedAt": "2026-08-09T06:25:19Z",
+      "updatedAt": "2026-08-09T06:25:19Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/YQLPAPEB4BJFTJYN2QEENCUEUY.png?quality=80&auth=c349b9a3b8986883daf0d11feff7ded397a109f41256f9abb0adbac2375452e7&width=1200&height=630&smart=true"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "funds-a297f41dc1c2f34275c69c54",
       "title": "Bradesco Asset assume gestão dos multimercados da Gávea, gestora de Armínio Fraga; entenda",
-      "summary": "Giuliano de Marchi espera que a ‘corrida avance para os 500 metros’ até o final do ano com a regulação dos ETFs ativos",
-      "details": "Giuliano de Marchi espera que a ‘corrida avance para os 500 metros’ até o final do ano com a regulação dos ETFs ativos",
-      "url": "https://www.estadao.com.br/em-alta/einvestidor/wealth-management/investimento-no-exterior-estamos-nos-100-metros-de-uma-maratona-diz-ceo-da-jp-morgan-asset/",
+      "summary": "O endividamento recorde das famílias pode desacelerar o consumo e afetar o PIB em 2027, segundo economistas e análises do BTG Pactual e FGV Ibre. Estudo do Banco Central mostra que o excesso de crédito leva a queda no consumo. Projeções indicam redução no ritmo de expansão.",
+      "details": "O endividamento recorde das famílias pode desacelerar o consumo e afetar o PIB em 2027, segundo economistas e análises do BTG Pactual e FGV Ibre. Estudo do Banco Central mostra que o excesso de crédito leva a queda no consumo. Projeções indicam redução no ritmo de expansão.",
+      "url": "https://aciara.com.br/endividamento-familias-familiar-ameaca-consumo/",
       "source": "Estadão",
       "category": "funds",
       "tags": [
@@ -670,14 +732,32 @@
       "updatedAt": "2026-08-09T06:24:31Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/7VZU2XMSQRF3NM7EGUHQ5HV7XM.jpg?quality=80&auth=b8ecfdf2c70dd2cb73849d531d48f9ea5867e33a04591d601a631b9912729a25&width=1200&height=630&smart=true"
+      "imageUrl": "https://aciara.com.br/wp-content/uploads/2026/08/1665694184634879e87f544_1665694184_3x2_rt.jpg"
+    },
+    {
+      "id": "macro-f29efff0f9556e5ad3142e3f",
+      "title": "Fórum dos Leitores",
+      "summary": "Atualizacao de macro capturada em Estadão.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZDBnYlJaamRxbmkyS0dNei1mMExjeHNfZ0daX21KRzl4dF9LQWJJQU80OThnNU5QZ1VOLTYxZFJPZlF5dzBuVnh1RWZSLXNLZmJoeXBFMzZLNE1LV19sQ1llRDhIcVFqdzRDNmprMklKejdOMDc0VldNaXp1ZWFJNFhXcGJjbWVzMUE?oc=5",
+      "source": "Estadão",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-09T06:00:00Z",
+      "updatedAt": "2026-08-09T06:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-138b24a5a9489e239195c730",
       "title": "Mercado volta a prever juros mais baixos em 2026 após cinco semanas de estabilidade",
-      "summary": "Anderson da Cruz largou emprego no mercado financeiro por função onde poderia acompanhar mais de perto a saúde do filho Joaquim.",
-      "details": "Anderson da Cruz largou emprego no mercado financeiro por função onde poderia acompanhar mais de perto a saúde do filho Joaquim.",
-      "url": "https://g1.globo.com/google/amp/sc/santa-catarina/noticia/2026/08/09/pai-abre-mao-de-75-por-cento-do-salario-para-estudar-fonoaudiologia-e-ajudar-filho-autista.ghtml",
+      "summary": "Atualizacao de ultima hora capturada em Estadão.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOEwwem5RcnphZ2JpVHZhTm5wa3l5eko4VUFCUlQxRkVNRmo2UWFYeFllNHVNcEtCQWsxdUQ0TzR4dndKMndaWnU5RHY5YjVuY3JYbEZicUprQlhMNmtjVjlIU3d1RjR4cDVXeXlCMFdXandsRVFRZFFlUEM5V3plRFRXbGttekFB?oc=5",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -688,15 +768,14 @@
       "publishedAt": "2026-08-09T05:36:10Z",
       "updatedAt": "2026-08-09T05:36:10Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://s2-g1.glbimg.com/mMGkYXVOVpEqOf0yJnD8FsaQ7Wc=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/E/G/qXm2f0QzeLPwjdAkhACA/pai-atipico-2.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "funds-d575d08f3b2d1438e83c1a83",
       "title": "Investimento no exterior: “Estamos nos 100 metros de uma maratona”, diz CEO da J.P. Morgan Asset",
-      "summary": "Mediana do relatório Focus para a taxa Selic no fim do ano caiu de 14% para 13,75%; projeção para o IPCA de 2026 caiu pela quinta semana seguida, desta vez de 5,12% para 5,03%",
-      "details": "Mediana do relatório Focus para a taxa Selic no fim do ano caiu de 14% para 13,75%; projeção para o IPCA de 2026 caiu pela quinta semana seguida, desta vez de 5,12% para 5,03%",
-      "url": "https://www.estadao.com.br/em-alta/economia/focus-mercado-juros-mais-baixos-2026/",
+      "summary": "Atualizacao de fundos capturada em Estadão.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUXFqc0hnUUZqeVFnZkNZeEZ6MFFiRWhWX2F1V2hMdFdERkI5cHRJR1IyQng1RTVCRk80OE12R0RmN0ladTVnRW92MzdZMzdjU3hLbl9nMThlVXlhaHQxTGJseEF3UHNmb2VsXzR2aUJ1TDJmYk1TNEdIeVFEWjZ3ZEpDb3I2b0FBNndpaW94N3lkdUtsVV9tTHlRMDlfbTRSYWV3cXZ2MWd4U09kZnFady1XYnhhd0dmSmhfQXVOdG5QVExxeUxDNGJsb0Q4NnZtN0V6dV9LdFlUU2JmaFhLUG82MTZTc25adW9leQ?oc=5",
       "source": "Estadão",
       "category": "funds",
       "tags": [
@@ -707,15 +786,14 @@
       "publishedAt": "2026-08-09T04:43:50Z",
       "updatedAt": "2026-08-09T04:43:50Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/SY7GLVIWABJVPPKVMPDP7CJTAI.jpg?quality=80&auth=269259b8313a479dfd38062f0836143d1dd483aad8bf26c93067250da648ef29&width=1200&height=630&smart=true"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "latest-b6beae43befa22a83d2b3e86",
       "title": "As altas taxas de juros levam as construtoras a usar estratégias para atrair compradores de imóveis.",
       "summary": "Atualizacao de ultima hora capturada em Vietnam.vn.",
       "details": "",
-      "url": "https://aciara.com.br/endividamento-familias-familiar-ameaca-consumo/",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ3dyT1dFXzVYTEl4NlNWd29rV2NZdFc4MkRhMGFKa1NsSFVZem5qM3U5ZzZWZEJLU2xlajJId3V6VDNXZmV5a3pac3lvc0tySGFydHhCb0h1OE0xVHlrQkpVR1lURkxFbVpWX25zN3UyanVPeWhCN0pXWW9nWm15N3NrZw?oc=5",
       "source": "Vietnam.vn",
       "category": "latest",
       "tags": [
@@ -815,42 +893,6 @@
       ],
       "publishedAt": "2026-08-09T03:10:08Z",
       "updatedAt": "2026-08-09T03:10:08Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-9af15101a1432895af0e7d20",
-      "title": "Exigência de CNPJ e nota fiscal para nanoempreendedor virar preocupação do governo que teme uso político na campanha",
-      "summary": "Atualizacao de macro capturada em JC.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQV1RpemVvVDRWR0JseV92anZ5SUxWS3lpS2RVeTE3STFKTEgzekdXbk5YTm1ob1lFcnE4YUhhM2k2cWlVanZFVGlUSTJXMnZka3lIeTRKVDRUZFNEekRRZFB5S0RkZTJNM2VCd0k5QlZtekkwT0ZEMVU5YjRMUjBXUjVRNjRJbTZSR2EtODhPRjlual9pS25Rd3FDMEFUbUJJVDBqSEtSdWRVNzR5SUlWN3Z5T00wUGFzYUpYOFh4Y0l5N2tPVlJXRzZNZzVjNm9YTlRncFZsb3hGRzduZTZ2ckVDM1NOdVVpX2t5eHl1dEpnRUtIN3FGYU1TMEN0ZDVjdmQ1QQ?oc=5",
-      "source": "JC",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-09T03:05:00Z",
-      "updatedAt": "2026-08-09T03:05:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-688fca4264bbe0e4f335c08b",
-      "title": "Inflação ao produtor na China desacelera mais do que o esperado em julho",
-      "summary": "Atualizacao de macro capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQXYtX1ZCMGhqRDc2WXhrVnNIMUxINWg0dnNxWHZBVXl3eU9mZHFTajd1TUstMEhqZHdMQTRmUmY1TWp0MFFkSzNYOVlQUnE1TC1XZVRiR0ZOVE4zUXE3aTlhSHIzMUNwTXJzU1MyaTZQQTFOMlZfVko4aWxRR0FQb1p2SVowYXJnZW93VnNMYnRFeG85SENxbFdWcWRQSEV1aF9CWGp4YlhENjMzZmZENzVlZ2x5dzdveGhyWVNjTmY?oc=5",
-      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-09T02:41:00Z",
-      "updatedAt": "2026-08-09T02:41:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
@@ -1017,24 +1059,6 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "companies-10b7474559d16ff8c8448b11",
-      "title": "Impacto Da Inteligência Artificial Nas Empresas Brasileiras Pirates Vs Giants (U4kRuSTuOv)",
-      "summary": "Atualizacao de empresas capturada em Mshale.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xcUIzUm83SWZRaUhhWDlWa1Y2TDNCVndWZjBncU9vMFRjUjFiV2RMWlNoNFBhSC1lZlprNUw3bHRLeWZpVWZzLTA0WDJOMWUtY3hObXRrM2tnTWM?oc=5",
-      "source": "Mshale",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-08-08T22:00:09Z",
-      "updatedAt": "2026-08-08T22:00:09Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
       "id": "companies-5af8195d3cde5c9242a4ddab",
       "title": "Guerra no Irã faz preço do querosene de aviação disparar no Brasil",
       "summary": "Atualizacao de empresas capturada em Correio Braziliense.",
@@ -1053,24 +1077,6 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "latest-1e2e6ea727408af041ab4cc3",
-      "title": "Payroll de julho vem abaixo do esperado e muda cenário de juros nos EUA: o que isso significa para o Bitcoin",
-      "summary": "Atualizacao de ultima hora capturada em BlockTrends.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8wUElIeVlmUjZTemVaMWNFWkFfSXRwYmZHc2NLYUhTaFVaNWpKVTBTSG9mRkQ5eHRMdWFtSUNMUkZiWnlzeVFkbjNzQ0pMSkhFV1o3VUdNaEdKVDlfYjV5TmFjdWNfMUotUi1VMnJKSXNLZXZxOENUNms2aUJJQQ?oc=5",
-      "source": "BlockTrends",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-08T21:33:38Z",
-      "updatedAt": "2026-08-08T21:33:38Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "companies-166e259d0fcf09beddc60418",
       "title": "Quem fabrica a urna eletrônica? Veja as empresas que já produziram os equipamentos usados nas eleições brasileiras",
       "summary": "Atualizacao de empresas capturada em Agência GBC.",
@@ -1087,24 +1093,6 @@
       "updatedAt": "2026-08-08T20:35:59Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "latest-29c36b36b88ad0471de89aa1",
-      "title": "Inadimplentes, 44% das empresas tiveram crédito negado nos últimos 12 meses",
-      "summary": "Atualizacao de ultima hora capturada em midiajur.com.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZW5rREpoZ2lGcmpBTldJYWtuc0NWS2F2cHA1eFBlOXp3d25BSnhjT2VsQ180RjRObFJyb2RNb2hmbUJBUU9iMWhNZUdPODZfS0d5YmszSTkzWkg4SUw1cU1HLTdLajVSd3ZBNEtYVjRCZVNna211WVBTNk01Z1BnZEtMdzNONWIzSXY5dnRsb2hBT3A4dFd5V2dscE5LZjE4U3NOUndPRnRDQnZvR0tlZGNkVjdOR0k?oc=5",
-      "source": "midiajur.com.br",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-08T20:04:35Z",
-      "updatedAt": "2026-08-08T20:04:35Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "funds-99ea52019461c92889376907",
@@ -1359,20 +1347,38 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "funds-845599cccd432bf1283c09bb",
-      "title": "Captação líquida dos fundos fica negativa em julho",
-      "summary": "Atualizacao de fundos capturada em Monitor Mercantil.",
+      "id": "funds-7e320dc3908260ca08d83eee",
+      "title": "Small Caps ganham novo índice na B3, com direito a ETF ao investidor",
+      "summary": "Atualizacao de fundos capturada em Investidor10.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPb2tWazhIY1Y0OEtCajZUZkVCN0M2QXRnYnlsU214cXgyRGRBTGVHQ003cldYQmxCRElLQkdldzh1alkzb3dsNlljSVh3QU1GaUtETDFNNTRVTF84U0ZHamNWVS1NOEdBV1MxNFZoUEZKMC1kSzVTeTN2VXMzTDVQa0MxWmlmXy1ycGow?oc=5",
-      "source": "Monitor Mercantil",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb0NZa3d2VmlLR0k2X1dfYlBOUmJMY3BvTHY5NVVHWDAzWU5uVnV5VXFjcHUwNzBmU2tiNFZGLUVMdGZPUEtQOWQtbTVxWlhhc1BFZmFISlN2SlFvekMxdkZ0NXZmSEJkdlA4Mm5yMEszdFBUUlRjeUtmZ3AzMGY3UTJWSTRuQ25TTjljMEdiMDMwUXh0WHJESS1pOHBaeEprZGJDVWtfQnFhLXVxbzZyUFFhUHhtaVXSAbcBQVVfeXFMTm9DWWt3dlZpS0dJNl9XX2JQTlJiTGNwb0x2OTVVR1gwM1lOblZ1eVVxY3B1MDcwZlNrYjRWRi1FTHRmT1BLUDlkLW01cVpYYXNQRWZhSEpTdkpRb3pDMXZGdDV2ZkhCZHZQODJucjBLM3RQVFJUY3lLZmdwMzBmN1EyVkk0bkNuU045YzBHYjAzMFF4dFhyREktaThwWnhKa2RiQ1VrX0JxYS11cW82clBRYVB4bWlV?oc=5",
+      "source": "Investidor10",
       "category": "funds",
       "tags": [
         "fundos",
         "asset",
         "fiis"
       ],
-      "publishedAt": "2026-08-07T23:05:00Z",
-      "updatedAt": "2026-08-07T23:05:00Z",
+      "publishedAt": "2026-08-07T23:36:00Z",
+      "updatedAt": "2026-08-07T23:36:00Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "funds-ece4f0fecbfb93b791d6b27b",
+      "title": "Grupo de Mauro Mendes e Fábio Garcia usou 18 fundos de investimentos para desviar R$ 308 milhões diz PF, veja quais",
+      "summary": "Atualizacao de fundos capturada em BRASIL NOTÍCIA.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNWWl0RkJudWxHdUFocHYxYk9aY0xxOXM0b2t2TXlCdWdGYUhlUWhLT3V3TjRiNHVaWkQxQ05abTN6dFRvbWhCS1JMc2dhbTZ2SmUwNm95UFZCQi1iQkZsYUl6bkdIM0VjV0NLM2J2dnlXQnJsbG1wWElaVXhIVDNENTRwR2tLQnlfRDBlYUVuSWo4RF9ZS25TcWtBUjZYSjBDeFZ5WF9Pd3U2ckh1Z2FvdmlaY19NV21UYlRuS1pmcXRMZUNmWkFlaWpfeFdIZm1QQ20tWEJ2aTBjSk9UbnlzN0hyeG9kMk9xdDBR?oc=5",
+      "source": "BRASIL NOTÍCIA",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-08-07T23:08:00Z",
+      "updatedAt": "2026-08-07T23:08:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     }
