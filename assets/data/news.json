@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-14T04:07:35Z",
-  "generatedAt": "2026-08-14T04:07:35Z",
+  "updatedAt": "2026-08-14T05:45:09Z",
+  "generatedAt": "2026-08-14T05:45:09Z",
   "categories": [
     {
       "id": "all",
@@ -25,6 +25,10 @@
   ],
   "sources": [
     {
+      "id": "a-verdade",
+      "label": "A Verdade"
+    },
+    {
       "id": "ag-ncia-incompar-veis",
       "label": "Agência Incomparáveis"
     },
@@ -41,8 +45,8 @@
       "label": "BOL"
     },
     {
-      "id": "borainvestir-b3-com-br",
-      "label": "borainvestir.b3.com.br"
+      "id": "bora-investir",
+      "label": "Bora Investir"
     },
     {
       "id": "bra1-com-br",
@@ -69,8 +73,8 @@
       "label": "Estadão"
     },
     {
-      "id": "euqueroinvestir",
-      "label": "EuQueroInvestir"
+      "id": "euqueroinvestir-com",
+      "label": "euqueroinvestir.com"
     },
     {
       "id": "financefeeds",
@@ -109,16 +113,12 @@
       "label": "Monitor Mercantil"
     },
     {
-      "id": "noticias-lide-com-br",
-      "label": "noticias.lide.com.br"
-    },
-    {
       "id": "not-cias-agr-colas",
       "label": "Notícias Agrícolas"
     },
     {
-      "id": "novidades-mt",
-      "label": "novidades mt"
+      "id": "novidadesmt-com-br",
+      "label": "novidadesmt.com.br"
     },
     {
       "id": "portal-do-agroneg-cio",
@@ -131,6 +131,10 @@
     {
       "id": "revista-investidor-institucional",
       "label": "Revista Investidor Institucional"
+    },
+    {
+      "id": "revista-lide",
+      "label": "Revista LIDE"
     },
     {
       "id": "suno-com-br",
@@ -147,10 +151,6 @@
     {
       "id": "uol-economia",
       "label": "UOL Economia"
-    },
-    {
-      "id": "uol-not-cias",
-      "label": "UOL Notícias"
     },
     {
       "id": "valor-econ-mico",
@@ -171,11 +171,29 @@
   ],
   "items": [
     {
+      "id": "macro-57d5eab766d23812647d67fd",
+      "title": "Taxa de condomínio sobe acima da inflação em quase todo o Rio e pode chegar a 40% do aluguel, diz pesquisa",
+      "summary": "Atualizacao de macro capturada em G1.",
+      "details": "",
+      "url": "https://monitormercantil.com.br/galipolo-critica-pressao-de-empresas-para-utilizar-fgc-na-captacao-de-varejo/",
+      "source": "G1",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-14T04:00:09Z",
+      "updatedAt": "2026-08-14T04:00:09Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
       "id": "latest-1f70345c1adcebf91b36f825",
       "title": "Taxas de juros bancárias em 14 de agosto de 2026: O Nam A Bank ajusta suas taxas de juros para baixo em vários prazos.",
-      "summary": "Atualizacao de ultima hora capturada em Vietnam.vn.",
-      "details": "",
-      "url": "https://monitormercantil.com.br/light-tem-prejuizo-de-r-252-milhoes-no-segundo-trimestre/",
+      "summary": "Centro teve a maior alta, de 11,8%, enquanto gastos com água, segurança e inadimplência pressionam as contas dos moradores.",
+      "details": "Centro teve a maior alta, de 11,8%, enquanto gastos com água, segurança e inadimplência pressionam as contas dos moradores.",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/14/taxa-de-condominio-sobe-acima-da-inflacao-em-quase-todo-o-rio-e-pode-chegar-a-40percent-do-aluguel-diz-pesquisa.ghtml",
       "source": "Vietnam.vn",
       "category": "latest",
       "tags": [
@@ -186,14 +204,15 @@
       "publishedAt": "2026-08-14T03:36:40Z",
       "updatedAt": "2026-08-14T03:36:40Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://s2-g1.glbimg.com/F6HNyFrMWyGRZWegQy1eKxOigyY=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/d/I/obksAxSXqRqpX2CmBiUg/aerea-arpoador.jpg"
     },
     {
       "id": "latest-612623c8c0efe724438671e0",
       "title": "Light tem prejuízo de R$ 252 milhões no segundo trimestre",
-      "summary": "A essência é evitar falar da trajetória alarmante do endividamento público e alegar que o governo estaria prestes a ‘equilibrar suas contas’, deixando de incorrer em déficits primários",
-      "details": "A essência é evitar falar da trajetória alarmante do endividamento público e alegar que o governo estaria prestes a ‘equilibrar suas contas’, deixando de incorrer em déficits primários",
-      "url": "https://www.estadao.com.br/em-alta/economia/rogerio-werneck/campanha-da-reeleicao-se-agarra-a-ilusionismo-tosco-sobre-a-questao-fiscal/",
+      "summary": "Representantes da equipe econômica de Flávio Bolsonaro (PL), Renan Santos (Missão), Ronaldo Caiado (PSD) e Romeu Zema (Novo) apresentaram as principais medidas que os candidatos pretendem tomar na economia caso sejam eleitos",
+      "details": "Representantes da equipe econômica de Flávio Bolsonaro (PL), Renan Santos (Missão), Ronaldo Caiado (PSD) e Romeu Zema (Novo) apresentaram as principais medidas que os candidatos pretendem tomar na economia caso sejam eleitos",
+      "url": "https://valor.globo.com/google/amp/politica/eleicoes-2026/noticia/2026/08/13/adversarios-de-lula-defendem-tesouraco-juros-de-um-digito-e-nova-reforma-da-previdencia.ghtml",
       "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
@@ -205,7 +224,7 @@
       "updatedAt": "2026-08-14T02:21:28Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/CWV34LM3TZEGHCFHQGN4QJQS4U.jpg?quality=80&auth=9e04a7841f0baa95e6d62730b8a9fc558bcd4a9e2c84238f70238dbc77ea955d&width=1200&height=630&smart=true"
+      "imageUrl": "https://s2-valor.glbimg.com/DtWuDljWx9-BM9vSql-QpH--bCc=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2023/c/P/tWw8q7TlKC91xIWiC2ig/percentual-porcentagem-porcento-juros-taxas-gerd-altmann-pixabay.jpg"
     },
     {
       "id": "latest-a229638c8c62c489fcb43c68",
@@ -231,7 +250,7 @@
       "title": "Inflação argentina acelera a 2,1% em julho e chega a 33,8%",
       "summary": "Atualizacao de macro capturada em Vero Notícias.",
       "details": "",
-      "url": "https://monitormercantil.com.br/galipolo-critica-pressao-de-empresas-para-utilizar-fgc-na-captacao-de-varejo/",
+      "url": "https://monitormercantil.com.br/light-tem-prejuizo-de-r-252-milhoes-no-segundo-trimestre/",
       "source": "Vero Notícias",
       "category": "macro",
       "tags": [
@@ -285,9 +304,9 @@
     {
       "id": "macro-2c16e898f7e288698fea2012",
       "title": "IAF Sindical destaca presença de Auditora Fiscal baiana na estrutura diretiva do Comitê Gestor do IBS",
-      "summary": "A composi&ccedil;&atilde;o da estrutura diretiva do Comit&ecirc; Gestor do Imposto sobre Bens e Servi&ccedil;os (CGIBS) ganhou um importante destaque para a Bahia com a posse da auditora fiscal Elv...",
-      "details": "A composi&ccedil;&atilde;o da estrutura diretiva do Comit&ecirc; Gestor do Imposto sobre Bens e Servi&ccedil;os (CGIBS) ganhou um importante destaque para a Bahia com a posse da auditora fiscal Elv...",
-      "url": "https://iaf.org.br/conteudo/10303/iaf-sindical-destaca-presenca-de-auditora-fiscal-baiana-na-estrutura-diretiva-do-comite-gestor-do-ibs",
+      "summary": "Produtividade dos trabalhadores responderia por 65% do impacto, e indústria de transformação seria a mais beneficiada",
+      "details": "Produtividade dos trabalhadores responderia por 65% do impacto, e indústria de transformação seria a mais beneficiada",
+      "url": "https://www1.folha.uol.com.br/mercado/2026/08/ia-pode-acrescentar-r-1-tri-ao-pib-do-brasil-ate-2030-diz-estudo-comissionado-pela-openai.shtml",
       "source": "Instituto dos Auditores Fiscais do Estado da Bahia",
       "category": "macro",
       "tags": [
@@ -299,14 +318,14 @@
       "updatedAt": "2026-08-14T01:23:17Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://sindicalizi-public.s3.amazonaws.com/iafba/gerenciadorconteudo/imagens/430_300_elvira-cerdeira17866703086a7e6ce4829c6.png"
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/06/10/17811335366a29f0e0ee993_1781133536_3x2_rt.jpg"
     },
     {
       "id": "macro-c0afe24d6074aa3091357af2",
       "title": "Lula promete continuidade econômica e não menciona redução de gastos em plano de governo",
-      "summary": "Produtividade dos trabalhadores responderia por 65% do impacto, e indústria de transformação seria a mais beneficiada",
-      "details": "Produtividade dos trabalhadores responderia por 65% do impacto, e indústria de transformação seria a mais beneficiada",
-      "url": "https://www1.folha.uol.com.br/mercado/2026/08/ia-pode-acrescentar-r-1-tri-ao-pib-do-brasil-ate-2030-diz-estudo-comissionado-pela-openai.shtml",
+      "summary": "Texto cita juros altos como fator de concentração de renda e diz que arcabouço fiscal servirá para diminuir taxa",
+      "details": "Texto cita juros altos como fator de concentração de renda e diz que arcabouço fiscal servirá para diminuir taxa",
+      "url": "https://www1.folha.uol.com.br/mercado/2026/08/lula-promete-continuidade-economica-e-nao-menciona-reducao-de-gastos-em-plano-de-governo.shtml",
       "source": "Folha de S.Paulo",
       "category": "macro",
       "tags": [
@@ -318,14 +337,14 @@
       "updatedAt": "2026-08-14T01:21:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/06/10/17811335366a29f0e0ee993_1781133536_3x2_rt.jpg"
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/13/17866678886a7e6370c2e27_1786667888_3x2_rt.jpg"
     },
     {
       "id": "macro-c520fff4686455bdf4e73114",
       "title": "Adversários de Lula defendem ‘tesouraço’, juros de um dígito e nova reforma da Previdência",
-      "summary": "Texto cita juros altos como fator de concentração de renda e diz que arcabouço fiscal servirá para diminuir taxa",
-      "details": "Texto cita juros altos como fator de concentração de renda e diz que arcabouço fiscal servirá para diminuir taxa",
-      "url": "https://www1.folha.uol.com.br/mercado/2026/08/lula-promete-continuidade-economica-e-nao-menciona-reducao-de-gastos-em-plano-de-governo.shtml",
+      "summary": "A composi&ccedil;&atilde;o da estrutura diretiva do Comit&ecirc; Gestor do Imposto sobre Bens e Servi&ccedil;os (CGIBS) ganhou um importante destaque para a Bahia com a posse da auditora fiscal Elv...",
+      "details": "A composi&ccedil;&atilde;o da estrutura diretiva do Comit&ecirc; Gestor do Imposto sobre Bens e Servi&ccedil;os (CGIBS) ganhou um importante destaque para a Bahia com a posse da auditora fiscal Elv...",
+      "url": "https://iaf.org.br/conteudo/10303/iaf-sindical-destaca-presenca-de-auditora-fiscal-baiana-na-estrutura-diretiva-do-comite-gestor-do-ibs",
       "source": "Valor Econômico",
       "category": "macro",
       "tags": [
@@ -337,14 +356,14 @@
       "updatedAt": "2026-08-14T01:10:32Z",
       "premium": true,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/13/17866678886a7e6370c2e27_1786667888_3x2_rt.jpg"
+      "imageUrl": "https://sindicalizi-public.s3.amazonaws.com/iafba/gerenciadorconteudo/imagens/430_300_elvira-cerdeira17866703086a7e6ce4829c6.png"
     },
     {
       "id": "macro-16c9c6b443386ad75cd50640",
       "title": "Opinião | Campanha da reeleição se agarra a ilusionismo tosco sobre a questão fiscal",
-      "summary": "Representantes da equipe econômica de Flávio Bolsonaro (PL), Renan Santos (Missão), Ronaldo Caiado (PSD) e Romeu Zema (Novo) apresentaram as principais medidas que os candidatos pretendem tomar na economia caso sejam eleitos",
-      "details": "Representantes da equipe econômica de Flávio Bolsonaro (PL), Renan Santos (Missão), Ronaldo Caiado (PSD) e Romeu Zema (Novo) apresentaram as principais medidas que os candidatos pretendem tomar na economia caso sejam eleitos",
-      "url": "https://valor.globo.com/google/amp/politica/eleicoes-2026/noticia/2026/08/13/adversarios-de-lula-defendem-tesouraco-juros-de-um-digito-e-nova-reforma-da-previdencia.ghtml",
+      "summary": "Atualizacao de macro capturada em Estadão.",
+      "details": "",
+      "url": "https://monitormercantil.com.br/cenario-mais-incerto-recompoe-apetite-ao-risco-dos-bancos/",
       "source": "Estadão",
       "category": "macro",
       "tags": [
@@ -355,15 +374,14 @@
       "publishedAt": "2026-08-14T01:09:55Z",
       "updatedAt": "2026-08-14T01:09:55Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/DtWuDljWx9-BM9vSql-QpH--bCc=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2023/c/P/tWw8q7TlKC91xIWiC2ig/percentual-porcentagem-porcento-juros-taxas-gerd-altmann-pixabay.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-9932f98b56e1b201993c5274",
       "title": "Goolsbee, do Fed, vê melhora nos dados de inflação e diz esperar queda nos efeitos das tarifas",
       "summary": "Atualizacao de macro capturada em UOL Economia.",
       "details": "",
-      "url": "https://monitormercantil.com.br/cenario-mais-incerto-recompoe-apetite-ao-risco-dos-bancos/",
+      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/08/13/goolsbee-do-fed-ve-melhora-nos-dados-de-inflacao-e-diz-esperar-queda-nos-efeitos-das-tarifas.htm",
       "source": "UOL Economia",
       "category": "macro",
       "tags": [
@@ -379,9 +397,9 @@
     {
       "id": "macro-1769e503ed9a9ca62507a966",
       "title": "Ouro recua abaixo de US$ 4.400 com Fed e negociações sobre Ormuz",
-      "summary": "Atualizacao de macro capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
-      "details": "",
-      "url": "https://br.investing.com/news/commodities-news/ouro-recua-abaixo-de-us-4400-com-fed-e-negociacoes-sobre-ormuz-2039028",
+      "summary": "A essência é evitar falar da trajetória alarmante do endividamento público e alegar que o governo estaria prestes a ‘equilibrar suas contas’, deixando de incorrer em déficits primários",
+      "details": "A essência é evitar falar da trajetória alarmante do endividamento público e alegar que o governo estaria prestes a ‘equilibrar suas contas’, deixando de incorrer em déficits primários",
+      "url": "https://www.estadao.com.br/em-alta/economia/rogerio-werneck/campanha-da-reeleicao-se-agarra-a-ilusionismo-tosco-sobre-a-questao-fiscal/",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "macro",
       "tags": [
@@ -392,14 +410,15 @@
       "publishedAt": "2026-08-14T00:59:00Z",
       "updatedAt": "2026-08-14T00:59:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/CWV34LM3TZEGHCFHQGN4QJQS4U.jpg?quality=80&auth=9e04a7841f0baa95e6d62730b8a9fc558bcd4a9e2c84238f70238dbc77ea955d&width=1200&height=630&smart=true"
     },
     {
       "id": "latest-1ba5ac235e6f0275754a7b3d",
       "title": "Cenário mais incerto recompõe apetite ao risco dos bancos",
-      "summary": "A Funpresp-Exe selecionou oito gestoras na primeira fase da licitação iniciada em meados do ano passado para a criação de três fundos exclusivos de renda variável, com gestão ativa. Desse grupo serão escolhidas seis casas, sendo três titulares e três reservas, essas últimas para ",
-      "details": "A Funpresp-Exe selecionou oito gestoras na primeira fase da licitação iniciada em meados do ano passado para a criação de três fundos exclusivos de renda variável, com gestão ativa. Desse grupo serão escolhidas seis casas, sendo três titulares e três reservas, essas últimas para assumirem a gestão em caso…",
-      "url": "https://investidorinstitucional.com.br/investidores/fundos-de-pensao/funpresp-exe-seleciona-oito-gestoras-para-tres-fundos-de-acoes/",
+      "summary": "Atualizacao de ultima hora capturada em Monitor Mercantil.",
+      "details": "",
+      "url": "https://br.investing.com/news/commodities-news/ouro-recua-abaixo-de-us-4400-com-fed-e-negociacoes-sobre-ormuz-2039028",
       "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
@@ -410,15 +429,14 @@
       "publishedAt": "2026-08-14T00:57:55Z",
       "updatedAt": "2026-08-14T00:57:55Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://investidorinstitucional.com.br/wp-content/uploads/2026/08/fabiano_santosfunpresp-exe.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "funds-6cbea0d75a86bcffd39f51ac",
       "title": "Funpresp-Exe seleciona oito gestoras para três fundos de ações",
-      "summary": "Estudo aponta que o Brasil gasta 12,7% do PIB com pagamento de aposentadorias, superando a média da OCDE e exigindo novas políticas para a longevidade.",
-      "details": "Estudo aponta que o Brasil gasta 12,7% do PIB com pagamento de aposentadorias, superando a média da OCDE e exigindo novas políticas para a longevidade.",
-      "url": "https://www.gazetadopovo.com.br/brasil/brasil-gasta-com-previdencia-fatia-do-pib-superior-aos-paises-desenvolvidos/",
+      "summary": "A Funpresp-Exe selecionou oito gestoras na primeira fase da licitação iniciada em meados do ano passado para a criação de três fundos exclusivos de renda variável, com gestão ativa. Desse grupo serão escolhidas seis casas, sendo três titulares e três reservas, essas últimas para ",
+      "details": "A Funpresp-Exe selecionou oito gestoras na primeira fase da licitação iniciada em meados do ano passado para a criação de três fundos exclusivos de renda variável, com gestão ativa. Desse grupo serão escolhidas seis casas, sendo três titulares e três reservas, essas últimas para assumirem a gestão em caso…",
+      "url": "https://investidorinstitucional.com.br/investidores/fundos-de-pensao/funpresp-exe-seleciona-oito-gestoras-para-tres-fundos-de-acoes/",
       "source": "Revista Investidor Institucional",
       "category": "funds",
       "tags": [
@@ -430,14 +448,14 @@
       "updatedAt": "2026-08-14T00:53:17Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/08/13213110/alexas_fotos-6W1voPFLfrc-unsplash-1.jpg"
+      "imageUrl": "https://investidorinstitucional.com.br/wp-content/uploads/2026/08/fabiano_santosfunpresp-exe.jpg"
     },
     {
       "id": "latest-f6f27454b8883ce0dca51bec",
       "title": "Mudanças no comando da Gol",
-      "summary": "Atualizacao de ultima hora capturada em Monitor Mercantil.",
-      "details": "",
-      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/08/13/goolsbee-do-fed-ve-melhora-nos-dados-de-inflacao-e-diz-esperar-queda-nos-efeitos-das-tarifas.htm",
+      "summary": "Estudo aponta que o Brasil gasta 12,7% do PIB com pagamento de aposentadorias, superando a média da OCDE e exigindo novas políticas para a longevidade.",
+      "details": "Estudo aponta que o Brasil gasta 12,7% do PIB com pagamento de aposentadorias, superando a média da OCDE e exigindo novas políticas para a longevidade.",
+      "url": "https://www.gazetadopovo.com.br/brasil/brasil-gasta-com-previdencia-fatia-do-pib-superior-aos-paises-desenvolvidos/",
       "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
@@ -448,7 +466,8 @@
       "publishedAt": "2026-08-14T00:36:33Z",
       "updatedAt": "2026-08-14T00:36:33Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/08/13213110/alexas_fotos-6W1voPFLfrc-unsplash-1.jpg"
     },
     {
       "id": "macro-68602cefb18fb8c8d5f71a79",
@@ -617,23 +636,23 @@
       "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/08/onecms_a36907b7-c9f4-45b7-8504-1602b030e5ca.jpg"
     },
     {
-      "id": "macro-eebf5ce88b86dcfb3d7c5972",
-      "title": "Taxa de condomínio sobe acima da inflação em quase todo o Rio e pode chegar a 40% do aluguel, diz pesquisa",
-      "summary": "Centro teve a maior alta, de 11,8%, enquanto gastos com água, segurança e inadimplência pressionam as contas dos moradores.",
-      "details": "Centro teve a maior alta, de 11,8%, enquanto gastos com água, segurança e inadimplência pressionam as contas dos moradores.",
-      "url": "https://g1.globo.com/google/amp/rj/rio-de-janeiro/rj2/video/taxa-de-condominio-sobe-acima-da-inflacao-em-quase-todo-o-rio-e-pode-chegar-a-40-do-aluguel-diz-pesquisa-14866978.ghtml",
-      "source": "G1",
-      "category": "macro",
+      "id": "latest-710737e12d3dca0675f0b6ed",
+      "title": "Garantia do FGC não pode virar subsídio à má gestão dos bancos, alerta Acrefi",
+      "summary": "Entidade afirma que 99,6% das contas têm saldo dentro do limite de cobertura do fundo",
+      "details": "Entidade afirma que 99,6% das contas têm saldo dentro do limite de cobertura do fundo",
+      "url": "https://www.estadao.com.br/einvestidor/direto-da-faria-lima/garantia-do-fgc-nao-pode-virar-subsidio-a-ma-gestao-dos-bancos-alerta-acrefi/",
+      "source": "Estadão",
+      "category": "latest",
       "tags": [
-        "macro",
-        "juros",
-        "inflacao"
+        "mercado",
+        "bolsa",
+        "macro"
       ],
-      "publishedAt": "2026-08-13T22:57:20Z",
-      "updatedAt": "2026-08-13T22:57:20Z",
+      "publishedAt": "2026-08-13T23:03:00Z",
+      "updatedAt": "2026-08-13T23:03:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s03.video.glbimg.com/x720/14866978.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/SFOCR3ETVVPBBN4XMQKALBXFCQ.png?quality=80&auth=287b385b36cb4eda24b4263fe53d49ce5cfdc52e2896d168abb74d165037c58a&width=1200&height=630&smart=true"
     },
     {
       "id": "macro-89024db578f452ed32392777",
@@ -674,12 +693,12 @@
       "imageUrl": "https://files.sunoresearch.com.br/n/uploads/2022/06/Modelo2.jpg"
     },
     {
-      "id": "latest-0b62f95036c8847ce2f33459",
+      "id": "latest-852ec763b45f0e4902863137",
       "title": "Ibovespa B3 recua 0,23%, com comércio e balanços no foco; dólar vai a R$ 5,19",
-      "summary": "Veja como se comportaram o Ibovespa B3 e o dólar nesta quinta-feira (13) e o que movimentou os ativos. Acesse na íntegra no Bora Investir.",
-      "details": "Veja como se comportaram o Ibovespa B3 e o dólar nesta quinta-feira (13) e o que movimentou os ativos. Acesse na íntegra no Bora Investir.",
-      "url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-recua-023-com-comercio-e-balancos-no-foco-dolar-vai-a-r-519/",
-      "source": "borainvestir.b3.com.br",
+      "summary": "Atualizacao de ultima hora capturada em Bora Investir.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbVJHN2RFQUZXNTNCd1Bab0lrY1NGbklBckdFaFNfSklqcG1MWGtFZGVrcXAyNHFjeHcxUEM2YXRSZlFIcVcyRFpKSTkxUWZnaHVyRDNSNlpVd0FiUzVmOF9BUzZ5NVRsOW5YakZXV1RHd2Iwb1JXTU9IZE1Rc2NXYXdRVFMtZ3c3czlnMFlJZmo5UGo2bXA5eHpJTGFJTjlkcEk5ZXVVRU1XTkgybjR4TDZ2UTUteDBZd0RSYg?oc=5",
+      "source": "Bora Investir",
       "category": "latest",
       "tags": [
         "mercado",
@@ -689,8 +708,25 @@
       "publishedAt": "2026-08-13T22:09:00Z",
       "updatedAt": "2026-08-13T22:09:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://cdn.borainvestir.b3.com.br/2026/08/13190856/ibovespa-b3-recua-023-com-comercio-e-balancos-no-foco-dolar-vai-a-r-519.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "funds-d73cff64b129770f4d90f513",
+      "title": "Cortejo à Moda Antiga em Celorico de Basto mobiliza comunidade e reforça tradições locais",
+      "summary": "Atualizacao de fundos capturada em A Verdade.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNd0xSbnNaQ0Q4VExEN2RHTUF4REdjQVkzdk1OMkw2QkdsdkZJaEhWMU9hOHdJeVpUXzMzR0F5aWJucFlPTmV2Z1RWNlRnYWI1UlhnMXdaNXJuQ2p5LUZNS2k2M3VZd0pLR25BMmRnUWFfMUtXZDUycGMySnFJREVEVmhMaFZHam95cG1fZUJDSjhZNmdjYVBMMUtKSVh2ZXdNakJvSWdyemNUWmpPU2pJS0Q2R0l6cV9VMTFya0JqQQ?oc=5",
+      "source": "A Verdade",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-08-13T22:06:05Z",
+      "updatedAt": "2026-08-13T22:06:05Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "macro-35c4b5ea915571089fac0868",
@@ -873,24 +909,6 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "macro-70b446597ff95756d2065c3c",
-      "title": "Wall Street fecha em alta impulsionada por inflação nos EUA",
-      "summary": "Atualizacao de macro capturada em UOL Notícias.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRlB4RlZ5bk5NcXMzM2FsaHI0OUJpZURiX0ZfVTJwWkFIUlZxTVRkaFRMaUtkSUIyRUNaR0taemFwVU5Ud3F5NV9hNWdieElUdXNXLThIdHBYTDM2d2diY0pwY0FQNEg5cnNBakxnMkRFNDhtZVVPeVNPS1REWUQzVWxQZVh4R1VDN1UzclVuS2VJWlhVWHNJZVN2cE5vaVNIcmhxb3kteFdzUkNaVzhxVTd5MHFEUnhabUladnhzdXc?oc=5",
-      "source": "UOL Notícias",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-13T21:29:42Z",
-      "updatedAt": "2026-08-13T21:29:42Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
       "id": "funds-b635c1cc7816d3fe4c5aa2ad",
       "title": "Readystate Asset Management aumenta participação na Azul para 10,5%",
       "summary": "Atualizacao de fundos capturada em TradingView.",
@@ -907,24 +925,6 @@
       "updatedAt": "2026-08-13T21:12:33Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "latest-b660c7d9bbfbf7693bc9f0dc",
-      "title": "No mercado de juros, DIs médios e longos descolam de NY e sobem com risco fiscal no radar",
-      "summary": "Atualizacao de ultima hora capturada em UOL Economia.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQVUJ6UC16LTNKN3FLVm11cjNSZnJ6endsYWR5RlJtZVdkZW1fOXBsY3hST2FUU1hlSU5ZcHFYYlRCWEJVQ0ZNdEt4aGRnR3VuTDRIRkZQZlZYN1lCNUJvNGkyeE1QMk9EMXAtM0ZKRUtPMmVQaDlzQ2s3UmlvU3Qzcy1mOF9GMWV3YVRrak5rLWZHTkRYbFJ1QndOSmtYaWpBZVlvRkVSTVhxMUtqSk9WWHRlbDVZVWhsQV9DcEhpVTlUWE1DVF84NUFLSEEtQWtPcW9OZXNUZHhKYVhHU0ZrQUhvMEk0aUdWa3ktbkFn?oc=5",
-      "source": "UOL Economia",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-13T21:12:00Z",
-      "updatedAt": "2026-08-13T21:12:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-93675153c203d283524a0dcd",
@@ -945,12 +945,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "funds-15255da9a981df066e0abf94",
+      "id": "funds-5c02df23c61d4174dd353989",
       "title": "Galapagos Capital leva ETFs e debate sobre o futuro dos investimentos à Money Week 2026",
-      "summary": "Atualizacao de fundos capturada em EuQueroInvestir.",
+      "summary": "Atualizacao de fundos capturada em euqueroinvestir.com.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNY0o3TTZCSnFoRmpaSlJMWGFQREdndFdya0Vad25tSEF4UVkyaUZ6Y1EtRUFiRjN6RFlablhmVE1BNko3M3NsbkZCUzZmY1RZSC03OUtoU0tTMzUtOEJUOVRONXNBSFBjeWQyLWtqTjZ3MzhFVG1jNWZpYWdMNWUweTB1Zw?oc=5",
-      "source": "EuQueroInvestir",
+      "source": "euqueroinvestir.com",
       "category": "funds",
       "tags": [
         "fundos",
@@ -999,12 +999,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "funds-d31e1d006ff429e85057071b",
+      "id": "funds-f0d27da9599426f7666f975c",
       "title": "Virgínia Mendes informa R$ 21,5 milhões em patrimônio, sem registro de fundos de investimento",
-      "summary": "Atualizacao de fundos capturada em novidades mt.",
+      "summary": "Atualizacao de fundos capturada em novidadesmt.com.br.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUWFwem81M1J4UkxKUEhSMXdqRndUZTBocjI1dXpqRUlsbENNRUxoLV9mY2tfWjVHd0VyaFdibHprY044US1hYmFPbXBOSF9ZMWh0VGVyWkVvOWNfWE1WOC1RaFRWVE5jQjBwSERNUFR3WnczU3dEZHByVGgxMVNiWWtJUFR5cE5kZ1ZqVTJYNWw0X2FXbkhZN2huMkoxb01jc1hRU1NLRnphaEZUYzBhR3NIUkNuYlhkdHF4cVNSbEl5ZlBOU0tsakR3?oc=5",
-      "source": "novidades mt",
+      "source": "novidadesmt.com.br",
       "category": "funds",
       "tags": [
         "fundos",
@@ -1287,12 +1287,12 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "companies-a30bc0c81dd3577912887843",
+      "id": "companies-b2f5a507e34994c0aefe69b4",
       "title": "LIDE Global: o poder da diplomacia empresarial",
-      "summary": "Atualizacao de empresas capturada em noticias.lide.com.br.",
+      "summary": "Atualizacao de empresas capturada em Revista LIDE.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTm1xQmg3aHVKXzg3Nzl3MFlBNC1sd3ExaVlMYWlfdzdodHJ1VGFPN3dWUVlBdC1PMG1hcTQ4eE05RWxidG9GTlc3dWM1ZjktZXVXR241LXpHWENhOExOWHR5SXAwZTlOa0YyZDBUc3cyVGl2WlUyZllBNUtDNWR5S1BWU2piT3p3Rm5UbEdqVmJOU1BMWF9VQ29jWmdBYjN3NzBjUmpRbUc2T1hWTzhVeGU5UGZDUFl3cFFFTVFRblJvZw?oc=5",
-      "source": "noticias.lide.com.br",
+      "source": "Revista LIDE",
       "category": "companies",
       "tags": [
         "empresas",
