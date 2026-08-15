@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-15T13:50:53Z",
-  "generatedAt": "2026-08-15T13:50:53Z",
+  "updatedAt": "2026-08-15T14:17:36Z",
+  "generatedAt": "2026-08-15T14:17:36Z",
   "categories": [
     {
       "id": "all",
@@ -25,10 +25,6 @@
   ],
   "sources": [
     {
-      "id": "a-verdade",
-      "label": "A Verdade"
-    },
-    {
       "id": "abcdoabc-com-br",
       "label": "abcdoabc.com.br"
     },
@@ -37,12 +33,12 @@
       "label": "Acionista.com.br"
     },
     {
-      "id": "bandnews",
-      "label": "BandNews"
+      "id": "am-post",
+      "label": "AM POST"
     },
     {
-      "id": "bandnewsfmcuritiba-com",
-      "label": "bandnewsfmcuritiba.com"
+      "id": "bandnews",
+      "label": "BandNews"
     },
     {
       "id": "boca-com-br",
@@ -73,12 +69,12 @@
       "label": "CNN Brasil"
     },
     {
-      "id": "correio-braziliense",
-      "label": "Correio Braziliense"
+      "id": "coinfomania",
+      "label": "Coinfomania"
     },
     {
-      "id": "di-rio-do-centro-do-mundo",
-      "label": "Diário do Centro do Mundo"
+      "id": "correio-braziliense",
+      "label": "Correio Braziliense"
     },
     {
       "id": "empiricus",
@@ -141,16 +137,12 @@
       "label": "Jornal Extra de Alagoas"
     },
     {
-      "id": "jornal-op-o",
-      "label": "Jornal Opção"
+      "id": "jornalopcao-com-br",
+      "label": "jornalopcao.com.br"
     },
     {
       "id": "money-times",
       "label": "Money Times"
-    },
-    {
-      "id": "nord-investimentos",
-      "label": "Nord Investimentos"
     },
     {
       "id": "o-globo",
@@ -205,6 +197,10 @@
       "label": "TI INSIDE Online"
     },
     {
+      "id": "tribuna-do-planalto",
+      "label": "Tribuna do Planalto"
+    },
+    {
       "id": "valor-econ-mico",
       "label": "Valor Econômico"
     },
@@ -219,11 +215,48 @@
   ],
   "items": [
     {
+      "id": "funds-c321b9d4db3c22bcf01ba8db",
+      "title": "Ex-BBB Vivian Amorim declara patrimônio milionário ao TSE com imóveis em Manaus e São Paulo",
+      "summary": "Atualizacao de fundos capturada em AM POST.",
+      "details": "",
+      "url": "https://ampost.com.br/eleicoes-2026/ex-bbb-vivian-amorim-declara-patrimonio-milionario-ao-tse-com-imoveis-em-manaus-e-sao-paulo/",
+      "source": "AM POST",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-08-15T14:15:01Z",
+      "updatedAt": "2026-08-15T14:15:01Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "macro-e1a45f79a4760a7ff9583957",
+      "title": "Daniel Vilela destaca solidez fiscal e capacidade de investimento de Goiás",
+      "summary": "Daniel Vilela afirma que Goiás mantém mais de R$ 9 bilhões em caixa e usa parte da reserva para ampliar investimentos em obras e serviços públicos.",
+      "details": "Daniel Vilela afirma que Goiás mantém mais de R$ 9 bilhões em caixa e usa parte da reserva para ampliar investimentos em obras e serviços públicos.",
+      "url": "https://tribunadoplanalto.com.br/daniel-vilela-destaca-solidez-fiscal-e-capacidade-de-investimento-de-goias/",
+      "source": "Tribuna do Planalto",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-15T14:00:00Z",
+      "updatedAt": "2026-08-15T14:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://tribunadoplanalto.com.br/wp-content/uploads/2026/08/daniel-vilela.jpeg"
+    },
+    {
       "id": "macro-fc8d2901fe93fe5db5147819",
       "title": "Eleições 2026 já pesam nas decisões de empresas e investidores",
-      "summary": "Essa nova previsão estará no projeto de Lei Orçamentária Anual (LOA) do ano que vem. O texto deve ser enviado ao Congresso até o final deste mês",
-      "details": "Essa nova previsão estará no projeto de Lei Orçamentária Anual (LOA) do ano que vem. O texto deve ser enviado ao Congresso até o final deste mês",
-      "url": "https://www.jornalopcao.com.br/ultimas-noticias/governo-federal-eleva-a-previsao-do-salario-minimo-para-2027-saiba-qual-sera-o-valor-857718/",
+      "summary": "Ibovespa fecha semana em queda de 3,23%, com saída de R$ 4,72 bi de estrangeiros. Hapvida despenca 37%; Embraer sobe 7%",
+      "details": "Ibovespa fecha semana em queda de 3,23%, com saída de R$ 4,72 bi de estrangeiros. Hapvida despenca 37%; Embraer sobe 7%",
+      "url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-semana-hapvida-embraer/",
       "source": "BPMoney",
       "category": "macro",
       "tags": [
@@ -235,14 +268,14 @@
       "updatedAt": "2026-08-15T13:30:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://cdn.jornalopcao.com.br/assets/2025/07/26143303/noticiasconcursos-com-br-valores-e-o-calendario-do-13o-salario-do-inss-para-idosos-ja-estao-disponiveis-13o-salario-do-inss-2022-jpg.webp"
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-10628029-37.webp"
     },
     {
       "id": "latest-7416c89669618c8e35abde30",
       "title": "Hapvida despenca 37%, mas Embraer lidera altas do Ibovespa",
-      "summary": "Ibovespa fecha semana em queda de 3,23%, com saída de R$ 4,72 bi de estrangeiros. Hapvida despenca 37%; Embraer sobe 7%",
-      "details": "Ibovespa fecha semana em queda de 3,23%, com saída de R$ 4,72 bi de estrangeiros. Hapvida despenca 37%; Embraer sobe 7%",
-      "url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-semana-hapvida-embraer/",
+      "summary": "O Índice de Custo de Vida (ICV), calculado pelo Centro de Ciências da Administração e Socioeconômicas (Esag), da Universidade do Estado de Santa Catarina (Udesc), registrou alta de 0,10% em Florianópolis no mês de julho, o que coloca a inflação na capital catarinense mais próxima",
+      "details": "O Índice de Custo de Vida (ICV), calculado pelo Centro de Ciências da Administração e Socioeconômicas (Esag), da Universidade do Estado de Santa Catarina (Udesc), registrou alta de 0,10% em Florianópolis no mês de julho, o que coloca a inflação na capital catarinense mais próxima da média nacional, de 0,07% no mesmo mê",
+      "url": "https://informefloripa.com/udesc-esag-mostra-que-inflacao-em-florianopolis-se-aproximou-da-media-nacional-em-julho/",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -254,14 +287,14 @@
       "updatedAt": "2026-08-15T13:12:25Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-10628029-37.webp"
+      "imageUrl": "http://informefloripa.com/wp-content/uploads/2026/08/tomate-e1786799294910.jpg"
     },
     {
       "id": "macro-15a595ae6ac73f004246b0da",
       "title": "Udesc Esag mostra que inflação em Florianópolis se aproximou da média nacional em julho",
-      "summary": "O Índice de Custo de Vida (ICV), calculado pelo Centro de Ciências da Administração e Socioeconômicas (Esag), da Universidade do Estado de Santa Catarina (Udesc), registrou alta de 0,10% em Florianópolis no mês de julho, o que coloca a inflação na capital catarinense mais próxima",
-      "details": "O Índice de Custo de Vida (ICV), calculado pelo Centro de Ciências da Administração e Socioeconômicas (Esag), da Universidade do Estado de Santa Catarina (Udesc), registrou alta de 0,10% em Florianópolis no mês de julho, o que coloca a inflação na capital catarinense mais próxima da média nacional, de 0,07% no mesmo mê",
-      "url": "https://informefloripa.com/udesc-esag-mostra-que-inflacao-em-florianopolis-se-aproximou-da-media-nacional-em-julho/",
+      "summary": "Eleições já influenciam decisões de empresas e investidores, com efeitos sobre juros, custo de capital, investimentos e risco político",
+      "details": "Eleições já influenciam decisões de empresas e investidores, com efeitos sobre juros, custo de capital, investimentos e risco político",
+      "url": "https://bpmoney.com.br/economia/eleicoes-2026-ja-pesam-nas-decisoes-de-empresas-e-investidores/",
       "source": "Informe Floripa",
       "category": "macro",
       "tags": [
@@ -273,15 +306,15 @@
       "updatedAt": "2026-08-15T13:08:47Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "http://informefloripa.com/wp-content/uploads/2026/08/tomate-e1786799294910.jpg"
+      "imageUrl": "https://uploads.bpmoney.com.br/2026/07/rbr2525-2048x1365.jpg"
     },
     {
-      "id": "macro-c24e8a1fc2b54ad389c4e396",
+      "id": "macro-048a80258996c7de7ce5de55",
       "title": "Governo Federal eleva a previsão do salário mínimo para 2027; saiba qual será o valor",
-      "summary": "A aprovação do&nbsp;Projeto de Lei Complementar (PLP) dos combustíveis&nbsp;no&nbsp;Congresso Nacional&nbsp;ampliou o espaço para despesas fora das&nbsp;regras fiscais em 2026&nbsp;e reacendeu",
-      "details": "A aprovação do&nbsp;Projeto de Lei Complementar (PLP) dos combustíveis&nbsp;no&nbsp;Congresso Nacional&nbsp;ampliou o espaço para despesas fora das&nbsp;regras fiscais em 2026&nbsp;e reacendeu",
-      "url": "https://lealjunior.com.br/governo-amplia-gastos-fora-do-teto-e-enfraquece-meta-fiscal-em-2026/",
-      "source": "Jornal Opção",
+      "summary": "Essa nova previsão estará no projeto de Lei Orçamentária Anual (LOA) do ano que vem. O texto deve ser enviado ao Congresso até o final deste mês",
+      "details": "Essa nova previsão estará no projeto de Lei Orçamentária Anual (LOA) do ano que vem. O texto deve ser enviado ao Congresso até o final deste mês",
+      "url": "https://www.jornalopcao.com.br/ultimas-noticias/governo-federal-eleva-a-previsao-do-salario-minimo-para-2027-saiba-qual-sera-o-valor-857718/",
+      "source": "jornalopcao.com.br",
       "category": "macro",
       "tags": [
         "macro",
@@ -292,14 +325,14 @@
       "updatedAt": "2026-08-15T12:30:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://lealjunior.com.br/wp-content/uploads/2026/08/image-2026-08-15T090133.180.webp"
+      "imageUrl": "https://cdn.jornalopcao.com.br/assets/2025/07/26143303/noticiasconcursos-com-br-valores-e-o-calendario-do-13o-salario-do-inss-para-idosos-ja-estao-disponiveis-13o-salario-do-inss-2022-jpg.webp"
     },
     {
       "id": "macro-4cb62e7ae696648f6fae1786",
       "title": "Prisma Fiscal piora projeção de déficit do governo em 2026",
-      "summary": "Eleições já influenciam decisões de empresas e investidores, com efeitos sobre juros, custo de capital, investimentos e risco político",
-      "details": "Eleições já influenciam decisões de empresas e investidores, com efeitos sobre juros, custo de capital, investimentos e risco político",
-      "url": "https://bpmoney.com.br/economia/eleicoes-2026-ja-pesam-nas-decisoes-de-empresas-e-investidores/",
+      "summary": "A aprovação do&nbsp;Projeto de Lei Complementar (PLP) dos combustíveis&nbsp;no&nbsp;Congresso Nacional&nbsp;ampliou o espaço para despesas fora das&nbsp;regras fiscais em 2026&nbsp;e reacendeu",
+      "details": "A aprovação do&nbsp;Projeto de Lei Complementar (PLP) dos combustíveis&nbsp;no&nbsp;Congresso Nacional&nbsp;ampliou o espaço para despesas fora das&nbsp;regras fiscais em 2026&nbsp;e reacendeu",
+      "url": "https://lealjunior.com.br/governo-amplia-gastos-fora-do-teto-e-enfraquece-meta-fiscal-em-2026/",
       "source": "soubrasilia.com",
       "category": "macro",
       "tags": [
@@ -311,14 +344,14 @@
       "updatedAt": "2026-08-15T12:22:18Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://uploads.bpmoney.com.br/2026/07/rbr2525-2048x1365.jpg"
+      "imageUrl": "https://lealjunior.com.br/wp-content/uploads/2026/08/image-2026-08-15T090133.180.webp"
     },
     {
       "id": "macro-115392fc92320b439233e062",
       "title": "Governo projeta salário mínimo de R$ 1.741 em 2027; estimativa ainda pode mudar de acordo com a inflação",
-      "summary": "Veja como o prêmio eleitoral pressiona o real e saiba o impacto para investidores acompanhando a SpaceMoney",
-      "details": "Veja como o prêmio eleitoral pressiona o real e saiba o impacto para investidores acompanhando a SpaceMoney",
-      "url": "https://www.spacemoney.com.br/economia/macroeconomia/premio-eleitoral-real-ajuste-mercado/",
+      "summary": "Mediana das instituições financeiras aponta rombo de R$ 59,1 bilhões nas contas do governo central neste ano, R$ 1 bilhão pior que em julho.",
+      "details": "Mediana das instituições financeiras aponta rombo de R$ 59,1 bilhões nas contas do governo central neste ano, R$ 1 bilhão pior que em julho.",
+      "url": "https://soubrasilia.com/prisma-fiscal-agosto-2026-deficit-primario-59-bilhoes/",
       "source": "BandNews",
       "category": "macro",
       "tags": [
@@ -329,8 +362,7 @@
       "publishedAt": "2026-08-15T12:15:18Z",
       "updatedAt": "2026-08-15T12:15:18Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-27797871-4.webp"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-7a761e36f005d7df46267fdb",
@@ -353,9 +385,9 @@
     {
       "id": "latest-331cd065af26be8299f6f77f",
       "title": "Mercado reduz exposição ao real com risco eleitoral",
-      "summary": "Mediana das instituições financeiras aponta rombo de R$ 59,1 bilhões nas contas do governo central neste ano, R$ 1 bilhão pior que em julho.",
-      "details": "Mediana das instituições financeiras aponta rombo de R$ 59,1 bilhões nas contas do governo central neste ano, R$ 1 bilhão pior que em julho.",
-      "url": "https://soubrasilia.com/prisma-fiscal-agosto-2026-deficit-primario-59-bilhoes/",
+      "summary": "Veja como o prêmio eleitoral pressiona o real e saiba o impacto para investidores acompanhando a SpaceMoney",
+      "details": "Veja como o prêmio eleitoral pressiona o real e saiba o impacto para investidores acompanhando a SpaceMoney",
+      "url": "https://www.spacemoney.com.br/economia/macroeconomia/premio-eleitoral-real-ajuste-mercado/",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -366,14 +398,15 @@
       "publishedAt": "2026-08-15T12:05:20Z",
       "updatedAt": "2026-08-15T12:05:20Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-27797871-4.webp"
     },
     {
       "id": "macro-2cdcfb1c0dcaf0a8304a99ef",
       "title": "Horário eleitoral não é gratuito e custa milhões em renúncia fiscal",
-      "summary": "Emissoras cedem espaço nas suas grades e em troca ganham compensações tributárias; de 2014 a 2025 foram R$ 5,2 bi em isenção. Leia no Poder360.",
-      "details": "Emissoras cedem espaço nas suas grades e em troca ganham compensações tributárias; de 2014 a 2025 foram R$ 5,2 bi em isenção. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-eleicoes-2026/horario-eleitoral-nao-e-gratuito-e-custa-milhoes-em-renuncia-fiscal/",
+      "summary": "Luiz Cezar Fernandes conta como fechava grandes negócios sem estudo ou valuation, em entrevista ao podcast Stock Pickers",
+      "details": "Luiz Cezar Fernandes conta como fechava grandes negócios sem estudo ou valuation, em entrevista ao podcast Stock Pickers",
+      "url": "https://www.spacemoney.com.br/investimentos/luiz-cezar-fernandes-negocios-sem-valuation/",
       "source": "Poder360",
       "category": "macro",
       "tags": [
@@ -385,14 +418,14 @@
       "updatedAt": "2026-08-15T12:02:13Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/07/Urna-UrnaEletronica-Eleicoes-JusticaEleitoral-TSE-16-848x477.jpg"
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-27797871-3.webp"
     },
     {
       "id": "latest-34048c2152600c978b10034e",
       "title": "Luiz Cezar Fernandes e o método sem valuation nos negócios",
-      "summary": "Luiz Cezar Fernandes conta como fechava grandes negócios sem estudo ou valuation, em entrevista ao podcast Stock Pickers",
-      "details": "Luiz Cezar Fernandes conta como fechava grandes negócios sem estudo ou valuation, em entrevista ao podcast Stock Pickers",
-      "url": "https://www.spacemoney.com.br/investimentos/luiz-cezar-fernandes-negocios-sem-valuation/",
+      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
+      "details": "",
+      "url": "https://www.canalrural.com.br/economia/mercado-passa-a-embutir-premio-eleitoral-no-real-com-avanco-da-campanha/",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -403,15 +436,14 @@
       "publishedAt": "2026-08-15T12:01:45Z",
       "updatedAt": "2026-08-15T12:01:45Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-27797871-3.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "funds-5ebb5009f6df4b9dea2083e8",
       "title": "Possibilidade de renda recorrente isenta de IR: BTG Asset lança FI-Infra para investidores que buscam mais previsibilidade",
-      "summary": "Candidatura de Lula impacta moeda e provoca mudanças nas estratégias",
-      "details": "Candidatura de Lula impacta moeda e provoca mudanças nas estratégias",
-      "url": "https://boca.com.br/economia/mercado-financeiro-antecipa-eleicoes-e-ajusta-apostas-no-real",
+      "summary": "BCDI11 estreou na B3 no início de agosto, com retorno-alvo atrelado ao CDI, menor volatilidade nas cotas e portfólio composto majoritariamente por ativos líquidos; saiba mais",
+      "details": "BCDI11 estreou na B3 no início de agosto, com retorno-alvo atrelado ao CDI, menor volatilidade nas cotas e portfólio composto majoritariamente por ativos líquidos; saiba mais",
+      "url": "https://www.empiricus.com.br/artigos/investimentos/possibilidade-de-renda-recorrente-isenta-de-ir-btg-asset-lanca-fi-infra-para-investidores-que-buscam-mais-previsibilidade-lbrdgm080/",
       "source": "Empiricus",
       "category": "funds",
       "tags": [
@@ -423,14 +455,14 @@
       "updatedAt": "2026-08-15T12:00:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/9672705d648dd6462f7389d1dd1716b6_858x483.png"
+      "imageUrl": "https://www.empiricus.com.br/uploads/2026/07/investimentos-lucros-dividendos-renda-extra.png"
     },
     {
       "id": "macro-f1ee35f24047482871b16f9d",
       "title": "Presidente do Sindireceita destaca papel dos Analistas-Tributários na fiscalização das fronteiras e os desafios da reforma tributária em entrevista à Rede RS",
-      "summary": "Em entrevista ao programa O RS em Movimento, da Rede RS, Thales Freitas abordou a atuação da categoria no controle aduaneiro, a Operação Carbono Oculto e as distorções ainda pendentes na regulamentação da reforma tributária.",
-      "details": "Em entrevista ao programa O RS em Movimento, da Rede RS, Thales Freitas abordou a atuação da categoria no controle aduaneiro, a Operação Carbono Oculto e as distorções ainda pendentes na regulamentação da reforma tributária.",
-      "url": "https://sindireceita.org.br/noticias/2026/08/15/presidente-do-sindireceita-destaca-papel-dos-analistas-tributarios-na-fiscalizacao-das-fronteiras-e-os-desafios-da-reforma-tributaria-em-entrevista-a-rede-rs",
+      "summary": "Emissoras cedem espaço nas suas grades e em troca ganham compensações tributárias; de 2014 a 2025 foram R$ 5,2 bi em isenção. Leia no Poder360.",
+      "details": "Emissoras cedem espaço nas suas grades e em troca ganham compensações tributárias; de 2014 a 2025 foram R$ 5,2 bi em isenção. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/horario-eleitoral-nao-e-gratuito-e-custa-milhoes-em-renuncia-fiscal/",
       "source": "Sindireceita",
       "category": "macro",
       "tags": [
@@ -442,14 +474,14 @@
       "updatedAt": "2026-08-15T12:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://sindireceita.org.br/api/site/media/a4RDTy-Swr80D9Q_qjjrP"
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/07/Urna-UrnaEletronica-Eleicoes-JusticaEleitoral-TSE-16-848x477.jpg"
     },
     {
       "id": "macro-04077f32261448122d84c878",
       "title": "Arminio Fraga diz que Brasil repete erros e compara cenário econômico ao pré-crise do governo Dilma",
-      "summary": "Investidores começam a desfaçar posições compradas na moeda brasileira e cobram prêmio diante da liderança de Lula nas pesquisas",
-      "details": "Investidores começam a desfaçar posições compradas na moeda brasileira e cobram prêmio diante da liderança de Lula nas pesquisas",
-      "url": "https://gpsbrasilia.com.br/risco-eleitoral-incerteza-radar-pressionam-real/",
+      "summary": "Em entrevista ao programa O RS em Movimento, da Rede RS, Thales Freitas abordou a atuação da categoria no controle aduaneiro, a Operação Carbono Oculto e as distorções ainda pendentes na regulamentação da reforma tributária.",
+      "details": "Em entrevista ao programa O RS em Movimento, da Rede RS, Thales Freitas abordou a atuação da categoria no controle aduaneiro, a Operação Carbono Oculto e as distorções ainda pendentes na regulamentação da reforma tributária.",
+      "url": "https://sindireceita.org.br/noticias/2026/08/15/presidente-do-sindireceita-destaca-papel-dos-analistas-tributarios-na-fiscalizacao-das-fronteiras-e-os-desafios-da-reforma-tributaria-em-entrevista-a-rede-rs",
       "source": "Folha de S.Paulo",
       "category": "macro",
       "tags": [
@@ -461,7 +493,7 @@
       "updatedAt": "2026-08-15T11:58:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://gpsbrasilia.com.br/wp-content/uploads/2026/08/gpsbrasilia-eleicoes-realedolar-15082026.jpg"
+      "imageUrl": "https://sindireceita.org.br/api/site/media/a4RDTy-Swr80D9Q_qjjrP"
     },
     {
       "id": "macro-29b58a3bca93b08cf5400fa9",
@@ -485,9 +517,9 @@
     {
       "id": "latest-2aaf0297974fce958f96c320",
       "title": "Mercado financeiro antecipa eleições e ajusta apostas no real",
-      "summary": "BCDI11 estreou na B3 no início de agosto, com retorno-alvo atrelado ao CDI, menor volatilidade nas cotas e portfólio composto majoritariamente por ativos líquidos; saiba mais",
-      "details": "BCDI11 estreou na B3 no início de agosto, com retorno-alvo atrelado ao CDI, menor volatilidade nas cotas e portfólio composto majoritariamente por ativos líquidos; saiba mais",
-      "url": "https://www.empiricus.com.br/artigos/investimentos/possibilidade-de-renda-recorrente-isenta-de-ir-btg-asset-lanca-fi-infra-para-investidores-que-buscam-mais-previsibilidade-lbrdgm080/",
+      "summary": "Investidores começam a desfaçar posições compradas na moeda brasileira e cobram prêmio diante da liderança de Lula nas pesquisas",
+      "details": "Investidores começam a desfaçar posições compradas na moeda brasileira e cobram prêmio diante da liderança de Lula nas pesquisas",
+      "url": "https://gpsbrasilia.com.br/risco-eleitoral-incerteza-radar-pressionam-real/",
       "source": "boca.com.br",
       "category": "latest",
       "tags": [
@@ -499,14 +531,14 @@
       "updatedAt": "2026-08-15T11:55:18Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.empiricus.com.br/uploads/2026/07/investimentos-lucros-dividendos-renda-extra.png"
+      "imageUrl": "https://gpsbrasilia.com.br/wp-content/uploads/2026/08/gpsbrasilia-eleicoes-realedolar-15082026.jpg"
     },
     {
       "id": "latest-57a93160c119683eb454d95d",
       "title": "Mercado passa a embutir prêmio eleitoral no real com avanço da campanha",
-      "summary": "Atualizacao de ultima hora capturada em canalrural.com.br.",
-      "details": "",
-      "url": "https://www.canalrural.com.br/economia/mercado-passa-a-embutir-premio-eleitoral-no-real-com-avanco-da-campanha/",
+      "summary": "Candidatura de Lula impacta moeda e provoca mudanças nas estratégias",
+      "details": "Candidatura de Lula impacta moeda e provoca mudanças nas estratégias",
+      "url": "https://boca.com.br/economia/mercado-financeiro-antecipa-eleicoes-e-ajusta-apostas-no-real",
       "source": "canalrural.com.br",
       "category": "latest",
       "tags": [
@@ -517,14 +549,15 @@
       "publishedAt": "2026-08-15T11:42:24Z",
       "updatedAt": "2026-08-15T11:42:24Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/9672705d648dd6462f7389d1dd1716b6_858x483.png"
     },
     {
       "id": "macro-302c90fa899236124f615df8",
       "title": "PIB acima de 2% em 2026 fica mais difícil, avaliam economistas",
-      "summary": "Atualizacao de macro capturada em Vero Notícias.",
-      "details": "",
-      "url": "https://veronoticias.com/economia/pib-acima-de-2-em-2026-fica-mais-dificil-avaliam-economistas/",
+      "summary": "Em entrevista ao Stock Pickers, o sócio-fundador do Banco Garantia e Banco Pactual afirma que navegou o mercado empiricamente",
+      "details": "Em entrevista ao Stock Pickers, o sócio-fundador do Banco Garantia e Banco Pactual afirma que navegou o mercado empiricamente",
+      "url": "https://www.infomoney.com.br/onde-investir/luiz-cezar-fernandes-conta-como-fazia-negocios-sem-estudo-ou-valuation/",
       "source": "Vero Notícias",
       "category": "macro",
       "tags": [
@@ -535,14 +568,15 @@
       "publishedAt": "2026-08-15T11:30:46Z",
       "updatedAt": "2026-08-15T11:30:46Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/08/DON09056.jpg?fit=3936%2C2216&quality=70&strip=all"
     },
     {
       "id": "latest-ab43f125207f6bc9c06d5afe",
       "title": "Luiz Cezar Fernandes revela como fazia negócios sem estudo ou valuation",
-      "summary": "Em entrevista ao Stock Pickers, o sócio-fundador do Banco Garantia e Banco Pactual afirma que navegou o mercado empiricamente",
-      "details": "Em entrevista ao Stock Pickers, o sócio-fundador do Banco Garantia e Banco Pactual afirma que navegou o mercado empiricamente",
-      "url": "https://www.infomoney.com.br/onde-investir/luiz-cezar-fernandes-conta-como-fazia-negocios-sem-estudo-ou-valuation/",
+      "summary": "As projeções citadas variam entre 1,7% e 2%, enquanto a mediana do mercado financeiro está em 1,98%.",
+      "details": "As projeções citadas variam entre 1,7% e 2%, enquanto a mediana do mercado financeiro está em 1,98%.",
+      "url": "https://veronoticias.com/economia/pib-acima-de-2-em-2026-fica-mais-dificil-avaliam-economistas/",
       "source": "InfoMoney",
       "category": "latest",
       "tags": [
@@ -554,14 +588,14 @@
       "updatedAt": "2026-08-15T11:30:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/08/DON09056.jpg?fit=3936%2C2216&quality=70&strip=all"
+      "imageUrl": "https://veronoticias.com/wp-content/uploads/2024/09/PIB.jpg"
     },
     {
       "id": "macro-621e8313a052403480439197",
       "title": "Concurso PMDF: comandante prevê edital com 2 mil vagas",
-      "summary": "Descubra tudo sobre o Concurso PMDF com 2 mil vagas e as expectativas da Polícia Militar do Distrito Federal.",
-      "details": "Descubra tudo sobre o Concurso PMDF com 2 mil vagas e as expectativas da Polícia Militar do Distrito Federal.",
-      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-pmdf-comandante-preve-edital-com-2-mil-vagas/amp/",
+      "summary": "IPCA de julho supera projeções, estrangeiros reduzem posição na B3 e balanços do 2T26 movimentam o mercado; veja os destaques",
+      "details": "IPCA de julho supera projeções, estrangeiros reduzem posição na B3 e balanços do 2T26 movimentam o mercado; veja os destaques",
+      "url": "https://www.spacemoney.com.br/investimentos/ipca-de-julho-e-fluxo-estrangeiro-na-bolsa/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -573,33 +607,14 @@
       "updatedAt": "2026-08-15T11:27:17Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2023/02/13165347/concurso-pmdf.jpg"
-    },
-    {
-      "id": "macro-a377ca4cb2d222941d2161c0",
-      "title": "Taxa de condomínio sobe acima da inflação e chega a 40% do aluguel no Rio",
-      "summary": "Taxas de condomínio subiram acima da inflação em bairros do Rio e pressionam inquilinos a renegociar aluguéis ou mudar de imóvel.",
-      "details": "Taxas de condomínio subiram acima da inflação em bairros do Rio e pressionam inquilinos a renegociar aluguéis ou mudar de imóvel.",
-      "url": "https://www.diariodocentrodomundo.com.br/essencial/condominios-sobem-acima-inflacao-rio-de-janeiro/",
-      "source": "Diário do Centro do Mundo",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-15T11:16:03Z",
-      "updatedAt": "2026-08-15T11:16:03Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/08/condominio-mais-caro-rio-setembro-22-vista-aerea-shutterstock.jpg"
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-25383640.webp"
     },
     {
       "id": "latest-334fdaa7dffb8e5fcbd39eb2",
       "title": "Juros do Tesouro Direto disparam e IPCA+ chega a 8,19%",
-      "summary": "Saída de capital estrangeiro, dólar em alta e preocupações fiscais pressionaram o mercado; valorização das taxas pode provocar perdas para quem vende títulos antes do vencimento",
-      "details": "Saída de capital estrangeiro, dólar em alta e preocupações fiscais pressionaram o mercado; valorização das taxas pode provocar perdas para quem vende títulos antes do vencimento",
-      "url": "https://piauihoje.com/noticias/economia/juros-do-tesouro-direto-disparam-e-ipca-chega-a-819-463323.html",
+      "summary": "Atualizacao de ultima hora capturada em Portal Piauí Hoje.",
+      "details": "",
+      "url": "https://piauihoje.com/amp/noticias/economia/juros-do-tesouro-direto-disparam-e-ipca-chega-a-819-463323.html",
       "source": "Portal Piauí Hoje",
       "category": "latest",
       "tags": [
@@ -610,15 +625,14 @@
       "publishedAt": "2026-08-15T11:05:22Z",
       "updatedAt": "2026-08-15T11:05:22Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://piauihoje.com/social-image/post/463323?v=1786793982"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-2fb68c90ea994da346452e0b",
       "title": "IPCA surpreende e estrangeiros voltam a sacar da B3",
-      "summary": "IPCA de julho supera projeções, estrangeiros reduzem posição na B3 e balanços do 2T26 movimentam o mercado; veja os destaques",
-      "details": "IPCA de julho supera projeções, estrangeiros reduzem posição na B3 e balanços do 2T26 movimentam o mercado; veja os destaques",
-      "url": "https://www.spacemoney.com.br/investimentos/ipca-de-julho-e-fluxo-estrangeiro-na-bolsa/",
+      "summary": "Descubra tudo sobre o Concurso PMDF com 2 mil vagas e as expectativas da Polícia Militar do Distrito Federal.",
+      "details": "Descubra tudo sobre o Concurso PMDF com 2 mil vagas e as expectativas da Polícia Militar do Distrito Federal.",
+      "url": "https://www.estrategiaconcursos.com.br/blog/concurso-pmdf-comandante-preve-edital-com-2-mil-vagas/amp/",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -630,14 +644,14 @@
       "updatedAt": "2026-08-15T11:02:44Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-25383640.webp"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2023/02/13165347/concurso-pmdf.jpg"
     },
     {
       "id": "latest-e19754ea9fd0fee79845ede3",
       "title": "Outliers InfoMoney: conheça o mercado de R$ 11,2 trilhões que o prêmio reconhece",
-      "summary": "Criado em 2025, o prêmio reconhece quem faz a diferença no mercado de fundos de investimento",
-      "details": "Criado em 2025, o prêmio reconhece quem faz a diferença no mercado de fundos de investimento",
-      "url": "https://www.infomoney.com.br/onde-investir/outliers-infomoney-conheca-o-mercado-de-r-112-trilhoes-que-o-premio-reconhece/",
+      "summary": "Da Redação - Araçatuba A Região Administrativa de Araçatuba iniciou 2026 com crescimento da atividade econômica. No primeiro trimestre, o Produto Interno Bruto (PIB) regional avançou 1,1% em relação ao mesmo período de 2025, segundo dados divulgados pela Fundação Seade. O resulta",
+      "details": "Da Redação - Araçatuba A Região Administrativa de Araçatuba iniciou 2026 com crescimento da atividade econômica. No primeiro trimestre, o Produto Interno Bruto (PIB) regional avançou 1,1% em relação ao mesmo período de 2025, segundo dados divulgados pela Fundação Seade. O resultado confirma a continuidade da trajetória",
+      "url": "https://lr1.com.br/cidades/aracatuba/pib-da-regiao-de-aracatuba-cresceu-11-no-primeiro-trimestre-de-2026-regiao-ultrapassa-presidente-prudente/",
       "source": "InfoMoney",
       "category": "latest",
       "tags": [
@@ -649,14 +663,14 @@
       "updatedAt": "2026-08-15T11:00:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/07/expert-xp-20260724-rodrigo-flores-5.jpg?fit=1620%2C1080&quality=70&strip=all"
+      "imageUrl": "https://i0.wp.com/lr1.com.br/wp-content/uploads/2026/08/A3-PIB.jpg?fit=574%2C320&ssl=1"
     },
     {
       "id": "macro-e66a128065194eff676e4c2d",
       "title": "PIB da região de Araçatuba cresceu 1,1% no primeiro trimestre de 2026; região ultrapassa Presidente Prudente",
-      "summary": "Da Redação - Araçatuba A Região Administrativa de Araçatuba iniciou 2026 com crescimento da atividade econômica. No primeiro trimestre, o Produto Interno Bruto (PIB) regional avançou 1,1% em relação ao mesmo período de 2025, segundo dados divulgados pela Fundação Seade. O resulta",
-      "details": "Da Redação - Araçatuba A Região Administrativa de Araçatuba iniciou 2026 com crescimento da atividade econômica. No primeiro trimestre, o Produto Interno Bruto (PIB) regional avançou 1,1% em relação ao mesmo período de 2025, segundo dados divulgados pela Fundação Seade. O resultado confirma a continuidade da trajetória",
-      "url": "https://lr1.com.br/cidades/aracatuba/pib-da-regiao-de-aracatuba-cresceu-11-no-primeiro-trimestre-de-2026-regiao-ultrapassa-presidente-prudente/",
+      "summary": "Criado em 2025, o prêmio reconhece quem faz a diferença no mercado de fundos de investimento",
+      "details": "Criado em 2025, o prêmio reconhece quem faz a diferença no mercado de fundos de investimento",
+      "url": "https://www.infomoney.com.br/onde-investir/outliers-infomoney-conheca-o-mercado-de-r-112-trilhoes-que-o-premio-reconhece/",
       "source": "O LIBERAL REGIONAL",
       "category": "macro",
       "tags": [
@@ -668,7 +682,7 @@
       "updatedAt": "2026-08-15T11:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://i0.wp.com/lr1.com.br/wp-content/uploads/2026/08/A3-PIB.jpg?fit=574%2C320&ssl=1"
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/07/expert-xp-20260724-rodrigo-flores-5.jpg?fit=1620%2C1080&quality=70&strip=all"
     },
     {
       "id": "macro-9e4dd1201e3f7a997063db35",
@@ -692,9 +706,9 @@
     {
       "id": "latest-d4c0d9b352f2b07a74858653",
       "title": "Mercado imobiliário: baixa renda em alta e juros pressionam alta renda",
-      "summary": "O mercado imobiliário residencial em 2026 mostra baixa renda em alta e juros pressionando alta renda. Análise de resultados.",
-      "details": "O mercado imobiliário residencial em 2026 mostra baixa renda em alta e juros pressionando alta renda. Análise de resultados.",
-      "url": "https://portas.com.br/mercado-imobiliario/construtoras-em-2026-baixa-renda-impulsiona-resultados-juros-afetam-alta-renda/",
+      "summary": "O mercado financeiro brasileiro reduziu novamente a previsão da inflação para este ano....",
+      "details": "O mercado financeiro brasileiro reduziu novamente a previsão da inflação para este ano....",
+      "url": "https://www.bra1.com.br/economia/id-679243/inflacao_cai_pelo_sexto_mes_seguido_e_mercado_ja_comemora",
       "source": "portas.com.br",
       "category": "latest",
       "tags": [
@@ -706,14 +720,14 @@
       "updatedAt": "2026-08-15T10:52:14Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://uploads.portas.com.br/2026/08/sommartiStock.jpg"
+      "imageUrl": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/679243.jpg"
     },
     {
       "id": "latest-c0ff31872714ad9e67500914",
       "title": "Inflação cai pelo sexto mês seguido e mercado já comemora",
-      "summary": "O mercado financeiro brasileiro reduziu novamente a previsão da inflação para este ano....",
-      "details": "O mercado financeiro brasileiro reduziu novamente a previsão da inflação para este ano....",
-      "url": "https://www.bra1.com.br/economia/id-679243/inflacao_cai_pelo_sexto_mes_seguido_e_mercado_ja_comemora",
+      "summary": "O mercado imobiliário residencial em 2026 mostra baixa renda em alta e juros pressionando alta renda. Análise de resultados.",
+      "details": "O mercado imobiliário residencial em 2026 mostra baixa renda em alta e juros pressionando alta renda. Análise de resultados.",
+      "url": "https://portas.com.br/mercado-imobiliario/construtoras-em-2026-baixa-renda-impulsiona-resultados-juros-afetam-alta-renda/",
       "source": "bra1.com.br",
       "category": "latest",
       "tags": [
@@ -725,14 +739,14 @@
       "updatedAt": "2026-08-15T10:52:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/679243.jpg"
+      "imageUrl": "https://uploads.portas.com.br/2026/08/sommartiStock.jpg"
     },
     {
       "id": "latest-5ec7f4cf12b6f5b8af6f1b56",
       "title": "Semana de inflação, fluxo estrangeiro e balanços no radar",
-      "summary": "Com IPCA acima do previsto, saques estrangeiros e balanços do 2T26, veja os destaques da semana nos mercados",
-      "details": "Com IPCA acima do previsto, saques estrangeiros e balanços do 2T26, veja os destaques da semana nos mercados",
-      "url": "https://www.spacemoney.com.br/investimentos/destaques-da-semana-mercado-financeiro/",
+      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNGt1dmNYT1ZmalFHdWN5eTJCMXJBZ21sNVRCTmJ3em5zdnA3R0M2OVFfb0hib3ZpNlNvRUFyWEpJelhid2xWQnMzOHpDaXAzOG9nTWxWMzVFR2g5czNpcm9ZVUd1S0h4ekJmUWsySndGRVZFRVdWMC1VVEhzMXNZeE82WG1qYmowZllB?oc=5",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -743,8 +757,7 @@
       "publishedAt": "2026-08-15T10:47:22Z",
       "updatedAt": "2026-08-15T10:47:22Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-35118208-24.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-44057c05d73d6cd009186c6f",
@@ -769,7 +782,7 @@
       "title": "Inflação, fluxo estrangeiro na bolsa e balanços do 2T26; veja destaques da semana",
       "summary": "Atualizacao de macro capturada em InfoMoney.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZFZKZUhwdWJtMHZ4bHBBX1dVNUJpUDNJRENTaW1jZXU0QS10S2hyS01JUHZSZjExTXFUZmJMdXNmZzNwcG8zRVh1WVZ1b3JLTzlSWnI5OFpDNThhekplQ0xSNGwxRzgxcU9BVGx3czZPZVlsNEJUQlBqNWpYRjU0NmlITjdSS05TaFN5RUJaaGRQSEhEMElrYUhWeHNmeFlOendHRFVtYkhYdnNoYmF6LURyX2VrX1ZNSzBTYl9yU0s?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZFZKZUhwdWJtMHZ4bHBBX1dVNUJpUDNJRENTaW1jZXU0QS10S2hyS01JUHZSZjExTXFUZmJMdXNmZzNwcG8zRVh1WVZ1b3JLTzlSWnI5OFpDNThhekplQ0xSNGwxRzgxcU9BVGx3czZPZVlsNEJUQlBqNWpYRjU0NmlITjdSS05TaFN5RUJaaGRQSEhEMElrYUhWeHNmeFlOendHRFVtYkhYdnNoYmF6LURyX2VrX1ZNSzBTYl9yU0vSAcYBQVVfeXFMTnN3aGJ0Z3VhX3c0SmJTd08yc2JpSnVENUZERE5kVFBUcFJGdERRQ09wS1l4bkd1RkptOXJCUk1GRmFCY0dkeDk1ZUlXcnpjd0h5QUc5dlBjb2FsYzRqV2g1ZHh0a2szWV8yOWwteW5sQldISDJGWWxBZ090ajJBdzg1ejFfU1JlQmZoTDRLVVpsTkJxUUJZNUZaSjJTS1NMaFVzbUFZTHNPZlVLakhfZVVRalZickRiQ21ndFVVRGJUcjc4V01B?oc=5",
       "source": "InfoMoney",
       "category": "macro",
       "tags": [
@@ -945,24 +958,6 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-c57898a32a9392863b21d90d",
-      "title": "Corte da Selic: por que o mercado ainda aposta na queda dos juros?",
-      "summary": "Atualizacao de ultima hora capturada em Nord Investimentos.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5qVVlpeW1PYkZBclVBdzFvLXBaQ3FlUXZSTkFQUU0xLUpkR2hVQzR5aWJYa0lQdUNJS2tLSlFMNjV2bmxFN1VWeEFLWE9HWlJJN21oZjZuZHI4ZkRSd2F4UEtXZEpScjdKWVlOMUNDZUdzeDFnYks5V1Bqb9IBgAFBVV95cUxNbGxlLVBzdWlXNmdEdTV4eUZTTUNFN3FrQXI2YWVlbG5rbWxOdDJLckxmVTI5U2VwLTZHWC03cUt1ZVp4eFVkUEd0SnJyUFF5OE5IdFJoWXY2NTRDX3dvRkhKbFNfSTFfX2NSVmhFeG40S2hHYkVOS3NaNE1HOXdjSw?oc=5",
-      "source": "Nord Investimentos",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-15T06:40:39Z",
-      "updatedAt": "2026-08-15T06:40:39Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "funds-3a34b5572e740d0301a09915",
       "title": "Dong Thap: Eliminar os entraves e acelerar o desembolso de fundos de investimento público.",
       "summary": "Atualizacao de fundos capturada em Vietnam.vn.",
@@ -979,6 +974,24 @@
       "updatedAt": "2026-08-15T06:31:30Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "latest-57a175556edd35e06ec3a6c5",
+      "title": "‘Mercado financeiro é estacionamento do dinheiro’: a aposta na economia real para gerar patrimônio",
+      "summary": "Atualizacao de ultima hora capturada em Estadão.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNYjVubi16cG1FdUZrQlgyUlBUMEJKUVJLODBtd3Vwd1FETGktbUlZTkRTRjBrTWYzODVxaTlCZmRVR1Jxc0c4X29fZzRyUV95OERacWJ1Yzl4RjhFb09WbHRkWktXaUtYenRiYzFCVkQwREVsQ1ZEVlpUR05qUFVqaHBkbGUtdy0yUklYM0ltTzh0WmUzckRmNm5mWEV3V0VHQ0ZxbUo0XzRKOXdYaDRIUlotaUxxZW1RZXhZSHFPU096V0gtSFhhZ09VN1Jad2o2Sm5kQmJVQk0tdV9xQUs2TkVXUC1BM0hRd3ptRFlmbkRpM0E?oc=5",
+      "source": "Estadão",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-15T06:31:21Z",
+      "updatedAt": "2026-08-15T06:31:21Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-7ed90e13fa7ca8ed6818c007",
@@ -1087,6 +1100,24 @@
       "updatedAt": "2026-08-14T22:57:08Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "funds-0abad496d266259605600fa3",
+      "title": "U.S. OCC Grants Preliminary Approval for World Liberty",
+      "summary": "Atualizacao de fundos capturada em Coinfomania.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVzZhdkF0V2kxQjd3WUZLQ3UtRFdmeEF6TTBhUnZ3WkRxZEtBenBGaWV5OWc4eHJEWnU1RjZoLXhaWmFTbk5iOC0wUm44cUpqYjItdVYtY2NhaDh1MXZ4ckd3NXRZa1RNZ25xNklueUhJU2ZQMzgzQTZxRWZkOW9GaGhRRm4xRl91?oc=5",
+      "source": "Coinfomania",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-08-14T22:42:41Z",
+      "updatedAt": "2026-08-14T22:42:41Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "funds-448841b6fa4c5e46ac4b028f",
@@ -1255,7 +1286,7 @@
       "title": "EverBlue traz Cláudia Santos para acelerar atuação em FIDCs",
       "summary": "Atualizacao de fundos capturada em Capital Aberto.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVzMzdjFCVGRuSG9SV3NVOTQ3aW1yNWxRVmVya0ZfcVJjbHNzYk83NWY3TlJqSVNDYkw0aWdYcXBZZlN6S1lHWENEQm5HS1drOFNEaVlnQU0wWnZaT2oxdlFXN21OQy1ncng4NWNjQ1dWNThNNjc2djlvdHI3bkp3bEh5c1JmS0VESXpDcGFpRXJCSUw5WHcza0lEa3hZZGlVVGtEbl9JX3p0U29tQ0JOSg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbmhWRkI0Y3F6eVFaeDAtOXhNb0JwTTBnRHJzMWtPZG1UcXRYa2RDbnROeG5iQzljSTZYLXNUNllSeGMyMWhNcVlDZXJsWWZuY0xXSThtbG1yanpCQjlUZnhpRnJCT19fM21ZcFpIaXRMNGdmWFlWWElqbnFhMW5hdmcyYkJQRHpWZjdEb3JWSkRpWlEtRlBSOVlkRXhJeHFqQWJOZFJSMjZRTDA?oc=5",
       "source": "Capital Aberto",
       "category": "funds",
       "tags": [
@@ -1283,24 +1314,6 @@
       ],
       "publishedAt": "2026-08-14T17:12:17Z",
       "updatedAt": "2026-08-14T17:12:17Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-49ff89de85276297c0c5f26c",
-      "title": "“Alojamento esgotado e restaurantes cheios”: Feira de Artesanato e Gastronomia dinamiza economia de Celorico de Basto",
-      "summary": "Atualizacao de fundos capturada em A Verdade.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNYlFZbjRRSmVyc29OdGV4czdMaXdrVDh1NWJPX3RNOURPV1EwNThmMV8xRDJJQ0RMV1ctSkl3bU5YTjNLZ2Q4dS1KZlpxVk1xRlQ5eFg0alZiUlo0dWdWT3kyLTVia3JETTdHOXVLTlQwSHItM0w3Zm1xSHRZbk1sNmJtQzlFRm8zeWFDWFJYd21aNU9aSC1OSnAwY2xmUkdaZGo3MXF5R1F0QWZUUkdMd2pucjJfRklWeTVHMjFPMy1PeUxnLVNiLW5FVXE0MmExRWtyVWJTMHRFd3RaRHpseg?oc=5",
-      "source": "A Verdade",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-08-14T17:05:32Z",
-      "updatedAt": "2026-08-14T17:05:32Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
@@ -1373,24 +1386,6 @@
       ],
       "publishedAt": "2026-08-14T16:40:36Z",
       "updatedAt": "2026-08-14T16:40:36Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-a145752ba2b4f38bd8ffb9cf",
-      "title": "Empresas brasileiras no Paraguai têm redução de custos",
-      "summary": "Atualizacao de empresas capturada em bandnewsfmcuritiba.com.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZVZ4OHdpNnNha2hEYWFPc2U4dERHSmRPVDdRdC1ib3loTElKb2xNZUd0SE5tNGYycElRN212bTUyUDc2MjgwbTdzMVpsXzBWNlVxR1VDZHI4UmdVcjZKa0FZUi1tQlY2VE9kQ3JYcXRyUHV6VUZnRklwY1V6bDltMTRUeDQ1S0VwM1pLdjRKQQ?oc=5",
-      "source": "bandnewsfmcuritiba.com",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-08-14T16:32:40Z",
-      "updatedAt": "2026-08-14T16:32:40Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     }
