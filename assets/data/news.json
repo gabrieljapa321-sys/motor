@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-15T10:18:10Z",
-  "generatedAt": "2026-08-15T10:18:10Z",
+  "updatedAt": "2026-08-15T10:46:52Z",
+  "generatedAt": "2026-08-15T10:46:52Z",
   "categories": [
     {
       "id": "all",
@@ -57,6 +57,10 @@
       "label": "Capital Aberto"
     },
     {
+      "id": "cinform-online",
+      "label": "Cinform Online"
+    },
+    {
       "id": "cnn-brasil",
       "label": "CNN Brasil"
     },
@@ -99,6 +103,10 @@
     {
       "id": "gazeta-da-semana",
       "label": "Gazeta da Semana"
+    },
+    {
+      "id": "gov-br",
+      "label": "gov.br"
     },
     {
       "id": "infomoney",
@@ -161,10 +169,6 @@
       "label": "Rede Estação Democracia"
     },
     {
-      "id": "segs-portal-nacional",
-      "label": "SEGS Portal Nacional"
-    },
-    {
       "id": "spacemoney",
       "label": "SpaceMoney"
     },
@@ -177,10 +181,6 @@
       "label": "TI INSIDE Online"
     },
     {
-      "id": "times-brasil-cnbc",
-      "label": "Times Brasil | CNBC"
-    },
-    {
       "id": "uol-economia",
       "label": "UOL Economia"
     },
@@ -191,13 +191,46 @@
     {
       "id": "vietnam-vn",
       "label": "Vietnam.vn"
-    },
-    {
-      "id": "www-gov-br",
-      "label": "www.gov.br"
     }
   ],
   "items": [
+    {
+      "id": "macro-9c17887f8c9bc8dbeae43d49",
+      "title": "Inflação, fluxo estrangeiro na bolsa e balanços do 2T26; veja destaques da semana",
+      "summary": "Dados do índice oficial de inflação vieram acima do esperado, mas projeções da XP Investimentos não acreditam que números sejam necessariamente preocupantes; confira os demais destaques",
+      "details": "Dados do índice oficial de inflação vieram acima do esperado, mas projeções da XP Investimentos não acreditam que números sejam necessariamente preocupantes; confira os demais destaques",
+      "url": "https://www.infomoney.com.br/onde-investir/inflacao-fluxo-estrangeiro-na-bolsa-e-balancos-do-2t26-veja-destaques-da-semana/",
+      "source": "InfoMoney",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-15T10:36:00Z",
+      "updatedAt": "2026-08-15T10:36:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2025/04/trbr5624.webp?fit=1170%2C700&quality=70&strip=all"
+    },
+    {
+      "id": "funds-4261a7b252a2d0d56b58b565",
+      "title": "Horizon Kinetics Asset Management compra US$ 2.192 em ações do RENN Fund",
+      "summary": "Atualizacao de fundos capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
+      "details": "",
+      "url": "https://br.investing.com/news/insider-trading-news/horizon-kinetics-asset-management-compra-us-2192-em-acoes-do-renn-fund-93CH-2040274",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-08-15T10:31:00Z",
+      "updatedAt": "2026-08-15T10:31:00Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
     {
       "id": "latest-4c3e20100d0d4951b06c6d2c",
       "title": "Mercado pecuário registra estabilidade, mas pressões vêm à vista",
@@ -238,9 +271,9 @@
     {
       "id": "latest-111ae7f6c1286c6099c96255",
       "title": "Estresse no mercado local chega à renda fixa e provoca inclinação da curva de juros",
-      "summary": "Especialistas veem risco eleitoral como um dos motivos para o mau humor dos investidores",
-      "details": "Especialistas veem risco eleitoral como um dos motivos para o mau humor dos investidores",
-      "url": "https://www.correiobraziliense.com.br/economia/2026/08/7480605-bolsa-cai-por-nove-pregoes-seguidos-e-dolar-sobe-acima-de-rs-520.html",
+      "summary": "Percepção é que movimento foi disparado pela redução de posições de estrangeiros no mercado local",
+      "details": "Percepção é que movimento foi disparado pela redução de posições de estrangeiros no mercado local",
+      "url": "https://valor.globo.com/financas/intraday/post/2026/08/estresse-no-mercado-local-chega-a-renda-fixa-e-provoca-inclinacao-da-curva-de-juros.ghtml",
       "source": "Valor Econômico",
       "category": "latest",
       "tags": [
@@ -252,14 +285,33 @@
       "updatedAt": "2026-08-15T10:00:11Z",
       "premium": true,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/03/02/675x450/1_cbifot010620211080bolsa-64873287.jpg?20260424090605?20260424090605"
+      "imageUrl": "https://s2-valor.glbimg.com/DtrvY6Pi0fQHfjyYneVAIbD6msQ=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/9/Y/mdzMMhQgCCDudTFoNGYg/20fin-100-mercados-c2-img01.jpg"
+    },
+    {
+      "id": "macro-496be362a8cb957a58efcf09",
+      "title": "Reajuste de custas processuais da Justiça Federal volta à Câmara",
+      "summary": "Texto propõe correção anual pelo IPCA, regras para gratuidade e criação de fundos para a Justiça e o STJ. Leia no Poder360.",
+      "details": "Texto propõe correção anual pelo IPCA, regras para gratuidade e criação de fundos para a Justiça e o STJ. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-congresso/reajuste-de-custas-processuais-da-justica-federal-volta-a-camara/",
+      "source": "Poder360",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-15T09:31:48Z",
+      "updatedAt": "2026-08-15T09:31:48Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/08/eduardo-gomes-senado-848x477.jpg"
     },
     {
       "id": "macro-078fafc190ddc4fadc6371c4",
       "title": "PIB de Alagoas deverá crescer 1,7% em 2026 e 1,2% em 2027",
-      "summary": "Serviços e indústria sustentam perspectiva positiva, enquanto agropecuária alagoana tem desempenho acima da média regional",
-      "details": "Serviços e indústria sustentam perspectiva positiva, enquanto agropecuária alagoana tem desempenho acima da média regional",
-      "url": "https://ojornalextra.com.br/impresso/2026/08/1391-pib-de-alagoas-devera-crescer-17-em-2026-e-12-em-2027",
+      "summary": "Em uma reunião com unidades e localidades da região oeste, o camarada Ho Van Muoi, membro do Comitê Central do Partido e presidente do Comitê Popular da província de Lam Dong, solicitou que a taxa de desembolso de capital de investimento público seja usada como critério para aval",
+      "details": "Em uma reunião com unidades e localidades da região oeste, o camarada Ho Van Muoi, membro do Comitê Central do Partido e presidente do Comitê Popular da província de Lam Dong, solicitou que a taxa de desembolso de capital de investimento público seja usada como critério para avaliar a qualidade e o nível de conclusão d",
+      "url": "https://www.vietnam.vn/pt/lam-dong-lay-giai-ngan-von-dau-tu-cong-la-tieu-chi-danh-gia-can-bo",
       "source": "ojornalextra.com.br",
       "category": "macro",
       "tags": [
@@ -271,14 +323,14 @@
       "updatedAt": "2026-08-15T09:05:19Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://img.dhost.cloud/QGyCxxmcJrTr8JpTy9hDWgyhdAM=/572x297/smart/https://ojornalextra.us-east-1.linodeobjects.com/uploads/imagens/2026/08/captura-de-tela-2026-08-14-193225-1.png"
+      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/08/15/1786776900598_giai-ngan-von-11.jpeg"
     },
     {
       "id": "funds-b363ce81a5d4a99345cd694b",
       "title": "Empery Asset Management adquire US$ 4,07 milhões em ações da Empery Digital",
-      "summary": "Percepção é que movimento foi disparado pela redução de posições de estrangeiros no mercado local",
-      "details": "Percepção é que movimento foi disparado pela redução de posições de estrangeiros no mercado local",
-      "url": "https://valor.globo.com/financas/intraday/post/2026/08/estresse-no-mercado-local-chega-a-renda-fixa-e-provoca-inclinacao-da-curva-de-juros.ghtml",
+      "summary": "Serviços e indústria sustentam perspectiva positiva, enquanto agropecuária alagoana tem desempenho acima da média regional",
+      "details": "Serviços e indústria sustentam perspectiva positiva, enquanto agropecuária alagoana tem desempenho acima da média regional",
+      "url": "https://ojornalextra.com.br/impresso/2026/08/1391-pib-de-alagoas-devera-crescer-17-em-2026-e-12-em-2027",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "funds",
       "tags": [
@@ -290,7 +342,7 @@
       "updatedAt": "2026-08-15T08:02:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/DtrvY6Pi0fQHfjyYneVAIbD6msQ=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/9/Y/mdzMMhQgCCDudTFoNGYg/20fin-100-mercados-c2-img01.jpg"
+      "imageUrl": "https://img.dhost.cloud/QGyCxxmcJrTr8JpTy9hDWgyhdAM=/572x297/smart/https://ojornalextra.us-east-1.linodeobjects.com/uploads/imagens/2026/08/captura-de-tela-2026-08-14-193225-1.png"
     },
     {
       "id": "funds-bbbc36e6301847cbfcb4e695",
@@ -313,9 +365,9 @@
     {
       "id": "latest-af5f99be794df256596a4a64",
       "title": "Bolsa cai por nove pregões seguidos e dólar sobe acima de R$ 5,20",
-      "summary": "Em uma reunião com unidades e localidades da região oeste, o camarada Ho Van Muoi, membro do Comitê Central do Partido e presidente do Comitê Popular da província de Lam Dong, solicitou que a taxa de desembolso de capital de investimento público seja usada como critério para aval",
-      "details": "Em uma reunião com unidades e localidades da região oeste, o camarada Ho Van Muoi, membro do Comitê Central do Partido e presidente do Comitê Popular da província de Lam Dong, solicitou que a taxa de desembolso de capital de investimento público seja usada como critério para avaliar a qualidade e o nível de conclusão d",
-      "url": "https://www.vietnam.vn/pt/lam-dong-lay-giai-ngan-von-dau-tu-cong-la-tieu-chi-danh-gia-can-bo",
+      "summary": "Especialistas veem risco eleitoral como um dos motivos para o mau humor dos investidores",
+      "details": "Especialistas veem risco eleitoral como um dos motivos para o mau humor dos investidores",
+      "url": "https://www.correiobraziliense.com.br/economia/2026/08/7480605-bolsa-cai-por-nove-pregoes-seguidos-e-dolar-sobe-acima-de-rs-520.html",
       "source": "Correio Braziliense",
       "category": "latest",
       "tags": [
@@ -327,14 +379,14 @@
       "updatedAt": "2026-08-15T07:23:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/08/15/1786776900598_giai-ngan-von-11.jpeg"
+      "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/03/02/675x450/1_cbifot010620211080bolsa-64873287.jpg?20260424090605?20260424090605"
     },
     {
       "id": "funds-3a34b5572e740d0301a09915",
       "title": "Dong Thap: Eliminar os entraves e acelerar o desembolso de fundos de investimento público.",
-      "summary": "A província de Dong Thap acaba de lançar uma campanha intensiva para acelerar o desembolso de capital de investimento público, visando atingir 100% do plano com diversas soluções-chave e metas mensais de progresso.",
-      "details": "A província de Dong Thap acaba de lançar uma campanha intensiva para acelerar o desembolso de capital de investimento público, visando atingir 100% do plano com diversas soluções-chave e metas mensais de progresso.",
-      "url": "https://www.vietnam.vn/pt/dong-thap-thao-go-cac-diem-nghen-day-manh-giai-ngan-von-dau-tu-cong",
+      "summary": "Pela sexta semana consecutiva, o mercado financeiro revê para baixo as expectativas que tem para a inflação em 2026. De acordo com o Boletim Focus, […]",
+      "details": "Pela sexta semana consecutiva, o mercado financeiro revê para baixo as expectativas que tem para a inflação em 2026. De acordo com o Boletim Focus, […]",
+      "url": "https://cinformonline.com.br/expectativa-do-mercado-para-inflacao-de-2026-cai-para-502/",
       "source": "Vietnam.vn",
       "category": "funds",
       "tags": [
@@ -346,7 +398,7 @@
       "updatedAt": "2026-08-15T06:31:30Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/08/15/1786768959569_dji-0215-17867607793041612765353-0-0-1125-1800-crop-1786760785580844540597.jpeg"
+      "imageUrl": "https://cinformonline-prod.s3.amazonaws.com/media/uploads/2026/08/inflacao.webp"
     },
     {
       "id": "latest-57a175556edd35e06ec3a6c5",
@@ -370,9 +422,9 @@
     {
       "id": "macro-12cc5dd80f92991caf4f3390",
       "title": "Indícios de fraude fiscal são encontrados na Ceasa e empresas podem ser proibidas de funcionar",
-      "summary": "No local, as fiscais identificaram suspeitas de compra e venda de produtos sem nota fiscal, possível comercialização de mercadorias de origem ilícita, entre outras irregularidades",
-      "details": "No local, as fiscais identificaram suspeitas de compra e venda de produtos sem nota fiscal, possível comercialização de mercadorias de origem ilícita, entre outras irregularidades",
-      "url": "https://diariodorio.com/indicios-de-fraude-fiscal-sao-encontrados-na-ceasa-e-empresas-podem-ser-proibidas-de-funcionar/",
+      "summary": "A província de Dong Thap acaba de lançar uma campanha intensiva para acelerar o desembolso de capital de investimento público, visando atingir 100% do plano com diversas soluções-chave e metas mensais de progresso.",
+      "details": "A província de Dong Thap acaba de lançar uma campanha intensiva para acelerar o desembolso de capital de investimento público, visando atingir 100% do plano com diversas soluções-chave e metas mensais de progresso.",
+      "url": "https://www.vietnam.vn/pt/dong-thap-thao-go-cac-diem-nghen-day-manh-giai-ngan-von-dau-tu-cong",
       "source": "Diário do Rio",
       "category": "macro",
       "tags": [
@@ -384,14 +436,14 @@
       "updatedAt": "2026-08-15T06:27:04Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://diariodorio.com/wp-content/uploads/2026/08/image-63.png"
+      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/08/15/1786768959569_dji-0215-17867607793041612765353-0-0-1125-1800-crop-1786760785580844540597.jpeg"
     },
     {
       "id": "macro-dcc4d92bdeaf3ca96e65a26d",
       "title": "Mercado se preocupa com controle da inflação após corte da Selic",
-      "summary": "Evento no Rio reúne reguladores e bancos para discutir tokenização, stablecoins e o futuro do sistema financeiro",
-      "details": "Evento no Rio reúne reguladores e bancos para discutir tokenização, stablecoins e o futuro do sistema financeiro",
-      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/blockchain-rio-debate-regulacao-e-avanco-de-stablecoins/",
+      "summary": "No local, as fiscais identificaram suspeitas de compra e venda de produtos sem nota fiscal, possível comercialização de mercadorias de origem ilícita, entre outras irregularidades",
+      "details": "No local, as fiscais identificaram suspeitas de compra e venda de produtos sem nota fiscal, possível comercialização de mercadorias de origem ilícita, entre outras irregularidades",
+      "url": "https://diariodorio.com/indicios-de-fraude-fiscal-sao-encontrados-na-ceasa-e-empresas-podem-ser-proibidas-de-funcionar/",
       "source": "CNN Brasil",
       "category": "macro",
       "tags": [
@@ -403,7 +455,26 @@
       "updatedAt": "2026-08-15T05:55:20Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/EDC_MNY_120826_IL_BLOCKCHAIN_frame_23.jpeg?w=1200&h=630&crop=1"
+      "imageUrl": "https://diariodorio.com/wp-content/uploads/2026/08/image-63.png"
+    },
+    {
+      "id": "latest-bfb9dba53942858fc39e2920",
+      "title": "Expectativa do mercado para inflação de 2026 cai para 5,02%",
+      "summary": "Sinalização sobre próximos passos do Copom aumenta cautela dos investidores e pressiona juros de longo prazo",
+      "details": "Sinalização sobre próximos passos do Copom aumenta cautela dos investidores e pressiona juros de longo prazo",
+      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/mercado-se-preocupa-com-controle-da-inflacao-apos-corte-da-selic/",
+      "source": "Cinform Online",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-15T03:57:29Z",
+      "updatedAt": "2026-08-15T03:57:29Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/03/economia_renda_dinheiro.jpg?w=1200&h=630&crop=1"
     },
     {
       "id": "companies-7ed90e13fa7ca8ed6818c007",
@@ -427,9 +498,9 @@
     {
       "id": "macro-88c5fd668b562074d15e2be8",
       "title": "Descaso fiscal é a alma da nova lei dos combustíveis",
-      "summary": "Sinalização sobre próximos passos do Copom aumenta cautela dos investidores e pressiona juros de longo prazo",
-      "details": "Sinalização sobre próximos passos do Copom aumenta cautela dos investidores e pressiona juros de longo prazo",
-      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/mercado-se-preocupa-com-controle-da-inflacao-apos-corte-da-selic/",
+      "summary": "Atualizacao de macro capturada em O GLOBO.",
+      "details": "",
+      "url": "https://gazetadasemana.com.br/noticia/294166/maqstone-transforma-rochas-naturais-brasileiras-em-materiais-exclusivos-para-a-arquitetura-de-alto-padrao/amp",
       "source": "O GLOBO",
       "category": "macro",
       "tags": [
@@ -440,15 +511,14 @@
       "publishedAt": "2026-08-15T03:10:08Z",
       "updatedAt": "2026-08-15T03:10:08Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/03/economia_renda_dinheiro.jpg?w=1200&h=630&crop=1"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-8ff7f6f4efee387546e8ec2a",
       "title": "Blockchain.Rio debate regulação e avanço de stablecoins",
-      "summary": "Dados do IBGE reforçam cenário de perda de ritmo da economia no 2º trimestre, conforme analistas",
-      "details": "Dados do IBGE reforçam cenário de perda de ritmo da economia no 2º trimestre, conforme analistas",
-      "url": "https://www1.folha.uol.com.br/mercado/2026/08/alta-do-pib-acima-de-2-se-torna-mais-dificil-em-2026-dizem-economistas.shtml",
+      "summary": "Evento no Rio reúne reguladores e bancos para discutir tokenização, stablecoins e o futuro do sistema financeiro",
+      "details": "Evento no Rio reúne reguladores e bancos para discutir tokenização, stablecoins e o futuro do sistema financeiro",
+      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/blockchain-rio-debate-regulacao-e-avanco-de-stablecoins/",
       "source": "CNN Brasil",
       "category": "latest",
       "tags": [
@@ -460,14 +530,14 @@
       "updatedAt": "2026-08-15T02:23:30Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/13/17866363456a7de8390303c_1786636345_3x2_rt.jpg"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/EDC_MNY_120826_IL_BLOCKCHAIN_frame_23.jpeg?w=1200&h=630&crop=1"
     },
     {
       "id": "macro-88d6cdfc480cbc89fb328fb6",
       "title": "Alta do PIB acima de 2% se torna mais difícil em 2026, dizem economistas",
-      "summary": "A transformação digital vem mudando a maneira como empresas encontram clientes, divulgam seus produtos e constroem novas oportunidades de negócio. Com o avanço da Inteligência Artificial e a expansão dos canais digitais, conhecimentos relacionados a marketing, tecnologia, dados e",
-      "details": "A transformação digital vem mudando a maneira como empresas encontram clientes, divulgam seus produtos e constroem novas oportunidades de negócio. Com o avanço da Inteligência Artificial e a expansão dos canais digitais, conhecimentos relacionados a marketing, tecnologia, dados e performance passaram a ocupar um espaço",
-      "url": "https://www.broadcast.com.br/knewin-dino/agencia-nagase-lanca-curso-trafego-pago-online/",
+      "summary": "Dados do IBGE reforçam cenário de perda de ritmo da economia no 2º trimestre, conforme analistas",
+      "details": "Dados do IBGE reforçam cenário de perda de ritmo da economia no 2º trimestre, conforme analistas",
+      "url": "https://www1.folha.uol.com.br/mercado/2026/08/alta-do-pib-acima-de-2-se-torna-mais-dificil-em-2026-dizem-economistas.shtml",
       "source": "Folha de S.Paulo",
       "category": "macro",
       "tags": [
@@ -479,14 +549,14 @@
       "updatedAt": "2026-08-15T02:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/08/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K4MycivhK_A2A86abbVjBSTLwcIJs_vsG8n-5nPYksJh715MYmmBlmr96foW9sDOd83iltcPygN38oFwyIuRcXZVDXM4ztKklJ5A0FVebW83C9t1RcdTpZqGgrVcgTzNQM1.png"
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/13/17866363456a7de8390303c_1786636345_3x2_rt.jpg"
     },
     {
       "id": "latest-2e9d0f73732ec38ffe21630d",
       "title": "Prósper vence prêmios internacionais em Barcelona e Miami",
-      "summary": "Atualizacao de ultima hora capturada em broadcast.com.br.",
-      "details": "",
-      "url": "https://gazetadasemana.com.br/noticia/294166/maqstone-transforma-rochas-naturais-brasileiras-em-materiais-exclusivos-para-a-arquitetura-de-alto-padrao/amp",
+      "summary": "A agência capixaba Prósper somou mais três prêmios internacionais em pouco mais de um mês e se consolida como a agência capixaba mais premiada no mundo. Os novos troféus vieram de dois festivais distintos: o Saniss Awards, realizado em Barcelona, na Espanha, e o WINA Festival, se",
+      "details": "A agência capixaba Prósper somou mais três prêmios internacionais em pouco mais de um mês e se consolida como a agência capixaba mais premiada no mundo. Os novos troféus vieram de dois festivais distintos: o Saniss Awards, realizado em Barcelona, na Espanha, e o WINA Festival, sediado este ano em […]",
+      "url": "https://www.broadcast.com.br/knewin-dino/prosper-vence-premios-internacionais-em-barcelona-e-miami/",
       "source": "broadcast.com.br",
       "category": "latest",
       "tags": [
@@ -497,14 +567,15 @@
       "publishedAt": "2026-08-15T01:26:16Z",
       "updatedAt": "2026-08-15T01:26:16Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/08/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K5loAHPBXcG06twv4omNLKIf9KN6XtW6VChau3jLnBm53V_jQfDPzVxMMQo-hfa3EMvSYwaEgfpBc7LwLkQX4ymnKYhaJhtODLBVWHrz87_W3DscPtSiKT_Ly1Dqb3rURc1.png"
     },
     {
       "id": "latest-d2b26890c174c0042d208fc2",
       "title": "Agência Nagase lança curso tráfego pago online",
-      "summary": "A agência capixaba Prósper somou mais três prêmios internacionais em pouco mais de um mês e se consolida como a agência capixaba mais premiada no mundo. Os novos troféus vieram de dois festivais distintos: o Saniss Awards, realizado em Barcelona, na Espanha, e o WINA Festival, se",
-      "details": "A agência capixaba Prósper somou mais três prêmios internacionais em pouco mais de um mês e se consolida como a agência capixaba mais premiada no mundo. Os novos troféus vieram de dois festivais distintos: o Saniss Awards, realizado em Barcelona, na Espanha, e o WINA Festival, sediado este ano em […]",
-      "url": "https://www.broadcast.com.br/knewin-dino/prosper-vence-premios-internacionais-em-barcelona-e-miami/",
+      "summary": "A incorporação de tecnologias digitais vem transformando diferentes etapas do atendimento odontológico, do diagnóstico ao planejamento e acompanhamento dos tratamentos. Scanners intraorais, tomógrafos computadorizados, sensores digitais e equipamentos portáteis de raio-X estão en",
+      "details": "A incorporação de tecnologias digitais vem transformando diferentes etapas do atendimento odontológico, do diagnóstico ao planejamento e acompanhamento dos tratamentos. Scanners intraorais, tomógrafos computadorizados, sensores digitais e equipamentos portáteis de raio-X estão entre os recursos que ampliam as possibili",
+      "url": "https://www.broadcast.com.br/knewin-dino/diagnostico-digital-ganha-espaco-na-rotina-odontologica/",
       "source": "broadcast.com.br",
       "category": "latest",
       "tags": [
@@ -516,7 +587,7 @@
       "updatedAt": "2026-08-15T01:26:12Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/08/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K5loAHPBXcG06twv4omNLKIf9KN6XtW6VChau3jLnBm53V_jQfDPzVxMMQo-hfa3EMvSYwaEgfpBc7LwLkQX4ymnKYhaJhtODLBVWHrz87_W3DscPtSiKT_Ly1Dqb3rURc1.png"
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/08/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K5loAHPBXcG06twv4omNLKIf9KN6XtW6VChau3jLnBm53V_jQfDPzVxMMQo-hfa3EMvSYwaEgfpBc7LwLkQX4ymnKYhaJhtODLBVWHrz87_WxATgY5R2gpj8wGj7gcZcW01.png"
     },
     {
       "id": "latest-1ee6c64363c20c2c0901afd2",
@@ -539,9 +610,9 @@
     {
       "id": "latest-77f3bc95fc90ee486d989282",
       "title": "Saúde preventiva ganha força com Inteligência Artificial",
-      "summary": "A incorporação de tecnologias digitais vem transformando diferentes etapas do atendimento odontológico, do diagnóstico ao planejamento e acompanhamento dos tratamentos. Scanners intraorais, tomógrafos computadorizados, sensores digitais e equipamentos portáteis de raio-X estão en",
-      "details": "A incorporação de tecnologias digitais vem transformando diferentes etapas do atendimento odontológico, do diagnóstico ao planejamento e acompanhamento dos tratamentos. Scanners intraorais, tomógrafos computadorizados, sensores digitais e equipamentos portáteis de raio-X estão entre os recursos que ampliam as possibili",
-      "url": "https://www.broadcast.com.br/knewin-dino/diagnostico-digital-ganha-espaco-na-rotina-odontologica/",
+      "summary": "A transformação digital vem mudando a maneira como empresas encontram clientes, divulgam seus produtos e constroem novas oportunidades de negócio. Com o avanço da Inteligência Artificial e a expansão dos canais digitais, conhecimentos relacionados a marketing, tecnologia, dados e",
+      "details": "A transformação digital vem mudando a maneira como empresas encontram clientes, divulgam seus produtos e constroem novas oportunidades de negócio. Com o avanço da Inteligência Artificial e a expansão dos canais digitais, conhecimentos relacionados a marketing, tecnologia, dados e performance passaram a ocupar um espaço",
+      "url": "https://www.broadcast.com.br/knewin-dino/agencia-nagase-lanca-curso-trafego-pago-online/",
       "source": "broadcast.com.br",
       "category": "latest",
       "tags": [
@@ -553,14 +624,14 @@
       "updatedAt": "2026-08-15T01:26:04Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/08/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K5loAHPBXcG06twv4omNLKIf9KN6XtW6VChau3jLnBm53V_jQfDPzVxMMQo-hfa3EMvSYwaEgfpBc7LwLkQX4ymnKYhaJhtODLBVWHrz87_WxATgY5R2gpj8wGj7gcZcW01.png"
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/08/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K4MycivhK_A2A86abbVjBSTLwcIJs_vsG8n-5nPYksJh715MYmmBlmr96foW9sDOd83iltcPygN38oFwyIuRcXZVDXM4ztKklJ5A0FVebW83C9t1RcdTpZqGgrVcgTzNQM1.png"
     },
     {
       "id": "macro-eeac819d98823e3e8c60299c",
       "title": "Inflação no País desacelera em julho, mas preço de serviços ainda preocupa",
-      "summary": "O modelo tradicional de saúde, baseado em consultas apenas quando surgem sintomas, vem sendo questionado por especialistas e pela própria população. Uma pesquisa divulgada pelo portal g1 mostra que 62,3% dos brasileiros não buscam atendimento médico quando precisam. Entre os prin",
-      "details": "O modelo tradicional de saúde, baseado em consultas apenas quando surgem sintomas, vem sendo questionado por especialistas e pela própria população. Uma pesquisa divulgada pelo portal g1 mostra que 62,3% dos brasileiros não buscam atendimento médico quando precisam. Entre os principais motivos estão a superlotação e de",
-      "url": "https://www.broadcast.com.br/knewin-dino/saude-preventiva-ganha-forca-com-inteligencia-artificial/",
+      "summary": "Os fundos da Suno Asset encerraram a sessão desta sexta-feira (14) em alta, na contramão do mercado de FIIs. Enquanto os veículos da gestora avançaram, o IFIX, principal índice de fundos imobiliários da B3, recuou 0,17%, aos 3.686,34 pontos. O melhor desempenho entre os fundos da",
+      "details": "Os fundos da Suno Asset encerraram a sessão desta sexta-feira (14) em alta, na contramão do mercado de FIIs. Enquanto os veículos da gestora avançaram, o IFIX, principal índice de fundos imobiliários da B3, recuou 0,17%, aos 3.686,34 pontos. O melhor desempenho entre os fundos da casa foi o do SNID11, que registrou val",
+      "url": "https://www.suno.com.br/noticias/na-contramao-do-ifix-fundos-da-suno-asset-fecham-em-alta-de-ate-4/amp/",
       "source": "Jornal O Sul",
       "category": "macro",
       "tags": [
@@ -572,14 +643,14 @@
       "updatedAt": "2026-08-15T01:01:54Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/08/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K43Fuhz14gY6IWI-Gxgl8yT5gJWm6cTkEMYeA360p7whEh3RQ0zKMBGXdb4cPMOEkuEndxi9cUK01tLelQcFMUNtDa9AMHOKbi18-jWYH7C2SerGpl20sRojZEIAC7uzAA1.png"
+      "imageUrl": "http://files.sunoresearch.com.br/n/uploads/2026/08/29_Mesa_de_escrit_rio_c_1_2026017_16335-1-jpg.webp"
     },
     {
       "id": "funds-c2e5e202a00c94ea987397eb",
       "title": "Na contramão do IFIX, fundos da Suno Asset fecham em alta de até 4%",
-      "summary": "Atualizacao de fundos capturada em suno.com.br.",
-      "details": "",
-      "url": "https://monitormercantil.com.br/petrobras-descobre-petroleo-na-foz-do-amazonas/",
+      "summary": "O modelo tradicional de saúde, baseado em consultas apenas quando surgem sintomas, vem sendo questionado por especialistas e pela própria população. Uma pesquisa divulgada pelo portal g1 mostra que 62,3% dos brasileiros não buscam atendimento médico quando precisam. Entre os prin",
+      "details": "O modelo tradicional de saúde, baseado em consultas apenas quando surgem sintomas, vem sendo questionado por especialistas e pela própria população. Uma pesquisa divulgada pelo portal g1 mostra que 62,3% dos brasileiros não buscam atendimento médico quando precisam. Entre os principais motivos estão a superlotação e de",
+      "url": "https://www.broadcast.com.br/knewin-dino/saude-preventiva-ganha-forca-com-inteligencia-artificial/",
       "source": "suno.com.br",
       "category": "funds",
       "tags": [
@@ -590,14 +661,15 @@
       "publishedAt": "2026-08-15T00:15:05Z",
       "updatedAt": "2026-08-15T00:15:05Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/08/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K43Fuhz14gY6IWI-Gxgl8yT5gJWm6cTkEMYeA360p7whEh3RQ0zKMBGXdb4cPMOEkuEndxi9cUK01tLelQcFMUNtDa9AMHOKbi18-jWYH7C2SerGpl20sRojZEIAC7uzAA1.png"
     },
     {
       "id": "latest-39faf6467ed9c4139dc5a824",
       "title": "Bancos perdem R$ 96,7 bi em 9 quedas do Ibovespa",
-      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
-      "details": "",
-      "url": "https://monitormercantil.com.br/selic-em-14-mantem-industria-em-alerta-e-exige-cautela-para-o-2o-semestre/",
+      "summary": "Ranking mostra as maiores perdas de valor de mercado do Ibovespa em nove pregões de queda; Itaú, bancos e Petrobras concentram as baixas",
+      "details": "Ranking mostra as maiores perdas de valor de mercado do Ibovespa em nove pregões de queda; Itaú, bancos e Petrobras concentram as baixas",
+      "url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/bancos-perdas-ibovespa-nove-quedas/",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -608,14 +680,15 @@
       "publishedAt": "2026-08-15T00:04:54Z",
       "updatedAt": "2026-08-15T00:04:54Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-17977103-2.webp"
     },
     {
       "id": "latest-7049a7c5d403ca829d966af6",
       "title": "Mercado de capitais: R$ 67,9 bi em ofertas em julho",
       "summary": "Atualizacao de ultima hora capturada em Monitor Mercantil.",
       "details": "",
-      "url": "https://monitormercantil.com.br/mercado-de-capitais-r-679-bi-em-ofertas-em-julho/",
+      "url": "https://monitormercantil.com.br/selic-em-14-mantem-industria-em-alerta-e-exige-cautela-para-o-2o-semestre/",
       "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
@@ -631,9 +704,9 @@
     {
       "id": "macro-b1e8885e3c6e2a3ff7cd82d7",
       "title": "Selic em 14% mantém indústria em alerta e exige cautela para o 2º semestre",
-      "summary": "Ranking mostra as maiores perdas de valor de mercado do Ibovespa em nove pregões de queda; Itaú, bancos e Petrobras concentram as baixas",
-      "details": "Ranking mostra as maiores perdas de valor de mercado do Ibovespa em nove pregões de queda; Itaú, bancos e Petrobras concentram as baixas",
-      "url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/bancos-perdas-ibovespa-nove-quedas/",
+      "summary": "Atualizacao de macro capturada em Monitor Mercantil.",
+      "details": "",
+      "url": "https://monitormercantil.com.br/mercado-de-capitais-r-679-bi-em-ofertas-em-julho/",
       "source": "Monitor Mercantil",
       "category": "macro",
       "tags": [
@@ -644,15 +717,14 @@
       "publishedAt": "2026-08-15T00:01:00Z",
       "updatedAt": "2026-08-15T00:01:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-17977103-2.webp"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-81cc1fab83f04f68472eec70",
       "title": "Petrobras descobre petróleo na Foz do Amazonas",
-      "summary": "Os fundos da Suno Asset encerraram a sessão desta sexta-feira (14) em alta, na contramão do mercado de FIIs. Enquanto os veículos da gestora avançaram, o IFIX, principal índice de fundos imobiliários da B3, recuou 0,17%, aos 3.686,34 pontos. O melhor desempenho entre os fundos da",
-      "details": "Os fundos da Suno Asset encerraram a sessão desta sexta-feira (14) em alta, na contramão do mercado de FIIs. Enquanto os veículos da gestora avançaram, o IFIX, principal índice de fundos imobiliários da B3, recuou 0,17%, aos 3.686,34 pontos. O melhor desempenho entre os fundos da casa foi o do SNID11, que registrou val",
-      "url": "https://www.suno.com.br/noticias/na-contramao-do-ifix-fundos-da-suno-asset-fecham-em-alta-de-ate-4/amp/",
+      "summary": "Atualizacao de ultima hora capturada em Monitor Mercantil.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcUp5M3FDamhpb2JoQjgzWEx5RU5YUlV0Z1BLLVBYVHlwRmlfSC03T3ZkWXNDd1JtWHo1UnR6YTd0UTVfbG96Z29sbEpnSFFaUXBfWlZfX2VFa2N0R1VueWQyb21vNzJValZsaEZQZ1h3NjVfX3ROM2hDX0VSNFlUN3FjZnRNUQ?oc=5",
       "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
@@ -663,15 +735,14 @@
       "publishedAt": "2026-08-14T23:57:58Z",
       "updatedAt": "2026-08-14T23:57:58Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "http://files.sunoresearch.com.br/n/uploads/2026/08/29_Mesa_de_escrit_rio_c_1_2026017_16335-1-jpg.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-086245e3453d547ec26381e7",
       "title": "Atraso em Constituição de Garantia não afeta 488ª emissão de CRIs da Opea",
       "summary": "Atualizacao de ultima hora capturada em Monitor Mercantil.",
       "details": "",
-      "url": "https://monitormercantil.com.br/atraso-em-constituicao-de-garantia-nao-afeta-488a-emissao-de-cris-da-opea/",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUWhTU1FTaUszYnBfc0l2Wi1sejZVb1hkbmpLWTQ1eE9aTUtKR2ZoYUdGUVhPMWxvMXZLbjNSWXFjeTh4SUhFVHVGcUE0VXZ3TmJLUkxRRHJ6ZG42YjVoRGpIVjAzZUlPLWE1Y3hHcl93OUJ3VFktUmRVd0F2OWIwbzRMbnFsaDJHcmZkeEFiaUVfcTAxU05DSmRSWWVBVjZXd3o5ZU5OOFlkdw?oc=5",
       "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
@@ -687,9 +758,9 @@
     {
       "id": "macro-39ee06249ea69b859cf50bcc",
       "title": "Brasil precisa dobrar investimentos em infraestrutura - 14/08/2026 - Concessões",
-      "summary": "País investe o equivalente a 2% do PIB por ano, mas necessita chegar ao menos a 4% para crescer de forma sustentável; modelo de concessões contribuiu para atrair investimentos",
-      "details": "País investe o equivalente a 2% do PIB por ano, mas necessita chegar ao menos a 4% para crescer de forma sustentável; modelo de concessões contribuiu para atrair investimentos",
-      "url": "https://estudio.folha.uol.com.br/concessoes/2026/08/brasil-precisa-dobrar-investimentos-em-infraestrutura.shtml",
+      "summary": "Atualizacao de macro capturada em Estúdio Folha.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc0wzazFJM3FjbDlQOTRhTHZIWUVsVzM0OXc3SllrN0hFY1RKNlFtY3F0eU9aMjZYbG5GZ08xX2xEVXJ4akwyUGhOSUNhTUdZbEZ3b1pYTkdNdEdHMW9FV0R5dDNEaU5HemJOUlNRVEI4QnpYMnQyT1YteEhWUklQclIyQ2RwQ0xROVdETExDb2x6S0xxMkdONUFWVTl3QzBVVzJLYTVlaWxkbHpaellWWA?oc=5",
       "source": "Estúdio Folha",
       "category": "macro",
       "tags": [
@@ -700,15 +771,14 @@
       "publishedAt": "2026-08-14T23:49:00Z",
       "updatedAt": "2026-08-14T23:49:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/13/17866529246a7e28fcc58f3_1786652924_3x2_xl.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-adbd4e9963f5638d416570c5",
       "title": "Itaú lidera perdas na maior sequência de quedas do Ibovespa desde 2023",
-      "summary": "Levantamento mostra Itaú liderando perdas de R$ 43,5 bilhões em nove quedas do Ibovespa. Veja o ranking completo das maiores baixas",
-      "details": "Levantamento mostra Itaú liderando perdas de R$ 43,5 bilhões em nove quedas do Ibovespa. Veja o ranking completo das maiores baixas",
-      "url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/itau-perde-valor-mercado-quedas-ibovespa/",
+      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSHRUbTRQZjZ1OGxjU1JVYzlUN0hsY2dFOHU2elg4a1FRWkVTeU5tLXZNM0JqcWVDSEdYS3g4eldwWnM4NGkyMXJrRlhCQzRCNWRyQ2lUT3hKZHg1TGdMRE10RTMxRUMtNlFqSW5heVVyeVBwUkNzeEcyM3ZLc3dNdXpGWEJ0N21BZUxSVjJqaG5SQ2tFR0dLZElxWEVFSkNMMF9xY2hYSzQ?oc=5",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -719,8 +789,7 @@
       "publishedAt": "2026-08-14T23:45:30Z",
       "updatedAt": "2026-08-14T23:45:30Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-2100673-1.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-3d35a21d33e7fa8be200704d",
@@ -775,24 +844,6 @@
       "updatedAt": "2026-08-14T23:10:06Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "latest-e7909b7a5ba98765f24b445f",
-      "title": "Eleição tarda, mas parece estar chegando aos preços",
-      "summary": "Atualizacao de ultima hora capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa050S2xEYVAtblMyWThsb091Ynd5dGJKTkxPbHpxMUtobUo5d3ZJZ3FlR1IybERlaW4zYVpBR05ydzh3TlZZZldVemhNWjhndkgtMEN1UVRnTHdyWU81T3ctNjU2Qmg4WmMzNE9aRDNBSXdteS0xSnRTYVIyZ29SRFdCQ1VjS0V1dy1OUERDV2dfenVpcGhJcUd6QmtlcG5XUUNZc3BB0gGrAUFVX3lxTE5JM3BlUXRVZnZEWHJtUFNLWlZnOUM1RFJqTUI2UUxjb0kwMENlREJTejVoMlBsck9tY21VczVHNmhRZDk0UlppQkV4cmdOM1dQWnZfNVpfVF9mSHZTZEpVUnlqQnJOV2V6T2JIMHVfY2FNODU4RmNmRUU1M1RGRXBSbFZvZG5Fcl9OT2ozbVVsbm8zTXZza0tmbzd0V0R0SFdRTWV2Q0IwN2JDWQ?oc=5",
-      "source": "Estadão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-14T23:08:57Z",
-      "updatedAt": "2026-08-14T23:08:57Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-23d5d486d5f2fbc362e02457",
@@ -957,12 +1008,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "macro-e9494b12236c87e03cf0a0a6",
+      "id": "macro-8228ac2f6f33379667fe2a28",
       "title": "Simples Nacional: NFS-e Nacional será obrigatória para ME e EPP a partir de 1º de novembro de 2026",
-      "summary": "Atualizacao de macro capturada em www.gov.br.",
+      "summary": "Atualizacao de macro capturada em gov.br.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQSjUyeUFnWGxkbDZNbzRfTzhSb0JyUFJhVTFQV0JuR1VNMjlZeEU3YmU3bWdnQjl3ODR0d04yVkl0aGZwZWgwS1Z5UVlwRWk5UlFMMjYtcERKOE4tZ2NoOXdFSmFNSDVQRVdrTFJvTERXTGdiSnJpVm5WbnUtN0dia3BhTFYwV2tkU1RzdGYtQ2tsZFhHY1oyRnp5UlNIcXUxdFA3M0d3blozWUdTZnI0eGNHSkJmNS11aFBpenk5QTZSVkxHWVlSNG42azNIMHdGcjFNd2ZjbE9lVDg4Z2lDSk5tUGdsYklsSXBTc2ZQcWMzWXRST3NqRFlZNA?oc=5",
-      "source": "www.gov.br",
+      "source": "gov.br",
       "category": "macro",
       "tags": [
         "macro",
@@ -1011,42 +1062,6 @@
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "macro-c400552d113d3d7563b5bcbf",
-      "title": "Bolsas de NY fecham em leve baixa olhando perspectivas para inflação e gastos com IA",
-      "summary": "Atualizacao de macro capturada em InfoMoney.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOUpEbnVMZm9yeUJRYnZ3Z3FvUXZjY0RGUE5hcU1HV1YtV1lwRW8tZlJrZUZNcWpzdmVEeFRZNU5VSEdkaEJqdHZxeExUTzNwUWhqMm4wWjlvcC1EdkJibUN2OE5fd3pPMTZqcDFJUmVtLWFIaHYxOWhtSkFXNUo4clNkMk1qbzhla1UtcFNzZG1uUjhLUlpjRlh4c3F3U2xyQmV4d2t3cWZvRzhxMUJOZ082SlBYOWwzdjVnWk9OWWnSAcYBQVVfeXFMT2ZjYUZnemg3QzVtbWZreXFmNEtiWDMyNEV0LVpmSVN4NHB3dWFtZmp5UkF3dGxXVnRyNFBsdkNmQjUyRWx6Z1lSYjZRYUhZQmhidzFHYlFFS1dYZ18tNEU2cFBOYXZ4Y3pRVFhBYU9LelZDQkozd0Nzak9pOWsyN1FWbFlWOHVoeUhULVZBQnlZYnJxU09yeVFpVXNiSzlMbUk2ZmhVSy16d1dCcGhNWjdpR1BCamVLdEJnY2ZhN29SeGxlTFB3?oc=5",
-      "source": "InfoMoney",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-14T21:11:56Z",
-      "updatedAt": "2026-08-14T21:11:56Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-c654c7e3d46c75073b8c6c86",
-      "title": "Nota fiscal deixa de ser rejeitada, mas risco permanece no contrato | SEGS Portal Nacional de Seguros,...",
-      "summary": "Atualizacao de macro capturada em SEGS Portal Nacional.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcW1WLXFXRkNJbHNVUFA4dC1XajhTNFY4aFd2bDlXT1BIbXBMcV93S1ZVWVR6ZHhMWC1WYXBLNEQ5NExaZ1ppRUoyREItejh3dVBSajlFNDdKMjVIUnVVdElxOXBkSFNrbUU4NlVRRVpVT0NSWTlUTHpEU1kzYzVGcUhGM01jeWJlQ2w5M3c3cGdCeXBjRXhPU0tIU3VheWZqSFZ1aWRKaVZpZi00QnfSAa4BQVVfeXFMUHFtVi1xV0ZDSWxzVVBQOHQtV2o4UzRWOGhXdmw5V09QSG1wTHFfd0tWVVlUemR4TFgtVmFwSzREOTRMWmdaaUVKMkRCLXo4d3VQUmo5RTQ3SjI1SFJ1VXRJcTlwZEhTa21FODZVUUVaVU9DUlk5VEx6RFNZM2M1RnFIRjNNY3liZUNsOTN3N3BnQnlwY0V4T1NLSFN1YXlmakhWdWlkSmlWaWYtNEJ3?oc=5",
-      "source": "SEGS Portal Nacional",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-14T21:09:15Z",
-      "updatedAt": "2026-08-14T21:09:15Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
       "id": "funds-ef3d8f1fa0a906575d9bc92b",
       "title": "Preços de commodities agrícolas dependem de fatores financeiros",
       "summary": "Atualizacao de fundos capturada em boca.com.br.",
@@ -1063,24 +1078,6 @@
       "updatedAt": "2026-08-14T20:15:35Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-57f9d519cc77f63bc74a3bcc",
-      "title": "Reciprocidade contra EUA pode ampliar custos para empresas e consumidores no Brasil",
-      "summary": "Atualizacao de empresas capturada em Times Brasil | CNBC.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSnBYVHFsX1E4NmtIcmEyb1U2ZkZTdENTRlFCd3V2NFZ2NVFJUTUwVzk1dkNfSEQ2RnVRTV9ZQ3RZaFM3bjZOUHg4MHJjZk5QUU81bjhTd0N4RDktSkJnUGZzbnRvcHZwRmNjQVBjQ01SWmNUTDc1eExYemFzWXVQUGFiNmZCZ244a1NrTmxyNW1sbVpFRmphQWdTUXlWRm5reU9ST1ZxV1EwWmxMNHJwSERGcjhKcklCaFE?oc=5",
-      "source": "Times Brasil | CNBC",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-08-14T19:32:00Z",
-      "updatedAt": "2026-08-14T19:32:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-7f3fccdd98a970059c4f24aa",
