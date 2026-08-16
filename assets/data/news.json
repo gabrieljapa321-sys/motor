@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-16T03:32:35Z",
-  "generatedAt": "2026-08-16T03:32:35Z",
+  "updatedAt": "2026-08-16T04:59:47Z",
+  "generatedAt": "2026-08-16T04:59:47Z",
   "categories": [
     {
       "id": "all",
@@ -24,6 +24,10 @@
     }
   ],
   "sources": [
+    {
+      "id": "acessa-com",
+      "label": "Acessa.com"
+    },
     {
       "id": "am-post",
       "label": "AM POST"
@@ -86,7 +90,7 @@
     },
     {
       "id": "folhaonline-es",
-      "label": "folhaonline.es"
+      "label": "Folhaonline.es"
     },
     {
       "id": "g1",
@@ -101,12 +105,12 @@
       "label": "Gazeta de São Paulo"
     },
     {
-      "id": "gazeta-do-paran",
-      "label": "Gazeta do Paraná"
-    },
-    {
       "id": "gazeta-do-povo",
       "label": "Gazeta do Povo"
+    },
+    {
+      "id": "gzh",
+      "label": "GZH"
     },
     {
       "id": "h2foz-com-br",
@@ -115,10 +119,6 @@
     {
       "id": "infomoney",
       "label": "InfoMoney"
-    },
-    {
-      "id": "inforchannel",
-      "label": "Inforchannel"
     },
     {
       "id": "investing-com-brasil-finan-as-c-mbio-e-investimentos",
@@ -133,12 +133,16 @@
       "label": "Jornal GGN"
     },
     {
+      "id": "kucoin",
+      "label": "KuCoin"
+    },
+    {
       "id": "metr-poles",
       "label": "Metrópoles"
     },
     {
-      "id": "moneytimes-com-br",
-      "label": "moneytimes.com.br"
+      "id": "money-times",
+      "label": "Money Times"
     },
     {
       "id": "ncnews-com-br",
@@ -149,14 +153,6 @@
       "label": "O Cafezinho"
     },
     {
-      "id": "portal-abc-do-abc",
-      "label": "Portal ABC do ABC"
-    },
-    {
-      "id": "portal-agora-tocantins",
-      "label": "Portal Agora Tocantins"
-    },
-    {
       "id": "portal-chapada-grande",
       "label": "Portal Chapada Grande"
     },
@@ -165,8 +161,8 @@
       "label": "Portal | TN Sul"
     },
     {
-      "id": "qconcursos-folha-dirigida",
-      "label": "Qconcursos Folha Dirigida"
+      "id": "redeutv-com-br",
+      "label": "redeutv.com.br"
     },
     {
       "id": "sbt-news",
@@ -197,6 +193,10 @@
       "label": "TNOnline"
     },
     {
+      "id": "tribuna-do-sert-o",
+      "label": "Tribuna do Sertão"
+    },
+    {
       "id": "uol-not-cias",
       "label": "UOL Notícias"
     },
@@ -211,11 +211,87 @@
   ],
   "items": [
     {
+      "id": "companies-f04ad6107fc458afc8d017fd",
+      "title": "Empresas brasileiras aceleram ajustes internos para a nova reforma tributária",
+      "summary": "Empresas brasileiras correm contra o tempo para adaptar sistemas ao IBS e CBS. Entenda os desafios da reforma tributária e o prazo para janeiro de 2027.",
+      "details": "Empresas brasileiras correm contra o tempo para adaptar sistemas ao IBS e CBS. Entenda os desafios da reforma tributária e o prazo para janeiro de 2027.",
+      "url": "https://www.gazetadopovo.com.br/economia/empresas-brasileiras-aceleram-ajustes-internos-para-a-nova-reforma-tributaria/",
+      "source": "redeutv.com.br",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-08-16T04:10:00Z",
+      "updatedAt": "2026-08-16T04:10:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/08/16010308/reforma-tributaria-adaptacao-empresas-1.jpg"
+    },
+    {
+      "id": "macro-a13e846ba4d130640595b452",
+      "title": "Fitch eleva nota de crédito do município do Rio de Janeiro a ‘AAA’",
+      "summary": "Agência de classificação de risco aponta melhoria consistente na gestão fiscal da cidade nos últimos anos",
+      "details": "Agência de classificação de risco aponta melhoria consistente na gestão fiscal da cidade nos últimos anos",
+      "url": "https://www.tribunadosertao.com.br/financas/2026/08/16/960704-fitch-eleva-nota-de-credito-do-municipio-do-rio-de-janeiro-a-aaa",
+      "source": "Tribuna do Sertão",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-16T04:06:33Z",
+      "updatedAt": "2026-08-16T04:06:33Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://tribunadosertao.com.br/img/share.png"
+    },
+    {
+      "id": "companies-0d7ebe19268008a4ddab3d22",
+      "title": "Adaptação à reforma tributária: empresas correm para ajustar sistemas até 2027",
+      "summary": "Conheça o candidato do DEMOCRATA e o seu número na urna; eleições ocorrem no dia 4 de outubro",
+      "details": "Conheça o candidato do DEMOCRATA e o seu número na urna; eleições ocorrem no dia 4 de outubro",
+      "url": "https://gauchazh.clicrbs.com.br/politica/eleicoes/noticia/2026/08/quem-e-rodrigo-fiscal-do-povo-candidato-a-deputado-estadual-pelo-rio-grande-do-sul-nas-eleicoes-de-2026-cmsv8zqro02v40159pimp8q6q.html",
+      "source": "Gazeta do Povo",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-08-16T04:03:00Z",
+      "updatedAt": "2026-08-16T04:03:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://www.rbsdirect.com.br/filestore/8/9/6/4/4/0/5_edc78e611e0e57a/5044698_b56ca25387f8aed.jpg?w=1024&h=512&a=c&version=1575255600"
+    },
+    {
+      "id": "macro-a261f25c26a2cc68eff7d37c",
+      "title": "Quem é Rodrigo Fiscal do Povo, candidato a deputado estadual pelo Rio Grande do Sul nas eleições de 2026",
+      "summary": "Empresas brasileiras correm contra o tempo para adaptar sistemas ao IBS e CBS. Entenda os desafios da reforma tributária e o prazo para janeiro de 2027.",
+      "details": "Empresas brasileiras correm contra o tempo para adaptar sistemas ao IBS e CBS. Entenda os desafios da reforma tributária e o prazo para janeiro de 2027.",
+      "url": "https://redeutv.com.br/empresas-brasileiras-aceleram-ajustes-internos-para-a-nova-reforma-tributaria",
+      "source": "GZH",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-16T03:39:25Z",
+      "updatedAt": "2026-08-16T03:39:25Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/08/16010308/reforma-tributaria-adaptacao-empresas-1-660x372.jpg"
+    },
+    {
       "id": "funds-441a7e9916cdc76cdf32ffc6",
       "title": "O Conselho 1 enfrenta pressão para acelerar o desembolso de fundos de investimento público.",
-      "summary": "Com novas barreiras comerciais e reação do Brasil, empresários reavaliam exportações e presença direta no mercado americano",
-      "details": "Com novas barreiras comerciais e reação do Brasil, empresários reavaliam exportações e presença direta no mercado americano",
-      "url": "https://tnsul.com/2026/08/15/tarifaco-pode-empurrar-empresas-brasileiras-para-dentro-dos-estados-unidos/",
+      "summary": "Com um investimento de capital planejado de 1.244,109 bilhões de VND para 15 projetos em 2026, mas apenas 259,819 bilhões de VND desembolsados ​​até o momento, atingindo 20,88%, o Conselho de Gestão de Projetos nº 1 (Conselho 1) enfrenta imensa pressão para acelerar o desembolso.",
+      "details": "Com um investimento de capital planejado de 1.244,109 bilhões de VND para 15 projetos em 2026, mas apenas 259,819 bilhões de VND desembolsados ​​até o momento, atingindo 20,88%, o Conselho de Gestão de Projetos nº 1 (Conselho 1) enfrenta imensa pressão para acelerar o desembolso.",
+      "url": "https://www.vietnam.vn/pt/ban-1-truoc-ap-luc-tang-toc-giai-ngan-von-dau-tu-cong",
       "source": "Vietnam.vn",
       "category": "funds",
       "tags": [
@@ -227,14 +303,32 @@
       "updatedAt": "2026-08-16T03:26:08Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://tnsul.com/wp-content/uploads/2026/08/economia-foto-desenvolvida-por-IA-1024x683.png"
+      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/08/16/1786834274577_dscf4528.jpeg"
+    },
+    {
+      "id": "macro-12077a9ba1aeaba534190844",
+      "title": "Zona do euro: PIB cresce 0,4% no 2º tri ante 1º tri e confirma estimativa inicial",
+      "summary": "O Produto Interno Bruto (PIB) da zona do euro cresceu 0,4% no segundo trimestre de 2026 ante os tr&ecirc;s meses anteriores, segundo revis&atilde;o divulgada nesta sexta-feira, 14, pela Eurostat, a ag&ecirc;ncia de estat&iacute;sticas da Uni&atilde;o Euro",
+      "details": "O Produto Interno Bruto (PIB) da zona do euro cresceu 0,4% no segundo trimestre de 2026 ante os tr&ecirc;s meses anteriores, segundo revis&atilde;o divulgada nesta sexta-feira, 14, pela Eurostat, a ag&ecirc;ncia de estat&iacute;sticas da Uni&atilde;o Euro",
+      "url": "https://www.acessa.com/economia/2026/08/amp/337056-zona-do-euro-pib-cresce-04-no-2-tri-ante-1-tri-e-confirma-estimativa-inicial.html",
+      "source": "Acessa.com",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-16T03:04:03Z",
+      "updatedAt": "2026-08-16T03:04:03Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "companies-5c84c1c11c17706b78787939",
       "title": "Tarifaço pode empurrar empresas brasileiras para dentro dos Estados Unidos",
-      "summary": "Atualizacao de empresas capturada em Portal | TN Sul.",
-      "details": "",
-      "url": "https://www1.folha.uol.com.br/colunas/painel/2026/08/flavio-bolsonaro-enviara-nova-regra-fiscal-ao-congresso-mas-so-explicara-depois-diz-coordenador.shtml",
+      "summary": "Com novas barreiras comerciais e reação do Brasil, empresários reavaliam exportações e presença direta no mercado americano",
+      "details": "Com novas barreiras comerciais e reação do Brasil, empresários reavaliam exportações e presença direta no mercado americano",
+      "url": "https://tnsul.com/2026/08/15/tarifaco-pode-empurrar-empresas-brasileiras-para-dentro-dos-estados-unidos/",
       "source": "Portal | TN Sul",
       "category": "companies",
       "tags": [
@@ -246,14 +340,14 @@
       "updatedAt": "2026-08-16T02:00:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/15/17868266866a80cfbeeebb0_1786826686_3x2_rt.jpg"
+      "imageUrl": "https://tnsul.com/wp-content/uploads/2026/08/economia-foto-desenvolvida-por-IA-1024x683.png"
     },
     {
       "id": "macro-9d94fc9383c18d5e6c8201ac",
       "title": "Painel: Flávio Bolsonaro enviará nova regra fiscal ao Congresso, mas só explicará depois, diz coordenador",
-      "summary": "Com um investimento de capital planejado de 1.244,109 bilhões de VND para 15 projetos em 2026, mas apenas 259,819 bilhões de VND desembolsados ​​até o momento, atingindo 20,88%, o Conselho de Gestão de Projetos nº 1 (Conselho 1) enfrenta imensa pressão para acelerar o desembolso.",
-      "details": "Com um investimento de capital planejado de 1.244,109 bilhões de VND para 15 projetos em 2026, mas apenas 259,819 bilhões de VND desembolsados ​​até o momento, atingindo 20,88%, o Conselho de Gestão de Projetos nº 1 (Conselho 1) enfrenta imensa pressão para acelerar o desembolso.",
-      "url": "https://www.vietnam.vn/pt/ban-1-truoc-ap-luc-tang-toc-giai-ngan-von-dau-tu-cong",
+      "summary": "Atualizacao de macro capturada em Folha de S.Paulo.",
+      "details": "",
+      "url": "https://www1.folha.uol.com.br/colunas/painel/2026/08/flavio-bolsonaro-enviara-nova-regra-fiscal-ao-congresso-mas-so-explicara-depois-diz-coordenador.shtml",
       "source": "Folha de S.Paulo",
       "category": "macro",
       "tags": [
@@ -265,7 +359,7 @@
       "updatedAt": "2026-08-16T02:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/08/16/1786834274577_dscf4528.jpeg"
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/15/17868266866a80cfbeeebb0_1786826686_3x2_rt.jpg"
     },
     {
       "id": "latest-6008d7aeee6cfb0b16920f4e",
@@ -289,9 +383,9 @@
     {
       "id": "latest-f07a0190cad3dc7b1ce568e1",
       "title": "Quem é Ivo Kos, empresário do mercado financeiro preso acusado de agredir a mulher em SP",
-      "summary": "O Citi passou a prever novo corte de 0,25 ponto percentual da Selic em setembro, para 13,75% ao ano, após a última decisão do Copom.",
-      "details": "O Citi passou a prever novo corte de 0,25 ponto percentual da Selic em setembro, para 13,75% ao ano, após a última decisão do Copom.",
-      "url": "https://www.ocafezinho.com/2026/08/15/citi-passa-a-prever-selic-em-1375-em-setembro/",
+      "summary": "Defesa diz que não vai se pronunciar. Caso foi registrado como lesão corporal e violência doméstica na 4ª DDM",
+      "details": "Defesa diz que não vai se pronunciar. Caso foi registrado como lesão corporal e violência doméstica na 4ª DDM",
+      "url": "https://www.terra.com.br/noticias/brasil/cidades/quem-e-ivo-kos-empresario-do-mercado-financeiro-preso-acusado-de-agredir-a-mulher-em-sp,c74501894577a1d7a4386d13e983b038urn7qdij.html",
       "source": "Terra",
       "category": "latest",
       "tags": [
@@ -303,14 +397,14 @@
       "updatedAt": "2026-08-16T01:55:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.ocafezinho.com/wp-content/uploads/2026/08/1920px-imagens-de-brasc3adlia-banco-central-do-brasil-285278120254229.jpg"
+      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/08/16/2071857654-g6dh6zjex5gxrpp34jrqd6fgvy.jpeg"
     },
     {
       "id": "macro-033e95abf24d12db8406c540",
       "title": "Citi passa a prever Selic em 13,75% em setembro",
-      "summary": "Defesa diz que não vai se pronunciar. Caso foi registrado como lesão corporal e violência doméstica na 4ª DDM",
-      "details": "Defesa diz que não vai se pronunciar. Caso foi registrado como lesão corporal e violência doméstica na 4ª DDM",
-      "url": "https://www.terra.com.br/noticias/brasil/cidades/quem-e-ivo-kos-empresario-do-mercado-financeiro-preso-acusado-de-agredir-a-mulher-em-sp,c74501894577a1d7a4386d13e983b038urn7qdij.html",
+      "summary": "Atualizacao de macro capturada em O Cafezinho.",
+      "details": "",
+      "url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/15/prisao-flagrante-agressao-mulher-empresario.ghtm",
       "source": "O Cafezinho",
       "category": "macro",
       "tags": [
@@ -321,8 +415,26 @@
       "publishedAt": "2026-08-16T01:30:00Z",
       "updatedAt": "2026-08-16T01:30:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/08/16/2071857654-g6dh6zjex5gxrpp34jrqd6fgvy.jpeg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "latest-2191c8bbb500e33a8e6ff861",
+      "title": "Empresário do mercado financeiro é preso em flagrante por agredir a mulher",
+      "summary": "O Citi passou a prever novo corte de 0,25 ponto percentual da Selic em setembro, para 13,75% ao ano, após a última decisão do Copom.",
+      "details": "O Citi passou a prever novo corte de 0,25 ponto percentual da Selic em setembro, para 13,75% ao ano, após a última decisão do Copom.",
+      "url": "https://www.ocafezinho.com/2026/08/15/citi-passa-a-prever-selic-em-1375-em-setembro/",
+      "source": "UOL Notícias",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-16T01:26:17Z",
+      "updatedAt": "2026-08-16T01:26:17Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.ocafezinho.com/wp-content/uploads/2026/08/1920px-imagens-de-brasc3adlia-banco-central-do-brasil-285278120254229.jpg"
     },
     {
       "id": "macro-df6e1de12bf0e01434b6a23b",
@@ -365,9 +477,9 @@
     {
       "id": "latest-bfb5cfc5f4d681b5f71358a8",
       "title": "Ivo Kos, executivo do mercado financeiro, é preso após denúncia de agressão contra a esposa em SP",
-      "summary": "A Triumph Motorcycles Brasil celebra o encerramento do ano fiscal de 2026 (de julho de 2025 a junho de 2026) em um cenário positivo.",
-      "details": "A Triumph Motorcycles Brasil celebra o encerramento do ano fiscal de 2026 (de julho de 2025 a junho de 2026) em um cenário positivo.",
-      "url": "https://www.gazetasp.com.br/automotor/triumph-encerra-ano-fiscal-de-2026-e-destaca-presenca-no-mercado-brasileiro/",
+      "summary": "Atualizacao de ultima hora capturada em Diário do Centro do Mundo.",
+      "details": "",
+      "url": "https://www.fatosdematogrosso.com.br/cidades/prefeitura-de-cuiaba-recua-e-revoga-obrigacao-de-vincular-pix-e-cartao-a-nota-fiscal/14830",
       "source": "Diário do Centro do Mundo",
       "category": "latest",
       "tags": [
@@ -378,33 +490,14 @@
       "publishedAt": "2026-08-16T00:59:00Z",
       "updatedAt": "2026-08-16T00:59:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://cdn.gazetasp.com.br/uploads/2026/08/triumph-divulgacao.jpg"
-    },
-    {
-      "id": "latest-5ebb8a7228d465546ecd4a3f",
-      "title": "Empresário do mercado financeiro é preso em flagrante por agredir a mulher",
-      "summary": "Atualizacao de ultima hora capturada em UOL Notícias.",
-      "details": "",
-      "url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/15/prisao-flagrante-agressao-mulher-empresario.ghtm",
-      "source": "UOL Notícias",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-16T00:46:08Z",
-      "updatedAt": "2026-08-16T00:46:08Z",
-      "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-fff17f97d4bb146561b5adbf",
       "title": "Prefeitura de Cuiabá recua e revoga obrigação de vincular Pix e cartão à nota fiscal",
-      "summary": "Governo projeta salário mínimo de R$ 1.741 para 2027, acima da previsão anterior. Valor ainda será definido no Orçamento do próximo ano.",
-      "details": "Governo projeta salário mínimo de R$ 1.741 para 2027, acima da previsão anterior. Valor ainda será definido no Orçamento do próximo ano.",
-      "url": "https://www.terra.com.br/noticias/salario-minimo-de-2027-pode-chegar-a-r-1741-veja-o-que-muda,a28ef1aae28f8a3b8e99c5828771a7d1khajonw2.html",
+      "summary": "A Triumph Motorcycles Brasil celebra o encerramento do ano fiscal de 2026 (de julho de 2025 a junho de 2026) em um cenário positivo.",
+      "details": "A Triumph Motorcycles Brasil celebra o encerramento do ano fiscal de 2026 (de julho de 2025 a junho de 2026) em um cenário positivo.",
+      "url": "https://www.gazetasp.com.br/automotor/triumph-encerra-ano-fiscal-de-2026-e-destaca-presenca-no-mercado-brasileiro/",
       "source": "Fatos de Mato Grosso",
       "category": "macro",
       "tags": [
@@ -416,14 +509,14 @@
       "updatedAt": "2026-08-16T00:16:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/08/15/1944139406-pis-pasep-2026-calendario-pagamento-abono-fevereiro.jpg"
+      "imageUrl": "https://cdn.gazetasp.com.br/uploads/2026/08/triumph-divulgacao.jpg"
     },
     {
       "id": "macro-a4e6636793b6cfffd9677ac6",
       "title": "“Nota fiscal é só a ponta do iceberg”: empresas correm para se adaptar à reforma tributária",
-      "summary": "Atualizacao de macro capturada em Gazeta do Povo.",
-      "details": "",
-      "url": "https://www.fatosdematogrosso.com.br/cidades/prefeitura-de-cuiaba-recua-e-revoga-obrigacao-de-vincular-pix-e-cartao-a-nota-fiscal/14830",
+      "summary": "“Nota fiscal é só a ponta do iceberg”: empresas fazem corrida para se adaptar à reforma tributária na reta final do período de adequação.",
+      "details": "“Nota fiscal é só a ponta do iceberg”: empresas fazem corrida para se adaptar à reforma tributária na reta final do período de adequação.",
+      "url": "https://www.gazetadopovo.com.br/economia/nota-fiscal-e-so-a-ponta-do-iceberg-empresas-correm-para-se-adaptar-a-reforma-tributaria/",
       "source": "Gazeta do Povo",
       "category": "macro",
       "tags": [
@@ -434,14 +527,15 @@
       "publishedAt": "2026-08-16T00:02:00Z",
       "updatedAt": "2026-08-16T00:02:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/08/13111957/reforma-tributaria-adaptacao-empresas.jpg"
     },
     {
       "id": "latest-dd8237ee71d2be3549c06c77",
       "title": "Empresário do mercado financeiro de SP é preso acusado de agredir a mulher",
-      "summary": "“Nota fiscal é só a ponta do iceberg”: empresas fazem corrida para se adaptar à reforma tributária na reta final do período de adequação.",
-      "details": "“Nota fiscal é só a ponta do iceberg”: empresas fazem corrida para se adaptar à reforma tributária na reta final do período de adequação.",
-      "url": "https://www.gazetadopovo.com.br/economia/nota-fiscal-e-so-a-ponta-do-iceberg-empresas-correm-para-se-adaptar-a-reforma-tributaria/",
+      "summary": "Dentista de 27 anos exibiu rosto machucado nas redes e diz sofrer violência há pelo menos dois anos; defesa não comenta investigação",
+      "details": "Dentista de 27 anos exibiu rosto machucado nas redes e diz sofrer violência há pelo menos dois anos; defesa não comenta investigação",
+      "url": "https://www.band.com.br/noticias/empresario-do-mercado-financeiro-e-preso-em-sp-sob-acusacao-de-violencia-domestica-202608151918",
       "source": "band.com.br",
       "category": "latest",
       "tags": [
@@ -453,14 +547,14 @@
       "updatedAt": "2026-08-15T22:41:04Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/08/13111957/reforma-tributaria-adaptacao-empresas.jpg"
+      "imageUrl": "https://img.band.com.br/image/2026/08/15/giullia-falcao-kos-de-27-anos-20115.jpg"
     },
     {
       "id": "macro-4cd490aa104d482b8d262349",
       "title": "Salário mínimo de 2027 pode chegar a R$ 1.741; veja o que muda",
-      "summary": "Dentista de 27 anos exibiu rosto machucado nas redes e diz sofrer violência há pelo menos dois anos; defesa não comenta investigação",
-      "details": "Dentista de 27 anos exibiu rosto machucado nas redes e diz sofrer violência há pelo menos dois anos; defesa não comenta investigação",
-      "url": "https://www.band.com.br/noticias/empresario-do-mercado-financeiro-e-preso-em-sp-sob-acusacao-de-violencia-domestica-202608151918",
+      "summary": "Candidato ao Senado por Alagoas declarou R$ 25,9 milhões em bens em 2026; em 2022, patrimônio informado era de R$ 5,9 milhões",
+      "details": "Candidato ao Senado por Alagoas declarou R$ 25,9 milhões em bens em 2026; em 2022, patrimônio informado era de R$ 5,9 milhões",
+      "url": "https://sbtnews.sbt.com.br/noticia/politica/patrimonio-de-arthur-lira-cresce-335-em-4-anos",
       "source": "Terra",
       "category": "macro",
       "tags": [
@@ -472,14 +566,14 @@
       "updatedAt": "2026-08-15T22:35:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://img.band.com.br/image/2026/08/15/giullia-falcao-kos-de-27-anos-20115.jpg"
+      "imageUrl": "https://sbt-news-assets-prod.s3.sa-east-1.amazonaws.com/arthur_lira_deputado_1_10_2025_3cb999476a.jpg"
     },
     {
       "id": "macro-6b6b30f3ebf4f6af974fc490",
       "title": "Patrimônio de Arthur Lira cresce 335% em 4 anos",
-      "summary": "Candidato ao Senado por Alagoas declarou R$ 25,9 milhões em bens em 2026; em 2022, patrimônio informado era de R$ 5,9 milhões",
-      "details": "Candidato ao Senado por Alagoas declarou R$ 25,9 milhões em bens em 2026; em 2022, patrimônio informado era de R$ 5,9 milhões",
-      "url": "https://sbtnews.sbt.com.br/noticia/politica/patrimonio-de-arthur-lira-cresce-335-em-4-anos",
+      "summary": "Governo projeta salário mínimo de R$ 1.741 para 2027, acima da previsão anterior. Valor ainda será definido no Orçamento do próximo ano.",
+      "details": "Governo projeta salário mínimo de R$ 1.741 para 2027, acima da previsão anterior. Valor ainda será definido no Orçamento do próximo ano.",
+      "url": "https://www.terra.com.br/noticias/salario-minimo-de-2027-pode-chegar-a-r-1741-veja-o-que-muda,a28ef1aae28f8a3b8e99c5828771a7d1khajonw2.html",
       "source": "SBT News",
       "category": "macro",
       "tags": [
@@ -491,14 +585,14 @@
       "updatedAt": "2026-08-15T22:33:01Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://sbt-news-assets-prod.s3.sa-east-1.amazonaws.com/arthur_lira_deputado_1_10_2025_3cb999476a.jpg"
+      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/08/15/1944139406-pis-pasep-2026-calendario-pagamento-abono-fevereiro.jpg"
     },
     {
       "id": "latest-636737fb6cbc2edfeddeb7bf",
       "title": "Empresário do mercado financeiro é preso em SP sob acusação de violência doméstica - TNOnline",
-      "summary": "O empresário Ivo Kos, de 48 anos, foi preso na madrugada deste sábado, 15, em Pinheiros, zona oeste de São Paulo, sob acusação de ter agredido a mulher, a cirurgiã-dentista Giullia Falcão Kos, de 27 anos. Em publicação nas redes sociais, ela mostrou o ros",
-      "details": "O empresário Ivo Kos, de 48 anos, foi preso na madrugada deste sábado, 15, em Pinheiros, zona oeste de São Paulo, sob acusação de ter agredido a mulher, a cirurgiã-dentista Giullia Falcão Kos, de 27 anos. Em publicação nas redes sociais, ela mostrou o ros",
-      "url": "https://tnonline.uol.com.br/amphtml/noticias/cotidiano/empresario-do-mercado-financeiro-e-preso-em-sp-sob-acusacao-de-violencia-domestica-1127215",
+      "summary": "Mulher chegou a ser internada e, conforme o boletim de ocorrência, foi agredida com um golpe de taco de baseball e ameaçada com um taser de choque; defesa diz que não vai se manifestar",
+      "details": "Mulher chegou a ser internada e, conforme o boletim de ocorrência, foi agredida com um golpe de taco de baseball e ameaçada com um taser de choque; defesa diz que não vai se manifestar",
+      "url": "https://www.terra.com.br/noticias/brasil/cidades/empresario-do-mercado-financeiro-e-preso-em-sp-sob-acusacao-de-violencia-domestica,842e62f243c8906d0e835f69208d442bkywj4rzv.html",
       "source": "TNOnline",
       "category": "latest",
       "tags": [
@@ -510,14 +604,33 @@
       "updatedAt": "2026-08-15T22:10:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://tnonline.uol.com.br/themes/portal-tno-deploy/assets/img/tnonline-share.png"
+      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/08/15/1666083408-gopafwu6hvh5hnv7bbm77c7oy4.jpeg"
     },
     {
-      "id": "latest-a2e8cd1ff0e4d580f61451ec",
+      "id": "latest-248096c507ec13d435cf95e9",
       "title": "Empresário do mercado financeiro é preso em SP sob acusação de violência doméstica",
       "summary": "Mulher chegou a ser internada e, conforme o boletim de ocorrência, foi agredida com um golpe de taco de baseball e ameaçada com um taser de choque; defesa diz que não vai se manifestar",
       "details": "Mulher chegou a ser internada e, conforme o boletim de ocorrência, foi agredida com um golpe de taco de baseball e ameaçada com um taser de choque; defesa diz que não vai se manifestar",
       "url": "https://www.estadao.com.br/em-alta/sao-paulo/empresario-do-mercado-financeiro-e-preso-em-sp-sob-acusacao-de-violencia-domestica/",
+      "source": "Terra",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-15T21:57:00Z",
+      "updatedAt": "2026-08-15T21:57:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/GOPAFWU6HVH5HNV7BBM77C7OY4.jpeg?quality=80&auth=75d50700a9b83c981d4279c385b19f37b6a6e1a54295df1e3c363f10f5f2bea8&width=1200&height=630&smart=true"
+    },
+    {
+      "id": "latest-f4c0e8bae7c8ae93289c207c",
+      "title": "Empresário do mercado financeiro é preso em SP sob acusação de violência doméstica",
+      "summary": "Resultado estava previsto para sair na sexta-feira (14), mas não foi apresentado; procurada, varejista não comentou motivo de adiamentos",
+      "details": "Resultado estava previsto para sair na sexta-feira (14), mas não foi apresentado; procurada, varejista não comentou motivo de adiamentos",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/casas-bahia-volta-a-adiar-balanco-veja-nova-previsao-de-divulgacao-do-segundo-trimestre/",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -525,18 +638,37 @@
         "bolsa",
         "macro"
       ],
-      "publishedAt": "2026-08-15T21:49:37Z",
-      "updatedAt": "2026-08-15T21:49:37Z",
+      "publishedAt": "2026-08-15T21:51:05Z",
+      "updatedAt": "2026-08-15T21:51:05Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/GOPAFWU6HVH5HNV7BBM77C7OY4.jpeg?quality=80&auth=75d50700a9b83c981d4279c385b19f37b6a6e1a54295df1e3c363f10f5f2bea8&width=1200&height=630&smart=true"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/TIQAETURORPKLJEUTMYUTCV75M.jpg?quality=80&auth=c6a91515759b560d9bfcd736d7e6d1020d983e0d153fa9373c43ca4852006027&width=1200&height=630&smart=true"
+    },
+    {
+      "id": "latest-9e25787bd96a7fa4217bf8ad",
+      "title": "Casas Bahia adia balanço de novo e mercado fica em alerta",
+      "summary": "O empresário Ivo Kos, de 48 anos, foi preso na madrugada deste sábado, 15, em Pinheiros, zona oeste de São Paulo, sob acusação de ter agredido a mulher, a cirurgiã-dentista Giullia Falcão Kos, de 27 anos. Em publicação nas redes sociais, ela mostrou o ros",
+      "details": "O empresário Ivo Kos, de 48 anos, foi preso na madrugada deste sábado, 15, em Pinheiros, zona oeste de São Paulo, sob acusação de ter agredido a mulher, a cirurgiã-dentista Giullia Falcão Kos, de 27 anos. Em publicação nas redes sociais, ela mostrou o ros",
+      "url": "https://tnonline.uol.com.br/amphtml/noticias/cotidiano/empresario-do-mercado-financeiro-e-preso-em-sp-sob-acusacao-de-violencia-domestica-1127215",
+      "source": "SpaceMoney",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-15T21:46:11Z",
+      "updatedAt": "2026-08-15T21:46:11Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://tnonline.uol.com.br/themes/portal-tno-deploy/assets/img/tnonline-share.png"
     },
     {
       "id": "latest-435da30fb9dfd30bfeda19db",
       "title": "Ivo Kos: empresário preso por violência doméstica já estava na mira da CVM",
-      "summary": "A prisão de Ivo Kos por suspeita de violência doméstica contra a esposa, a dentista Giullia Falcão Kos, de 27 anos, colocou sob os holofotes um nome conhecido",
-      "details": "A prisão de Ivo Kos por suspeita de violência doméstica contra a esposa, a dentista Giullia Falcão Kos, de 27 anos, colocou sob os holofotes um nome conhecido",
-      "url": "https://ncnews.com.br/2026/08/15/ivo-kos-empresario-preso-por-violencia-domestica-ja-estava-na-mira-da-cvm/",
+      "summary": "Casas Bahia adia pela segunda vez a divulgação do balanço do 2T26; resultado deve sair na segunda-feira (17) e mercado observa pressão de juros",
+      "details": "Casas Bahia adia pela segunda vez a divulgação do balanço do 2T26; resultado deve sair na segunda-feira (17) e mercado observa pressão de juros",
+      "url": "https://www.spacemoney.com.br/investimentos/acoes/casas-bahia-adia-balanco-2t26-novamente/",
       "source": "ncnews.com.br",
       "category": "latest",
       "tags": [
@@ -548,14 +680,33 @@
       "updatedAt": "2026-08-15T21:23:53Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-35894330-2.webp"
+    },
+    {
+      "id": "latest-f0320b8002fc61cb7f25c756",
+      "title": "Empresário da Faria Lima é preso por agredir e ameaçar mulher em SP: 'Vi a morte de perto', diz vítima",
+      "summary": "A prisão de Ivo Kos por suspeita de violência doméstica contra a esposa, a dentista Giullia Falcão Kos, de 27 anos, colocou sob os holofotes um nome conhecido",
+      "details": "A prisão de Ivo Kos por suspeita de violência doméstica contra a esposa, a dentista Giullia Falcão Kos, de 27 anos, colocou sob os holofotes um nome conhecido",
+      "url": "https://ncnews.com.br/2026/08/15/ivo-kos-empresario-preso-por-violencia-domestica-ja-estava-na-mira-da-cvm/",
+      "source": "G1",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-15T21:09:46Z",
+      "updatedAt": "2026-08-15T21:09:46Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
       "imageUrl": "https://ncnews.com.br/app/uploads/2026/08/SnapReels.Net_495308331_18501149971011490_5582065997593777958_n.webp"
     },
     {
       "id": "latest-c133eec8fcea18e1b3f52b70",
       "title": "Gueratto Press cresce 331% e lidera nova comunicação financeira brasileira",
-      "summary": "Fabrizio Gueratto, sócio-fundador da Gueratto Press, consolida modelo analítico que transforma conhecimento empresarial em autoridade na imprensa nacional A disputa por espaço no noticiário econômico exige que empresas do mercado financeiro abandonem comunicados meramente institu",
-      "details": "Fabrizio Gueratto, sócio-fundador da Gueratto Press, consolida modelo analítico que transforma conhecimento empresarial em autoridade na imprensa nacional A disputa por espaço no noticiário econômico exige que empresas do mercado financeiro abandonem comunicados meramente institucionais e passem a pautar a imprensa por",
-      "url": "https://jornaldebrasilia.com.br/blogs-e-colunas/analice-nicolau/gueratto-press-cresce-331-e-lidera-nova-comunicacao-financeira-brasileira/",
+      "summary": "Segundo boletim, Ivo Vel Kos foi preso em flagrante por lesão corporal e ameaça, e teve prisão convertida em preventiva; Giulia Falcão relatou que foi agredida dentro do carro.",
+      "details": "Segundo boletim, Ivo Vel Kos foi preso em flagrante por lesão corporal e ameaça, e teve prisão convertida em preventiva; Giulia Falcão relatou que foi agredida dentro do carro.",
+      "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/08/15/empresario-da-faria-lima-e-preso-por-agredir-e-ameacar-mulher-em-sp-vi-a-a-morte-de-perto-diz-vitima.ghtml",
       "source": "Jornal de Brasília",
       "category": "latest",
       "tags": [
@@ -567,14 +718,14 @@
       "updatedAt": "2026-08-15T20:52:55Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2026/08/15175116/WhatsApp-Image-2026-08-15-at-17.30.44.jpeg"
+      "imageUrl": "https://s2-g1.glbimg.com/GSdpbCdbL95p1GuuPTg5GvcNQwk=/2446x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/d/s/8PMBfMQs2rWzbABMqh5g/fotojet-2026-08-15t175903.291.jpg"
     },
     {
       "id": "latest-12307b2c8581e34a6df460c9",
       "title": "Casas Bahia volta a adiar balanço; veja nova previsão de divulgação do segundo trimestre",
-      "summary": "Resultado estava previsto para sair na sexta-feira (14), mas não foi apresentado; procurada, varejista não comentou motivo de adiamentos",
-      "details": "Resultado estava previsto para sair na sexta-feira (14), mas não foi apresentado; procurada, varejista não comentou motivo de adiamentos",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/casas-bahia-volta-a-adiar-balanco-veja-nova-previsao-de-divulgacao-do-segundo-trimestre/",
+      "summary": "Fabrizio Gueratto, sócio-fundador da Gueratto Press, consolida modelo analítico que transforma conhecimento empresarial em autoridade na imprensa nacional A disputa por espaço no noticiário econômico exige que empresas do mercado financeiro abandonem comunicados meramente institu",
+      "details": "Fabrizio Gueratto, sócio-fundador da Gueratto Press, consolida modelo analítico que transforma conhecimento empresarial em autoridade na imprensa nacional A disputa por espaço no noticiário econômico exige que empresas do mercado financeiro abandonem comunicados meramente institucionais e passem a pautar a imprensa por",
+      "url": "https://jornaldebrasilia.com.br/blogs-e-colunas/analice-nicolau/gueratto-press-cresce-331-e-lidera-nova-comunicacao-financeira-brasileira/",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -586,14 +737,14 @@
       "updatedAt": "2026-08-15T20:11:35Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/TIQAETURORPKLJEUTMYUTCV75M.jpg?quality=80&auth=c6a91515759b560d9bfcd736d7e6d1020d983e0d153fa9373c43ca4852006027&width=1200&height=630&smart=true"
+      "imageUrl": "https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2026/08/15175116/WhatsApp-Image-2026-08-15-at-17.30.44.jpeg"
     },
     {
       "id": "macro-1b39c84192462e7d7c8e446c",
       "title": "Governo ganha espaço, mas ajuste fiscal será necessário",
-      "summary": "Ivo Kos, sócio-fundador da securitizadora Virgo, foi detido em flagrante após agredir a cirurgiã dentista Giullia Kos. Ele também é alvo de investigação da CVM.",
-      "details": "Ivo Kos, sócio-fundador da securitizadora Virgo, foi detido em flagrante após agredir a cirurgiã dentista Giullia Kos. Ele também é alvo de investigação da CVM.",
-      "url": "https://diarioesp.com.br/sao-paulo/2026/08/15/executivo-do-mercado-financeiro-e-preso-em-sao-paulo-por-agredir-esposa.html",
+      "summary": "Atualizacao de macro capturada em Vero Notícias.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON3FGOTgxLS1qTVo5ekdXaUZEWGNXWEdscndKeVJtcnZ0X05jcW1tTFRQckZuWUNIdHh5aVJpNUwzQWVWc2RQUEV6azdlaTQ0ZWxIN2YzakNWTjNsV2JsaE1mNENLLVFDeEFOVHlvcDAzdlRYbDR4RU10ZVczc2E4MzZQbHd5eU1sclFndEloZTRaNVU?oc=5",
       "source": "Vero Notícias",
       "category": "macro",
       "tags": [
@@ -604,15 +755,14 @@
       "publishedAt": "2026-08-15T20:00:00Z",
       "updatedAt": "2026-08-15T20:00:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://post.hel1.your-objectstorage.com/diario/uploads/post-22df24bd8b5c4883.webp"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-db8f884a96b67ca5bc4fbfe9",
       "title": "O BC deve conduzir a política monetária ou ser conduzido pelo consenso de mercado?",
       "summary": "Atualizacao de macro capturada em Estadão.",
       "details": "",
-      "url": "https://www.metropoles.com/sao-paulo/quem-ivo-kos-empresario-ramo-financeiro-preso-agredir-esposa",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQLTF1NUVxMWxNd2RMUTZWNmUxZU5Qb3BaTzlNLUwzQjJxemdTdHdYTXhFOWdMSnRaTjRRMTA5bnZ3Rlc4Mm5yMk5FY01ncjNOLVY5OTJ2aDJCMHBGLWtTUkIyVkhqRG5SMWUxMzZlQmt1RDNSM3J4UGI0SG13V0Q4NTdHYm5pbGJtNl80elBpS1YwQTZ4NThhZFpnM3Z1clJnejVHN1ZKMUdXWmk1aVRLN3ZtY016S2ozT3Y4MTJuNWl2QmtCeUEyelUzQjZZVE1xQk5mcDRiTUNPUGcy0gHcAUFVX3lxTFAtMXU1RXExbE13ZExRNlY2ZTFlTlBvcFpPOU0tTDNCMnF6Z1N0d1hNeEU5Z0xKdFpONFExMDludndGVzgybnIyTkVjTWdyM04tVjk5MnZoMkIwcEYta1NSQjJWSGpEblIxZTEzNmVCa3VEM1IzcnhQYjRIbXdXRDg1N0dibmlsYm02XzR6UGlLVjBBNng1OGFkWmczdnVyUmd6NUc3VkoxR1daaTVpVEs3dm1jTXpLajNPdjgxMm41aXZCa0J5QTJ6VTNCNllUTXFCTmZwNGJNQ09QZzI?oc=5",
       "source": "Estadão",
       "category": "macro",
       "tags": [
@@ -626,11 +776,29 @@
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
+      "id": "funds-ff76cf7546fd5c73df7162e3",
+      "title": "A Shinhan Asset Management inicia um projeto-piloto com @plu",
+      "summary": "Atualizacao de fundos capturada em KuCoin.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSHM4TktTcjhPX0g1aTJ5UU5LRTRRU0VKci1xdk5tRDFiaUF0SjIyYl9ac1JzNFVQTkltWVJObUllenctdUdsbWo3al9TOEl0eTFHbU0zUHEzcEhwOWx4TUlGOXhKUHoydlVSQlRMMlNQM05x?oc=5",
+      "source": "KuCoin",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-08-15T19:50:13Z",
+      "updatedAt": "2026-08-15T19:50:13Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
       "id": "latest-6d428a726ba101861a1b8a72",
       "title": "Executivo do mercado financeiro é preso em São Paulo por agredir esposa",
       "summary": "Atualizacao de ultima hora capturada em diarioesp.com.br.",
       "details": "",
-      "url": "https://www.folhaonline.es/tesouro-nacional-classifica-es-com-nota-a-em-gestao-fiscal/",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWDZQVFVscVJsWkE3bEUtWHBscEotaVdlQ1Z6ZlJIZE80aUdWV1V5Z3VIUjNDUVNHTjN4TW9yTTNjVGVwWURlSHhidXpndlE1V09NX2dVWU1jaWRBdkxJRDBwcUM3cXhKSUNGZjUwb2hmVnRVblZWNVdFbHFqWERpSzFvMDlxWnFyTWNtUjNGRjVrZThQOE9OME1fWkJoU0N2a1Z3V2NUcEpWc3JtcGsxX1UxbHRWS2sxSEdiaWdUOA?oc=5",
       "source": "diarioesp.com.br",
       "category": "latest",
       "tags": [
@@ -646,9 +814,9 @@
     {
       "id": "latest-fb37f0379ed4ec496ff6cf4b",
       "title": "Quem é Ivo Kos, empresário do ramo financeiro preso por agredir esposa",
-      "summary": "Desde 2023 as projeções de inflação ficam acima da meta; analistas preveem redução da Selic maior do que seria apropriado para produzir a convergência no horizonte relevante",
-      "details": "Desde 2023 as projeções de inflação ficam acima da meta; analistas preveem redução da Selic maior do que seria apropriado para produzir a convergência no horizonte relevante",
-      "url": "https://www.estadao.com.br/amp/economia/alexandre-schwartsman/o-bc-deve-conduzir-a-politica-monetaria-ou-ser-conduzido-pelo-consenso-de-mercado/",
+      "summary": "Atualizacao de ultima hora capturada em Metrópoles.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWlFCbGh5Y1VLZUhfNUFhWlpETXFoVmI3NHF6YnZvRUNENDZZRzJkWlZtT2xRZ2ctUU10NGYwcEVyOVJpN2x6elZjR2xBQ2IwbHB3MExxT19QXy1Dc2xwM3lteG5tMk5kNkZaVTdKb09JTEpDVEZ5bG9Ha0dMdm9xdUhJSkVJdUxOZmdrSWdDVjhPZFNhb0JJdWVXZEVZUQ?oc=5",
       "source": "Metrópoles",
       "category": "latest",
       "tags": [
@@ -659,15 +827,14 @@
       "publishedAt": "2026-08-15T19:25:00Z",
       "updatedAt": "2026-08-15T19:25:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/BQHCTBGG5ZJTHB2WXYRASH75XE.png?quality=80&auth=68b522d813420e723bfdc7187c0e03469dfda3719ad099bc68c8b93b633732b8&width=1200"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-5137ca6c99ab9f70c21e724b",
       "title": "Inflação muda hábitos de consumo das famílias",
-      "summary": "Entre as alternativas estão reduzir o crescimento do arcabouço fiscal e revisar despesas. Especialistas defendem mudanças mais amplas para equilibrar as contas.",
-      "details": "Entre as alternativas estão reduzir o crescimento do arcabouço fiscal e revisar despesas. Especialistas defendem mudanças mais amplas para equilibrar as contas.",
-      "url": "https://veronoticias.com/economia/governo-ganha-espaco-mas-ajuste-fiscal-sera-necessario/",
+      "summary": "Atualizacao de macro capturada em G1.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOVIyS0hacFJQNU9EMUFvWW1sdmJnbEJNWnF2WkRZc253Vk1KUkdWQzh2b3p3ODVKTzNKcTl3N0FzRnlnbVBQZUM5Wjg4emJpNHpyWktrRzRDeGdmUkdhMjVHazhsUjBzZWlDengtMWVvdXkwdm5SVGhoS1ZqQWdjeUFZYjBPaHMycndBbTdfbXRxdklwZ2tlMDJyX3FwOHpiRFU1R0QtTEo4ZDJodGF1RE9TX1REM1d1cThB0gHKAUFVX3lxTFBCTWFlVjZmN3hFTVYwZ0pnRFA1anRUcTd1eEVicGxXVzRSTEdzQ0N5LUVXOUl2MEVGZUdWWEhxei1hVUc2Vk1heVhHR0tkbzlfcDk5RjVBXzc1VW92YnFBcTMxc3gzS2gyZlZMclc2djVmSHZjMzc5QXBoRER3ZGpGU2RYdmZJczY5UTRvRVNWX25hV0NSM0ZHcnc4V3B2UjNXaEk0YVI5MTA4dDU1bEg2emI5QUprVXgxS01rWGFmcEZZTVRBSUhqTHc?oc=5",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -678,16 +845,15 @@
       "publishedAt": "2026-08-15T19:22:40Z",
       "updatedAt": "2026-08-15T19:22:40Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://veronoticias.com/wp-content/uploads/2025/03/Ministerio-da-Fazenda-.avif"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "latest-2f6fe88ae1d338ca2fc035eb",
+      "id": "latest-a897f5bb6aeb261c34cd465a",
       "title": "Como investidores buscaram ganhos de até 586% aproveitando a volatilidade das eleições",
-      "summary": "Inflação muda hábitos de consumo das famílias",
-      "details": "Inflação muda hábitos de consumo das famílias",
-      "url": "https://g1.globo.com/am/amazonas/videos-jam-1-edicao/video/inflacao-muda-habitos-de-consumo-das-familias-14872214.ghtml",
-      "source": "moneytimes.com.br",
+      "summary": "Atualizacao de ultima hora capturada em Money Times.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQamRhNS1XaFgycUllMGNXeHlIa2g5UEh6eEEwRVFrdzF5ejdDVENDLUtqaW4tXy1iby00R05OSi1tTXU3M3RZUHM0R3RKeTVNQlRSYjhzbTlrQ0I5MTJBRUk3T092dXRpZzNES0EwME9CSzVJdjJTaklnc0E4cS1DdzdERnB3R1N1VlpKUkxReUl6V3hBMlFyV1RCOU9aM0VkaTdQa28wal9zNGp4cHJ0a0ZkbDhtTzdBeHFiOEV0SU01VWRo?oc=5",
+      "source": "Money Times",
       "category": "latest",
       "tags": [
         "mercado",
@@ -697,15 +863,14 @@
       "publishedAt": "2026-08-15T19:00:00Z",
       "updatedAt": "2026-08-15T19:00:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://s03.video.glbimg.com/x720/14872214.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-449f90d9992afdb1376498fc",
       "title": "A profecia fiscal autorrealizável, por Maurício Luperi",
-      "summary": "No debate macroeconômico, a expectativa é tratada como observadora da realidade, e não como uma variável capaz de modificá-la.",
-      "details": "No debate macroeconômico, a expectativa é tratada como observadora da realidade, e não como uma variável capaz de modificá-la.",
-      "url": "https://jornalggn.com.br/artigos/a-profecia-fiscal-autorrealizavel-por-mauricio-luperi/",
+      "summary": "Atualizacao de macro capturada em Jornal GGN.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSkhFUk9kTG10M2pGT3JoRzlvaGpxcThkSjlqSGZfTjJ0eG9KbGdJWTVCZlpldHhJdm1kaklYa3VlVUdlY3lySEZRVEszUldYcWVvZ2dVVDdtTTdUMEpscEwwM05hR3B2Yl92T0ZsRWJKcXpjNmUxRVlnWmpVTlNSeXhiNjFLeTNSTy1ZYWRWakg?oc=5",
       "source": "Jornal GGN",
       "category": "macro",
       "tags": [
@@ -716,16 +881,15 @@
       "publishedAt": "2026-08-15T18:15:00Z",
       "updatedAt": "2026-08-15T18:15:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://jornalggn.com.br/wp-content/uploads/2026/08/profecia1.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "macro-7e37401b071f62b5ca831b09",
+      "id": "macro-6e5c4bcc48604c5b99e23bb7",
       "title": "Tesouro Nacional classifica ES com Nota A+ em gestão fiscal",
-      "summary": "Estratégia que “se alimenta de volatilidade” permite buscar lucros em períodos de alta e de baixa do mercado",
-      "details": "Estratégia que “se alimenta de volatilidade” permite buscar lucros em períodos de alta e de baixa do mercado",
-      "url": "https://www.moneytimes.com.br/como-investidores-buscaram-ganhos-de-ate-586-aproveitando-a-volatilidade-das-eleicoes-lbrdjr250/",
-      "source": "folhaonline.es",
+      "summary": "Atualizacao de macro capturada em Folhaonline.es.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdlM5cWZBaE42MWREZHNoS016UFlZZk13M1JjOE5uQ3pFa0hnQkVtSDlnWERBMVFNZ2N4aTZCcTVXb1R4cVJ1R1NFZ2xQQmtYQzREbDQyQ2haM3lhRkdFOVYzZHlScnRXQTJCbkNHSVBzYVY0QUFpM3kxZl9BcVJVUFhFcGh5ZEVjaEIxTHE1NA?oc=5",
+      "source": "Folhaonline.es",
       "category": "macro",
       "tags": [
         "macro",
@@ -735,8 +899,7 @@
       "publishedAt": "2026-08-15T18:00:00Z",
       "updatedAt": "2026-08-15T18:00:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.moneytimes.com.br/uploads/2024/07/mercados-acoes-itau-ibovespa.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-d82e887e3d74963e062382af",
@@ -811,24 +974,6 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "macro-e7cd024c668027905b6bb598",
-      "title": "Prefeitura de Ribeira do Pombal BA retifica concurso e atualiza conteúdo de guarda municipal",
-      "summary": "Atualizacao de macro capturada em Qconcursos Folha Dirigida.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ3otYWg1V3d2ZWtaa2JZMFZGa3lUMVhKSlRlMG00Yk5tVVpCdkZZc3BWaHhhc2RjMWxQcjNtWk9DeS1pRWpRT3d0RnVYX3N6QnRnX0EtNWozY2Y4Q3N4dEs0WmphYWdMRmZ1YUhjZWJBd3lpaEtYU0diWEtiVkpQMDNkdlppWFFXRDJZVGt4TG1HaENOREJQakttNGczbzRDSDBRS1Qwc192NjFyVGtwb2N1czl4M1lfdlN4M3hDZ0Q?oc=5",
-      "source": "Qconcursos Folha Dirigida",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-15T17:05:56Z",
-      "updatedAt": "2026-08-15T17:05:56Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
       "id": "funds-5121c849b94aa1a3c1929f82",
       "title": "Horizon Kinetics Asset Management compra US$ 2.260 em ações do RENN Fund",
       "summary": "Atualizacao de fundos capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
@@ -865,42 +1010,6 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "macro-f044a001ae7ede3b880f5972",
-      "title": "Receita Federal apura sonegação fiscal e lavagem de dinheiro em investigação sobre exploração de bets",
-      "summary": "Atualizacao de macro capturada em Portal Agora Tocantins.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUl9VME93QnUyNDZZM2ZSMzVULWlXaV9nUXJCajVMcWl6enJDd1ptQlR0RG9RdXdTa2tUaVpvLTNPQnpDZjVZSktTbV9sdTlrUGZZRGY2cEtYRHZ5UWZiWG9neDhWc0JUbzduVloyNXRad0RHRHVrbE9wZXlyalNTakdmQzRLOS1BNW81bWV4MUxzT0cwRWpVcENDWG9zLWFsY0N2UENfZnpBdzNDa05LbUJodFpnM3RmdUFlV05pN3NMc3hH?oc=5",
-      "source": "Portal Agora Tocantins",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-15T16:44:57Z",
-      "updatedAt": "2026-08-15T16:44:57Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-4e82277bd070acfbd7df3154",
-      "title": "Economistas veem PIB abaixo de 2% em 2026 após sinais de desaceleração",
-      "summary": "Atualizacao de macro capturada em Gazeta do Paraná.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZnhtQmZLX2pGUHNma19Ja3lNcmFmYlFIeTJoX2FORzdfQU10OE5MMi04cG5aRG1nNXJ1TUpHZVdZTWRPbTlpWXZWN2xhMERKRmEtQ1JtVDJjSkVnTXdma3NWWV84RU93cnBWNnhRRmR4YVhXZEp0N3hOT0s4Wk9meU9paTJRQTFyX3JDNEV6MzZRWXFKMWMyendxcVpaZ0ctSkpjY0JSY05vdw?oc=5",
-      "source": "Gazeta do Paraná",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-15T16:30:00Z",
-      "updatedAt": "2026-08-15T16:30:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
       "id": "funds-33fcb05ccd742174f4ac1981",
       "title": "Fundos da Suno Asset anunciam dividendos; yields chegam a 1,22% no mês",
       "summary": "Atualizacao de fundos capturada em Fiis.",
@@ -917,60 +1026,6 @@
       "updatedAt": "2026-08-15T16:10:05Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "latest-c648a78dd8d133545f984146",
-      "title": "O primeiro-ministro ordenou uma redução nas taxas de juros dos empréstimos e medidas contra as instituições de crédito que não cumprirem a determinação.",
-      "summary": "Atualizacao de ultima hora capturada em Vietnam.vn.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ1g0cFpIbmpVLU5TcTBRcDJUZHk4MnE1cndoMWdzVVhpN2l3Ti1HZUd6MGRST0MzYktESUNZSHVtYVF0TmVFSnpaYVN5bUdzVTJxSE9VTUJGTmNnNkhvMC14ZHh4MERmNTU2TmtXV0o1cGlJTlZybWNmUGpGeHRvb2lQa3VYTVpFa3FlN0tJS3BfN09FMWFQZHB4eE9LdGtTZUFVQmNuRQ?oc=5",
-      "source": "Vietnam.vn",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-15T15:49:38Z",
-      "updatedAt": "2026-08-15T15:49:38Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-8f5bcb7587593cf6a3842f81",
-      "title": "Semana tem JCP do BB, dividendos da Caixa Seguridade e queda do Ibovespa",
-      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQR1B1VWN4WktzbVQ2MVA5WE1zZVBJLWNLQlU3V0QtNTlpUnNSblVQNTNnUnNZMVFTdlBpQmF3aFBaTDZoSFFpV0RYdTBkZXRMUzY1V09BbnJFYU5yRFpNSWhabm5hOThvajFKUDlQZ3NsS21DV2dJdWNEMVVDcF9MUlV5YUd1RThOWEJRT2E4ajZ6TGVjX1ZWelM5RFBEcEhic2xpYnl3WndLOVk?oc=5",
-      "source": "SpaceMoney",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-15T15:10:59Z",
-      "updatedAt": "2026-08-15T15:10:59Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-d80601b0879bf1359f26910e",
-      "title": "WEG substitui Sabesp em carteira semanal da Terra",
-      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ0xUdFBpaTdVdnRjUXV0ZXkzM1pqdHVUZWtkWXU0T2pBUlNIanhWdVpHVDl1QUNxQjRsYzZZekZVdFNJbGNKVm5fbmZhZGQ2emREVTEydWxtTWxzcmdHTE5haU1nS3YzNWl3UmNGUjE3S0hjNURoaUl2ejhZTVFpbkx6NWhDVU9LNFFjRTZzTjdkdmRPazB0cg?oc=5",
-      "source": "SpaceMoney",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-15T15:10:59Z",
-      "updatedAt": "2026-08-15T15:10:59Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "funds-c321b9d4db3c22bcf01ba8db",
@@ -1297,24 +1352,6 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "funds-448841b6fa4c5e46ac4b028f",
-      "title": "Kínitro reduz gestão de fundos em meio à crise dos multimercados",
-      "summary": "Atualizacao de fundos capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPT3RDa1djNkx6cGhnVkZ2dVhqTVpjRUZKTUhnSnZjS0VodEZEVGx2cGlwdEZ4TW5KZE55azRNcFJMSmVEdDlwa0dyRVlLdGEwZWRUQVNnejFJdHpTUUxWclpqTVFqeVg0S0h2VXU3Zjl5UloyaE1BbUdrZHFXYVFjRU00Z1ljQjZTS25wVlNxSHN5bVJnNmxNOTc2c3pROXJkV0RmWUNkeGRNaUhxVEZHbllMUXBRd3JRUkRIUFV0S094Y1ZMWVd6etIByAFBVV95cUxPT3RDa1djNkx6cGhnVkZ2dVhqTVpjRUZKTUhnSnZjS0VodEZEVGx2cGlwdEZ4TW5KZE55azRNcFJMSmVEdDlwa0dyRVlLdGEwZWRUQVNnejFJdHpTUUxWclpqTVFqeVg0S0h2VXU3Zjl5UloyaE1BbUdrZHFXYVFjRU00Z1ljQjZTS25wVlNxSHN5bVJnNmxNOTc2c3pROXJkV0RmWUNkeGRNaUhxVEZHbllMUXBRd3JRUkRIUFV0S094Y1ZMWVd6eg?oc=5",
-      "source": "Estadão",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-08-14T22:21:00Z",
-      "updatedAt": "2026-08-14T22:21:00Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
       "id": "companies-0891c12514da149d75adba3f",
       "title": "37 executivos de grandes empresas revelam como experiência, dados e IA estão transformando os negócios no Brasil",
       "summary": "Atualizacao de empresas capturada em TI INSIDE Online.",
@@ -1347,42 +1384,6 @@
       ],
       "publishedAt": "2026-08-14T19:32:00Z",
       "updatedAt": "2026-08-14T19:32:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-7f3fccdd98a970059c4f24aa",
-      "title": "LGPD completa 8 anos com desafios para empresas brasileiras",
-      "summary": "Atualizacao de empresas capturada em Portal ABC do ABC.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9URXJfeUV5QWx1QVJHV0txT0liRTREQ3dfaEdBRnFJUWE1WXhtMFF2SWIxbzVPSml2c3g3Z1NzRXVZUlNjbm04cWxESmJsS3ZlQ09oZ2ZBVTZJOFUybXpSVHduSEJLRUs1RURkNnZPYXI1S2Z3Y3FQb3Nn?oc=5",
-      "source": "Portal ABC do ABC",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-08-14T19:12:38Z",
-      "updatedAt": "2026-08-14T19:12:38Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-7117233729243ba2eb9e10c9",
-      "title": "Marco Legal da Cibersegurança deve aumentar a proteção das empresas brasileiras",
-      "summary": "Atualizacao de empresas capturada em Inforchannel.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcXR2NDBOV2Q5TS10Tzh1d2VKeUFvS3llQ3g1RjB6VmM4RmdBTndvenZVQWlpN1YtS0tVT0F2aVA3b2FjNnF4b29ocE5EUi1HQmVzMmpaRnpkSFQ5T0d1UGRQVTIwU0hhaXM0QUo1Yy1qSmY4MTdfWFcwZVhlVWlMNldrYk9KWkxqUXJJZ2puXzlySC1YaVk2aEx2ek9WMjVyRUMzTlJuSk9MQXFTZ2pwTXFHaG1hbWczZ1Fv?oc=5",
-      "source": "Inforchannel",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-08-14T19:00:15Z",
-      "updatedAt": "2026-08-14T19:00:15Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     }
