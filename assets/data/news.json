@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-16T18:26:22Z",
-  "generatedAt": "2026-08-16T18:26:22Z",
+  "updatedAt": "2026-08-16T18:55:42Z",
+  "generatedAt": "2026-08-16T18:55:42Z",
   "categories": [
     {
       "id": "all",
@@ -37,8 +37,8 @@
       "label": "BH 24 Horas"
     },
     {
-      "id": "bloomberg-l-nea-brasil",
-      "label": "Bloomberg Línea Brasil"
+      "id": "bloomberglinea-com-br",
+      "label": "bloomberglinea.com.br"
     },
     {
       "id": "bnews",
@@ -71,6 +71,10 @@
     {
       "id": "contilnet-not-cias",
       "label": "ContilNet Notícias"
+    },
+    {
+      "id": "correio-paulista",
+      "label": "Correio Paulista"
     },
     {
       "id": "di-rio-do-centro-do-mundo",
@@ -113,10 +117,6 @@
       "label": "GZH"
     },
     {
-      "id": "imdb",
-      "label": "IMDb"
-    },
-    {
       "id": "infomoney",
       "label": "InfoMoney"
     },
@@ -133,12 +133,16 @@
       "label": "Kinvo"
     },
     {
-      "id": "kucoin-com",
-      "label": "kucoin.com"
+      "id": "kucoin",
+      "label": "KuCoin"
     },
     {
-      "id": "money-times",
-      "label": "Money Times"
+      "id": "midianews",
+      "label": "MidiaNews"
+    },
+    {
+      "id": "moneytimes-com-br",
+      "label": "moneytimes.com.br"
     },
     {
       "id": "noticenter-com-br",
@@ -185,16 +189,12 @@
       "label": "SpaceMoney"
     },
     {
-      "id": "terra-brasil-not-cias",
-      "label": "Terra Brasil Notícias"
+      "id": "terrabrasilnoticias-com",
+      "label": "terrabrasilnoticias.com"
     },
     {
       "id": "tradenews-com-br",
       "label": "tradenews.com.br"
-    },
-    {
-      "id": "tribuna-da-internet",
-      "label": "Tribuna da Internet"
     },
     {
       "id": "tribuna-do-paran",
@@ -205,16 +205,12 @@
       "label": "Tribuna do Sertão"
     },
     {
-      "id": "valor-econ-mico",
-      "label": "Valor Econômico"
-    },
-    {
       "id": "vanitybrasil-com-br",
       "label": "vanitybrasil.com.br"
     },
     {
       "id": "vietnam-vn",
-      "label": "Vietnam.vn"
+      "label": "vietnam.vn"
     },
     {
       "id": "vtvnews-com-br",
@@ -223,11 +219,30 @@
   ],
   "items": [
     {
+      "id": "macro-6749a08bf5abe7d1dcfcff96",
+      "title": "França sofre ataque hacker e dados de 678 mil contas são extraídos de sistema fiscal",
+      "summary": "Invasores tiveram acesso a informações como renda tributável, alíquota de retenção, endereços e dados de imóveis; governo notificará os afetados",
+      "details": "Invasores tiveram acesso a informações como renda tributável, alíquota de retenção, endereços e dados de imóveis; governo notificará os afetados",
+      "url": "https://www.infomoney.com.br/mundo/franca-sofre-ataque-hacker-e-dados-de-678-mil-contas-sao-extraidos-de-sistema-fiscal/",
+      "source": "InfoMoney",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-16T18:13:06Z",
+      "updatedAt": "2026-08-16T18:13:06Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2019/06/paris-bloomberg.jpg"
+    },
+    {
       "id": "macro-288c3144bf6e0440053fc8d4",
       "title": "O impacto fiscal na locação imobiliária",
-      "summary": "O candidato do PRTB à presidência da República, Pablo Marçal, revelou possuir um patrimônio declarado de aproximadamente R$ 7,4 bilhões, conforme registros apresentados ao Tribunal Superior Eleitoral (TSE). Dentre seus bens e aplicações, destaca-se uma significativa concentração ",
-      "details": "O candidato do PRTB à presidência da República, Pablo Marçal, revelou possuir um patrimônio declarado de aproximadamente R$ 7,4 bilhões, conforme registros apresentados ao Tribunal Superior Eleitoral (TSE). Dentre seus bens e aplicações, destaca-se uma significativa concentração de recursos em investimentos financeiros",
-      "url": "https://bh24horas.com.br/politica/candidato-a-presidencia-pablo-marcal-declara-patrimonio-de-r-74-bilhoes-e-detalhes-de-bens-e-aplicacoes-financeiras/",
+      "summary": "Atualizacao de macro capturada em Foco Cidade.",
+      "details": "",
+      "url": "https://acionista.com.br/ibovespa-e-carteiras-esg-como-superar-a-media-do-mercado/",
       "source": "Foco Cidade",
       "category": "macro",
       "tags": [
@@ -238,15 +253,14 @@
       "publishedAt": "2026-08-16T18:04:22Z",
       "updatedAt": "2026-08-16T18:04:22Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://i0.wp.com/bh24horas.com.br/wp-content/uploads/2026/08/cover-1128.jpg?fit=450%2C300&ssl=1"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "funds-64f81a510c0dd3d57bdc71f1",
       "title": "Candidato à Presidência Pablo Marçal declara patrimônio de R$ 7,4 bilhões e detalhes de bens e aplicações financeiras",
-      "summary": "Atualizacao de fundos capturada em BH 24 Horas.",
-      "details": "",
-      "url": "https://www.imdb.com/pt/news/ni65974413/?ref_=nwc_art_perm",
+      "summary": "O impacto fiscal na locação imobiliária",
+      "details": "O impacto fiscal na locação imobiliária",
+      "url": "https://fococidade.com.br/materia/71878/o-impacto-fiscal-na-locacao-imobiliaria",
       "source": "BH 24 Horas",
       "category": "funds",
       "tags": [
@@ -257,33 +271,15 @@
       "publishedAt": "2026-08-16T18:04:18Z",
       "updatedAt": "2026-08-16T18:04:18Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-4e4c0b0437254b7bc7c22a63",
-      "title": "New ‘Lioness’ Star Elizaveta Neretin Reveals a Personal Connection to Her Character",
-      "summary": "O impacto fiscal na locação imobiliária",
-      "details": "O impacto fiscal na locação imobiliária",
-      "url": "https://fococidade.com.br/materia/71878/o-impacto-fiscal-na-locacao-imobiliaria",
-      "source": "IMDb",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-08-16T17:11:20Z",
-      "updatedAt": "2026-08-16T17:11:20Z",
-      "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
       "imageUrl": "https://painel.fococidade.com.br/storage/photos/4362ccf13a3c91fac0950dbf7f3bc4c2.jpg"
     },
     {
       "id": "latest-2ab94e5f667036cc7b99a196",
       "title": "Ibovespa e Carteiras ESG: como superar a média do mercado?",
-      "summary": "Portal de notícias e análises de economia, negócios, finanças, tecnologia e investimentos",
-      "details": "Portal de notícias e análises de economia, negócios, finanças, tecnologia e investimentos",
-      "url": "https://istoedinheiro.com.br/split-payment-reforma-tributaria-veja-impacta",
+      "summary": "O candidato do PRTB à presidência da República, Pablo Marçal, revelou possuir um patrimônio declarado de aproximadamente R$ 7,4 bilhões, conforme registros apresentados ao Tribunal Superior Eleitoral (TSE). Dentre seus bens e aplicações, destaca-se uma significativa concentração ",
+      "details": "O candidato do PRTB à presidência da República, Pablo Marçal, revelou possuir um patrimônio declarado de aproximadamente R$ 7,4 bilhões, conforme registros apresentados ao Tribunal Superior Eleitoral (TSE). Dentre seus bens e aplicações, destaca-se uma significativa concentração de recursos em investimentos financeiros",
+      "url": "https://bh24horas.com.br/politica/candidato-a-presidencia-pablo-marcal-declara-patrimonio-de-r-74-bilhoes-e-detalhes-de-bens-e-aplicacoes-financeiras/",
       "source": "Acionista.com.br",
       "category": "latest",
       "tags": [
@@ -295,14 +291,14 @@
       "updatedAt": "2026-08-16T17:03:25Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://istoedinheiro.com.br/wp-content/uploads/sites/17/2023/08/14.jpg"
+      "imageUrl": "https://i0.wp.com/bh24horas.com.br/wp-content/uploads/2026/08/cover-1128.jpg?fit=450%2C300&ssl=1"
     },
     {
       "id": "macro-9ff4cb013258e1285e7b7d72",
       "title": "Bets fazem famílias brasileiras perderem valor maior que o PIB do Acre",
-      "summary": "Dados do Comitê Nacional de Secretários da Fazenda dos Estados (Comsefaz) apontam que as famílias brasileiras perderam R$ 62,5 bilhões com plataformas",
-      "details": "Dados do Comitê Nacional de Secretários da Fazenda dos Estados (Comsefaz) apontam que as famílias brasileiras perderam R$ 62,5 bilhões com plataformas",
-      "url": "https://contilnetnoticias.com.br/destaque/apostas-fazem-familias-brasileiras-perderem-valor-maior-que-pib-do-acre-em-2025/",
+      "summary": "Capital Economics prevê Ibovespa atrás de emergentes em 2026; risco político, eleições e composição do mercado pesam, diz consultoria",
+      "details": "Capital Economics prevê Ibovespa atrás de emergentes em 2026; risco político, eleições e composição do mercado pesam, diz consultoria",
+      "url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-risco-politico-2026/",
       "source": "ContilNet Notícias",
       "category": "macro",
       "tags": [
@@ -314,14 +310,14 @@
       "updatedAt": "2026-08-16T16:53:40Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://contilnetnoticias.com.br/wp-content/uploads/2025/10/bets.webp"
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-39032295.webp"
     },
     {
       "id": "latest-94c205ebb3fc9b9069531e77",
       "title": "Empresário do mercado financeiro tem prisão preventiva decretada após agredir esposa em São Paulo",
-      "summary": "Atualizacao de ultima hora capturada em vanitybrasil.com.br.",
-      "details": "",
-      "url": "https://acionista.com.br/ibovespa-e-carteiras-esg-como-superar-a-media-do-mercado/",
+      "summary": "Cofundador da securitizadora Virgo é acusado de espancar a cirurgiã-dentista Giullia Falcão com socos e taco de beisebol no retorno de jantar",
+      "details": "Cofundador da securitizadora Virgo é acusado de espancar a cirurgiã-dentista Giullia Falcão com socos e taco de beisebol no retorno de jantar",
+      "url": "https://vanitybrasil.com.br/empresario-do-mercado-financeiro-tem-prisao-preventiva-decretada-apos-agredir-esposa-em-sao-paulo/",
       "source": "vanitybrasil.com.br",
       "category": "latest",
       "tags": [
@@ -332,14 +328,15 @@
       "publishedAt": "2026-08-16T16:13:26Z",
       "updatedAt": "2026-08-16T16:13:26Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://vanitybrasil.com.br/wp-content/uploads/2026/08/d5gvbdmy8lrxpbq29uxbkk8ke.jpg"
     },
     {
       "id": "latest-1af9a9d5f720cbc14081f88c",
       "title": "Risco político tende a limitar Ibovespa em 2026",
-      "summary": "Cofundador da securitizadora Virgo é acusado de espancar a cirurgiã-dentista Giullia Falcão com socos e taco de beisebol no retorno de jantar",
-      "details": "Cofundador da securitizadora Virgo é acusado de espancar a cirurgiã-dentista Giullia Falcão com socos e taco de beisebol no retorno de jantar",
-      "url": "https://vanitybrasil.com.br/empresario-do-mercado-financeiro-tem-prisao-preventiva-decretada-apos-agredir-esposa-em-sao-paulo/",
+      "summary": "Dados do Comitê Nacional de Secretários da Fazenda dos Estados (Comsefaz) apontam que as famílias brasileiras perderam R$ 62,5 bilhões com plataformas",
+      "details": "Dados do Comitê Nacional de Secretários da Fazenda dos Estados (Comsefaz) apontam que as famílias brasileiras perderam R$ 62,5 bilhões com plataformas",
+      "url": "https://contilnetnoticias.com.br/destaque/apostas-fazem-familias-brasileiras-perderem-valor-maior-que-pib-do-acre-em-2025/",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -351,14 +348,14 @@
       "updatedAt": "2026-08-16T16:11:29Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://vanitybrasil.com.br/wp-content/uploads/2026/08/d5gvbdmy8lrxpbq29uxbkk8ke.jpg"
+      "imageUrl": "https://contilnetnoticias.com.br/wp-content/uploads/2025/10/bets.webp"
     },
     {
       "id": "macro-004ef8942af7f2084d260239",
       "title": "candidato dr breno mendes fiscal do povo | eleiçoes 2026",
-      "summary": "Capital Economics prevê Ibovespa atrás de emergentes em 2026; risco político, eleições e composição do mercado pesam, diz consultoria",
-      "details": "Capital Economics prevê Ibovespa atrás de emergentes em 2026; risco político, eleições e composição do mercado pesam, diz consultoria",
-      "url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-risco-politico-2026/",
+      "summary": "Acesse o perfil do candidato DR BRENO MENDES FISCAL DO POVO nas eleições 2026 e conheça as propostas, o histórico e mais informações.",
+      "details": "Acesse o perfil do candidato DR BRENO MENDES FISCAL DO POVO nas eleições 2026 e conheça as propostas, o histórico e mais informações.",
+      "url": "https://gauchazh.clicrbs.com.br/eleicoes/2026/candidato/deputado-estadual/dr-breno-mendes-fiscal-do-povo-220002537578",
       "source": "GZH",
       "category": "macro",
       "tags": [
@@ -370,14 +367,14 @@
       "updatedAt": "2026-08-16T16:10:09Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-39032295.webp"
+      "imageUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/20322002026/220002537578/RO?w=1200&h=675"
     },
     {
       "id": "macro-1e0193022934cf7000eda132",
       "title": "Split payment na Reforma Tributária: entenda as mudanças na conciliação fiscal e nos sistemas ERP",
-      "summary": "Acesse o perfil do candidato DR BRENO MENDES FISCAL DO POVO nas eleições 2026 e conheça as propostas, o histórico e mais informações.",
-      "details": "Acesse o perfil do candidato DR BRENO MENDES FISCAL DO POVO nas eleições 2026 e conheça as propostas, o histórico e mais informações.",
-      "url": "https://gauchazh.clicrbs.com.br/eleicoes/2026/candidato/deputado-estadual/dr-breno-mendes-fiscal-do-povo-220002537578",
+      "summary": "Portal de notícias e análises de economia, negócios, finanças, tecnologia e investimentos",
+      "details": "Portal de notícias e análises de economia, negócios, finanças, tecnologia e investimentos",
+      "url": "https://istoedinheiro.com.br/split-payment-reforma-tributaria-veja-impacta",
       "source": "ISTOÉ DINHEIRO",
       "category": "macro",
       "tags": [
@@ -389,7 +386,7 @@
       "updatedAt": "2026-08-16T16:03:51Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/20322002026/220002537578/RO?w=1200&h=675"
+      "imageUrl": "https://istoedinheiro.com.br/wp-content/uploads/sites/17/2023/08/14.jpg"
     },
     {
       "id": "latest-aab1859d39164f9ecb1781cc",
@@ -411,12 +408,12 @@
       "imageUrl": "https://www.estadao.com.br/resizer/v2/SFOCR3ETVVPBBN4XMQKALBXFCQ.png?quality=80&auth=287b385b36cb4eda24b4263fe53d49ce5cfdc52e2896d168abb74d165037c58a&width=1200&height=630&smart=true"
     },
     {
-      "id": "latest-87c5625a7586e3958daa25a3",
+      "id": "latest-03797d3837766996d5648e17",
       "title": "Ibovespa deve ficar atrás de pares emergentes em 2026 — e risco político está por trás disso, diz consultoria",
-      "summary": "Ivo Kos, preso por suspeita de agredir a mulher em SP, foi sócio da Virgo, securitizadora que respondeu a processo da CVM em 2025.",
-      "details": "Ivo Kos, preso por suspeita de agredir a mulher em SP, foi sócio da Virgo, securitizadora que respondeu a processo da CVM em 2025.",
-      "url": "https://vtvnews.com.br/noticias/policia/ivo-kos-processo-cvm-agressao-mulher-sp-lg/",
-      "source": "Money Times",
+      "summary": "Descubra as perspectivas do Ibovespa em meio a riscos políticos e volatilidade nos mercados financeiros brasileiros.",
+      "details": "Descubra as perspectivas do Ibovespa em meio a riscos políticos e volatilidade nos mercados financeiros brasileiros.",
+      "url": "https://www.moneytimes.com.br/ibovespa-deve-ficar-atras-de-pares-emergentes-em-2026-e-risco-politico-esta-por-tras-disso-diz-consultoria-apsa/",
+      "source": "moneytimes.com.br",
       "category": "latest",
       "tags": [
         "mercado",
@@ -427,14 +424,14 @@
       "updatedAt": "2026-08-16T15:48:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://media.vtvnews.com.br/wp-content/uploads/2026/08/16120343/Empresario-Ivo-Kos-e-preso-apos-denuncia-de-agressao-contra-a-mulher.jpg"
+      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/07/mercado-morning-ibovespa-wall-street-2.jpg"
     },
     {
       "id": "latest-ced25c32a720b44650c6e7d7",
       "title": "Empresário do mercado financeiro é preso em flagrante acusado de agredir a mulher",
-      "summary": "Descubra as perspectivas do Ibovespa em meio a riscos políticos e volatilidade nos mercados financeiros brasileiros.",
-      "details": "Descubra as perspectivas do Ibovespa em meio a riscos políticos e volatilidade nos mercados financeiros brasileiros.",
-      "url": "https://www.moneytimes.com.br/ibovespa-deve-ficar-atras-de-pares-emergentes-em-2026-e-risco-politico-esta-por-tras-disso-diz-consultoria-apsa/",
+      "summary": "Ivo Kos, preso por suspeita de agredir a mulher em SP, foi sócio da Virgo, securitizadora que respondeu a processo da CVM em 2025.",
+      "details": "Ivo Kos, preso por suspeita de agredir a mulher em SP, foi sócio da Virgo, securitizadora que respondeu a processo da CVM em 2025.",
+      "url": "https://vtvnews.com.br/noticias/policia/ivo-kos-processo-cvm-agressao-mulher-sp-lg/",
       "source": "vtvnews.com.br",
       "category": "latest",
       "tags": [
@@ -446,15 +443,15 @@
       "updatedAt": "2026-08-16T15:30:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/07/mercado-morning-ibovespa-wall-street-2.jpg"
+      "imageUrl": "https://media.vtvnews.com.br/wp-content/uploads/2026/08/16120343/Empresario-Ivo-Kos-e-preso-apos-denuncia-de-agressao-contra-a-mulher.jpg"
     },
     {
-      "id": "funds-497c915acc287601fe1b4a6f",
+      "id": "funds-150c81c7a13d1b3e722bf23e",
       "title": "Arthur Lira registra candidatura ao Senado e declara patrimônio de R$ 25,9 milhões",
       "summary": "O ex-presidente da Câmara dos Deputados Arthur Lira (PP-AL) registrou sua candidatura ao Senado por Alagoas e declarou à Justiça",
       "details": "O ex-presidente da Câmara dos Deputados Arthur Lira (PP-AL) registrou sua candidatura ao Senado por Alagoas e declarou à Justiça",
       "url": "https://terrabrasilnoticias.com/2026/08/arthur-lira-registra-candidatura-ao-senado-e-declara-patrimonio-de-r-259-milhoes/",
-      "source": "Terra Brasil Notícias",
+      "source": "terrabrasilnoticias.com",
       "category": "funds",
       "tags": [
         "fundos",
@@ -470,9 +467,9 @@
     {
       "id": "companies-fe85501535210d0cef2cc78e",
       "title": "ApexBrasil anuncia plano de R$ 210 milhões para apoiar 5,3 mil empresas afetadas por tarifas dos Estados Unidos",
-      "summary": "Atualizacao de empresas capturada em capitalnews.com.br.",
-      "details": "",
-      "url": "https://www.capitalnews.com.br/internacional/apexbrasil-anuncia-plano-de-r-210-milhoes-para-apoiar-53-mil-empresas-afetadas-por-tarifas-dos-estados-unidos/445477",
+      "summary": "$!content.ogDescription | O Liberal",
+      "details": "$!content.ogDescription | O Liberal",
+      "url": "https://www.oliberal.com/economia/amp/tesouro-reserva-alcanca-bilhoes-em-aplicacoes-e-supera-os-lucros-da-caderneta-saiba-mais-1.1156574",
       "source": "capitalnews.com.br",
       "category": "companies",
       "tags": [
@@ -483,14 +480,15 @@
       "publishedAt": "2026-08-16T15:09:00Z",
       "updatedAt": "2026-08-16T15:09:00Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://www.oliberal.com/image/contentid/policy:1.1142520:1783619935/ballots-1195005_1280%20_%20pixabay.jpg?$p=14679d1"
     },
     {
       "id": "macro-322324ca5917c6c05b59b9a6",
       "title": "Justiça do Piauí condena empresário a 2 anos de prisão por sonegação fiscal",
-      "summary": "A Justiça do Piauí condenou o empresário Lourival de Araújo Moura Fé a dois anos e seis meses de reclusão pelo crime de sonegação fiscal praticado entre os ano…",
-      "details": "A Justiça do Piauí condenou o empresário Lourival de Araújo Moura Fé a dois anos e seis meses de reclusão pelo crime de sonegação fiscal praticado entre os ano…",
-      "url": "https://www.gp1.com.br/piaui/noticia/2026/8/16/justica-do-piaui-condena-empresario-a-2-anos-de-prisao-por-sonegacao-fiscal-629306.html",
+      "summary": "Atualizacao de macro capturada em GP1.",
+      "details": "",
+      "url": "https://www.capitalnews.com.br/internacional/apexbrasil-anuncia-plano-de-r-210-milhoes-para-apoiar-53-mil-empresas-afetadas-por-tarifas-dos-estados-unidos/445477",
       "source": "GP1",
       "category": "macro",
       "tags": [
@@ -501,15 +499,14 @@
       "publishedAt": "2026-08-16T15:05:00Z",
       "updatedAt": "2026-08-16T15:05:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.gp1.com.br/media/watermarks/629306_459942.jpg?1786904777.994511"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-d52b35bf676b935864b7f46b",
       "title": "Tesouro Reserva alcança bilhões em aplicações e supera os lucros da caderneta; saiba mais | Economia | O Liberal",
-      "summary": "$!content.ogDescription | O Liberal",
-      "details": "$!content.ogDescription | O Liberal",
-      "url": "https://www.oliberal.com/economia/amp/tesouro-reserva-alcanca-bilhoes-em-aplicacoes-e-supera-os-lucros-da-caderneta-saiba-mais-1.1156574",
+      "summary": "A Justiça do Piauí condenou o empresário Lourival de Araújo Moura Fé a dois anos e seis meses de reclusão pelo crime de sonegação fiscal praticado entre os ano…",
+      "details": "A Justiça do Piauí condenou o empresário Lourival de Araújo Moura Fé a dois anos e seis meses de reclusão pelo crime de sonegação fiscal praticado entre os ano…",
+      "url": "https://www.gp1.com.br/piaui/noticia/2026/8/16/justica-do-piaui-condena-empresario-a-2-anos-de-prisao-por-sonegacao-fiscal-629306.html",
       "source": "O Liberal",
       "category": "macro",
       "tags": [
@@ -521,7 +518,7 @@
       "updatedAt": "2026-08-16T15:00:41Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.oliberal.com/image/contentid/policy:1.1142520:1783619935/ballots-1195005_1280%20_%20pixabay.jpg?$p=14679d1"
+      "imageUrl": "https://www.gp1.com.br/media/watermarks/629306_459942.jpg?1786906538.531441"
     },
     {
       "id": "macro-d3e18f9f3dcbc1576e0bfee5",
@@ -543,12 +540,12 @@
       "imageUrl": "https://substackcdn.com/image/fetch/$s_!jyLI!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4aa046ad-0c59-45c5-b772-b853b99290ba_1182x665.png"
     },
     {
-      "id": "macro-f00e92ab0647e0fe1de27479",
+      "id": "macro-bf3860995e5290782313d2e4",
       "title": "Esteja preparado: Prévia do PIB, ata do Fed e os indicadores que mexem com o mercado esta semana; confira",
       "summary": "A semana de 17 a 21 de agosto será marcada por uma agenda movimentada no exterior, com destaque para a prévia do PIB e a ata do Fed.",
       "details": "A semana de 17 a 21 de agosto será marcada por uma agenda movimentada no exterior, com destaque para a prévia do PIB e a ata do Fed.",
       "url": "https://www.moneytimes.com.br/esteja-preparado-indicadores-que-mexem-com-o-mercado-esta-semana-confira-jcav/",
-      "source": "Money Times",
+      "source": "moneytimes.com.br",
       "category": "macro",
       "tags": [
         "macro",
@@ -601,9 +598,9 @@
     {
       "id": "macro-8b4afa53755ebb97507b3aed",
       "title": "Notícia Esteja preparado: Prévia do PIB, ata do Fed e os indicadores que mexem com o mercado esta semana; confira",
-      "summary": "Quanto mais as taxas sobem em resposta à inflação crescente, menos valem os ganhos das gigantes da tecnologia, o que exerce pressão de venda sobre as ações",
-      "details": "Quanto mais as taxas sobem em resposta à inflação crescente, menos valem os ganhos das gigantes da tecnologia, o que exerce pressão de venda sobre as ações",
-      "url": "https://www.bloomberglinea.com.br/mercados/na-euforia-do-mercado-por-ia-wall-street-monitora-cenario-de-juros/",
+      "summary": "Atualizacao de macro capturada em Kinvo.",
+      "details": "",
+      "url": "https://revistaforum.com.br/economia/pib-economia-america-latina-fmi/",
       "source": "Kinvo",
       "category": "macro",
       "tags": [
@@ -614,16 +611,15 @@
       "publishedAt": "2026-08-16T14:08:00Z",
       "updatedAt": "2026-08-16T14:08:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.bloomberglinea.com/resizer/v2/GEZSPLYPFZH7NNA236HNOJT2LU.jpg?auth=3f6418861062872b730c6a62e12054d61eaf123d5d9efff67361d9539bf0641d&width=1200&height=675&quality=80&smart=true"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "latest-ec81f1042ae7214eadcbc66d",
+      "id": "latest-f983e7eb87db90ab8fcb9c71",
       "title": "Na euforia do mercado por IA, Wall Street monitora cenário de juros",
-      "summary": "Demanda por chips para inteligência artificial eleva custos de eletrônicos e preocupa o Banco da Inglaterra",
-      "details": "Demanda por chips para inteligência artificial eleva custos de eletrônicos e preocupa o Banco da Inglaterra",
-      "url": "https://www.infomoney.com.br/mundo/ia-entra-na-conta-da-inflacao-chips-mais-caros-pressionam-precos-no-reino-unido/",
-      "source": "Bloomberg Línea Brasil",
+      "summary": "Consolide seus investimentos e acompanhe seu patrimônio com o Kinvo App. Tenha todo o controle das suas finanças em um único lugar. Use o Kinvo agora.",
+      "details": "Consolide seus investimentos e acompanhe seu patrimônio com o Kinvo App. Tenha todo o controle das suas finanças em um único lugar. Use o Kinvo agora.",
+      "url": "https://kinvo.com.br/noticia/esteja-preparado-previa-do-pib-ata-do-fed-e-os-indicadores-que-mexem-com-o-mercado-esta-semana-confira",
+      "source": "bloomberglinea.com.br",
       "category": "latest",
       "tags": [
         "mercado",
@@ -634,14 +630,14 @@
       "updatedAt": "2026-08-16T14:07:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2024/11/421263007.jpg"
+      "imageUrl": "https://d2hme8z1miz6cd.cloudfront.net/media/money-times/1387623.jpg"
     },
     {
       "id": "companies-a8c1b18af34f745b9a323171",
       "title": "Empresas erram na tecnologia quando pulam a etapa de diagnóstico do problema",
-      "summary": "Consolide seus investimentos e acompanhe seu patrimônio com o Kinvo App. Tenha todo o controle das suas finanças em um único lugar. Use o Kinvo agora.",
-      "details": "Consolide seus investimentos e acompanhe seu patrimônio com o Kinvo App. Tenha todo o controle das suas finanças em um único lugar. Use o Kinvo agora.",
-      "url": "https://kinvo.com.br/noticia/esteja-preparado-previa-do-pib-ata-do-fed-e-os-indicadores-que-mexem-com-o-mercado-esta-semana-confira",
+      "summary": "Demanda por chips para inteligência artificial eleva custos de eletrônicos e preocupa o Banco da Inglaterra",
+      "details": "Demanda por chips para inteligência artificial eleva custos de eletrônicos e preocupa o Banco da Inglaterra",
+      "url": "https://www.infomoney.com.br/mundo/ia-entra-na-conta-da-inflacao-chips-mais-caros-pressionam-precos-no-reino-unido/",
       "source": "CartaCapital",
       "category": "companies",
       "tags": [
@@ -653,7 +649,7 @@
       "updatedAt": "2026-08-16T14:00:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://d2hme8z1miz6cd.cloudfront.net/media/money-times/1387623.jpg"
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2024/11/421263007.jpg"
     },
     {
       "id": "macro-2c1cb0c64f8aea7ace2d02a2",
@@ -695,9 +691,9 @@
     {
       "id": "macro-8dd934735852589d96c52134",
       "title": "Este vizinho do Brasil vai ter a maior queda de PIB na América Latina em 2026, segundo o FMI",
-      "summary": "Atualizacao de macro capturada em Revista Fórum.",
-      "details": "",
-      "url": "https://revistaforum.com.br/economia/pib-economia-america-latina-fmi/",
+      "summary": "Quanto mais as taxas sobem em resposta à inflação crescente, menos valem os ganhos das gigantes da tecnologia, o que exerce pressão de venda sobre as ações",
+      "details": "Quanto mais as taxas sobem em resposta à inflação crescente, menos valem os ganhos das gigantes da tecnologia, o que exerce pressão de venda sobre as ações",
+      "url": "https://www.bloomberglinea.com.br/mercados/na-euforia-do-mercado-por-ia-wall-street-monitora-cenario-de-juros/",
       "source": "Revista Fórum",
       "category": "macro",
       "tags": [
@@ -708,14 +704,34 @@
       "publishedAt": "2026-08-16T13:20:18Z",
       "updatedAt": "2026-08-16T13:20:18Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.bloomberglinea.com/resizer/v2/GEZSPLYPFZH7NNA236HNOJT2LU.jpg?auth=3f6418861062872b730c6a62e12054d61eaf123d5d9efff67361d9539bf0641d&width=1200&height=675&quality=80&smart=true"
+    },
+    {
+      "id": "macro-a7e2b8c898e146ccf1d84bc4",
+      "title": "candidato daniel barros fiscal do povo | eleiçoes 2026",
+      "summary": "Acesse o perfil do candidato DANIEL BARROS FISCAL DO POVO nas eleições 2026 e conheça as propostas, o histórico e mais informações.",
+      "details": "Acesse o perfil do candidato DANIEL BARROS FISCAL DO POVO nas eleições 2026 e conheça as propostas, o histórico e mais informações.",
+      "url": "https://gauchazh.clicrbs.com.br/eleicoes/2026/candidato/deputado-federal/daniel-barros-fiscal-do-povo-100002542564",
+      "source": "GZH",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-16T13:18:27Z",
+      "updatedAt": "2026-08-16T13:18:27Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/20322002026/100002542564/MA?w=1200&h=675"
     },
     {
       "id": "macro-8d2d66c04efdd93d0b14ad27",
       "title": "candidato rodrigo fiscal do povo | eleiçoes 2026",
-      "summary": "Bancos pressionam Congresso para barrar rendimento em stablecoins; cripto reage. Entenda o embate.",
-      "details": "Bancos pressionam Congresso para barrar rendimento em stablecoins; cripto reage. Entenda o embate.",
-      "url": "https://www.spacemoney.com.br/investimentos/criptomoedas/rendimento-stablecoins-bancos-congresso/",
+      "summary": "Acesse o perfil do candidato RODRIGO FISCAL DO POVO nas eleições 2026 e conheça as propostas, o histórico e mais informações.",
+      "details": "Acesse o perfil do candidato RODRIGO FISCAL DO POVO nas eleições 2026 e conheça as propostas, o histórico e mais informações.",
+      "url": "https://gauchazh.clicrbs.com.br/eleicoes/2026/candidato/deputado-estadual/rodrigo-fiscal-do-povo-210002552765",
       "source": "GZH",
       "category": "macro",
       "tags": [
@@ -727,14 +743,14 @@
       "updatedAt": "2026-08-16T13:14:45Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-8369776-1.webp"
+      "imageUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/20322002026/210002552765/RS?w=1200&h=675"
     },
     {
       "id": "funds-36a297e32ce66367a06a39b5",
       "title": "Bancos e cripto retomam embate por rendimento de stablecoins",
-      "summary": "Acesse o perfil do candidato RODRIGO FISCAL DO POVO nas eleições 2026 e conheça as propostas, o histórico e mais informações.",
-      "details": "Acesse o perfil do candidato RODRIGO FISCAL DO POVO nas eleições 2026 e conheça as propostas, o histórico e mais informações.",
-      "url": "https://gauchazh.clicrbs.com.br/eleicoes/2026/candidato/deputado-estadual/rodrigo-fiscal-do-povo-210002552765",
+      "summary": "Atualizacao de fundos capturada em SpaceMoney.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPb0stNmRIUkdwQWo2WUtlZ1o0dHJFUFpzRU1BRW83WnlQNWxnVHpSRW9QMFJ0R2daOEJzWFFBWnlIN0V6NFNOVG5TVWRmdGRzeVZNOHNOdjBsR0tISjJNX2VYal9xSEdXNXl3RjdMcGlBVkxQajU5alJaWUh5VlBtTnpObzljMGdleXd3Vm5BVVV4Vk0wTnhPYVpzbmlRUQ?oc=5",
       "source": "SpaceMoney",
       "category": "funds",
       "tags": [
@@ -745,8 +761,7 @@
       "publishedAt": "2026-08-16T13:05:10Z",
       "updatedAt": "2026-08-16T13:05:10Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/20322002026/210002552765/RS?w=1200&h=675"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "companies-65683db6168835759c8eee6c",
@@ -767,12 +782,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "macro-c6cbfbc9dc6c67a98aaddf99",
+      "id": "macro-42c463c08d5887146ebce331",
       "title": "Dividendos acima de 14%: 6 ações que podem superar a Selic",
-      "summary": "Atualizacao de macro capturada em Money Times.",
+      "summary": "Atualizacao de macro capturada em moneytimes.com.br.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOU80WlpTOFZzQ3lCTXlGRWR4MmhhejRXUXZWUUFfZnZsbVdONjI0SzJpb1JrQ0tzdE90eXJRMWgwRTJqYnN4Y0daSHJydUZxcXZjbTRrS2lUOHRDQ2VOTEd3VE5Nc3J2blMxbTBjMkF5MF9lSmVoaDlvaTRVb2h0X2FlZXMxR3hlWXBVTTZLN1ZTR3RZTDhn?oc=5",
-      "source": "Money Times",
+      "source": "moneytimes.com.br",
       "category": "macro",
       "tags": [
         "macro",
@@ -821,24 +836,6 @@
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "macro-ebdbd7a593f7b7d7480556b5",
-      "title": "PIB de Israel dispara 15,4% após contração provocada por guerra com Irã",
-      "summary": "Atualizacao de macro capturada em InfoMoney.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQc21tejlNN1cxbHFnaDlaUHFaN3l2Z094bGpSMy1SaV9nQzJJUmJ3TGt4ZldkY2Y4X1B1QnJNS2tZLWhZNGhGUVJlMllkNE5sWTQxeDVjVm9lcHZmVDlpcDBiSWcxV3RFNnF5WWxCa3FBWGExRThELVZqWFJ6WEVUWkNTSHBmYlEzcGtSendEdnhRYjFCRGFqRWU2QW9RT2RHLV9LVWtjQzjSAa4BQVVfeXFMTVphUjVUc3VJSU0zYUJkV2hZVzhLRkRlTUZmYXlRdUt5WmNGNE8yU2RqdGtyQjVnRE9VRkJVN2V4SWlOT29LTTdYdEl5TjkxblRPQzRXUnM3bDVDcnd6aGlWRDAzNXhRcWMxeGh2aGU3cldyWDJlS18wQW95ZHI1NmN4ZVR1SzdDZklFVWlNMWdBRDZzTHNhYTBCMW8way1ZRmMzeUVVZVZWbG91Z0Rn?oc=5",
-      "source": "InfoMoney",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-16T12:41:21Z",
-      "updatedAt": "2026-08-16T12:41:21Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
       "id": "funds-9316f61c4bc8fb17e06da4b9",
       "title": "Quem é Ivo Kos, empresário da Faria Lima preso por agredir a esposa",
       "summary": "Atualizacao de fundos capturada em Estado de Minas.",
@@ -855,24 +852,6 @@
       "updatedAt": "2026-08-16T12:41:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "macro-2e3f24b02379e5d74f3aca9b",
-      "title": "Agenda de mercados: Ata do Fed, Durigan, Galípolo e dados de atividade no foco",
-      "summary": "Atualizacao de macro capturada em Valor Econômico.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYjg2S01Nb0N1VjFKR0lyTkJpQjdnTUNOTEdGN2VvR3NWbkhOQ2dOMXZxVC11UTRDdWVlbjl1d21Ka3BqS3kwOFVWeWtSTVZhVHloa3htdGRBOUdpS3dDbDFid3pucE9MQmJmaU9XckhoRXpERmc0dnRHY2tNSndjWi1FeDA3TFROZnktVm1HZ3ZMSm9QNDVkSF8zX1FZa3A5dWZKVUQzSFJvbzZaN1FmX25VRGEwM3BQcGwtWm90V1Qtal81VVBqUnF1Z2Jtd9IB3AFBVV95cUxQWXNPczNMOEpLaENGcmN4UDBsR3RxNnJkMWQ3LVo4ZFRPb2hLRkZ1QWZ1Z2JHR2JhTEZVenl0eTdMRjc2cU5xMjcyNGJNZVBJMnJSV1VmU0NUUG9VN25zUTRJRUkwMEhfRm93QllPU0xob3IwVzhXUDNTT0Jtc1VZR3pydWkyblVrOC1OTVdyOFU2U0toV1gxT1lxdGQ4LUN3RmR3YmFFb1VDN0lBTnBXcFJzS3hkaDdSLWlwcUhsYUM3Sll4NmJNcy1tMFpMczNGVkswbTF3Um43Q0U0?oc=5",
-      "source": "Valor Econômico",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-16T12:08:24Z",
-      "updatedAt": "2026-08-16T12:08:24Z",
-      "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-392508eed29cf6c4e0db314d",
@@ -929,7 +908,25 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-c77db5497fca46383e801d11",
+      "id": "latest-8d4a1e7353ac4a567f98583b",
+      "title": "MidiaNews",
+      "summary": "Atualizacao de ultima hora capturada em MidiaNews.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNUlzcXB1TzlYbUo0QzRYZHBsM09qTXBnSEF2VGRIVnlhTXhIM3c0dkdhMWJ4YmxJdHZNamxLWURzajlRX0p4ckVuNTJUTTd5T2R5SUpJYkx4aE5KeW9aLVpRZl94TzFtbVZYVG9HYjFoN2hTVnRsaVFzbWIydWRScXhXN1FsRWNqTmhJMWNUMjc3WXZfN1dNbjZ2dnc4Vmx3bEQxa0w1eE5fdDMxNHY0bUtUZEVrQQ?oc=5",
+      "source": "MidiaNews",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-16T11:00:00Z",
+      "updatedAt": "2026-08-16T11:00:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "latest-62755094f32d63073dee71ea",
       "title": "Preços do açúcar se recuperam e abrem oportunidades para exportação",
       "summary": "Atualizacao de ultima hora capturada em boca.com.br.",
       "details": "",
@@ -941,8 +938,8 @@
         "bolsa",
         "macro"
       ],
-      "publishedAt": "2026-08-16T10:10:23Z",
-      "updatedAt": "2026-08-16T10:10:23Z",
+      "publishedAt": "2026-08-16T10:12:02Z",
+      "updatedAt": "2026-08-16T10:12:02Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
@@ -965,12 +962,12 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "funds-4b360d98996122b69ef57315",
+      "id": "funds-a0b5c609225098d5684a37e0",
       "title": "Fundos de investimento estão interessados ​​no projeto de produção de aço ferroviário de 700.000 toneladas/ano da Hoa Phat.",
-      "summary": "Atualizacao de fundos capturada em Vietnam.vn.",
+      "summary": "Atualizacao de fundos capturada em vietnam.vn.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYXpTWElOQm40VHhYZWFMc2dZZW4zZDI3VDhYM0djVFBhMUMyUHlzUzZjSXIxWG1weWpfd3JoWWQtaXU1YmFEcGhiWDk2STZmSGZBM1IzMkpoRGNoNXVjT1VGUW9vd1FpZ0lWNXdnWFh6Wm9fRDhwTTBmU3o4Y3pSMUI5d1NCTlljTkVKU0x1UG1UYXZJc2kxSg?oc=5",
-      "source": "Vietnam.vn",
+      "source": "vietnam.vn",
       "category": "funds",
       "tags": [
         "fundos",
@@ -1109,6 +1106,24 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
+      "id": "funds-309a76bf53bb9d7ff6bb3689",
+      "title": "Ibovespa cai 3,23% na semana com eleições e saída de estrangeiros no foco",
+      "summary": "Atualizacao de fundos capturada em Acessa.com.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYjFnUnZuZmtHdE5oV25Mb19IbldwTFVQRlViZHh5ejZpc042LWgyaGlmWS1Uak5jbDY5MUF4MnVibVBlcjNWVlo3WFBCVmpVTW5HbjR4NFFVSEcyWFB3U3J1YUpTeDNSeXB6QS1Ddkt3RHZFcUVQazdvWDJaWlVYNXdETE9OX1dDTkx5cGRkVnFtZ3JSU19wWXpRLXpVY0VQOHl2dU1DN2tUVW5VaHUzcERGbGVMdUxtazd3MlUzWkViWHAtTmfSAcYBQVVfeXFMTmIxZ1J2bmZrR3ROaFduTG9fSG5XcExVUEZVYmR4eXo2aXNONi1oMmhpZlktVGpOY2w2OTFBeDJ1Ym1QZXIzVlZaN1hQQlZqVU1uR240eDRRVUhHMlhQd1NydWFKU3gzUnlwekEtQ3ZLd0R2RXFFUGs3b1gyWlpVWDV3RExPTl9XQ05MeXBkZFZxbWdyUlNfcFl6US16VWNFUDh5dnVNQzdrVFVuVWh1M3BERmxlTHVMbWs3dzJVM1pFYlhwLU5n?oc=5",
+      "source": "Acessa.com",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-08-16T06:34:45Z",
+      "updatedAt": "2026-08-16T06:34:45Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
       "id": "funds-edf20b5020b100ab68216950",
       "title": "Preços DIGITAL ASSET STOCKPILE | Índice de preços DAS, gráfico ao vivo e cap. do mercado de mercado (USD)",
       "summary": "Atualizacao de fundos capturada em OKX.",
@@ -1127,12 +1142,12 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "funds-b9e82d89d7c12e45cafd194d",
+      "id": "funds-f59e1211e0bce331c3ed7659",
       "title": "A liberação de fundos de investimento público cria impulso para o desenvolvimento.",
-      "summary": "Atualizacao de fundos capturada em Vietnam.vn.",
+      "summary": "Atualizacao de fundos capturada em vietnam.vn.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ySXZZME91RGNhYWdjVGRaVEEweGpYaHEzY2w0cWZxbHkwODhYSDdkMGxNbWZETG5XUEY0OGhUZi1lNFN2bTdUSjVLdnRERDZVQ0FuRHNJaGVYQ0RrdGZJYnRCZ2VNWWlDWm1lUUhmS21JT2NQX3pPNzFtTVFkTms?oc=5",
-      "source": "Vietnam.vn",
+      "source": "vietnam.vn",
       "category": "funds",
       "tags": [
         "fundos",
@@ -1181,12 +1196,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "funds-441a7e9916cdc76cdf32ffc6",
+      "id": "funds-73f41baf72f1313362ce2454",
       "title": "O Conselho 1 enfrenta pressão para acelerar o desembolso de fundos de investimento público.",
-      "summary": "Atualizacao de fundos capturada em Vietnam.vn.",
+      "summary": "Atualizacao de fundos capturada em vietnam.vn.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcWNWWFY5b1V6WFRMMzQtMlVGdVFPOFFJYTBZb3VsYzk3bjlIN3ZPT1JGSkVNVThXU0xMMmxUX0VPQVNJUktLd05xVUU2d01CTW0zSUs3S01yODBvVjlGXzNMVm50bVR6MHRhU2pWZ2U1UkxMa2RBRkRUX1U1WDgtNEk3akhoQQ?oc=5",
-      "source": "Vietnam.vn",
+      "source": "vietnam.vn",
       "category": "funds",
       "tags": [
         "fundos",
@@ -1197,6 +1212,24 @@
       "updatedAt": "2026-08-16T03:26:08Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "companies-bc85ae978a92bd63c278a05f",
+      "title": "Osasco debate oportunidades econômicas do acordo União Europeia-Mercosul",
+      "summary": "Atualizacao de empresas capturada em Correio Paulista.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPT05GZUJUeUtZZHozLTlMdlRjaTdHS0owZGlrVDB1WWRVRkpHNXo0dnhqVEtyNjBmdkxTY2hWQlNWdTFCNDM3VTh4dlFscnVINFozck9JTkgwNjZKTUZzYU9rVWh5bTlqbWRTWmlhbmx1NnZjbmRYZkh0clA3ZGhKaUszTXNsTDllZ1gtUHRIdDdqR3pERnowYW9ORFRfdk0yYktZ?oc=5",
+      "source": "Correio Paulista",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-08-16T03:04:00Z",
+      "updatedAt": "2026-08-16T03:04:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-5c84c1c11c17706b78787939",
@@ -1215,24 +1248,6 @@
       "updatedAt": "2026-08-16T02:00:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "latest-6008d7aeee6cfb0b16920f4e",
-      "title": "Quem é Ivo Kos, empresário do mercado financeiro preso acusado de agredir a mulher em SP",
-      "summary": "Atualizacao de ultima hora capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQaFphWmlrQnp5WldHNEpkU25UZFZBUktTbEhvRWcwaXhOMDRTb0N6OU5nQXdkYVhQOEV6R0k2bHRzM3FnU0xzOHBmMXQyVU5peEY2eENHbEx2ZmRBUmo1ZkNFeDhwNU4xUGduaE1DRlIyUjU5RzRXRjRxd1BURDUzUG1TaEtYaVBWZGZ5bTlHXzZiTFBLa3hLRUpkQXp4TVZPWFltT2lMeVNDNlR3TGxtN3RGdVdTNXU4SEthaTVKbUFURkRqQnp6T3drbExTdw?oc=5",
-      "source": "Estadão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-16T01:55:04Z",
-      "updatedAt": "2026-08-16T01:55:04Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "funds-ab0164ca4237e0cdde0867db",
@@ -1361,12 +1376,12 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "funds-91a683600443c48d7200ac08",
+      "id": "funds-ff76cf7546fd5c73df7162e3",
       "title": "A Shinhan Asset Management inicia um projeto-piloto com @plu",
-      "summary": "Atualizacao de fundos capturada em kucoin.com.",
+      "summary": "Atualizacao de fundos capturada em KuCoin.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wSHM4TktTcjhPX0g1aTJ5UU5LRTRRU0VKci1xdk5tRDFiaUF0SjIyYl9ac1JzNFVQTkltWVJObUllenctdUdsbWo3al9TOEl0eTFHbU0zUHEzcEhwOWx4TUlGOXhKUHoydlVSQlRMMlNQM05x?oc=5",
-      "source": "kucoin.com",
+      "source": "KuCoin",
       "category": "funds",
       "tags": [
         "fundos",
@@ -1377,24 +1392,6 @@
       "updatedAt": "2026-08-15T19:50:13Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "companies-7da7de16f10b1e095589d2bb",
-      "title": "Flávio propõe usar BNDES para exportações, e Mercadante critica governo de Bolsonaro",
-      "summary": "Atualizacao de empresas capturada em Tribuna da Internet.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSG1LOFFqdnlGbXU3RGZsQjJYTU1ISzBva1RsRnc2SnhISEd3ZEhxT1VFLXRqdHc5WENzQi1LNFQ2OVBUNTNHM0RvaUZETTczeHBBaldTTDlaUXEtWF9MdGhJdmRlY0NlUlpKNkF0R2F3TTMzTXR4RmdVT2FBY0lSUmpINnA5cDdDcjJDbGU2eFhMWXU4RVdxYmdJS1VwbDJjS3FuQkVnRVZHREJVdm15cFZpOVhJLU95VFZobmI2TmE4c05XUTdJ?oc=5",
-      "source": "Tribuna da Internet",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-08-15T15:01:22Z",
-      "updatedAt": "2026-08-15T15:01:22Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     }
   ]
 }
