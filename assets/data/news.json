@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-18T05:54:05Z",
-  "generatedAt": "2026-08-18T05:54:05Z",
+  "updatedAt": "2026-08-18T06:35:59Z",
+  "generatedAt": "2026-08-18T06:35:59Z",
   "categories": [
     {
       "id": "all",
@@ -25,12 +25,16 @@
   ],
   "sources": [
     {
-      "id": "a-gazeta",
-      "label": "A Gazeta"
+      "id": "bahia-economica",
+      "label": "- Bahia Economica"
     },
     {
       "id": "acontecendo-aqui",
       "label": "Acontecendo Aqui"
+    },
+    {
+      "id": "agazeta-com-br",
+      "label": "agazeta.com.br"
     },
     {
       "id": "agora-rn",
@@ -55,10 +59,6 @@
     {
       "id": "broadcast-com-br",
       "label": "broadcast.com.br"
-    },
-    {
-      "id": "c6-bank",
-      "label": "C6 Bank"
     },
     {
       "id": "cnn-brasil",
@@ -97,12 +97,8 @@
       "label": "G1"
     },
     {
-      "id": "ibandce-com-br",
-      "label": "ibandce.com.br"
-    },
-    {
       "id": "imirante-com",
-      "label": "Imirante.com"
+      "label": "imirante.com"
     },
     {
       "id": "investing-com-brasil-finan-as-c-mbio-e-investimentos",
@@ -177,10 +173,6 @@
       "label": "Rádio Itatiaia"
     },
     {
-      "id": "sbt-news",
-      "label": "SBT News"
-    },
-    {
       "id": "segs-com-br",
       "label": "segs.com.br"
     },
@@ -215,15 +207,38 @@
     {
       "id": "viva-com-br",
       "label": "viva.com.br"
+    },
+    {
+      "id": "wscom",
+      "label": "WSCOM"
     }
   ],
   "items": [
     {
+      "id": "macro-92b31196329427e64c76075c",
+      "title": "Pulsar Group discute pagamentos de impostos com autoridade fiscal do Reino Unido",
+      "summary": "Eleições gerais acontecem em 4 de outubro",
+      "details": "Eleições gerais acontecem em 4 de outubro",
+      "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/08/18/candidatos-a-deputado-federal-no-df-veja-a-lista-das-eleicoes-2026.ghtml",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-18T06:19:00Z",
+      "updatedAt": "2026-08-18T06:19:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s2-valor.glbimg.com/MYbfnwCKVFIT2VDaXKIDqWSkIM4=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/e/6/OchxzASRSKMXMsgnOqTg/tarja-federais.jpg"
+    },
+    {
       "id": "macro-325f4f214592d07b7db29840",
       "title": "Governo federal reajusta valor unitário de contrato com base na inflação oficial",
-      "summary": "Reequilíbrio financeiro de prestação de serviços foi corrigido pelo IPCA, conforme atualização publicada no Diário Oficial da União",
-      "details": "Reequilíbrio financeiro de prestação de serviços foi corrigido pelo IPCA, conforme atualização publicada no Diário Oficial da União",
-      "url": "https://www.otempo.com.br/politica/2026/8/18/governo-federal-reajusta-valor-unitario-de-contrato-com-base-na-inflacao-oficial",
+      "summary": "Atualizacao de macro capturada em O TEMPO.",
+      "details": "",
+      "url": "https://br.investing.com/news/forex-news/moedas-asiaticas-sem-direcao-com-perspectivas-do-fed-e-tensoes-euaira-em-foco-2042156",
       "source": "O TEMPO",
       "category": "macro",
       "tags": [
@@ -234,6 +249,24 @@
       "publishedAt": "2026-08-18T05:15:35Z",
       "updatedAt": "2026-08-18T05:15:35Z",
       "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-9158fd753e8cea33b3084423",
+      "title": "Candidatos a deputado federal no DF: veja a lista das eleições 2026",
+      "summary": "Reequilíbrio financeiro de prestação de serviços foi corrigido pelo IPCA, conforme atualização publicada no Diário Oficial da União",
+      "details": "Reequilíbrio financeiro de prestação de serviços foi corrigido pelo IPCA, conforme atualização publicada no Diário Oficial da União",
+      "url": "https://www.otempo.com.br/politica/2026/8/18/governo-federal-reajusta-valor-unitario-de-contrato-com-base-na-inflacao-oficial",
+      "source": "Valor Econômico",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-18T05:02:19Z",
+      "updatedAt": "2026-08-18T05:02:19Z",
+      "premium": true,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
       "imageUrl": "https://www.otempo.com.br/content/dam/otempo/frontend/resources/images/logos/opengraph.jpg"
     },
@@ -261,7 +294,7 @@
       "title": "Bolsas asiáticas recuam com petróleo e juros renovando temores de inflação",
       "summary": "Atualizacao de macro capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
       "details": "",
-      "url": "https://br.investing.com/news/forex-news/moedas-asiaticas-sem-direcao-com-perspectivas-do-fed-e-tensoes-euaira-em-foco-2042156",
+      "url": "https://br.investing.com/news/company-news/pulsar-group-discute-pagamentos-de-impostos-com-autoridade-fiscal-do-reino-unido-93CH-2042197",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "macro",
       "tags": [
@@ -314,9 +347,9 @@
     {
       "id": "macro-5116ca27248c34dcf394343b",
       "title": "Comissão da Câmara aprova novas regras para gestão fiscal de Natal",
-      "summary": "Projetos permitem negociar dívidas com descontos de até 80% e criam colegiado para prevenir restrições que possam bloquear convênios e repasses federais",
-      "details": "Projetos permitem negociar dívidas com descontos de até 80% e criam colegiado para prevenir restrições que possam bloquear convênios e repasses federais",
-      "url": "https://agorarn.com.br/destaques/03/comissao-da-camara-aprova-novas-regras-para-gestao-fiscal-de-natal/",
+      "summary": "Órgãos alegam que decisões do STF embasam a criação de novas fontes de receita para o Judiciário",
+      "details": "Órgãos alegam que decisões do STF embasam a criação de novas fontes de receita para o Judiciário",
+      "url": "https://www1.folha.uol.com.br/mercado/2026/08/senado-aprova-criacao-de-fundos-para-judiciario-que-permitem-gastos-fora-do-arcabouco-fiscal.shtml",
       "source": "Agora RN",
       "category": "macro",
       "tags": [
@@ -328,14 +361,14 @@
       "updatedAt": "2026-08-18T03:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://agorarn.com.br/files/uploads/2026/08/Reuni∆o-da-Comiss∆o-de-Legislaa∆o-Justiaa-e-Redaa∆o-da-CEmara.jpg"
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2025/12/18/176609950869448a3438227_1766099508_3x2_rt.jpg"
     },
     {
       "id": "latest-99a6a61e828dcd38805bd624",
       "title": "Rita Mundim: Eleições 2026 podem impactar o mercado financeiro nesta semanda",
-      "summary": "Órgãos alegam que decisões do STF embasam a criação de novas fontes de receita para o Judiciário",
-      "details": "Órgãos alegam que decisões do STF embasam a criação de novas fontes de receita para o Judiciário",
-      "url": "https://www1.folha.uol.com.br/mercado/2026/08/senado-aprova-criacao-de-fundos-para-judiciario-que-permitem-gastos-fora-do-arcabouco-fiscal.shtml",
+      "summary": "Projetos permitem negociar dívidas com descontos de até 80% e criam colegiado para prevenir restrições que possam bloquear convênios e repasses federais",
+      "details": "Projetos permitem negociar dívidas com descontos de até 80% e criam colegiado para prevenir restrições que possam bloquear convênios e repasses federais",
+      "url": "https://agorarn.com.br/destaques/03/comissao-da-camara-aprova-novas-regras-para-gestao-fiscal-de-natal/",
       "source": "Rádio Itatiaia",
       "category": "latest",
       "tags": [
@@ -347,7 +380,7 @@
       "updatedAt": "2026-08-18T02:38:24Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2025/12/18/176609950869448a3438227_1766099508_3x2_rt.jpg"
+      "imageUrl": "https://agorarn.com.br/files/uploads/2026/08/Reuni∆o-da-Comiss∆o-de-Legislaa∆o-Justiaa-e-Redaa∆o-da-CEmara.jpg"
     },
     {
       "id": "macro-dc195639dec1bb6efab507c3",
@@ -409,9 +442,9 @@
     {
       "id": "macro-0b6184bb8a1fc2a69f983c1a",
       "title": "Ajuste fiscal mal calibrado pode levar Brasil à recessão em 2027, diz Felipe Salto",
-      "summary": "As previsões para a inflação, a taxa básica de juros, o PIB e o dólar permaneceram estáveis na comparação com a semana passada, segundo o Boletim Focus",
-      "details": "As previsões para a inflação, a taxa básica de juros, o PIB e o dólar permaneceram estáveis na comparação com a semana passada, segundo o Boletim Focus",
-      "url": "https://www.bemparana.com.br/noticias/economia/projecoes-para-a-inflacao-pib-e-dolar-ficam-estaveis-nesta-semana/",
+      "summary": "Atualizacao de macro capturada em Times Brasil | CNBC.",
+      "details": "",
+      "url": "https://monitormercantil.com.br/tesouro-direto-aplicativo-e-desativado/",
       "source": "Times Brasil | CNBC",
       "category": "macro",
       "tags": [
@@ -422,15 +455,14 @@
       "publishedAt": "2026-08-18T01:41:00Z",
       "updatedAt": "2026-08-18T01:41:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.bemparana.com.br/wp-content/uploads/2026/03/inflacao.jpg?v=18.08.5.42.28"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-ecf04dc0adfe213b2fee9f87",
       "title": "Papel da Petrobras e governo no mercado de combustíveis",
-      "summary": "Atualizacao de ultima hora capturada em Monitor Mercantil.",
-      "details": "",
-      "url": "https://monitormercantil.com.br/papel-da-petrobras-e-governo-no-mercado-de-combustiveis/",
+      "summary": "O Brasil corre risco de entrar em recessão em 2027 caso o próximo governo erre a calibragem do ajuste fiscal em um ambiente de juros elevados e atividade",
+      "details": "O Brasil corre risco de entrar em recessão em 2027 caso o próximo governo erre a calibragem do ajuste fiscal em um ambiente de juros elevados e atividade",
+      "url": "https://timesbrasil.com.br/brasil/ajuste-fiscal-mal-calibrado-pode-levar-brasil-a-recessao-em-2027-diz-felipe-salto/",
       "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
@@ -441,14 +473,15 @@
       "publishedAt": "2026-08-18T01:32:23Z",
       "updatedAt": "2026-08-18T01:32:23Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/08/d49b6b50-captura-de-tela-2026-08-17-223928.webp"
     },
     {
       "id": "latest-efcabfbacae0129741be06be",
       "title": "Tesouro Direto: Aplicativo é desativado",
-      "summary": "O crescimento acelerado das fintechs brasileiras vem acompanhado de um novo desafio: escalar a operação sem perder eficiência, segurança e qualidade no atendimento. Em um mercado cada vez mais competitivo, investir apenas na expansão comercial já não é suficiente. A tecnologia de",
-      "details": "O crescimento acelerado das fintechs brasileiras vem acompanhado de um novo desafio: escalar a operação sem perder eficiência, segurança e qualidade no atendimento. Em um mercado cada vez mais competitivo, investir apenas na expansão comercial já não é suficiente. A tecnologia de gestão passou a ser um dos principais p",
-      "url": "https://www.broadcast.com.br/knewin-dino/fintechs-ampliam-uso-de-tecnologia-para-crescer/",
+      "summary": "Atualizacao de ultima hora capturada em Monitor Mercantil.",
+      "details": "",
+      "url": "https://monitormercantil.com.br/papel-da-petrobras-e-governo-no-mercado-de-combustiveis/",
       "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
@@ -459,16 +492,15 @@
       "publishedAt": "2026-08-18T01:25:40Z",
       "updatedAt": "2026-08-18T01:25:40Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/08/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K7i52Wj2xJIAvKerQ1lLQzkSd60vW0LDk6MxtovN7aygJblFGMzSduXabWUSpd7c9cAUYgCbq4Q9jyPLmeXivNrzpp8fQFGvim-J4hsFae0PFWUZXegZIjsSbNMFUEyT2I1.png"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-c06ec49325d5d105b639c574",
+      "id": "latest-844ec79f3bc2d5fa06ce9769",
       "title": "Mercado mantém estáveis projeções para inflação, juros e PIB",
-      "summary": "O Brasil corre risco de entrar em recessão em 2027 caso o próximo governo erre a calibragem do ajuste fiscal em um ambiente de juros elevados e atividade",
-      "details": "O Brasil corre risco de entrar em recessão em 2027 caso o próximo governo erre a calibragem do ajuste fiscal em um ambiente de juros elevados e atividade",
-      "url": "https://timesbrasil.com.br/brasil/ajuste-fiscal-mal-calibrado-pode-levar-brasil-a-recessao-em-2027-diz-felipe-salto/",
-      "source": "Imirante.com",
+      "summary": "Boletim Focus projeta inflação de 5,02% e Selic de 13,75% em 2026.",
+      "details": "Boletim Focus projeta inflação de 5,02% e Selic de 13,75% em 2026.",
+      "url": "https://imirante.com/noticias/brasil/amp/2026/08/17/mercado-mantem-estaveis-projecoes-para-inflacao-juros-e-pib",
+      "source": "imirante.com",
       "category": "latest",
       "tags": [
         "mercado",
@@ -479,14 +511,33 @@
       "updatedAt": "2026-08-18T01:22:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/08/d49b6b50-captura-de-tela-2026-08-17-223928.webp"
+      "imageUrl": "https://imagens.imirante.com.br/imagens/noticias/2020/04/02/1585821071-648075283.jpg?w=896&h=448&crop=1170%2C682%2C0%2C11&fit=crop&s=e3914849a642e351e2a19b20b391243b"
+    },
+    {
+      "id": "latest-580fd70c70921aa5a57f1430",
+      "title": "Brasileiros consideram cidades menores em busca de qualidade",
+      "summary": "A busca por qualidade de vida pode ampliar o mapa de cidades consideradas por quem procura um imóvel no Brasil. De acordo com o levantamento Morar no Centro: Conforto ou Desafio Moderno?, realizado pela área de inteligência DataZAP, do Grupo OLX, 65% do público pesquisado afirmou",
+      "details": "A busca por qualidade de vida pode ampliar o mapa de cidades consideradas por quem procura um imóvel no Brasil. De acordo com o levantamento Morar no Centro: Conforto ou Desafio Moderno?, realizado pela área de inteligência DataZAP, do Grupo OLX, 65% do público pesquisado afirmou que deixaria grandes centros […]",
+      "url": "https://www.broadcast.com.br/knewin-dino/brasileiros-consideram-cidades-menores-em-busca-de-qualidade/",
+      "source": "broadcast.com.br",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-18T01:20:23Z",
+      "updatedAt": "2026-08-18T01:20:23Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/08/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K6nc_2xIxNfvIFegh2wasHSZmfnWgTtN4ltPSR3ZGDvTuit8zK18Yj3d4-A3Cv7NNIEHIE0muS43h90EMUwOmOqk2V5D5xyJoCuxTINDdhZ3o1u0gb8eSI54R2_ukYVP-k1.png"
     },
     {
       "id": "latest-528baa06bceceb3c9673786c",
       "title": "ClickLivre é indicada ao Prêmio Reclame AQUI 2026",
-      "summary": "Boletim Focus projeta inflação de 5,02% e Selic de 13,75% em 2026.",
-      "details": "Boletim Focus projeta inflação de 5,02% e Selic de 13,75% em 2026.",
-      "url": "https://imirante.com/noticias/brasil/amp/2026/08/17/mercado-mantem-estaveis-projecoes-para-inflacao-juros-e-pib",
+      "summary": "A ClickLivre, empresa mineira de energia por assinatura fundada há cinco anos, concorre ao Prêmio Reclame AQUI 2026 na categoria Energia Solar. A premiação reconhece as empresas com melhor índice de atendimento e reputação em cada setor da economia, com base no número de votos da",
+      "details": "A ClickLivre, empresa mineira de energia por assinatura fundada há cinco anos, concorre ao Prêmio Reclame AQUI 2026 na categoria Energia Solar. A premiação reconhece as empresas com melhor índice de atendimento e reputação em cada setor da economia, com base no número de votos dados pelos próprios usuários no […]",
+      "url": "https://www.broadcast.com.br/knewin-dino/clicklivre-e-indicada-ao-premio-reclame-aqui-2026/",
       "source": "broadcast.com.br",
       "category": "latest",
       "tags": [
@@ -498,14 +549,14 @@
       "updatedAt": "2026-08-18T01:20:07Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://imagens.imirante.com.br/imagens/noticias/2020/04/02/1585821071-648075283.jpg?w=896&h=448&crop=1170%2C682%2C0%2C11&fit=crop&s=e3914849a642e351e2a19b20b391243b"
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/08/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K4Qrtaghc34tPzQ2YVeXS7UZNrebxyy_X85KPMQmAUMjINrny2IGc0AUHrBWNN_fMQW0TT4cLFzz_d8EJNrXLlKXqBsZqpgeb3r3DStqxNH-DutuBv2gnqderLxkvtJPKw1.png"
     },
     {
       "id": "latest-b4982611edbd514f3fa51d9e",
       "title": "Empresas adotam práticas ESG que fortalecem negócios",
-      "summary": "Atualizacao de ultima hora capturada em broadcast.com.br.",
-      "details": "",
-      "url": "https://monitormercantil.com.br/tesouro-direto-aplicativo-e-desativado/",
+      "summary": "O crescimento acelerado das fintechs brasileiras vem acompanhado de um novo desafio: escalar a operação sem perder eficiência, segurança e qualidade no atendimento. Em um mercado cada vez mais competitivo, investir apenas na expansão comercial já não é suficiente. A tecnologia de",
+      "details": "O crescimento acelerado das fintechs brasileiras vem acompanhado de um novo desafio: escalar a operação sem perder eficiência, segurança e qualidade no atendimento. Em um mercado cada vez mais competitivo, investir apenas na expansão comercial já não é suficiente. A tecnologia de gestão passou a ser um dos principais p",
+      "url": "https://www.broadcast.com.br/knewin-dino/fintechs-ampliam-uso-de-tecnologia-para-crescer/",
       "source": "broadcast.com.br",
       "category": "latest",
       "tags": [
@@ -516,14 +567,15 @@
       "publishedAt": "2026-08-18T01:20:02Z",
       "updatedAt": "2026-08-18T01:20:02Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/08/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K7i52Wj2xJIAvKerQ1lLQzkSd60vW0LDk6MxtovN7aygJblFGMzSduXabWUSpd7c9cAUYgCbq4Q9jyPLmeXivNrzpp8fQFGvim-J4hsFae0PFWUZXegZIjsSbNMFUEyT2I1.png"
     },
     {
       "id": "latest-454849d450caa83feab93ad4",
       "title": "Fintechs ampliam uso de tecnologia para crescer",
-      "summary": "A ClickLivre, empresa mineira de energia por assinatura fundada há cinco anos, concorre ao Prêmio Reclame AQUI 2026 na categoria Energia Solar. A premiação reconhece as empresas com melhor índice de atendimento e reputação em cada setor da economia, com base no número de votos da",
-      "details": "A ClickLivre, empresa mineira de energia por assinatura fundada há cinco anos, concorre ao Prêmio Reclame AQUI 2026 na categoria Energia Solar. A premiação reconhece as empresas com melhor índice de atendimento e reputação em cada setor da economia, com base no número de votos dados pelos próprios usuários no […]",
-      "url": "https://www.broadcast.com.br/knewin-dino/clicklivre-e-indicada-ao-premio-reclame-aqui-2026/",
+      "summary": "A agenda ESG (Environmental, Social and Governance) tem se consolidado nas estratégias de grandes empresas nos últimos anos. O advogado e empresário Carlos Santana, fundador da Tecnobank e da CS Invest, defende que a incorporação de práticas ambientais, sociais e de governança de",
+      "details": "A agenda ESG (Environmental, Social and Governance) tem se consolidado nas estratégias de grandes empresas nos últimos anos. O advogado e empresário Carlos Santana, fundador da Tecnobank e da CS Invest, defende que a incorporação de práticas ambientais, sociais e de governança deve fazer parte da cultura organizacional",
+      "url": "https://www.broadcast.com.br/knewin-dino/empresas-adotam-praticas-esg-que-fortalecem-negocios/",
       "source": "broadcast.com.br",
       "category": "latest",
       "tags": [
@@ -535,14 +587,14 @@
       "updatedAt": "2026-08-18T01:20:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/08/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K4Qrtaghc34tPzQ2YVeXS7UZNrebxyy_X85KPMQmAUMjINrny2IGc0AUHrBWNN_fMQW0TT4cLFzz_d8EJNrXLlKXqBsZqpgeb3r3DStqxNH-DutuBv2gnqderLxkvtJPKw1.png"
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/08/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K4Qrtaghc34tPzQ2YVeXS7UZNrebxyy_X85KPMQmAUMjINrny2IGc0AUHrBWNN_fMQW0TT4cLFzz_d8EJNrXLlKXqBsZqpgeb3r3DStqxNH-FpX_ZpjhYDMb_MEFpiGwqE1.png"
     },
     {
       "id": "macro-57b5577d914a54a2dd361634",
       "title": "Lucro da BHP avança 9% no ano fiscal encerrado em junho, puxado pelo cobre",
-      "summary": "Atualizacao de macro capturada em Valor Econômico.",
-      "details": "",
-      "url": "https://br.investing.com/news/commodities-news/ouro-sobe-perto-de-us-4450-com-apostas-no-fed-recuando-e-dolar-fraco-2042084",
+      "summary": "As previsões para a inflação, a taxa básica de juros, o PIB e o dólar permaneceram estáveis na comparação com a semana passada, segundo o Boletim Focus",
+      "details": "As previsões para a inflação, a taxa básica de juros, o PIB e o dólar permaneceram estáveis na comparação com a semana passada, segundo o Boletim Focus",
+      "url": "https://www.bemparana.com.br/noticias/economia/projecoes-para-a-inflacao-pib-e-dolar-ficam-estaveis-nesta-semana/",
       "source": "Valor Econômico",
       "category": "macro",
       "tags": [
@@ -553,14 +605,15 @@
       "publishedAt": "2026-08-18T01:02:04Z",
       "updatedAt": "2026-08-18T01:02:04Z",
       "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.bemparana.com.br/wp-content/uploads/2026/03/inflacao.jpg?v=18.08.5.42.28"
     },
     {
       "id": "macro-7a98231dd0a7b4d88f473f37",
       "title": "Projeções para a inflação, PIB e dólar ficam estáveis nesta semana",
-      "summary": "A BHP, sediada na Austrália e maior mineradora do mundo em valor de mercado, informou um lucro líquido de US$ 9,83 bilhões referente aos 12 meses encerrados em junho",
-      "details": "A BHP, sediada na Austrália e maior mineradora do mundo em valor de mercado, informou um lucro líquido de US$ 9,83 bilhões referente aos 12 meses encerrados em junho",
-      "url": "https://valor.globo.com/empresas/noticia/2026/08/17/lucro-da-bhp-avanca-9percent-no-ano-fiscal-encerrado-em-junho-puxado-pelo-cobre.ghtml",
+      "summary": "Considerando apenas as 42 projeções atualizadas nos últimos cinco dias úteis, mais sensíveis a novidades, a estimativa aumentou de 1,94% para 1,97%",
+      "details": "Considerando apenas as 42 projeções atualizadas nos últimos cinco dias úteis, mais sensíveis a novidades, a estimativa aumentou de 1,94% para 1,97%",
+      "url": "https://jornaldebrasilia.com.br/noticias/economia/mercado-mantem-pib-no-ano-em-198-mas-corta-previsao-de-2027/",
       "source": "Bem Paraná",
       "category": "macro",
       "tags": [
@@ -572,14 +625,14 @@
       "updatedAt": "2026-08-18T01:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/JbR_L8G-86Lu_vHDqnQjBssEF4M=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/T/g/yPBQbuTA2lH8lcKjePgg/mina-de-cerro-colorado-da-bhp-no-chile-reproducao-consejo-minero.jpg"
+      "imageUrl": "https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2025/03/18112555/pib-monitor-1.jpg"
     },
     {
       "id": "macro-97981965cc3f77b778bca3b1",
       "title": "Ouro sobe perto de US$ 4.450 com apostas no Fed recuando e dólar fraco",
-      "summary": "A agenda ESG (Environmental, Social and Governance) tem se consolidado nas estratégias de grandes empresas nos últimos anos. O advogado e empresário Carlos Santana, fundador da Tecnobank e da CS Invest, defende que a incorporação de práticas ambientais, sociais e de governança de",
-      "details": "A agenda ESG (Environmental, Social and Governance) tem se consolidado nas estratégias de grandes empresas nos últimos anos. O advogado e empresário Carlos Santana, fundador da Tecnobank e da CS Invest, defende que a incorporação de práticas ambientais, sociais e de governança deve fazer parte da cultura organizacional",
-      "url": "https://www.broadcast.com.br/knewin-dino/empresas-adotam-praticas-esg-que-fortalecem-negocios/",
+      "summary": "A BHP, sediada na Austrália e maior mineradora do mundo em valor de mercado, informou um lucro líquido de US$ 9,83 bilhões referente aos 12 meses encerrados em junho",
+      "details": "A BHP, sediada na Austrália e maior mineradora do mundo em valor de mercado, informou um lucro líquido de US$ 9,83 bilhões referente aos 12 meses encerrados em junho",
+      "url": "https://valor.globo.com/empresas/noticia/2026/08/17/lucro-da-bhp-avanca-9percent-no-ano-fiscal-encerrado-em-junho-puxado-pelo-cobre.ghtml",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "macro",
       "tags": [
@@ -591,14 +644,14 @@
       "updatedAt": "2026-08-18T00:54:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/08/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K4Qrtaghc34tPzQ2YVeXS7UZNrebxyy_X85KPMQmAUMjINrny2IGc0AUHrBWNN_fMQW0TT4cLFzz_d8EJNrXLlKXqBsZqpgeb3r3DStqxNH-FpX_ZpjhYDMb_MEFpiGwqE1.png"
+      "imageUrl": "https://s2-valor.glbimg.com/JbR_L8G-86Lu_vHDqnQjBssEF4M=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/T/g/yPBQbuTA2lH8lcKjePgg/mina-de-cerro-colorado-da-bhp-no-chile-reproducao-consejo-minero.jpg"
     },
     {
       "id": "latest-d4a032988094f12b34b59f07",
       "title": "Juros ajudam a destruir gigantes como Casas Bahia, Marabraz e GPA – e queda discreta da Selic não resolve problema",
-      "summary": "Pesquisador do Insper afirma que juros altos são consequência, não causa do desequilíbrio fiscal brasileiro",
-      "details": "Pesquisador do Insper afirma que juros altos são consequência, não causa do desequilíbrio fiscal brasileiro",
-      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/arcabouco-fiscal-perdeu-a-credibilidade-diz-marcos-mendes/",
+      "summary": "Atualizacao de ultima hora capturada em Times Brasil | CNBC.",
+      "details": "",
+      "url": "https://br.investing.com/news/commodities-news/ouro-sobe-perto-de-us-4450-com-apostas-no-fed-recuando-e-dolar-fraco-2042084",
       "source": "Times Brasil | CNBC",
       "category": "latest",
       "tags": [
@@ -609,15 +662,14 @@
       "publishedAt": "2026-08-18T00:51:00Z",
       "updatedAt": "2026-08-18T00:51:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/BR_CNN_170826_ZOOM_MONEY_MARCOS_MENDES_frame_27454.jpeg?w=1200&h=630&crop=1"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-0bb7e4aa3eb0988be17d1784",
       "title": "Arcabouço fiscal perdeu a credibilidade, diz Marcos Mendes",
-      "summary": "Inadimplência das empresas brasileiras atinge R$ 232,9 bilhões com 66,2 milhões de contas vencidas. Veja setores e estados mais afetados pelo endividamento.",
-      "details": "Inadimplência das empresas brasileiras atinge R$ 232,9 bilhões com 66,2 milhões de contas vencidas. Veja setores e estados mais afetados pelo endividamento.",
-      "url": "https://www.nsctotal.com.br/economia/inadimplencia-empresarial-bate-recorde-no-brasil-e-chega-a-91-milhoes-de-cnpjs-negativados-em-2026",
+      "summary": "Os juros reais brasileiros entre os maiores do mundo fez, primeiramente, algumas vítimas entre as empresas mais frágeis: as micro, pequenas e médias, com",
+      "details": "Os juros reais brasileiros entre os maiores do mundo fez, primeiramente, algumas vítimas entre as empresas mais frágeis: as micro, pequenas e médias, com",
+      "url": "https://timesbrasil.com.br/colunas/raphael-coraccini/juros-ajudam-a-destruir-gigantes-como-casas-bahia-marabraz-e-gpa-e-queda-discreta-da-selic-nao-resolve-problema/",
       "source": "CNN Brasil",
       "category": "macro",
       "tags": [
@@ -629,14 +681,14 @@
       "updatedAt": "2026-08-18T00:09:32Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/06/413.jpg"
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/08/da7dfaa7-image-1.webp"
     },
     {
       "id": "companies-02db5b76290df7036091c672",
       "title": "Inadimplência empresarial bate recorde no Brasil e chega a 9,1 milhões de CNPJs negativados em 2026",
-      "summary": "Considerando apenas as 42 projeções atualizadas nos últimos cinco dias úteis, mais sensíveis a novidades, a estimativa aumentou de 1,94% para 1,97%",
-      "details": "Considerando apenas as 42 projeções atualizadas nos últimos cinco dias úteis, mais sensíveis a novidades, a estimativa aumentou de 1,94% para 1,97%",
-      "url": "https://jornaldebrasilia.com.br/noticias/economia/mercado-mantem-pib-no-ano-em-198-mas-corta-previsao-de-2027/",
+      "summary": "Pesquisador do Insper afirma que juros altos são consequência, não causa do desequilíbrio fiscal brasileiro",
+      "details": "Pesquisador do Insper afirma que juros altos são consequência, não causa do desequilíbrio fiscal brasileiro",
+      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/arcabouco-fiscal-perdeu-a-credibilidade-diz-marcos-mendes/",
       "source": "NSC Total",
       "category": "companies",
       "tags": [
@@ -648,14 +700,14 @@
       "updatedAt": "2026-08-18T00:04:54Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2025/03/18112555/pib-monitor-1.jpg"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/BR_CNN_170826_ZOOM_MONEY_MARCOS_MENDES_frame_27454.jpeg?w=1200&h=630&crop=1"
     },
     {
       "id": "macro-c049a2626cdceed11c8b4f36",
       "title": "Mercado mantém PIB no ano em 1,98%, mas corta previsão de 2027",
-      "summary": "Os juros reais brasileiros entre os maiores do mundo fez, primeiramente, algumas vítimas entre as empresas mais frágeis: as micro, pequenas e médias, com",
-      "details": "Os juros reais brasileiros entre os maiores do mundo fez, primeiramente, algumas vítimas entre as empresas mais frágeis: as micro, pequenas e médias, com",
-      "url": "https://timesbrasil.com.br/colunas/raphael-coraccini/juros-ajudam-a-destruir-gigantes-como-casas-bahia-marabraz-e-gpa-e-queda-discreta-da-selic-nao-resolve-problema/",
+      "summary": "Inadimplência das empresas brasileiras atinge R$ 232,9 bilhões com 66,2 milhões de contas vencidas. Veja setores e estados mais afetados pelo endividamento.",
+      "details": "Inadimplência das empresas brasileiras atinge R$ 232,9 bilhões com 66,2 milhões de contas vencidas. Veja setores e estados mais afetados pelo endividamento.",
+      "url": "https://www.nsctotal.com.br/economia/inadimplencia-empresarial-bate-recorde-no-brasil-e-chega-a-91-milhoes-de-cnpjs-negativados-em-2026",
       "source": "Jornal de Brasília",
       "category": "macro",
       "tags": [
@@ -667,7 +719,7 @@
       "updatedAt": "2026-08-17T23:54:28Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/08/da7dfaa7-image-1.webp"
+      "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/06/413.jpg"
     },
     {
       "id": "macro-5742961c20b1cc8755a14487",
@@ -691,9 +743,9 @@
     {
       "id": "latest-bced7f9663bb9ff2bd1267a4",
       "title": "Notícias",
-      "summary": "As expectativas do mercado financeiro para os principais indicadores da economia brasileira permaneceram estáveis na comparação com a semana anterior, segundo o Boletim Focus divulgado nesta segunda-feira (17) pelo Banco Central. Para 2026, a projeção para a inflação medida pelo ",
-      "details": "As expectativas do mercado financeiro para os principais indicadores da economia brasileira permaneceram estáveis na comparação com a semana anterior, segundo o Boletim Focus divulgado nesta segunda-feira (17) pelo Banco Central. Para 2026, a projeção para a inflação medida pelo IPCA foi mantida em 5,02%. A previsão pa",
-      "url": "https://jornaldebarretos.com.br/noticias/mercado-mantem-projecoes-para-inflacao-juros-pib-e-dolar-em-2026/",
+      "summary": "Atualizacao de ultima hora capturada em Jornal de Barretos.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTjRCOURzLTBnMDVDRlY4U1dOSGlOU1dmbkVNT2dmaGxmNW9JRjRuUWtXZXNlOTBjQ01FYzdHcHc4d3k0aGpDZXVKem04Q1hPWV92NXJ4Y2tYYVBZZV8yOGRCS1lBS1hRV0tfRjlpbVRjdGRadXBnTzNXVDVZcFNOY09xMm9CVjVnWVdQSENqNXlvVzhLYzFEVjJQcGdyNnhVck5QbUY3cWx3QQ?oc=5",
       "source": "Jornal de Barretos",
       "category": "latest",
       "tags": [
@@ -709,9 +761,9 @@
     {
       "id": "latest-893eaeff9499e7ca56844caa",
       "title": "Mercado financeiro congela expectativas econômicas enquanto inflação dá sinais de trégua",
-      "summary": "Relatório semanal do Banco Central aponta estabilidade nos principais indicadores do país, mesmo com o custo de vida ainda pressionado acima da meta",
-      "details": "Relatório semanal do Banco Central aponta estabilidade nos principais indicadores do país, mesmo com o custo de vida ainda pressionado acima da meta",
-      "url": "https://omatogrosso.com/mercado-financeiro-congela-expectativas-economicas-enquanto-inflacao-da-sinais-de-tregua/",
+      "summary": "Atualizacao de ultima hora capturada em O Mato Grosso.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdkpYekxqY1dnZVpEd2VaRFVKTkV5UHg0SUJGd3ZhWVcydmJERmtoUmtFOFpCWF95cmVWa3I3aTQwMXRQMjh2bFY0WFAxS245TzY2ckRBRHh4QWNQeXpiT0hVTUgwemladzFIdndYc2U4SHJzZzNLeC1ENDdZMU80ME5OV25zemhOSmVMTnQ0TzZWYkxubGVaRm1YWmR0RDFZSlA0Ny14cnZoNWFpNzh3RU5XOA?oc=5",
       "source": "O Mato Grosso",
       "category": "latest",
       "tags": [
@@ -722,15 +774,14 @@
       "publishedAt": "2026-08-17T23:30:00Z",
       "updatedAt": "2026-08-17T23:30:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://omatogrosso.com/wp-content/uploads/2026/04/banco_central_mcajr_abr_0104222276.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-3c562fbf196e0251c04e91ce",
       "title": "Selic a 14%: o que muda para a economia brasileira, por Vanessa Onzi",
-      "summary": "A decisão do Comitê de Política Monetária (Copom) de reduzir a taxa Selic de 14,25% para 14,00% ao ano reforça um movimento acompanhado de perto pelo",
-      "details": "A decisão do Comitê de Política Monetária (Copom) de reduzir a taxa Selic de 14,25% para 14,00% ao ano reforça um movimento acompanhado de perto pelo",
-      "url": "https://cooperativismodecredito.coop.br/2026/08/selic-a-14-o-que-muda-para-a-economia-brasileira-por-vanessa-onzi/",
+      "summary": "Atualizacao de ultima hora capturada em Portal do Cooperativismo Financeiro.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVmpIVWFnUEo0YlpKVGlGY2hXYzNfQzg2N3VEMDhObDhmN0FybWdHNFZycmtNbHo2cl9RRFZpQnBFU1FKbDM1eHpVTGJ0SUNHU29xLUlnd1dsNkRXNFY1UWh2Ri02VFhxY3Y3MEVoelU5d0tfbDNKcnVibktRRW5Oby1RVlcwS3huNFhSQ2NJazRSUTY2ZkV0V2c1dVNYaVRsVDY3czdkY0szMDZXNi0yakdVcG0?oc=5",
       "source": "Portal do Cooperativismo Financeiro",
       "category": "latest",
       "tags": [
@@ -741,8 +792,7 @@
       "publishedAt": "2026-08-17T23:22:25Z",
       "updatedAt": "2026-08-17T23:22:25Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://cooperativismodecredito.coop.br/wp-content/uploads/2026/08/vanessa_onzi.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "funds-fda7f8a1b5c75ebee44d7da8",
@@ -781,24 +831,6 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "macro-f6db2581bff36284f20739c4",
-      "title": "FGV estima que PIB desacelerou e cresceu 0,3% no segundo trimestre",
-      "summary": "Atualizacao de macro capturada em ibandce.com.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeTFrcGM3Z1dVT0tkdkV4dkFHUFJMUVY4ZHJSNlA5aV85dTRKMXFJZE1vdnNqUm9uR0ViaW9wTlBzTWpIdUdlbC1mdXlKbk1DRVFxZFVmLXhVajk2Yk9oZ1VELU5QWFlZTDJYd3ZJZWdLZFZFMTBmSUU1RzRFM1ZjR2tVZVR2MjR0RTRheGtGMnpsZw?oc=5",
-      "source": "ibandce.com.br",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-17T22:55:00Z",
-      "updatedAt": "2026-08-17T22:55:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
       "id": "funds-0092419adb77d0601365ffe6",
       "title": "Desembolso acompanhado de eficiência",
       "summary": "Atualizacao de fundos capturada em Vietnam.vn.",
@@ -815,24 +847,6 @@
       "updatedAt": "2026-08-17T22:54:40Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "macro-8f68b8ec228ba71a6c2e2dc4",
-      "title": "Economia do Brasil parou de esquentar | Podcast Macro Review",
-      "summary": "Atualizacao de macro capturada em C6 Bank.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0tMjNDazNoSlRoM2xJc3hXSUxXNVNoNklZYzE0RVExWVQyS0ZUYVZUT240RW00eHhHMkxBNUNleU4tcEt4dFlaWk9ZTnhhRmpEeDJhZ045MDlRZk93Zm9ha2JpMTE3WjA5Y2ZsOEhORXBJaU4wRjFlcA?oc=5",
-      "source": "C6 Bank",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-17T22:53:57Z",
-      "updatedAt": "2026-08-17T22:53:57Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "funds-8bddc2bf28cbd09c3a20f2c3",
@@ -903,24 +917,6 @@
       ],
       "publishedAt": "2026-08-17T22:27:35Z",
       "updatedAt": "2026-08-17T22:27:35Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-74e96f0667ca9097e0a8f4e0",
-      "title": "Ao SBT, Renan Santos diz que governo “quebra” setor privado",
-      "summary": "Atualizacao de empresas capturada em SBT News.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVk9GcjZaaEtuempZZmY5WmxFZ181UkljU2ltZ2RzY2FlTXVHLWRFSU94Rm4xZzNreXJHU3hpT1RlaUFrMVVsMUlybnRESmRXY2d5cDBxRnRZSjJVSjlYeVFwamQ1Sjg1R1dnaUJJZUpjcGxTamZLdDR5OWFuWkZHWURBWklVa2xRSl9zZ1lSQmNrRTE4LTRKRXJ5dmRnNmZXSGc?oc=5",
-      "source": "SBT News",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-08-17T22:23:27Z",
-      "updatedAt": "2026-08-17T22:23:27Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
@@ -1033,24 +1029,6 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-298c198d9724cae4c15936a2",
-      "title": "Nasdaq planeja ampliar negociação para 24 horas por dia ainda em 2026",
-      "summary": "Atualizacao de ultima hora capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUm9kdmdqSHRoTmJ4ZmVGdDc0WDcxcTNXSmhZS3p5eHN3dGluTmFNZkdMdmhzenhOazh5VEJ6OW05cEdnUm90QjExRTlESEEwRENKUlhMZW1hdDMzZ2ZHV21GdHRhX2FOMGNheXQ0ZkgzNFFOcGlGX2Y3eENZMGRPWTJRbXdGdk9KZ0F4UXpFLXhwQXRLTml4ZWszMGIxRHd6a2dGUzRDRW1GQjhUbXcwaHNnREg0NkJPbnFTLXBrZWdFeG9vdjYw0gHMAUFVX3lxTE1xT0hwQ1BuR3BOZ3o4S2JrUjV2VnlTVFV4UFZ3Q1gzU1FYSEFNZFRYaGQxbFVXc2ZsZkY3VzlkTW00anE1SHRNSkN2ajQtSkFTeDhGc3BfV182Rk1BbEdLN2t6SnpyM1FTbkRNT0hoMXJBUFNqUk50RGxpWldyWG1adnJYX3BCWGtOWExVakZLN1EtTVV5bnRYR2IyOWVpYjkzakFmTGR2eDdVdERCajF3dWNfSzNLdWpVNGFNZ2I1ZkZHNWE2MXNzQjN3Rw?oc=5",
-      "source": "Estadão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-17T21:55:38Z",
-      "updatedAt": "2026-08-17T21:55:38Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "funds-5a7ccdedf71931dbd3c8a31c",
       "title": "Bloomberg e Cripto: Como a Mídia Financeira Cobre os Ativos Digitais",
       "summary": "Atualizacao de fundos capturada em FinanceFeeds.",
@@ -1123,12 +1101,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "funds-05f1e2093770e886e7dd2251",
+      "id": "funds-5a1e7985db3ace1300bd5bbf",
       "title": "Fundo ligado à Apex teve as contas reprovadas por cotistas",
-      "summary": "Atualizacao de fundos capturada em A Gazeta.",
+      "summary": "Atualizacao de fundos capturada em agazeta.com.br.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWkNQYmRXR1h2R0ZNNlZoUXQ0UFVOV1VyX2hvX01SeXFsTktwbGZuRkNhZllpNTZKSmZsX0lvUEU4TlpDSWdsQVR4WkJXQmRzbnpLS2o5MUVVeTVfR0xHOGEtclE4VXFPQk1GY19tV2NTMl9rME1KbTAtdTQteTQzd2hHVndRRjU3WG5PLWhBYnkxQTJzdFVWbzhzSkNuSXFjd2dpRElPQ0tYeU00YVE?oc=5",
-      "source": "A Gazeta",
+      "source": "agazeta.com.br",
       "category": "funds",
       "tags": [
         "fundos",
@@ -1137,24 +1115,6 @@
       ],
       "publishedAt": "2026-08-17T20:46:00Z",
       "updatedAt": "2026-08-17T20:46:00Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-664362703feba10f01dfe41a",
-      "title": "O Tesouro Estadual reduziu muitos procedimentos burocráticos nos pagamentos do orçamento.",
-      "summary": "Atualizacao de fundos capturada em Vietnam.vn.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTEN3LURSME5LaE1hV3I5eFNhRGdNTWU5c1NZOVIxdXpkdnBocDVCTnIyR3NXc3dZM0ZXcDVOVXFYRjhBUHFLZjV3bnloa0s5dTFsd0liTEhIRDN2cWdIZXJfbjBPSk5VWUNhS0l0LVg0YmxlU0FnX0dSOVYzWmFhaVRJMWJWSFBRMjZFUENKWGY0ZDhLU0J2RmtENl94ZG5VX3c?oc=5",
-      "source": "Vietnam.vn",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-08-17T20:22:57Z",
-      "updatedAt": "2026-08-17T20:22:57Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
@@ -1175,6 +1135,24 @@
       "updatedAt": "2026-08-17T20:14:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "companies-5d159ace40f6fecbff5ff381",
+      "title": "NORDESTE CONCENTROU MAIS DE 1,2 MILHÃO DE EMPRESAS INADIMPLENTES EM JUNHO",
+      "summary": "Bahia Economica",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaFBmejVMNkc5a201Wk84TFpUTzVuQ3NpZGlYLUV4WGQ1NlF1Wlc5a2pSQ3QxTEpSZjRXMTBCa041bGdrMUtBbFQ3YVZMZXpoZlVLSnNHbzhKbk5DMUw5TWY5WmRYRi1tdVM2cU4ydHFQTVE4UnZob1IxMzQ0SVFQQU8xUHpOZ3N4bGZ6Y3VTT1FLc1JQVFlTOV9JdEhsMTg3VnB3SjRXay1iQlkxRHBPMDRLTEVsdEpN?oc=5",
+      "source": "- Bahia Economica",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-08-17T20:00:00Z",
+      "updatedAt": "2026-08-17T20:00:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-2d0e45edf5b93ddcf98a7f0f",
@@ -1391,6 +1369,24 @@
       "updatedAt": "2026-08-17T17:49:20Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "companies-6fbe1de23eecdbc153b492ef",
+      "title": "Efeito tarifaço: em vez de exportar, empresários brasileiros miram presença direta no mercado americano",
+      "summary": "Atualizacao de empresas capturada em WSCOM.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPR1VuN3hrQXR2YTJIS2FlV1NiUnRuV2NyMUJDUXdaSzJ1NmZGbUhXbE15dWp6NHM1WnhSY3ZWZlNQVUNtNnZQLVItVk1DYndHSFBnRGt3cGxPYUNtU1hJQ0tZaDZQa2R3TUZadkdGNzB1VUVuU0JkRmF2VHpQWVhmSE9lYXRBUThPZTMyM1RLQmhnLWVib0lscVc5dmlHNHlHRFNMVWNvbEtfcnpnc2N3bmNKOGRhamw2THRrY2x5MnFSZldjeTNYdFBJNFJFc2pfTjRLTE1qNWoycHM?oc=5",
+      "source": "WSCOM",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-08-17T17:48:03Z",
+      "updatedAt": "2026-08-17T17:48:03Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     }
   ]
 }
