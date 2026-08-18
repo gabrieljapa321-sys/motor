@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-18T10:33:25Z",
-  "generatedAt": "2026-08-18T10:33:25Z",
+  "updatedAt": "2026-08-18T11:01:13Z",
+  "generatedAt": "2026-08-18T11:01:13Z",
   "categories": [
     {
       "id": "all",
@@ -81,8 +81,8 @@
       "label": "Correio Braziliense"
     },
     {
-      "id": "di-rio-do-poder",
-      "label": "Diário do Poder"
+      "id": "diariodopoder-com-br",
+      "label": "diariodopoder.com.br"
     },
     {
       "id": "estad-o",
@@ -93,12 +93,16 @@
       "label": "FinanceFeeds"
     },
     {
-      "id": "folha-de-cianorte",
-      "label": "Folha de Cianorte"
+      "id": "folha-pe",
+      "label": "Folha PE"
     },
     {
       "id": "folha-vit-ria",
       "label": "Folha Vitória"
+    },
+    {
+      "id": "folhadecianorte-com",
+      "label": "folhadecianorte.com"
     },
     {
       "id": "fundspeople-espa-a",
@@ -119,10 +123,6 @@
     {
       "id": "jornal-o-sul",
       "label": "Jornal O Sul"
-    },
-    {
-      "id": "migalhas",
-      "label": "Migalhas"
     },
     {
       "id": "money-times",
@@ -177,8 +177,8 @@
       "label": "UOL Economia"
     },
     {
-      "id": "valor-econ-mico",
-      "label": "Valor Econômico"
+      "id": "valor-globo-com",
+      "label": "valor.globo.com"
     },
     {
       "id": "vietnam-vn",
@@ -187,12 +187,49 @@
   ],
   "items": [
     {
-      "id": "macro-ff6a9eff1fd361ad3a1f6b9c",
-      "title": "PIB desacelera e cresce 0,3% no 2º trimestre, estima FGV",
-      "summary": "Atualizacao de macro capturada em Folha de Cianorte.",
+      "id": "latest-75c867a00234203c775b14c5",
+      "title": "Bolsas da Europa recuam com petróleo elevado e avanço dos juros; tensão EUA-Irã no radar",
+      "summary": "São Paulo, 18/08/2026 - As bolsas europeias recuam majoritariamente na manhã desta terça-feira, enquanto o impasse entre EUA e Irã mantém os preços do pet...",
+      "details": "São Paulo, 18/08/2026 - As bolsas europeias recuam majoritariamente na manhã desta terça-feira, enquanto o impasse entre EUA e Irã mantém os preços do pet...",
+      "url": "https://www.folhape.com.br/economia/bolsas-da-europa-recuam-com-petroleo-elevado-e-avanco-dos-juros/507147/",
+      "source": "Folha PE",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-18T10:42:00Z",
+      "updatedAt": "2026-08-18T10:42:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://cdn.folhape.com.br/img/c/800/600/dn_arquivo/2024/02/priscila-enquadramento-capa-72.jpg"
+    },
+    {
+      "id": "macro-37b58e9eedcb8eaa8c030f62",
+      "title": "Bolsas mundiais recuam com petróleo acima de US$ 90 e temor por inflação",
+      "summary": "Atualizacao de macro capturada em UOL Economia.",
       "details": "",
-      "url": "https://br.investing.com/news/earnings/home-depot-supera-estimativas-e-reafirma-guidance-para-o-ano-fiscal-de-2026-2042426",
-      "source": "Folha de Cianorte",
+      "url": "https://www.bol.uol.com.br/economia/2026/08/18/ibc-br-x-selic.amp.htm",
+      "source": "UOL Economia",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-18T10:23:31Z",
+      "updatedAt": "2026-08-18T10:23:31Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-7a61329b21f0ddef9c85806c",
+      "title": "PIB desacelera e cresce 0,3% no 2º trimestre, estima FGV",
+      "summary": "Atualizacao de macro capturada em folhadecianorte.com.",
+      "details": "",
+      "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/08/18/bolsas-mundiais---18-de-agosto-de-2026.ghtm",
+      "source": "folhadecianorte.com",
       "category": "macro",
       "tags": [
         "macro",
@@ -209,7 +246,7 @@
       "title": "Home Depot supera estimativas e reafirma guidance para o ano fiscal de 2026",
       "summary": "Atualizacao de macro capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
       "details": "",
-      "url": "https://br.investing.com/news/economy-news/azerbaijao-eleva-previsao-de-inflacao-para-2026-a-57-93CH-2042411",
+      "url": "https://folhadecianorte.com/2026/08/pib-desacelera-e-cresce-03-no-2o-trimestre-estima-fgv/",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "macro",
       "tags": [
@@ -225,9 +262,9 @@
     {
       "id": "macro-d899e8c8a0d7bf191a3e07fc",
       "title": "Azerbaijão eleva previsão de inflação para 2026 a 5,7%",
-      "summary": "Veja o que irá movimentar o mercado",
-      "details": "Veja o que irá movimentar o mercado",
-      "url": "https://www.bomdiamercado.com.br/mercado-financeiro/giro-dos-mercados/vai-rolar-petroleo-complica-alivio-dos-juros/",
+      "summary": "Atualizacao de macro capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
+      "details": "",
+      "url": "https://br.investing.com/news/earnings/home-depot-supera-estimativas-e-reafirma-guidance-para-o-ano-fiscal-de-2026-2042426",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "macro",
       "tags": [
@@ -238,15 +275,14 @@
       "publishedAt": "2026-08-18T10:11:00Z",
       "updatedAt": "2026-08-18T10:11:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://uploads.bomdiamercado.com.br/2024/02/petroleo-commodity-brent-wti.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-778be299e9f510069755c7b7",
       "title": "Vai rolar: Petróleo complica alívio dos juros",
-      "summary": "Atualizacao de ultima hora capturada em BDM - Bom Dia Mercado.",
-      "details": "",
-      "url": "https://folhadecianorte.com/2026/08/pib-desacelera-e-cresce-03-no-2o-trimestre-estima-fgv/",
+      "summary": "Os economistas Tiago Berriel e Mateus Della, do BTG, fizeram as contas e concluíram que as causas internas responderam por 63% da alta nos juros dos títulos",
+      "details": "Os economistas Tiago Berriel e Mateus Della, do BTG, fizeram as contas e concluíram que as causas internas responderam por 63% da alta nos juros dos títulos",
+      "url": "https://braziljournal.com/impulso-fiscal-eleva-a-taxa-neutra-e-empurra-os-juros-longos-diz-o-btg/",
       "source": "BDM - Bom Dia Mercado",
       "category": "latest",
       "tags": [
@@ -257,14 +293,15 @@
       "publishedAt": "2026-08-18T10:10:22Z",
       "updatedAt": "2026-08-18T10:10:22Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://braziljournal.com/wp-content/uploads/2026/08/GettyImages-1209640454-635x357.jpg"
     },
     {
       "id": "macro-2fbb12a8d8423d03abfec49d",
       "title": "Impulso fiscal eleva a taxa neutra e empurra os juros longos, diz o BTG",
-      "summary": "Os economistas Tiago Berriel e Mateus Della, do BTG, fizeram as contas e concluíram que as causas internas responderam por 63% da alta nos juros dos títulos",
-      "details": "Os economistas Tiago Berriel e Mateus Della, do BTG, fizeram as contas e concluíram que as causas internas responderam por 63% da alta nos juros dos títulos",
-      "url": "https://braziljournal.com/impulso-fiscal-eleva-a-taxa-neutra-e-empurra-os-juros-longos-diz-o-btg/",
+      "summary": "Atualizacao de macro capturada em Brazil Journal.",
+      "details": "",
+      "url": "https://br.investing.com/news/economy-news/azerbaijao-eleva-previsao-de-inflacao-para-2026-a-57-93CH-2042411",
       "source": "Brazil Journal",
       "category": "macro",
       "tags": [
@@ -275,34 +312,33 @@
       "publishedAt": "2026-08-18T10:09:53Z",
       "updatedAt": "2026-08-18T10:09:53Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://braziljournal.com/wp-content/uploads/2026/08/GettyImages-1209640454-635x357.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "macro-fc00fa9d1fedd34d1d37a937",
-      "title": "Rejeição adiada não prorrogou os prazos para informar IBS e CBS na nota fiscal",
-      "summary": "Por Eduardo Souza Weyll. A autorização do documento fiscal sem os campos exigidos de IBS e CBS não afasta a obrigação de preenchê-los. A omissão pode afetar a dispensa do recolhimento e gerar ...",
-      "details": "Por Eduardo Souza Weyll. A autorização do documento fiscal sem os campos exigidos de IBS e CBS não afasta a obrigação de preenchê-los. A omissão pode afetar a dispensa do recolhimento e gerar ...",
-      "url": "https://www.migalhas.com.br/depeso/462498/rejeicao-adiada-nao-prorrogou-os-prazos-para-informar-ibs-e-cbs",
-      "source": "Migalhas",
-      "category": "macro",
+      "id": "latest-7d648edc2e6d3c74963236cf",
+      "title": "Perda de fôlego da economia abre espaço para corte maior dos juros em 2026",
+      "summary": "Entenda como funciona a modalidade de investimento, seus principais tipos e que estratégias usar para escolher suas aplicações financeiras",
+      "details": "Entenda como funciona a modalidade de investimento, seus principais tipos e que estratégias usar para escolher suas aplicações financeiras",
+      "url": "https://www.itatiaia.com.br/economia/negocios/fundos-de-investimento-o-que-e-e-como-investir/",
+      "source": "BOL",
+      "category": "latest",
       "tags": [
-        "macro",
-        "juros",
-        "inflacao"
+        "mercado",
+        "bolsa",
+        "macro"
       ],
-      "publishedAt": "2026-08-18T10:02:30Z",
-      "updatedAt": "2026-08-18T10:02:30Z",
+      "publishedAt": "2026-08-18T10:01:46Z",
+      "updatedAt": "2026-08-18T10:01:46Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://medproc.migalhas.com.br/author.jpg._PROC_AC462498AT1AP11.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://admin.itatiaia.com.br/wp-content/uploads/sites/27/2026/08/fundos-investimento-oq-e-pvproductionsmagnific.jpg?resize=1280%2C720&w=1280&h=720&quality=75&crop=1"
     },
     {
       "id": "funds-b76227b5de1babcc3777c14f",
       "title": "Fundos de investimento: o que é e como investir",
-      "summary": "As bolsas da Ásia e do Pacífico fecharam majoritariamente em baixa nesta terça (18) com alta do petróleo e inflação.",
-      "details": "As bolsas da Ásia e do Pacífico fecharam majoritariamente em baixa nesta terça (18) com alta do petróleo e inflação.",
-      "url": "https://timesbrasil.com.br/investimentos/bolsa/petroleo-e-inflacao-pesam-sobre-mercados-asiaticos-nikkei-registra-o-maior-recuo-da-regiao/",
+      "summary": "Veja o que irá movimentar o mercado",
+      "details": "Veja o que irá movimentar o mercado",
+      "url": "https://www.bomdiamercado.com.br/mercado-financeiro/giro-dos-mercados/vai-rolar-petroleo-complica-alivio-dos-juros/",
       "source": "Rádio Itatiaia",
       "category": "funds",
       "tags": [
@@ -314,14 +350,14 @@
       "updatedAt": "2026-08-18T10:00:58Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2025/06/7c98fb37-apf20250620005.jpg"
+      "imageUrl": "https://uploads.bomdiamercado.com.br/2024/02/petroleo-commodity-brent-wti.jpg"
     },
     {
       "id": "macro-3d84245bfd117b5f0dc369e4",
       "title": "El Niño ‘muito forte’: o que está em jogo para a safra, a inflação e os juros no Brasil",
-      "summary": "Entenda como funciona a modalidade de investimento, seus principais tipos e que estratégias usar para escolher suas aplicações financeiras",
-      "details": "Entenda como funciona a modalidade de investimento, seus principais tipos e que estratégias usar para escolher suas aplicações financeiras",
-      "url": "https://www.itatiaia.com.br/economia/negocios/fundos-de-investimento-o-que-e-e-como-investir/",
+      "summary": "Confirmado no Pacífico, o fenômeno climático deve se intensificar nos próximos meses e pode influenciar desde a safra agrícola até as decisões do BC.",
+      "details": "Confirmado no Pacífico, o fenômeno climático deve se intensificar nos próximos meses e pode influenciar desde a safra agrícola até as decisões do BC.",
+      "url": "https://www.moneytimes.com.br/safra-inflacao-e-juros-o-efeito-domino-que-coloca-o-el-nino-no-radar-do-mercado/",
       "source": "Money Times",
       "category": "macro",
       "tags": [
@@ -333,14 +369,14 @@
       "updatedAt": "2026-08-18T10:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://admin.itatiaia.com.br/wp-content/uploads/sites/27/2026/08/fundos-investimento-oq-e-pvproductionsmagnific.jpg?resize=1280%2C720&w=1280&h=720&quality=75&crop=1"
+      "imageUrl": "https://www.moneytimes.com.br/uploads/2024/03/la-nina-el-nino-.jpg"
     },
     {
       "id": "macro-e3e5ff7bf38e94043614396b",
       "title": "Petróleo e inflação pesam sobre mercados asiáticos; Nikkei registra o maior recuo da região",
-      "summary": "Confirmado no Pacífico, o fenômeno climático deve se intensificar nos próximos meses e pode influenciar desde a safra agrícola até as decisões do BC.",
-      "details": "Confirmado no Pacífico, o fenômeno climático deve se intensificar nos próximos meses e pode influenciar desde a safra agrícola até as decisões do BC.",
-      "url": "https://www.moneytimes.com.br/safra-inflacao-e-juros-o-efeito-domino-que-coloca-o-el-nino-no-radar-do-mercado/",
+      "summary": "As bolsas da Ásia e do Pacífico fecharam majoritariamente em baixa nesta terça (18) com alta do petróleo e inflação.",
+      "details": "As bolsas da Ásia e do Pacífico fecharam majoritariamente em baixa nesta terça (18) com alta do petróleo e inflação.",
+      "url": "https://timesbrasil.com.br/investimentos/bolsa/petroleo-e-inflacao-pesam-sobre-mercados-asiaticos-nikkei-registra-o-maior-recuo-da-regiao/",
       "source": "Times Brasil | CNBC",
       "category": "macro",
       "tags": [
@@ -352,15 +388,15 @@
       "updatedAt": "2026-08-18T09:38:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.moneytimes.com.br/uploads/2024/03/la-nina-el-nino-.jpg"
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2025/06/7c98fb37-apf20250620005.jpg"
     },
     {
-      "id": "macro-30f1d1b26085e567b51a3f0a",
+      "id": "macro-7dfbd6d497218815207fb71a",
       "title": "Bolsas da Ásia caem com petróleo e inflação no radar, apesar de balanços",
-      "summary": "Os preços do petróleo voltaram a subir após uma breve trégua no mês passado impulsionada por expectativas de fim do conflito",
-      "details": "Os preços do petróleo voltaram a subir após uma breve trégua no mês passado impulsionada por expectativas de fim do conflito",
-      "url": "https://valor.globo.com/financas/noticia/2026/08/18/bolsas-da-asia-caem-com-petroleo-e-inflacao-no-radar-apesar-de-balancos.ghtml",
-      "source": "Valor Econômico",
+      "summary": "Alta do petróleo e preocupações com a inflação se sobrepõem ao desempenho positivo sustentado por balanços corporativos sólidos",
+      "details": "Alta do petróleo e preocupações com a inflação se sobrepõem ao desempenho positivo sustentado por balanços corporativos sólidos",
+      "url": "https://www.estadao.com.br/em-alta/einvestidor/bolsas-da-asia-e-do-pacifico-recuam-com-petroleo-e-inflacao-nikkei-lidera-perdas/",
+      "source": "valor.globo.com",
       "category": "macro",
       "tags": [
         "macro",
@@ -371,10 +407,10 @@
       "updatedAt": "2026-08-18T09:36:15Z",
       "premium": true,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/AKZFF5EMF5KDJBXFYWN33PR6MA.png?quality=80&auth=50fb3f082096c01ffb395f0451efbb725090ca751ed834682af574d1c623332d&width=1200&height=630&smart=true"
     },
     {
-      "id": "macro-619f43177717be3c5a3d57c9",
+      "id": "macro-8129f69aab6a901eb454bb62",
       "title": "Bolsas da Ásia e do Pacífico recuam com petróleo e inflação; Nikkei lidera perdas",
       "summary": "Agropecuária, Notícias, Cotações, Defensivos, Classificados, Tempo, Eventos",
       "details": "Agropecuária, Notícias, Cotações, Defensivos, Classificados, Tempo, Eventos",
@@ -386,8 +422,8 @@
         "juros",
         "inflacao"
       ],
-      "publishedAt": "2026-08-18T09:35:08Z",
-      "updatedAt": "2026-08-18T09:35:08Z",
+      "publishedAt": "2026-08-18T09:35:12Z",
+      "updatedAt": "2026-08-18T09:35:12Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
       "imageUrl": "https://www.agrolink.com.br/upload/imagens-resizes/7e52ae2bd2de4c149fde04b44464b056_858x483.jpg"
@@ -395,9 +431,9 @@
     {
       "id": "macro-cf299b6a4052b91342196263",
       "title": "Inflação desacelera e atividade econômica perde ritmo",
-      "summary": "Alta do petróleo e preocupações com a inflação se sobrepõem ao desempenho positivo sustentado por balanços corporativos sólidos",
-      "details": "Alta do petróleo e preocupações com a inflação se sobrepõem ao desempenho positivo sustentado por balanços corporativos sólidos",
-      "url": "https://www.estadao.com.br/em-alta/einvestidor/bolsas-da-asia-e-do-pacifico-recuam-com-petroleo-e-inflacao-nikkei-lidera-perdas/",
+      "summary": "Os preços do petróleo voltaram a subir após uma breve trégua no mês passado impulsionada por expectativas de fim do conflito",
+      "details": "Os preços do petróleo voltaram a subir após uma breve trégua no mês passado impulsionada por expectativas de fim do conflito",
+      "url": "https://valor.globo.com/financas/noticia/2026/08/18/bolsas-da-asia-caem-com-petroleo-e-inflacao-no-radar-apesar-de-balancos.ghtml",
       "source": "Agrolink",
       "category": "macro",
       "tags": [
@@ -409,7 +445,7 @@
       "updatedAt": "2026-08-18T09:27:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/AKZFF5EMF5KDJBXFYWN33PR6MA.png?quality=80&auth=50fb3f082096c01ffb395f0451efbb725090ca751ed834682af574d1c623332d&width=1200&height=630&smart=true"
+      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
     },
     {
       "id": "funds-829ae813752deaee08b5c22e",
@@ -433,9 +469,9 @@
     {
       "id": "macro-dde4b7eb1be217687d212879",
       "title": "Macau quer que setores não relacionados ao jogo representem 60% do PIB até 2030",
-      "summary": "Essa narrativa, embalada por jargões técnicos para impressionar o leigo, tenta convencer a opinião pública de que o remédio amargo dos juros reais mais altos do mundo é a única alternativa para conter os preços",
-      "details": "Essa narrativa, embalada por jargões técnicos para impressionar o leigo, tenta convencer a opinião pública de que o remédio amargo dos juros reais mais altos do mundo é a única alternativa para conter os preços",
-      "url": "https://www.correiobraziliense.com.br/opiniao/2026/08/7481110-por-que-juros-extorsivos-e-metas-irrealistas-destroem-o-brasil-sem-baixar-a-inflacao.html",
+      "summary": "Atualizacao de macro capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
+      "details": "",
+      "url": "https://br.investing.com/news/economy-news/macau-quer-que-setores-nao-relacionados-ao-jogo-representem-60-do-pib-ate-2030-93CH-2042337",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "macro",
       "tags": [
@@ -446,15 +482,14 @@
       "publishedAt": "2026-08-18T09:22:00Z",
       "updatedAt": "2026-08-18T09:22:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/08/16/675x450/1_pri-1808-opini-67436817.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-9e8d64fb7a96cdbc6c5dd53f",
       "title": "Por que juros extorsivos e metas irrealistas destroem o Brasil sem baixar a inflação",
-      "summary": "Atualizacao de macro capturada em Correio Braziliense.",
-      "details": "",
-      "url": "https://br.investing.com/news/economy-news/macau-quer-que-setores-nao-relacionados-ao-jogo-representem-60-do-pib-ate-2030-93CH-2042337",
+      "summary": "Essa narrativa, embalada por jargões técnicos para impressionar o leigo, tenta convencer a opinião pública de que o remédio amargo dos juros reais mais altos do mundo é a única alternativa para conter os preços",
+      "details": "Essa narrativa, embalada por jargões técnicos para impressionar o leigo, tenta convencer a opinião pública de que o remédio amargo dos juros reais mais altos do mundo é a única alternativa para conter os preços",
+      "url": "https://www.correiobraziliense.com.br/opiniao/2026/08/7481110-por-que-juros-extorsivos-e-metas-irrealistas-destroem-o-brasil-sem-baixar-a-inflacao.html",
       "source": "Correio Braziliense",
       "category": "macro",
       "tags": [
@@ -465,7 +500,8 @@
       "publishedAt": "2026-08-18T09:01:00Z",
       "updatedAt": "2026-08-18T09:01:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/08/16/675x450/1_pri-1808-opini-67436817.jpg"
     },
     {
       "id": "latest-f9fa6648bd237fb0352f5bd9",
@@ -527,9 +563,9 @@
     {
       "id": "funds-311cc9bf5876b897a662c8d4",
       "title": "REG - Mirae Asset ETF ICAV - Global X ETF ICAV 17.08.26",
-      "summary": "RNS Number : 1104R Mirae Asset ETF ICAV 18 August 2026 This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the United Kingdom. Terms and conditions relat",
-      "details": "RNS Number : 1104R Mirae Asset ETF ICAV 18 August 2026 This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the United Kingdom. Terms and conditions relating to the use…",
-      "url": "https://br.tradingview.com/news/reuters.com,2026-08-18:newsml_RSR1104Ra:0-reg-mirae-asset-etf-icav-global-x-etf-icav-17-08-26/",
+      "summary": "Atualizacao de fundos capturada em TradingView.",
+      "details": "",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/08/18/ibc-br-x-selic.amp.htm",
       "source": "TradingView",
       "category": "funds",
       "tags": [
@@ -540,8 +576,7 @@
       "publishedAt": "2026-08-18T08:30:09Z",
       "updatedAt": "2026-08-18T08:30:09Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://s.tradingview.com/static/images/illustrations/news-story.jpg"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "latest-6145fe67de4cd93024ab15da",
@@ -563,29 +598,11 @@
       "imageUrl": "https://www.estadao.com.br/resizer/v2/ZLNWLA7TVRP4DG7LTAOA37YVMY.png?quality=80&auth=57fd8c092debe90dfd73984507b5b246c243c1bf21a6a6c2fae6905b690f8380&width=1200&height=630&smart=true"
     },
     {
-      "id": "latest-0068d4c4cf8e527aac1ab832",
-      "title": "Perda de fôlego da economia abre espaço para corte maior dos juros em 2026",
-      "summary": "Atualizacao de ultima hora capturada em BOL.",
-      "details": "",
-      "url": "https://www.bol.uol.com.br/economia/2026/08/18/ibc-br-x-selic.amp.htm",
-      "source": "BOL",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-18T08:30:00Z",
-      "updatedAt": "2026-08-18T08:30:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "macro-c0f0ce9b1af61187a754db05",
       "title": "Perda de fôlego da economia abre espaço para corte maior dos juros em 2026",
-      "summary": "Atualizacao de macro capturada em UOL Economia.",
-      "details": "",
-      "url": "https://economia.uol.com.br/noticias/redacao/2026/08/18/ibc-br-x-selic.ghtm",
+      "summary": "RNS Number : 1104R Mirae Asset ETF ICAV 18 August 2026 This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the United Kingdom. Terms and conditions relat",
+      "details": "RNS Number : 1104R Mirae Asset ETF ICAV 18 August 2026 This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the United Kingdom. Terms and conditions relating to the use…",
+      "url": "https://br.tradingview.com/news/reuters.com,2026-08-18:newsml_RSR1104Ra:0-reg-mirae-asset-etf-icav-global-x-etf-icav-17-08-26/",
       "source": "UOL Economia",
       "category": "macro",
       "tags": [
@@ -596,7 +613,8 @@
       "publishedAt": "2026-08-18T08:30:00Z",
       "updatedAt": "2026-08-18T08:30:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s.tradingview.com/static/images/illustrations/news-story.jpg"
     },
     {
       "id": "macro-e13cb2e2693598d2dbe06219",
@@ -675,12 +693,12 @@
       "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/05bcb3ccb60caa027ae604ef230176cf_858x483.jpg"
     },
     {
-      "id": "companies-02e5da37792842e3731ee738",
+      "id": "companies-cc78ed3d3d8e52645bd473b4",
       "title": "A ciência dos resultados das empresas inovadoras",
       "summary": "Depois de analisar centenas de casos, os jurados da pesquisa Valor Inovação Brasil apontam os principais traços das empresas vencedoras",
       "details": "Depois de analisar centenas de casos, os jurados da pesquisa Valor Inovação Brasil apontam os principais traços das empresas vencedoras",
       "url": "https://valor.globo.com/inovacao/noticia/2026/08/18/a-ciencia-dos-resultados-das-empresas-inovadoras.ghtml",
-      "source": "Valor Econômico",
+      "source": "valor.globo.com",
       "category": "companies",
       "tags": [
         "empresas",
@@ -694,12 +712,12 @@
       "imageUrl": "https://s2-valor.glbimg.com/pQa5CgXoMfxrIBCAq-4G_NP96Eo=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/z/h/OH3vRGSaKU40HSbp9Zcg/017-amandagracianoeconomista-fdc-foto-flavioferreira-divulgacao.jpg"
     },
     {
-      "id": "macro-e95bbf1871a1d2f3c83be0d5",
+      "id": "macro-b62c15bf2bb5d6636a0712fa",
       "title": "Curando a doença infantil do Real",
-      "summary": "Estrutura da dívida pública brasileira cria um canal endógeno de retroalimentação fiscal de choques de juros excepcionalmente forte, que eleva o prêmio de risco do Tesouro para todas as maturidades",
-      "details": "Estrutura da dívida pública brasileira cria um canal endógeno de retroalimentação fiscal de choques de juros excepcionalmente forte, que eleva o prêmio de risco do Tesouro para todas as maturidades",
-      "url": "https://valor.globo.com/google/amp/opiniao/coluna/curando-a-doenca-infantil-do-real.ghtml",
-      "source": "Valor Econômico",
+      "summary": "Atualizacao de macro capturada em valor.globo.com.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcW1OenNwUlV0ck9UZGV6WUVNZ1czdVdpcmJFWVVQMENfdDdHdy1wNjVXTFZnNWU3UEtOOHM1STlpQk15SkNHaGJQbGpETHNTc2NWRzlCdERLVGhOcEdvVHJMTkpLWV9lT2dqR3dwamp3Qy1fel9kRkx2RGRsbDhqajVSdmVFbmRKSDdlc1dVbzhyZDTSAZMBQVVfeXFMUHFtTnpzcFJVdHJPVGRlellFTWdXM3VXaXJiRVlVUDBDX3Q3R3ctcDY1V0xWZzVlN1BLTjhzNUk5aUJNeUpDR2hiUGxqRExzU3NjVkc5QnRES1RoTnBHb1RyTE5KS1lfZU9nakd3cGpqd0MtX3pfZEZMdkRkbGw4amo1UnZlRW5kSkg3ZXNXVW84cmQ0?oc=5",
+      "source": "valor.globo.com",
       "category": "macro",
       "tags": [
         "macro",
@@ -709,16 +727,15 @@
       "publishedAt": "2026-08-18T08:02:23Z",
       "updatedAt": "2026-08-18T08:02:23Z",
       "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/I6-gAUFdJ1G3IrC6nUY4EgimRNU=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/W/k/xlMFDnQvuyIPVxVJOADg/foto18opin-201-col-op1-a16.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "funds-26f67ac082b57dd305fb392e",
+      "id": "funds-70d600a1a0a659c31685a58f",
       "title": "Seguradoras e fabricantes estão entre credores da rede",
-      "summary": "Atualizacao de fundos capturada em Valor Econômico.",
+      "summary": "Atualizacao de fundos capturada em valor.globo.com.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSVk0X1VmT1R0aXQxYW45RENhMUZSNFc3clM1Z3cxUUV0eUpOeUlOcnlJUkNoSjBnNDAtUWlMaXMtdUQxQ2RPcF9pVzdseHFhWHJ5QW9kdGpLb1FxRUxtWEtVYUxFcTF4UElxcTRyc2U1X2RqYWRBelZvWWlHMnFXaC16TlBnVEUydWVwaDFibkpySjRDYU5aRnZSdUVyNE5TMXVrYXhSZWd2VDRPWDM3NkhB0gHAAUFVX3lxTE9EWmxZZms1TmkwLTB1SkU4cXN0N2UwUHFOT0I2T191UlVEaWVHRmlnTjRjWVlMNmhjSzFVYmxZZ3dPbFRJZXBmaUI3ZG1kV3B6T0ZkMkxMa09pdHhqMHEzS2NNWGpWNDRxd3NvS25ZM21HRERNN1dZWGVVTjRXQTRKa0RmZzNuQlNtcHpvdVltOW1MRlVSTUFEMlZJQzFnMTYwT1F1Z1RyT1E2TS1PZ1gxd1JrUWxmbEtPX2NEUVBWVg?oc=5",
-      "source": "Valor Econômico",
+      "source": "valor.globo.com",
       "category": "funds",
       "tags": [
         "fundos",
@@ -731,12 +748,12 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "macro-4b4cf3bee446e9f4db73d46a",
+      "id": "macro-6fcbe3a393664e7fbcc6cd12",
       "title": "Monitor mostra ritmo fraco da economia",
-      "summary": "Atualizacao de macro capturada em Valor Econômico.",
+      "summary": "Atualizacao de macro capturada em valor.globo.com.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcE80RjVRTDF0SklJcHlWUEh6UmlnVFRVN3Q4cWJoLWcyRkR5RUNmWU14SW10SGxvMkJNY0w0TE14QS00N1JvbkdMWUdhSXJzdU83NTRyT2tOTkVSbjRTUHMtb3R2ZGZ0aWVnbzFzMzktdTQzc3c5Zi1GdDdtWFkzUXFfMVU0MHlsN1doLXNUbFN6Ti1wMGd6ZkJR0gGoAUFVX3lxTE5FUmpyR2tROVR4NmdrY1ZTdXR6TzUzUEk0cC1hdGhKUW5Xa0kwT1IydWo5NHQ2Tk9idzVnU1d5VkVpV0RVaDZoYWMwYW01VVBSUXYwV2lMZ1ZMaURldF9PdWctZXBQZ3BDZURaMXBaQUgwT3lTTFJnOWdFcmlSTU1YbkFMcEdlT3lBeDdvYkE3WDY2YWVsS3VQRkxNUXRPNFlaNGZQbVA5OQ?oc=5",
-      "source": "Valor Econômico",
+      "source": "valor.globo.com",
       "category": "macro",
       "tags": [
         "macro",
@@ -749,12 +766,12 @@
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "macro-e7e1515a60063ea4f482980d",
+      "id": "macro-008a2bd2102f435490875223",
       "title": "Atividade recua em junho e indica PIB fraco no 2º tri",
-      "summary": "Atualizacao de macro capturada em Valor Econômico.",
+      "summary": "Atualizacao de macro capturada em valor.globo.com.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZjNvVGlQamwyU3Nfejc1bEdfZV8yWlZOVmtBc2NFbE1Md0x6T0VUcUVRNnhIdHhoYXktTG5VeG05bmxDa3JsVmFkMlMwcU1KeHNJNHZmYUJvZnV5MnBhS2dveVF5QnBXWFc3MDVwalRQWHE1LVB1NGVMOGlBM3ZMaFE2TUw2N21XYTBmWFNOazF5ckJZcldPTjk0VDN2SkJLazd6djlEZElZQ1YxRXfSAbwBQVVfeXFMTmJIOEdCQkk1cGNxN1UtWjBUZ0JqT2o3Y2RZcTlmMlF1Sm8tdXNWQldYX1hjWkREWnlON0dkY0p0azNBSkE3Q3lfVjhiRkV1cEgtVFhoRXU5TFJxX3Uwck5qQ1BvcEFFaGJxNVViSnZyQTdJTzR5SUFxZ09CdFN5dWZSZ2xKakF1cmlHWlJ3MHU4amVmUmtzRS12c29ELVo2THUxUGlscWlFLW5tLW5odER1UjFzSnZCTGpoSXY?oc=5",
-      "source": "Valor Econômico",
+      "source": "valor.globo.com",
       "category": "macro",
       "tags": [
         "macro",
@@ -1015,24 +1032,6 @@
       ],
       "publishedAt": "2026-08-18T01:20:00Z",
       "updatedAt": "2026-08-18T01:20:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-1daf95f71c895066ec6a71ca",
-      "title": "Juros agravam crise de gigantes como Casas Bahia, Marabraz e GPA – e queda discreta da Selic não resolve o problema",
-      "summary": "Atualizacao de ultima hora capturada em Times Brasil | CNBC.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQWGxRV1pzNVQwM1ltbUVlU1FYOGdQYVlGbldKRkpmdW5qQ3B2YjdiLUJoVzRveGk4UXVuekNkeTdjSUllUS11d2tiRTJyUTlqZEJvaGIydkpEcnZDUUJfR1NzMkhraVhWXzVtVW1TNGFZSi1nY193Y2JXM0g0LTBST0EwZlEyNFlTdmdzYU9TSTNDcnM3MG5SOWhhN3hrcFd5X2t2b0ZoRXJ4R1l2aThzUkRLNFA2VkRLQlI5cTRJYldlRWZUQ0RPcFVUTmxVVWVTblZLbjFPaXh6c1N0d3AxbzZqNGt0SEtDUE5OeXZFdzh3WXNEV21GZw?oc=5",
-      "source": "Times Brasil | CNBC",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-18T00:51:00Z",
-      "updatedAt": "2026-08-18T00:51:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
@@ -1307,12 +1306,12 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "companies-2d0e45edf5b93ddcf98a7f0f",
+      "id": "companies-63fd8b14179167238f279d46",
       "title": "Inadimplência empresarial bate recorde e chega a 9,1 milhões de CNPJs",
-      "summary": "Atualizacao de empresas capturada em Diário do Poder.",
+      "summary": "Atualizacao de empresas capturada em diariodopoder.com.br.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbDZKaDdoaFJrWl9mcTREclFRTnJtVXp0MHBsQ1dPVmRHak1Fbnd3VkNqNDFUT1VQUDFVcVdVTTNDNWRCQnBQUHJic2FMdnV0M2t5TnVwMHlRMHg4V1lUUnpEemlZd1k1SFlQak5ZMHdpTFFFZGVqdUgxTGc5NXpqNEJ1ZmllWF9vX2M5YjY5OU9JVEc5ODZrTnJmMFBIdm5waDVaT2lFXy1KOFZRWXlBMjFpdHhMUldNZnFjM0xsbXA0eDlQR2N6Q9IByAFBVV95cUxPbDZKaDdoaFJrWl9mcTREclFRTnJtVXp0MHBsQ1dPVmRHak1Fbnd3VkNqNDFUT1VQUDFVcVdVTTNDNWRCQnBQUHJic2FMdnV0M2t5TnVwMHlRMHg4V1lUUnpEemlZd1k1SFlQak5ZMHdpTFFFZGVqdUgxTGc5NXpqNEJ1ZmllWF9vX2M5YjY5OU9JVEc5ODZrTnJmMFBIdm5waDVaT2lFXy1KOFZRWXlBMjFpdHhMUldNZnFjM0xsbXA0eDlQR2N6Qw?oc=5",
-      "source": "Diário do Poder",
+      "source": "diariodopoder.com.br",
       "category": "companies",
       "tags": [
         "empresas",
