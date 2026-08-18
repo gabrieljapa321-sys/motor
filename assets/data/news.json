@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-18T02:17:01Z",
-  "generatedAt": "2026-08-18T02:17:01Z",
+  "updatedAt": "2026-08-18T03:22:17Z",
+  "generatedAt": "2026-08-18T03:22:17Z",
   "categories": [
     {
       "id": "all",
@@ -25,12 +25,20 @@
   ],
   "sources": [
     {
+      "id": "bahia-economica",
+      "label": "- Bahia Economica"
+    },
+    {
       "id": "a-gazeta",
       "label": "A Gazeta"
     },
     {
       "id": "acontecendo-aqui",
       "label": "Acontecendo Aqui"
+    },
+    {
+      "id": "agora-rn",
+      "label": "Agora RN"
     },
     {
       "id": "al1-com-br",
@@ -43,10 +51,6 @@
     {
       "id": "bem-paran",
       "label": "Bem Paraná"
-    },
-    {
-      "id": "blocktrends-com-br",
-      "label": "blocktrends.com.br"
     },
     {
       "id": "bol",
@@ -77,8 +81,8 @@
       "label": "Diário do Poder"
     },
     {
-      "id": "estad-o",
-      "label": "Estadão"
+      "id": "estadao-com-br",
+      "label": "estadao.com.br"
     },
     {
       "id": "euqueroinvestir",
@@ -110,7 +114,7 @@
     },
     {
       "id": "imirante-com",
-      "label": "Imirante.com"
+      "label": "imirante.com"
     },
     {
       "id": "investing-com-brasil-finan-as-c-mbio-e-investimentos",
@@ -137,8 +141,8 @@
       "label": "NSC Total"
     },
     {
-      "id": "o-mato-grosso",
-      "label": "O Mato Grosso"
+      "id": "omatogrosso-com",
+      "label": "omatogrosso.com"
     },
     {
       "id": "pipeline",
@@ -153,12 +157,12 @@
       "label": "Poder360"
     },
     {
-      "id": "portal-do-agroneg-cio",
-      "label": "Portal do Agronegócio"
-    },
-    {
       "id": "portal-do-cooperativismo-financeiro",
       "label": "Portal do Cooperativismo Financeiro"
+    },
+    {
+      "id": "portaldoagronegocio-com-br",
+      "label": "portaldoagronegocio.com.br"
     },
     {
       "id": "r7",
@@ -169,8 +173,8 @@
       "label": "RADAR DIGITAL BRASÍLIA"
     },
     {
-      "id": "revista-f-rum",
-      "label": "Revista Fórum"
+      "id": "r-dio-itatiaia",
+      "label": "Rádio Itatiaia"
     },
     {
       "id": "sbt-news",
@@ -189,12 +193,8 @@
       "label": "TI INSIDE Online"
     },
     {
-      "id": "timesbrasil-com-br",
-      "label": "timesbrasil.com.br"
-    },
-    {
-      "id": "tradingview",
-      "label": "TradingView"
+      "id": "times-brasil-cnbc",
+      "label": "Times Brasil | CNBC"
     },
     {
       "id": "tribuna-do-agreste",
@@ -231,11 +231,49 @@
   ],
   "items": [
     {
+      "id": "macro-5116ca27248c34dcf394343b",
+      "title": "Comissão da Câmara aprova novas regras para gestão fiscal de Natal",
+      "summary": "Ouça o comentário na íntegra clicando abaixo",
+      "details": "Ouça o comentário na íntegra clicando abaixo",
+      "url": "https://www.itatiaia.com.br/colunas/rita-mundim/economia/negocios/rita-mundim-eleicoes-2026-podem-impactar-o-mercado-financeiro-nesta-semanda/",
+      "source": "Agora RN",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-18T03:00:00Z",
+      "updatedAt": "2026-08-18T03:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://admin.itatiaia.com.br/wp-content/uploads/sites/27/2026/02/whatsapp-image-2025-09-16-at-16-32-43.jpeg?resize=1280%2C720&w=1280&h=720&quality=75&crop=1"
+    },
+    {
+      "id": "latest-99a6a61e828dcd38805bd624",
+      "title": "Rita Mundim: Eleições 2026 podem impactar o mercado financeiro nesta semanda",
+      "summary": "Projetos permitem negociar dívidas com descontos de até 80% e criam colegiado para evitar restrições a convênios e repasses federais.",
+      "details": "Projetos permitem negociar dívidas com descontos de até 80% e criam colegiado para evitar restrições a convênios e repasses federais.",
+      "url": "https://agorarn.com.br/politica/comissao-da-camara-aprova-novas-regras-para-gestao-fiscal-de-natal/",
+      "source": "Rádio Itatiaia",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-18T02:38:24Z",
+      "updatedAt": "2026-08-18T02:38:24Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://agorarn.com.br/files/uploads/2026/08/Reuni∆o-da-Comiss∆o-de-Legislaa∆o-Justiaa-e-Redaa∆o-da-CEmara.jpg"
+    },
+    {
       "id": "macro-dc195639dec1bb6efab507c3",
       "title": "Senado aprova criação de fundos para Judiciário que permitem gastos fora do arcabouço fiscal",
-      "summary": "O Brasil corre risco de entrar em recessão em 2027 caso o próximo governo erre a calibragem do ajuste fiscal em um ambiente de juros elevados e atividade",
-      "details": "O Brasil corre risco de entrar em recessão em 2027 caso o próximo governo erre a calibragem do ajuste fiscal em um ambiente de juros elevados e atividade",
-      "url": "https://timesbrasil.com.br/brasil/ajuste-fiscal-mal-calibrado-pode-levar-brasil-a-recessao-em-2027-diz-felipe-salto/",
+      "summary": "Órgãos alegam que decisões do STF embasam a criação de novas fontes de receita para o Judiciário",
+      "details": "Órgãos alegam que decisões do STF embasam a criação de novas fontes de receita para o Judiciário",
+      "url": "https://www1.folha.uol.com.br/mercado/2026/08/senado-aprova-criacao-de-fundos-para-judiciario-que-permitem-gastos-fora-do-arcabouco-fiscal.shtml",
       "source": "Folha de S.Paulo",
       "category": "macro",
       "tags": [
@@ -247,14 +285,14 @@
       "updatedAt": "2026-08-18T02:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/08/d49b6b50-captura-de-tela-2026-08-17-223928.webp"
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2025/12/18/176609950869448a3438227_1766099508_3x2_rt.jpg"
     },
     {
       "id": "companies-1df7e88f9120ecff920a203e",
       "title": "Missão de Ruanda em Brasília abre caminho para novos negócios com o Brasil",
-      "summary": "A BHP, sediada na Austrália e maior mineradora do mundo em valor de mercado, informou um lucro líquido de US$ 9,83 bilhões referente aos 12 meses encerrados em junho",
-      "details": "A BHP, sediada na Austrália e maior mineradora do mundo em valor de mercado, informou um lucro líquido de US$ 9,83 bilhões referente aos 12 meses encerrados em junho",
-      "url": "https://valor.globo.com/empresas/noticia/2026/08/17/lucro-da-bhp-avanca-9percent-no-ano-fiscal-encerrado-em-junho-puxado-pelo-cobre.ghtml",
+      "summary": "Nos últimos sete meses, a situação socioeconômica da cidade de Can Tho manteve um ritmo positivo de recuperação. A produção industrial, o comércio e os serviços, a agricultura, a receita orçamentária e a criação de novas empresas registraram crescimento significativo, criando uma",
+      "details": "Nos últimos sete meses, a situação socioeconômica da cidade de Can Tho manteve um ritmo positivo de recuperação. A produção industrial, o comércio e os serviços, a agricultura, a receita orçamentária e a criação de novas empresas registraram crescimento significativo, criando uma base para que a cidade acelere o cumpri",
+      "url": "https://www.vietnam.vn/pt/thao-go-kho-khan-tang-toc-giai-ngan-von-dau-tu-cong",
       "source": "RADAR DIGITAL BRASÍLIA",
       "category": "companies",
       "tags": [
@@ -266,15 +304,34 @@
       "updatedAt": "2026-08-18T01:57:51Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/JbR_L8G-86Lu_vHDqnQjBssEF4M=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/T/g/yPBQbuTA2lH8lcKjePgg/mina-de-cerro-colorado-da-bhp-no-chile-reproducao-consejo-minero.jpg"
+      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/08/18/1787012797070_1787012549.webp"
     },
     {
-      "id": "macro-7562bc58afcb023e63b6265d",
-      "title": "Ajuste fiscal mal calibrado pode levar Brasil à recessão em 2027, diz Felipe Salto",
+      "id": "funds-b77b801e3a22f008aaf481b8",
+      "title": "Remover obstáculos e acelerar o desembolso de fundos de investimento público.",
       "summary": "Delegação ruandesa cumpre agenda em Brasília, visita a Embrapa e ApexBrasil e busca fortalecer parcerias comerciais, tecnológicas e empresariais",
       "details": "Delegação ruandesa cumpre agenda em Brasília, visita a Embrapa e ApexBrasil e busca fortalecer parcerias comerciais, tecnológicas e empresariais",
       "url": "https://radardigitalbrasilia.com.br/internacional/missao-de-ruanda-em-brasilia-abre-caminho-para-novos-negocios-com-o-brasil/",
-      "source": "timesbrasil.com.br",
+      "source": "Vietnam.vn",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-08-18T01:52:05Z",
+      "updatedAt": "2026-08-18T01:52:05Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://radardigitalbrasilia.com.br/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-17-at-18.51.12-scaled.jpeg"
+    },
+    {
+      "id": "macro-0b6184bb8a1fc2a69f983c1a",
+      "title": "Ajuste fiscal mal calibrado pode levar Brasil à recessão em 2027, diz Felipe Salto",
+      "summary": "O Brasil corre risco de entrar em recessão em 2027 caso o próximo governo erre a calibragem do ajuste fiscal em um ambiente de juros elevados e atividade",
+      "details": "O Brasil corre risco de entrar em recessão em 2027 caso o próximo governo erre a calibragem do ajuste fiscal em um ambiente de juros elevados e atividade",
+      "url": "https://timesbrasil.com.br/brasil/ajuste-fiscal-mal-calibrado-pode-levar-brasil-a-recessao-em-2027-diz-felipe-salto/",
+      "source": "Times Brasil | CNBC",
       "category": "macro",
       "tags": [
         "macro",
@@ -285,14 +342,14 @@
       "updatedAt": "2026-08-18T01:41:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://radardigitalbrasilia.com.br/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-17-at-18.51.12-scaled.jpeg"
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/08/d49b6b50-captura-de-tela-2026-08-17-223928.webp"
     },
     {
       "id": "latest-ecf04dc0adfe213b2fee9f87",
       "title": "Papel da Petrobras e governo no mercado de combustíveis",
-      "summary": "Órgãos alegam que decisões do STF embasam a criação de novas fontes de receita para o Judiciário",
-      "details": "Órgãos alegam que decisões do STF embasam a criação de novas fontes de receita para o Judiciário",
-      "url": "https://www1.folha.uol.com.br/mercado/2026/08/senado-aprova-criacao-de-fundos-para-judiciario-que-permitem-gastos-fora-do-arcabouco-fiscal.shtml",
+      "summary": "Atualizacao de ultima hora capturada em Monitor Mercantil.",
+      "details": "",
+      "url": "https://monitormercantil.com.br/papel-da-petrobras-e-governo-no-mercado-de-combustiveis/",
       "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
@@ -303,15 +360,14 @@
       "publishedAt": "2026-08-18T01:32:23Z",
       "updatedAt": "2026-08-18T01:32:23Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2025/12/18/176609950869448a3438227_1766099508_3x2_rt.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-efcabfbacae0129741be06be",
       "title": "Tesouro Direto: Aplicativo é desativado",
       "summary": "Atualizacao de ultima hora capturada em Monitor Mercantil.",
       "details": "",
-      "url": "https://monitormercantil.com.br/papel-da-petrobras-e-governo-no-mercado-de-combustiveis/",
+      "url": "https://monitormercantil.com.br/tesouro-direto-aplicativo-e-desativado/",
       "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
@@ -325,12 +381,12 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "macro-7ead4f253466cae469c7986f",
+      "id": "macro-39031a31fac6e9f1fed7684d",
       "title": "Mercado mantém estáveis projeções para inflação, juros e PIB",
-      "summary": "Atualizacao de macro capturada em Imirante.com.",
-      "details": "",
-      "url": "https://monitormercantil.com.br/tesouro-direto-aplicativo-e-desativado/",
-      "source": "Imirante.com",
+      "summary": "Boletim Focus projeta inflação de 5,02% e Selic de 13,75% em 2026.",
+      "details": "Boletim Focus projeta inflação de 5,02% e Selic de 13,75% em 2026.",
+      "url": "https://imirante.com/noticias/brasil/amp/2026/08/17/mercado-mantem-estaveis-projecoes-para-inflacao-juros-e-pib",
+      "source": "imirante.com",
       "category": "macro",
       "tags": [
         "macro",
@@ -340,14 +396,15 @@
       "publishedAt": "2026-08-18T01:22:00Z",
       "updatedAt": "2026-08-18T01:22:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://imagens.imirante.com.br/imagens/noticias/2020/04/02/1585821071-648075283.jpg?w=896&h=448&crop=1170%2C682%2C0%2C11&fit=crop&s=e3914849a642e351e2a19b20b391243b"
     },
     {
       "id": "macro-57b5577d914a54a2dd361634",
       "title": "Lucro da BHP avança 9% no ano fiscal encerrado em junho, puxado pelo cobre",
-      "summary": "Boletim Focus projeta inflação de 5,02% e Selic de 13,75% em 2026.",
-      "details": "Boletim Focus projeta inflação de 5,02% e Selic de 13,75% em 2026.",
-      "url": "https://imirante.com/noticias/brasil/amp/2026/08/17/mercado-mantem-estaveis-projecoes-para-inflacao-juros-e-pib",
+      "summary": "A BHP, sediada na Austrália e maior mineradora do mundo em valor de mercado, informou um lucro líquido de US$ 9,83 bilhões referente aos 12 meses encerrados em junho",
+      "details": "A BHP, sediada na Austrália e maior mineradora do mundo em valor de mercado, informou um lucro líquido de US$ 9,83 bilhões referente aos 12 meses encerrados em junho",
+      "url": "https://valor.globo.com/empresas/noticia/2026/08/17/lucro-da-bhp-avanca-9percent-no-ano-fiscal-encerrado-em-junho-puxado-pelo-cobre.ghtml",
       "source": "Valor Econômico",
       "category": "macro",
       "tags": [
@@ -359,14 +416,14 @@
       "updatedAt": "2026-08-18T01:02:04Z",
       "premium": true,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://imagens.imirante.com.br/imagens/noticias/2020/04/02/1585821071-648075283.jpg?w=896&h=448&crop=1170%2C682%2C0%2C11&fit=crop&s=e3914849a642e351e2a19b20b391243b"
+      "imageUrl": "https://s2-valor.glbimg.com/JbR_L8G-86Lu_vHDqnQjBssEF4M=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/T/g/yPBQbuTA2lH8lcKjePgg/mina-de-cerro-colorado-da-bhp-no-chile-reproducao-consejo-minero.jpg"
     },
     {
       "id": "macro-7a98231dd0a7b4d88f473f37",
       "title": "Projeções para a inflação, PIB e dólar ficam estáveis nesta semana",
-      "summary": "As previsões para a inflação, a taxa básica de juros, o PIB e o dólar permaneceram estáveis na comparação com a semana passada, segundo o Boletim Focus",
-      "details": "As previsões para a inflação, a taxa básica de juros, o PIB e o dólar permaneceram estáveis na comparação com a semana passada, segundo o Boletim Focus",
-      "url": "https://www.bemparana.com.br/noticias/economia/projecoes-para-a-inflacao-pib-e-dolar-ficam-estaveis-nesta-semana/",
+      "summary": "Atualizacao de macro capturada em Bem Paraná.",
+      "details": "",
+      "url": "https://br.investing.com/news/commodities-news/ouro-sobe-perto-de-us-4450-com-apostas-no-fed-recuando-e-dolar-fraco-2042084",
       "source": "Bem Paraná",
       "category": "macro",
       "tags": [
@@ -377,15 +434,14 @@
       "publishedAt": "2026-08-18T01:00:00Z",
       "updatedAt": "2026-08-18T01:00:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.bemparana.com.br/wp-content/uploads/2026/03/inflacao.jpg?v=18.08.2.15.21"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-97981965cc3f77b778bca3b1",
       "title": "Ouro sobe perto de US$ 4.450 com apostas no Fed recuando e dólar fraco",
-      "summary": "Atualizacao de macro capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
-      "details": "",
-      "url": "https://br.investing.com/news/commodities-news/ouro-sobe-perto-de-us-4450-com-apostas-no-fed-recuando-e-dolar-fraco-2042084",
+      "summary": "As previsões para a inflação, a taxa básica de juros, o PIB e o dólar permaneceram estáveis na comparação com a semana passada, segundo o Boletim Focus",
+      "details": "As previsões para a inflação, a taxa básica de juros, o PIB e o dólar permaneceram estáveis na comparação com a semana passada, segundo o Boletim Focus",
+      "url": "https://www.bemparana.com.br/noticias/economia/projecoes-para-a-inflacao-pib-e-dolar-ficam-estaveis-nesta-semana/",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "macro",
       "tags": [
@@ -396,15 +452,16 @@
       "publishedAt": "2026-08-18T00:54:00Z",
       "updatedAt": "2026-08-18T00:54:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.bemparana.com.br/wp-content/uploads/2026/03/inflacao.jpg?v=18.08.3.12.51"
     },
     {
-      "id": "latest-aa60d036de979c506fe8b44d",
+      "id": "latest-d4a032988094f12b34b59f07",
       "title": "Juros ajudam a destruir gigantes como Casas Bahia, Marabraz e GPA – e queda discreta da Selic não resolve problema",
-      "summary": "Os juros reais brasileiros entre os maiores do mundo fez, primeiramente, algumas vítimas entre as empresas mais frágeis: as micro, pequenas e médias, com",
-      "details": "Os juros reais brasileiros entre os maiores do mundo fez, primeiramente, algumas vítimas entre as empresas mais frágeis: as micro, pequenas e médias, com",
-      "url": "https://timesbrasil.com.br/colunas/raphael-coraccini/juros-ajudam-a-destruir-gigantes-como-casas-bahia-marabraz-e-gpa-e-queda-discreta-da-selic-nao-resolve-problema/",
-      "source": "timesbrasil.com.br",
+      "summary": "Pesquisador do Insper afirma que juros altos são consequência, não causa do desequilíbrio fiscal brasileiro",
+      "details": "Pesquisador do Insper afirma que juros altos são consequência, não causa do desequilíbrio fiscal brasileiro",
+      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/arcabouco-fiscal-perdeu-a-credibilidade-diz-marcos-mendes/",
+      "source": "Times Brasil | CNBC",
       "category": "latest",
       "tags": [
         "mercado",
@@ -415,14 +472,14 @@
       "updatedAt": "2026-08-18T00:51:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/08/da7dfaa7-image-1.webp"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/BR_CNN_170826_ZOOM_MONEY_MARCOS_MENDES_frame_27454.jpeg?w=1200&h=630&crop=1"
     },
     {
       "id": "macro-0bb7e4aa3eb0988be17d1784",
       "title": "Arcabouço fiscal perdeu a credibilidade, diz Marcos Mendes",
-      "summary": "Inadimplência das empresas brasileiras atinge R$ 232,9 bilhões com 66,2 milhões de contas vencidas. Veja setores e estados mais afetados pelo endividamento.",
-      "details": "Inadimplência das empresas brasileiras atinge R$ 232,9 bilhões com 66,2 milhões de contas vencidas. Veja setores e estados mais afetados pelo endividamento.",
-      "url": "https://www.nsctotal.com.br/economia/inadimplencia-empresarial-bate-recorde-no-brasil-e-chega-a-91-milhoes-de-cnpjs-negativados-em-2026",
+      "summary": "Considerando apenas as 42 projeções atualizadas nos últimos cinco dias úteis, mais sensíveis a novidades, a estimativa aumentou de 1,94% para 1,97%",
+      "details": "Considerando apenas as 42 projeções atualizadas nos últimos cinco dias úteis, mais sensíveis a novidades, a estimativa aumentou de 1,94% para 1,97%",
+      "url": "https://jornaldebrasilia.com.br/noticias/economia/mercado-mantem-pib-no-ano-em-198-mas-corta-previsao-de-2027/",
       "source": "CNN Brasil",
       "category": "macro",
       "tags": [
@@ -434,14 +491,14 @@
       "updatedAt": "2026-08-18T00:09:32Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/06/413.jpg"
+      "imageUrl": "https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2025/03/18112555/pib-monitor-1.jpg"
     },
     {
       "id": "companies-02db5b76290df7036091c672",
       "title": "Inadimplência empresarial bate recorde no Brasil e chega a 9,1 milhões de CNPJs negativados em 2026",
-      "summary": "Considerando apenas as 42 projeções atualizadas nos últimos cinco dias úteis, mais sensíveis a novidades, a estimativa aumentou de 1,94% para 1,97%",
-      "details": "Considerando apenas as 42 projeções atualizadas nos últimos cinco dias úteis, mais sensíveis a novidades, a estimativa aumentou de 1,94% para 1,97%",
-      "url": "https://jornaldebrasilia.com.br/noticias/economia/mercado-mantem-pib-no-ano-em-198-mas-corta-previsao-de-2027/",
+      "summary": "Inadimplência das empresas brasileiras atinge R$ 232,9 bilhões com 66,2 milhões de contas vencidas. Veja setores e estados mais afetados pelo endividamento.",
+      "details": "Inadimplência das empresas brasileiras atinge R$ 232,9 bilhões com 66,2 milhões de contas vencidas. Veja setores e estados mais afetados pelo endividamento.",
+      "url": "https://www.nsctotal.com.br/economia/inadimplencia-empresarial-bate-recorde-no-brasil-e-chega-a-91-milhoes-de-cnpjs-negativados-em-2026",
       "source": "NSC Total",
       "category": "companies",
       "tags": [
@@ -453,14 +510,14 @@
       "updatedAt": "2026-08-18T00:04:54Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2025/03/18112555/pib-monitor-1.jpg"
+      "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/06/413.jpg"
     },
     {
       "id": "macro-c049a2626cdceed11c8b4f36",
       "title": "Mercado mantém PIB no ano em 1,98%, mas corta previsão de 2027",
-      "summary": "Atualizacao de macro capturada em Jornal de Brasília.",
-      "details": "",
-      "url": "https://br.investing.com/news/transcripts/bhp-registra-producao-recorde-no-ano-fiscal-de-2026-e-acoes-sobem-93CH-2042039",
+      "summary": "Os juros reais brasileiros entre os maiores do mundo fez, primeiramente, algumas vítimas entre as empresas mais frágeis: as micro, pequenas e médias, com",
+      "details": "Os juros reais brasileiros entre os maiores do mundo fez, primeiramente, algumas vítimas entre as empresas mais frágeis: as micro, pequenas e médias, com",
+      "url": "https://timesbrasil.com.br/colunas/raphael-coraccini/juros-ajudam-a-destruir-gigantes-como-casas-bahia-marabraz-e-gpa-e-queda-discreta-da-selic-nao-resolve-problema/",
       "source": "Jornal de Brasília",
       "category": "macro",
       "tags": [
@@ -471,14 +528,15 @@
       "publishedAt": "2026-08-17T23:54:28Z",
       "updatedAt": "2026-08-17T23:54:28Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/08/da7dfaa7-image-1.webp"
     },
     {
       "id": "macro-5742961c20b1cc8755a14487",
       "title": "Flávio Bolsonaro diz que tem apoio de Roscoe e Cleitinho em MG e defende equilíbrio fiscal para melhorar poder de compra das famílias",
-      "summary": "Pesquisador do Insper afirma que juros altos são consequência, não causa do desequilíbrio fiscal brasileiro",
-      "details": "Pesquisador do Insper afirma que juros altos são consequência, não causa do desequilíbrio fiscal brasileiro",
-      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/arcabouco-fiscal-perdeu-a-credibilidade-diz-marcos-mendes/",
+      "summary": "Em evento em Belo Horizonte, presidenciável afirmou que PL esperou definição sobre candidatura de Cleitinho",
+      "details": "Em evento em Belo Horizonte, presidenciável afirmou que PL esperou definição sobre candidatura de Cleitinho",
+      "url": "https://g1.globo.com/mg/minas-gerais/eleicoes/2026/noticia/2026/08/17/flavio-bolsonaro-diz-que-tem-apoio-de-roscoe-e-cleitinho-em-mg-e-defende-equilibrio-fiscal-para-melhorar-poder-de-compra-das-familias.ghtml",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -490,34 +548,15 @@
       "updatedAt": "2026-08-17T23:50:22Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/BR_CNN_170826_ZOOM_MONEY_MARCOS_MENDES_frame_27454.jpeg?w=1200&h=630&crop=1"
+      "imageUrl": "https://s2-g1.glbimg.com/v2OSNJZKh9v_8Dv_b70xGj70bdI=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/R/e/wkwwtsSqquN6paFnAEAg/flavio-bolsonaro-fabiano-17-aug-2026-frame-155423.jpeg"
     },
     {
-      "id": "macro-7ccc9407a324e35c1963b729",
-      "title": "Aumentos de juros podem ser uma medida pouco precisa, mas são tudo o que o Fed tem para conter a inflação: McGeever",
-      "summary": "Por Jamie McGeeverO presidente do Federal Reserve, Kevin Warsh, indicou que existem algumas maneiras de trazer a inflação de volta à meta. Infelizmente, a que tem, de longe, a maior chance de sucesso é a menos palatável: aumentar as taxas de juros.Retirar o excesso de liquidez do",
-      "details": "Por Jamie McGeeverO presidente do Federal Reserve, Kevin Warsh, indicou que existem algumas maneiras de trazer a inflação de volta à meta. Infelizmente, a que tem, de longe, a maior chance de sucesso é a menos palatável: aumentar as taxas de juros.Retirar o excesso de liquidez do sistema financeir…",
-      "url": "https://br.tradingview.com/news/reuters.com,2026:newsml_L1N44E0X8:0/",
-      "source": "TradingView",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-17T23:31:11Z",
-      "updatedAt": "2026-08-17T23:31:11Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s.tradingview.com/static/images/illustrations/news-story.jpg"
-    },
-    {
-      "id": "latest-893eaeff9499e7ca56844caa",
+      "id": "latest-9a37670f4b78fb82957a3208",
       "title": "Mercado financeiro congela expectativas econômicas enquanto inflação dá sinais de trégua",
       "summary": "Relatório semanal do Banco Central aponta estabilidade nos principais indicadores do país, mesmo com o custo de vida ainda pressionado acima da meta",
       "details": "Relatório semanal do Banco Central aponta estabilidade nos principais indicadores do país, mesmo com o custo de vida ainda pressionado acima da meta",
       "url": "https://omatogrosso.com/mercado-financeiro-congela-expectativas-economicas-enquanto-inflacao-da-sinais-de-tregua/",
-      "source": "O Mato Grosso",
+      "source": "omatogrosso.com",
       "category": "latest",
       "tags": [
         "mercado",
@@ -533,9 +572,9 @@
     {
       "id": "latest-3c562fbf196e0251c04e91ce",
       "title": "Selic a 14%: o que muda para a economia brasileira, por Vanessa Onzi",
-      "summary": "Em evento em Belo Horizonte, presidenciável afirmou que PL esperou definição sobre candidatura de Cleitinho",
-      "details": "Em evento em Belo Horizonte, presidenciável afirmou que PL esperou definição sobre candidatura de Cleitinho",
-      "url": "https://g1.globo.com/mg/minas-gerais/eleicoes/2026/noticia/2026/08/17/flavio-bolsonaro-diz-que-tem-apoio-de-roscoe-e-cleitinho-em-mg-e-defende-equilibrio-fiscal-para-melhorar-poder-de-compra-das-familias.ghtml",
+      "summary": "A decisão do Comitê de Política Monetária (Copom) de reduzir a taxa Selic de 14,25% para 14,00% ao ano reforça um movimento acompanhado de perto pelo",
+      "details": "A decisão do Comitê de Política Monetária (Copom) de reduzir a taxa Selic de 14,25% para 14,00% ao ano reforça um movimento acompanhado de perto pelo",
+      "url": "https://cooperativismodecredito.coop.br/2026/08/selic-a-14-o-que-muda-para-a-economia-brasileira-por-vanessa-onzi/",
       "source": "Portal do Cooperativismo Financeiro",
       "category": "latest",
       "tags": [
@@ -547,14 +586,14 @@
       "updatedAt": "2026-08-17T23:22:25Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://s2-g1.glbimg.com/v2OSNJZKh9v_8Dv_b70xGj70bdI=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/R/e/wkwwtsSqquN6paFnAEAg/flavio-bolsonaro-fabiano-17-aug-2026-frame-155423.jpeg"
+      "imageUrl": "https://cooperativismodecredito.coop.br/wp-content/uploads/2026/08/vanessa_onzi.jpg"
     },
     {
       "id": "latest-704f7ac006b45d471114b693",
       "title": "Candidatos buscam apoio da Faria Lima - alguns à distância",
-      "summary": "A decisão do Comitê de Política Monetária (Copom) de reduzir a taxa Selic de 14,25% para 14,00% ao ano reforça um movimento acompanhado de perto pelo",
-      "details": "A decisão do Comitê de Política Monetária (Copom) de reduzir a taxa Selic de 14,25% para 14,00% ao ano reforça um movimento acompanhado de perto pelo",
-      "url": "https://cooperativismodecredito.coop.br/2026/08/selic-a-14-o-que-muda-para-a-economia-brasileira-por-vanessa-onzi/",
+      "summary": "Flávio Bolsonaro foi principal ausência na conferência do Santander, em São Paulo, já que Lula cumpre agenda de presidente",
+      "details": "Flávio Bolsonaro foi principal ausência na conferência do Santander, em São Paulo, já que Lula cumpre agenda de presidente",
+      "url": "https://pipelinevalor.globo.com/google/amp/mercado/noticia/candidatos-buscam-apoio-da-faria-lima-alguns-a-distancia.ghtml",
       "source": "Pipeline",
       "category": "latest",
       "tags": [
@@ -566,14 +605,14 @@
       "updatedAt": "2026-08-17T23:01:47Z",
       "premium": true,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://cooperativismodecredito.coop.br/wp-content/uploads/2026/08/vanessa_onzi.jpg"
+      "imageUrl": "https://s2-pipelinevalor.glbimg.com/6fG9C_y7SWkBULV_7b8z6KwWYbE=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_b3309463db95468aa275bd532137e960/internal_photos/bs/2026/w/W/BSoX8jQbuJ6vJv9NKtwQ/13680871-pasaopaulosp26-02-2014vistadacidadedesaopaulonafotovistadaavenidafarialima.jpg"
     },
     {
       "id": "macro-b4121f4612b7b8eba967c833",
       "title": "BHP registra produção recorde no ano fiscal de 2026 e ações sobem",
-      "summary": "Flávio Bolsonaro foi principal ausência na conferência do Santander, em São Paulo, já que Lula cumpre agenda de presidente",
-      "details": "Flávio Bolsonaro foi principal ausência na conferência do Santander, em São Paulo, já que Lula cumpre agenda de presidente",
-      "url": "https://pipelinevalor.globo.com/google/amp/mercado/noticia/candidatos-buscam-apoio-da-faria-lima-alguns-a-distancia.ghtml",
+      "summary": "Atualizacao de macro capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
+      "details": "",
+      "url": "https://br.investing.com/news/transcripts/bhp-registra-producao-recorde-no-ano-fiscal-de-2026-e-acoes-sobem-93CH-2042039",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "macro",
       "tags": [
@@ -584,8 +623,7 @@
       "publishedAt": "2026-08-17T22:56:00Z",
       "updatedAt": "2026-08-17T22:56:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-pipelinevalor.glbimg.com/6fG9C_y7SWkBULV_7b8z6KwWYbE=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_b3309463db95468aa275bd532137e960/internal_photos/bs/2026/w/W/BSoX8jQbuJ6vJv9NKtwQ/13680871-pasaopaulosp26-02-2014vistadacidadedesaopaulonafotovistadaavenidafarialima.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-7486d9f67050bb3f21e40c66",
@@ -609,9 +647,9 @@
     {
       "id": "funds-0092419adb77d0601365ffe6",
       "title": "Desembolso acompanhado de eficiência",
-      "summary": "Atualizacao de fundos capturada em Vietnam.vn.",
-      "details": "",
-      "url": "https://monitormercantil.com.br/monitor-da-fgv-mostra-desaceleracao-do-pib-no-trimestre/",
+      "summary": "Para apoiar as empresas afetadas pelo tarifaço norte-americano, a ApexBrasil (Agência Brasileira de Promoção de Exportações e Investimentos) lançou em 11 de agosto, em evento em São Paulo, o Plano de Diversificação de Exportações, uma iniciativa com investimentos de R$ 210 milhõe",
+      "details": "Para apoiar as empresas afetadas pelo tarifaço norte-americano, a ApexBrasil (Agência Brasileira de Promoção de Exportações e Investimentos) lançou em 11 de agosto, em evento em São Paulo, o Plano de Diversificação de Exportações, uma iniciativa com investimentos de R$ 210 milhões. O objetivo é redirecionar a novos mer",
+      "url": "https://platobr.com.br/brands/plano-da-apexbrasil-busca-novos-mercados-para-as-empresas-brasileiras",
       "source": "Vietnam.vn",
       "category": "funds",
       "tags": [
@@ -622,14 +660,15 @@
       "publishedAt": "2026-08-17T22:54:40Z",
       "updatedAt": "2026-08-17T22:54:40Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://platobr.com.br/wp-content/uploads/2026/08/55460732362-ee15e8efc7-o1-1200x630.jpg"
     },
     {
       "id": "macro-8f68b8ec228ba71a6c2e2dc4",
       "title": "Economia do Brasil parou de esquentar | Podcast Macro Review",
       "summary": "Atualizacao de macro capturada em C6 Bank.",
       "details": "",
-      "url": "https://www.c6bank.com.br/blog/economia-brasileira-parou-de-esquentar",
+      "url": "https://monitormercantil.com.br/monitor-da-fgv-mostra-desaceleracao-do-pib-no-trimestre/",
       "source": "C6 Bank",
       "category": "macro",
       "tags": [
@@ -645,9 +684,9 @@
     {
       "id": "macro-99aeb302e07e1c12d2b55bc6",
       "title": "Monitor da FGV mostra desaceleração do PIB no trimestre",
-      "summary": "Acelerar a liberação de fundos de investimento público é crucial, mas por trás dessas porcentagens reside uma questão fundamental: que valor os projetos concluídos criarão para as pessoas, as empresas e a economia local?",
-      "details": "Acelerar a liberação de fundos de investimento público é crucial, mas por trás dessas porcentagens reside uma questão fundamental: que valor os projetos concluídos criarão para as pessoas, as empresas e a economia local?",
-      "url": "https://www.vietnam.vn/pt/giai-ngan-di-kem-hieu-qua",
+      "summary": "Atualizacao de macro capturada em Monitor Mercantil.",
+      "details": "",
+      "url": "https://www.c6bank.com.br/blog/economia-brasileira-parou-de-esquentar",
       "source": "Monitor Mercantil",
       "category": "macro",
       "tags": [
@@ -658,16 +697,15 @@
       "publishedAt": "2026-08-17T22:51:52Z",
       "updatedAt": "2026-08-17T22:51:52Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/16/1784176432275_thumbnailtinmoi.jpeg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "funds-8bddc2bf28cbd09c3a20f2c3",
+      "id": "funds-0494126845d7791ab445fd18",
       "title": "Citi reforça compra para XP, mas alerta para crescimento da receita após 2T26; veja preço-alvo",
       "summary": "Banco acredita que o crescimento da receita pode ficar abaixo das projeções em meio ao cenário macroeconômico",
       "details": "Banco acredita que o crescimento da receita pode ficar abaixo das projeções em meio ao cenário macroeconômico",
       "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/citi-reforca-compra-para-xp-mas-alerta-para-crescimento-da-receita-apos-2t26-veja-preco-alvo/",
-      "source": "Estadão",
+      "source": "estadao.com.br",
       "category": "funds",
       "tags": [
         "fundos",
@@ -681,29 +719,11 @@
       "imageUrl": "https://www.estadao.com.br/resizer/v2/NOG5MJPV7VJNHBIJKZIRAMSOTU.png?quality=80&auth=3b8bb0d0c548b4618d5537877f502dce5563a00c4e48a132cabd4fc906941d24&width=1200&height=630&smart=true"
     },
     {
-      "id": "companies-27a3203a18b995fc8a1fa46d",
-      "title": "No Brasil, 76% das empresas já operam agentes de IA e 66% ampliarão investimentos",
-      "summary": "Atualizacao de empresas capturada em TI INSIDE Online.",
-      "details": "",
-      "url": "https://tiinside.com.br/17/08/2026/no-brasil-76-das-empresas-ja-operam-agentes-de-ia-e-66-ampliarao-investimentos/",
-      "source": "TI INSIDE Online",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-08-17T22:45:24Z",
-      "updatedAt": "2026-08-17T22:45:24Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
       "id": "latest-6056961165a08bf8a75c352c",
       "title": "Recuperação judicial das Casas Bahia expõe 3 fragilidades estruturais",
-      "summary": "Atualizacao de ultima hora capturada em Monitor Mercantil.",
-      "details": "",
-      "url": "https://monitormercantil.com.br/casas-bahia-anuncia-pedido-de-recuperacao-judicial/",
+      "summary": "Acelerar a liberação de fundos de investimento público é crucial, mas por trás dessas porcentagens reside uma questão fundamental: que valor os projetos concluídos criarão para as pessoas, as empresas e a economia local?",
+      "details": "Acelerar a liberação de fundos de investimento público é crucial, mas por trás dessas porcentagens reside uma questão fundamental: que valor os projetos concluídos criarão para as pessoas, as empresas e a economia local?",
+      "url": "https://www.vietnam.vn/pt/giai-ngan-di-kem-hieu-qua",
       "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
@@ -714,14 +734,15 @@
       "publishedAt": "2026-08-17T22:40:00Z",
       "updatedAt": "2026-08-17T22:40:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/07/16/1784176432275_thumbnailtinmoi.jpeg"
     },
     {
       "id": "companies-bf789b0d8c96d97e27427c0d",
       "title": "Plano da ApexBrasil busca novos mercados para as empresas brasileiras",
-      "summary": "A ManageEngine anunciou hoje as descobertas específicas para o Brasil de seu mais recente estudo de pesquisa O Estado da Transformação",
-      "details": "A ManageEngine anunciou hoje as descobertas específicas para o Brasil de seu mais recente estudo de pesquisa O Estado da Transformação",
-      "url": "https://acontecendoaqui.com.br/tech/brasil-avanca-em-transformacao-digital-mas-complexidade-de-ti-freia-inovacao/",
+      "summary": "Atualizacao de empresas capturada em PlatôBR.",
+      "details": "",
+      "url": "https://monitormercantil.com.br/casas-bahia-anuncia-pedido-de-recuperacao-judicial/",
       "source": "PlatôBR",
       "category": "companies",
       "tags": [
@@ -732,15 +753,14 @@
       "publishedAt": "2026-08-17T22:39:30Z",
       "updatedAt": "2026-08-17T22:39:30Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://acontecendoaqui.com.br/wp-content/uploads/2026/08/ciberseTECH1.jpg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-6260ec44e3835d6150ec4375",
       "title": "Brasil avança em transformação digital, mas complexidade de TI freia inovação",
-      "summary": "Para apoiar as empresas afetadas pelo tarifaço norte-americano, a ApexBrasil (Agência Brasileira de Promoção de Exportações e Investimentos) lançou em 11 de agosto, em evento em São Paulo, o Plano de Diversificação de Exportações, uma iniciativa com investimentos de R$ 210 milhõe",
-      "details": "Para apoiar as empresas afetadas pelo tarifaço norte-americano, a ApexBrasil (Agência Brasileira de Promoção de Exportações e Investimentos) lançou em 11 de agosto, em evento em São Paulo, o Plano de Diversificação de Exportações, uma iniciativa com investimentos de R$ 210 milhões. O objetivo é redirecionar a novos mer",
-      "url": "https://platobr.com.br/brands/plano-da-apexbrasil-busca-novos-mercados-para-as-empresas-brasileiras",
+      "summary": "Atualizacao de empresas capturada em Acontecendo Aqui.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcXZMbEtPaWVyVi1BQThoZ1JydWVLVURlTGxCdVdDd2F1SWZhMzhWRHNITXlqb2R2UDFoSS1YLWpON1RfZ0RGeEM0TTZWS3lfSVVWei1EVlV4dVVmekdSaGpQTnpBTWpoNDVFUU5CbDdUcmRkT0I1TzRHX2hjdTczU2Y2czJzcEFlR2tZcVYtVnQyNFYzTXFYeHlpQ1RqQ1BYNlNvam9JdnVaWFFNMlE1dUtGSQ?oc=5",
       "source": "Acontecendo Aqui",
       "category": "companies",
       "tags": [
@@ -751,8 +771,7 @@
       "publishedAt": "2026-08-17T22:27:35Z",
       "updatedAt": "2026-08-17T22:27:35Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://platobr.com.br/wp-content/uploads/2026/08/55460732362-ee15e8efc7-o1-1200x630.jpg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-74e96f0667ca9097e0a8f4e0",
@@ -773,12 +792,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "companies-94d4d9849f0c50f28132eff0",
+      "id": "companies-acb4c6134c0d7a50ee210816",
       "title": "Empresas brasileiras podem sofrer tarifas retroativas em novo cerco dos EUA a produtos chineses",
-      "summary": "Atualizacao de empresas capturada em timesbrasil.com.br.",
+      "summary": "Atualizacao de empresas capturada em Times Brasil | CNBC.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNR0tqNWNjemN2MjNvYjY4TnlrdHE2QmhUWDFSSnFaT05ndXZBaDdvS05TQXFPR3RnRFBWUGxyLUZlYUE3WnlTZnR2S28wVkhoNm05bEFjcU92LS1qeWdZbWp5SlVoVUpVdEk5bVo3RnVaLWFrT1M3b19NOXFURWtweVp4UDNIdHNfZzBQaFlNUmpoS0lfVnllZU9TbEJHUDFkbHVTc09KdnRDYlVlVkFLaDRhdF9VaGJPTTJEakE3QVYxY2FOVDNhMWpvU3BLVmRoN2xsOVk4MjJZU3c?oc=5",
-      "source": "timesbrasil.com.br",
+      "source": "Times Brasil | CNBC",
       "category": "companies",
       "tags": [
         "empresas",
@@ -791,12 +810,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "latest-99e4eb8274aff3763cfb5812",
+      "id": "latest-8c644547bba0cbaa5f613653",
       "title": "Copom deve manter Selic em 14% diante de inflação persistente e cenário externo incerto",
-      "summary": "Atualizacao de ultima hora capturada em Portal do Agronegócio.",
+      "summary": "Atualizacao de ultima hora capturada em portaldoagronegocio.com.br.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOelBobVRQeTZXcVZUQVpQcnNRMk9yUXlTM2RGYjdNSjRHWm9tbmg3SGhSOGwzaUxXek43SEp4VjhlekFEMmpyTDJJelhwclFXTktYWWxwWjM4UWc2TXRSQjZwbzNoLWZHN1FPNTNBS1FGdGRUcjdEX3QxTzZabVVjSmFXSVhzemp0ZUc4SUVJYUhQNWpuYjdidXZVbF9GaS1icFpnNGVPUEw0Q1VHRTVVVG9BeEV5NjBtYmpVTkxGQ09ZbGVaVHdscTF5TGhUUjNnM01HWF9udmJvbWlPSWNOTGsyV25wUHVDWlNFR1huOWh4MUM1?oc=5",
-      "source": "Portal do Agronegócio",
+      "source": "portaldoagronegocio.com.br",
       "category": "latest",
       "tags": [
         "mercado",
@@ -917,12 +936,12 @@
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "latest-298c198d9724cae4c15936a2",
+      "id": "latest-49798812120c148a45c436ee",
       "title": "Nasdaq planeja ampliar negociação para 24 horas por dia ainda em 2026",
-      "summary": "Atualizacao de ultima hora capturada em Estadão.",
+      "summary": "Atualizacao de ultima hora capturada em estadao.com.br.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUm9kdmdqSHRoTmJ4ZmVGdDc0WDcxcTNXSmhZS3p5eHN3dGluTmFNZkdMdmhzenhOazh5VEJ6OW05cEdnUm90QjExRTlESEEwRENKUlhMZW1hdDMzZ2ZHV21GdHRhX2FOMGNheXQ0ZkgzNFFOcGlGX2Y3eENZMGRPWTJRbXdGdk9KZ0F4UXpFLXhwQXRLTml4ZWszMGIxRHd6a2dGUzRDRW1GQjhUbXcwaHNnREg0NkJPbnFTLXBrZWdFeG9vdjYw0gHMAUFVX3lxTE1xT0hwQ1BuR3BOZ3o4S2JrUjV2VnlTVFV4UFZ3Q1gzU1FYSEFNZFRYaGQxbFVXc2ZsZkY3VzlkTW00anE1SHRNSkN2ajQtSkFTeDhGc3BfV182Rk1BbEdLN2t6SnpyM1FTbkRNT0hoMXJBUFNqUk50RGxpWldyWG1adnJYX3BCWGtOWExVakZLN1EtTVV5bnRYR2IyOWVpYjkzakFmTGR2eDdVdERCajF3dWNfSzNLdWpVNGFNZ2I1ZkZHNWE2MXNzQjN3Rw?oc=5",
-      "source": "Estadão",
+      "source": "estadao.com.br",
       "category": "latest",
       "tags": [
         "mercado",
@@ -1043,30 +1062,12 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-c7d84c4b0b564e11e32a3eb2",
-      "title": "Ibovespa acumula 10 quedas seguidas: o que explica a série",
-      "summary": "Atualizacao de ultima hora capturada em blocktrends.com.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUVJRdHE4VXgtMGxsVFBjMmJjQksxYXJSS3pVb3UtX0oyd282WkZOeW1RZ3BHNkFGMWxXaFBfQ0QzcmFIS3BWWDVOaUxPYkhRS25qQWFQMjFyeFhLRU1zWC1kUmlLNU1sc3VjTklrbUxYYi1MODhLcmVBTXJvMmRFUW1IN1pQRHZoYlhRNmxHVzE?oc=5",
-      "source": "blocktrends.com.br",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-17T21:32:25Z",
-      "updatedAt": "2026-08-17T21:32:25Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "funds-4fb7e9ce5a1b3b4a60ae02c5",
+      "id": "funds-4a089c1123e056c5beefb3b2",
       "title": "XP tem lucro recorde de R$ 1,38 bilhão; captação triplica em um ano",
-      "summary": "Atualizacao de fundos capturada em Estadão.",
+      "summary": "Atualizacao de fundos capturada em estadao.com.br.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWVJvYk01NGxZc3FHa2ZrVU9OeGZ0MHhzdFhzWTJ1X3p0MWhTbWtPcFROLXhLdEQzQkNaUXF5bkxnRTZZUnVDOVNvVzZvd0I4NDFHYkFLNy1PM0JnSVRSa2ZSYzRuSFQzSnNMQXpJZS05NzBOa0VFRFNHQzk4X3VnNDlTSE05cmpya1k3bExSc0VMU3BsVlVsUHlLUVNha1ZpOVhiQkh0U2F4LTJJaW5FcVBNbjhaaVZ3WGlHT3BLdU1tSWEzZ3g4ajVFSWx5ak3SAdQBQVVfeXFMT0x0bklOQzJXQ2lVeGJGQTNNbVNwUmVlZEZRWEhsNmZDRENkQ1RCX2FOVVZjbUVPNm5GNFowVTVMZlFqUmhIZzQxZ05fTzhuTWtncTU2ekM1QzFfMGZ5RTJnTlpFSkxlUW52WGhjR19ESHpnMnR3VVhfOWlvVW5FVlhRSUlSYnhiVzhBdWwyQnV5OEpqRm5SSzVJMVN1M3pqV3lGRE5xSWNsem92SmxSMHBUZ2xseWlRT0xEMjBMSWN5VnNaQ3BOTTV4dk4yN1o5QWVBWEs?oc=5",
-      "source": "Estadão",
+      "source": "estadao.com.br",
       "category": "funds",
       "tags": [
         "fundos",
@@ -1115,6 +1116,24 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
+      "id": "companies-5091c41d0c83b5ff3c3cd9a7",
+      "title": "No Brasil, 76% das empresas já operam agentes de IA e 66% ampliarão investimentos",
+      "summary": "Atualizacao de empresas capturada em TI INSIDE Online.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVkhDeUJVbmFkVnJ2Z3FHX0l1N1lVY0pnWmdCb09Lc0szQTQ4YlNFaklBNGszY01lU0ExalJXVGdSdGtGczdHa2I5Q2J0blJyaVlPWU0waE42bllfY2N1bkg4UW84QnNNV05vakZMUDBrMlhRU0NVdl9ZSTVpV2dXcHFlSW9tSVZKY2RMb1ZoTmlCQ3A3ZGo5ZWRkdnotMUdEVUx5UkFFQUhSUzIxUXBoZUtPNlY?oc=5",
+      "source": "TI INSIDE Online",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-08-17T21:08:01Z",
+      "updatedAt": "2026-08-17T21:08:01Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
       "id": "funds-05f1e2093770e886e7dd2251",
       "title": "Fundo ligado à Apex teve as contas reprovadas por cotistas",
       "summary": "Atualizacao de fundos capturada em A Gazeta.",
@@ -1151,12 +1170,12 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "funds-8a707f9ee8806dfec0ccc12b",
+      "id": "funds-c029c5fdb283ebf2681a32f9",
       "title": "Fitness Brasil Expo espera movimentar R$ 1 bilhão e reforça avanço do mercado fitness no país",
-      "summary": "Atualizacao de fundos capturada em timesbrasil.com.br.",
+      "summary": "Atualizacao de fundos capturada em Times Brasil | CNBC.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaE4yaGx3UDlodEFuQ19XdTNCcDhwVEc0bDB4SzFBWXZ2Q0Ixb1R3UzVYUDRDUkxWNHh1LXY2T0FkLXY5RERWa0RjaUVyNXhueWdSUTdYMHpzMFVrekpQYWVMTU95YkNFS1N5aXluWkhiREkwSHlfSEtKa1pLTmdDaHpfekJGS0Jpb3BfRG00RTJkc2pJTFJQYTJtR1hqWUlhZTc0VFRpQlk2N0ppaDY1RHRRbmpOc29fVEhIX3RkMkoxMGNMTHVjTw?oc=5",
-      "source": "timesbrasil.com.br",
+      "source": "Times Brasil | CNBC",
       "category": "funds",
       "tags": [
         "fundos",
@@ -1167,6 +1186,24 @@
       "updatedAt": "2026-08-17T20:14:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "companies-5d159ace40f6fecbff5ff381",
+      "title": "NORDESTE CONCENTROU MAIS DE 1,2 MILHÃO DE EMPRESAS INADIMPLENTES EM JUNHO",
+      "summary": "Bahia Economica",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaFBmejVMNkc5a201Wk84TFpUTzVuQ3NpZGlYLUV4WGQ1NlF1Wlc5a2pSQ3QxTEpSZjRXMTBCa041bGdrMUtBbFQ3YVZMZXpoZlVLSnNHbzhKbk5DMUw5TWY5WmRYRi1tdVM2cU4ydHFQTVE4UnZob1IxMzQ0SVFQQU8xUHpOZ3N4bGZ6Y3VTT1FLc1JQVFlTOV9JdEhsMTg3VnB3SjRXay1iQlkxRHBPMDRLTEVsdEpN?oc=5",
+      "source": "- Bahia Economica",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-08-17T20:00:00Z",
+      "updatedAt": "2026-08-17T20:00:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-2d0e45edf5b93ddcf98a7f0f",
@@ -1365,42 +1402,6 @@
       "updatedAt": "2026-08-17T18:07:40Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "funds-c3b3baae2f8afa203012eb54",
-      "title": "Michelle Bolsonaro: a origem dos R$ 4,49 milhões em investimentos e um fusca declarados ao TSE",
-      "summary": "Atualizacao de fundos capturada em Revista Fórum.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02Um8zb3E5MWRUT1V5MFVwdDItRHBQZFQ3NW94M2drNHJBcVozR1JBNkRyMUhyWnZoZ3FnWXJEQ0ZnWHBBTTJvX3ZvV3pGZkE0bGJJdWVIREpHZFFnbExmNHRSVjQ1RzVtNXRkLU8xaTV0TWU4Z0E?oc=5",
-      "source": "Revista Fórum",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-08-17T17:52:49Z",
-      "updatedAt": "2026-08-17T17:52:49Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-bfee3bb9d170c67c2d82069f",
-      "title": "A cidade de Ho Chi Minh enfrenta pressão para acelerar o desembolso de fundos de investimento público.",
-      "summary": "Atualizacao de fundos capturada em Vietnam.vn.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcm1rVFVic2U0VVlqTFI1MHlKZmJtcU8zLTBlbkRRNkEzbERvOTlqMGp3N0NhblI1TlhxRlpId1BNVEhoaHZNa0s5c0dSaU4weWVsVUVLeUE1aVRjSUVtanhNSWU1d3VSckwwcDQtbHpSbklIVzdpc3QzLWJfcG9DcERUb3pBODlu?oc=5",
-      "source": "Vietnam.vn",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-08-17T17:49:20Z",
-      "updatedAt": "2026-08-17T17:49:20Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     }
   ]
 }
