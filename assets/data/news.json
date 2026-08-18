@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-18T08:52:23Z",
-  "generatedAt": "2026-08-18T08:52:23Z",
+  "updatedAt": "2026-08-18T09:27:50Z",
+  "generatedAt": "2026-08-18T09:27:50Z",
   "categories": [
     {
       "id": "all",
@@ -25,6 +25,10 @@
   ],
   "sources": [
     {
+      "id": "bahia-economica",
+      "label": "- Bahia Economica"
+    },
+    {
       "id": "a-gazeta",
       "label": "A Gazeta"
     },
@@ -45,16 +49,16 @@
       "label": "Aqui Notícias"
     },
     {
-      "id": "bahiaeconomica-com-br",
-      "label": "bahiaeconomica.com.br"
-    },
-    {
       "id": "boca-com-br",
       "label": "boca.com.br"
     },
     {
       "id": "bora-investir",
       "label": "Bora Investir"
+    },
+    {
+      "id": "br-tradingview-com",
+      "label": "br.tradingview.com"
     },
     {
       "id": "brasil-61",
@@ -93,6 +97,10 @@
       "label": "Folha Vitória"
     },
     {
+      "id": "gazeta-do-povo",
+      "label": "Gazeta do Povo"
+    },
+    {
       "id": "imirante-com",
       "label": "Imirante.com"
     },
@@ -113,6 +121,10 @@
       "label": "Jornal O Sul"
     },
     {
+      "id": "money-times",
+      "label": "Money Times"
+    },
+    {
       "id": "monitor-mercantil",
       "label": "Monitor Mercantil"
     },
@@ -125,24 +137,20 @@
       "label": "NoPontoSC"
     },
     {
-      "id": "nsc-total",
-      "label": "NSC Total"
+      "id": "nsctotal-com-br",
+      "label": "nsctotal.com.br"
     },
     {
       "id": "o-mato-grosso",
       "label": "O Mato Grosso"
     },
     {
-      "id": "pipeline",
-      "label": "Pipeline"
-    },
-    {
       "id": "plat-br",
       "label": "PlatôBR"
     },
     {
-      "id": "portal-do-agroneg-cio",
-      "label": "Portal do Agronegócio"
+      "id": "portal-chapada-grande",
+      "label": "Portal Chapada Grande"
     },
     {
       "id": "portal-do-cooperativismo-financeiro",
@@ -169,12 +177,12 @@
       "label": "Times Brasil | CNBC"
     },
     {
-      "id": "tradingview",
-      "label": "TradingView"
-    },
-    {
       "id": "turbo-pt",
       "label": "turbo.pt"
+    },
+    {
+      "id": "uol-economia",
+      "label": "UOL Economia"
     },
     {
       "id": "valor-econ-mico",
@@ -187,11 +195,85 @@
   ],
   "items": [
     {
+      "id": "macro-dde4b7eb1be217687d212879",
+      "title": "Macau quer que setores não relacionados ao jogo representem 60% do PIB até 2030",
+      "summary": "Atualizacao de macro capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
+      "details": "",
+      "url": "https://br.investing.com/news/economy-news/macau-quer-que-setores-nao-relacionados-ao-jogo-representem-60-do-pib-ate-2030-93CH-2042337",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-18T09:22:00Z",
+      "updatedAt": "2026-08-18T09:22:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "latest-f9fa6648bd237fb0352f5bd9",
+      "title": "Por que a Faria Lima prefere Lula?",
+      "summary": "Boletim Focus desta segunda-feira (17) mantém estimativas de IPCA em 5,02%, Selic em 13,75%, PIB em 1,98% e dólar em R$ 5,20",
+      "details": "Boletim Focus desta segunda-feira (17) mantém estimativas de IPCA em 5,02%, Selic em 13,75%, PIB em 1,98% e dólar em R$ 5,20",
+      "url": "https://nopontosc.com.br/2026/08/18/mercado-mantem-projecoes-para-inflacao-juros-pib-e-dolar-em-2026/",
+      "source": "Gazeta do Povo",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-18T09:00:00Z",
+      "updatedAt": "2026-08-18T09:00:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://nopontosc.com.br/wp-content/uploads/2026/08/img_7609_1.jpg"
+    },
+    {
+      "id": "latest-7e7853758de4fd1da499412a",
+      "title": "Tempo real: Ibovespa monitora mercado de trabalho e atividade global",
+      "summary": "Para a Faria Lima, pouco importa se o candidato é de esquerda ou direita. Por ora, o mercado financeiro parece preferir o que já conhece.",
+      "details": "Para a Faria Lima, pouco importa se o candidato é de esquerda ou direita. Por ora, o mercado financeiro parece preferir o que já conhece.",
+      "url": "https://www.gazetadopovo.com.br/vozes/luciano-trigo/por-que-a-faria-lima-prefere-lula/",
+      "source": "Money Times",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-18T09:00:00Z",
+      "updatedAt": "2026-08-18T09:00:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/08/17203718/ChatGPT-Image-17-de-ago.-de-2026-20_17_42.jpg"
+    },
+    {
+      "id": "macro-7e3f1a809d6ec4c35e053b34",
+      "title": "Bolsas da Ásia e do Pacífico recuam com petróleo e inflação; Nikkei lidera perdas",
+      "summary": "Atualizacao de macro capturada em UOL Economia.",
+      "details": "",
+      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/08/18/bolsas-da-asia-e-do-pacifico-recuam-com-petroleo-e-inflacao-nikkei-lidera-perdas.htm",
+      "source": "UOL Economia",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-18T08:56:00Z",
+      "updatedAt": "2026-08-18T08:56:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
       "id": "latest-510cfd31e57e01753d865e11",
       "title": "Mercado mantém projeções para inflação, juros, PIB e dólar em 2026",
-      "summary": "Com estrangeiros retirando R$ 15,6 bilhões da B3 em agosto, fiscal e sinais das campanhas passam a pesar mais sobre Ibovespa, câmbio e juros",
-      "details": "Com estrangeiros retirando R$ 15,6 bilhões da B3 em agosto, fiscal e sinais das campanhas passam a pesar mais sobre Ibovespa, câmbio e juros",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/a-eleicao-tambem-comecou-no-mercado-o-que-faz-preco-agora-na-bolsa-e-no-dolar/",
+      "summary": "Acompanhe o Ibovespa e os demais mercados em tempo real.",
+      "details": "Acompanhe o Ibovespa e os demais mercados em tempo real.",
+      "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-18-08-2026-jals-lils-apsa/",
       "source": "NoPontoSC",
       "category": "latest",
       "tags": [
@@ -203,15 +285,15 @@
       "updatedAt": "2026-08-18T08:34:37Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/ZLNWLA7TVRP4DG7LTAOA37YVMY.png?quality=80&auth=57fd8c092debe90dfd73984507b5b246c243c1bf21a6a6c2fae6905b690f8380&width=1200&height=630&smart=true"
+      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/07/ibovespa-acoes.png"
     },
     {
-      "id": "funds-311cc9bf5876b897a662c8d4",
+      "id": "funds-ca0d9fa6b795604117b21b89",
       "title": "REG - Mirae Asset ETF ICAV - Global X ETF ICAV 17.08.26",
-      "summary": "Bank of America Global Research has raised its FY27 earnings estimates for sectors that together account for 71% of the Nifty’s market capitalisation, citing better-than-expected results in the June quarter.The brokerage has also recalibrated its sectoral stance.Within financials",
-      "details": "Bank of America Global Research has raised its FY27 earnings estimates for sectors that together account for 71% of the Nifty’s market capitalisation, citing better-than-expected results in the June quarter.The brokerage has also recalibrated its sectoral stance.Within financials, it now prefers mi…",
-      "url": "https://br.tradingview.com/news/moneycontrol:6248c151e094b:0-bofa-upgrades-earnings-estimates-for-nifty-companies-shifts-preference-among-financials-to-mid-sized-lenders-and-nbfcs/",
-      "source": "TradingView",
+      "summary": "RNS Number : 1104R Mirae Asset ETF ICAV 18 August 2026 This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the United Kingdom. Terms and conditions relat",
+      "details": "RNS Number : 1104R Mirae Asset ETF ICAV 18 August 2026 This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the United Kingdom. Terms and conditions relating to the use…",
+      "url": "https://br.tradingview.com/news/reuters.com,2026-08-18:newsml_RSR1104Ra:0-reg-mirae-asset-etf-icav-global-x-etf-icav-17-08-26/",
+      "source": "br.tradingview.com",
       "category": "funds",
       "tags": [
         "fundos",
@@ -227,9 +309,9 @@
     {
       "id": "latest-6145fe67de4cd93024ab15da",
       "title": "A eleição também começou no mercado: o que faz preço agora na Bolsa e no dólar",
-      "summary": "RNS Number : 1104R Mirae Asset ETF ICAV 18 August 2026 This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the United Kingdom. Terms and conditions relat",
-      "details": "RNS Number : 1104R Mirae Asset ETF ICAV 18 August 2026 This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the United Kingdom. Terms and conditions relating to the use…",
-      "url": "https://br.tradingview.com/news/reuters.com,2026-08-18:newsml_RSR1104Ra:0-reg-mirae-asset-etf-icav-global-x-etf-icav-17-08-26/",
+      "summary": "Com estrangeiros retirando R$ 15,6 bilhões da B3 em agosto, fiscal e sinais das campanhas passam a pesar mais sobre Ibovespa, câmbio e juros",
+      "details": "Com estrangeiros retirando R$ 15,6 bilhões da B3 em agosto, fiscal e sinais das campanhas passam a pesar mais sobre Ibovespa, câmbio e juros",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/a-eleicao-tambem-comecou-no-mercado-o-que-faz-preco-agora-na-bolsa-e-no-dolar/",
       "source": "Estadão",
       "category": "latest",
       "tags": [
@@ -241,15 +323,33 @@
       "updatedAt": "2026-08-18T08:30:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://s.tradingview.com/static/images/illustrations/news-story.jpg"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/ZLNWLA7TVRP4DG7LTAOA37YVMY.png?quality=80&auth=57fd8c092debe90dfd73984507b5b246c243c1bf21a6a6c2fae6905b690f8380&width=1200&height=630&smart=true"
     },
     {
-      "id": "funds-4d773bd71a7e1db30b9335fe",
+      "id": "macro-c0f0ce9b1af61187a754db05",
+      "title": "Perda de fôlego da economia abre espaço para corte maior dos juros em 2026",
+      "summary": "Atualizacao de macro capturada em UOL Economia.",
+      "details": "",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/08/18/ibc-br-x-selic.ghtm",
+      "source": "UOL Economia",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-18T08:30:00Z",
+      "updatedAt": "2026-08-18T08:30:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "funds-f20395450ac1cecb23ff2c47",
       "title": "BofA upgrades earnings estimates for Nifty companies, shifts preference among financials to mid-sized lenders and NBFCs",
-      "summary": "Boletim Focus desta segunda-feira (17) mantém estimativas de IPCA em 5,02%, Selic em 13,75%, PIB em 1,98% e dólar em R$ 5,20",
-      "details": "Boletim Focus desta segunda-feira (17) mantém estimativas de IPCA em 5,02%, Selic em 13,75%, PIB em 1,98% e dólar em R$ 5,20",
-      "url": "https://nopontosc.com.br/2026/08/18/mercado-mantem-projecoes-para-inflacao-juros-pib-e-dolar-em-2026/",
-      "source": "TradingView",
+      "summary": "Bank of America Global Research has raised its FY27 earnings estimates for sectors that together account for 71% of the Nifty’s market capitalisation, citing better-than-expected results in the June quarter.The brokerage has also recalibrated its sectoral stance.Within financials",
+      "details": "Bank of America Global Research has raised its FY27 earnings estimates for sectors that together account for 71% of the Nifty’s market capitalisation, citing better-than-expected results in the June quarter.The brokerage has also recalibrated its sectoral stance.Within financials, it now prefers mi…",
+      "url": "https://br.tradingview.com/news/moneycontrol:6248c151e094b:0-bofa-upgrades-earnings-estimates-for-nifty-companies-shifts-preference-among-financials-to-mid-sized-lenders-and-nbfcs/",
+      "source": "br.tradingview.com",
       "category": "funds",
       "tags": [
         "fundos",
@@ -260,15 +360,15 @@
       "updatedAt": "2026-08-18T08:22:59Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://nopontosc.com.br/wp-content/uploads/2026/08/img_7609_1.jpg"
+      "imageUrl": "https://s.tradingview.com/static/images/illustrations/news-story.jpg"
     },
     {
-      "id": "funds-33e1601baadd00a2d2c6f12e",
+      "id": "funds-adf6acf42d2f005d7656821e",
       "title": "REG - PSquared Asset Mgmt. Adv Medical Solutns. - Form 8.3_Advanced Medical Solutions Group plc",
       "summary": "RNS Number : 1250R PSquared Asset Management AG 18 August 2026 FORM 8.3PUBLIC OPENING POSITION DISCLOSURE/DEALING DISCLOSURE BYA PERSON WITH INTERESTS IN RELEVANT SECURITIES REPRESENTING 1% OR MORERule 8.3 of the Takeover Code (the \"Code\")1. KEY INFORMATION2. POSITIONS OF THE PE…",
       "details": "RNS Number : 1250R PSquared Asset Management AG 18 August 2026 FORM 8.3PUBLIC OPENING POSITION DISCLOSURE/DEALING DISCLOSURE BYA PERSON WITH INTERESTS IN RELEVANT SECURITIES REPRESENTING 1% OR MORERule 8.3 of the Takeover Code (the \"Code\")1. KEY INFORMATION2. POSITIONS OF THE PE…",
       "url": "https://br.tradingview.com/news/reuters.com,2026-08-18:newsml_RSR1250Ra:0-reg-psquared-asset-mgmt-adv-medical-solutns-form-8-3_advanced-medical-solutions-group-plc/",
-      "source": "TradingView",
+      "source": "br.tradingview.com",
       "category": "funds",
       "tags": [
         "fundos",
@@ -284,9 +384,9 @@
     {
       "id": "funds-c134e769d5ae3386f8093f47",
       "title": "Fundos de investimento crescem 12,9% e diversificam aplicações",
-      "summary": "Entenda como funcionam e descubra estratégias eficazes.",
-      "details": "Entenda como funcionam e descubra estratégias eficazes.",
-      "url": "https://boca.com.br/economia/fundos-de-investimento-crescem-12-9-e-diversificam-aplicacoes",
+      "summary": "A relação apresentada pela rede varejista aponta R$ 17,32 bilhões em créditos sujeitos ao processo, dos quais 95% estão na classe dos quirografários",
+      "details": "A relação apresentada pela rede varejista aponta R$ 17,32 bilhões em créditos sujeitos ao processo, dos quais 95% estão na classe dos quirografários",
+      "url": "https://valor.globo.com/empresas/noticia/2026/08/18/seguradoras-e-fabricantes-estao-entre-credores-da-rede.ghtml",
       "source": "boca.com.br",
       "category": "funds",
       "tags": [
@@ -298,14 +398,14 @@
       "updatedAt": "2026-08-18T08:13:08Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/05bcb3ccb60caa027ae604ef230176cf_858x483.jpg"
+      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
     },
     {
       "id": "companies-02e5da37792842e3731ee738",
       "title": "A ciência dos resultados das empresas inovadoras",
-      "summary": "Depois de analisar centenas de casos, os jurados da pesquisa Valor Inovação Brasil apontam os principais traços das empresas vencedoras",
-      "details": "Depois de analisar centenas de casos, os jurados da pesquisa Valor Inovação Brasil apontam os principais traços das empresas vencedoras",
-      "url": "https://valor.globo.com/inovacao/noticia/2026/08/18/a-ciencia-dos-resultados-das-empresas-inovadoras.ghtml",
+      "summary": "Entenda como funciona a modalidade de investimento, seus principais tipos e que estratégias usar para escolher suas aplicações financeiras",
+      "details": "Entenda como funciona a modalidade de investimento, seus principais tipos e que estratégias usar para escolher suas aplicações financeiras",
+      "url": "https://www.cnnbrasil.com.br/economia/money/negocios/fundos-de-investimento-o-que-e-e-como-investir/",
       "source": "Valor Econômico",
       "category": "companies",
       "tags": [
@@ -317,33 +417,14 @@
       "updatedAt": "2026-08-18T08:12:34Z",
       "premium": true,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/pQa5CgXoMfxrIBCAq-4G_NP96Eo=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/z/h/OH3vRGSaKU40HSbp9Zcg/017-amandagracianoeconomista-fdc-foto-flavioferreira-divulgacao.jpg"
-    },
-    {
-      "id": "macro-e95bbf1871a1d2f3c83be0d5",
-      "title": "Curando a doença infantil do Real",
-      "summary": "Estrutura da dívida pública brasileira cria um canal endógeno de retroalimentação fiscal de choques de juros excepcionalmente forte, que eleva o prêmio de risco do Tesouro para todas as maturidades",
-      "details": "Estrutura da dívida pública brasileira cria um canal endógeno de retroalimentação fiscal de choques de juros excepcionalmente forte, que eleva o prêmio de risco do Tesouro para todas as maturidades",
-      "url": "https://valor.globo.com/google/amp/opiniao/coluna/curando-a-doenca-infantil-do-real.ghtml",
-      "source": "Valor Econômico",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-18T08:02:23Z",
-      "updatedAt": "2026-08-18T08:02:23Z",
-      "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/I6-gAUFdJ1G3IrC6nUY4EgimRNU=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/W/k/xlMFDnQvuyIPVxVJOADg/foto18opin-201-col-op1-a16.jpg"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/fundos-investimento-oq-e-pvproductionsmagnific.jpg?w=1200&h=630&crop=1"
     },
     {
       "id": "funds-26f67ac082b57dd305fb392e",
       "title": "Seguradoras e fabricantes estão entre credores da rede",
-      "summary": "A relação apresentada pela rede varejista aponta R$ 17,32 bilhões em créditos sujeitos ao processo, dos quais 95% estão na classe dos quirografários",
-      "details": "A relação apresentada pela rede varejista aponta R$ 17,32 bilhões em créditos sujeitos ao processo, dos quais 95% estão na classe dos quirografários",
-      "url": "https://valor.globo.com/empresas/noticia/2026/08/18/seguradoras-e-fabricantes-estao-entre-credores-da-rede.ghtml",
+      "summary": "Entenda como funcionam e descubra estratégias eficazes.",
+      "details": "Entenda como funcionam e descubra estratégias eficazes.",
+      "url": "https://boca.com.br/economia/fundos-de-investimento-crescem-12-9-e-diversificam-aplicacoes",
       "source": "Valor Econômico",
       "category": "funds",
       "tags": [
@@ -355,14 +436,14 @@
       "updatedAt": "2026-08-18T08:01:54Z",
       "premium": true,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
+      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/05bcb3ccb60caa027ae604ef230176cf_858x483.jpg"
     },
     {
       "id": "funds-dcc6e59582ca22eb6595ed25",
       "title": "Fundos de investimento: o que é e como investir",
-      "summary": "Entenda como funciona a modalidade de investimento, seus principais tipos e que estratégias usar para escolher suas aplicações financeiras",
-      "details": "Entenda como funciona a modalidade de investimento, seus principais tipos e que estratégias usar para escolher suas aplicações financeiras",
-      "url": "https://www.cnnbrasil.com.br/economia/money/negocios/fundos-de-investimento-o-que-e-e-como-investir/",
+      "summary": "Depois de analisar centenas de casos, os jurados da pesquisa Valor Inovação Brasil apontam os principais traços das empresas vencedoras",
+      "details": "Depois de analisar centenas de casos, os jurados da pesquisa Valor Inovação Brasil apontam os principais traços das empresas vencedoras",
+      "url": "https://valor.globo.com/inovacao/noticia/2026/08/18/a-ciencia-dos-resultados-das-empresas-inovadoras.ghtml",
       "source": "CNN Brasil",
       "category": "funds",
       "tags": [
@@ -374,7 +455,7 @@
       "updatedAt": "2026-08-18T08:00:55Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/fundos-investimento-oq-e-pvproductionsmagnific.jpg?w=1200&h=630&crop=1"
+      "imageUrl": "https://s2-valor.glbimg.com/pQa5CgXoMfxrIBCAq-4G_NP96Eo=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/z/h/OH3vRGSaKU40HSbp9Zcg/017-amandagracianoeconomista-fdc-foto-flavioferreira-divulgacao.jpg"
     },
     {
       "id": "macro-4b4cf3bee446e9f4db73d46a",
@@ -417,9 +498,9 @@
     {
       "id": "macro-d19c52c52fe4b604b2ee971a",
       "title": "“Tesouraço”: como é o plano de Flávio Bolsonaro para corte de gastos e impostos",
-      "summary": "Boletim Focus prevê IPCA de 5,02%, Selic de 13,75% ao ano e crescimento de 1,98% para a economia brasileira",
-      "details": "Boletim Focus prevê IPCA de 5,02%, Selic de 13,75% ao ano e crescimento de 1,98% para a economia brasileira",
-      "url": "https://brasil61.com/n/mercado-mantem-projecoes-para-inflacao-juros-pib-e-dolar-em-2026-bras2616942",
+      "summary": "Programa prevê substituir o arcabouço fiscal por uma regra mais rígida, limitar o crescimento dos gastos e abrir espaço para a redução de impostos; detalhes do modelo ainda não foram divulgados",
+      "details": "Programa prevê substituir o arcabouço fiscal por uma regra mais rígida, limitar o crescimento dos gastos e abrir espaço para a redução de impostos; detalhes do modelo ainda não foram divulgados",
+      "url": "https://www.infomoney.com.br/politica/tesouraco-o-plano-de-flavio-bolsonaro-para-corte-de-gastos-e-impostos/",
       "source": "InfoMoney",
       "category": "macro",
       "tags": [
@@ -431,15 +512,15 @@
       "updatedAt": "2026-08-18T08:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://cdn.brasil61.com/r/1400x900/WzTKyDErsE4xL6REui19uoNR.webp?q=70"
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/08/IMG_4312.JPG.jpeg?fit=7008%2C4672&quality=70&strip=all"
     },
     {
-      "id": "macro-2ff5b0a8d3e0c5ff8a25d4f4",
+      "id": "macro-ca4c986f575da4617f09d390",
       "title": "Selling grips bond markets from US to Japan as inflation, fiscal worries take hold",
-      "summary": "Programa prevê substituir o arcabouço fiscal por uma regra mais rígida, limitar o crescimento dos gastos e abrir espaço para a redução de impostos; detalhes do modelo ainda não foram divulgados",
-      "details": "Programa prevê substituir o arcabouço fiscal por uma regra mais rígida, limitar o crescimento dos gastos e abrir espaço para a redução de impostos; detalhes do modelo ainda não foram divulgados",
-      "url": "https://www.infomoney.com.br/politica/tesouraco-o-plano-de-flavio-bolsonaro-para-corte-de-gastos-e-impostos/",
-      "source": "TradingView",
+      "summary": "Boletim Focus prevê IPCA de 5,02%, Selic de 13,75% ao ano e crescimento de 1,98% para a economia brasileira",
+      "details": "Boletim Focus prevê IPCA de 5,02%, Selic de 13,75% ao ano e crescimento de 1,98% para a economia brasileira",
+      "url": "https://brasil61.com/n/mercado-mantem-projecoes-para-inflacao-juros-pib-e-dolar-em-2026-bras2616942",
+      "source": "br.tradingview.com",
       "category": "macro",
       "tags": [
         "macro",
@@ -450,7 +531,7 @@
       "updatedAt": "2026-08-18T07:42:10Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/08/IMG_4312.JPG.jpeg?fit=7008%2C4672&quality=70&strip=all"
+      "imageUrl": "https://cdn.brasil61.com/r/1400x900/WzTKyDErsE4xL6REui19uoNR.webp?q=70"
     },
     {
       "id": "latest-577a0bfd06132972be06ae1b",
@@ -511,9 +592,9 @@
     {
       "id": "macro-7bb24b2066fa807abbb023ff",
       "title": "Benefício fiscal avança e Be8 prepara MOU com Governo para se instar em Suape",
-      "summary": "Reajuste previsto pela maioria das instituições está acima da inflação do período, projetada em 5,03%",
-      "details": "Reajuste previsto pela maioria das instituições está acima da inflação do período, projetada em 5,03%",
-      "url": "https://www1.folha.uol.com.br/educacao/2026/08/mensalidade-escolar-deve-ter-aumento-de-7-a-11-em-2027-aponta-estudo.shtml",
+      "summary": "Eleições gerais acontecem em 4 de outubro",
+      "details": "Eleições gerais acontecem em 4 de outubro",
+      "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/08/18/candidatos-a-deputado-federal-no-ac-veja-a-lista-das-eleicoes-2026.ghtml",
       "source": "Movimento Econômico",
       "category": "macro",
       "tags": [
@@ -525,13 +606,13 @@
       "updatedAt": "2026-08-18T07:02:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/17/17869948826a8360c2c6c94_1786994882_3x2_rt.jpg"
+      "imageUrl": "https://s2-valor.glbimg.com/MYbfnwCKVFIT2VDaXKIDqWSkIM4=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/e/6/OchxzASRSKMXMsgnOqTg/tarja-federais.jpg"
     },
     {
       "id": "macro-13105e799a59c45cf33c4ed4",
       "title": "Mensalidade escolar deve ter aumento de 7% a 11% em 2027, aponta estudo",
-      "summary": "O investimento previsto para Suape será destinado à instalação de uma unidade de produção do BeVant, biocombustível desenvolvido pela Be8",
-      "details": "O investimento previsto para Suape será destinado à instalação de uma unidade de produção do BeVant, biocombustível desenvolvido pela Be8",
+      "summary": "Atualizacao de macro capturada em Folha de S.Paulo.",
+      "details": "",
       "url": "https://movimentoeconomico.com.br/coluna-movimento-economico/2026/08/18/beneficio-fiscal-avanca-e-be8-prepara-mou-com-governo-para-se-instar-em-suape/",
       "source": "Folha de S.Paulo",
       "category": "macro",
@@ -543,15 +624,14 @@
       "publishedAt": "2026-08-18T07:00:00Z",
       "updatedAt": "2026-08-18T07:00:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://movimentoeconomico.com.br/wp-content/uploads/2026/05/agemar_suape.jpeg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-7f0b0fad95d224cc3d09d519",
       "title": "Mercado projeta inflação de julho próxima da estabilidade",
-      "summary": "Especialistas preveem alta de até 0,08% no IPCA, enquanto alimentos e combustíveis devem aliviar pressão sobre os preços",
-      "details": "Especialistas preveem alta de até 0,08% no IPCA, enquanto alimentos e combustíveis devem aliviar pressão sobre os preços",
-      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/mercado-projeta-inflacao-de-julho-proxima-da-estabilidade/",
+      "summary": "Reajuste previsto pela maioria das instituições está acima da inflação do período, projetada em 5,03%",
+      "details": "Reajuste previsto pela maioria das instituições está acima da inflação do período, projetada em 5,03%",
+      "url": "https://www1.folha.uol.com.br/educacao/2026/08/mensalidade-escolar-deve-ter-aumento-de-7-a-11-em-2027-aponta-estudo.shtml",
       "source": "CNN Brasil",
       "category": "macro",
       "tags": [
@@ -563,14 +643,14 @@
       "updatedAt": "2026-08-18T06:44:16Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/alimentos-CNA.webp?w=400&h=200&crop=1"
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/17/17869948826a8360c2c6c94_1786994882_3x2_rt.jpg"
     },
     {
       "id": "macro-92b31196329427e64c76075c",
       "title": "Pulsar Group discute pagamentos de impostos com autoridade fiscal do Reino Unido",
-      "summary": "Eleições gerais acontecem em 4 de outubro",
-      "details": "Eleições gerais acontecem em 4 de outubro",
-      "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/08/18/candidatos-a-deputado-federal-no-ac-veja-a-lista-das-eleicoes-2026.ghtml",
+      "summary": "Especialistas preveem alta de até 0,08% no IPCA, enquanto alimentos e combustíveis devem aliviar pressão sobre os preços",
+      "details": "Especialistas preveem alta de até 0,08% no IPCA, enquanto alimentos e combustíveis devem aliviar pressão sobre os preços",
+      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/mercado-projeta-inflacao-de-julho-proxima-da-estabilidade/",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "macro",
       "tags": [
@@ -582,14 +662,32 @@
       "updatedAt": "2026-08-18T06:19:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/MYbfnwCKVFIT2VDaXKIDqWSkIM4=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/e/6/OchxzASRSKMXMsgnOqTg/tarja-federais.jpg"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/alimentos-CNA.webp?w=400&h=200&crop=1"
+    },
+    {
+      "id": "latest-5c0c875af5711f02feb5afec",
+      "title": "VAAS lança IA contra fraudes e riscos no sistema financeiro",
+      "summary": "Atualizacao de ultima hora capturada em Portal Chapada Grande.",
+      "details": "",
+      "url": "https://br.investing.com/news/company-news/pulsar-group-discute-pagamentos-de-impostos-com-autoridade-fiscal-do-reino-unido-93CH-2042197",
+      "source": "Portal Chapada Grande",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-18T06:16:04Z",
+      "updatedAt": "2026-08-18T06:16:04Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-9158fd753e8cea33b3084423",
       "title": "Candidatos a deputado federal no DF: veja a lista das eleições 2026",
-      "summary": "Eleições gerais acontecem em 4 de outubro",
-      "details": "Eleições gerais acontecem em 4 de outubro",
-      "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/08/18/candidatos-a-deputado-federal-no-df-veja-a-lista-das-eleicoes-2026.ghtml",
+      "summary": "Atualizacao de macro capturada em Valor Econômico.",
+      "details": "",
+      "url": "https://www.chapadagrande.com/noticia/203998/vaas-lanca-ia-contra-fraudes-e-riscos-no-sistema-financeiro/amp",
       "source": "Valor Econômico",
       "category": "macro",
       "tags": [
@@ -600,15 +698,14 @@
       "publishedAt": "2026-08-18T05:02:19Z",
       "updatedAt": "2026-08-18T05:02:19Z",
       "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/MYbfnwCKVFIT2VDaXKIDqWSkIM4=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/e/6/OchxzASRSKMXMsgnOqTg/tarja-federais.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-fa6f3831db5347ad7ff47890",
       "title": "Candidatos a deputado federal no AC: veja a lista das eleições 2026",
       "summary": "Eleições gerais acontecem em 4 de outubro",
       "details": "Eleições gerais acontecem em 4 de outubro",
-      "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/08/18/candidatos-a-deputado-federal-no-ap-veja-a-lista-das-eleicoes-2026.ghtml",
+      "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/08/18/candidatos-a-deputado-federal-no-df-veja-a-lista-das-eleicoes-2026.ghtml",
       "source": "Valor Econômico",
       "category": "macro",
       "tags": [
@@ -623,48 +720,11 @@
       "imageUrl": "https://s2-valor.glbimg.com/MYbfnwCKVFIT2VDaXKIDqWSkIM4=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/e/6/OchxzASRSKMXMsgnOqTg/tarja-federais.jpg"
     },
     {
-      "id": "macro-3d7511da243b6d676a2d6fc3",
-      "title": "Candidatos a deputado federal no AP: veja a lista das eleições 2026",
-      "summary": "Atualizacao de macro capturada em Valor Econômico.",
-      "details": "",
-      "url": "https://br.investing.com/news/company-news/pulsar-group-discute-pagamentos-de-impostos-com-autoridade-fiscal-do-reino-unido-93CH-2042197",
-      "source": "Valor Econômico",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-18T05:02:10Z",
-      "updatedAt": "2026-08-18T05:02:10Z",
-      "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-034502e87902d1ff52acaa8c",
-      "title": "Candidatos a deputado federal no ES: veja a lista das eleições 2026",
-      "summary": "Eleições gerais acontecem em 4 de outubro",
-      "details": "Eleições gerais acontecem em 4 de outubro",
-      "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/08/18/candidatos-a-deputado-federal-no-es-veja-a-lista-das-eleicoes-2026.ghtml",
-      "source": "Valor Econômico",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-18T05:01:58Z",
-      "updatedAt": "2026-08-18T05:01:58Z",
-      "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/MYbfnwCKVFIT2VDaXKIDqWSkIM4=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/e/6/OchxzASRSKMXMsgnOqTg/tarja-federais.jpg"
-    },
-    {
       "id": "funds-5267b02cc16b34a41bd8aa7f",
       "title": "Mitsubishi ASX VR-e: 400 cv sem ADN japonês",
-      "summary": "O novo Mitsubishi ASX VR-e tem 407 cv, tração integral e uma bateria LFP. Contudo, apesar do símbolo Mitsubishi, tem origem taiwanesa e foi desenhado pela Pininfarina.",
-      "details": "O novo Mitsubishi ASX VR-e tem 407 cv, tração integral e uma bateria LFP. Contudo, apesar do símbolo Mitsubishi, tem origem taiwanesa e foi desenhado pela Pininfarina.",
-      "url": "https://www.turbo.pt/536742805/mitsubishi-asx-vr-e-400-cv-sem-adn-japones/",
+      "summary": "Atualizacao de fundos capturada em turbo.pt.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00X2pxY0pJNmtPRUo1WUpySkNjMVJsRXhYNFRkbXVHZWc0UkhCWm84ei16RDE0Q2E5amhqak9ScW9mVjdHXzBIcXBJREtrWTcxdlE0V2pNWExzMmxPdUhCbEp1dEZxN1hMNF9za3J3Wk55Nk9ZbGM2TWxMX3B0MGs?oc=5",
       "source": "turbo.pt",
       "category": "funds",
       "tags": [
@@ -675,15 +735,14 @@
       "publishedAt": "2026-08-18T03:04:06Z",
       "updatedAt": "2026-08-18T03:04:06Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://asset.skoiy.com/tbowjqdgqpxirbte/qn5jq01t1pw9.jpg"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "latest-99a6a61e828dcd38805bd624",
       "title": "Rita Mundim: Eleições 2026 podem impactar o mercado financeiro nesta semanda",
-      "summary": "Delegação ruandesa cumpre agenda em Brasília, visita a Embrapa e ApexBrasil e busca fortalecer parcerias comerciais, tecnológicas e empresariais",
-      "details": "Delegação ruandesa cumpre agenda em Brasília, visita a Embrapa e ApexBrasil e busca fortalecer parcerias comerciais, tecnológicas e empresariais",
-      "url": "https://radardigitalbrasilia.com.br/internacional/missao-de-ruanda-em-brasilia-abre-caminho-para-novos-negocios-com-o-brasil/",
+      "summary": "Atualizacao de ultima hora capturada em Rádio Itatiaia.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVmFiV3Naamk1ZmxrTUpBY3pIU0w2ZndXaHNZUTI4dElxdGw1aG1xSVZkMDM0LUZPMDl0RFc3SDdJc0p2Qnowa2VuelFSdlBva2p6bkRrNW12b1N3aERWYnZnU0JsUWxMWXV2SVFselNyc0Jxc3dDNnh5enNHM2JpamZqMFNwREstRUZfczNCNHVMaWxYNTlGaEd0Vjh5Y1ZCaGJmSk05NklfOURocUhkZkJHRGlNazhLLVlfRnFZaXFNemstSnNrSXlvS1RmUXVDVUZSb1FqMzNpUQ?oc=5",
       "source": "Rádio Itatiaia",
       "category": "latest",
       "tags": [
@@ -694,15 +753,14 @@
       "publishedAt": "2026-08-18T02:38:24Z",
       "updatedAt": "2026-08-18T02:38:24Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://radardigitalbrasilia.com.br/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-17-at-18.51.12-scaled.jpeg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-1df7e88f9120ecff920a203e",
       "title": "Missão de Ruanda em Brasília abre caminho para novos negócios com o Brasil",
-      "summary": "Ouça o comentário na íntegra clicando abaixo",
-      "details": "Ouça o comentário na íntegra clicando abaixo",
-      "url": "https://www.itatiaia.com.br/colunas/rita-mundim/economia/negocios/rita-mundim-eleicoes-2026-podem-impactar-o-mercado-financeiro-nesta-semanda/",
+      "summary": "Atualizacao de empresas capturada em RADAR DIGITAL BRASÍLIA.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdktUMTlJU3kzWC13Q3FxRVpBaHpTVzRtd3ZITzYwVTJlcG90YkNpenFWdHJPVFBTbkVBUGNVZTduTGRoYkw4OUZIOTg3eG1Xd29FVTl2VEVERE9ZLUxqREFEUTl1bHRQVWIyNmVzOWY0MnUzdHNBV3NGWVB1TTBVbFR5SlNTYXFxYVRNTUM5akVQM3NwYm1VUlVRaGtnT1pwMlhBOHphT1JFalMyeWZOa3VwbTBNX21fVXozZTI2VWxhSEk?oc=5",
       "source": "RADAR DIGITAL BRASÍLIA",
       "category": "companies",
       "tags": [
@@ -713,8 +771,7 @@
       "publishedAt": "2026-08-18T01:57:51Z",
       "updatedAt": "2026-08-18T01:57:51Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://admin.itatiaia.com.br/wp-content/uploads/sites/27/2026/02/whatsapp-image-2025-09-16-at-16-32-43.jpeg?resize=1280%2C720&w=1280&h=720&quality=75&crop=1"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "funds-b77b801e3a22f008aaf481b8",
@@ -861,12 +918,12 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "companies-02db5b76290df7036091c672",
+      "id": "companies-3c12cbb0f9e89a0dc8fcc06c",
       "title": "Inadimplência empresarial bate recorde no Brasil e chega a 9,1 milhões de CNPJs negativados em 2026",
-      "summary": "Atualizacao de empresas capturada em NSC Total.",
+      "summary": "Atualizacao de empresas capturada em nsctotal.com.br.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcEc4Q3lFa19WckxzODkzS2RGR3FRbDB6ZzNXU0c2WkZUV0tKckRpSmF1YTdHUjhlRzA3QUdZd3RYQXQ2ZGoyMlhvSnZfa3p6dU1odnRFbEFtMXE1TGNrM2ItZUhKNnlNcThIOFNkZnBtZThOakJSWWR3NW1xNFBzWkhOZ2F4MzAwZHd2Y285eG9wU0ZIQXZqdDVNejA2TC1Ic3dpNnJaTkdsSDhFVjdXZzkwblZPVlZ2TFFCcUdBMjNZclZ0b0xlTE9RcmFBOUVT?oc=5",
-      "source": "NSC Total",
+      "source": "nsctotal.com.br",
       "category": "companies",
       "tags": [
         "empresas",
@@ -951,24 +1008,6 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "latest-704f7ac006b45d471114b693",
-      "title": "Candidatos buscam apoio da Faria Lima - alguns à distância",
-      "summary": "Atualizacao de ultima hora capturada em Pipeline.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSmROUXg5QjlNYUhhSm9qaEU2RW55cDJkSnFMNUVSRHdpU19Cdl9fYlVoQjFoVjZMMUUyMllBTVZQVXo5X0hsbDJPTzV6WW52bkxxa1FQUEwwT1NheFpPUTRLOWdacnUxbFhSQ1lVMVpodlhyM2MxV1ZqUUcxX3pEclZWVGUtbFVLakJZVi1YVDJNczNfWWNTMkkwSUc5cnhOMGN3QWFGZ2NyY1pqR0FPMEdqZTBXWEp0dnlTckpn0gG-AUFVX3lxTE1KZE5ReDlCOU1hSGFKb2poRTZFbnlwMmRKcUw1RVJEd2lTX0J2X19iVWhCMWhWNkwxRTIyWUFNVlBVejlfSGxsMk9PNXpZbnZuTHFrUVBQTDBPU2F4Wk9RNEs5Z1pydTFsWFJDWVUxWmh2WHIzYzFXVmpRRzFfekRyVlZUZS1sVUtqQllWLVhUMk1zM19ZY1MySTBJRzlyeE4wY3dBYUZnY3JjWmpHQU8wR2plMFdYSnR2eVNySmc?oc=5",
-      "source": "Pipeline",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-17T23:01:47Z",
-      "updatedAt": "2026-08-17T23:01:47Z",
-      "premium": true,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "funds-0092419adb77d0601365ffe6",
       "title": "Desembolso acompanhado de eficiência",
       "summary": "Atualizacao de fundos capturada em Vietnam.vn.",
@@ -1003,24 +1042,6 @@
       "updatedAt": "2026-08-17T22:50:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "latest-6056961165a08bf8a75c352c",
-      "title": "Recuperação judicial das Casas Bahia expõe 3 fragilidades estruturais",
-      "summary": "Atualizacao de ultima hora capturada em Monitor Mercantil.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNM1dhTG52NlBzampDUXE4V0JCYmdTVG9kRWFlLXU5TDdKQVV6NHMyZkNNVzY2TVE4S1pTbmxudVhCLS1QWUJteDY0aHB2OVBRWWRseGJhZnMxY2oyaFI5SW1rVXNDTUN2aFVnZmdSdG9uR1V1M3dSTHhvY0ZTdzhlTF9TdjlHMzlYRGd3?oc=5",
-      "source": "Monitor Mercantil",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-17T22:40:00Z",
-      "updatedAt": "2026-08-17T22:40:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-bf789b0d8c96d97e27427c0d",
@@ -1075,24 +1096,6 @@
       "updatedAt": "2026-08-17T22:23:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "latest-99e4eb8274aff3763cfb5812",
-      "title": "Copom deve manter Selic em 14% diante de inflação persistente e cenário externo incerto",
-      "summary": "Atualizacao de ultima hora capturada em Portal do Agronegócio.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOelBobVRQeTZXcVZUQVpQcnNRMk9yUXlTM2RGYjdNSjRHWm9tbmg3SGhSOGwzaUxXek43SEp4VjhlekFEMmpyTDJJelhwclFXTktYWWxwWjM4UWc2TXRSQjZwbzNoLWZHN1FPNTNBS1FGdGRUcjdEX3QxTzZabVVjSmFXSVhzemp0ZUc4SUVJYUhQNWpuYjdidXZVbF9GaS1icFpnNGVPUEw0Q1VHRTVVVG9BeEV5NjBtYmpVTkxGQ09ZbGVaVHdscTF5TGhUUjNnM01HWF9udmJvbWlPSWNOTGsyV25wUHVDWlNFR1huOWh4MUM1?oc=5",
-      "source": "Portal do Agronegócio",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-17T22:20:00Z",
-      "updatedAt": "2026-08-17T22:20:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-8174c1bb13525231314943a6",
@@ -1257,12 +1260,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "companies-b17cfb77378332f52ae61830",
+      "id": "companies-5d159ace40f6fecbff5ff381",
       "title": "NORDESTE CONCENTROU MAIS DE 1,2 MILHÃO DE EMPRESAS INADIMPLENTES EM JUNHO",
-      "summary": "Atualizacao de empresas capturada em bahiaeconomica.com.br.",
+      "summary": "Bahia Economica",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaFBmejVMNkc5a201Wk84TFpUTzVuQ3NpZGlYLUV4WGQ1NlF1Wlc5a2pSQ3QxTEpSZjRXMTBCa041bGdrMUtBbFQ3YVZMZXpoZlVLSnNHbzhKbk5DMUw5TWY5WmRYRi1tdVM2cU4ydHFQTVE4UnZob1IxMzQ0SVFQQU8xUHpOZ3N4bGZ6Y3VTT1FLc1JQVFlTOV9JdEhsMTg3VnB3SjRXay1iQlkxRHBPMDRLTEVsdEpN?oc=5",
-      "source": "bahiaeconomica.com.br",
+      "source": "- Bahia Economica",
       "category": "companies",
       "tags": [
         "empresas",
