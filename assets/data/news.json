@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-19T05:45:54Z",
-  "generatedAt": "2026-08-19T05:45:54Z",
+  "updatedAt": "2026-08-19T06:17:25Z",
+  "generatedAt": "2026-08-19T06:17:25Z",
   "categories": [
     {
       "id": "all",
@@ -25,6 +25,10 @@
   ],
   "sources": [
     {
+      "id": "agrolink",
+      "label": "Agrolink"
+    },
+    {
       "id": "analisa-genialinvestimentos-com-br",
       "label": "analisa.genialinvestimentos.com.br"
     },
@@ -43,6 +47,10 @@
     {
       "id": "bra1-com-br",
       "label": "bra1.com.br"
+    },
+    {
+      "id": "brasil-de-fato",
+      "label": "Brasil de Fato"
     },
     {
       "id": "brazil-journal",
@@ -105,8 +113,8 @@
       "label": "fundssociety.com"
     },
     {
-      "id": "g1-globo-com",
-      "label": "g1.globo.com"
+      "id": "g1",
+      "label": "G1"
     },
     {
       "id": "gazeta-do-povo",
@@ -137,8 +145,8 @@
       "label": "Money Times"
     },
     {
-      "id": "monitormercantil-com-br",
-      "label": "monitormercantil.com.br"
+      "id": "monitor-mercantil",
+      "label": "Monitor Mercantil"
     },
     {
       "id": "movimentoeconomico-com-br",
@@ -153,16 +161,12 @@
       "label": "O Brasilianista"
     },
     {
-      "id": "poder360-com-br",
-      "label": "poder360.com.br"
+      "id": "poder360",
+      "label": "Poder360"
     },
     {
       "id": "portal-do-agroneg-cio",
       "label": "Portal do Agronegócio"
-    },
-    {
-      "id": "portal-vv8",
-      "label": "Portal VV8"
     },
     {
       "id": "portalviu-com-br",
@@ -185,20 +189,20 @@
       "label": "TI INSIDE Online"
     },
     {
-      "id": "timesbrasil-com-br",
-      "label": "timesbrasil.com.br"
+      "id": "times-brasil-cnbc",
+      "label": "Times Brasil | CNBC"
     },
     {
       "id": "tribuna-do-agreste",
       "label": "Tribuna do Agreste"
     },
     {
-      "id": "tribuna-do-sert-o",
-      "label": "Tribuna do Sertão"
+      "id": "tribuna-do-planalto",
+      "label": "Tribuna do Planalto"
     },
     {
-      "id": "tribunadoplanalto-com-br",
-      "label": "tribunadoplanalto.com.br"
+      "id": "tribuna-do-sert-o",
+      "label": "Tribuna do Sertão"
     },
     {
       "id": "uol-economia",
@@ -219,11 +223,30 @@
   ],
   "items": [
     {
+      "id": "macro-dcb64e257943ae863958f94d",
+      "title": "Inflação desacelera, mas câmbio mantém pressão",
+      "summary": "Agropecuária, Notícias, Cotações, Defensivos, Classificados, Tempo, Eventos",
+      "details": "Agropecuária, Notícias, Cotações, Defensivos, Classificados, Tempo, Eventos",
+      "url": "https://www.agrolink.com.br/noticias/inflacao-desacelera--mas-cambio-mantem-pressao_517956.html",
+      "source": "Agrolink",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-19T05:45:00Z",
+      "updatedAt": "2026-08-19T05:45:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.agrolink.com.br/upload/imagens-resizes/47f364a14d2c46c6920fc9f2960f0d43_858x483.jpg"
+    },
+    {
       "id": "macro-5ccbfead4c214483afdc2024",
       "title": "Entrou no grupo das dez maiores economias catarinenses, protege 84.130 hectares de mata e tem um bairro premiado que responde por 30% do PIB: a cidade a 20 km de Florianópolis",
-      "summary": "Atualizacao de macro capturada em Revista Oeste.",
-      "details": "",
-      "url": "https://br.investing.com/news/stock-market-news/rba-pode-elevar-juros-novamente-se-riscos-de-inflacao-se-concretizarem-93CH-2043539",
+      "summary": "Cidades que crescem rápido costumam pagar o preço em infraestrutura precária e serviços que não acompanham o ritmo. Palhoça, na",
+      "details": "Cidades que crescem rápido costumam pagar o preço em infraestrutura precária e serviços que não acompanham o ritmo. Palhoça, na",
+      "url": "https://revistaoeste.com/oestegeral/2026/08/19/entrou-no-grupo-das-dez-maiores-economias-catarinenses-protege-84-130-hectares-de-mata-e-tem-um-bairro-premiado-que-responde-por-30-do-pib-a-cidade-a-20-km-de-florianopolis/",
       "source": "Revista Oeste",
       "category": "macro",
       "tags": [
@@ -234,14 +257,15 @@
       "publishedAt": "2026-08-19T05:05:00Z",
       "updatedAt": "2026-08-19T05:05:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://revistaoeste.com/oestegeral/wp-content/uploads/2026/06/Coastal_city_growth_surfing_reserve_202606191430.jpg"
     },
     {
       "id": "macro-1edefdac52328a3a6472c857",
       "title": "RBA pode elevar juros novamente se riscos de inflação se concretizarem",
-      "summary": "Cidades que crescem rápido costumam pagar o preço em infraestrutura precária e serviços que não acompanham o ritmo. Palhoça, na",
-      "details": "Cidades que crescem rápido costumam pagar o preço em infraestrutura precária e serviços que não acompanham o ritmo. Palhoça, na",
-      "url": "https://revistaoeste.com/oestegeral/2026/08/19/entrou-no-grupo-das-dez-maiores-economias-catarinenses-protege-84-130-hectares-de-mata-e-tem-um-bairro-premiado-que-responde-por-30-do-pib-a-cidade-a-20-km-de-florianopolis/",
+      "summary": "A disparada das taxas longas globais, alimentada pelos déficits públicos e pela crescente disputa por capital, já começa a atingir as ações ligadas à IA",
+      "details": "A disparada das taxas longas globais, alimentada pelos déficits públicos e pela crescente disputa por capital, já começa a atingir as ações ligadas à IA",
+      "url": "https://www.bomdiamercado.com.br/morning-call/estresse-nos-juros-longos-desafia-alivio-do-fed/",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "macro",
       "tags": [
@@ -253,14 +277,14 @@
       "updatedAt": "2026-08-19T04:36:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://revistaoeste.com/oestegeral/wp-content/uploads/2026/06/Coastal_city_growth_surfing_reserve_202606191430.jpg"
+      "imageUrl": "https://uploads.bomdiamercado.com.br/2024/10/MC-4aF.png"
     },
     {
       "id": "macro-63b9ef485613d60c8c0ed3c3",
       "title": "Estresse nos juros longos desafia alívio do Fed",
-      "summary": "Esta é a resposta do secretário do Tesouro sobre o assunto durante uma entrevista de quase uma hora com o Brazil Journal.",
-      "details": "Esta é a resposta do secretário do Tesouro sobre o assunto durante uma entrevista de quase uma hora com o Brazil Journal.",
-      "url": "https://braziljournal.com/a-visao-do-tesouro-sobre-a-rolagem-da-divida-o-arcabouco-fiscal-e-os-papeis-incentivados/",
+      "summary": "Atualizacao de macro capturada em Bom Dia Mercado.",
+      "details": "",
+      "url": "https://br.investing.com/news/stock-market-news/rba-pode-elevar-juros-novamente-se-riscos-de-inflacao-se-concretizarem-93CH-2043539",
       "source": "Bom Dia Mercado",
       "category": "macro",
       "tags": [
@@ -271,15 +295,14 @@
       "publishedAt": "2026-08-19T04:16:19Z",
       "updatedAt": "2026-08-19T04:16:19Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://braziljournal.com/wp-content/uploads/2026/08/GettyImages-478918440-635x357.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-95e652c1967fb90cd5f1a711",
       "title": "A visão do Tesouro sobre a rolagem da dívida, o arcabouço fiscal e os papéis incentivados",
-      "summary": "Atualizacao de macro capturada em Brazil Journal.",
-      "details": "",
-      "url": "https://analisa.genialinvestimentos.com.br/noticias/economia/taxas-longas-globais-disparam-em-meio-a-risco-fiscal-e-inflacao-persistente/",
+      "summary": "Esta é a resposta do secretário do Tesouro sobre o assunto durante uma entrevista de quase uma hora com o Brazil Journal.",
+      "details": "Esta é a resposta do secretário do Tesouro sobre o assunto durante uma entrevista de quase uma hora com o Brazil Journal.",
+      "url": "https://braziljournal.com/a-visao-do-tesouro-sobre-a-rolagem-da-divida-o-arcabouco-fiscal-e-os-papeis-incentivados/",
       "source": "Brazil Journal",
       "category": "macro",
       "tags": [
@@ -290,14 +313,34 @@
       "publishedAt": "2026-08-19T03:40:48Z",
       "updatedAt": "2026-08-19T03:40:48Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://braziljournal.com/wp-content/uploads/2026/08/GettyImages-478918440-635x357.jpg"
+    },
+    {
+      "id": "macro-e736c74c7ca503ba45b4e4ce",
+      "title": "Super-ricos do Brasil pagaram só 4,6% de Imposto de Renda em 2023, contra 27,5% da classe média",
+      "summary": "Enquanto a classe média brasileira enfrenta impostos com alíquotas nominais que chegam a 27,5%, os super-ricos brasileiros, que representam 0,01% da população…",
+      "details": "Enquanto a classe média brasileira enfrenta impostos com alíquotas nominais que chegam a 27,5%, os super-ricos brasileiros, que representam 0,01% da população…",
+      "url": "https://www.brasildefato.com.br/2026/08/19/super-ricos-do-brasil-pagaram-so-46-de-imposto-de-renda-em-2023-contra-275-da-classe-media/",
+      "source": "Brasil de Fato",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-19T03:01:00Z",
+      "updatedAt": "2026-08-19T03:01:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2026/08/imageprocessing20200415-25250-lnnf3-af1a8a18.webp"
     },
     {
       "id": "macro-dae9461b8197e02e1a836467",
       "title": "Taxas longas globais disparam em meio a risco fiscal e inflação persistente",
-      "summary": "A disparada das taxas longas globais, alimentada pelos déficits públicos e pela crescente disputa por capital, já começa a atingir as ações ligadas à IA",
-      "details": "A disparada das taxas longas globais, alimentada pelos déficits públicos e pela crescente disputa por capital, já começa a atingir as ações ligadas à IA",
-      "url": "https://www.bomdiamercado.com.br/morning-call/estresse-nos-juros-longos-desafia-alivio-do-fed/",
+      "summary": "Atualizacao de macro capturada em analisa.genialinvestimentos.com.br.",
+      "details": "",
+      "url": "https://analisa.genialinvestimentos.com.br/noticias/economia/taxas-longas-globais-disparam-em-meio-a-risco-fiscal-e-inflacao-persistente/",
       "source": "analisa.genialinvestimentos.com.br",
       "category": "macro",
       "tags": [
@@ -308,8 +351,7 @@
       "publishedAt": "2026-08-19T02:10:38Z",
       "updatedAt": "2026-08-19T02:10:38Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://uploads.bomdiamercado.com.br/2024/10/MC-4aF.png"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "funds-b816d012efaf1f03bdac6aa5",
@@ -390,9 +432,9 @@
     {
       "id": "latest-7d3907ea51cb8cd5756e9b6a",
       "title": "Fertilizante caro aumenta valor da previsibilidade no agro",
-      "summary": "O Brasil está importando menos fertilizantes em 2026, mas gastando mais para abastecer o agronegócio. De janeiro a julho, as compras externas recuaram 7,4% em volume, para 22,4 milhões de toneladas, enquanto os gastos aumentaram 7,3%, chegando a US$ 8,8 bilhões, segundo dados da ",
-      "details": "O Brasil está importando menos fertilizantes em 2026, mas gastando mais para abastecer o agronegócio. De janeiro a julho, as compras externas recuaram 7,4% em volume, para 22,4 milhões de toneladas, enquanto os gastos aumentaram 7,3%, chegando a US$ 8,8 bilhões, segundo dados da ⁠Secretaria de Comércio Exterior (Secex)",
-      "url": "https://www.broadcast.com.br/knewin-dino/fertilizante-caro-aumenta-valor-da-previsibilidade-no-agro/",
+      "summary": "Setor varejista tem passado por crises e transformações, nos últimos anos.",
+      "details": "Setor varejista tem passado por crises e transformações, nos últimos anos.",
+      "url": "https://g1.globo.com/jornal-nacional/video/quase-mil-empresas-varejistas-brasileiras-entraram-em-recuperacao-judicial-no-segundo-trimestre-14880869.ghtml",
       "source": "broadcast.com.br",
       "category": "latest",
       "tags": [
@@ -404,7 +446,7 @@
       "updatedAt": "2026-08-19T01:18:11Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/08/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K4P3BPDvklsCsQ-bdcfk_L6Oy89XXhDTJ5jK2ofBP8zl54esaHZcfSx1uRE3YACEiuyjvaimv-T06Itq9zJ2UNXNImEjvPsUZ8ZQPPf1DVh5YBkZ-OB17SL1wKlPSL75mQ1.png"
+      "imageUrl": "https://s02.video.glbimg.com/x720/14880869.jpg"
     },
     {
       "id": "funds-a68fffdf421702d5e72f0340",
@@ -428,9 +470,9 @@
     {
       "id": "latest-f9af1ba07162a437983a1fea",
       "title": "Juros e volatilidade global esfriam receitas de bancos de investimento",
-      "summary": "Faturamento de BB, Bradesco, Itaú e Santander na área caiu 6% no segundo trimestre",
-      "details": "Faturamento de BB, Bradesco, Itaú e Santander na área caiu 6% no segundo trimestre",
-      "url": "https://www.estadao.com.br/amp/economia/coluna-do-broad/juros-e-volatilidade-global-esfriam-receitas-de-bancos-de-investimento/",
+      "summary": "O Brasil está importando menos fertilizantes em 2026, mas gastando mais para abastecer o agronegócio. De janeiro a julho, as compras externas recuaram 7,4% em volume, para 22,4 milhões de toneladas, enquanto os gastos aumentaram 7,3%, chegando a US$ 8,8 bilhões, segundo dados da ",
+      "details": "O Brasil está importando menos fertilizantes em 2026, mas gastando mais para abastecer o agronegócio. De janeiro a julho, as compras externas recuaram 7,4% em volume, para 22,4 milhões de toneladas, enquanto os gastos aumentaram 7,3%, chegando a US$ 8,8 bilhões, segundo dados da ⁠Secretaria de Comércio Exterior (Secex)",
+      "url": "https://www.broadcast.com.br/knewin-dino/fertilizante-caro-aumenta-valor-da-previsibilidade-no-agro/",
       "source": "estadao.com.br",
       "category": "latest",
       "tags": [
@@ -442,14 +484,14 @@
       "updatedAt": "2026-08-19T01:00:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/WGB3KWQBTVHUDHGT5W7YPXRPBI.JPG?quality=80&auth=8cc2026f162284eb1a48c720e4bbeaefaf10fb0877518aeee7e4d58f3cbc67e0&width=1200"
+      "imageUrl": "https://www.broadcast.com.br/wp-content/uploads/2026/08/sVfSvE6YnZ7vn2xoYPOGLtcdZsa2_-aTJA8voakW3K4P3BPDvklsCsQ-bdcfk_L6Oy89XXhDTJ5jK2ofBP8zl54esaHZcfSx1uRE3YACEiuyjvaimv-T06Itq9zJ2UNXNImEjvPsUZ8ZQPPf1DVh5YBkZ-OB17SL1wKlPSL75mQ1.png"
     },
     {
       "id": "macro-0edbf1eafa7d1ced90e1bbbd",
       "title": "Caiado promete conter gastos sem subir impostos e elevar investimentos a 25% do PIB",
-      "summary": "Programa Abrava Exporta estabelece meta de crescimento de 46% nas exportações e busca ampliar negócios no mercado internacional | Foto:",
-      "details": "Programa Abrava Exporta estabelece meta de crescimento de 46% nas exportações e busca ampliar negócios no mercado internacional | Foto:",
-      "url": "https://blogdofrio.com.br/abrava-renova-parceria-com-apexbrasil-para-ampliar-exportacoes-do-avac-r/",
+      "summary": "Plano de governo do candidato à presidência Ronaldo Caiado (PSD) promete ajuste fiscal sem alta de impostos e revisão de incentivos.",
+      "details": "Plano de governo do candidato à presidência Ronaldo Caiado (PSD) promete ajuste fiscal sem alta de impostos e revisão de incentivos.",
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/plano-de-governo-caiado-economia/",
       "source": "Gazeta do Povo",
       "category": "macro",
       "tags": [
@@ -461,14 +503,14 @@
       "updatedAt": "2026-08-19T00:30:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://blogdofrio.com.br/wp-content/uploads/2026/08/abrava-apexbrasil.jpg"
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/08/18005149/plano-governo-ronaldo-caiado.jpg"
     },
     {
       "id": "macro-4b900a509b56d8d4120fc8a3",
       "title": "Em plano de governo, Flávio prevê corte de gastos e de impostos",
-      "summary": "Plano de governo do candidato à presidência Ronaldo Caiado (PSD) promete ajuste fiscal sem alta de impostos e revisão de incentivos.",
-      "details": "Plano de governo do candidato à presidência Ronaldo Caiado (PSD) promete ajuste fiscal sem alta de impostos e revisão de incentivos.",
-      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/plano-de-governo-caiado-economia/",
+      "summary": "Faturamento de BB, Bradesco, Itaú e Santander na área caiu 6% no segundo trimestre",
+      "details": "Faturamento de BB, Bradesco, Itaú e Santander na área caiu 6% no segundo trimestre",
+      "url": "https://www.estadao.com.br/amp/economia/coluna-do-broad/juros-e-volatilidade-global-esfriam-receitas-de-bancos-de-investimento/",
       "source": "Gazeta do Povo",
       "category": "macro",
       "tags": [
@@ -480,15 +522,15 @@
       "updatedAt": "2026-08-19T00:20:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/08/18005149/plano-governo-ronaldo-caiado.jpg"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/WGB3KWQBTVHUDHGT5W7YPXRPBI.JPG?quality=80&auth=8cc2026f162284eb1a48c720e4bbeaefaf10fb0877518aeee7e4d58f3cbc67e0&width=1200"
     },
     {
-      "id": "latest-30c96ffc2a0deef5ff9ae05a",
+      "id": "latest-2e23167c8de9dd992e9be4d2",
       "title": "Fintechs socioambientais vem ganhando mais espaço",
       "summary": "Plano de governo do candidato à presidência Flávio Bolsonaro (PL) fala em \"tesouraço\" no Orçamento, com previsão de corte de dez ministérios",
       "details": "Plano de governo do candidato à presidência Flávio Bolsonaro (PL) fala em \"tesouraço\" no Orçamento, com previsão de corte de dez ministérios",
       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/plano-de-governo-flavio-bolsonaro-economia/",
-      "source": "monitormercantil.com.br",
+      "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
         "mercado",
@@ -502,12 +544,12 @@
       "imageUrl": "https://media.gazetadopovo.com.br/2026/08/17163025/plano-de-governo-flavio-bolsonaro.jpg"
     },
     {
-      "id": "companies-1ddf5b781d163002a1a8d06e",
+      "id": "companies-44c4d6ffd88a866486a7b991",
       "title": "Quase mil empresas varejistas brasileiras entraram em recuperação judicial, no segundo trimestre",
-      "summary": "Setor varejista tem passado por crises e transformações, nos últimos anos.",
-      "details": "Setor varejista tem passado por crises e transformações, nos últimos anos.",
-      "url": "https://g1.globo.com/jornal-nacional/video/quase-mil-empresas-varejistas-brasileiras-entraram-em-recuperacao-judicial-no-segundo-trimestre-14880869.ghtml",
-      "source": "g1.globo.com",
+      "summary": "Atualizacao de empresas capturada em G1.",
+      "details": "",
+      "url": "https://monitormercantil.com.br/fintechs-socioambientais-vem-ganhando-mais-espaco/",
+      "source": "G1",
       "category": "companies",
       "tags": [
         "empresas",
@@ -517,15 +559,14 @@
       "publishedAt": "2026-08-18T23:53:18Z",
       "updatedAt": "2026-08-18T23:53:18Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://s02.video.glbimg.com/x720/14880869.jpg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "macro-ef33d19fbf22423d6e64188c",
       "title": "Análise: Eleições e cenário fiscal afastam investidor estrangeiro",
-      "summary": "Atualizacao de macro capturada em cnnbrasil.com.br.",
-      "details": "",
-      "url": "https://monitormercantil.com.br/fintechs-socioambientais-vem-ganhando-mais-espaco/",
+      "summary": "Incerteza eleitoral, cenário de juros e crise de empresas afastam investidores estrangeiros da bolsa brasileira; a avaliação é da editora e analista de Economia da CNN Lucinda Pinto ao Hora H",
+      "details": "Incerteza eleitoral, cenário de juros e crise de empresas afastam investidores estrangeiros da bolsa brasileira; a avaliação é da editora e analista de Economia da CNN Lucinda Pinto ao Hora H",
+      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/analise-eleicoes-e-cenario-fiscal-afastam-investidor-estrangeiro/",
       "source": "cnnbrasil.com.br",
       "category": "macro",
       "tags": [
@@ -536,14 +577,15 @@
       "publishedAt": "2026-08-18T23:51:22Z",
       "updatedAt": "2026-08-18T23:51:22Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/tagreuters.com2025binary_LYNXMPEL7S0MI-BASEIMAGE.webp?w=800&h=533&crop=1"
     },
     {
       "id": "companies-e8373bec5a895d516daa7cf3",
       "title": "Abrava renova parceria com ApexBrasil para ampliar exportações do AVAC-R",
-      "summary": "Consumidor americano mantém resiliência e vendas do varejo cresceram 5% na comparação anual, apesar da desaceleração recente.",
-      "details": "Consumidor americano mantém resiliência e vendas do varejo cresceram 5% na comparação anual, apesar da desaceleração recente.",
-      "url": "https://timesbrasil.com.br/mundo/consumidor-gasta-mas-inflacao-e-guerra-freiam-varejo-nos-eua/",
+      "summary": "Programa Abrava Exporta estabelece meta de crescimento de 46% nas exportações e busca ampliar negócios no mercado internacional | Foto:",
+      "details": "Programa Abrava Exporta estabelece meta de crescimento de 46% nas exportações e busca ampliar negócios no mercado internacional | Foto:",
+      "url": "https://blogdofrio.com.br/abrava-renova-parceria-com-apexbrasil-para-ampliar-exportacoes-do-avac-r/",
       "source": "Blog do Frio",
       "category": "companies",
       "tags": [
@@ -555,15 +597,15 @@
       "updatedAt": "2026-08-18T23:50:08Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/08/d600a858-10a.webp"
+      "imageUrl": "https://blogdofrio.com.br/wp-content/uploads/2026/08/abrava-apexbrasil.jpg"
     },
     {
-      "id": "macro-3b6886563c26179b144c0f2f",
+      "id": "macro-b855dab311db104a402d7bef",
       "title": "EXCLUSIVO CNBC: Consumidor segue gastando, mas inflação e guerra freiam varejo nos EUA, diz CEO da Storch Advisors",
-      "summary": "Incerteza eleitoral, cenário de juros e crise de empresas afastam investidores estrangeiros da bolsa brasileira; a avaliação é da editora e analista de Economia da CNN Lucinda Pinto ao Hora H",
-      "details": "Incerteza eleitoral, cenário de juros e crise de empresas afastam investidores estrangeiros da bolsa brasileira; a avaliação é da editora e analista de Economia da CNN Lucinda Pinto ao Hora H",
-      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/analise-eleicoes-e-cenario-fiscal-afastam-investidor-estrangeiro/",
-      "source": "timesbrasil.com.br",
+      "summary": "Atualizacao de macro capturada em Times Brasil | CNBC.",
+      "details": "",
+      "url": "https://monitormercantil.com.br/petrobras-e-condenada-por-gestao-abusiva/",
+      "source": "Times Brasil | CNBC",
       "category": "macro",
       "tags": [
         "macro",
@@ -573,16 +615,15 @@
       "publishedAt": "2026-08-18T23:35:00Z",
       "updatedAt": "2026-08-18T23:35:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/tagreuters.com2025binary_LYNXMPEL7S0MI-BASEIMAGE.webp?w=800&h=533&crop=1"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "latest-eb941c5b7236414bfa1e74b0",
+      "id": "latest-1baa5e3b3490a51b4a8a299b",
       "title": "Autorização para constituição de Banco Múltiplo nos EUA",
-      "summary": "Atualizacao de ultima hora capturada em monitormercantil.com.br.",
+      "summary": "Atualizacao de ultima hora capturada em Monitor Mercantil.",
       "details": "",
       "url": "https://monitormercantil.com.br/autorizacao-para-constituicao-de-banco-multiplo-nos-eua/",
-      "source": "monitormercantil.com.br",
+      "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
         "mercado",
@@ -595,12 +636,12 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-3856ec0493218f436e725de5",
+      "id": "latest-0d250cb365dcae66c5fa463e",
       "title": "Petrobras é condenada por gestão abusiva",
-      "summary": "Candidato do Missão quer elevar investimentos no setor para 4% do PIB e defende licenciamento ambiental. Leia no Poder360.",
-      "details": "Candidato do Missão quer elevar investimentos no setor para 4% do PIB e defende licenciamento ambiental. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-eleicoes-2026/tudo-que-for-economizado-ira-para-infraestrutura-promete-renan-santos/",
-      "source": "monitormercantil.com.br",
+      "summary": "Consumidor americano mantém resiliência e vendas do varejo cresceram 5% na comparação anual, apesar da desaceleração recente.",
+      "details": "Consumidor americano mantém resiliência e vendas do varejo cresceram 5% na comparação anual, apesar da desaceleração recente.",
+      "url": "https://timesbrasil.com.br/mundo/consumidor-gasta-mas-inflacao-e-guerra-freiam-varejo-nos-eua/",
+      "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
         "mercado",
@@ -611,15 +652,15 @@
       "updatedAt": "2026-08-18T23:30:06Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/08/renan-santos-1200x675.jpeg"
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/08/d600a858-10a.webp"
     },
     {
-      "id": "macro-09afc65d5eb915328b862f9d",
+      "id": "macro-d0a261e4e84dc5de4edac477",
       "title": "Tudo que for economizado irá para infraestrutura, promete Renan Santos",
-      "summary": "Atualizacao de macro capturada em poder360.com.br.",
-      "details": "",
-      "url": "https://monitormercantil.com.br/petrobras-e-condenada-por-gestao-abusiva/",
-      "source": "poder360.com.br",
+      "summary": "Candidato do Missão quer elevar investimentos no setor para 4% do PIB e defende licenciamento ambiental. Leia no Poder360.",
+      "details": "Candidato do Missão quer elevar investimentos no setor para 4% do PIB e defende licenciamento ambiental. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/tudo-que-for-economizado-ira-para-infraestrutura-promete-renan-santos/",
+      "source": "Poder360",
       "category": "macro",
       "tags": [
         "macro",
@@ -629,15 +670,16 @@
       "publishedAt": "2026-08-18T23:11:25Z",
       "updatedAt": "2026-08-18T23:11:25Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/08/renan-santos-1200x675.jpeg"
     },
     {
-      "id": "latest-2b498e7ee73e0dd7fe30cc08",
+      "id": "latest-1f2e4f9b06016abde04f7412",
       "title": "Como o Pix impulsionou o empreendedorismo no Brasil",
-      "summary": "Atualizacao de ultima hora capturada em monitormercantil.com.br.",
+      "summary": "Atualizacao de ultima hora capturada em Monitor Mercantil.",
       "details": "",
       "url": "https://monitormercantil.com.br/como-o-pix-impulsionou-o-empreendedorismo-no-brasil/",
-      "source": "monitormercantil.com.br",
+      "source": "Monitor Mercantil",
       "category": "latest",
       "tags": [
         "mercado",
@@ -709,9 +751,9 @@
     {
       "id": "macro-b75ea55e4cddaa6240faa260",
       "title": "Balanço fiscal de PE mostra superávit de R$ 6,4 bi e espaço para investimentos",
-      "summary": "Balanço das contas estaduais mostra aumento da arrecadação e avanço dos investimentos, enquanto PLDO para 2027 prevê risco de perda de R$ 750 milhões em receitas",
-      "details": "Balanço das contas estaduais mostra aumento da arrecadação e avanço dos investimentos, enquanto PLDO para 2027 prevê risco de perda de R$ 750 milhões em receitas",
-      "url": "https://movimentoeconomico.com.br/estados/pernambuco/2026/08/18/balanco-fiscal-de-pe-mostra-superavit-de-r-64-bi-e-espaco-para-investimentos/",
+      "summary": "Atualizacao de macro capturada em movimentoeconomico.com.br.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNGt1NzJDR2ZiS3hXN1dYNlptd2xsT3AzSjM4TnZmZ0owbEVIazlzZ25rN2luRjJTN3YxWWNYNlljSVVrWVdSVzhrWk5qZUlQMnc2dnpkamM2VkN4RmFhSjlNRWJXQ3dKWUFNbUt1Tk1VWmNsRDBtUjlXaXM2RFE1ZjJmT05ZNkJkaERZNlZ6dVUxa3VTVzh3dkUwM0g0eUJRbUVJLXFBaFZNM3B1WXRNZm85NEQ5NnliSlBGaHp3RDJHZHh4MGJYbnA3ZExOZGhUUGRiLUhDR0g?oc=5",
       "source": "movimentoeconomico.com.br",
       "category": "macro",
       "tags": [
@@ -722,15 +764,14 @@
       "publishedAt": "2026-08-18T22:48:12Z",
       "updatedAt": "2026-08-18T22:48:12Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://movimentoeconomico.com.br/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-18-at-20.28.55.jpeg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-8be8e2781f4bfb87b6bd7a1f",
       "title": "Analistas-Tributários participam da Operação Solo Sagrado",
-      "summary": "Receita Federal atua na retenção de ouro extraído ilegalmente. Ação conjunta com PF e MPF cumpre mandados em Mato Grosso e Rondônia.",
-      "details": "Receita Federal atua na retenção de ouro extraído ilegalmente. Ação conjunta com PF e MPF cumpre mandados em Mato Grosso e Rondônia.",
-      "url": "https://sindireceita.org.br/noticias/2026/08/18/analistas-tributarios-participam-da-operacao-solo-sagrado",
+      "summary": "Atualizacao de macro capturada em Sindireceita.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb0Q0cG5sRDFZUVVhdldnRm9Eb3RNX2h4dW95NVFheWtZcFJBRUxiRTZIODRSR2R0Wmkzd3RYRDhpWV9xRl9LNW5wRUNubzg4NFZyLV9yVnQtOGQ4ZWZyVk4zX0RsanFUbm1XeFZJZFVrZXBVdGFtZjloYW5NdzRpREpNQjhqMmktb043SXY2Rk1ScW95eVo1WXhrXzRzMGY5Qjd2Nk56djg?oc=5",
       "source": "Sindireceita",
       "category": "macro",
       "tags": [
@@ -740,25 +781,6 @@
       ],
       "publishedAt": "2026-08-18T22:42:00Z",
       "updatedAt": "2026-08-18T22:42:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://sindireceita.org.br/api/site/media/o_AYdCVPst6qDdUv5gr1a"
-    },
-    {
-      "id": "macro-fe4817d75ecd6546b5fe86ea",
-      "title": "Governador interino do Rio busca reestruturar dívida e impulsionar equilíbrio fiscal",
-      "summary": "Atualizacao de macro capturada em Portal VV8.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc1ZmZl9ycFAxWi1ERTdXZ3RUU2JTTGdEczF3SW5TTGhpSnM2NERLcWJuQ1RITjVEOXBWZDZ6dTlTWFgtUlZWT2RFYWZCdE1LQnNpRm1BTDZMSzJ2QzVBREpHLURkYmxjN3paQ0JDbE9vV2VETUJ6VmhMR3Faam5MQW9TV0NCTmVkOHZvdnctcnc0MS1zMXZJN1ZLU1hZLUI4bUJfM3hBWDhFTUxLNHpzU2ZrbkhkVk5QTkVIM0xLTnRwTkd6NXc?oc=5",
-      "source": "Portal VV8",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-18T22:38:00Z",
-      "updatedAt": "2026-08-18T22:38:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
@@ -869,24 +891,6 @@
       "updatedAt": "2026-08-18T22:20:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "macro-9678e84337bde8273f0a240f",
-      "title": "Tarcísio defende ajuste fiscal suave e diz que Brasil não precisa de solução ‘do Milei’",
-      "summary": "Atualizacao de macro capturada em Valor Econômico.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNaG45c3BsUTNtZVZjdUlNQ2hyU29qaGg4ZVVha01GNjRnTlJOdkRfVm02Um5pV2FhVG5hYVV5bkpQSkVnRUoydDdNTVNuZmlyNFNaa0FqV3F0aHE1SjZuZG9HZ3lQMllCN3VFZHp3VXdvNERFbW55N2xNS1QxYm9udDhLV1d3V3h1bFFRU05UV3RkaUJyUWNMZ3dzUHQ4X3pWdHdNYlVxRk8tQzg1MlBmVUNieUc0V0RJRVRsdkRuQUpiNzZQYmpKS0EyRUg2UzQySjFyQy1Nb3hxR0U2dkc2ODdvb0NrZm5wWXZJNmlR0gH8AUFVX3lxTE41WHpuQm9fNkpFRVRyeHBRck9DMFNQdS1hd25MS05TNlctUDB2Wk9BVnN0NEwxUmRDN1RDVXVwRDN3Z3RtWks5Wko0bzh0Q0tzaUY2bDBwWldpWlFHYXJEVDJoMmJfWnh3MHdsWXRTV245NG1EZWdTbHlXbi1VbWtDWUJVLW5KcHhIOU5WMGlTRzluWVdiQ2hBbC00X3EyWUUzTktfRVhWWmRyYkV0eXhQT0tENXppWXdOMGVEUi1ZZFBBeTZTVmFuWVM1VllLcm1PVFBIRkxBblUtekdDaE80S0xuMkhQVEpuNEI1Ml9mS1IwMElFTllaamozRg?oc=5",
-      "source": "Valor Econômico",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-18T22:11:14Z",
-      "updatedAt": "2026-08-18T22:11:14Z",
-      "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "funds-bc06e4c4e4d15a47e4945da0",
@@ -1015,12 +1019,12 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "funds-250a15261a9778cf2974c3b4",
+      "id": "funds-b4b07c16d4cf4b118a4f899e",
       "title": "CVM julgará Banco Master e Daniel Vorcaro por suposto esquema de R$ 5,8 milhões em fundo imobiliário",
-      "summary": "Atualizacao de fundos capturada em tribunadoplanalto.com.br.",
+      "summary": "Atualizacao de fundos capturada em Tribuna do Planalto.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUUtiZjlzMHc0eEdsaEEwTzk5LWFfb2E4UV9iOHZ0czdkVkphVXlTb3NnZGk5OTd1TGVLVUlQZHJnRTNiY2REMzkzcV9DTjVRdzJ4clJIdzBNSFdTaVFHTFNZSVJWa3o1YXRuVkQzN2lzZXhEWHJJM2E2clV0a3V6NUdRaTNaOHlFMWt5ODdUUzhfQTFFQUNnRFM4NnVrX2pXdG5uT2E3bU1zSUFNWVFUZUJpdVlYWGtxMFVuYlBDRTJXTzljWDlMU1lHZzU?oc=5",
-      "source": "tribunadoplanalto.com.br",
+      "source": "Tribuna do Planalto",
       "category": "funds",
       "tags": [
         "fundos",
@@ -1177,12 +1181,12 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "funds-9d2fab6266e914d79c2b27f6",
+      "id": "funds-58b4bd70669118ea07f3bf90",
       "title": "Sinafut critica poder de fundos de investimento no futebol",
-      "summary": "Atualizacao de fundos capturada em poder360.com.br.",
+      "summary": "Atualizacao de fundos capturada em Poder360.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYV8xdlVLTDlpVGVFWXpGaGJ5Smd4LTRpbV9BbktPa3B1Z0pKN1VndFJaUVNMSUZNc1lsWEg4czA5ay1JMTNEbVZsb3B0c0pTdlRFQ1lQM09hZG9sTWJJNlNJODhzOGNkb2RDMW1pOTJaSkpPam1mMkYxQzlVRzg5RF81Q2lrNTJCMGxfRzFqTV91THNXQjB1bTFtUTNKaFA3R2gzV19n?oc=5",
-      "source": "poder360.com.br",
+      "source": "Poder360",
       "category": "funds",
       "tags": [
         "fundos",
