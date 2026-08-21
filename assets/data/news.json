@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-21T22:19:26Z",
-  "generatedAt": "2026-08-21T22:19:26Z",
+  "updatedAt": "2026-08-21T22:49:39Z",
+  "generatedAt": "2026-08-21T22:49:39Z",
   "categories": [
     {
       "id": "all",
@@ -25,6 +25,10 @@
   ],
   "sources": [
     {
+      "id": "misto-brasil",
+      "label": "- Misto Brasil"
+    },
+    {
       "id": "a-verdade",
       "label": "A Verdade"
     },
@@ -41,6 +45,10 @@
       "label": "Band News FM Curitiba"
     },
     {
+      "id": "blog-abrapp-em-foco",
+      "label": "Blog Abrapp Em Foco"
+    },
+    {
       "id": "boca-com-br",
       "label": "boca.com.br"
     },
@@ -55,6 +63,10 @@
     {
       "id": "correio-do-povo",
       "label": "Correio do Povo"
+    },
+    {
+      "id": "correiodamanha-com-br",
+      "label": "correiodamanha.com.br"
     },
     {
       "id": "estad-o",
@@ -77,20 +89,12 @@
       "label": "InMagazine"
     },
     {
-      "id": "isto-dinheiro",
-      "label": "ISTOÉ DINHEIRO"
-    },
-    {
       "id": "jbritonoticias-com-br",
       "label": "jbritonoticias.com.br"
     },
     {
       "id": "jornal-ggn",
       "label": "Jornal GGN"
-    },
-    {
-      "id": "money-times",
-      "label": "Money Times"
     },
     {
       "id": "msemfoco-com-br",
@@ -123,6 +127,10 @@
     {
       "id": "poder360",
       "label": "Poder360"
+    },
+    {
+      "id": "portal-contabeis",
+      "label": "Portal Contabeis"
     },
     {
       "id": "portal-erp",
@@ -177,10 +185,6 @@
       "label": "VEJA"
     },
     {
-      "id": "vero-not-cias",
-      "label": "Vero Notícias"
-    },
-    {
       "id": "vietnam-vn",
       "label": "Vietnam.vn"
     },
@@ -191,11 +195,106 @@
   ],
   "items": [
     {
+      "id": "macro-7b88dc782ddfd8e3cc1c2708",
+      "title": "Ministro da Fazenda fala em 'apertar' o arcabouço fiscal para ajudar política monetária",
+      "summary": "UBS vê Brasil entre mercados emergentes com maior endividamento corporativo",
+      "details": "UBS vê Brasil entre mercados emergentes com maior endividamento corporativo",
+      "url": "https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/juros-altos-expoem-empresas-brasileiras-mais-endividadas-veja-os-setores-mais-vulneraveis/",
+      "source": "Tribuna do Sertão",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-21T22:46:00Z",
+      "updatedAt": "2026-08-21T22:46:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/QN6AHP5PONDZXJNRUCYK7VSKQM.jpeg?quality=80&auth=8f7f1df332934889b5e12ad5f048fae4b1ed378e4918f6f88258b853fd03e218&width=1200&height=630&smart=true"
+    },
+    {
+      "id": "companies-ba27b4ab5642c03db2d98477",
+      "title": "Juros altos expõem empresas brasileiras mais endividadas; veja os setores mais vulneráveis",
+      "summary": "Mercado apresenta pressão nas cotações enquanto demanda permanece fraca",
+      "details": "Mercado apresenta pressão nas cotações enquanto demanda permanece fraca",
+      "url": "https://boca.com.br/agricultura/precos-do-boi-gordo-sofrem-queda-com-oferta-elevada-e-dolar-em-alta",
+      "source": "Estadão",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-08-21T22:45:57Z",
+      "updatedAt": "2026-08-21T22:45:57Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/1fcc2d05953b45cea846fcb22063194e_858x483.jpg"
+    },
+    {
+      "id": "latest-144276e7629961033bfac346",
+      "title": "Preços do boi gordo sofrem queda com oferta elevada e dólar em alta",
+      "summary": "A bolsa brasileira também registra alta significativa.",
+      "details": "A bolsa brasileira também registra alta significativa.",
+      "url": "https://www.tribunadosertao.com.br/geral/2026/08/21/964713-dolar-cai-a-r-514-com-alivio-no-mercado-externo",
+      "source": "boca.com.br",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-21T22:45:02Z",
+      "updatedAt": "2026-08-21T22:45:02Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://img.dhost.cloud/jYFbMV3XWOsti0YtZe-h9kw8O6k=/1280x720/smart/https://tdan.nyc3.digitaloceanspaces.com/images/8e999/29a2ece31107804817096ce628cd4fd49f5.jpg"
+    },
+    {
+      "id": "latest-b291d822c1dc50fb070d9cb0",
+      "title": "Ibovespa reage após 11 quedas, mas ainda recua 0,86% na semana; veja destaques",
+      "summary": "Durigan destaca importância da colaboração entre políticas fiscal e monetária em meio a desafios globais.",
+      "details": "Durigan destaca importância da colaboração entre políticas fiscal e monetária em meio a desafios globais.",
+      "url": "https://www.tribunadosertao.com.br/financas/2026/08/21/964566-ministro-da-fazenda-fala-em-apertar-o-arcabouco-fiscal-para-ajudar-politica-monetaria",
+      "source": "Estadão",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-21T22:32:57Z",
+      "updatedAt": "2026-08-21T22:32:57Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://img.dhost.cloud/Ilae0kT5s4U750VBo4P0DuKlE2Y=/1280x720/smart/https://tdan.nyc3.digitaloceanspaces.com/images/ec325/1c450391ef250771fc7fea28b954acd6283.jpg"
+    },
+    {
+      "id": "latest-fd632b32b5aff4c1268b92a9",
+      "title": "Dólar cai a R$ 5,14 com alívio no mercado externo",
+      "summary": "Petróleo, tensão entre EUA e Irã e Treasuries marcaram os negócios; índice reagiu com três altas seguidas após série negativa",
+      "details": "Petróleo, tensão entre EUA e Irã e Treasuries marcaram os negócios; índice reagiu com três altas seguidas após série negativa",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-reage-apos-11-quedas-mas-ainda-recua-086-na-semana-veja-destaques/",
+      "source": "Tribuna do Sertão",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-21T21:58:00Z",
+      "updatedAt": "2026-08-21T21:58:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/6PYNPKFUNRKXXM3IEZFPHM4VUE.png?quality=80&auth=123a2dfd6fa0e7a0829be998168c643cb63e406f440ba2fd2fbb08b1d2c38346&width=1200&height=630&smart=true"
+    },
+    {
       "id": "latest-39884f1d0fa37058c31f312a",
       "title": "Dólar cai a R$ 5,14 com alívio no mercado externo - Tribuna do Norte Apucarana",
-      "summary": "Atualizacao de ultima hora capturada em tribunadonorte.com.",
-      "details": "",
-      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/08/21/peru-pib-avanca-26-no-segundo-trimestre-de-2026-na-comparacao-anual.htm",
+      "summary": "Em um dia de alívio no mercado financeiro, tanto no Brasil quanto no exterior, o dólar encerrou a sessão no menor valor em mais de dez dias, enquanto a bolsa de valores brasileira subiu quase 2%, fechando a semana em alta.Esse movimento foi impulsionado p",
+      "details": "Em um dia de alívio no mercado financeiro, tanto no Brasil quanto no exterior, o dólar encerrou a sessão no menor valor em mais de dez dias, enquanto a bolsa de valores brasileira subiu quase 2%, fechando a semana em alta.Esse movimento foi impulsionado p",
+      "url": "https://tribunadonorte.com/economia/dolar-cai-a-r-514-com-alivio-no-mercado-externo-1128935",
       "source": "tribunadonorte.com",
       "category": "latest",
       "tags": [
@@ -206,14 +305,15 @@
       "publishedAt": "2026-08-21T21:58:00Z",
       "updatedAt": "2026-08-21T21:58:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://tribunadonorte.com/themes/tbn/assets/img/logo-fundo.png"
     },
     {
       "id": "macro-c075f217290e5a2de74a2e07",
       "title": "Peru: PIB avança 2,6% no segundo trimestre de 2026 na comparação anual",
-      "summary": "Em um dia de alívio no mercado financeiro, tanto no Brasil quanto no exterior, o dólar encerrou a sessão no menor valor em mais de dez dias, enquanto a bolsa de valores brasileira subiu quase 2%, fechando a semana em alta.Esse movimento foi impulsionado p",
-      "details": "Em um dia de alívio no mercado financeiro, tanto no Brasil quanto no exterior, o dólar encerrou a sessão no menor valor em mais de dez dias, enquanto a bolsa de valores brasileira subiu quase 2%, fechando a semana em alta.Esse movimento foi impulsionado p",
-      "url": "https://tribunadonorte.com/economia/dolar-cai-a-r-514-com-alivio-no-mercado-externo-1128935",
+      "summary": "Atualizacao de macro capturada em UOL Economia.",
+      "details": "",
+      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/08/21/peru-pib-avanca-26-no-segundo-trimestre-de-2026-na-comparacao-anual.htm",
       "source": "UOL Economia",
       "category": "macro",
       "tags": [
@@ -224,15 +324,14 @@
       "publishedAt": "2026-08-21T21:54:00Z",
       "updatedAt": "2026-08-21T21:54:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://tribunadonorte.com/themes/tbn/assets/img/logo-fundo.png"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-3576a5de7464afd9aa471221",
       "title": "Mercado de soja brasileiro exibe estabilidade em preços e volume",
-      "summary": "Setor bancário impulsiona índice em dia favorável",
-      "details": "Setor bancário impulsiona índice em dia favorável",
-      "url": "https://www.tribunadosertao.com.br/geral/2026/08/21/964682-ibovespa-cai-na-semana-mas-tem-melhor-pregao-desde-307-com-exterior-e-eleicao",
+      "summary": "Preços firmes e volatilidade marcam a semana do setor",
+      "details": "Preços firmes e volatilidade marcam a semana do setor",
+      "url": "https://boca.com.br/mercado-financeiro/mercado-de-soja-brasileiro-exibe-estabilidade-em-precos-e-volume",
       "source": "boca.com.br",
       "category": "latest",
       "tags": [
@@ -244,14 +343,14 @@
       "updatedAt": "2026-08-21T21:45:08Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://img.dhost.cloud/-H_56_kDgUn6wDv9d05lqoG6tSU=/1280x720/smart/https://tdan.nyc3.digitaloceanspaces.com/images/27653/7b93215403d08bdea7f7d334769b6b00b14.jpg?name=ibovespa.jpg"
+      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/0d47fdc2db0df92399cd4503a1471105_858x483.jpg"
     },
     {
       "id": "latest-c565e9266c741fc16d51dfe1",
       "title": "Ibovespa cai na semana, mas tem melhor pregão desde 30/7 com exterior e eleição",
-      "summary": "Preços firmes e volatilidade marcam a semana do setor",
-      "details": "Preços firmes e volatilidade marcam a semana do setor",
-      "url": "https://boca.com.br/mercado-financeiro/mercado-de-soja-brasileiro-exibe-estabilidade-em-precos-e-volume",
+      "summary": "Setor bancário impulsiona índice em dia favorável",
+      "details": "Setor bancário impulsiona índice em dia favorável",
+      "url": "https://www.tribunadosertao.com.br/geral/2026/08/21/964682-ibovespa-cai-na-semana-mas-tem-melhor-pregao-desde-307-com-exterior-e-eleicao",
       "source": "Tribuna do Sertão",
       "category": "latest",
       "tags": [
@@ -263,14 +362,14 @@
       "updatedAt": "2026-08-21T21:45:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/0d47fdc2db0df92399cd4503a1471105_858x483.jpg"
+      "imageUrl": "https://img.dhost.cloud/-H_56_kDgUn6wDv9d05lqoG6tSU=/1280x720/smart/https://tdan.nyc3.digitaloceanspaces.com/images/27653/7b93215403d08bdea7f7d334769b6b00b14.jpg?name=ibovespa.jpg"
     },
     {
       "id": "latest-6fb1a32087d7c0da795c9fb3",
       "title": "Haddad diz que privatizações de Tarcísio são para atender mercado financeiro",
-      "summary": "Saiba mais sobre a autorização do BC para compra de banco por irmã de Lucas Kallas, envolvido em suspeitas de ocultação de patrimônio e ligação com Vorcaro",
-      "details": "Saiba mais sobre a autorização do BC para compra de banco por irmã de Lucas Kallas, envolvido em suspeitas de ocultação de patrimônio e ligação com Vorcaro",
-      "url": "https://www.otempo.com.br/politica/governo/2026/8/21/bc-autoriza-irma-de-lucas-kallas-parceiro-de-vorcaro-a-comprar-banco.amp",
+      "summary": "O candidato do PT ao governo de São Paulo, Fernando Haddad, criticou a condução das privatizações no governo de Tarcísio de Freitas (Republicanos) e afirmou que São Paulo tem adotado medidas “açodadas” para atender às expectativas do mercado financeiro. A declaração foi dada dura",
+      "details": "O candidato do PT ao governo de São Paulo, Fernando Haddad, criticou a condução das privatizações no governo de Tarcísio de Freitas (Republicanos) e afirmou que São Paulo tem adotado medidas “açodadas” para atender às expectativas do mercado financeiro. A declaração foi dada durante uma sabatina e divulgada pela Agênci",
+      "url": "https://horadopovo.com.br/haddad-diz-que-privatizacoes-de-tarcisio-sao-para-atender-mercado-financeiro/",
       "source": "Hora do Povo",
       "category": "latest",
       "tags": [
@@ -282,33 +381,14 @@
       "updatedAt": "2026-08-21T21:43:26Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.otempo.com.br/content/dam/otempo/editorias/minas sa/2025/7/17/minas sa-lucas kallas-cedro participações-mineração minas gerais-1752760705.jpeg"
-    },
-    {
-      "id": "funds-42e2080d956a63d676ec3235",
-      "title": "BC autoriza irmã de Lucas Kallas, parceiro de Vorcaro, a comprar banco",
-      "summary": "Daniella Marques diz que vai enxugar máquina pública e defende",
-      "details": "Daniella Marques diz que vai enxugar máquina pública e defende",
-      "url": "https://oglobo.globo.com/economia/noticia/2026/08/21/coordenadora-de-plano-economico-de-flavio-critica-proposta-de-fim-da-jornada-6x1.ghtml",
-      "source": "O TEMPO",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-08-21T21:40:21Z",
-      "updatedAt": "2026-08-21T21:40:21Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://s2-oglobo.glbimg.com/pe9G14wEgKw1xtF66VC5FF-OKqw=/740x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/w/3/7Sif40QSq6ig8zW4u2wg/daniella-marques-ex-presidente-da-caixa-gabriel-de-paiva.jpg"
+      "imageUrl": "https://horadopovo.com.br/wp-content/uploads/2026/08/FOTO-HP-2026-08-21T184057.493.png"
     },
     {
       "id": "macro-10ccd01857eb3ff53e846be5",
       "title": "Coordenadora de plano econômico de Flávio promete ajuste fiscal e critica fim da escala 6x1",
-      "summary": "O candidato do PT ao governo de São Paulo, Fernando Haddad, criticou a condução das privatizações no governo de Tarcísio de Freitas (Republicanos) e afirmou que São Paulo tem adotado medidas “açodadas” para atender às expectativas do mercado financeiro. A declaração foi dada dura",
-      "details": "O candidato do PT ao governo de São Paulo, Fernando Haddad, criticou a condução das privatizações no governo de Tarcísio de Freitas (Republicanos) e afirmou que São Paulo tem adotado medidas “açodadas” para atender às expectativas do mercado financeiro. A declaração foi dada durante uma sabatina e divulgada pela Agênci",
-      "url": "https://horadopovo.com.br/haddad-diz-que-privatizacoes-de-tarcisio-sao-para-atender-mercado-financeiro/",
+      "summary": "Daniella Marques diz que vai enxugar máquina pública e defende",
+      "details": "Daniella Marques diz que vai enxugar máquina pública e defende",
+      "url": "https://oglobo.globo.com/economia/noticia/2026/08/21/coordenadora-de-plano-economico-de-flavio-critica-proposta-de-fim-da-jornada-6x1.ghtml",
       "source": "O GLOBO",
       "category": "macro",
       "tags": [
@@ -320,14 +400,14 @@
       "updatedAt": "2026-08-21T21:35:59Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://horadopovo.com.br/wp-content/uploads/2026/08/FOTO-HP-2026-08-21T184057.493.png"
+      "imageUrl": "https://s2-oglobo.glbimg.com/pe9G14wEgKw1xtF66VC5FF-OKqw=/740x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/w/3/7Sif40QSq6ig8zW4u2wg/daniella-marques-ex-presidente-da-caixa-gabriel-de-paiva.jpg"
     },
     {
       "id": "latest-28777a4105ab7fafc4208cc1",
       "title": "Juros: taxas têm firme baixa com suporte da queda do dólar e quadro eleitoral no radar",
-      "summary": "Expectativas políticas impulsionam redução nas taxas dos juros futuros",
-      "details": "Expectativas políticas impulsionam redução nas taxas dos juros futuros",
-      "url": "https://www.tribunadosertao.com.br/geral/2026/08/21/964671-juros-taxas-tem-firme-baixa-com-suporte-da-queda-do-dolar-e-quadro-eleitoral-no-radar",
+      "summary": "Ministro da Fazenda afirma que ritmo das medidas também depende do Legislativo e critica comparação com a Argentina. Leia no Poder360.",
+      "details": "Ministro da Fazenda afirma que ritmo das medidas também depende do Legislativo e critica comparação com a Argentina. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-economia/durigan-defende-gradualismo-no-ajuste-fiscal-e-cita-congresso/",
       "source": "Tribuna do Sertão",
       "category": "latest",
       "tags": [
@@ -339,14 +419,14 @@
       "updatedAt": "2026-08-21T21:35:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://img.dhost.cloud/0lYKPPLXZKS_VUwRGEuODk4iHaw=/1280x720/smart/https://tdan.nyc3.digitaloceanspaces.com/images/c27d3/6f65a77f8bad8299258dfefd49d1e2f6969.jpg"
+      "imageUrl": "https://static.poder360.com.br/uploads/2025/11/dario-durigan.png"
     },
     {
       "id": "macro-b7193ba2be98190a56e021ab",
       "title": "Durigan defende gradualismo no ajuste fiscal e cita Congresso",
-      "summary": "Ministro da Fazenda afirma que ritmo das medidas também depende do Legislativo e critica comparação com a Argentina. Leia no Poder360.",
-      "details": "Ministro da Fazenda afirma que ritmo das medidas também depende do Legislativo e critica comparação com a Argentina. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-economia/durigan-defende-gradualismo-no-ajuste-fiscal-e-cita-congresso/",
+      "summary": "Expectativas políticas impulsionam redução nas taxas dos juros futuros",
+      "details": "Expectativas políticas impulsionam redução nas taxas dos juros futuros",
+      "url": "https://www.tribunadosertao.com.br/geral/2026/08/21/964671-juros-taxas-tem-firme-baixa-com-suporte-da-queda-do-dolar-e-quadro-eleitoral-no-radar",
       "source": "Poder360",
       "category": "macro",
       "tags": [
@@ -358,7 +438,7 @@
       "updatedAt": "2026-08-21T21:33:25Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://static.poder360.com.br/uploads/2025/11/dario-durigan.png"
+      "imageUrl": "https://img.dhost.cloud/0lYKPPLXZKS_VUwRGEuODk4iHaw=/1280x720/smart/https://tdan.nyc3.digitaloceanspaces.com/images/c27d3/6f65a77f8bad8299258dfefd49d1e2f6969.jpg"
     },
     {
       "id": "latest-1c0a4edc44592cfbc67bdce1",
@@ -381,25 +461,6 @@
     {
       "id": "macro-947fe555e40b19195e12bf5b",
       "title": "Receita Federal concede incentivo fiscal para projeto de energia solar",
-      "summary": "Dario Durigan destacou a contenção de despesas obrigatórias aprovada pelo Congresso para abrir espaço a discricionárias",
-      "details": "Dario Durigan destacou a contenção de despesas obrigatórias aprovada pelo Congresso para abrir espaço a discricionárias",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/economia/seguiremos-apertando-o-arcabouco-fiscal-para-colaborar-com-a-politica-monetaria-diz-ministro-da-fazenda-1.1741216",
-      "source": "O TEMPO",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-21T21:31:57Z",
-      "updatedAt": "2026-08-21T21:31:57Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.correiodopovo.com.br/image/contentid/policy:1.1737888:1786369429/OBJ4513039_1.jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=e334fb5"
-    },
-    {
-      "id": "macro-e526366a47a5d05c00e360e2",
-      "title": "Governo autoriza benefício fiscal para construção de usina de energia solar",
       "summary": "Empresa de logística é coabilitada ao Reidi para atuar em obras de construção civil da usina fotovoltaica Draco Solar 8; medida garante desoneração de tributos federais",
       "details": "Empresa de logística é coabilitada ao Reidi para atuar em obras de construção civil da usina fotovoltaica Draco Solar 8; medida garante desoneração de tributos federais",
       "url": "https://www.otempo.com.br/politica/2026/8/21/receita-federal-concede-incentivo-fiscal-para-projeto-de-energia-solar",
@@ -417,11 +478,30 @@
       "imageUrl": "https://www.otempo.com.br/content/dam/otempo/editorias/politica/2026/8/receita-federal-concede-incentivo-fiscal-para-projeto-de-energia-solar.jpeg"
     },
     {
-      "id": "macro-054c38fc17c13d9433640176",
-      "title": "Seguiremos apertando o arcabouço fiscal para colaborar com a política monetária, diz ministro da Fazenda",
+      "id": "macro-e526366a47a5d05c00e360e2",
+      "title": "Governo autoriza benefício fiscal para construção de usina de energia solar",
       "summary": "Receita Federal concede coabilitação ao Reidi para empresa atuar em projeto de geração fotovoltaica com início de operação previsto para 2025",
       "details": "Receita Federal concede coabilitação ao Reidi para empresa atuar em projeto de geração fotovoltaica com início de operação previsto para 2025",
       "url": "https://www.otempo.com.br/politica/2026/8/21/governo-autoriza-beneficio-fiscal-para-construcao-de-usina-de-energia-solar",
+      "source": "O TEMPO",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-21T21:31:57Z",
+      "updatedAt": "2026-08-21T21:31:57Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.otempo.com.br/content/dam/otempo/editorias/politica/2026/8/governo-autoriza-beneficio-fiscal-para-construcao-de-usina-de-energia-solar.jpeg"
+    },
+    {
+      "id": "macro-054c38fc17c13d9433640176",
+      "title": "Seguiremos apertando o arcabouço fiscal para colaborar com a política monetária, diz ministro da Fazenda",
+      "summary": "Dario Durigan destacou a contenção de despesas obrigatórias aprovada pelo Congresso para abrir espaço a discricionárias",
+      "details": "Dario Durigan destacou a contenção de despesas obrigatórias aprovada pelo Congresso para abrir espaço a discricionárias",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/economia/seguiremos-apertando-o-arcabouco-fiscal-para-colaborar-com-a-politica-monetaria-diz-ministro-da-fazenda-1.1741216",
       "source": "Correio do Povo",
       "category": "macro",
       "tags": [
@@ -433,26 +513,44 @@
       "updatedAt": "2026-08-21T21:19:53Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.otempo.com.br/content/dam/otempo/editorias/politica/2026/8/governo-autoriza-beneficio-fiscal-para-construcao-de-usina-de-energia-solar.jpeg"
+      "imageUrl": "https://www.correiodopovo.com.br/image/contentid/policy:1.1737888:1786369429/OBJ4513039_1.jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=e334fb5"
     },
     {
-      "id": "latest-2ddde91c673911d5f8c0b12c",
-      "title": "Dólar recua 0,93% e volta a R$ 5,14 com exterior",
-      "summary": "Dólar à vista cai 0,93%, a R$ 5,14, com alívio no cenário externo; na semana, moeda ainda acumula alta de 1,21%",
-      "details": "Dólar à vista cai 0,93%, a R$ 5,14, com alívio no cenário externo; na semana, moeda ainda acumula alta de 1,21%",
-      "url": "https://www.spacemoney.com.br/economia/dolar-hoje/dolar-recua-093-melhora-externa/",
-      "source": "SpaceMoney",
-      "category": "latest",
+      "id": "macro-0e7df97e75ebf405fe03e971",
+      "title": "PNCT 2026: Conformidade Tributária e Transição Fiscal",
+      "summary": "Entenda o Plano Nacional de Conformidade Tributária (PNCT 2026). Saiba como Receita Federal e CGIBS orientam a correção de notas com IBS e CBS na Reforma Tributária.",
+      "details": "Entenda o Plano Nacional de Conformidade Tributária (PNCT 2026). Saiba como Receita Federal e CGIBS orientam a correção de notas com IBS e CBS na Reforma Tributária.",
+      "url": "https://www.contabeis.com.br/artigos/78927/pnct-2026-conformidade-tributaria-e-transicao-fiscal/",
+      "source": "Portal Contabeis",
+      "category": "macro",
       "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
+        "macro",
+        "juros",
+        "inflacao"
       ],
-      "publishedAt": "2026-08-21T21:13:45Z",
-      "updatedAt": "2026-08-21T21:13:45Z",
+      "publishedAt": "2026-08-21T21:15:01Z",
+      "updatedAt": "2026-08-21T21:15:01Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-4386439-11.webp"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.contabeis.com.br/assets/img/news/pnct-2026-conformidade-tributaria-e-transicao-fiscal.png"
+    },
+    {
+      "id": "macro-3992af8fc784cdbf7372aef0",
+      "title": "Fiesp vê economia perder fôlego e projeta crescimento menor para 2027",
+      "summary": "Fiesp vê economia perder fôlego e projeta crescimento menor para 2027",
+      "details": "Fiesp vê economia perder fôlego e projeta crescimento menor para 2027",
+      "url": "https://www.correiodamanha.com.br/nacional/sao-paulo/estado-de-sao-paulo/2026/08/amp/313126-fiesp-ve-economia-perder-folego-e-projeta-crescimento-menor-para-2027.html",
+      "source": "correiodamanha.com.br",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-21T21:15:00Z",
+      "updatedAt": "2026-08-21T21:15:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-62579955e0e514b66b4cb380",
@@ -476,9 +574,9 @@
     {
       "id": "latest-4d539a1c9a4c66511e31dea6",
       "title": "Ibovespa B3 sobe 1,85% e fecha semana nos 171 mil pontos; dólar cai a R$ 5,14",
-      "summary": "Ibovespa fecha em alta de 1,85%, com bancos puxando ganhos; dólar cai a R$ 5,144 e juros recuam na curva. Confira o resumo do dia",
-      "details": "Ibovespa fecha em alta de 1,85%, com bancos puxando ganhos; dólar cai a R$ 5,144 e juros recuam na curva. Confira o resumo do dia",
-      "url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-alta-dolar-queda-lula-trump/",
+      "summary": "Veja como se comportaram o Ibovespa B3 e o dólar nesta sexta-feira (21) e o que movimentou os ativos. Acesse na íntegra no Bora Investir.",
+      "details": "Veja como se comportaram o Ibovespa B3 e o dólar nesta sexta-feira (21) e o que movimentou os ativos. Acesse na íntegra no Bora Investir.",
+      "url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-sobe-185-e-fecha-semana-nos-171-mil-pontos-dolar-cai-a-r-514/",
       "source": "Bora Investir",
       "category": "latest",
       "tags": [
@@ -490,14 +588,14 @@
       "updatedAt": "2026-08-21T21:07:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-10628029-67.webp"
+      "imageUrl": "https://cdn.borainvestir.b3.com.br/2026/08/21180723/ibovespa-b3-sobe-185-e-fecha-semana-nos-171-mil-pontos-dolar-cai-a-r-514.webp"
     },
     {
       "id": "latest-cd0d8eca56ef1710fb6db77a",
       "title": "Ibovespa sobe mais de 1% nesta sexta-feira; saiba motivos",
-      "summary": "Veja como se comportaram o Ibovespa B3 e o dólar nesta sexta-feira (21) e o que movimentou os ativos. Acesse na íntegra no Bora Investir.",
-      "details": "Veja como se comportaram o Ibovespa B3 e o dólar nesta sexta-feira (21) e o que movimentou os ativos. Acesse na íntegra no Bora Investir.",
-      "url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-sobe-185-e-fecha-semana-nos-171-mil-pontos-dolar-cai-a-r-514/",
+      "summary": "Ibovespa fecha em alta de 1,85%, com bancos puxando ganhos; dólar cai a R$ 5,144 e juros recuam na curva. Confira o resumo do dia",
+      "details": "Ibovespa fecha em alta de 1,85%, com bancos puxando ganhos; dólar cai a R$ 5,144 e juros recuam na curva. Confira o resumo do dia",
+      "url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-alta-dolar-queda-lula-trump/",
       "source": "VEJA",
       "category": "latest",
       "tags": [
@@ -509,7 +607,7 @@
       "updatedAt": "2026-08-21T21:02:59Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://cdn.borainvestir.b3.com.br/2026/08/21180723/ibovespa-b3-sobe-185-e-fecha-semana-nos-171-mil-pontos-dolar-cai-a-r-514.webp"
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-10628029-67.webp"
     },
     {
       "id": "latest-890fb4d89b7ee26ee8a367c1",
@@ -550,6 +648,25 @@
       "imageUrl": "https://www.estadao.com.br/resizer/v2/PE7DOQ5RF5NSJEIUT454DINUXY.jpg?quality=80&auth=1d1f6dc6d88d1aba8f1dbdc80da341394258a6f871a1d51b21af920ca416ca02&width=1200&height=630&smart=true"
     },
     {
+      "id": "macro-bfa22a53fbc96bf231aff643",
+      "title": "Como a estagnação da economia russa deixará Putin sem opções na Ucrânia",
+      "summary": "A Rússia é que o país enfrenta um período prolongado de estagflação, é improvável que o crescimento deste ano ultrapasse 1% e a inflação permanece na casa dos 6% (ou mais)",
+      "details": "A Rússia é que o país enfrenta um período prolongado de estagflação, é improvável que o crescimento deste ano ultrapasse 1% e a inflação permanece na casa dos 6% (ou mais)",
+      "url": "https://www.estadao.com.br/internacional/como-a-estagnacao-da-economia-russa-deixou-putin-encurralado-na-ucrania/",
+      "source": "Estadão",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-21T21:00:00Z",
+      "updatedAt": "2026-08-21T21:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/YP5REFCOJRBJFARZHTK6EJGC7E.jpg?quality=80&auth=a88c99632062e95c5c3f10303c1f008ec147993c6c6cc3fb686470b91c2183b5&width=1200&height=630&smart=true"
+    },
+    {
       "id": "macro-9e7de8565a0f47e7394fd170",
       "title": "Durigan: seguiremos apertando o arcabouço fiscal para colaborar com a política monetária",
       "summary": "Atualizacao de macro capturada em UOL Economia.",
@@ -570,9 +687,9 @@
     {
       "id": "macro-48125e95919138858bb90233",
       "title": "Durigan: Crescimento das vendas no varejo acompanhou o crescimento do PIB brasileiro",
-      "summary": "O Ibovespa (BOV:IBOV) encerrou o pregão desta sexta-feira (21/08) em forte alta de 1,84%, aos 171.014 pontos, em uma sessão marcada pela retomada...",
-      "details": "O Ibovespa (BOV:IBOV) encerrou o pregão desta sexta-feira (21/08) em forte alta de 1,84%, aos 171.014 pontos, em uma sessão marcada pela retomada...",
-      "url": "https://br.advfn.com/jornal/2026/08/ibovespa-avanca-com-eleicoes-no-radar-e-apetite-ao-risco-no-exterior",
+      "summary": "Atualizacao de macro capturada em UOL Economia.",
+      "details": "",
+      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/08/21/durigan-crescimento-das-vendas-no-varejo-acompanhou-o-crescimento-do-pib-brasileiro.htm",
       "source": "UOL Economia",
       "category": "macro",
       "tags": [
@@ -583,15 +700,33 @@
       "publishedAt": "2026-08-21T20:49:00Z",
       "updatedAt": "2026-08-21T20:49:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://br.advfn.com/jornal/files/2025/10/ibovespa-B3216.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "latest-8277f0fc10e47cfe07884674",
+      "title": "Ibovespa engatou a terceira alta consecutiva",
+      "summary": "Misto Brasil",
+      "details": "O dólar à vista encerrou as negociações a R$ 5,1451, com queda de 0,93%. Na semana, a divisa acumulou valorização de 1,21%.",
+      "url": "https://mistobrasil.com/2026/08/21/ibovespa-engatou-a-terceira-alta-consecutiva/?amp=1",
+      "source": "- Misto Brasil",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-21T20:46:28Z",
+      "updatedAt": "2026-08-21T20:46:28Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://mistobrasil.com/wp-content/uploads/2026/08/bolsa-de-valores-ibovespa.jpg"
     },
     {
       "id": "latest-d639172a78fc871731637de1",
       "title": "Cotação do boi gordo permanece estável devido a baixa oferta",
-      "summary": "O FMI projeta que a dívida pública do Brasil atinja 100% do PIB em 2027. O país registrou déficit nominal de 8,1% do PIB em 2025. Especialista aponta que a credibilidade fiscal é determinante para o futuro.",
-      "details": "O FMI projeta que a dívida pública do Brasil atinja 100% do PIB em 2027. O país registrou déficit nominal de 8,1% do PIB em 2025. Especialista aponta que a credibilidade fiscal é determinante para o futuro.",
-      "url": "https://aciara.com.br/divida-publica-brasil-brasileira-deve/",
+      "summary": "Atualizacao de ultima hora capturada em boca.com.br.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd3NMS3JjWGRBdlV3cTFJeTNWM1hVbVBkVHUtQlk2MGF3MDc1RmVEb1VGOGkxTjNhdm1oWm1jOXdPWVV0dGFhbWFJSzc0YkFCdF8xOGNxTjVKRk5pV0xJNnVJQTVfVGNqTF81b29jZGt3OU1iLTRjUTlWVTJfTUJHMzU1WXFuWnd2bXFqRDRabjRMM0s2a3VueG9FLVRIQ2xJ?oc=5",
       "source": "boca.com.br",
       "category": "latest",
       "tags": [
@@ -602,15 +737,14 @@
       "publishedAt": "2026-08-21T20:44:46Z",
       "updatedAt": "2026-08-21T20:44:46Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://aciara.com.br/wp-content/uploads/2026/08/Design-sem-nome-97-1200x675-1.png"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-29452b53398a5fd8b61d8853",
       "title": "Dívida pública brasileira deve atingir 100% do PIB em 2027",
-      "summary": "Estabilidade nas cotações é reflexo da oferta restrita e demanda fraca",
-      "details": "Estabilidade nas cotações é reflexo da oferta restrita e demanda fraca",
-      "url": "https://boca.com.br/mercado-financeiro/cotacao-do-boi-gordo-permanece-estavel-devido-a-baixa-oferta",
+      "summary": "Atualizacao de macro capturada em Associação Comercial e Industrial de Araçatuba.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iNHVVN0ZPSmhwU2JYdjgtMW45NngteDMwTGp0bnR3VlVQZkVjVUZ4NHpQTXAxQ1RGd2h0eXlWLTIxYXowb004MnNfRTJFOHpCVE56cHZvMG12aEJqd2JncDNiOERzQWtlUU1pMA?oc=5",
       "source": "Associação Comercial e Industrial de Araçatuba",
       "category": "macro",
       "tags": [
@@ -621,15 +755,14 @@
       "publishedAt": "2026-08-21T20:41:00Z",
       "updatedAt": "2026-08-21T20:41:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/9663987d3112c143d66b8dc8b2b3ca14_858x483.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-9696eda2391b2d5a0ef1a0b7",
       "title": "Ibovespa reage, fecha acima dos 171 mil pontos e acumula alta de 2,45% na semana",
       "summary": "Atualizacao de ultima hora capturada em Exame.",
       "details": "",
-      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/08/21/durigan-crescimento-das-vendas-no-varejo-acompanhou-o-crescimento-do-pib-brasileiro.htm",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORW9IaUZOd0J2YVR4aWEwM1hVeXp6Rm50eWZPTXNjZklDOGdxbHFDZVQ5MThOWU9seHU0dmJ5cjNPN2tGbU5lMjBHQzhTRnRQLW9heFlUbDlVUmY4TVRZT19KRmx4dU1MMHdHODhxTjFaZ3JNRUpQMDdhUHFTUE5kdF9YX2hwWUJ4U3NGRm85WGswX3B4a1h6U3MxcnIzVFRYTElhMlVsdktRb1VsUlhZSjVR?oc=5",
       "source": "Exame",
       "category": "latest",
       "tags": [
@@ -645,9 +778,9 @@
     {
       "id": "macro-2e8c403ce0446fc3b95c5e46",
       "title": "Conselheira econômica de Flávio anuncia time de especialistas para aprofundar propostas econômicas do candidato",
-      "summary": "Ministro da Fazenda concedeu entrevista ao GloboNews Mais",
-      "details": "Ministro da Fazenda concedeu entrevista ao GloboNews Mais",
-      "url": "https://g1.globo.com/globonews/globonewsmais/video/dario-durigan-a-gente-vai-seguir-apertando-o-arcabouco-fiscal-14890767.ghtml",
+      "summary": "Atualizacao de macro capturada em O GLOBO.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQWHBvcko2M3JRcEFpU0tSZEg2Um1ZY0hLTjI4bVVsMXlGbUhILUJsTEtQRm42a2YwRFI5UV9ZR2JJSzgyLUhJZDNpZjZrcmhUanVZbm9rUUxrNnNwWVpHT1U1LUVpU3BoLWdHc2pCREQ5cmJBZWRKVXpSWnYxaUJPTllyUGlTZ1pGelVQeTVwTkozV1N0aGdsZmJGbmdzUllhYWtqU2VpbDc2b3FNeWxnRXA5b0JaUElJX3E1N2dUcXF0T1d5eVhDLVkyTFNPVTlyb1RQNlNEUG9XQkZCUXV0VUhoOXBLLS1sSklFYVdNc3ZIYkRia3I1Y0xxQ0EwZFVzTEJ1aE9VLXZXODdjUjhrZ25B0gGgAkFVX3lxTE0zQXdHSl9KaTl5MndZa2Y4NUdNNHliLVVnckdhTG1COEkwbGxUYm9MLVRETTJiekJMVTdzZ2lFbzd2ODNLcTZhQWdPN1IyQTlhOXNaVC1IOEFaa2x0d21rekxDLXU2R2ZpdWZZUHdlMlFvb0xVZk5Zc1M4SDBLc3BFUTNCV2FDcXlXdlFYVzlGN0djc1RvYV9SM3g5Si1tTTZmSGk3SE5kWGw2NUtHazJsY2w4NmZnMzhHUjJlT2pNSkR2R1JnbWZzOEZTdm9mb3NBa3Q1SkZMdUM3RHoydjFIRUFrbXR0QmdKQlZXUUpjSjZTaTF1YW9xNVlGRlRXZlhRcTd0c1E1SXBQN3pBOVVmNjJVMU40Zm1wM0dRSi1jQg?oc=5",
       "source": "O GLOBO",
       "category": "macro",
       "tags": [
@@ -658,15 +791,14 @@
       "publishedAt": "2026-08-21T20:34:37Z",
       "updatedAt": "2026-08-21T20:34:37Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s04.video.glbimg.com/x720/14890767.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-4f79bdbf62aee62afcdf537c",
       "title": "Dario Durigan: 'A gente vai seguir apertando o arcabouço fiscal'",
-      "summary": "Em evento no Rio, Daniella Marques, ex-presidente da Caixa, defendeu ajuste fiscal sem apresentar projeções de impacto e afirmou que o senador vai combater o fim da escala 6x1",
-      "details": "Em evento no Rio, Daniella Marques, ex-presidente da Caixa, defendeu ajuste fiscal sem apresentar projeções de impacto e afirmou que o senador vai combater o fim da escala 6x1",
-      "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/08/21/conselheira-economica-de-flavio-anuncia-time-de-especialistas-para-aprofundar-propostas-economicas-do-candidato.ghtml",
+      "summary": "Atualizacao de macro capturada em G1.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPa2F2RmRTNHlRbWlKVDFPMFduUWk3VGVnSmFRc285dE9CUi1sdk5jbWtVQkZkSlpKM1RlLWpNSlBJcEN1Wkt3RWczWFRNVkw4NnRvTnNWZnJxNXFFemRvcUM1VlN5TWVMSmFlQnZSejBja3B2cmN0VlV4UFRiRDdWT09ORjFpODN0VWIzcWtRYmNXR0llSmlLRXctcHhXYXJYOTJiQ1hmMXk4S3pqbW1TM3JUeEhXNzJlT19HMnJSb2VxUFEwRVHSAdQBQVVfeXFMTkd5Zko0clREV2pFSUhnRkdSWWZKd0Y3VGVpUXpZeUZQSXpGR3dhcWpUZHhCT0NLSGQtVHB3Z3M2WnpHZWNjUzBzdGgyYkMzcXlISnpNTzE3Rmt6S2lnWHp4dy1JenNZd1NsN3VRc3FWRFprbDgxa1l3aUlJRHBSV2lXZWItanAzbXVLZUFMOC1JOFVkTGszTm1uX0VyeXJfM1FiQTB5NG5EeEo2SllwY0g1VjBWUklOV3NrTnl3bkhIOVk0TDE2MVFlYjdHal9CMTdnWkQ?oc=5",
       "source": "G1",
       "category": "macro",
       "tags": [
@@ -677,15 +809,14 @@
       "publishedAt": "2026-08-21T20:33:10Z",
       "updatedAt": "2026-08-21T20:33:10Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-oglobo.glbimg.com/m_4DjDYlS_COPBsHeAXFseOf7sc=/627x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/y/v/ZZnvynTGGwjcNHBc0l2A/daniella-marques-ex-presidente-da-caixa-gabriel-de-paiva-4.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-6c0f40bb2dac72864bb44485",
       "title": "Receita Federal destaca agronegócio e cooperativismo agrícola em novo módulo do Curso Reforma Tributária do Consumo",
       "summary": "Atualizacao de macro capturada em www.gov.br.",
       "details": "",
-      "url": "https://exame.com/invest/mercados/ibovespa-reage-fecha-acima-dos-171-mil-pontos-e-acumula-alta-de-245-na-semana/",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPVGNZdnZwcHVKRG9lczVkTXA5bXdoWDdMWFlzaUZOTEhhRWpWQzB2MzNkMlJZeVJaVVpRVkdoWXJoeEFNcWlQVzJPUFhxbFA0QjY1a2VhR3pVUVlyazA2U3czbkFsVEhTbGgxUFdWN0V3U1ljbmdnVWJaSVM5ZkN5WnBUbUlqVHdwVTZkQ1dWQmRxbXVTQ2JWUHMxVkpWZEZIQlBlMVB3bVpadXRTZFBjYVhZaVBQQkZVS3kwSkx6RUFtSXZ4UU5PNVlOa0lYNGJGck5nNUQ2RFRJYVNwUENfSm1HMTFCS3BHV240Vkp2eWQ5UFZMUVpDX1lDeE9UVXJEcnFob2lZNzE5VVNGeWJ3TVZSVQ?oc=5",
       "source": "www.gov.br",
       "category": "macro",
       "tags": [
@@ -701,9 +832,9 @@
     {
       "id": "latest-8127698df91f9e8f6f51fc91",
       "title": "Ibovespa avança, com eleições no radar e apetite ao risco no exterior",
-      "summary": "Módulo abordará as novas regras aplicáveis ao setor, com foco nos impactos da Reforma Tributária do Consumo para produtores rurais e cooperativas agrícolas.",
-      "details": "Módulo abordará as novas regras aplicáveis ao setor, com foco nos impactos da Reforma Tributária do Consumo para produtores rurais e cooperativas agrícolas.",
-      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-destaca-agronegocio-e-cooperativismo-agricola-em-novo-modulo-do-curso-reforma-tributaria-do-consumo",
+      "summary": "Atualizacao de ultima hora capturada em ADVFN.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWEEwbTZKUFhDcHQtNnhMNldpaWlPTmRNWWxuNWlZcnVKdWFoajdKbUpTRXdrZXlQV0l4anZlMFRoTkpNY2hTOU9rNm5zNlRZeHpyOFB5aHU3d3VnaXZRYk5ZNlVHdy1NYTFmeURLUy1JcmE0RVlBQ2xITFBGVmxla2lIbmRJcXB2VHpWRzJSY19pWmhEUk9DSTRqdnl3d3B5czhiX2ppcw?oc=5",
       "source": "ADVFN",
       "category": "latest",
       "tags": [
@@ -714,8 +845,7 @@
       "publishedAt": "2026-08-21T20:27:35Z",
       "updatedAt": "2026-08-21T20:27:35Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/agosto/receita-federal-destaca-agronegocio-e-cooperativismo-agricola-em-novo-modulo-do-curso-reforma-tributaria-do-consumo/banner-defeso-eleitoral-site.jpg/@@images/b81edf8c-850f-4bd8-9327-8070f029192d.jpeg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-88e944258bfc58f4bc28f864",
@@ -752,132 +882,6 @@
       "updatedAt": "2026-08-21T20:24:34Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-c64a3eecc06ba06f71198a45",
-      "title": "Ibovespa sobe 1,8% e tem 3º dia de ganhos à espera de Datafolha; dólar cai a R$ 5,14",
-      "summary": "Atualizacao de ultima hora capturada em Money Times.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1raHhoeWVPUkdzZ2hVNjYzbDF4V3RaMEVMQWxlcTF6bWFkR0JvNFh0RHZlNEc0MFkxUkJic1d1aHJucjQ2S2dSZkdocV9Sb2VSMXpSMlhSRi1pTE16ZmZhTlRB?oc=5",
-      "source": "Money Times",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-21T20:21:00Z",
-      "updatedAt": "2026-08-21T20:21:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "macro-5b97702bdda52a22bb87f3ee",
-      "title": "Impasse em Hormuz pressiona petróleo e amplia risco de inflação",
-      "summary": "Atualizacao de macro capturada em Vero Notícias.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQUljYmxIeGhBUVEtdFN1WDdSUG8zMGRRSGVPSGo0SGY5UXRXRnJFZDJqNWN6ZXBDN3c5M2JnVWl1OTNweWZjcFlTRFdBaUNIQTBiTEV1ek5Uam5UZXQyVE0xb1oxOHFOUS1BRWRaZm1JZ2ItM0x2b1pSNmxGV0ZicnR3aUFsZ1JVWkxEcHZJMkJwdkdIc1dUVUctbw?oc=5",
-      "source": "Vero Notícias",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-21T20:20:13Z",
-      "updatedAt": "2026-08-21T20:20:13Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-ffd2bc9d4b1faf8f498da7b5",
-      "title": "A crise dos Treasuries: por que os títulos americanos ameaçam a estabilidade global",
-      "summary": "Atualizacao de macro capturada em ISTOÉ DINHEIRO.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORDJaQU04R1RVUEg1S0tkY0xvNFk2OU4tSXZVX0RwZThJUWRCSm9MQWJvZ2JqY1ZsM1dmWWE2aE1HUWl0U2FRbm9TcUdmMWhhZmE5MHVKSzJ3UVdNODV1VGFsSFFoUURuN0gyNWJEN2dDdm1wTDhscHBHOXZPQ05XWnZmV0YzLWs?oc=5",
-      "source": "ISTOÉ DINHEIRO",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-21T20:13:33Z",
-      "updatedAt": "2026-08-21T20:13:33Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "latest-99f65ea75b8f90dd8e2db9b4",
-      "title": "Ibovespa cai 19% em dólar e é o pior da América Latina",
-      "summary": "Atualizacao de ultima hora capturada em SpaceMoney.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRmt1NHNfVDlSUjJ3MWtNdWEzZ2h6c0UxWGV1NTVXWno4UV9YbEI5bFZMSGVOY2NybExTVjZhNy13QWdQZnd0ZDBVdlRVUk83TnZkd2cwUDJmYWQ4TjNkTEVkT01XZTBQSDhTbUhIdER0Q2N6eTlUa3dfZFlxUXhra2FUXzlrTWVaZExIUkRKOGxsMW1L?oc=5",
-      "source": "SpaceMoney",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-21T20:12:31Z",
-      "updatedAt": "2026-08-21T20:12:31Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-ffce76524aa93a625d601914",
-      "title": "Soja e milho têm leve alta; trigo fecha em queda na Bolsa de Chicago",
-      "summary": "Atualizacao de ultima hora capturada em boca.com.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQkMyOE9meEFHNF9xVDFfek9jSTVzTUdudnJOVURRc3VOOTBnR0NUTy1UY0l5X29MajVoZ0JucFdEemhFOUFRdjJ2UHR0ay1Dek5pajY4azU3VVEyRldieFVRNFh4MV8ydHJnaFU5X0V0LTdPazBIdVB2bmFKU1lWMHhWN1pMUVpYRXJoUU1zZTdnRjFuNkpTRFg4eElPMW9NMmZaTHo1RDdDQQ?oc=5",
-      "source": "boca.com.br",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-21T20:09:19Z",
-      "updatedAt": "2026-08-21T20:09:19Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "macro-49ed2c25008837a46959acfb",
-      "title": "Ministro da Fazenda fala em 'apertar' o arcabouço fiscal para ajudar política monetária",
-      "summary": "Atualizacao de macro capturada em O GLOBO.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQck1wUERXZmJ6b2R3OXhHN2tLcWFvQUNYMnc4LVlIWXFaaE56Y3VJOUpVb2s0RFhRV09pQ3FmemhndUxEX3dHaWgyQk1JdFIydkItVy15aG1BTHg5ZkR3RlMtaGZwOFhCLU5qbTFwQ0FobHllc3drVFhmNTB0RnNpZ3NlalBnczR3NUlHbDFlVXVIM2ZQcF9vV1ZzNNIBqgFBVV95cUxPVDJNSEs4c3ZpZVZyX2xmcm5iYzRnb3VQWUZCckUyWXVkdTloSVdmV2hpRUFiTU9PSnZNbEtuTUhDN0NuSHZaYWNPdEItRUwzNTBJMlg1VVkxdkZtRmExZGtyTnJQbGZleWx0U1BTYU1xcnl1OTJPSDNsQkZwZWFVb3JoSC03ZlozQklmamJqQW5PdTRSekI0NzRYb0ppYjVmNVdOOXJuTXNqQQ?oc=5",
-      "source": "O GLOBO",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-21T19:46:10Z",
-      "updatedAt": "2026-08-21T19:46:10Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-53a4105524802a432b6ac992",
-      "title": "Restituição do IRPF 2026: Consulta ao 4º lote é liberada hoje; saiba como checar",
-      "summary": "Atualizacao de macro capturada em ISTOÉ DINHEIRO.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1oZXMwOEM5ei1PUEtLXy14MHNtbmY3cHZsZ1VsYU1EWnROZi1fLW9HZ1dtR2FGenhFX1BJQzJRaG1PT3U1eTBfOEFVQk5iQXNlOTZnODJWSDlKbWNocHRMS0JDcktWdjZVZ09kTFcyd2ZTb0FSeTBqbllEZWc?oc=5",
-      "source": "ISTOÉ DINHEIRO",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-21T19:43:46Z",
-      "updatedAt": "2026-08-21T19:43:46Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "funds-374e5f7dd046608d9375c073",
@@ -1204,24 +1208,6 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "funds-95ed9a5308e898bbcdb827eb",
-      "title": "Detalhamento da Receita de JAS Asset Public Company Limited – SET:J",
-      "summary": "Atualizacao de fundos capturada em TradingView.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1iWXBvMFA5bVNIcVNpcExsUWtvcHIxS04wZ2dUMHROZllodGdCczdUV0toTlpqVEg5LXpDVkJqYl95NG1ROUZycC0tVkVfclNoSE5CNm42TDloZE94VHpSeUg3U2xwc2FpRDZrd2FR?oc=5",
-      "source": "TradingView",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-08-21T13:49:02Z",
-      "updatedAt": "2026-08-21T13:49:02Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
       "id": "funds-1fd349edaf08a4f27734f667",
       "title": "A dívida pública brasileira está sufocando o mercado de capitais?, por Maurício Luperi",
       "summary": "Atualizacao de fundos capturada em Jornal GGN.",
@@ -1364,6 +1350,24 @@
       "updatedAt": "2026-08-21T11:46:34Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "funds-26911487d27e1fc582ece980",
+      "title": "Sandro Magaldi é confirmado no 47º CBPP com palestra sobre liderança e cultura",
+      "summary": "Atualizacao de fundos capturada em Blog Abrapp Em Foco.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd0hTZkZQQ2hxM0puRUhHTnB3cDMzWXd1bEtmYktiUUMwTUl3OGhEenRhdVVDZWxWQ3JCOU1qakRrdUtkR19tZkJFMkozY2I4OHplQ19kMXVUTVVWQ2dhb29uRERiMjFSX0M2NFlHMXpUWHZidTB6dldYbnRmbzZrTlNERVBuZDNVR3pGaUpfZHRpMWtBTmpVdExmX0VuYlRnNzlmLUxhV0lBS3NRQkVpZQ?oc=5",
+      "source": "Blog Abrapp Em Foco",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-08-21T11:46:00Z",
+      "updatedAt": "2026-08-21T11:46:00Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     }
   ]
 }
