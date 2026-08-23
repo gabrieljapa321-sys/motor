@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-23T15:17:41Z",
-  "generatedAt": "2026-08-23T15:17:41Z",
+  "updatedAt": "2026-08-23T15:46:35Z",
+  "generatedAt": "2026-08-23T15:46:35Z",
   "categories": [
     {
       "id": "all",
@@ -39,6 +39,14 @@
     {
       "id": "alagoas-alerta",
       "label": "Alagoas Alerta"
+    },
+    {
+      "id": "balada-in",
+      "label": "Balada IN"
+    },
+    {
+      "id": "blocktrends",
+      "label": "BlockTrends"
     },
     {
       "id": "bloomberg-l-nea-brasil",
@@ -101,6 +109,10 @@
       "label": "financenews.com.br"
     },
     {
+      "id": "folha-do-estado-da-bahia",
+      "label": "Folha do Estado da Bahia"
+    },
+    {
       "id": "g1",
       "label": "G1"
     },
@@ -137,6 +149,10 @@
       "label": "Jornal Opção"
     },
     {
+      "id": "jornal-panorama-minas",
+      "label": "Jornal Panorama Minas"
+    },
+    {
       "id": "jornal-pt50",
       "label": "Jornal PT50"
     },
@@ -165,8 +181,8 @@
       "label": "O GLOBO"
     },
     {
-      "id": "o-povo",
-      "label": "O POVO"
+      "id": "propmark",
+      "label": "Propmark"
     },
     {
       "id": "redeutv-com-br",
@@ -205,6 +221,10 @@
       "label": "Tribuna do Agreste"
     },
     {
+      "id": "tribuna-do-paran",
+      "label": "Tribuna do Paraná"
+    },
+    {
       "id": "trivela",
       "label": "Trivela"
     },
@@ -231,11 +251,106 @@
   ],
   "items": [
     {
-      "id": "funds-24f5930cd649046be453068d",
-      "title": "Trump declara até US$ 263 milhões em venda de ações e fundos de investimento",
+      "id": "macro-9bef823cf9f2a4596fd568af",
+      "title": "IPCA-15, payroll e Simpósio de Jackson Hole dominam a agenda dos mercados nesta semana",
+      "summary": "Vanessa Pires, CEO da Brada Durante muitos anos, o investimento social privado no Brasil foi tratado por diversas empresas apenas como uma ação paralela de reputação ou responsabilidade institucional. Projetos culturais, esportivos e sociais frequentemente ocupavam um espaço secu",
+      "details": "Vanessa Pires, CEO da Brada Durante muitos anos, o investimento social privado no Brasil foi tratado por diversas empresas apenas como uma ação paralela de reputação ou responsabilidade institucional. Projetos culturais, esportivos e sociais frequentemente ocupavam um espaço secundário dentro das estratégias corporativ",
+      "url": "https://propmark.com.br/artigos/o-novo-marketing-de-causa-das-marcas-brasileiras/",
+      "source": "BlockTrends",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-23T15:33:30Z",
+      "updatedAt": "2026-08-23T15:33:30Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://propmark.com.br/wp-content/uploads/2026/05/Vanessa-Pires-2.jpg.jpeg"
+    },
+    {
+      "id": "companies-a32078091dae859fa30b8928",
+      "title": "O novo marketing de causa das marcas brasileiras",
+      "summary": "Argentinos fizeram 18 aquisições no Brasil em 2025, quase o dobro do movimento inverso, aproveitando juros altos e ativos desvalorizados.",
+      "details": "Argentinos fizeram 18 aquisições no Brasil em 2025, quase o dobro do movimento inverso, aproveitando juros altos e ativos desvalorizados.",
+      "url": "https://www.tribunapr.com.br/noticias/economia/empresarios-argentinos-compram-empresas-brasileiras-em-ritmo-recorde/",
+      "source": "Propmark",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-08-23T15:27:55Z",
+      "updatedAt": "2026-08-23T15:27:55Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://www.tribunapr.com.br/wp-content/uploads/2026/06/22152540/dinheiro-economia-ia-4.jpg"
+    },
+    {
+      "id": "macro-a36105794d4b7bba00a74329",
+      "title": "Audiência Pública apresentará Relatório de Gestão Fiscal do 1º semestre em Itacarambi",
+      "summary": "Ações da companhia de defesa e armamentos Palantir apareceram entre as principais operações de compra e venda de ativos do presidente americano no último trimestre Donald Trump fez um dos maiores giros de suas carteiras no segundo trimestre, totalizando US$ 78 a US$ 263 milhões e",
+      "details": "Ações da companhia de defesa e armamentos Palantir apareceram entre as principais operações de compra e venda de ativos do presidente americano no último trimestre Donald Trump fez um dos maiores giros de suas carteiras no segundo trimestre, totalizando US$ 78 a US$ 263 milhões entre compras e vendas de…",
+      "url": "https://www.moneyreport.com.br/politica/trump-declara-ate-us-263-milhoes-em-venda-de-acoes-e-fundos-de-investimento/",
+      "source": "Jornal Panorama Minas",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-23T15:16:51Z",
+      "updatedAt": "2026-08-23T15:16:51Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.moneyreport.com.br/wp-content/uploads/2026/06/donald-trump-eua-tarifas.jpg"
+    },
+    {
+      "id": "latest-a5cd5336272be96c6c779b60",
+      "title": "BC de Galípolo vira 'Velho Testamento' na Faria Lima",
       "summary": "Há quem se atribua a função de fiscalizar o lazer dos outros, como se o viver tivesse que obedecer a um protocolo de autenticidade",
       "details": "Há quem se atribua a função de fiscalizar o lazer dos outros, como se o viver tivesse que obedecer a um protocolo de autenticidade",
       "url": "https://imirante.com/noticias/sao-luis/2026/08/23/fiscal-do-meu-lazer",
+      "source": "SpaceMoney",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-23T15:16:05Z",
+      "updatedAt": "2026-08-23T15:16:05Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://imirante.com/assets/images/logo-social-imirante.jpg"
+    },
+    {
+      "id": "companies-0387b18f3b6112e88804bfcd",
+      "title": "Empresários argentinos compram empresas brasileiras",
+      "summary": "Banimento de André Schwartz por 4 anos e novas punições a executivos rendem ao BC de Galípolo o apelido de Velho Testamento na Faria Lima",
+      "details": "Banimento de André Schwartz por 4 anos e novas punições a executivos rendem ao BC de Galípolo o apelido de Velho Testamento na Faria Lima",
+      "url": "https://www.spacemoney.com.br/economia/bc-de-galipolo-vira-velho-testamento/",
+      "source": "Tribuna do Paraná",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-08-23T15:07:00Z",
+      "updatedAt": "2026-08-23T15:07:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-26774419-9.webp"
+    },
+    {
+      "id": "funds-24f5930cd649046be453068d",
+      "title": "Trump declara até US$ 263 milhões em venda de ações e fundos de investimento",
+      "summary": "Sorteio ocorreu neste domingo (23). Confira quais foram os cinco bilhetes premiados.",
+      "details": "Sorteio ocorreu neste domingo (23). Confira quais foram os cinco bilhetes premiados.",
+      "url": "https://g1.globo.com/loterias/loteria-federal/noticia/2026/08/23/loteria-federal-hoje-resultado-do-concurso-6094-e-numeros-sorteados.ghtml",
       "source": "Money Report",
       "category": "funds",
       "tags": [
@@ -247,14 +362,14 @@
       "updatedAt": "2026-08-23T15:06:56Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://imirante.com/assets/images/logo-social-imirante.jpg"
+      "imageUrl": "https://s2-g1.glbimg.com/TGpiaI1xsyQJBOw9iGP--3cN5us=/1280x0/filters:format(jpeg)/https://s02.video.glbimg.com/x720/14894077.jpg"
     },
     {
       "id": "macro-402c63e3dcfe96d5c454bc01",
       "title": "Fiscal do meu lazer",
-      "summary": "Sorteio ocorreu neste domingo (23). Confira quais foram os cinco bilhetes premiados.",
-      "details": "Sorteio ocorreu neste domingo (23). Confira quais foram os cinco bilhetes premiados.",
-      "url": "https://g1.globo.com/loterias/loteria-federal/noticia/2026/08/23/loteria-federal-hoje-resultado-do-concurso-6094-e-numeros-sorteados.ghtml",
+      "summary": "Atualizacao de macro capturada em Imirante.com.",
+      "details": "",
+      "url": "https://jornalpanoramaminas.com.br/audiencia-publica-apresentara-relatorio-de-gestao-fiscal-do-1o-semestre-em-itacarambi/",
       "source": "Imirante.com",
       "category": "macro",
       "tags": [
@@ -265,27 +380,7 @@
       "publishedAt": "2026-08-23T15:02:00Z",
       "updatedAt": "2026-08-23T15:02:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-g1.glbimg.com/ctFTpJbCpeU9nn8IcRzKy3RNsCo=/583x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/f/f/41PaWjSGOWo8I7j3uNow/voltantes-federal.jpg"
-    },
-    {
-      "id": "funds-9f24e099d40b7505b2d260cf",
-      "title": "Afrânio Boppré (PSOL) declara patrimônio de R$ 1,5 milhão: veja bens do candidato ao Senado por SC",
-      "summary": "Ações da companhia de defesa e armamentos Palantir apareceram entre as principais operações de compra e venda de ativos do presidente americano no último trimestre Donald Trump fez um dos maiores giros de suas carteiras no segundo trimestre, totalizando US$ 78 a US$ 263 milhões e",
-      "details": "Ações da companhia de defesa e armamentos Palantir apareceram entre as principais operações de compra e venda de ativos do presidente americano no último trimestre Donald Trump fez um dos maiores giros de suas carteiras no segundo trimestre, totalizando US$ 78 a US$ 263 milhões entre compras e vendas de…",
-      "url": "https://www.moneyreport.com.br/politica/trump-declara-ate-us-263-milhoes-em-venda-de-acoes-e-fundos-de-investimento/",
-      "source": "G1",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-08-23T15:00:18Z",
-      "updatedAt": "2026-08-23T15:00:18Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://www.moneyreport.com.br/wp-content/uploads/2026/06/donald-trump-eua-tarifas.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-c85212899552bcaa597bce40",
@@ -309,9 +404,9 @@
     {
       "id": "latest-dfc9b542e4b0a45721ca3503",
       "title": "Inflação, dados de emprego e Jackson Hole dividem os holofotes do mercado; confira agenda da semana",
-      "summary": "Dados estão disponíveis para consulta pública no sistema da Justiça Eleitoral.",
-      "details": "Dados estão disponíveis para consulta pública no sistema da Justiça Eleitoral.",
-      "url": "https://g1.globo.com/sc/santa-catarina/eleicoes/2026/noticia/2026/08/23/patrimonio-senado-afranio-boppre.ghtml",
+      "summary": "Semana concentra IPCA-15, dados de emprego no Brasil e nos EUA, além do Simpósio de Jackson Hole. Veja o que cada indicador significa para juros e investimentos.",
+      "details": "Semana concentra IPCA-15, dados de emprego no Brasil e nos EUA, além do Simpósio de Jackson Hole. Veja o que cada indicador significa para juros e investimentos.",
+      "url": "https://blocktrends.com.br/ipca-15-payroll-jackson-hole-agenda-semana/",
       "source": "Money Times",
       "category": "latest",
       "tags": [
@@ -323,7 +418,7 @@
       "updatedAt": "2026-08-23T14:50:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://s2-g1.glbimg.com/axqJW3SeuRcE7J1B781SNakw-JE=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/4/X/82RBB2S7ioJKId7ojyhw/whatsapp-image-2026-07-21-at-20.15.28.jpeg"
+      "imageUrl": "https://blocktrends.com.br/wp-content/uploads/2026/08/bt-374889-1787499210.jpg"
     },
     {
       "id": "companies-abbf8ff8765ba0d5f4102331",
@@ -366,9 +461,9 @@
     {
       "id": "macro-4f4417f008e100a64bb87d9f",
       "title": "Agenda econômica da semana: inflação do Brasil, Jackson Hole e PIB do México",
-      "summary": "Dados de inflação e de emprego vão marcar a agenda dos mercados, enquanto Jackson Hole concentrará as atenções no rumo da política monetária do Fed",
-      "details": "Dados de inflação e de emprego vão marcar a agenda dos mercados, enquanto Jackson Hole concentrará as atenções no rumo da política monetária do Fed",
-      "url": "https://www.bloomberglinea.com.br/mercados/agenda-economica-da-semana-inflacao-do-brasil-jackson-hole-e-pib-do-mexico/",
+      "summary": "Publicado às 11h19 Notícias corporativas Dono da Afya, Bertelsmann analisa fusão com o Yduqs, diz […]",
+      "details": "Publicado às 11h19 Notícias corporativas Dono da Afya, Bertelsmann analisa fusão com o Yduqs, diz […]",
+      "url": "https://financenews.com.br/2026/08/noticia-da-eneva-yduqs-casas-bahia-slc-agricola-petroreconcavo-e-outros-destaques-corporativos/",
       "source": "Bloomberg Línea Brasil",
       "category": "macro",
       "tags": [
@@ -380,33 +475,14 @@
       "updatedAt": "2026-08-23T14:26:57Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.bloomberglinea.com/resizer/v2/2DOWJKIVSVEIFFGI45ZWSJLZWU.jpg?auth=67b13ba87e89283b9632f0c952760439c6869ed53719399da658581a59b9a538&width=1200&height=675&quality=80&smart=true"
-    },
-    {
-      "id": "macro-9a21e567a7064a4106d21269",
-      "title": "“Milei vai ser Milei”: presidente argentino resiste a mudar plano econômico",
-      "summary": "Apuração do Clarín revela bastidores de um presidente resistente a ajustes enquanto atividade desacelera, inflação pressiona e cresce a preocupação com 2027",
-      "details": "Apuração do Clarín revela bastidores de um presidente resistente a ajustes enquanto atividade desacelera, inflação pressiona e cresce a preocupação com 2027",
-      "url": "https://www.infomoney.com.br/mundo/milei-vai-ser-milei-presidente-argentino-resiste-a-mudar-plano-economico/",
-      "source": "InfoMoney",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-23T14:24:51Z",
-      "updatedAt": "2026-08-23T14:24:51Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2025/09/Captura-de-tela-2025-09-08-081628.png"
+      "imageUrl": "https://financenews.com.br/wp-content/uploads/2024/04/foto.jpg"
     },
     {
       "id": "funds-721f9147cdd0e6269e90227f",
       "title": "Notícia da Eneva, Yduqs, Casas Bahia, SLC Agrícola, PetroReconcavo e outros destaques corporativos",
-      "summary": "Publicado às 11h19 Notícias corporativas Dono da Afya, Bertelsmann analisa fusão com o Yduqs, diz […]",
-      "details": "Publicado às 11h19 Notícias corporativas Dono da Afya, Bertelsmann analisa fusão com o Yduqs, diz […]",
-      "url": "https://financenews.com.br/2026/08/noticia-da-eneva-yduqs-casas-bahia-slc-agricola-petroreconcavo-e-outros-destaques-corporativos/",
+      "summary": "Por que argentinos estão comprando negócios no Brasil? Entenda o que mudou com Milei e por que o país se tornou atraente aos investidores.",
+      "details": "Por que argentinos estão comprando negócios no Brasil? Entenda o que mudou com Milei e por que o país se tornou atraente aos investidores.",
+      "url": "https://www.gazetadopovo.com.br/economia/empresarios-argentinos-compram-empresas-brasileiras/",
       "source": "financenews.com.br",
       "category": "funds",
       "tags": [
@@ -418,14 +494,14 @@
       "updatedAt": "2026-08-23T14:22:26Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://financenews.com.br/wp-content/uploads/2024/04/foto.jpg"
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/08/20145314/argentinos-compram-empresas-brasileiras.jpg"
     },
     {
       "id": "latest-bfa1a164caff7401eb571ecf",
       "title": "Starlink Mini chega ao seu melhor preço no Mercado Livre com opção de parcelamento sem juros",
       "summary": "Atualizacao de ultima hora capturada em TudoCelular.com.",
       "details": "",
-      "url": "https://www.cartacapital.com.br/do-micro-ao-macro/cios-do-setor-financeiro-aceleram-adocao-de-ia/",
+      "url": "https://www.tudocelular.com/tech/noticias/n261294/starlink-mini-chega-ao-seu-melhor-preco-no-mercado-livre-com-opcao-de-parcelamento-sem-juros.html",
       "source": "TudoCelular.com",
       "category": "latest",
       "tags": [
@@ -441,9 +517,9 @@
     {
       "id": "companies-c9c62aeaded4180ae8d5898c",
       "title": "Por que investidores argentinos estão comprando empresas brasileiras",
-      "summary": "Por que argentinos estão comprando negócios no Brasil? Entenda o que mudou com Milei e por que o país se tornou atraente aos investidores.",
-      "details": "Por que argentinos estão comprando negócios no Brasil? Entenda o que mudou com Milei e por que o país se tornou atraente aos investidores.",
-      "url": "https://www.gazetadopovo.com.br/economia/empresarios-argentinos-compram-empresas-brasileiras/",
+      "summary": "Um El Niño forte pode elevar em até 19,9% os preços dos alimentos in natura e acrescentar 0,83 ponto percentual ao IPCA.",
+      "details": "Um El Niño forte pode elevar em até 19,9% os preços dos alimentos in natura e acrescentar 0,83 ponto percentual ao IPCA.",
+      "url": "https://veronoticias.com/economia/el-nino-pode-elevar-alimentos-em-20-e-pressionar-inflacao/",
       "source": "Gazeta do Povo",
       "category": "companies",
       "tags": [
@@ -455,14 +531,14 @@
       "updatedAt": "2026-08-23T14:05:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/08/20145314/argentinos-compram-empresas-brasileiras.jpg"
+      "imageUrl": "https://veronoticias.com/wp-content/uploads/2024/09/Preco-dos-aliimentos.jpg"
     },
     {
       "id": "latest-210ff2232d4c01ea96ade98b",
       "title": "96% dos CIOs do setor financeiro aceleram a adoção de IA",
-      "summary": "Atualizacao de ultima hora capturada em CartaCapital.",
-      "details": "",
-      "url": "https://www.tudocelular.com/tech/noticias/n261294/starlink-mini-chega-ao-seu-melhor-preco-no-mercado-livre-com-opcao-de-parcelamento-sem-juros.html",
+      "summary": "Dados de inflação e de emprego vão marcar a agenda dos mercados, enquanto Jackson Hole concentrará as atenções no rumo da política monetária do Fed",
+      "details": "Dados de inflação e de emprego vão marcar a agenda dos mercados, enquanto Jackson Hole concentrará as atenções no rumo da política monetária do Fed",
+      "url": "https://www.bloomberglinea.com.br/mercados/agenda-economica-da-semana-inflacao-do-brasil-jackson-hole-e-pib-do-mexico/",
       "source": "CartaCapital",
       "category": "latest",
       "tags": [
@@ -473,14 +549,15 @@
       "publishedAt": "2026-08-23T14:00:00Z",
       "updatedAt": "2026-08-23T14:00:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.bloomberglinea.com/resizer/v2/2DOWJKIVSVEIFFGI45ZWSJLZWU.jpg?auth=67b13ba87e89283b9632f0c952760439c6869ed53719399da658581a59b9a538&width=1200&height=675&quality=80&smart=true"
     },
     {
       "id": "macro-d402ca39b16c1d51df9c6c2a",
       "title": "El Niño pode elevar alimentos em 20% e pressionar inflação",
-      "summary": "Um El Niño forte pode elevar em até 19,9% os preços dos alimentos in natura e acrescentar 0,83 ponto percentual ao IPCA.",
-      "details": "Um El Niño forte pode elevar em até 19,9% os preços dos alimentos in natura e acrescentar 0,83 ponto percentual ao IPCA.",
-      "url": "https://veronoticias.com/economia/el-nino-pode-elevar-alimentos-em-20-e-pressionar-inflacao/",
+      "summary": "Atualizacao de macro capturada em Vero Notícias.",
+      "details": "",
+      "url": "https://www.cartacapital.com.br/do-micro-ao-macro/cios-do-setor-financeiro-aceleram-adocao-de-ia/",
       "source": "Vero Notícias",
       "category": "macro",
       "tags": [
@@ -491,8 +568,7 @@
       "publishedAt": "2026-08-23T14:00:00Z",
       "updatedAt": "2026-08-23T14:00:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://veronoticias.com/wp-content/uploads/2024/09/Preco-dos-aliimentos.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-660411c67b440e8b1c0625c5",
@@ -554,9 +630,9 @@
     {
       "id": "funds-b2fcb3ded499a45f104510b6",
       "title": "S&P 500 e alavancagem: este detalhe é um verdadeiro perigo para a Bolsa",
-      "summary": "Atualizacao de fundos capturada em Acionista.com.br.",
-      "details": "",
-      "url": "https://acionista.com.br/sp-500-e-alavancagem-este-detalhe-e-um-verdadeiro-perigo-para-a-bolsa/",
+      "summary": "A Mettalex está a integrar os uAgents da Fetch.ai para negociação peer-to-peer direta.",
+      "details": "A Mettalex está a integrar os uAgents da Fetch.ai para negociação peer-to-peer direta.",
+      "url": "https://coinfomania.com/pt/mettalex-reveals-use-of-fetch-ais-ai-agents-in-asset-trading-pt/",
       "source": "Acionista.com.br",
       "category": "funds",
       "tags": [
@@ -567,14 +643,15 @@
       "publishedAt": "2026-08-23T13:04:03Z",
       "updatedAt": "2026-08-23T13:04:03Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://coinfomania.com/wp-content/uploads/trend-banner-f02c083b-e636-4f17-afb1-d02074a2401b-1787489222799.webp"
     },
     {
       "id": "funds-3638395d03dd64b57eb7bd4d",
       "title": "Mettalex utiliza agentes de IA da Fetch.ai na negociação",
-      "summary": "A Mettalex está a integrar os uAgents da Fetch.ai para negociação peer-to-peer direta.",
-      "details": "A Mettalex está a integrar os uAgents da Fetch.ai para negociação peer-to-peer direta.",
-      "url": "https://coinfomania.com/pt/mettalex-reveals-use-of-fetch-ais-ai-agents-in-asset-trading-pt/",
+      "summary": "Atualizacao de fundos capturada em Coinfomania.",
+      "details": "",
+      "url": "https://mistobrasil.com/2026/08/23/alexandre-baldy-lidera-byd-e-vira-referencia-no-pib/",
       "source": "Coinfomania",
       "category": "funds",
       "tags": [
@@ -585,15 +662,14 @@
       "publishedAt": "2026-08-23T12:55:07Z",
       "updatedAt": "2026-08-23T12:55:07Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://coinfomania.com/wp-content/uploads/trend-banner-f02c083b-e636-4f17-afb1-d02074a2401b-1787489222799.webp"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "macro-53a522e106bb68daffdf747e",
       "title": "Alexandre Baldy lidera BYD e vira referência no PIB",
       "summary": "Misto Brasil",
-      "details": "Ele foi apontado no estudo Pulso 2026/2027 – Influência Digital e Liderança, desenvolvido na consultoria Deck e pela Nexus.",
-      "url": "https://mistobrasil.com/2026/08/23/alexandre-baldy-lidera-byd-e-vira-referencia-no-pib/",
+      "details": "",
+      "url": "https://acionista.com.br/sp-500-e-alavancagem-este-detalhe-e-um-verdadeiro-perigo-para-a-bolsa/",
       "source": "- Misto Brasil",
       "category": "macro",
       "tags": [
@@ -604,8 +680,7 @@
       "publishedAt": "2026-08-23T12:43:43Z",
       "updatedAt": "2026-08-23T12:43:43Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://mistobrasil.com/wp-content/uploads/2024/08/alexandre-baldy-byd.jpeg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-bc1b840dd06ecec6a3a3478c",
@@ -666,9 +741,9 @@
     {
       "id": "macro-2fe574bcecd42205a1ec5362",
       "title": "A Semana Pela Frente: Warsh Estreia em Jackson Hole Enquanto Balanços de Nvidia e Marvell Testam Demanda por Investimentos em IA",
-      "summary": "TradingKey - Na próxima semana (24 a 28 de agosto), o foco do mercado norte-americano passará da ata da reunião de julho do FOMC para o Simpósio Econômico de Jackson Hole de 2026, organizado pelo Federal Reserve Bank de Kansas City.",
-      "details": "TradingKey - Na próxima semana (24 a 28 de agosto), o foco do mercado norte-americano passará da ata da reunião de julho do FOMC para o Simpósio Econômico de Jackson Hole de 2026, organizado pelo Federal Reserve Bank de Kansas City.",
-      "url": "https://www.tradingkey.com/pt/analysis/stocks/us-stocks/262126137-jackson-hole-warsh-nvidia-marvell-earnings-ai-investment-sentiment-tradingkey",
+      "summary": "Estudo do Rabobank aponta que alimentos in natura podem ter alta de quase 20% em um cenário de El Niño forte, com efeitos mais intensos até seis meses após os choques climáticos",
+      "details": "Estudo do Rabobank aponta que alimentos in natura podem ter alta de quase 20% em um cenário de El Niño forte, com efeitos mais intensos até seis meses após os choques climáticos",
+      "url": "https://spdiario.com.br/noticias/economia/el-nino-pode-elevar-precos-dos-alimentos-no-brasil-e-pressionar-inflacao-nos-proximos-meses.html",
       "source": "TradingKey",
       "category": "macro",
       "tags": [
@@ -680,14 +755,14 @@
       "updatedAt": "2026-08-23T12:15:41Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://resource.tradingkey.com/cms_uploads/img/20230818/76dd1ee97f62e5ebbf7a206a85a37947.jpg"
+      "imageUrl": "https://spdiario.com.br/media/_versions/econ1_jeLpLsD_widelg.jpg"
     },
     {
       "id": "macro-9aa8e239fe23213084f3eb41",
       "title": "El Niño pode elevar preços dos alimentos no Brasil e pressionar inflação nos próximos meses",
-      "summary": "Estudo do Rabobank aponta que alimentos in natura podem ter alta de quase 20% em um cenário de El Niño forte, com efeitos mais intensos até seis meses após os choques climáticos",
-      "details": "Estudo do Rabobank aponta que alimentos in natura podem ter alta de quase 20% em um cenário de El Niño forte, com efeitos mais intensos até seis meses após os choques climáticos",
-      "url": "https://spdiario.com.br/noticias/economia/el-nino-pode-elevar-precos-dos-alimentos-no-brasil-e-pressionar-inflacao-nos-proximos-meses.html",
+      "summary": "TradingKey - Na próxima semana (24 a 28 de agosto), o foco do mercado norte-americano passará da ata da reunião de julho do FOMC para o Simpósio Econômico de Jackson Hole de 2026, organizado pelo Federal Reserve Bank de Kansas City.",
+      "details": "TradingKey - Na próxima semana (24 a 28 de agosto), o foco do mercado norte-americano passará da ata da reunião de julho do FOMC para o Simpósio Econômico de Jackson Hole de 2026, organizado pelo Federal Reserve Bank de Kansas City.",
+      "url": "https://www.tradingkey.com/pt/analysis/stocks/us-stocks/262126137-jackson-hole-warsh-nvidia-marvell-earnings-ai-investment-sentiment-tradingkey",
       "source": "Diário de São Paulo",
       "category": "macro",
       "tags": [
@@ -699,14 +774,14 @@
       "updatedAt": "2026-08-23T12:07:41Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://spdiario.com.br/media/_versions/econ1_jeLpLsD_widelg.jpg"
+      "imageUrl": "https://resource.tradingkey.com/cms_uploads/img/20230818/76dd1ee97f62e5ebbf7a206a85a37947.jpg"
     },
     {
       "id": "macro-098bd1b3579243bb35a0b09b",
       "title": "El Niño pode pressionar preços dos alimentos e elevar inflação no Brasil",
-      "summary": "Mais de um terço das 90 empresas ouvidas relatam que já tiveram a operação limitada pela infraestrutura disponível",
-      "details": "Mais de um terço das 90 empresas ouvidas relatam que já tiveram a operação limitada pela infraestrutura disponível",
-      "url": "https://www.infomoney.com.br/business/falta-de-infraestrutura-de-ia-limita-crescimento-de-startups-brasileiras/",
+      "summary": "Atualizacao de macro capturada em Alagoas Alerta.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR3VIblFMdU9lOVVfWE9pNWYzUEFtcm0tV1J1T0FtWUdDNTRhSW9oVHpBZWlWZVRNYTFnWTNXVmcyMWJOQmdUNUpWSmVIT1B2d3B1RUxEenJ2Y1N0NFpucU1nUFhqeDBRZ2NubGxJbFRyZ0VNb0VPVWZXUGRjTnFQaHlvRHczaGllY0o0VDl4WkhhTkJQNGxCN2E5UTMyVmRwc2t3X1ZKMm45ZXR1dlY3NXg0bw?oc=5",
       "source": "Alagoas Alerta",
       "category": "macro",
       "tags": [
@@ -717,15 +792,14 @@
       "publishedAt": "2026-08-23T12:04:53Z",
       "updatedAt": "2026-08-23T12:04:53Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/06/inteligencia-artificial-ai-ia-tecnologia.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-51f030a2456c032dd8bc0d25",
       "title": "Enquanto o mês do ‘desgosto’ castiga o Ibovespa, traders se preparam para uma disputa milionária",
-      "summary": "A intensificação do fenômeno El Niño pode trazer impactos para além das condições climáticas e chegar ao bolso dos consumidores brasileiros. Projeções de economistas indicam que, e",
-      "details": "A intensificação do fenômeno El Niño pode trazer impactos para além das condições climáticas e chegar ao bolso dos consumidores brasileiros. Projeções de economistas indicam que, e",
-      "url": "https://www.alagoasalerta.com.br/noticia/el-nino-pode-pressionar-precos-dos-alimentos-e-elevar-inflacao-no-brasil",
+      "summary": "Atualizacao de ultima hora capturada em Seu Dinheiro.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQ3JpbDFmUkt1X0RVX3FwV2JPQWIwTVdkdnJBYWpYclprR3RlVlZuR2oxSDNFcmh1RGQydjhJWUdpd0ZfNkhLeEI2Ynd6SHZJOGt6NU5ZYzRJOFdYckhQUWE2NXdTeV8zSWhCX0x1eEtQaHg4Y0NBMUxjcElkRkxmd3VkM3NBTXdDVHk4clRMVzJMWVp5WjY3ZzlGY2FqZXVmTjktN2pHVHpNcktFQzJzTWFoaEs5aFQzRm45Zjd0ZXBsSFNIZHZSUnRQLTU5MFJWZFNnSmRxUEFOd1diN2ow?oc=5",
       "source": "Seu Dinheiro",
       "category": "latest",
       "tags": [
@@ -736,15 +810,14 @@
       "publishedAt": "2026-08-23T12:02:51Z",
       "updatedAt": "2026-08-23T12:02:51Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://cdn.sanity.io/images/dqacgg2v/production/5917871915c457fbb09198286a4ca6083ac757ca-802x435.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-4d9bf6bfda2722a4b1ae527d",
       "title": "Falta de infraestrutura de IA limita crescimento de startups brasileiras",
-      "summary": "Copa BTG Trader está próxima e para ajudar os participantes, a Empiricus disponibilizou um treinamento 100% gratuito; confira",
-      "details": "Copa BTG Trader está próxima e para ajudar os participantes, a Empiricus disponibilizou um treinamento 100% gratuito; confira",
-      "url": "https://www.seudinheiro.com/2026/economia/enquanto-o-mes-do-desgosto-castiga-o-ibovespa-traders-se-preparam-para-uma-disputa-milionaria-lbrdgm082/",
+      "summary": "Atualizacao de empresas capturada em InfoMoney.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObnJCTjVrYmNMLWFFOEdLTWJ1RzZ3UXFwMm1Md1dYbnducmVSbHJmLW5SMUQxZmRLdVEwTVRlOXJvSjJtck4wbnJqTHpva2Y0TGFiYkQxMkJIeFNtLTNzd0E3aVpvc1lGR3ZwX09mSnp3NDlHaUh0NkFJX3VJRG9HZWdfMkk0T0h4LVRDYmJ5aXBON3MwMVR5TDNvSmlwcThEdGFnYnN5UUVTM24zUy1ydNIBtgFBVV95cUxQMEgybEY2cWxkYnVBMFdtUjhiQzZXTzliN2tmVHJLcEN5QVd0TENPTGdieWZ6UHA4MV85UkpNbWEwWXpqNy1qT2ZnbnBaV1FVQXpLbFp5bW1ZQkgxdldYOGdxZ0lkVUZKYzhpTTRrS1IwYVFlTE5GYmNUbENxaXpGVV9qOExZTkNwc3VaVXlfLWdzdnNSMllPYjlOWDNHbUxGbU1wWW9FcDlxX1IwMlVKM1BMbGdtUQ?oc=5",
       "source": "InfoMoney",
       "category": "companies",
       "tags": [
@@ -755,8 +828,7 @@
       "publishedAt": "2026-08-23T12:00:00Z",
       "updatedAt": "2026-08-23T12:00:00Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://www.seudinheiro.com/uploads/2026/07/trading-negociar-day-trade-bols-amercado-globo-.jpg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "macro-90d7096c8f6b0b920f7c67d5",
@@ -885,24 +957,6 @@
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
-      "id": "macro-fb2d06c5a212de3f8abc63ce",
-      "title": "Renda fixa: por que investir em Tesouro IPCA+ 8% se o CDI a 14% ao ano em tese paga mais?",
-      "summary": "Atualizacao de macro capturada em Seu Dinheiro.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMlJvVjNHWWlscDlxamFpVEZtZ3RjWFNqaWhUQnB0ajRpUmtxWk05dXZ6dDNFNWRzS3RzOGJfMVhUa0pPZTIySWdzcWNGUURlTGJxRWY5M3BQOGtHMG5mbVJENDByY2RhTWh1V2gtb1UybXZfMVMxVUVYRXJjRkpHM1daX3VrLWVmbm5zeXFKbU96eVR4ODdmLTBud0R5NmJyU0o0YXJuNlR0NGdQdDFtVG9yUmdLQnhsRk1mSmVrbDB1RFVCQUx1RWZDMkI2b0k?oc=5",
-      "source": "Seu Dinheiro",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-23T11:02:16Z",
-      "updatedAt": "2026-08-23T11:02:16Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
       "id": "latest-c209d3e4660f77ddbfbc9568",
       "title": "As taxas de juros bancárias apresentaram diversas mudanças notáveis.",
       "summary": "Atualizacao de ultima hora capturada em Vietnam.vn.",
@@ -955,24 +1009,6 @@
       "updatedAt": "2026-08-23T10:48:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "funds-6fb529925bedd927ea80b16d",
-      "title": "DGB Price Jumps 10.62%: Staking Dynamics at Play",
-      "summary": "Atualizacao de fundos capturada em Coinfomania.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uUFZ1X2FCejVXcmtuTjhlZnR3SHVxUUZSUjR6RUloYWFzMmRRWHRjYnZDQUoyQ2htdExfUzJ0cVE2MXUwR3BqbmU0dktmSExuSzY2SEtmSXdfUWxLdS1PVEdZN0hHT05YS0NJcnZlQzM4dXpLS0pkM3FmMHNZNXc?oc=5",
-      "source": "Coinfomania",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-08-23T10:39:24Z",
-      "updatedAt": "2026-08-23T10:39:24Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "latest-dfddccc1ad04c2ed3148f6ee",
@@ -1119,38 +1155,20 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "latest-351c71c6439438ee81b8707a",
-      "title": "O que falta para crescimento da Argentina? Para analistas, recuperação segue frágil",
-      "summary": "Atualizacao de ultima hora capturada em InfoMoney.",
+      "id": "latest-b2d5e3aeb8934662c2f34d1e",
+      "title": "Como escolher os melhores FIIs para investir em 2026",
+      "summary": "Atualizacao de ultima hora capturada em Nord Investimentos.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOWpoZUVjdVgwQi1IekJ2TTRsbnZub3p4UUR5QjE3LURTYlJDdzg2TmFCUHZaY2pVVU00ZElMaDlDSllfcVJ6Tkx0ampuaC1QQ3prS0k5SnFFM0drUmVTYm5YR3NSaFN2Ym1nQmJ3ZklzSTVFZ09uVF94ekJDQkVYNFZlTU95d2ZFMW9tZVBKbzZ2NFJzYWpLQkdtNElEZmJEYnJjYV9ZQWhWR0lRaWFsN0JybXVJU0psY0FDdtIBwgFBVV95cUxPczVfb2EzNGZfcXlQMVFDSERDcFZmTmRscnZIV2RBb0hjLVc1LTBsNUZ6eXBIOVptNzdaRmkwV1BERkQyWGxqUWFwZDF4YUhLUlBqQjhJeWRGWlNzVmo1NElDbjFOVjNvdVB5THBlN2xIY0ZLMWVIM2VOdHRiVTlVWmV1endlSXgtRF9JUTdaeVVxcVFGY1pDY3hJLVNsZUE3T2FaZ1RYdnBrMlJWNnlFWEJOejlrZmVkQkxwUmtHTms4UQ?oc=5",
-      "source": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4zTThjNjhvMkxqaEVCNS1JaDdQOHBvaHpWbFdWZXJuUGlDOFptYlVIeG5BTndaOFZaN01kMV90SHgzZ3ZmUExXUTVzczc1WjRXSmtIc1ZKNkJVWFZVTEJiLWRzLVlIY2hDUUlqOG12UjVQSGhz0gF6QVVfeXFMTTllQzM1UnNvTFZpaFNRTjFJUGpvWWhZQm9NVjdxSTFjeUFvU0pGZ1JTd0pKQ1pUQ1Jzb0U0aC13ZlpfSjIwQnA5cGhockx4VXV4a1B2M2o2SHR0cGQtQThtUU9vSHhxd1Myb25GMThzekdNS1h4OHViZVE?oc=5",
+      "source": "Nord Investimentos",
       "category": "latest",
       "tags": [
         "mercado",
         "bolsa",
         "macro"
       ],
-      "publishedAt": "2026-08-23T09:00:00Z",
-      "updatedAt": "2026-08-23T09:00:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-bdfdd63bdb4462cf8283641d",
-      "title": "Brasileiro ficou bilionário começando com uma clínica de imagem e construiu a maior rede privada de hospitais do país",
-      "summary": "Atualizacao de ultima hora capturada em O POVO.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWmd5UFhVQXN0RDRrX3ZWbEpJQmFGZmo4clFic1JVWWs5a3R4TFhyNmFka0ctbzF1ODQ5UllCeGt6Yk8xU0VFWV9qV0VjcVd0dWVWcXVMazNPQS1GNDg4T0xDRTRQS0pPSW9DNmhlLWJZTWZ2OW1MV1g1WW5QOHJhWkVRM1FJY1ZzR0ZfWUxpdVhybUo2SGsyMEFZak50dE9SZDYxMlU3LXJhd0FIZktNdUhpVi1yVk81Z09oQmd1aXI0S3dQZEVrTG14RjU4MTUzWU5fQXRoWjhDR0tRUFdr?oc=5",
-      "source": "O POVO",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-23T08:22:00Z",
-      "updatedAt": "2026-08-23T08:22:00Z",
+      "publishedAt": "2026-08-23T09:06:39Z",
+      "updatedAt": "2026-08-23T09:06:39Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
@@ -1189,6 +1207,24 @@
       "updatedAt": "2026-08-23T08:07:13Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "companies-57b5adc704c5e46d1bdb3fd8",
+      "title": "FIEC promove conexão entre empresas cearenses e oportunidades nos EUA - Portal IN - Pompeu Vasconcelos",
+      "summary": "Atualizacao de empresas capturada em Balada IN.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNTJmdU04eUMzSU9EVGV1c0JRRmpIRGVpVHRVU211Mm8zWkJIdWp1eU1qUmpsTi1lLU1QY3BvYWJIbksxWDREQnJpOEtzZ28yQTlWdEhZb25JMDNqWHUzVm9kVkhZNXdWU29NYjFxQm9lbjd4WUhvUVBPaTh3VEtLLUkxZVFVQU5ubFhQWDREVkpyZjRsalBKaXh0MFpLMFNIWkNWTEx4ZEludw?oc=5",
+      "source": "Balada IN",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-08-23T06:17:00Z",
+      "updatedAt": "2026-08-23T06:17:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-e6714b8bebddc8b5ae42be4a",
@@ -1317,22 +1353,22 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "funds-cc91cd1dae47a5c03386cf5b",
-      "title": "DFI Price Plummets 63.71% in One Hour Amid Market Turbulence",
-      "summary": "Atualizacao de fundos capturada em Coinfomania.",
+      "id": "companies-09d900a01583784a3362c319",
+      "title": "Campanha de Flávio Bolsonaro ataca fim da 6×1 e defende “trabalhar o quanto quiser”",
+      "summary": "Atualizacao de empresas capturada em Folha do Estado da Bahia.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdk1XTGltNkNmMFU2RC1JaGxBRlRLcjR6T2czczMwX0pvU2VBS284Yk9tb3g0QnQ5dWhYYWdGajNsTjMtLWhydGticHdtTElxa1FicDZOc095ZFF2d0h1WGZOVF9FenFMaWNoTzkwNUR2cXh0X0FxRnR5RnNlenFQbkpEd1lMY3haMU0yYmRFYlA?oc=5",
-      "source": "Coinfomania",
-      "category": "funds",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPN2FUZHE4TW5TVEwtOGUzVGttMmw5UGoxbjVTMENBV0ZJbWp5RFJPQWN0bkZJU0RhM1BUMFgyb2VnaDZBd0NMbEFPck1sU0tWd3BwS0s1b3I5UnhxdnRNNUs0dlk4aUxXOThPemRrOEdReGxsbWdVQ2pFYTVwRmxZbmFKdTJHejZQRzdvLUdTdUhUN0s1Nk5POTlvdVNyYzVFeVptclpyZ3JuWU5YM0VVZ0VDRW51dUs2N2hzbGFudEJuZ0R3elE?oc=5",
+      "source": "Folha do Estado da Bahia",
+      "category": "companies",
       "tags": [
-        "fundos",
-        "asset",
-        "fiis"
+        "empresas",
+        "resultados",
+        "m&a"
       ],
-      "publishedAt": "2026-08-22T19:57:43Z",
-      "updatedAt": "2026-08-22T19:57:43Z",
+      "publishedAt": "2026-08-22T18:58:31Z",
+      "updatedAt": "2026-08-22T18:58:31Z",
       "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "companies-056aad24856abc59ab2cdc12",
@@ -1353,42 +1389,6 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "companies-a06dffb59ba691f7a07b33ba",
-      "title": "IA já está em 91% das empresas e avança sobre tesouraria e câmbio",
-      "summary": "Atualizacao de empresas capturada em BPMoney.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaS1KS1hVU2QtVVdfV0xEVExObW03TTlVWFNzRWJjMjVFQTZ1eHpVeVBvNTdrRGZseWNnSE5xMzdvN0Vpc1c3bUdMTEFycXlqbXpERGtfblFuVDh5M2tQTXQ0Nm9CdElCX3BVR2RWOHBhNXgwWWo2WkNpMnkwT293MEdzUDNqNHBBX0k5eDZJQmVOMlpFSC1TbFBhcEp0bDFndzEwbl9n?oc=5",
-      "source": "BPMoney",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-08-22T18:30:00Z",
-      "updatedAt": "2026-08-22T18:30:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "companies-3a756329e5f1e843b370bb8d",
-      "title": "MAIS DE SEIS MIL EMPRESAS BRASILEIRAS LUTAM PARA SOBREVIVER",
-      "summary": "Atualizacao de empresas capturada em 24Horas.pt.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRGQ1eV82U1o0S1QxQ1lpVzhHSmxjcEM5YTBGSG9fcTJvRjBONXg5NTVPWU1KRkIzak90aU5HTUVpMUJNcy1QMFFNUFYyNldIeWwtOTlTSllpMldBcE54Z2lkektUQUVSaWRINXh0VUZSVDBZREZUbkdQLUozRTJ0dEVjNVZONUdjdVAweG02cw?oc=5",
-      "source": "24Horas.pt",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-08-22T17:45:00Z",
-      "updatedAt": "2026-08-22T17:45:00Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
       "id": "funds-6a21bf7638a3784b0c7235f7",
       "title": "Luft planeja até 150 mini-CDs para aproximar insumos do produtor e revolucionar a logística no agronegócio",
       "summary": "Atualizacao de fundos capturada em bra1.com.br.",
@@ -1403,6 +1403,24 @@
       ],
       "publishedAt": "2026-08-22T17:41:00Z",
       "updatedAt": "2026-08-22T17:41:00Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "funds-5bb602454d00ab02df4b0cb3",
+      "title": "Bac Ninh lidera 34 províncias e cidades na distribuição de fundos de investimento público.",
+      "summary": "Atualizacao de fundos capturada em Vietnam.vn.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTzNpTVQtU1RBLUVyeUl6OHBkWXptX0N1Yk43U001bXhycVlkTDcxVFd2Z18yYXBrUnczcm1Ia0kzZHlnb2pyMl94MHMtOGVwVGI3b2pCRkd6aUNkS0tTQVppV1FmSS1xdGxvdnpNdTZJaUJ4U3p1ak12REd4N2RBdVdCVmtRV1BzUHBXVW5wZ0gwRXc?oc=5",
+      "source": "Vietnam.vn",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-08-22T14:36:41Z",
+      "updatedAt": "2026-08-22T14:36:41Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     }
