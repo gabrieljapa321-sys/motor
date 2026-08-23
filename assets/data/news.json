@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-23T13:55:11Z",
-  "generatedAt": "2026-08-23T13:55:11Z",
+  "updatedAt": "2026-08-23T14:18:31Z",
+  "generatedAt": "2026-08-23T14:18:31Z",
   "categories": [
     {
       "id": "all",
@@ -25,10 +25,6 @@
   ],
   "sources": [
     {
-      "id": "misto-brasil",
-      "label": "- Misto Brasil"
-    },
-    {
       "id": "24horas-pt",
       "label": "24Horas.pt"
     },
@@ -37,24 +33,12 @@
       "label": "A Gazeta"
     },
     {
-      "id": "acionista-com-br",
-      "label": "Acionista.com.br"
-    },
-    {
       "id": "agenda-do-poder",
       "label": "Agenda do Poder"
     },
     {
       "id": "alagoas-alerta",
       "label": "Alagoas Alerta"
-    },
-    {
-      "id": "balada-in",
-      "label": "Balada IN"
-    },
-    {
-      "id": "band-com-br",
-      "label": "band.com.br"
     },
     {
       "id": "boca-com-br",
@@ -77,8 +61,8 @@
       "label": "cachorraotv.com.br"
     },
     {
-      "id": "capitalnews-com-br",
-      "label": "capitalnews.com.br"
+      "id": "cartacapital",
+      "label": "CartaCapital"
     },
     {
       "id": "cnn-brasil",
@@ -113,6 +97,10 @@
       "label": "Gazeta do Paraná"
     },
     {
+      "id": "gazeta-do-povo",
+      "label": "Gazeta do Povo"
+    },
+    {
       "id": "ig-ltimo-segundo",
       "label": "iG Último Segundo"
     },
@@ -145,6 +133,10 @@
       "label": "Jornal O Sul"
     },
     {
+      "id": "jornal-op-o",
+      "label": "Jornal Opção"
+    },
+    {
       "id": "jornal-pt50",
       "label": "Jornal PT50"
     },
@@ -161,6 +153,10 @@
       "label": "Money Report"
     },
     {
+      "id": "money-times",
+      "label": "Money Times"
+    },
+    {
       "id": "mt-econ-mico",
       "label": "MT Econômico"
     },
@@ -169,16 +165,8 @@
       "label": "Nord Investimentos"
     },
     {
-      "id": "novo-momento",
-      "label": "Novo Momento"
-    },
-    {
       "id": "o-globo",
       "label": "O GLOBO"
-    },
-    {
-      "id": "o-povo",
-      "label": "O POVO"
     },
     {
       "id": "portalr3",
@@ -201,6 +189,10 @@
       "label": "tradenews.com.br"
     },
     {
+      "id": "tradingkey",
+      "label": "TradingKey"
+    },
+    {
       "id": "tribuna-de-minas",
       "label": "Tribuna de Minas"
     },
@@ -217,8 +209,16 @@
       "label": "Trivela"
     },
     {
+      "id": "tudocelular-com",
+      "label": "TudoCelular.com"
+    },
+    {
       "id": "turbo-pt",
       "label": "turbo.pt"
+    },
+    {
+      "id": "vero-not-cias",
+      "label": "Vero Notícias"
     },
     {
       "id": "vietnam-vn",
@@ -235,11 +235,104 @@
   ],
   "items": [
     {
-      "id": "latest-41e624a110860c931bca7fc1",
-      "title": "Pix fora do ar? Usuários relatam falhas em diferentes bancos neste domingo",
+      "id": "companies-c9c62aeaded4180ae8d5898c",
+      "title": "Por que investidores argentinos estão comprando empresas brasileiras",
+      "summary": "Por que argentinos estão comprando negócios no Brasil? Entenda o que mudou com Milei e por que o país se tornou atraente aos investidores.",
+      "details": "Por que argentinos estão comprando negócios no Brasil? Entenda o que mudou com Milei e por que o país se tornou atraente aos investidores.",
+      "url": "https://www.gazetadopovo.com.br/economia/empresarios-argentinos-compram-empresas-brasileiras/",
+      "source": "Gazeta do Povo",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-08-23T14:05:00Z",
+      "updatedAt": "2026-08-23T14:05:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/08/20145314/argentinos-compram-empresas-brasileiras.jpg"
+    },
+    {
+      "id": "latest-210ff2232d4c01ea96ade98b",
+      "title": "96% dos CIOs do setor financeiro aceleram a adoção de IA",
+      "summary": "Atualizacao de ultima hora capturada em CartaCapital.",
+      "details": "",
+      "url": "https://www.cartacapital.com.br/do-micro-ao-macro/cios-do-setor-financeiro-aceleram-adocao-de-ia/",
+      "source": "CartaCapital",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-23T14:00:00Z",
+      "updatedAt": "2026-08-23T14:00:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "macro-d402ca39b16c1d51df9c6c2a",
+      "title": "El Niño pode elevar alimentos em 20% e pressionar inflação",
+      "summary": "Pix apresenta instabilidade neste domingo (23), com relatos de falhas em bancos como Itaú, Bradesco, Caixa, Nubank e Santander",
+      "details": "Pix apresenta instabilidade neste domingo (23), com relatos de falhas em bancos como Itaú, Bradesco, Caixa, Nubank e Santander",
+      "url": "https://bpmoney.com.br/mercado/pix-fora-do-ar-usuarios-relatam-falhas-em-diferentes-bancos-neste-domingo/",
+      "source": "Vero Notícias",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-23T14:00:00Z",
+      "updatedAt": "2026-08-23T14:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://uploads.bpmoney.com.br/2026/06/pix_0411202555-1-1000x750.webp"
+    },
+    {
+      "id": "macro-660411c67b440e8b1c0625c5",
+      "title": "O ajuste fiscal pode aliviar a pressão na economia brasileira, mas e se não acontecer? Confira os cenários possíveis e onde investir em cada caso",
       "summary": "O ator fala sobre seu projeto mais recente e experiências paralelas no mercado financeiro",
       "details": "O ator fala sobre seu projeto mais recente e experiências paralelas no mercado financeiro",
       "url": "https://boca.com.br/entretenimento/globoplay-recentes-novela-kieling",
+      "source": "Money Times",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-23T14:00:00Z",
+      "updatedAt": "2026-08-23T14:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/b69176d6f1d68bdff8ffb5f54759704a_858x483.jpg"
+    },
+    {
+      "id": "latest-2351293b94641deb699caf93",
+      "title": "Starlink Mini chega ao seu melhor preço no Mercado Livre com opção de parcelamento sem juros",
+      "summary": "Atualizacao de ultima hora capturada em TudoCelular.com.",
+      "details": "",
+      "url": "https://www.tudocelular.com/tech/noticias/n261294/starlink-mini-chega-ao-seu-melhor-preco-no-mercado-livre-com-opcao-de-parcelamento-sem-juros.html",
+      "source": "TudoCelular.com",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-23T13:54:55Z",
+      "updatedAt": "2026-08-23T13:54:55Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
+      "id": "latest-41e624a110860c931bca7fc1",
+      "title": "Pix fora do ar? Usuários relatam falhas em diferentes bancos neste domingo",
+      "summary": "Um El Niño forte pode elevar em até 19,9% os preços dos alimentos in natura e acrescentar 0,83 ponto percentual ao IPCA.",
+      "details": "Um El Niño forte pode elevar em até 19,9% os preços dos alimentos in natura e acrescentar 0,83 ponto percentual ao IPCA.",
+      "url": "https://veronoticias.com/economia/el-nino-pode-elevar-alimentos-em-20-e-pressionar-inflacao/",
       "source": "BPMoney",
       "category": "latest",
       "tags": [
@@ -251,14 +344,14 @@
       "updatedAt": "2026-08-23T13:29:33Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/b69176d6f1d68bdff8ffb5f54759704a_858x483.jpg"
+      "imageUrl": "https://veronoticias.com/wp-content/uploads/2024/09/Preco-dos-aliimentos.jpg"
     },
     {
       "id": "latest-da6112153dd458af0a157cbc",
       "title": "Globoplay: Márcio Kieling compartilha novidades sobre nova novela",
-      "summary": "Copa BTG Trader está próxima e para ajudar os participantes, a Empiricus disponibilizou um treinamento 100% gratuito; confira",
-      "details": "Copa BTG Trader está próxima e para ajudar os participantes, a Empiricus disponibilizou um treinamento 100% gratuito; confira",
-      "url": "https://www.seudinheiro.com/2026/economia/enquanto-o-mes-do-desgosto-castiga-o-ibovespa-traders-se-preparam-para-uma-disputa-milionaria-lbrdgm082/",
+      "summary": "A Mettalex está a integrar os uAgents da Fetch.ai para negociação peer-to-peer direta.",
+      "details": "A Mettalex está a integrar os uAgents da Fetch.ai para negociação peer-to-peer direta.",
+      "url": "https://coinfomania.com/pt/mettalex-reveals-use-of-fetch-ais-ai-agents-in-asset-trading-pt/",
       "source": "boca.com.br",
       "category": "latest",
       "tags": [
@@ -270,32 +363,14 @@
       "updatedAt": "2026-08-23T13:14:26Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.seudinheiro.com/uploads/2026/07/trading-negociar-day-trade-bols-amercado-globo-.jpg"
-    },
-    {
-      "id": "funds-b2fcb3ded499a45f104510b6",
-      "title": "S&P 500 e alavancagem: este detalhe é um verdadeiro perigo para a Bolsa",
-      "summary": "Atualizacao de fundos capturada em Acionista.com.br.",
-      "details": "",
-      "url": "https://acionista.com.br/sp-500-e-alavancagem-este-detalhe-e-um-verdadeiro-perigo-para-a-bolsa/",
-      "source": "Acionista.com.br",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-08-23T13:04:03Z",
-      "updatedAt": "2026-08-23T13:04:03Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+      "imageUrl": "https://coinfomania.com/wp-content/uploads/trend-banner-f02c083b-e636-4f17-afb1-d02074a2401b-1787489222799.webp"
     },
     {
       "id": "funds-3638395d03dd64b57eb7bd4d",
       "title": "Mettalex utiliza agentes de IA da Fetch.ai na negociação",
-      "summary": "A Mettalex está a integrar os uAgents da Fetch.ai para negociação peer-to-peer direta.",
-      "details": "A Mettalex está a integrar os uAgents da Fetch.ai para negociação peer-to-peer direta.",
-      "url": "https://coinfomania.com/pt/mettalex-reveals-use-of-fetch-ais-ai-agents-in-asset-trading-pt/",
+      "summary": "Para os analistas da Empiricus, um ajuste fiscal consistente envolve o controle do crescimento das despesas",
+      "details": "Para os analistas da Empiricus, um ajuste fiscal consistente envolve o controle do crescimento das despesas",
+      "url": "https://www.moneytimes.com.br/o-ajuste-fiscal-pode-aliviar-a-pressao-na-economia-brasileira-mas-e-se-nao-acontecer-confira-os-cenarios-possiveis-e-onde-investir-em-cada-caso-lbrdjm030/",
       "source": "Coinfomania",
       "category": "funds",
       "tags": [
@@ -307,52 +382,33 @@
       "updatedAt": "2026-08-23T12:55:07Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://coinfomania.com/wp-content/uploads/trend-banner-f02c083b-e636-4f17-afb1-d02074a2401b-1787489222799.webp"
+      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/07/istock-2203591005-1-scaled-e1783700494278.jpg"
     },
     {
-      "id": "macro-53a522e106bb68daffdf747e",
-      "title": "Alexandre Baldy lidera BYD e vira referência no PIB",
-      "summary": "Misto Brasil",
-      "details": "Pix apresenta instabilidade neste domingo (23), com relatos de falhas em bancos como Itaú, Bradesco, Caixa, Nubank e Santander",
-      "url": "https://bpmoney.com.br/mercado/pix-fora-do-ar-usuarios-relatam-falhas-em-diferentes-bancos-neste-domingo/",
-      "source": "- Misto Brasil",
-      "category": "macro",
+      "id": "latest-f816c15b12a585bd1f1af014",
+      "title": "Fed mantém juros, mas decisão dividida acende alerta",
+      "summary": "Comitê manteve juros em 3,50% a 3,75% a.a., mas com três votos favoráveis à alta. Alta de juros neste ano está no radar do mercado",
+      "details": "Comitê manteve juros em 3,50% a 3,75% a.a., mas com três votos favoráveis à alta. Alta de juros neste ano está no radar do mercado",
+      "url": "https://www.nordinvestimentos.com.br/blog/juros-estados-unidos-hoje/",
+      "source": "Nord Investimentos",
+      "category": "latest",
       "tags": [
-        "macro",
-        "juros",
-        "inflacao"
+        "mercado",
+        "bolsa",
+        "macro"
       ],
-      "publishedAt": "2026-08-23T12:43:43Z",
-      "updatedAt": "2026-08-23T12:43:43Z",
+      "publishedAt": "2026-08-23T12:23:33Z",
+      "updatedAt": "2026-08-23T12:23:33Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://uploads.bpmoney.com.br/2026/06/pix_0411202555-1-1000x750.webp"
-    },
-    {
-      "id": "macro-bc1b840dd06ecec6a3a3478c",
-      "title": "El Niño pode encarecer alimentos no Brasil em até 20%; economistas preveem impacto na inflação",
-      "summary": "Ele foi apontado no estudo Pulso 2026/2027 – Influência Digital e Liderança, desenvolvido na consultoria Deck e pela Nexus.",
-      "details": "Ele foi apontado no estudo Pulso 2026/2027 – Influência Digital e Liderança, desenvolvido na consultoria Deck e pela Nexus.",
-      "url": "https://mistobrasil.com/2026/08/23/alexandre-baldy-lidera-byd-e-vira-referencia-no-pib/",
-      "source": "Jornal O Sul",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-23T12:27:14Z",
-      "updatedAt": "2026-08-23T12:27:14Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://mistobrasil.com/wp-content/uploads/2024/08/alexandre-baldy-byd.jpeg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.nordinvestimentos.com.br/cdn-cgi/imagedelivery/WVyV4OkToIxntlRloKFH7Q/blog/uploads/4f4f56ce-84e5-4ae0-a861-4dc1c3eb38f9/juros-estados-unidos-hoje.webp/format=auto,fit=cover,w=1280,h=720"
     },
     {
       "id": "companies-bb3cd3c75c57e6bee283ba85",
       "title": "Clube Turismo aponta alta nas viagens corporativas e vê turismo de trabalho como um dos segmentos mais promissores de 2026",
-      "summary": "Os alimentos podem ficar mais caros no Brasil nos próximos meses caso se confirme a ocorrência de um El Niño forte. Um estudo do Rabobank, baseado no histórico do fenômeno climático no país, aponta que o impacto sobre os preços pode atingir o pico cerca de seis meses após os…",
-      "details": "Os alimentos podem ficar mais caros no Brasil nos próximos meses caso se confirme a ocorrência de um El Niño forte. Um estudo do Rabobank, baseado no histórico do fenômeno climático no país, aponta que o impacto sobre os preços pode atingir o pico cerca de seis meses após os…",
-      "url": "https://www.osul.com.br/el-nino-pode-encarecer-alimentos-no-brasil-em-ate-20-economistas-preveem-impacto-na-inflacao/",
+      "summary": "Rede de franquias observa crescimento da demanda por deslocamentos para negócios, eventos e treinamentos, enquanto empresas passam a tratar as viagens corporativas como investimento estratégico para geração de resultados. As viagens corporativas voltaram ao centro da estratégia d",
+      "details": "Rede de franquias observa crescimento da demanda por deslocamentos para negócios, eventos e treinamentos, enquanto empresas passam a tratar as viagens corporativas como investimento estratégico para geração de resultados. As viagens corporativas voltaram ao centro da estratégia das empresas brasileiras e devem seguir i",
+      "url": "https://voenews.com.br/clube-turismo-aponta-alta-nas-viagens-corporativas-e-ve-turismo-de-trabalho-como-um-dos-segmentos-mais-promissores-de-2026/",
       "source": "VOENEWS",
       "category": "companies",
       "tags": [
@@ -363,15 +419,50 @@
       "publishedAt": "2026-08-23T12:18:47Z",
       "updatedAt": "2026-08-23T12:18:47Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://www.osul.com.br/wp-content/uploads/2026/08/alimentos-inflacao.jpg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "macro-2fe574bcecd42205a1ec5362",
+      "title": "A Semana Pela Frente: Warsh Estreia em Jackson Hole Enquanto Balanços de Nvidia e Marvell Testam Demanda por Investimentos em IA",
+      "summary": "Atualizacao de macro capturada em TradingKey.",
+      "details": "",
+      "url": "https://www.osul.com.br/el-nino-pode-encarecer-alimentos-no-brasil-em-ate-20-economistas-preveem-impacto-na-inflacao/amp/",
+      "source": "TradingKey",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-23T12:15:41Z",
+      "updatedAt": "2026-08-23T12:15:41Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-3da6a48b433ae401940be8c6",
+      "title": "El Niño pode encarecer alimentos no Brasil em até 20%; economistas preveem impacto na inflação",
+      "summary": "'Nuvens' e abstenção vão decidir a eleição",
+      "details": "'Nuvens' e abstenção vão decidir a eleição",
+      "url": "https://www.jb.com.br/colunistas/coisas-da-politica/2026/08/amp/1060676-nuvens-e-abstencao-vao-decidir-a-eleicao.html",
+      "source": "Jornal O Sul",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-23T12:11:42Z",
+      "updatedAt": "2026-08-23T12:11:42Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-098bd1b3579243bb35a0b09b",
       "title": "El Niño pode pressionar preços dos alimentos e elevar inflação no Brasil",
-      "summary": "Rede de franquias observa crescimento da demanda por deslocamentos para negócios, eventos e treinamentos, enquanto empresas passam a tratar as viagens corporativas como investimento estratégico para geração de resultados. As viagens corporativas voltaram ao centro da estratégia d",
-      "details": "Rede de franquias observa crescimento da demanda por deslocamentos para negócios, eventos e treinamentos, enquanto empresas passam a tratar as viagens corporativas como investimento estratégico para geração de resultados. As viagens corporativas voltaram ao centro da estratégia das empresas brasileiras e devem seguir i",
-      "url": "https://voenews.com.br/clube-turismo-aponta-alta-nas-viagens-corporativas-e-ve-turismo-de-trabalho-como-um-dos-segmentos-mais-promissores-de-2026/",
+      "summary": "TradingKey - Na próxima semana (24 a 28 de agosto), o foco do mercado norte-americano passará da ata da reunião de julho do FOMC para o Simpósio Econômico de Jackson Hole de 2026, organizado pelo Federal Reserve Bank de Kansas City.",
+      "details": "TradingKey - Na próxima semana (24 a 28 de agosto), o foco do mercado norte-americano passará da ata da reunião de julho do FOMC para o Simpósio Econômico de Jackson Hole de 2026, organizado pelo Federal Reserve Bank de Kansas City.",
+      "url": "https://www.tradingkey.com/pt/analysis/stocks/us-stocks/262126137-jackson-hole-warsh-nvidia-marvell-earnings-ai-investment-sentiment-tradingkey",
       "source": "Alagoas Alerta",
       "category": "macro",
       "tags": [
@@ -382,14 +473,15 @@
       "publishedAt": "2026-08-23T12:04:53Z",
       "updatedAt": "2026-08-23T12:04:53Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://resource.tradingkey.com/cms_uploads/img/20230818/76dd1ee97f62e5ebbf7a206a85a37947.jpg"
     },
     {
       "id": "latest-51f030a2456c032dd8bc0d25",
       "title": "Enquanto o mês do ‘desgosto’ castiga o Ibovespa, traders se preparam para uma disputa milionária",
-      "summary": "Mais de um terço das 90 empresas ouvidas relatam que já tiveram a operação limitada pela infraestrutura disponível",
-      "details": "Mais de um terço das 90 empresas ouvidas relatam que já tiveram a operação limitada pela infraestrutura disponível",
-      "url": "https://www.infomoney.com.br/business/falta-de-infraestrutura-de-ia-limita-crescimento-de-startups-brasileiras/",
+      "summary": "A intensificação do fenômeno El Niño pode trazer impactos para além das condições climáticas e chegar ao bolso dos consumidores brasileiros. Projeções de economistas indicam que, e",
+      "details": "A intensificação do fenômeno El Niño pode trazer impactos para além das condições climáticas e chegar ao bolso dos consumidores brasileiros. Projeções de economistas indicam que, e",
+      "url": "https://www.alagoasalerta.com.br/noticia/el-nino-pode-pressionar-precos-dos-alimentos-e-elevar-inflacao-no-brasil",
       "source": "Seu Dinheiro",
       "category": "latest",
       "tags": [
@@ -401,14 +493,14 @@
       "updatedAt": "2026-08-23T12:02:51Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/06/inteligencia-artificial-ai-ia-tecnologia.jpg"
+      "imageUrl": "https://cdn.sanity.io/images/dqacgg2v/production/5917871915c457fbb09198286a4ca6083ac757ca-802x435.jpg"
     },
     {
       "id": "companies-4d9bf6bfda2722a4b1ae527d",
       "title": "Falta de infraestrutura de IA limita crescimento de startups brasileiras",
-      "summary": "A intensificação do fenômeno El Niño pode trazer impactos para além das condições climáticas e chegar ao bolso dos consumidores brasileiros. Projeções de economistas indicam que, e",
-      "details": "A intensificação do fenômeno El Niño pode trazer impactos para além das condições climáticas e chegar ao bolso dos consumidores brasileiros. Projeções de economistas indicam que, e",
-      "url": "https://www.alagoasalerta.com.br/noticia/el-nino-pode-pressionar-precos-dos-alimentos-e-elevar-inflacao-no-brasil",
+      "summary": "Copa BTG Trader está próxima e para ajudar os participantes, a Empiricus disponibilizou um treinamento 100% gratuito; confira",
+      "details": "Copa BTG Trader está próxima e para ajudar os participantes, a Empiricus disponibilizou um treinamento 100% gratuito; confira",
+      "url": "https://www.seudinheiro.com/2026/economia/enquanto-o-mes-do-desgosto-castiga-o-ibovespa-traders-se-preparam-para-uma-disputa-milionaria-lbrdgm082/",
       "source": "InfoMoney",
       "category": "companies",
       "tags": [
@@ -420,14 +512,14 @@
       "updatedAt": "2026-08-23T12:00:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://cdn.sanity.io/images/dqacgg2v/production/5917871915c457fbb09198286a4ca6083ac757ca-802x435.jpg"
+      "imageUrl": "https://www.seudinheiro.com/uploads/2026/07/trading-negociar-day-trade-bols-amercado-globo-.jpg"
     },
     {
       "id": "macro-90d7096c8f6b0b920f7c67d5",
       "title": "'Nuvens' e abstenção vão decidir a eleição",
-      "summary": "...",
-      "details": "...",
-      "url": "https://www.jb.com.br/colunistas/coisas-da-politica/2026/08/1060676-nuvens-e-abstencao-vao-decidir-a-eleicao.html",
+      "summary": "Mais de um terço das 90 empresas ouvidas relatam que já tiveram a operação limitada pela infraestrutura disponível",
+      "details": "Mais de um terço das 90 empresas ouvidas relatam que já tiveram a operação limitada pela infraestrutura disponível",
+      "url": "https://www.infomoney.com.br/business/falta-de-infraestrutura-de-ia-limita-crescimento-de-startups-brasileiras/",
       "source": "Jornal do Brasil",
       "category": "macro",
       "tags": [
@@ -439,14 +531,14 @@
       "updatedAt": "2026-08-23T11:57:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://midias.jb.com.br/_midias/jpg/2024/05/15/606x403/1_raf01014-887272.jpg"
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/06/inteligencia-artificial-ai-ia-tecnologia.jpg"
     },
     {
       "id": "funds-4e453ae59704e6002220a01d",
       "title": "Com o Rock in Rio Brasil como asset, Heineken® reforça o poder das conexões em nova fase da campanha “Fãs Têm Mais Amigos”",
-      "summary": "Evento reunirá produtores e especialistas entre 25 e 27 de agosto",
-      "details": "Evento reunirá produtores e especialistas entre 25 e 27 de agosto",
-      "url": "https://boca.com.br/agronegocio/expocacau-2026-feira-em-ilheus-impulsiona-setor-cacaueiro",
+      "summary": "Heineken® dá continuidade à campanha “Fãs Têm Mais Amigos“, e celebra o poder das paixões em comum de aproximar pessoas e criar conexões.",
+      "details": "Heineken® dá continuidade à campanha “Fãs Têm Mais Amigos“, e celebra o poder das paixões em comum de aproximar pessoas e criar conexões.",
+      "url": "https://conexaomagazine.com.br/com-o-rock-in-rio-brasil-como-asset-heineken-reforca-o-poder-das-conexoes-em-nova-fase-da-campanha-fas-tem-mais-amigos/",
       "source": "Conexão Magazine",
       "category": "funds",
       "tags": [
@@ -458,7 +550,7 @@
       "updatedAt": "2026-08-23T11:38:52Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/b719c2a082bbf35d9194bb5d545a59b9_858x483.jpg"
+      "imageUrl": "http://conexaomagazine.com.br/wp-content/uploads/2026/08/Heineken-Rock-in-Rio.jpeg"
     },
     {
       "id": "latest-5992dbc3291db9ec7713c78a",
@@ -520,9 +612,9 @@
     {
       "id": "macro-f3298beb40fc25552ae6db06",
       "title": "Impacto do ajuste fiscal no PIB de 2027: O que aponta o estudo do Banco Daycoval",
-      "summary": "Brasil iniciará 2027 sob a sombra de um severo desafio fiscal, mas sem a ameaça iminente de uma recessão econômica, aponta Banco Daycoval",
-      "details": "Brasil iniciará 2027 sob a sombra de um severo desafio fiscal, mas sem a ameaça iminente de uma recessão econômica, aponta Banco Daycoval",
-      "url": "https://matogrossoeconomico.com.br/economia/impacto-do-ajuste-fiscal-no-pib-de-2027-o-que-aponta-o-estudo-do-banco-daycoval/",
+      "summary": "O que enriquece não é o retorno nominal, mas quanto se ganha acima da inflação; mas juro real mais alto na renda fixa pode não ser garantido",
+      "details": "O que enriquece não é o retorno nominal, mas quanto se ganha acima da inflação; mas juro real mais alto na renda fixa pode não ser garantido",
+      "url": "https://www.seudinheiro.com/2026/colunistas/renda-fixa-por-que-investir-em-tesouro-ipca-8-se-o-cdi-a-14-ao-ano-em-tese-paga-mais-julw/",
       "source": "MT Econômico",
       "category": "macro",
       "tags": [
@@ -534,14 +626,14 @@
       "updatedAt": "2026-08-23T11:09:58Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://matogrossoeconomico.com.br/wp-content/uploads/2025/10/selic-grafico-freepik.jpg"
+      "imageUrl": "https://www.seudinheiro.com/uploads/2026/08/IPCA-Selic-GettyImages-1475324668.jpg"
     },
     {
       "id": "macro-fb2d06c5a212de3f8abc63ce",
       "title": "Renda fixa: por que investir em Tesouro IPCA+ 8% se o CDI a 14% ao ano em tese paga mais?",
-      "summary": "Heineken® dá continuidade à campanha “Fãs Têm Mais Amigos“, e celebra o poder das paixões em comum de aproximar pessoas e criar conexões.",
-      "details": "Heineken® dá continuidade à campanha “Fãs Têm Mais Amigos“, e celebra o poder das paixões em comum de aproximar pessoas e criar conexões.",
-      "url": "https://conexaomagazine.com.br/com-o-rock-in-rio-brasil-como-asset-heineken-reforca-o-poder-das-conexoes-em-nova-fase-da-campanha-fas-tem-mais-amigos/",
+      "summary": "Evento reunirá produtores e especialistas entre 25 e 27 de agosto",
+      "details": "Evento reunirá produtores e especialistas entre 25 e 27 de agosto",
+      "url": "https://boca.com.br/agronegocio/expocacau-2026-feira-em-ilheus-impulsiona-setor-cacaueiro",
       "source": "Seu Dinheiro",
       "category": "macro",
       "tags": [
@@ -553,14 +645,33 @@
       "updatedAt": "2026-08-23T11:02:16Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "http://conexaomagazine.com.br/wp-content/uploads/2026/08/Heineken-Rock-in-Rio.jpeg"
+      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/b719c2a082bbf35d9194bb5d545a59b9_858x483.jpg"
+    },
+    {
+      "id": "latest-c209d3e4660f77ddbfbc9568",
+      "title": "As taxas de juros bancárias apresentaram diversas mudanças notáveis.",
+      "summary": "Brasil iniciará 2027 sob a sombra de um severo desafio fiscal, mas sem a ameaça iminente de uma recessão econômica, aponta Banco Daycoval",
+      "details": "Brasil iniciará 2027 sob a sombra de um severo desafio fiscal, mas sem a ameaça iminente de uma recessão econômica, aponta Banco Daycoval",
+      "url": "https://matogrossoeconomico.com.br/economia/impacto-do-ajuste-fiscal-no-pib-de-2027-o-que-aponta-o-estudo-do-banco-daycoval/",
+      "source": "Vietnam.vn",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-23T10:54:04Z",
+      "updatedAt": "2026-08-23T10:54:04Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://matogrossoeconomico.com.br/wp-content/uploads/2025/10/selic-grafico-freepik.jpg"
     },
     {
       "id": "latest-f0feb3f3c97f8cf847437bad",
       "title": "Expocacau 2026: Feira em Ilhéus impulsiona setor cacaueiro",
-      "summary": "O que enriquece não é o retorno nominal, mas quanto se ganha acima da inflação; mas juro real mais alto na renda fixa pode não ser garantido",
-      "details": "O que enriquece não é o retorno nominal, mas quanto se ganha acima da inflação; mas juro real mais alto na renda fixa pode não ser garantido",
-      "url": "https://www.seudinheiro.com/2026/colunistas/renda-fixa-por-que-investir-em-tesouro-ipca-8-se-o-cdi-a-14-ao-ano-em-tese-paga-mais-julw/",
+      "summary": "O mercado de taxas de juros bancárias continuou a apresentar clara divergência na semana passada, tanto em termos de depósitos quanto de empréstimos, à medida que os bancos adotaram abordagens diferentes em relação às taxas de juros.",
+      "details": "O mercado de taxas de juros bancárias continuou a apresentar clara divergência na semana passada, tanto em termos de depósitos quanto de empréstimos, à medida que os bancos adotaram abordagens diferentes em relação às taxas de juros.",
+      "url": "https://www.vietnam.vn/pt/lai-suat-ngan-hang-co-nhieu-dien-bien-dang-chu-y",
       "source": "boca.com.br",
       "category": "latest",
       "tags": [
@@ -572,14 +683,14 @@
       "updatedAt": "2026-08-23T10:54:01Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.seudinheiro.com/uploads/2026/08/IPCA-Selic-GettyImages-1475324668.jpg"
+      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/08/23/1787478754028_viecombank-230826.jpeg"
     },
     {
       "id": "latest-2ace6ead3c5651437d89bb15",
       "title": "EUA enfrentam desafios econômicos enquanto Trump busca estabilizar mercado",
-      "summary": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
-      "details": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
-      "url": "https://www.tribunadoagreste.com.br/geral/2026/08/23/965275-eua-enfrentam-desafios-economicos-enquanto-trump-busca-estabilizar-mercado",
+      "summary": "Concurso em Manaus oferece 20 vagas de auditor fiscal e salário de R$ 27,2 mil. Inscrições terminam em 27 de agosto.",
+      "details": "Concurso em Manaus oferece 20 vagas de auditor fiscal e salário de R$ 27,2 mil. Inscrições terminam em 27 de agosto.",
+      "url": "https://portalr3.com.br/2026/08/23/concurso-manaus-auditor-fiscal-salario-27-mil",
       "source": "Tribuna do Agreste",
       "category": "latest",
       "tags": [
@@ -591,14 +702,14 @@
       "updatedAt": "2026-08-23T10:48:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://img.dhost.cloud/jYryf0SQNvusQHcqLaePtFND0Kc=/1200x630/smart/https://tdan.nyc3.digitaloceanspaces.com/images/c78b7/6993021a789fd1373d0e7f7edc62b6bb343.jpg"
+      "imageUrl": "https://portalr3.com.br/wp-content/uploads/2026/08/20260823-concur.png"
     },
     {
       "id": "macro-05524505a63c4233e851cb90",
       "title": "Concurso em Manaus oferece salário de R$ 27,2 mil; inscrições terminam nesta quinta",
-      "summary": "Concurso em Manaus oferece 20 vagas de auditor fiscal e salário de R$ 27,2 mil. Inscrições terminam em 27 de agosto.",
-      "details": "Concurso em Manaus oferece 20 vagas de auditor fiscal e salário de R$ 27,2 mil. Inscrições terminam em 27 de agosto.",
-      "url": "https://portalr3.com.br/2026/08/23/concurso-manaus-auditor-fiscal-salario-27-mil",
+      "summary": "Os efeitos do El Niño podem chegar com força ao bolso dos brasileiros nos próximos meses. Um modelo matemático desenvolvido pelo Rabobank e divulgado em rep ...",
+      "details": "Os efeitos do El Niño podem chegar com força ao bolso dos brasileiros nos próximos meses. Um modelo matemático desenvolvido pelo Rabobank e divulgado em rep ...",
+      "url": "https://mancheterio.com.br/el-nino-pode-elevar-preco-dos-alimentos-em-quase-20-e-pressionar-inflacao/",
       "source": "PortalR3",
       "category": "macro",
       "tags": [
@@ -610,33 +721,14 @@
       "updatedAt": "2026-08-23T10:47:45Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://portalr3.com.br/wp-content/uploads/2026/08/20260823-concur.png"
-    },
-    {
-      "id": "funds-6fb529925bedd927ea80b16d",
-      "title": "DGB Price Jumps 10.62%: Staking Dynamics at Play",
-      "summary": "ECONOMIA • 22 de agosto de 2026Dólar cai a R$ 5,14 e Ibovespa fecha em alta com alívio no mercado externoFoto: Rafa Neddermeyer / Agência BrasilO dólar comercial fechou nesta sexta-feira (21) cotado a R$ 5,142, com queda de 1%, no menor nível de fechamento desde o dia 10 de agost",
-      "details": "ECONOMIA • 22 de agosto de 2026Dólar cai a R$ 5,14 e Ibovespa fecha em alta com alívio no mercado externoFoto: Rafa Neddermeyer / Agência BrasilO dólar comercial fechou nesta sexta-feira (21) cotado a R$ 5,142, com queda de 1%, no menor nível de fechamento desde o dia 10 de agosto. O movimento de alívio também favorece",
-      "url": "https://www.cachorraotv.com.br/post/d%C3%B3lar-cai-a-r-5-14-e-ibovespa-fecha-em-alta-com-al%C3%ADvio-no-mercado-externo",
-      "source": "Coinfomania",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-08-23T10:39:24Z",
-      "updatedAt": "2026-08-23T10:39:24Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://static.wixstatic.com/media/34b5c9_f73c9bdd16f3416ba4d787ba83cb6bd5~mv2.jpg/v1/fill/w_1000,h_598,al_c,q_85,usm_0.66_1.00_0.01/34b5c9_f73c9bdd16f3416ba4d787ba83cb6bd5~mv2.jpg"
+      "imageUrl": "https://mancheterio.com.br/wp-content/uploads/2026/08/hortalicas.jpg"
     },
     {
       "id": "macro-7a8224e6e4af1c9e5ad17550",
       "title": "El Niño pode elevar preço dos alimentos em quase 20% e pressionar inflação",
-      "summary": "O preço do DGB hoje saltou 10,62% para US$ 0,00479 à medida que os comerciantes reagem à dinâmica da oferta.",
-      "details": "O preço do DGB hoje saltou 10,62% para US$ 0,00479 à medida que os comerciantes reagem à dinâmica da oferta.",
-      "url": "https://coinfomania.com/pt/dgb-price-jumps-10-62-staking-dynamics-at-play/",
+      "summary": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
+      "details": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
+      "url": "https://www.tribunadoagreste.com.br/geral/2026/08/23/965275-eua-enfrentam-desafios-economicos-enquanto-trump-busca-estabilizar-mercado",
       "source": "Rádio Manchete Rio",
       "category": "macro",
       "tags": [
@@ -648,14 +740,14 @@
       "updatedAt": "2026-08-23T10:38:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://coinfomania.com/wp-content/uploads/cover-dgb-1787481518851.webp"
+      "imageUrl": "https://img.dhost.cloud/jYryf0SQNvusQHcqLaePtFND0Kc=/1200x630/smart/https://tdan.nyc3.digitaloceanspaces.com/images/c78b7/6993021a789fd1373d0e7f7edc62b6bb343.jpg"
     },
     {
       "id": "latest-dfddccc1ad04c2ed3148f6ee",
       "title": "Dólar cai a R$ 5,14 e Ibovespa fecha em alta com alívio no mercado externo",
-      "summary": "A recente sinalização de queda gradual na taxa básica de juros (Selic), que deve encerrar o ano em torno de 13,75% segundo as projeções mais recent...",
-      "details": "A recente sinalização de queda gradual na taxa básica de juros (Selic), que deve encerrar o ano em torno de 13,75% segundo as projeções mais recent...",
-      "url": "https://tribunadepetropolis.com.br/noticias/juros-mais-baixos-e-endividamento-alto-cdl-projeta-o-cenario-do-varejo-de-petropolis-para-o-segundo-semestre/",
+      "summary": "ECONOMIA • 22 de agosto de 2026Dólar cai a R$ 5,14 e Ibovespa fecha em alta com alívio no mercado externoFoto: Rafa Neddermeyer / Agência BrasilO dólar comercial fechou nesta sexta-feira (21) cotado a R$ 5,142, com queda de 1%, no menor nível de fechamento desde o dia 10 de agost",
+      "details": "ECONOMIA • 22 de agosto de 2026Dólar cai a R$ 5,14 e Ibovespa fecha em alta com alívio no mercado externoFoto: Rafa Neddermeyer / Agência BrasilO dólar comercial fechou nesta sexta-feira (21) cotado a R$ 5,142, com queda de 1%, no menor nível de fechamento desde o dia 10 de agosto. O movimento de alívio também favorece",
+      "url": "https://www.cachorraotv.com.br/post/d%C3%B3lar-cai-a-r-5-14-e-ibovespa-fecha-em-alta-com-al%C3%ADvio-no-mercado-externo",
       "source": "cachorraotv.com.br",
       "category": "latest",
       "tags": [
@@ -667,14 +759,14 @@
       "updatedAt": "2026-08-23T10:35:53Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://arquivos.tribunadepetropolis.com.br/media/2026/07/03162604/Credito.jpeg"
+      "imageUrl": "https://static.wixstatic.com/media/34b5c9_f73c9bdd16f3416ba4d787ba83cb6bd5~mv2.jpg/v1/fill/w_1000,h_598,al_c,q_85,usm_0.66_1.00_0.01/34b5c9_f73c9bdd16f3416ba4d787ba83cb6bd5~mv2.jpg"
     },
     {
       "id": "macro-115992505c9ddd800e77324b",
       "title": "El Niño pode elevar preço dos alimentos em quase 20% e pressionar inflação nos próximos meses",
-      "summary": "Os efeitos do El Niño podem chegar com força ao bolso dos brasileiros nos próximos meses. Um modelo matemático desenvolvido pelo Rabobank e divulgado em rep ...",
-      "details": "Os efeitos do El Niño podem chegar com força ao bolso dos brasileiros nos próximos meses. Um modelo matemático desenvolvido pelo Rabobank e divulgado em rep ...",
-      "url": "https://mancheterio.com.br/el-nino-pode-elevar-preco-dos-alimentos-em-quase-20-e-pressionar-inflacao/",
+      "summary": "Atualizacao de macro capturada em Agenda do Poder.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPY0tPZzJJVFBjTHZra1lGT0RJNk5HQU01cnVEUmxXWWZxV1NNTVU2STFid29IelFGakUzVG55ZGgtVU9tQ3dVOVFqeDlEb1lMZWpuNWxaeUVTN3FvYy1CeU1ZZ0VwTUFIOHFaR3ljYzBEQm4tSDNLN0Q1MTY4b3A3enlMLWszMk1CQlF4YlNSSTJQXzFOZFpLanJIUGpZV1dPeXktalhmSjU5c0hpak9mTEJMWVZOMDRlWHBtMzN6Zw?oc=5",
       "source": "Agenda do Poder",
       "category": "macro",
       "tags": [
@@ -685,15 +777,14 @@
       "publishedAt": "2026-08-23T10:17:00Z",
       "updatedAt": "2026-08-23T10:17:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://mancheterio.com.br/wp-content/uploads/2026/08/hortalicas.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-94554a76306a7c359c109061",
       "title": "Juros mais baixos e endividamento alto: CDL projeta o cenário do varejo de Petrópolis para o segundo semestre",
-      "summary": "MONEY TALKS debate os efeitos da manutenção dos juros elevados sobre a economia brasileira e, principalmente, sobre os setores mais dependentes de crédito e consumo. O caso das Casas Bahia, que entrou com pedido de recuperação judicial, serve como ponto de partida para uma discus",
-      "details": "MONEY TALKS debate os efeitos da manutenção dos juros elevados sobre a economia brasileira e, principalmente, sobre os setores mais dependentes de crédito e consumo. O caso das Casas Bahia, que entrou com pedido de recuperação judicial, serve como ponto de partida para uma discussão sobre os limites enfrentados por…",
-      "url": "https://www.moneyreport.com.br/politica/podcast-varejo-sufocado-pelos-juros-alerta-casas-bahia-ajuste-fiscal-no-foco/",
+      "summary": "Atualizacao de ultima hora capturada em Tribuna de Petrópolis.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPc0x6OHVpYmpBWHRUT21sYUh1YmNtbXlOWUUxaWdSYXByUUplRjRtdktOb3JnelNVdV9VR1hfdW54aFZyR0liXzdBU1dPaGNzenc3R09FTmhyb21OQUVYWE92VjJFbEhHQmFLcmpoRV9rYnhlTGx5ZVpHb0hMTHc0dTlKR2VTWmlJd0t4M3NIbUZRU0YwMF9hUXNpRFp4bG5ZQW5oQkxxT0wxSFpIcjFOTHcwSFdKd3ZpdHV5cUlmZ01GNUZEcTdJWXJvY3pXbUtucENfNkQtMWY3bXFueE9BR01Xd3owVXFP?oc=5",
       "source": "Tribuna de Petrópolis",
       "category": "latest",
       "tags": [
@@ -704,15 +795,14 @@
       "publishedAt": "2026-08-23T10:13:42Z",
       "updatedAt": "2026-08-23T10:13:42Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.moneyreport.com.br/wp-content/uploads/2026/08/ChatGPT-Image-21-de-ago.-de-2026-12_06_09.png"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-8b7eb36cb189f5cd36a1e7b1",
       "title": "Ecio Costa: Inadimplência de famílias e empresas alimenta o sufoco do setor produtivo",
-      "summary": "Para entendermos a raiz desse agravamento, precisamos olhar para o custo do dinheiro no Brasil. O crédito encareceu vertiginosamente",
-      "details": "Para entendermos a raiz desse agravamento, precisamos olhar para o custo do dinheiro no Brasil. O crédito encareceu vertiginosamente",
-      "url": "https://jc.uol.com.br/colunas/economia-e-negocios/2026/08/23/ecio-costa-inadimplencia-de-familias-e-empresas-alimenta-o-sufoco-do-setor-produtivo.html",
+      "summary": "Atualizacao de empresas capturada em JC.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZktVanlkUk9QNEpkTW1LeHEtQW5FY0p2WnA0QVVLd2xjUmE5c0o2SXVTWEZxRmx2MlpMQlhkamJNV2ZqWUlvZ1NJSmNCUXJVS2Y3TVhFeC1XSk8ybGJoZTJhSmk5X1BpSkkzNkxGVDI2RXgyeGREdEFCYl9STnJXOGdERUtoZlkzTkxGYVQtWGlvUXl3cGRza3haNDQ3ZHY1WV9Rdm9ubkZFQTNkUVA0MmFKemMtaDBFWkdBaW1oSFZMZzlWSDQ2MktNMzRGOHFJdm5neE0tUEt1R211elQ3Z096WTA?oc=5",
       "source": "JC",
       "category": "companies",
       "tags": [
@@ -723,15 +813,14 @@
       "publishedAt": "2026-08-23T10:02:00Z",
       "updatedAt": "2026-08-23T10:02:00Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2026/06/16/1224x674/1_dividas-36837273.jpg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "macro-2ec4b3bb9fd89e92fe9a065c",
       "title": "Podcast: Varejo sufocado pelos juros; alerta Casas Bahia; ajuste fiscal no foco",
-      "summary": "El Niño pode elevar preço dos alimentos em quase 20% e pressionar inflação nos próximos meses",
-      "details": "El Niño pode elevar preço dos alimentos em quase 20% e pressionar inflação nos próximos meses",
-      "url": "https://agendadopoder.com.br/el-nino-pode-elevar-preco-dos-alimentos-em-quase-20-e-pressionar-inflacao-nos-proximos-meses/",
+      "summary": "Atualizacao de macro capturada em Money Report.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOUJya092aVZDQ1lxNE1jVm1DaDJMQTZIbzNZc0JrSzZCQ1hwVzZWZ1JNb25zUmo3NjU3V2pHNzZnUHhncEFYWVRZcWJzZ1RCOG1VM3BVdXdaOFhYOS1QMm9uNjJqdUhFVW9INjZGc3NEbkFKSlQ5bEpSSEs1SjFjVUVCYUt6cWVmOWRVTVRFamZMd3RyNTF3X1dWM09zSVFYOW9OWGVWUjlvVGJONzlFaHY2c3M3LXZC?oc=5",
       "source": "Money Report",
       "category": "macro",
       "tags": [
@@ -742,15 +831,14 @@
       "publishedAt": "2026-08-23T10:01:53Z",
       "updatedAt": "2026-08-23T10:01:53Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://agendadopoder.com.br/wp-content/uploads/2026/05/supermercado.png?quality=88&strip=all"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "companies-32d30b626cbf8357f31cee22",
       "title": "Não há economia que resista...",
-      "summary": "Combinação juros indecentes com asfixia fiscal é um fardo imposto às empresas brasileiras. Essa realidade é insustentável e ameaça paralisar o Brasil",
-      "details": "Combinação juros indecentes com asfixia fiscal é um fardo imposto às empresas brasileiras. Essa realidade é insustentável e ameaça paralisar o Brasil",
-      "url": "https://ultimosegundo.ig.com.br/colunas/nuno-vasconcellos/2026-08-23/nao-ha-economia-que-resista.html.amp",
+      "summary": "Atualizacao de empresas capturada em iG Último Segundo.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOT3pfS2ZSblpPRjhOLVE3SW80ZExhRWJrS3RzNzZqTjNvaExVSDZMenpZRTI1d1c0ejdPYUJDVllSLVdtMDhRT2xZNEY4RW01dGQtenB6cTcxNUFWeHlPemx1aTgyVjVRUGJMcEtFQXV3eWZLamFmSDBwU1Q1YnhsRm5JM1FDU28wV2IxVlJSSXNhRjI3Y3VDYzBmYktHOFFFNUs2dVY4bDPSAagBQVVfeXFMTk96X0tmUm5aT0Y4Ti1RN0lvNGRMYUVia0t0czc2ak4zb2hMVUg2THp6WUUyNXdXNHo3T2FCQ1ZZUi1XbTA4UU9sWTRGOEVtNXRkLXpwenE3MTVBVnh5T3psdWk4MlY1UVBiTHBLRUF1d3lmS2phZkgwcFNUNWJ4bEZuSTNRQ1NvMFdiMVZSUklzYUYyN2N1Q2MwZmJLRzhRRTVLNnVWOGwz?oc=5",
       "source": "iG Último Segundo",
       "category": "companies",
       "tags": [
@@ -761,8 +849,7 @@
       "publishedAt": "2026-08-23T10:00:00Z",
       "updatedAt": "2026-08-23T10:00:00Z",
       "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://i0.statig.com.br/bancodeimagens/f0/qp/zm/f0qpzmp0btf1kwu6tqlm498cr.jpg"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "macro-5b1731bec60196c8051f7e3d",
@@ -873,6 +960,24 @@
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
+      "id": "latest-b2d5e3aeb8934662c2f34d1e",
+      "title": "Como escolher os melhores FIIs para investir em 2026",
+      "summary": "Atualizacao de ultima hora capturada em Nord Investimentos.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4zTThjNjhvMkxqaEVCNS1JaDdQOHBvaHpWbFdWZXJuUGlDOFptYlVIeG5BTndaOFZaN01kMV90SHgzZ3ZmUExXUTVzczc1WjRXSmtIc1ZKNkJVWFZVTEJiLWRzLVlIY2hDUUlqOG12UjVQSGhz0gF6QVVfeXFMTTllQzM1UnNvTFZpaFNRTjFJUGpvWWhZQm9NVjdxSTFjeUFvU0pGZ1JTd0pKQ1pUQ1Jzb0U0aC13ZlpfSjIwQnA5cGhockx4VXV4a1B2M2o2SHR0cGQtQThtUU9vSHhxd1Myb25GMThzekdNS1h4OHViZVE?oc=5",
+      "source": "Nord Investimentos",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-23T09:06:39Z",
+      "updatedAt": "2026-08-23T09:06:39Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
       "id": "macro-4e324044fa8eef7baff9a5ce",
       "title": "O que falta para crescimento da Argentina? Para analistas, recuperação segue frágil",
       "summary": "Atualizacao de macro capturada em InfoMoney.",
@@ -889,42 +994,6 @@
       "updatedAt": "2026-08-23T09:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-e9fab6056a9d4e80ad9f20da",
-      "title": "Mensalidades escolares devem subir até 11% e superar inflação; confira",
-      "summary": "Atualizacao de macro capturada em band.com.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQR01Kb2tTNkRQemQ0MEktTEJDQ08zR3AxZjZpVFNOdkQxMndHUVFHcllIMktmdXEzY3BTbnAzRExrVmVrWHJJSVMwckZwTGNVWm1hZU4tWDRnUUI1dElEVGpyMUZ1amZpWVZMT3BFcE1XUjllYlNWWk5SQzhJOEVSOS03S1RpZVpwcXhoek05eXYwY2tyNFRJeUU3NEl0XzRQZF85Z3dWdFBKV2prd1A0WEtWUW0tS1dsYWFQNnlqUFNfdVR2ekFJckdvNWE5aWViZFNj?oc=5",
-      "source": "band.com.br",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-23T08:30:02Z",
-      "updatedAt": "2026-08-23T08:30:02Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "latest-bdfdd63bdb4462cf8283641d",
-      "title": "Brasileiro ficou bilionário começando com uma clínica de imagem e construiu a maior rede privada de hospitais do país",
-      "summary": "Atualizacao de ultima hora capturada em O POVO.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWmd5UFhVQXN0RDRrX3ZWbEpJQmFGZmo4clFic1JVWWs5a3R4TFhyNmFka0ctbzF1ODQ5UllCeGt6Yk8xU0VFWV9qV0VjcVd0dWVWcXVMazNPQS1GNDg4T0xDRTRQS0pPSW9DNmhlLWJZTWZ2OW1MV1g1WW5QOHJhWkVRM1FJY1ZzR0ZfWUxpdVhybUo2SGsyMEFZak50dE9SZDYxMlU3LXJhd0FIZktNdUhpVi1yVk81Z09oQmd1aXI0S3dQZEVrTG14RjU4MTUzWU5fQXRoWjhDR0tRUFdr?oc=5",
-      "source": "O POVO",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-23T08:22:00Z",
-      "updatedAt": "2026-08-23T08:22:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "funds-1c860dab114f92791addc805",
@@ -963,24 +1032,6 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "macro-5401caf09203710da580f4ff",
-      "title": "El Niño pode encarecer alimentos em até 20%; economistas preveem impacto na inflação",
-      "summary": "Atualizacao de macro capturada em G1.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOR0ZKZHNQa0lCSkUzU1pCQjh5dXNXT0Nmc21wa2kwWExZNjFYZ2x0S0piYWFITkU4Z01rVmYtRVRQRHBhcGl4ZEtsc1JJclJaRlRyY280Sm5RNGVkTGpzSTRNLVZ5M3E2RUh1LUV6elhKQkdYcTZ6LVN5QThZUWdQSkNtS2dkcEtVcndJbFBZWkM1ZmNlbnRGbjdObHFRSllDdmszNnpLTENSNGwyd3ZDWGdHVGtHQ3Y5cy1Hbm12Zk1XTGxNVUNwS3dLOXFhMzVlUUtZOVZZYUd6b0ZjcUx2UHBRS0FYeHdrZEJESjh30gH8AUFVX3lxTE1lT0xWZWR4dXFjYjZKcGJDcFFmNm1WaXJaN1BrVUpMMHc1QTJxY2N6TVlYMXZPRzdXTnlQYlA0bW9mcDFEemZJeUV4aVdDTDRHRmM4cG1jLWtQYlBDd0pZYmQ2V3FvUDFhaTA1LW1XOXF2bmJJVTJuLXVXQlJBdGZOOFRVaC1IdDJ3bHY0VXAyTzJzOVoyUTJucExjUEJwRnZ4RmN2RTZScF9rTGRwblZDV1dLMVh0LVlPdmdYNFdSQllOMVRscGtMOWZvQmFnUXZyOWduaVFtWU1yVXZOS19xQjlMVmlXUFpTSmJxRjZhVm1YYlRIVzhXS1k1cw?oc=5",
-      "source": "G1",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-23T08:00:45Z",
-      "updatedAt": "2026-08-23T08:00:45Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
       "id": "latest-47e103527e593194d776a36f",
       "title": "Crimes contra o sistema financeiro: como fica o investidor?",
       "summary": "Atualizacao de ultima hora capturada em A Gazeta.",
@@ -999,56 +1050,20 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-efdc57a7e8018e3f830272a0",
-      "title": "Fed mantém juros, mas decisão dividida acende alerta",
-      "summary": "Atualizacao de ultima hora capturada em Nord Investimentos.",
+      "id": "latest-ea94951c7f9e40f979c8d635",
+      "title": "Enter: o que faz a startup brasileira de IA que se tornou unicórnio e já vale US$ 1,2 bilhão",
+      "summary": "Atualizacao de ultima hora capturada em G1.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9OVmtvNmUtQVVmU25DQ1NrMnRlbk90eDdRLW4tOGVjalh4V1ItcTVjX0l0V3lUV2dvNmlKRTZicVBCdkxDWEItNUJab1NZUXJtNHRvTXh2VkxJTUJKalZEMzVpekVjcjcxSGtUTXVPWHVOMmgzMDcw0gF8QVVfeXFMTzkxMTlVYjYxSlZUelctWGFiMGVESkRkUks3el91bmlQYXM5LXFBY2N2dmN6ellQNzZpZ3R6Ymx5emphLTJLUW9jMjF3MGlWQnZndG1GcjBLZHowTnF4S0E5MnM2c1lHX0ZiX2ljSms2SzQwakxuV2VQUHhPVg?oc=5",
-      "source": "Nord Investimentos",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOREFwbXRhSUJlem5PNUZsT1drcTYtdWV2VXdvc2V5ZU5aWXc5a1lVNHhrajRPRml0Y09VQi1md2VCT0NzM1MxVHBMTmdua1VJNVp3OTZKdmg1dUtPd0lhcVF3UnVpWURDYjZYTkdVMnY1bUlUNDVwVWpzTXBCUzJESUFIeDYtVXl6OVp5ci0yQmxtQUotWWRTSzVlQm9UajkybHlBcUV5Y01zd2p6cTVhQkNEZjdqZXFlaGhORGxpcmxUMnJpSURPdFlWS3IzNElLSXd1eW42SHVCdDZ1UDl4NnR6NGw3MUZaTGoxU1pB0gHuAUFVX3lxTE5EQXBtdGFJQmV6bk81RmxPV2txNi11ZXZVd29zZXllTlpZdzlrWVU0eGtqNE9GaXRjT1VCLWZ3ZUJPQ3MzUzFUcExOZ25rVUk1Wnc5Nkp2aDV1S093SWFxUXdSdWlZRENiNlhOR1UydjVtSVQ0NXBVanNNcEJTMkRJQUh4Ni1VeXo5WnlyLTJCbG1BSi1ZZFNLNWVCb1RqOTJseUFxRXljTXN3anpxNWFCQ0RmN2plcWVoaE5EbGlybFQycmlJRE90WVZLcjM0SUtJd3V5bjZIdUJ0NnVQOXg2dHo0bDcxRlpMajFTWkE?oc=5",
+      "source": "G1",
       "category": "latest",
       "tags": [
         "mercado",
         "bolsa",
         "macro"
       ],
-      "publishedAt": "2026-08-23T05:44:26Z",
-      "updatedAt": "2026-08-23T05:44:26Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-ec52e28aa79f45621a3633f8",
-      "title": "Tentativa de polir credenciais fiscais de Lula é frustrante",
-      "summary": "Atualizacao de ultima hora capturada em O GLOBO.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQktkZmVkTlQteW5xZlFuYXRLT21xTU94S0hHYzVsWkRaM1ljZEZQZTkzTXRXc0F2YzI5MnVLRktIakRSZ3RTVmoxc0c4Z2QtcDlqOVdrQ0Jrdmd3VGlySWZsQ2lMUzh3aE0zMDYxcHZjVkl6bEJ6N2FqSGdMZFVHeVpUa3JWaFFNVmJNQ0NueV9SM2pYREk4T1Q3WlY1SGRWS1BRQ3FnQzRMSEMwWlBuSGo5eW5SaFp2N1YtN29xYk_SAc8BQVVfeXFMUDZGQlRWcENVdFp2WmQ2N2l5U1I3a3F3b2Z5WU9pbHFUdlg1enRfdE9leU4wWDB4ZUZGdXR3UmFvWXU1cFZNSThfWElDbFBaUFVGY09HUXpFNjExbkpSeXE4cVItZ193UUYzajNvVUxlZzJzeXFia0YxYjlIZk9VbDZFd1V2bHU0MjV5dFdiUHFSSHhHSjZWTS1ueGFUNTZERmRLLXFJbG9LcE5BZ2ZtcHM5SXFMeWdPRjhEVUs2azRhczlsS0hGNGxKRVA5b19z?oc=5",
-      "source": "O GLOBO",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-23T03:10:15Z",
-      "updatedAt": "2026-08-23T03:10:15Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-c8f80d57dba6c81ea442a62c",
-      "title": "Mercado mantém projeções para inflação, juros, PIB e dólar em 2026 | Notícias de Campo Grande e MS",
-      "summary": "Atualizacao de ultima hora capturada em capitalnews.com.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOUlTVnRhMlFSM3VFa0QxVWM0OGVXMnlma3JZREtPVWt1SnJCVkNVWlZhT2ZfVVgzb3ZmYzlOZDVJMWZBRldmYmJOUkxucEtoTkpJSWlnUTZXYndHMGJNMTFsN2w4c0o5Z2hfQVh6MFN1Z2JFa09kbHRFQS1MeXJXY3BFR2IzaFBsTW1UdHVYU28wWEtZWjNRNVRBcmVoOFl0VzJ2RGd3VHpyeWp6OXMwSA?oc=5",
-      "source": "capitalnews.com.br",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-23T03:00:05Z",
-      "updatedAt": "2026-08-23T03:00:05Z",
+      "publishedAt": "2026-08-23T07:01:29Z",
+      "updatedAt": "2026-08-23T07:01:29Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
@@ -1071,42 +1086,6 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "latest-6f0a918626d80ea5a5419d37",
-      "title": "Bolsa vira o jogo na semana, dólar recua a R$ 5,14 e eleição ganha peso no mercado",
-      "summary": "Atualizacao de ultima hora capturada em Balada IN.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYWJUSHNGNWdxM3NQTDZKQlh5S185S2lZdEVyTmNubTAweXViZ2ZhSkFZUjJvMVhoUG9IS3lDT2lyR0FiYW9obndOWF9sWXJEVFdPQTNFSU9VMkVoSWtITk9hRlJqY2s0ZVA0aEVQUFJhZ0ZsUk5lN2Z0aGdUUW11UFdKYVpyVk5rMG8xb2hqUWJCM3dXZEZHOGFJZExIblFOeEt4TVYydVg3WkxxY25QWkNQYmRmMHNC?oc=5",
-      "source": "Balada IN",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-23T02:22:00Z",
-      "updatedAt": "2026-08-23T02:22:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-d662aff96a51fa391e0b618b",
-      "title": "Tentativas de fraude crescem quase 10% no setor financeiro",
-      "summary": "Atualizacao de ultima hora capturada em Novo Momento.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8wZ0x3Q05lTmhlUG9ObzFIV1h1UDhZTFhZeVBCdlQ1YkhzWHZTeFF5Z2wyQ0xic0phbHdmLTByWUR3cXdjcVVHYklsRi0zZ190XzdxRFNyRHY4MlVNR0pJMWNpNUpuZHlPQzBKZlJiYnhickNQTUUxQV9vekc?oc=5",
-      "source": "Novo Momento",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-23T02:04:38Z",
-      "updatedAt": "2026-08-23T02:04:38Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "companies-b3daa5a8f3489b850ef27659",
       "title": "Neve nos Andes causa prejuízo a transportadoras brasileiras",
       "summary": "Atualizacao de empresas capturada em jornalcruzeiro.com.br.",
@@ -1123,6 +1102,24 @@
       "updatedAt": "2026-08-22T22:33:09Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "funds-22d7f104a0d78807519e5e97",
+      "title": "Sky Tops $4.5B in Tokenized RWA Market as Growth Surges",
+      "summary": "Atualizacao de fundos capturada em Coinfomania.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaHRKbGs4UzFQakdrdThsMHd3dlFkNy1LMXh2OTNPbllGT2dvX0FsTlI3SzZjZi1HdFRrTUI2M2JCdkxMZXpGRW5YU0J2ckp2d0ZDYXY4UTJpOE5vQS1uaTlhRGdfbEVodzdheml4S05GQ0pUQm1uNG1YZjlMdkZ1Vk1kQUp2WHcxVHc?oc=5",
+      "source": "Coinfomania",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-08-22T21:31:24Z",
+      "updatedAt": "2026-08-22T21:31:24Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "companies-f1137d4afd81bd35f3dfb03b",
@@ -1157,6 +1154,24 @@
       ],
       "publishedAt": "2026-08-22T20:48:00Z",
       "updatedAt": "2026-08-22T20:48:00Z",
+      "premium": false,
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
+    },
+    {
+      "id": "companies-1bba7ebb334e8c1d8460b9bc",
+      "title": "Irmãos Batista avançam no setor de defesa com compra da Avibras",
+      "summary": "Atualizacao de empresas capturada em Jornal Opção.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMUw3alE3a0ZScVFWNDVXX25hU0lNWlV3NDJ1UkZBQkVLcVE4akhzOEo2QUhGcTZNcEZGaE8xcTk2YjRDTXYwLWJfU3pYb29HRDVlSk9yWk5sdm5kZFMzejJvSU9nNzJNOGN0d0xsbGg3cmJ6YjNJeFRXVV81eFRHeVVKQVA1VVluT21jUmhMek9LaWV3LUZvNUNQbEFqSUtQZXJWVl9TY1Y0bWhmb1RhQQ?oc=5",
+      "source": "Jornal Opção",
+      "category": "companies",
+      "tags": [
+        "empresas",
+        "resultados",
+        "m&a"
+      ],
+      "publishedAt": "2026-08-22T20:35:00Z",
+      "updatedAt": "2026-08-22T20:35:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
@@ -1375,24 +1390,6 @@
       "updatedAt": "2026-08-22T12:15:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
-    },
-    {
-      "id": "funds-49009af5ca507d64c12189bd",
-      "title": "MLN Price Surges 10.24% Following Increased Interest",
-      "summary": "Atualizacao de fundos capturada em Coinfomania.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTTNjc0EwZVpDX0dhQlQxbnVuNVlNNFFqYl9jdUl1Y0pLc0FMbmh5ellVTE83a1l4M1hTSjBWWGpXZjR1dWNoNnRIODZXUnViTW9rV2xodDRWOTZTcHNkOVF1WndPUE1PSTZjVWRBWEdOeWFVSHdfc3NwQUw5c2pUa3I1MktzZw?oc=5",
-      "source": "Coinfomania",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-08-22T11:41:23Z",
-      "updatedAt": "2026-08-22T11:41:23Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "funds-275e49ff0b614c9884d0001d",
