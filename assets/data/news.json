@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-25T08:22:23Z",
-  "generatedAt": "2026-08-25T08:22:23Z",
+  "updatedAt": "2026-08-25T09:07:23Z",
+  "generatedAt": "2026-08-25T09:07:23Z",
   "categories": [
     {
       "id": "all",
@@ -41,6 +41,10 @@
       "label": "BH Eventos"
     },
     {
+      "id": "boca-com-br",
+      "label": "boca.com.br"
+    },
+    {
       "id": "bra1-com-br",
       "label": "bra1.com.br"
     },
@@ -73,10 +77,6 @@
       "label": "Coinfomania"
     },
     {
-      "id": "coinmarketcap",
-      "label": "CoinMarketCap"
-    },
-    {
       "id": "correio-de-corumb",
       "label": "Correio de Corumbá"
     },
@@ -97,12 +97,12 @@
       "label": "Estadão"
     },
     {
-      "id": "expans-o",
-      "label": "Expansão"
+      "id": "exame",
+      "label": "Exame"
     },
     {
-      "id": "extra-online",
-      "label": "Extra online"
+      "id": "expans-o",
+      "label": "Expansão"
     },
     {
       "id": "fog-onet",
@@ -111,10 +111,6 @@
     {
       "id": "folha-de-curitiba",
       "label": "Folha de Curitiba"
-    },
-    {
-      "id": "gazeta-do-povo",
-      "label": "Gazeta do Povo"
     },
     {
       "id": "imirante-com",
@@ -129,8 +125,12 @@
       "label": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
     },
     {
-      "id": "monitor-mercantil",
-      "label": "Monitor Mercantil"
+      "id": "money-times",
+      "label": "Money Times"
+    },
+    {
+      "id": "nopontosc",
+      "label": "NoPontoSC"
     },
     {
       "id": "notisul",
@@ -147,6 +147,10 @@
     {
       "id": "para-ba-business",
       "label": "Paraíba Business"
+    },
+    {
+      "id": "poder360",
+      "label": "Poder360"
     },
     {
       "id": "portal-erp",
@@ -189,15 +193,162 @@
       "label": "Tribuna do Paraná"
     },
     {
-      "id": "uol-not-cias",
-      "label": "UOL Notícias"
-    },
-    {
       "id": "valor-econ-mico",
       "label": "Valor Econômico"
     }
   ],
   "items": [
+    {
+      "id": "macro-b3c2552b80e568a34e018eaa",
+      "title": "Inflação de 400%: 'Doutor Dinheiro' prescreve dólar para a Venezuela",
+      "summary": "Energia, agro e varejo devem concentrar impactos, enquanto efeitos da inflação implícita ainda aparece pouco nos preços dos ativos",
+      "details": "Energia, agro e varejo devem concentrar impactos, enquanto efeitos da inflação implícita ainda aparece pouco nos preços dos ativos",
+      "url": "https://valor.globo.com/financas/noticia/2026/08/25/mercado-comeca-a-mapear-acoes-mais-expostas-ao-el-nino.ghtml",
+      "source": "Exame",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-25T09:03:46Z",
+      "updatedAt": "2026-08-25T09:03:46Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s2-valor.glbimg.com/G5dJOlk3gIwKsjGgQdoOrcclD4c=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/C/Y/9d5rAgTTOcm4AkGug7pg/foto25fin-101-nino-c6.jpg"
+    },
+    {
+      "id": "macro-fa827f9b7ebf010e03ca6f4b",
+      "title": "Saiba quais indicadores e balanços saem nesta 3ª feira",
+      "summary": "Arrecadação federal, Tesouro Direto, PIB e confiança do consumidor movimentam os mercados. Leia no Poder360.",
+      "details": "Arrecadação federal, Tesouro Direto, PIB e confiança do consumidor movimentam os mercados. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-economia/saiba-quais-indicadores-e-balancos-saem-nesta-3a-feira-3/",
+      "source": "Poder360",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-25T09:02:39Z",
+      "updatedAt": "2026-08-25T09:02:39Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/07/capas-posts-agenda-Lula-eleicoes-ministros-STF-STJ-indicadores-site-Poder360-07-scaled.jpg"
+    },
+    {
+      "id": "latest-b096df71e313ab1b4c9498cc",
+      "title": "Tempo real: Ibovespa monitora confiança do consumidor e mercado de trabalho",
+      "summary": "Boletim Focus divulgado pelo Banco Central aponta expectativa de alta de 1,95% para a economia brasileira no próximo ano",
+      "details": "Boletim Focus divulgado pelo Banco Central aponta expectativa de alta de 1,95% para a economia brasileira no próximo ano",
+      "url": "https://nopontosc.com.br/2026/08/25/mercado-reduz-previsao-de-crescimento-do-pib-brasileiro-para-2026/",
+      "source": "Money Times",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-25T09:00:00Z",
+      "updatedAt": "2026-08-25T09:00:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://nopontosc.com.br/wp-content/uploads/2026/08/economia_ilustracao-2.webp"
+    },
+    {
+      "id": "macro-22b13a98a589012abbfc403e",
+      "title": "PIB da Alemanha cresce 0,3% no 2º trimestre graças à resiliência das exportações",
+      "summary": "Atualizacao de macro capturada em Valor Econômico.",
+      "details": "",
+      "url": "https://exame.com/mundo/venezuela-usando-dolar-doutor-dinheiro-defende-mudanca/",
+      "source": "Valor Econômico",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-25T08:45:25Z",
+      "updatedAt": "2026-08-25T08:45:25Z",
+      "premium": true,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-12d92960e2447c66ec43970a",
+      "title": "Mercado reduz previsão de crescimento do PIB brasileiro para 2026",
+      "summary": "As exportações de bens subiram 2,6% no trimestre, provavelmente impulsionadas pela formação de estoques de produtos alemães por empresas estrangeiras",
+      "details": "As exportações de bens subiram 2,6% no trimestre, provavelmente impulsionadas pela formação de estoques de produtos alemães por empresas estrangeiras",
+      "url": "https://valor.globo.com/mundo/noticia/2026/08/25/pib-da-alemanha-cresce-03percent-no-2o-trimestre-gracas-a-resiliencia-das-exportacoes.ghtml",
+      "source": "NoPontoSC",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-25T08:32:41Z",
+      "updatedAt": "2026-08-25T08:32:41Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
+    },
+    {
+      "id": "latest-4b3d979fd6650c8aaa4ebefb",
+      "title": "R$ 672 bi em resgates, saída de Armínio Fraga e crise: ainda vale investir em multimercados?",
+      "summary": "Acompanhe o Ibovespa e os demais mercados em tempo real.",
+      "details": "Acompanhe o Ibovespa e os demais mercados em tempo real.",
+      "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-25-08-2026-jals-lils-apsa/",
+      "source": "Estadão",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-25T08:30:00Z",
+      "updatedAt": "2026-08-25T08:30:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/07/ibovespa-acoes.png"
+    },
+    {
+      "id": "funds-d1098c66aafc2b13ba05386f",
+      "title": "Inter Dividendos é destaque em ranking de fundos do Valor em 2026",
+      "summary": "Resgates bilionários e custos pressionam gestoras independentes e estimulam transferência de produtos para casas maiores; entenda as mudanças no segmento",
+      "details": "Resgates bilionários e custos pressionam gestoras independentes e estimulam transferência de produtos para casas maiores; entenda as mudanças no segmento",
+      "url": "https://www.estadao.com.br/einvestidor/direto-da-faria-lima/r-672-bi-em-resgates-saida-de-arminio-fraga-e-crise-ainda-vale-investir-em-multimercados/",
+      "source": "boca.com.br",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-08-25T08:28:16Z",
+      "updatedAt": "2026-08-25T08:28:16Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/NJKNCIUOKZCWZMLGJVGZEH4MEQ.jpeg?quality=80&auth=878f173ad3791cac153a1eaf335a74700882190f663de4446af25718fcf2b14a&width=1200&height=630&smart=true"
+    },
+    {
+      "id": "macro-42a24d01d21bd1971469a058",
+      "title": "Mercado começa a mapear ações mais expostas ao El Niño",
+      "summary": "Fundos de ações são recomendados para investidores de longo prazo",
+      "details": "Fundos de ações são recomendados para investidores de longo prazo",
+      "url": "https://boca.com.br/mercado-financeiro/inter-dividendos-e-destaque-em-ranking-de-fundos-do-valor-em-2026",
+      "source": "Valor Econômico",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-25T08:02:44Z",
+      "updatedAt": "2026-08-25T08:02:44Z",
+      "premium": true,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/a31d7ea051acc39f29761bbcdedf02ff_858x483.jpg"
+    },
     {
       "id": "macro-007be8b2b028726fca003515",
       "title": "Deve-se esclarecer ao eleitor como as contas públicas serão sanadas",
@@ -213,25 +364,6 @@
       ],
       "publishedAt": "2026-08-25T08:02:23Z",
       "updatedAt": "2026-08-25T08:02:23Z",
-      "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
-    },
-    {
-      "id": "macro-d37cfae17673683c603cd3ee",
-      "title": "O intocável regime de metas precisa ser aperfeiçoado",
-      "summary": "Diversas fontes inflacionárias além da demanda podem ter peso muito maior na alta dos preços e tornar o regime ineficaz",
-      "details": "Diversas fontes inflacionárias além da demanda podem ter peso muito maior na alta dos preços e tornar o regime ineficaz",
-      "url": "https://valor.globo.com/brasil/coluna/o-intocavel-regime-de-metas-precisa-ser-aperfeicoado.ghtml",
-      "source": "Valor Econômico",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-25T08:01:48Z",
-      "updatedAt": "2026-08-25T08:01:48Z",
       "premium": true,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
       "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
@@ -277,9 +409,9 @@
     {
       "id": "funds-34399f89449cb54d08547a71",
       "title": "Inter Dividendos é destaque no ranking dos fundos de ações mais rentáveis",
-      "summary": "Top 10 do Guia de Fundos do Valor avaliou os melhores do primeiro semestre de 2026; modalidade de investimento em ações é indicada para longo prazo",
-      "details": "Top 10 do Guia de Fundos do Valor avaliou os melhores do primeiro semestre de 2026; modalidade de investimento em ações é indicada para longo prazo",
-      "url": "https://www.cnnbrasil.com.br/economia/money/negocios/inter-dividendos-e-destaque-no-ranking-dos-fundos-de-acoes-mais-rentaveis/",
+      "summary": "Redução da oferta de produtos agrícolas, elevar custos de produção e transporte",
+      "details": "Redução da oferta de produtos agrícolas, elevar custos de produção e transporte",
+      "url": "https://www.terra.com.br/economia/impacto-do-super-el-nino-fenomeno-deve-pressionar-inflacao-e-deixar-os-alimentos-mais-caros,12cc60c0ea02a1f8ca61bc3497a165e002pm4b5j.html",
       "source": "CNN Brasil",
       "category": "funds",
       "tags": [
@@ -291,14 +423,14 @@
       "updatedAt": "2026-08-25T08:00:06Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/compressed-IMG_CNN_7.png?w=1200&h=630&crop=1"
+      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/08/21/whatsapp-image-2026-08-21-at-18-08-53-(1)-qec71juw3fja.jpeg"
     },
     {
       "id": "macro-2ab2d4ae3f9e292fd1b503fa",
       "title": "Impacto do super El Niño: fenômeno deve pressionar inflação e deixar os alimentos mais caros",
-      "summary": "Concurso da ADEAL oferece vagas para fiscal estadual agropecuário nas especialidades de Engenharia Agronômica e Medicina Veterinária.",
-      "details": "Concurso da ADEAL oferece vagas para fiscal estadual agropecuário nas especialidades de Engenharia Agronômica e Medicina Veterinária.",
-      "url": "https://folha.qconcursos.com/n/agencia-de-defesa-e-inspecao-agropecuaria-de-alagoas-abre-concurso-com-25-vagas-para-fiscal-estadual-agropecuario",
+      "summary": "Top 10 do Guia de Fundos do Valor avaliou os melhores do primeiro semestre de 2026; modalidade de investimento em ações é indicada para longo prazo",
+      "details": "Top 10 do Guia de Fundos do Valor avaliou os melhores do primeiro semestre de 2026; modalidade de investimento em ações é indicada para longo prazo",
+      "url": "https://www.cnnbrasil.com.br/economia/money/negocios/inter-dividendos-e-destaque-no-ranking-dos-fundos-de-acoes-mais-rentaveis/",
       "source": "Terra",
       "category": "macro",
       "tags": [
@@ -310,14 +442,14 @@
       "updatedAt": "2026-08-25T07:58:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://imagedelivery.net/ZwI98Xzesy9y5C72ogEH0A/9ab82562-27a4-4181-c3c9-bb6d8e1e5000/original"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/compressed-IMG_CNN_7.png?w=1200&h=630&crop=1"
     },
     {
       "id": "companies-b9d09616514fc74d108ba8e9",
       "title": "ApexBrasil e ASEAN discutem ampliação do comércio e dos investimentos no Sudeste Asiático",
-      "summary": "Redução da oferta de produtos agrícolas, elevar custos de produção e transporte",
-      "details": "Redução da oferta de produtos agrícolas, elevar custos de produção e transporte",
-      "url": "https://www.terra.com.br/economia/impacto-do-super-el-nino-fenomeno-deve-pressionar-inflacao-e-deixar-os-alimentos-mais-caros,12cc60c0ea02a1f8ca61bc3497a165e002pm4b5j.html",
+      "summary": "Petrobras pode reagir à volatilidade da commodity; Braskem deixa o índice após pedir recuperação extrajudicial",
+      "details": "Petrobras pode reagir à volatilidade da commodity; Braskem deixa o índice após pedir recuperação extrajudicial",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-busca-5-alta-seguida-de-olho-no-petroleo-e-na-tensao-entre-eua-e-ira/",
       "source": "Brasil 61",
       "category": "companies",
       "tags": [
@@ -329,14 +461,14 @@
       "updatedAt": "2026-08-25T07:45:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/08/21/whatsapp-image-2026-08-21-at-18-08-53-(1)-qec71juw3fja.jpeg"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/CHT2LA2OWFNKHDVU6FVR6PE56A.png?quality=80&auth=b2e8fe35bb3906be738e587987346e46ec290db49c673865b7946d4a79ff7c55&width=1200&height=630&smart=true"
     },
     {
       "id": "macro-b5de0d0e3422cb90aab67fb9",
       "title": "Agência de Defesa e Inspeção Agropecuária de Alagoas abre concurso com 25 vagas para fiscal estadual agropecuário",
-      "summary": "Petrobras pode reagir à volatilidade da commodity; Braskem deixa o índice após pedir recuperação extrajudicial",
-      "details": "Petrobras pode reagir à volatilidade da commodity; Braskem deixa o índice após pedir recuperação extrajudicial",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/ibovespa-busca-5-alta-seguida-de-olho-no-petroleo-e-na-tensao-entre-eua-e-ira/",
+      "summary": "Concurso da ADEAL oferece vagas para fiscal estadual agropecuário nas especialidades de Engenharia Agronômica e Medicina Veterinária.",
+      "details": "Concurso da ADEAL oferece vagas para fiscal estadual agropecuário nas especialidades de Engenharia Agronômica e Medicina Veterinária.",
+      "url": "https://folha.qconcursos.com/n/agencia-de-defesa-e-inspecao-agropecuaria-de-alagoas-abre-concurso-com-25-vagas-para-fiscal-estadual-agropecuario",
       "source": "Qconcursos Folha Dirigida",
       "category": "macro",
       "tags": [
@@ -348,7 +480,7 @@
       "updatedAt": "2026-08-25T07:35:04Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/CHT2LA2OWFNKHDVU6FVR6PE56A.png?quality=80&auth=b2e8fe35bb3906be738e587987346e46ec290db49c673865b7946d4a79ff7c55&width=1200&height=630&smart=true"
+      "imageUrl": "https://imagedelivery.net/ZwI98Xzesy9y5C72ogEH0A/9ab82562-27a4-4181-c3c9-bb6d8e1e5000/original"
     },
     {
       "id": "latest-a0b2eefd91697ff98d80d736",
@@ -391,9 +523,9 @@
     {
       "id": "funds-8ea7e40abd41fffaf31d5191",
       "title": "Lucro da banca comercial sobe 8% para 601 milhões USD no I semestre",
-      "summary": "Os resultados reflectem, sobretudo, o desempenho dos investimentos em dívida pública, aumento do crédito, dos cambiais e a aposta crescente em fundos de investimento. BFA recupera a liderança dos lucros, num semestre marcado pela queda de 34% do BAI e pelo regresso aos lucros do ",
-      "details": "Os resultados reflectem, sobretudo, o desempenho dos investimentos em dívida pública, aumento do crédito, dos cambiais e a aposta crescente em fundos de investimento. BFA recupera a liderança dos lucros, num semestre marcado pela queda de 34% do BAI e pelo regresso aos lucros do Banco Económico, que continua em falênci",
-      "url": "https://expansao.co.ao/empresas/detalhe/lucro-da-banca-comercial-sobe-8-para-601-milhoes-usd-no-i-semestre-74123.html",
+      "summary": "2025 deve ter sido um bom ano para o banqueiro André Esteves, pelo menos no que diz respeito à questão",
+      "details": "2025 deve ter sido um bom ano para o banqueiro André Esteves, pelo menos no que diz respeito à questão",
+      "url": "https://diariodocomercio.com.br/mix/banqueiro-brasileiro-ve-fortuna-quase-triplicar-em-12-meses-e-sobe-356-posicoes-na-lista-dos-mais-ricos-do-mundo/?utm_source=al_leiamais",
       "source": "Expansão",
       "category": "funds",
       "tags": [
@@ -405,14 +537,14 @@
       "updatedAt": "2026-08-25T06:54:25Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://static.novavaga.co.ao/global/image.jpg?brand=EXP&type=generate&guid=9a0a23b6-0f5d-4c19-a34e-b03cbf0cd605&w=800&h=420&t=20260825064900"
+      "imageUrl": "https://diariodocomercio.com.br/mix/wp-content/uploads/2026/08/Andre_Esteves-scaled.jpg"
     },
     {
       "id": "funds-e458927a41ae0f0a76872f59",
       "title": "Banqueiro brasileiro vê fortuna quase triplicar em 12 meses e sobe 356 posições na lista dos mais ricos do mundo",
-      "summary": "2025 deve ter sido um bom ano para o banqueiro André Esteves, pelo menos no que diz respeito à questão",
-      "details": "2025 deve ter sido um bom ano para o banqueiro André Esteves, pelo menos no que diz respeito à questão",
-      "url": "https://diariodocomercio.com.br/mix/banqueiro-brasileiro-ve-fortuna-quase-triplicar-em-12-meses-e-sobe-356-posicoes-na-lista-dos-mais-ricos-do-mundo/?utm_source=al_leiamais",
+      "summary": "Os resultados reflectem, sobretudo, o desempenho dos investimentos em dívida pública, aumento do crédito, dos cambiais e a aposta crescente em fundos de investimento. BFA recupera a liderança dos lucros, num semestre marcado pela queda de 34% do BAI e pelo regresso aos lucros do ",
+      "details": "Os resultados reflectem, sobretudo, o desempenho dos investimentos em dívida pública, aumento do crédito, dos cambiais e a aposta crescente em fundos de investimento. BFA recupera a liderança dos lucros, num semestre marcado pela queda de 34% do BAI e pelo regresso aos lucros do Banco Económico, que continua em falênci",
+      "url": "https://expansao.co.ao/empresas/detalhe/lucro-da-banca-comercial-sobe-8-para-601-milhoes-usd-no-i-semestre-74123.html",
       "source": "Diário do Comércio",
       "category": "funds",
       "tags": [
@@ -424,7 +556,7 @@
       "updatedAt": "2026-08-25T06:45:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://diariodocomercio.com.br/mix/wp-content/uploads/2026/08/Andre_Esteves-scaled.jpg"
+      "imageUrl": "https://static.novavaga.co.ao/global/image.jpg?brand=EXP&type=generate&guid=9a0a23b6-0f5d-4c19-a34e-b03cbf0cd605&w=800&h=420&t=20260825064900"
     },
     {
       "id": "macro-532b0f169b18cfd26aa1a19f",
@@ -462,25 +594,6 @@
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/QFXAXZ3VOBH4TLR7DN2TAOVTKM.png?quality=80&auth=ca8e9ecd2c3e9968b8fde9b794b41d3281176ee0d66e69b213f10b315fef7fba&width=1200&height=630&smart=true"
-    },
-    {
-      "id": "macro-a7440d74d3b08953c8118292",
-      "title": "Opinião | Benefício fiscal ao refino não pode virar privilégio concorrencial",
-      "summary": "O ponto é assegurar neutralidade, previsibilidade e isonomia",
-      "details": "O ponto é assegurar neutralidade, previsibilidade e isonomia",
-      "url": "https://www.estadao.com.br/opiniao/espaco-aberto/beneficio-fiscal-ao-refino-nao-pode-virar-privilegio-concorrencial/",
-      "source": "Estadão",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-25T06:00:00Z",
-      "updatedAt": "2026-08-25T06:00:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/MEXCC2GR4NGFZORL23U4G6QQQA.png?quality=80&auth=cd21c70faa09c15d623466b3d86fbe305c1b53ac15b84672b00068f3c5093a35&width=1200&height=630&smart=true"
     },
     {
       "id": "macro-bb2490223845c13a81d62be5",
@@ -619,8 +732,8 @@
       "id": "latest-56567101ab459a8ac115fca2",
       "title": "Ibovespa avançou com a ajuda de ações ligadas a commodities",
       "summary": "Misto Brasil",
-      "details": "O dólar à vista ganhou força ante o real com as sanções dos Estados Unidos contra o Irã e seus parceiros econômicos no radar dos mercados.",
-      "url": "https://mistobrasil.com/2026/08/24/ibovespa-avancou-com-a-ajuda-de-acoes-ligadas-a-commodities/",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaUN0Q3RpMWFuUk56Y1dJTU11Ukprc1p5MUNLTnJITzVfaDFFZGdwVGVwWXN5ZExVQklSZjhVNTNBSnVmX2lYZGhwU1oxRjg3WE14QVpRUWpjeWI3QUlDLW5LSWF3WjFHU1dMWGdNSjJZYXg0NmZwVUVxdmFwSlg3WDhFZFpJRWY0MF85ZnVidktOVm9GSEZqTWN4a9IBowFBVV95cUxPV040MW9DaHZUX0c0bXk3Wmw1eC1TTktHVl9hSmI5bEpxVS1PR0pFUWdzcjRVUVVOTy1nU2g2UG5EN1p2U0xOekladDhNbk1oT25TaGNuVU5FOXRhV3Jrd3E1YWI2dG9GaVpaUXBiZV9oUlphNFdWTm01RU5fczAzU2RJRUU5aE5SWnVCVU0xTjEwcVRKSXBwclF0V2RFMFJGMDZ3?oc=5",
       "source": "- Misto Brasil",
       "category": "latest",
       "tags": [
@@ -631,15 +744,14 @@
       "publishedAt": "2026-08-25T01:37:09Z",
       "updatedAt": "2026-08-25T01:37:09Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://mistobrasil.com/wp-content/uploads/2026/04/mercado-financeiro-bolsa-numeros.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-4533b44c6dce56021508d11a",
       "title": "Zema admite flexibilizar ajuste fiscal e manter regra de ganho real do salário mínimo",
-      "summary": "Candidato do Novo diz que pode preservar política atual se contas estiverem equilibradas e adia mudanças na idade mínima da aposentadoria",
-      "details": "Candidato do Novo diz que pode preservar política atual se contas estiverem equilibradas e adia mudanças na idade mínima da aposentadoria",
-      "url": "https://www.infomoney.com.br/politica/zema-admite-flexibilizar-ajuste-fiscal-e-manter-regra-de-ganho-real-do-salario-minimo/",
+      "summary": "Atualizacao de macro capturada em InfoMoney.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPb1Z4ZXJyek9uN2R5alJHVU1CQ1hLa1ZFVHlfRzZiV2dIUGx2UDJPRXVrVkVhRmM4QUFoMElENWZObGd0SlpFQlpwTEJoamJPMjZtaTRBbFFuYUx1QWNfTW1VQjZ4OEhTUHN3T0lSVkhQTjlvci1BbVozb3I2TkIyTjBfY0NLemc5SXVMQTVqV0p5Q0FQY3czazktLS1FRzlocFJYQTFEc2tVcHFhNzh3NEcwYjUzWVZJWTVqazdoYkZyZ9IBxwFBVV95cUxOLWVGSUtia1N3c3dxZlZUaVc1eFJJYWZPcWRVSVdGU2ozZV9SdDYzRVNjeGRkc2ZPUUsyVlZGenpIZzllNzlUYjVjaF8yZk5pRkxKSDVMSEVweUF4c1VPWUNoa2VJS0NHLURVd2thQWhkYk1uZk5VUWlGSGg2S18tWE5kRXFObU5lVjgtSUNleVZKNkZralY0Mnl3YTBtLUVBYmZNd1pVOWltOEVRUzAzdEROU1UyWkl5QnE0UDBaaUp3SWFSaG1V?oc=5",
       "source": "InfoMoney",
       "category": "macro",
       "tags": [
@@ -650,15 +762,14 @@
       "publishedAt": "2026-08-25T01:24:59Z",
       "updatedAt": "2026-08-25T01:24:59Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/08/Captura-de-tela-2026-08-24-222327.png"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-d9f635d596debab9517631a3",
       "title": "Mercado reduz projeção de crescimento da economia em 2026",
-      "summary": "| Competitividade | Sem benefícios fiscais como atrativos, os estados nordestinos precisam reforçar potenciais para captar novas empresas enquanto sofrem com a desigualdade histórica e descaso de políticas públicas federais",
-      "details": "| Competitividade | Sem benefícios fiscais como atrativos, os estados nordestinos precisam reforçar potenciais para captar novas empresas enquanto sofrem com a desigualdade histórica e descaso de políticas públicas federais",
-      "url": "https://mais.opovo.com.br/jornal/reportagem/2026/08/24/reforma-tributaria-poe-fim-a-guerra-fiscal-e-exige-mais-do-nordeste.html",
+      "summary": "Atualizacao de ultima hora capturada em Imirante.com.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRlJOLUlGV0hVVWJsOUZNaHNFM2VKd25TaldLbDlvOVE3aHVoejRDN29LYlV6ZzJBZFJlMS1fOW9HM2pFdE9HVVdLaUhLTXMzSnd0VEhhZTdtUnF4dWU0dk8xbGtRUEFyS1dENWVKOGtpOG5qdlJLbUlkbU5iSUt0V2JySFBycXNmQnZnNFdCRV81NW1UQTFrSW1fMW81Y1ZoSUFIbWdENWFvTzYxUHfSAa4BQVVfeXFMUEZSTi1JRldIVVVibDlGTWhzRTNlSnduU2pXS2w5bzlRN2h1aHo0QzdvS2JVemcyQWRSZTEtXzlvRzNqRXRPR1VXS2lIS01zM0p3dFRIYWU3bVJxeHVlNHZPMWxrUVBBcktXRDVlSjhraThuanZSS21JZG1OYklLdFdickhQcnFzZkJ2ZzRXQkVfNTVtVEExa0ltXzFvNWNWaElBSG1nRDVhb082MVB3?oc=5",
       "source": "Imirante.com",
       "category": "latest",
       "tags": [
@@ -669,15 +780,14 @@
       "publishedAt": "2026-08-25T01:16:00Z",
       "updatedAt": "2026-08-25T01:16:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.opovo.com.br/_midias/jpg/2026/08/24/gemini-42214979.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-adbc7bca1f8861efb86f3046",
       "title": "Ouro recua da máxima de 3 meses antes de dados de inflação dos EUA",
-      "summary": "Boletim Focus projeta PIB de 1,95% em 2026.",
-      "details": "Boletim Focus projeta PIB de 1,95% em 2026.",
-      "url": "https://imirante.com/noticias/brasil/amp/2026/08/24/mercado-reduz-projecao-de-crescimento-da-economia-em-2026",
+      "summary": "Atualizacao de macro capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQTBVR3lyMTYya290SFJMWWRZdDA0WldxUTE1UzE3MW9KbzRTa2pTQlZIMy1CM1h3M0ZVVldUcVh6R3Znb3d5RHl2eER4bjR3MHBibVhoNmVKTGdoRGdvZVNNcHhCZFFyNy0tR3NZb1JOLWtaYUNSMlFXUFpyMUJuenZtR1pBdFpZNUh4YmJ0b2RGVnRVQkJldFI1b2h1MzRNVXVMMnU5dkhlOE1YVDI1SUFoRnNjeGhIZTdEbS1TMzRxWEhZeFRpbWlJdGdJWHAw?oc=5",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "macro",
       "tags": [
@@ -688,15 +798,14 @@
       "publishedAt": "2026-08-25T01:15:00Z",
       "updatedAt": "2026-08-25T01:15:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://imagens.imirante.com.br/imagens/noticias/2020/04/02/1585821071-648075283.jpg?w=896&h=448&crop=1170%2C682%2C0%2C11&fit=crop&s=e3914849a642e351e2a19b20b391243b"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-86719822155ca23c78db70bb",
       "title": "Reforma tributária põe fim à Guerra Fiscal e exige mais do Nordeste",
       "summary": "Atualizacao de macro capturada em O POVO.",
       "details": "",
-      "url": "https://br.investing.com/news/commodities-news/ouro-sobe-para-maxima-de-3-meses-com-tensoes-comerciais-e-intervencao-do-tesouro-2048274",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNckFSNkF1Yy1tdkNMVlhBcTBNTnJhT2VBclMycVZMRl9MTVByVWxnN0VzajN0Y3d6YUlUUDl5TFhtZzkzWmFtZjFickk2R1Azdk5ianN0b3p3dXJVMjRWVEZMN0VLUWp4NW5CWWVNTUVGSDg1bTFvQkUxRlIwSm02NGdDMkQtM25lNnctdk9xUGl0V202YjFGc0tMd1BtMk1VMVBfYng3Q2F2ZmxHemJFOFZPMTU0WExBdzJoamtHLUxyR1BQeEE?oc=5",
       "source": "O POVO",
       "category": "macro",
       "tags": [
@@ -708,25 +817,6 @@
       "updatedAt": "2026-08-25T01:05:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-2deb7c8c1f7926f02926d33a",
-      "title": "Zema na TV Globo: candidato minimiza situação fiscal de MG, ataca governo federal e critica STF por condenações do 8/1",
-      "summary": "Candidato do Novo abriu a série de entrevistas com presidenciáveis, que serão exibidas ao longo da semana logo após o \"Jornal Nacional\"",
-      "details": "Candidato do Novo abriu a série de entrevistas com presidenciáveis, que serão exibidas ao longo da semana logo após o \"Jornal Nacional\"",
-      "url": "https://extra.globo.com/politica/noticia/2026/08/zema-na-tv-globo-candidato-minimiza-situacao-fiscal-de-mg-ataca-o-governo-federal-e-critica-stf-por-condenacoes-do-81.ghtml",
-      "source": "Extra online",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-25T01:00:48Z",
-      "updatedAt": "2026-08-25T01:00:48Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-extra.glbimg.com/1Jp2-ry3b9X3GB4oWKvYEwEIEzY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2026/l/6/a2cKqTSieBUuJBg1AA3Q/zema.jpg"
     },
     {
       "id": "latest-40cb5d5ebb02fa829f0d6adb",
@@ -873,24 +963,6 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-1960654f1bd32012c2cdec26",
-      "title": "Square Wine Experience reúne cerca de 400 pessoas",
-      "summary": "Atualizacao de ultima hora capturada em broadcast.com.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYm84R1FGSEQ4c3dPdGg2dlVDTG1mZHMxU3dqTENpektMa0ZVWjVnLW5kdVRwODlvZHhTbUItSHhJRTdvM0JkRi1taE1pR1dMSFNnNTNRUkxVMWVTM2NTem13LWVNSHNWTFJZM0ZQekN5MVFJZDBzckJZSE9YT0lpWVBxX1RaeF9tSHZBaGdMY1J5R3d2dUE?oc=5",
-      "source": "broadcast.com.br",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-25T00:59:18Z",
-      "updatedAt": "2026-08-25T00:59:18Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
       "id": "funds-16a2a90c79e2390d859df417",
       "title": "Empresas controladas pela XP vão se fundir",
       "summary": "Atualizacao de fundos capturada em Estadão.",
@@ -907,42 +979,6 @@
       "updatedAt": "2026-08-25T00:59:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "macro-b74df754d5a618dbafbf3f41",
-      "title": "Zema, sobre salário mínimo: Garanto que ninguém vai ter perda; se tiver inflação, nós daremos",
-      "summary": "Atualizacao de macro capturada em UOL Notícias.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPLTc2TnM4M2Nid0p5RmtJaDdlTDVpbHMyX2ZFeXYtbVVZVHJnc0xaRnM5QlFocVhCblV3TTFnT2R4WU5JbTBZbnpjN2VFY1JyTnFjX1MyaVY0X1dzR0Y4QnFaNlIwMmlDOGQzaE1uYXVYWEpxQ1ZkR2xMNlhRWTEwbFFyZ2lvZmJ2VDZ6T28tcFV0MGdkZ1Z3R3dPbTlRNUxOREFQbm9tOVJzVy1udGZyRjhTVkdQOVVScWFVWlF5aFFYcWtXMVA0UDA3Zlo0MGRYd0oxcE1ES1hXdkVfVXpvSnVSWFBqcjhxMF9QUVowU2Q5OE9UYVIw?oc=5",
-      "source": "UOL Notícias",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-25T00:56:00Z",
-      "updatedAt": "2026-08-25T00:56:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "latest-49b143de5b6e6699fbc19380",
-      "title": "As duas “Faria Lima”: mercado precifica Lula, mas vê mais chances de ajuste com Flávio",
-      "summary": "Atualizacao de ultima hora capturada em Gazeta do Povo.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYlRETGJVMWcwN0VnX2NPY21tb0hlOUtsY1BOUlRNZWI2ZTVFcTJNODNFeFNfQ3U2d3RtVmZzRi01bVoxYm5hMnlRcTkwY2hfVEsxUUpzZVFiX0hBNW9PaUtIU0d4S21jejFiTlFzVHFmRE5aMXVlc0dfaDhOUGhqck1OVzRTYWNQcXdSalJkMVRUeTQ1Y1MtUHhLT1FybFFMaGFYZU5WS0JxY3p6ektpTGhtTXByMTdUa0xvRXlBekdjNTlZ?oc=5",
-      "source": "Gazeta do Povo",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-25T00:35:00Z",
-      "updatedAt": "2026-08-25T00:35:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "companies-712a885c96ed18c33f6337db",
@@ -1337,42 +1373,6 @@
       ],
       "publishedAt": "2026-08-24T18:15:33Z",
       "updatedAt": "2026-08-24T18:15:33Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-37719ec94b3a53eb7c52cba1",
-      "title": "Braskem: investidor exposto à dívida pode perder com recuperação extrajudicial",
-      "summary": "Atualizacao de fundos capturada em Monitor Mercantil.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOVhESHJUN1dJVXFWVi1PcG95Z1hCYW0xS2pKYTdRTkRTOWpfRTR2VHZDRWotNkhxUGdrQzVRdkVtRUVUM0FteGxNak5jb1ZCUGl2RWxJMW9WeG9TVXAwb0Z0dWRUZTdUelFTMXFnZ2V3OUI1czQxWk81NFlzWTdPVFd2RWJ3cDJIYkROSUdKM2RnV1RuWS16TXJaaTBDeFozbmJrU3MtOXBHWFhGWTg4NEtYV1Q?oc=5",
-      "source": "Monitor Mercantil",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-08-24T18:08:46Z",
-      "updatedAt": "2026-08-24T18:08:46Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-0f8d1e4e3c53c716d343aaa6",
-      "title": "Binance Cat (binance-cat.com) (BNBCAT) Preço, Gráfico, Capitalização de Mercado",
-      "summary": "Atualizacao de fundos capturada em CoinMarketCap.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE54U2lyczhGZUlnMGhGS00zdl9HMlVRUzA5LWU5TjlYVFZjQ0lMQ1lZbWNyZURLS1ZPUW5hWXIzNi05TGxWVlY1dmNGaEN2QTMxcG1PTVdWY1gwMVdjamZxUHZiN0N1Zw?oc=5",
-      "source": "CoinMarketCap",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-08-24T17:53:20Z",
-      "updatedAt": "2026-08-24T17:53:20Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     }
