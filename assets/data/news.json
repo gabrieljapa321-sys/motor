@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-26T10:33:06Z",
-  "generatedAt": "2026-08-26T10:33:06Z",
+  "updatedAt": "2026-08-26T11:06:28Z",
+  "generatedAt": "2026-08-26T11:06:28Z",
   "categories": [
     {
       "id": "all",
@@ -25,16 +25,20 @@
   ],
   "sources": [
     {
+      "id": "a-reda-o",
+      "label": "A Redação"
+    },
+    {
+      "id": "a-verdade",
+      "label": "A Verdade"
+    },
+    {
       "id": "advfn",
       "label": "ADVFN"
     },
     {
       "id": "alagoas-alerta",
       "label": "Alagoas Alerta"
-    },
-    {
-      "id": "autodata-com-br",
-      "label": "autodata.com.br"
     },
     {
       "id": "bitget",
@@ -65,6 +69,10 @@
       "label": "Diario de Pernambuco"
     },
     {
+      "id": "editora-brasil-energia",
+      "label": "Editora Brasil Energia"
+    },
+    {
       "id": "estad-o",
       "label": "Estadão"
     },
@@ -89,24 +97,24 @@
       "label": "GKPB - Geek Publicitário"
     },
     {
-      "id": "infomoney",
-      "label": "InfoMoney"
+      "id": "gzh",
+      "label": "GZH"
     },
     {
-      "id": "investidor10",
-      "label": "Investidor10"
+      "id": "infomoney",
+      "label": "InfoMoney"
     },
     {
       "id": "investing-com-brasil-finan-as-c-mbio-e-investimentos",
       "label": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
     },
     {
-      "id": "jornal-o-sul",
-      "label": "Jornal O Sul"
-    },
-    {
       "id": "jota-info",
       "label": "JOTA Info"
+    },
+    {
+      "id": "kinvo",
+      "label": "Kinvo"
     },
     {
       "id": "metr-news-jornal",
@@ -127,6 +135,10 @@
     {
       "id": "monitor-mercantil",
       "label": "Monitor Mercantil"
+    },
+    {
+      "id": "neofeed",
+      "label": "NeoFeed"
     },
     {
       "id": "novarejo",
@@ -155,6 +167,10 @@
     {
       "id": "sapicu",
       "label": "Sapicuá"
+    },
+    {
+      "id": "sindicato-dos-banc-rios-de-cascavel",
+      "label": "Sindicato dos Bancários de Cascavel"
     },
     {
       "id": "spacemoney",
@@ -189,25 +205,282 @@
       "label": "turbo.pt"
     },
     {
-      "id": "uol-economia",
-      "label": "UOL Economia"
-    },
-    {
       "id": "valor-econ-mico",
       "label": "Valor Econômico"
-    },
-    {
-      "id": "vietnam-vn",
-      "label": "Vietnam.vn"
     }
   ],
   "items": [
     {
+      "id": "macro-9c0060bb4dbff2c02a94198a",
+      "title": "Energia pressiona inflação da América Latina e Caribe em junho",
+      "summary": "José Dirceu, candidato a deputado federal pelo PT por SP, diz que discutir ajuste fiscal sem rever a política de juros é atacar o sintoma, não a causa",
+      "details": "José Dirceu, candidato a deputado federal pelo PT por SP, diz que discutir ajuste fiscal sem rever a política de juros é atacar o sintoma, não a causa",
+      "url": "https://neofeed.com.br/videos/eleicoes-2026/o-problema-do-brasil-nao-e-o-endividamento-sao-os-juros-diz-jose-dirceu/",
+      "source": "Editora Brasil Energia",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-26T11:04:16Z",
+      "updatedAt": "2026-08-26T11:04:16Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://neofeed.com.br/wp-content/uploads/2026/08/jose-dirceu.jpeg"
+    },
+    {
+      "id": "latest-5b31056e3cd71ceab285aba1",
+      "title": "Inflação brasileira e dados dos EUA pautam Ibovespa",
+      "summary": "Proposta em tramitação na Câmara prevê detalhar a formação do preço da gasolina, etanol, diesel e gás de cozinha para o consumidor",
+      "details": "Proposta em tramitação na Câmara prevê detalhar a formação do preço da gasolina, etanol, diesel e gás de cozinha para o consumidor",
+      "url": "https://www.terra.com.br/mobilidade/projeto-quer-mostrar-na-nota-fiscal-quanto-do-preco-do-combustivel-e-imposto-custo-e-margem-dos-postos,9a5a0e75d3ff57d456d3c2ac6e1f07c17amgwb9l.html",
+      "source": "SpaceMoney",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-26T11:02:27Z",
+      "updatedAt": "2026-08-26T11:02:27Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2025/01/29/combustivel-etanol-1iv6jgrhtn0ab.jpg"
+    },
+    {
+      "id": "latest-87c17568e41323362db0e5ea",
+      "title": "Ibovespa hoje fecha em alta com dólar e juros em queda",
+      "summary": "Dow Jones avança levemente, enquanto S&P 500 e Nasdaq recuam; possível reabertura do Estreito de Ormuz pressiona o petróleo, e investidores aguardam o balanço da Nvidia após o fechamento",
+      "details": "Dow Jones avança levemente, enquanto S&P 500 e Nasdaq recuam; possível reabertura do Estreito de Ormuz pressiona o petróleo, e investidores aguardam o balanço da Nvidia após o fechamento",
+      "url": "https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/dow-jones-hoje-wall-street-se-divide-antes-de-nvidia-e-inflacao-dos-eua-petroleo-cai-pelo-3-dia/",
+      "source": "SpaceMoney",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-26T11:02:00Z",
+      "updatedAt": "2026-08-26T11:02:00Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/AK22PD4NM5IAJFXUEKIVNHCAOM.png?quality=80&auth=a4777176e455ce8eeec92d848e34acbf74815164bf3df57694fe39f6372a89ff&width=1200&height=630&smart=true"
+    },
+    {
+      "id": "macro-194e519da4212ca1bbbebaf8",
+      "title": "Projeto quer mostrar na nota fiscal quanto do preço do combustível é imposto, custo e margem dos postos",
+      "summary": "Prévia da inflação e PCE dos EUA movimentam o Ibovespa; confira as projeções nesta quarta-feira",
+      "details": "Prévia da inflação e PCE dos EUA movimentam o Ibovespa; confira as projeções nesta quarta-feira",
+      "url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-ipca-15-dados-eua/",
+      "source": "Terra",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-26T10:58:00Z",
+      "updatedAt": "2026-08-26T10:58:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-35118208-53.webp"
+    },
+    {
+      "id": "latest-bfa1da0acf8168a00e6d7fa4",
+      "title": "“O problema do Brasil não é o endividamento. São os juros\", diz José Dirceu",
+      "summary": "Ibovespa hoje fecha em alta com dólar e juros em queda; veja os destaques do pregão e o que movimenta o mercado nesta quarta",
+      "details": "Ibovespa hoje fecha em alta com dólar e juros em queda; veja os destaques do pregão e o que movimenta o mercado nesta quarta",
+      "url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-fecha-em-alta-com-dolar-e-juros-em-queda/",
+      "source": "NeoFeed",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-08-26T10:57:59Z",
+      "updatedAt": "2026-08-26T10:57:59Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-10628029-91.webp"
+    },
+    {
+      "id": "macro-8f841e33e54aad70a3cf266f",
+      "title": "Valor do salário mínimo vai subir a R$ 1.741 em 2027, diz Durigan",
+      "summary": "Atualizacao de macro capturada em Sindicato dos Bancários de Cascavel.",
+      "details": "",
+      "url": "https://brasilenergia.com.br/energia/panorama/energia-pressiona-inflacao-da-america-latina-e-caribe-em-junho",
+      "source": "Sindicato dos Bancários de Cascavel",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-26T10:55:51Z",
+      "updatedAt": "2026-08-26T10:55:51Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://static.brasilenergia.com.br/upload/2025/3/c7ffe8a44a39458e90d1897bc9efe260-770x0.jpg"
+    },
+    {
+      "id": "macro-719e401b256f68dea503026a",
+      "title": "Dow Jones hoje: Wall Street se divide antes de Nvidia e inflação dos EUA; petróleo cai pelo 3º dia",
+      "summary": "O sal&aacute;rio m&iacute;nimo no Brasil est&aacute; projetado em R$ 1.741 para 2027, segundo an&uacute;ncio feito nesta segunda-feira (24) pelo ministro da Fazenda,&#8230;",
+      "details": "O sal&aacute;rio m&iacute;nimo no Brasil est&aacute; projetado em R$ 1.741 para 2027, segundo an&uacute;ncio feito nesta segunda-feira (24) pelo ministro da Fazenda,&#8230;",
+      "url": "https://www.bancarioscascavel.org.br/noticias/valor-do-salario-minimo-vai-subir-a-r-1741-em-2027-diz-durigan",
+      "source": "Estadão",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-26T10:52:20Z",
+      "updatedAt": "2026-08-26T10:52:20Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.bancarioscascavel.org.br/images/image.php?src=https%3A%2F%2Ffeebpr.org.br%2Fimages%2Fmedia%2Feditorial%2F2026%2F08%2F16697361656a8ec6162792b.jpg&w=1200&h=630&zc=1&cc=FFFFFF&q=85"
+    },
+    {
+      "id": "macro-a6f2949747ad3eb75ab7ac67",
+      "title": "Prévia da inflação oficial, dólar, Ibovespa, mais agenda e pílulas da economia 26.08",
+      "summary": "Confira o que está previsto para o dia",
+      "details": "Confira o que está previsto para o dia",
+      "url": "https://gauchazh.clicrbs.com.br/colunistas/giane-guerra/noticia/2026/08/previa-da-inflacao-oficial-dolar-ibovespa-mais-agenda-e-pilulas-da-economia-26-08-cmt9yzypj00x4015glc2fcl0r.html",
+      "source": "GZH",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-26T10:50:05Z",
+      "updatedAt": "2026-08-26T10:50:05Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.rbsdirect.com.br/filestore/9/7/4/3/7/1/6_338203ba5306bc3/6173479_76a5dac89b3fdc3.png?w=1024&h=512&a=c&version=1575255600"
+    },
+    {
+      "id": "macro-d26a333af049d4c2df0e435c",
+      "title": "Futuros de Nova York operam estáveis à espera de balanço da Nvidia e dado de inflação PCE",
+      "summary": "Os futuros das ações dos Estados Unidos apresentam desempenho fraco na quarta-feira (26), enquanto os investidores se preparam para a divulgação...",
+      "details": "Os futuros das ações dos Estados Unidos apresentam desempenho fraco na quarta-feira (26), enquanto os investidores se preparam para a divulgação...",
+      "url": "https://br.advfn.com/jornal/2026/08/futuros-estados-unidos-dow-jones-wall-street-hoje-quarta-feira-26-08-2026",
+      "source": "ADVFN",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-26T10:49:11Z",
+      "updatedAt": "2026-08-26T10:49:11Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://br.advfn.com/jornal/files/2025/12/nasdaq.jpg"
+    },
+    {
+      "id": "macro-934b8957cee4febc940114a9",
+      "title": "PCE de julho: o que esperar do indicador favorito do Fed para inflação hoje",
+      "summary": "Atualizacao de macro capturada em Exame.",
+      "details": "",
+      "url": "https://exame.com/invest/mercados/pce-de-julho-o-que-esperar-do-indicador-favorito-do-fed-para-inflacao-hoje/",
+      "source": "Exame",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-26T10:48:44Z",
+      "updatedAt": "2026-08-26T10:48:44Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-d6a718f016267d49fb12a331",
+      "title": "Dados de inflação nos EUA e no Brasil direcionam mercados antes de resultado da Nvidia",
+      "summary": "MPGO deflagra Operação Safra Oculta para combater esquema de sonegação fiscal no comércio de grãos",
+      "details": "MPGO deflagra Operação Safra Oculta para combater esquema de sonegação fiscal no comércio de grãos",
+      "url": "https://aredacao.com.br/mpgo-deflagra-operacao-safra-oculta-para-combater-esquema-de-sonegacao-fiscal-no-comercio-de-graos/",
+      "source": "TradingView",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-26T10:47:43Z",
+      "updatedAt": "2026-08-26T10:47:43Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://aredacao.com.br/wp-content/uploads/2026/08/MP.jpg"
+    },
+    {
+      "id": "macro-9f504a3e7459ee6dbc949789",
+      "title": "MPGO deflagra Operação Safra Oculta para combater esquema de sonegação fiscal no comércio de grãos",
+      "summary": "Por Camila MoreiraOs mercados aguardam nesta quarta-feira dados de inflação tanto nos Estados Unidos quanto no Brasil, além do resultado trimestral da Nvidia.O IBGE divulga às 9h os números de agosto do IPCA-15, com expectativas em pesquisa da Reuters de queda de 0,30% ante o mês",
+      "details": "Por Camila MoreiraOs mercados aguardam nesta quarta-feira dados de inflação tanto nos Estados Unidos quanto no Brasil, além do resultado trimestral da Nvidia.O IBGE divulga às 9h os números de agosto do IPCA-15, com expectativas em pesquisa da Reuters de queda de 0,30% ante o mês anterior e alta de…",
+      "url": "https://br.tradingview.com/news/reuters.com,2026:newsml_L1N44M0ZK:0/",
+      "source": "A Redação",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-26T10:46:23Z",
+      "updatedAt": "2026-08-26T10:46:23Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s.tradingview.com/static/images/illustrations/news-story.jpg"
+    },
+    {
+      "id": "macro-cfff7a74c361bedc25427ed8",
+      "title": "Dow Jones hoje: futuros de NY mistos antes de Nvidia e PCE",
+      "summary": "Por André Roberto de Souza Machado, Matheus Rodolfo Afonso Alves. STJ reforça que CNPJ não implica autonomia patrimonial e alerta para riscos fiscais em operações imobiliárias envolvendo pessoas ...",
+      "details": "Por André Roberto de Souza Machado, Matheus Rodolfo Afonso Alves. STJ reforça que CNPJ não implica autonomia patrimonial e alerta para riscos fiscais em operações imobiliárias envolvendo pessoas ...",
+      "url": "https://www.migalhas.com.br/depeso/463158/cnpj-tecnico-e-fraude-a-execucao-fiscal-reflexo-da-reforma-tributaria",
+      "source": "Estadão",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-26T10:40:38Z",
+      "updatedAt": "2026-08-26T10:40:38Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://medproc.migalhas.com.br/author.jpg._PROC_AC463158AT1AP11.jpg"
+    },
+    {
+      "id": "macro-c4968164ccbda9d69a93fe26",
+      "title": "Bom dia ADVFN - Nvidia pode definir o rumo da IA, inflação nos EUA, IPCA-15 no Brasil, OPA da Oncoclínicas e mais",
+      "summary": "Esse é o Bom dia ADVFN, 26 de agosto de 2026, com tudo o que você precisa saber antes da Bolsa abrir! Bolsas mundiais : Os futuros americanos...",
+      "details": "Esse é o Bom dia ADVFN, 26 de agosto de 2026, com tudo o que você precisa saber antes da Bolsa abrir! Bolsas mundiais : Os futuros americanos...",
+      "url": "https://br.advfn.com/jornal/2026/08/bom-dia-advfn-nvidia-pode-definir-o-rumo-da-ia-inflacao-nos-eua-ipca-15-no-brasil-opa-da-oncoclinicas-e-mais",
+      "source": "ADVFN",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-26T10:38:19Z",
+      "updatedAt": "2026-08-26T10:38:19Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://br.advfn.com/jornal/files/2021/12/17-inflacao.png"
+    },
+    {
       "id": "funds-f9b26e74b3ed6ab0f968f8b0",
       "title": "Prudential venderá participação de 2% na ICICI Prudential Asset Management",
-      "summary": "Ibovespa fechou em alta de 1,55%, aos 174.576 pontos, com dólar a R$ 5,14. Quarta-feira tem IPCA-15, PCE americano e balanço da Nvidia",
-      "details": "Ibovespa fechou em alta de 1,55%, aos 174.576 pontos, com dólar a R$ 5,14. Quarta-feira tem IPCA-15, PCE americano e balanço da Nvidia",
-      "url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-sobe-mercados-aguardam-pce-nvidia/",
+      "summary": "Dow Jones avança levemente, enquanto S&P 500 e Nasdaq recuam; possível reabertura do Estreito de Ormuz pressiona o petróleo, e investidores aguardam o balanço da Nvidia após o fechamento",
+      "details": "Dow Jones avança levemente, enquanto S&P 500 e Nasdaq recuam; possível reabertura do Estreito de Ormuz pressiona o petróleo, e investidores aguardam o balanço da Nvidia após o fechamento",
+      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/dow-jones-hoje-wall-street-se-divide-antes-de-nvidia-e-inflacao-dos-eua-petroleo-cai-pelo-3-dia/",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "category": "funds",
       "tags": [
@@ -219,7 +492,7 @@
       "updatedAt": "2026-08-26T10:22:00Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-35118208-52.webp"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/AK22PD4NM5IAJFXUEKIVNHCAOM.png?quality=80&auth=a4777176e455ce8eeec92d848e34acbf74815164bf3df57694fe39f6372a89ff&width=1200&height=630&smart=true"
     },
     {
       "id": "macro-a46a975b13d90b4d59b45c8d",
@@ -242,9 +515,9 @@
     {
       "id": "latest-bdbc2c8e4ab7bb57cf912b7f",
       "title": "Mercados aguardam PCE e Nvidia; Ibovespa sobe 1,55%",
-      "summary": "Por André Roberto de Souza Machado, Matheus Rodolfo Afonso Alves. STJ reforça que CNPJ não implica autonomia patrimonial e alerta para riscos fiscais em operações imobiliárias envolvendo pessoas ...",
-      "details": "Por André Roberto de Souza Machado, Matheus Rodolfo Afonso Alves. STJ reforça que CNPJ não implica autonomia patrimonial e alerta para riscos fiscais em operações imobiliárias envolvendo pessoas ...",
-      "url": "https://www.migalhas.com.br/depeso/463158/cnpj-tecnico-e-fraude-a-execucao-fiscal-reflexo-da-reforma-tributaria",
+      "summary": "Ibovespa fechou em alta de 1,55%, aos 174.576 pontos, com dólar a R$ 5,14. Quarta-feira tem IPCA-15, PCE americano e balanço da Nvidia",
+      "details": "Ibovespa fechou em alta de 1,55%, aos 174.576 pontos, com dólar a R$ 5,14. Quarta-feira tem IPCA-15, PCE americano e balanço da Nvidia",
+      "url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-sobe-mercados-aguardam-pce-nvidia/",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -256,15 +529,53 @@
       "updatedAt": "2026-08-26T10:14:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://medproc.migalhas.com.br/author.jpg._PROC_AC463158AT1AP11.jpg"
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-35118208-52.webp"
+    },
+    {
+      "id": "macro-a63e1e8e548655747dac56c0",
+      "title": "Notícia Juros, inflação e Treasuries: Primeiro Jackson Hole de Warsh testa credibilidade do Fed",
+      "summary": "Entenda como os mercados reagem aos dados de inflação e o impacto no PCE nos Estados Unidos nesta quarta-feira.",
+      "details": "Entenda como os mercados reagem aos dados de inflação e o impacto no PCE nos Estados Unidos nesta quarta-feira.",
+      "url": "https://www.moneytimes.com.br/mercados-tentam-se-acomodar-antes-dos-dados-de-inflacao-e-balanco-da-nvidia-nvda-ibovespa-em-dolar-sobe-nesta-terca-feira-25-rens/",
+      "source": "Kinvo",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-26T10:08:00Z",
+      "updatedAt": "2026-08-26T10:08:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.moneytimes.com.br/uploads/2025/07/nvidia-.jpg"
     },
     {
       "id": "macro-c2bdab9914534950005c7f93",
       "title": "Mini-índice (WINV26): PCE e PIB dos EUA testam o apetite ao risco",
+      "summary": "Consolide seus investimentos e acompanhe seu patrimônio com o Kinvo App. Tenha todo o controle das suas finanças em um único lugar. Use o Kinvo agora.",
+      "details": "Consolide seus investimentos e acompanhe seu patrimônio com o Kinvo App. Tenha todo o controle das suas finanças em um único lugar. Use o Kinvo agora.",
+      "url": "https://kinvo.com.br/noticia/juros-inflacao-e-treasuries-primeiro-jackson-hole-de-warsh-testa-credibilidade-do-fed",
+      "source": "InfoMoney",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-08-26T10:07:00Z",
+      "updatedAt": "2026-08-26T10:07:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://d2hme8z1miz6cd.cloudfront.net/media/money-times/1390404.jpg"
+    },
+    {
+      "id": "macro-21ad69de42c1361996a8ec84",
+      "title": "Mercados tentam se acomodar antes dos dados de inflação e balanço da Nvidia (NVDA); Ibovespa em dólar sobe nesta terça-feira (25)",
       "summary": "Mini-índice (WINV26): Confira os pontos de suporte e resistência nesta quarta (26). Confira também os minicontratos.",
       "details": "Mini-índice (WINV26): Confira os pontos de suporte e resistência nesta quarta (26). Confira também os minicontratos.",
       "url": "https://www.infomoney.com.br/mercados/mini-indice-hoje-futuro-ibovespa-winv26-26082026/",
-      "source": "InfoMoney",
+      "source": "Money Times",
       "category": "macro",
       "tags": [
         "macro",
@@ -278,30 +589,11 @@
       "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/08/WINV26-15-MINUTOS-26.08.2026.png?fit=1886%2C861&quality=70&strip=all"
     },
     {
-      "id": "macro-21ad69de42c1361996a8ec84",
-      "title": "Mercados tentam se acomodar antes dos dados de inflação e balanço da Nvidia (NVDA); Ibovespa em dólar sobe nesta terça-feira (25)",
-      "summary": "Entenda como os mercados reagem aos dados de inflação e o impacto no PCE nos Estados Unidos nesta quarta-feira.",
-      "details": "Entenda como os mercados reagem aos dados de inflação e o impacto no PCE nos Estados Unidos nesta quarta-feira.",
-      "url": "https://www.moneytimes.com.br/mercados-tentam-se-acomodar-antes-dos-dados-de-inflacao-e-balanco-da-nvidia-nvda-ibovespa-em-dolar-sobe-nesta-terca-feira-25-rens/",
-      "source": "Money Times",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-26T10:07:00Z",
-      "updatedAt": "2026-08-26T10:07:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.moneytimes.com.br/uploads/2025/07/nvidia-.jpg"
-    },
-    {
       "id": "macro-70d97d5235b05befa81806ef",
       "title": "STJ: execução fiscal contra espólio e sucessores depende de citação do devedor antes da morte",
-      "summary": "Superior Tribunal de Justiça (STJ) define por unanimidade que o redirecionamento da execução fiscal contra o espólio ou os sucessores só é possível quando o contribuinte tiver sido devidamente citado antes de morrer.",
-      "details": "Superior Tribunal de Justiça (STJ) define por unanimidade que o redirecionamento da execução fiscal contra o espólio ou os sucessores só é possível quando o contribuinte tiver sido devidamente citado antes de morrer.",
-      "url": "https://www.jota.info/tributos/stj-execucao-fiscal-contra-espolio-e-sucessores-depende-de-citacao-do-devedor-antes-da-morte",
+      "summary": "O discurso de Kevin Warsh em Jackson Hole é crucial para entender o futuro da política monetária dos EUA diante da inflação persistente e incertezas no mercado.",
+      "details": "O discurso de Kevin Warsh em Jackson Hole é crucial para entender o futuro da política monetária dos EUA diante da inflação persistente e incertezas no mercado.",
+      "url": "https://www.moneytimes.com.br/juros-inflacao-e-treasuries-primeiro-jackson-hole-de-warsh-testa-credibilidade-do-fed/",
       "source": "JOTA Info",
       "category": "macro",
       "tags": [
@@ -313,14 +605,14 @@
       "updatedAt": "2026-08-26T10:02:20Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://images.jota.info/wp-content/uploads/2026/08/execucao-fiscal-magnific.jpg"
+      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/07/kevin-warsh-federal-reserve-fed-2.jpg"
     },
     {
       "id": "macro-572e60bfdd45c541b552ce61",
       "title": "Juros, inflação e Treasuries: Primeiro Jackson Hole de Warsh testa credibilidade do Fed",
-      "summary": "A inflação da Austrália perdeu força em julho, mas o comportamento dos preços no mês mostra que a pressão inflacionária ainda não desapareceu. O...",
-      "details": "A inflação da Austrália perdeu força em julho, mas o comportamento dos preços no mês mostra que a pressão inflacionária ainda não desapareceu. O...",
-      "url": "https://br.advfn.com/jornal/2026/08/a-inflacao-na-australia-caiu-de-3-8-para-3-5-em-julho",
+      "summary": "Superior Tribunal de Justiça (STJ) define por unanimidade que o redirecionamento da execução fiscal contra o espólio ou os sucessores só é possível quando o contribuinte tiver sido devidamente citado antes de morrer.",
+      "details": "Superior Tribunal de Justiça (STJ) define por unanimidade que o redirecionamento da execução fiscal contra o espólio ou os sucessores só é possível quando o contribuinte tiver sido devidamente citado antes de morrer.",
+      "url": "https://www.jota.info/tributos/stj-execucao-fiscal-contra-espolio-e-sucessores-depende-de-citacao-do-devedor-antes-da-morte",
       "source": "Money Times",
       "category": "macro",
       "tags": [
@@ -332,51 +624,14 @@
       "updatedAt": "2026-08-26T10:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://br.advfn.com/jornal/files/2026/03/dolar-australiano.jpg"
-    },
-    {
-      "id": "macro-7ecbf2b7b6a4f728e9c2abc4",
-      "title": "Inflação para o consumidor interrompe sequência de quedas em Porto Alegre",
-      "summary": "Atualizacao de macro capturada em Jornal O Sul.",
-      "details": "",
-      "url": "https://www.folhape.com.br/noticia/amp/508762/bancos-brasileiros-seguem-o-dinheiro-dos-clientes-e-anunciam/",
-      "source": "Jornal O Sul",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-26T09:59:19Z",
-      "updatedAt": "2026-08-26T09:59:19Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-0fd6cb9c3279578e149d3502",
-      "title": "A inflação na Austrália caiu de 3,8% para 3,5% em julho",
-      "summary": "O discurso de Kevin Warsh em Jackson Hole é crucial para entender o futuro da política monetária dos EUA diante da inflação persistente e incertezas no mercado.",
-      "details": "O discurso de Kevin Warsh em Jackson Hole é crucial para entender o futuro da política monetária dos EUA diante da inflação persistente e incertezas no mercado.",
-      "url": "https://www.moneytimes.com.br/juros-inflacao-e-treasuries-primeiro-jackson-hole-de-warsh-testa-credibilidade-do-fed/",
-      "source": "ADVFN",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-26T09:50:55Z",
-      "updatedAt": "2026-08-26T09:50:55Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/07/kevin-warsh-federal-reserve-fed-2.jpg"
+      "imageUrl": "https://images.jota.info/wp-content/uploads/2026/08/execucao-fiscal-magnific.jpg"
     },
     {
       "id": "latest-1cec20056d8f59c8b060cafe",
       "title": "Bancos brasileiros seguem o dinheiro dos clientes e anunciam abertura de operações nos EUA",
-      "summary": "O IPC-S (Índice de Preços ao Consumidor – Semanal) interrompeu a sequência de quedas em Porto Alegre na terceira semana deste mês, passando de -0,56% para -0,40%, de acordo com dados divulgados pela FGV (Fundação Getulio Vargas). Além da Capital gaúcha, a inflação para o consumid",
-      "details": "O IPC-S (Índice de Preços ao Consumidor – Semanal) interrompeu a sequência de quedas em Porto Alegre na terceira semana deste mês, passando de -0,56% para -0,40%, de acordo com dados divulgados pela FGV (Fundação Getulio Vargas). Além da Capital gaúcha, a inflação para o consumidor subiu em outras duas…",
-      "url": "https://www.osul.com.br/inflacao-para-o-consumidor-interrompe-sequencia-de-quedas-em-porto-alegre-2/",
+      "summary": "Atualizacao de ultima hora capturada em Folha PE.",
+      "details": "",
+      "url": "https://www.folhape.com.br/noticia/amp/508762/bancos-brasileiros-seguem-o-dinheiro-dos-clientes-e-anunciam/",
       "source": "Folha PE",
       "category": "latest",
       "tags": [
@@ -387,15 +642,14 @@
       "publishedAt": "2026-08-26T09:38:50Z",
       "updatedAt": "2026-08-26T09:38:50Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.osul.com.br/wp-content/uploads/2026/03/alimentos-inflacao.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-6d4412e8340abfb25b062a2e",
       "title": "Com Lula ou Flávio, mercado mantém ceticismo sobre ajuste fiscal",
-      "summary": "A eleição presidencial de outubro oferece aos eleitores brasileiros ‌mais uma escolha acirrada ...",
-      "details": "A eleição presidencial de outubro oferece aos eleitores brasileiros ‌mais uma escolha acirrada ...",
-      "url": "https://www.terra.com.br/economia/com-lula-ou-flavio-mercado-mantem-ceticismo-sobre-ajuste-fiscal,4136384a056bddbdb3fbd88cdb6e73932kxbq5p1.html",
+      "summary": "O déficit habitacional e a necessidade de sair do aluguel continuam movimentando o mercado, mesmo em momentos de maior cautela.",
+      "details": "O déficit habitacional e a necessidade de sair do aluguel continuam movimentando o mercado, mesmo em momentos de maior cautela.",
+      "url": "https://timesbrasil.com.br/brasil/mercado-imobiliario-cresce-53-no-segundo-trimestre-mesmo-com-juros-altos/",
       "source": "Terra",
       "category": "latest",
       "tags": [
@@ -407,51 +661,14 @@
       "updatedAt": "2026-08-26T09:33:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://s1.trrsf.com/update-1698692222/fe/zaz-mod-t360-icons/svg/logos/terra-16x9-borda.png"
-    },
-    {
-      "id": "macro-0922cb91620c67d6ffa73a66",
-      "title": "Com Lula ou Flávio, mercado mantém ceticismo sobre ajuste fiscal Por Reuters",
-      "summary": "InfoMoney reúne as principais informações que devem movimentar os mercados nesta quarta-feira (26)",
-      "details": "InfoMoney reúne as principais informações que devem movimentar os mercados nesta quarta-feira (26)",
-      "url": "https://www.infomoney.com.br/mercados/ipca-15-inflacao-pce-nvidia-26082026/",
-      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-26T09:32:00Z",
-      "updatedAt": "2026-08-26T09:32:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2025/10/inflacion12.jpg"
-    },
-    {
-      "id": "funds-ea5a1460a1cf449beb3077c5",
-      "title": "O capital chinês flui em direção a marcas de consumo europeias.",
-      "summary": "Atualizacao de fundos capturada em Vietnam.vn.",
-      "details": "",
-      "url": "https://br.investing.com/news/economy-news/com-lula-ou-flavio-mercado-mantem-ceticismo-sobre-ajuste-fiscal-2049541",
-      "source": "Vietnam.vn",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-08-26T09:31:29Z",
-      "updatedAt": "2026-08-26T09:31:29Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/08/b3df1545-mg_0974.webp"
     },
     {
       "id": "latest-9f416ad8f858ce09e01073d0",
       "title": "Mercado imobiliário cresce 5,3% no segundo trimestre mesmo com juros altos",
-      "summary": "O déficit habitacional e a necessidade de sair do aluguel continuam movimentando o mercado, mesmo em momentos de maior cautela.",
-      "details": "O déficit habitacional e a necessidade de sair do aluguel continuam movimentando o mercado, mesmo em momentos de maior cautela.",
-      "url": "https://timesbrasil.com.br/brasil/mercado-imobiliario-cresce-53-no-segundo-trimestre-mesmo-com-juros-altos/",
+      "summary": "A eleição presidencial de outubro oferece aos eleitores brasileiros ‌mais uma escolha acirrada ...",
+      "details": "A eleição presidencial de outubro oferece aos eleitores brasileiros ‌mais uma escolha acirrada ...",
+      "url": "https://www.terra.com.br/economia/com-lula-ou-flavio-mercado-mantem-ceticismo-sobre-ajuste-fiscal,4136384a056bddbdb3fbd88cdb6e73932kxbq5p1.html",
       "source": "Times Brasil | CNBC",
       "category": "latest",
       "tags": [
@@ -463,33 +680,14 @@
       "updatedAt": "2026-08-26T09:31:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/08/b3df1545-mg_0974.webp"
-    },
-    {
-      "id": "macro-f7b230b43ed33c074a09e867",
-      "title": "Agenda desta quarta (26): IPCA-15 pode reforçar ou mudar expectativas para a inflação; veja indicadores e horários",
-      "summary": "Ibovespa opera atento ao IPCA-15 no Brasil, enquanto mercado monitora a segunda leitura do PIB e o índice PCE nos Estados Unidos",
-      "details": "Ibovespa opera atento ao IPCA-15 no Brasil, enquanto mercado monitora a segunda leitura do PIB e o índice PCE nos Estados Unidos",
-      "url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-ipca-15-pce/",
-      "source": "Money Times",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-26T09:30:00Z",
-      "updatedAt": "2026-08-26T09:30:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-38412413-44.webp"
+      "imageUrl": "https://s1.trrsf.com/update-1698692222/fe/zaz-mod-t360-icons/svg/logos/terra-16x9-borda.png"
     },
     {
       "id": "latest-1b3b7f8810986e6b63d6b572",
       "title": "Ibovespa monitora IPCA-15 e PCE em dia de indicadores",
-      "summary": "O IPCA-15 de hoje pode alterar as previsões da inflação brasileira para 2026 e 2027, influenciando decisões econômicas e o mercado financeiro.",
-      "details": "O IPCA-15 de hoje pode alterar as previsões da inflação brasileira para 2026 e 2027, influenciando decisões econômicas e o mercado financeiro.",
-      "url": "https://www.moneytimes.com.br/agenda-desta-quarta-26-ipca-15-pode-reforcar-ou-mudar-expectativas-para-a-inflacao-veja-indicadores-e-horarios-jvka/",
+      "summary": "Ibovespa opera atento ao IPCA-15 no Brasil, enquanto mercado monitora a segunda leitura do PIB e o índice PCE nos Estados Unidos",
+      "details": "Ibovespa opera atento ao IPCA-15 no Brasil, enquanto mercado monitora a segunda leitura do PIB e o índice PCE nos Estados Unidos",
+      "url": "https://www.spacemoney.com.br/investimentos/acoes/ibovespa-hoje/ibovespa-ipca-15-pce/",
       "source": "SpaceMoney",
       "category": "latest",
       "tags": [
@@ -501,83 +699,7 @@
       "updatedAt": "2026-08-26T09:11:32Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/07/ipca-ipca-15-inflacao-custo-de-vida.jpg"
-    },
-    {
-      "id": "macro-665fdaf05144e9bf6e8bf1fb",
-      "title": "Tempo real: Ibovespa acompanha inflação no Brasil e indicadores nos EUA",
-      "summary": "Por Rodrigo Campos e Paula Arend LaierA eleição presidencial de outubro oferece aos eleitores brasileiros mais uma escolha acirrada entre esquerda e direita, mas investidores veem poucas diferenças na frente fiscal entre os dois principais candidatos, com a dívida do país provave",
-      "details": "Por Rodrigo Campos e Paula Arend LaierA eleição presidencial de outubro oferece aos eleitores brasileiros mais uma escolha acirrada entre esquerda e direita, mas investidores veem poucas diferenças na frente fiscal entre os dois principais candidatos, com a dívida do país provavelmente continuando…",
-      "url": "https://br.tradingview.com/news/reuters.com,2026:newsml_L6N44M0ZS:0/",
-      "source": "Money Times",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-26T09:00:00Z",
-      "updatedAt": "2026-08-26T09:00:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s.tradingview.com/static/images/illustrations/news-story.jpg"
-    },
-    {
-      "id": "macro-facd8d4649cc855a3c120224",
-      "title": "Com Lula ou Flávio, mercado mantém ceticismo sobre ajuste fiscal",
-      "summary": "Acompanhe o Ibovespa e os demais mercados em tempo real.",
-      "details": "Acompanhe o Ibovespa e os demais mercados em tempo real.",
-      "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-26-08-2026-jals-lils-apsa/",
-      "source": "TradingView",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-26T09:00:00Z",
-      "updatedAt": "2026-08-26T09:00:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/07/ibovespa-acoes.png"
-    },
-    {
-      "id": "macro-1e8a83461891f58add28f15d",
-      "title": "IPCA-15, inflação PCE, balanço da Nvidia e mais destaques desta quarta-feira",
-      "summary": "Mercado monitora inflação americana e balanço da Nvidia em meio à queda do petróleo",
-      "details": "Mercado monitora inflação americana e balanço da Nvidia em meio à queda do petróleo",
-      "url": "https://www.infomoney.com.br/mercados/petroleo-cai-e-futuros-de-ny-operam-perto-da-estabilidade-antes-de-nvidia-e-pce/",
-      "source": "InfoMoney",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-26T08:59:41Z",
-      "updatedAt": "2026-08-26T08:59:41Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2024/06/2024-06-14T203455Z_1_LYNXMPEK5D0PS_RTROPTP_4_USA-STOCKS.jpg"
-    },
-    {
-      "id": "macro-8c0980f956a24fd7602ec7b2",
-      "title": "Petróleo cai e futuros de NY operam perto da estabilidade antes de Nvidia e PCE",
-      "summary": "VTV.vn - O capital chinês está adquirindo cada vez mais marcas europeias de consumo, desde eletrônicos e artigos esportivos até moda de luxo.",
-      "details": "VTV.vn - O capital chinês está adquirindo cada vez mais marcas europeias de consumo, desde eletrônicos e artigos esportivos até moda de luxo.",
-      "url": "https://www.vietnam.vn/pt/dong-von-trung-quoc-huong-den-thuong-hieu-tieu-dung-chau-au",
-      "source": "InfoMoney",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-26T08:39:35Z",
-      "updatedAt": "2026-08-26T08:39:35Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/08/26/1787734821322_package-media-20300427588381914393186-14227817789905333254987.webp"
+      "imageUrl": "https://www.spacemoney.com.br/wp-content/uploads/2026/08/pexels-photo-38412413-44.webp"
     },
     {
       "id": "funds-513fc9d480d326e78f8b4822",
@@ -599,86 +721,11 @@
       "imageUrl": "https://www.estadao.com.br/resizer/v2/HB76RBFP55OK3BMC5AYMUP26JA.png?quality=80&auth=1e8a5750f0efb1dc54443869b5eb5238e328c257717ef603fe6eb8896e264737&width=1200&height=630&smart=true"
     },
     {
-      "id": "macro-8f227fb5943e44cc56c65e6a",
-      "title": "Salário mínimo estimula crescimento econômico, mas gera alerta fiscal",
-      "summary": "Espera-se que as “stablecoins” - tema do simpósio deste ano - impulsionem a demanda por dívida de curto prazo, da qual o Tesouro depende cada vez mais",
-      "details": "Espera-se que as “stablecoins” - tema do simpósio deste ano - impulsionem a demanda por dívida de curto prazo, da qual o Tesouro depende cada vez mais",
-      "url": "https://valor.globo.com/google/amp/financas/noticia/2026/08/26/jackson-hole-pode-selar-acordo-entre-fed-e-tesouro.ghtml",
-      "source": "UOL Economia",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-26T08:30:00Z",
-      "updatedAt": "2026-08-26T08:30:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/ybBNWhfjNLNEhPzfpxyaAmEpgL4=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/L/Y/NqyF1wSOysIpzepG4n3g/foto26fin-201-jackson-c2.jpg"
-    },
-    {
-      "id": "macro-e1200585862f4ef658a18903",
-      "title": "Não adianta desvincular benefícios sem enfrentar emendas e supersalários, diz coordenador de Caiado",
-      "summary": "Atualizacao de macro capturada em Estadão.",
-      "details": "",
-      "url": "https://economia.uol.com.br/noticias/redacao/2026/08/26/salario-minimo-2027.ghtm",
-      "source": "Estadão",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-26T08:30:00Z",
-      "updatedAt": "2026-08-26T08:30:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-4b7c912d913275269e187eb9",
-      "title": "IPCA-15, inflação nos EUA e balanço da Nvidia: o que mexe com os mercados hoje",
-      "summary": "Advogado Roberto Brant, ex-ministro de FHC, defende sistema de capitalização para quem entrar no mercado de trabalho a partir de agora, mas afirma que reforma da Previdência ‘não resolve um centavo’ no mandato do futuro presidente",
-      "details": "Advogado Roberto Brant, ex-ministro de FHC, defende sistema de capitalização para quem entrar no mercado de trabalho a partir de agora, mas afirma que reforma da Previdência ‘não resolve um centavo’ no mandato do futuro presidente",
-      "url": "https://www.estadao.com.br/economia/nao-adianta-desvincular-beneficios-sem-enfrentar-emendas-e-supersalarios-diz-coordenador-de-caiado/",
-      "source": "Exame",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-26T08:04:28Z",
-      "updatedAt": "2026-08-26T08:04:28Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/K2GAMIZXLJEVPA2DUGSXGUHP6E.jpg?quality=80&auth=1049b5ef7693e1d36eadd52af5db78751aab44aebfda69d883974f638651c932&width=1200&height=630&smart=true"
-    },
-    {
-      "id": "macro-8918a26b88465b257ed545d0",
-      "title": "Jackson Hole pode selar acordo entre Fed e Tesouro",
+      "id": "latest-77c55c27bff64dc789e6201f",
+      "title": "Setor financeiro estima investir R$ 3 bi em nova tecnologia e dados em 2026",
       "summary": "Iinvestimentos de migração para nuvem devem chegar a R$ 3,9 bilhões",
       "details": "Iinvestimentos de migração para nuvem devem chegar a R$ 3,9 bilhões",
       "url": "https://valor.globo.com/financas/noticia/2026/08/26/setor-financeiro-estima-investir-r-3-bi-em-nova-tecnologia-e-dados-em-2026.ghtml",
-      "source": "Valor Econômico",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-26T08:03:10Z",
-      "updatedAt": "2026-08-26T08:03:10Z",
-      "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
-    },
-    {
-      "id": "latest-77c55c27bff64dc789e6201f",
-      "title": "Setor financeiro estima investir R$ 3 bi em nova tecnologia e dados em 2026",
-      "summary": "Atualizacao de ultima hora capturada em Valor Econômico.",
-      "details": "",
-      "url": "https://exame.com/invest/mercados/ipca-15-inflacao-nos-eua-e-balanco-da-nvidia-o-que-mexe-com-os-mercados-hoje/",
       "source": "Valor Econômico",
       "category": "latest",
       "tags": [
@@ -689,14 +736,15 @@
       "publishedAt": "2026-08-26T08:02:45Z",
       "updatedAt": "2026-08-26T08:02:45Z",
       "premium": true,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
     },
     {
       "id": "funds-e27bbb1fbacf5917b214c02a",
       "title": "WHG cria vertical de ações locais na sua asset",
-      "summary": "Reforços para tocar a nova vertical são Fernando Sampaio e Danilo Deutsch, vindos da Brasil Capital",
-      "details": "Reforços para tocar a nova vertical são Fernando Sampaio e Danilo Deutsch, vindos da Brasil Capital",
-      "url": "https://valor.globo.com/financas/noticia/2026/08/26/whg-cria-vertical-de-acoes-locais-na-sua-asset.ghtml",
+      "summary": "Atualizacao de fundos capturada em Valor Econômico.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaFZvck9wRWJxNC00cjY0dTNneTJmc216WTRMTVlZSzdrS0Q5Uzd4LU9zWlRTUGc1VzRjaHppZC1lYXNDNFVWUy1VdktLY2g3U1JCSEpjbUNEaVN1ZlR3WnNuazJpTHFFWTJQdkd4b1lVQUtpRTQzNUJqcGEwM1pnbU1hRUk4eW1PRkR0YTJ4c2lpSjR0SGROcU5pd1ZXb0RUR1Z6ZmlVSdIBtgFBVV95cUxPRkdyXzdJUlZkVWxadWlrZ245NUQySGtIcTVCSXBfcUd5SWNtdkcwRjlxZWlqNU5WWUloejQyQnhoVEFXUUFocWNQenVZQnUxMUVvWnlhU2dieFZrT0c1T3hJWW8xeHJoMy1zY3dRV01xU3lPNW9ocEtUNEdaY2NRZnp2Z3phejRYUXQ0MmRkbEZ2dWlFMEJob0Y0OVZVZTJPdEExMzl1NUpZNmZ5QnE4RTRpdnNtZw?oc=5",
       "source": "Valor Econômico",
       "category": "funds",
       "tags": [
@@ -707,27 +755,7 @@
       "publishedAt": "2026-08-26T08:02:38Z",
       "updatedAt": "2026-08-26T08:02:38Z",
       "premium": true,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/aVwUpOx3a5gAJmSX1AtXxQC-ztU=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/A/e/swlkS2TVSMA5odAoBw3Q/foto26fin-201-whg-c6.jpg"
-    },
-    {
-      "id": "macro-3fb325062524c389c9b77cc4",
-      "title": "Deterioração fiscal amplia fatia de pós-fixados na dívida",
-      "summary": "Em dez anos, participação de LFTs saltou de 22,78% para 49,32%, elevando a exposição do estoque à variação de juros",
-      "details": "Em dez anos, participação de LFTs saltou de 22,78% para 49,32%, elevando a exposição do estoque à variação de juros",
-      "url": "https://valor.globo.com/google/amp/financas/noticia/2026/08/26/deterioracao-fiscal-amplia-fatia-de-pos-fixados-na-divida.ghtml",
-      "source": "Valor Econômico",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-08-26T08:01:02Z",
-      "updatedAt": "2026-08-26T08:01:02Z",
-      "premium": true,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s2-valor.glbimg.com/atVO6kAdXDvwPGkfUXAAAORAx1g=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/F/A/rFD1v9QnWeUN2MreieXg/arte26fin-101-paf-c5.jpg"
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
       "id": "latest-1be0b47775a43675fb6fc7d2",
@@ -780,24 +808,6 @@
       ],
       "publishedAt": "2026-08-26T07:30:00Z",
       "updatedAt": "2026-08-26T07:30:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-62e5623956973378ac58bc2a",
-      "title": "Ibovespa sobe com Petrobras (PETR4) no radar; dólar cai",
-      "summary": "Atualizacao de ultima hora capturada em Investidor10.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZnJodHlSVHUyTVFKbTBzQ3pKTHVJXzdfam5ZWGtfMm82R0RDZGFkWEg1OGtOSVhOcVUyRHVQTFpjcFBCYWVvd2lXME9NYUhlMzhPMXhPM2lYekJSRGkyZ3V5VFd1NDVDc19OMEd6Q3dWdWV5U3h2Q2ZER3dzVFg1c19KbWFaaERKUWdETnREcVljS2x1Q2hvbGJmX0RYZ9IBowFBVV95cUxQMktHMmsyNUtWY3ZsRjJJUEFERXI1OXlMVzdOSFpRdnlCeEwzVTgyUWJXWnZYUkVyV0Joc0UzMDBuMlBTYnd3ZGthNGFPd0g4VVNnTkg2eEJ1M09TOUZHanRMcFA5bHN5cDNLSmNOVVlXTWtyYWtUYlJpNXJsanUyanh3Vkd3RG9IY3BoNDhTTGl2VEdJQThzNjM0WU16ZFg3NV9V?oc=5",
-      "source": "Investidor10",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-26T06:36:52Z",
-      "updatedAt": "2026-08-26T06:36:52Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
@@ -964,56 +974,20 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-0cf10810195e765e1bfee47f",
-      "title": "Juros altos e menos compras governamentais freiam mercado de ônibus",
-      "summary": "Atualizacao de ultima hora capturada em autodata.com.br.",
+      "id": "latest-7de23afeb67f47cfc373413d",
+      "title": "Ibovespa sucumbe ao clima externo e receio inflacionário no balanço de abril",
+      "summary": "Atualizacao de ultima hora capturada em trademap.com.br.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbDNKT0YzS19mbXdfSFhwenJOS2hSWXVvbWUySlVzRzd4bi1mSWp1c2pqVmEyWlpzbmxMTDY4cVNQV1I3U2V4UzA1eFVud2tkQnM0R21jSFFWa0hnZ0wtQ3FRNVpCRkRSX01WbTlpNUJfRlQzb1pRcEFMSFgzRHJ3SG8wTzZSUENCWU0wYXhXMVdNR0RXaDRXYzk5dEVXZ0VJVXNCSEpvemJlcFJBeC1jVVAwVmhfaEJ0cnhmeGZHX3Q?oc=5",
-      "source": "autodata.com.br",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPTThGclRseG1sdk93dGJqXzVwS1h4aEJMa0tyZW1RRXloUExKRmRFMmhfc0FjRHphaVlxTi1xT2N5Zm9sUEh1eUNzbklRNlQ1ZFlnUzdzX2lrZE5BT2pJWVNyZVZWd0lyLXZDOHlBM3BvTlRTRVVlV0pXRlU5dko1T2kxdzZQQVlwZDlxSVA3TUlYcHRFcG95VTY2aXBESjdwTy1hTzhsWjJxVGRzdkRyY2Q4SUxGLWd0T0pGQWJ6VVJwNXdJSzFGRnBrZHNjREJiNUx5cGpIYnk3LUdDYllVZng5bURzT05BQmd4YnpCU2xfU05vNWhudDZmdlY?oc=5",
+      "source": "trademap.com.br",
       "category": "latest",
       "tags": [
         "mercado",
         "bolsa",
         "macro"
       ],
-      "publishedAt": "2026-08-26T01:22:00Z",
-      "updatedAt": "2026-08-26T01:22:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-27f19723dedb9a230841c57f",
-      "title": "Opinião | Mercado financeiro passou por transformação silenciosa",
-      "summary": "Atualizacao de ultima hora capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeDlHNmFhQ01hYVBzUG5iTVd6b3FkTjAtMTI0QmhFZ2tSc2otWlZUSlNIZ2FoWkUwYnRTYnlxVjhwRTcwWU84ajFSTFNGc1RuZTFybE1DeEhYX0dkR0JNUzNwZm9BeVBBejYzY2VjUmo2M1BHZ3dnUmpWbzZyYmx5bzNiaG5MRmpWM2xGZHlPbkZpXzJsamR4bXdScV9WS2JC?oc=5",
-      "source": "Estadão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-26T01:09:29Z",
-      "updatedAt": "2026-08-26T01:09:29Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-47e014c4cc5acf05b293e9f3",
-      "title": "Mercado financeiro passou por transformação silenciosa",
-      "summary": "Atualizacao de ultima hora capturada em Estadão.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZW1JaXZtcE00cEhBbXpzY0stMlZjOWdPU2VoYzJ2R1EwdFhRNFBHa0Y4eTU0ZzdrTjhjQnZYSHUzMjBFNW5RdF9ZZ3RXVGVwanNjS3hFai1RZHVKZ3VGVzRlZzNJOTE3U2o4LTRzODU1bE96clFrZnBCblZIVnBjWHhBbjI1c2MwYXVmbGZpbllDZ2prNEHSAZsBQVVfeXFMUFVTMWNSX3BBbU1UZFhoSjgyN0x3ZDJnWWVsajNmUV91STNWMTdSRnRSdkFMaHN1OGo0QzZKdkQ5bTRCa2pDaXhMQWt0MmprUjk4cnNwS2xRcHJtV2lwTXVjZk1TY1UzVEs0MFE2aFRINlI2Rkh6ay12YmtMNUItcm5EWS04SnJxUnpYNlFTaFZWY0NNWUQ5MWptT28?oc=5",
-      "source": "Estadão",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-08-26T01:00:00Z",
-      "updatedAt": "2026-08-26T01:00:00Z",
+      "publishedAt": "2026-08-26T01:45:00Z",
+      "updatedAt": "2026-08-26T01:45:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
@@ -1324,6 +1298,24 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
+      "id": "funds-5e58dc22cc2327104aa4bf42",
+      "title": "O ETF vai matar o fundo ativo?",
+      "summary": "Atualizacao de fundos capturada em Estadão.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX25mLTIzNDliUXltZFlZbC1lanRubkhGU2tSRUFMME1YMWtXS2hzQjRqWEN6TXE0VTh4TmdSN082M29kYmlDMXZrVEwyYlNSaFJoY0xIWlBYMnh6WXdDaFVrQ2kyd2UwS1Q1ZlZTbVNGX3phN3R2UnNtSzAweWNCeVJhc0VMeURwM3ZiZNIBkgFBVV95cUxQV0w3aWVYR0Q1TnRRTFJVb1dCbW1IM1ROUDF0MzJ2UF8xY2JhWHM5amJqUVh6ZVlzSU9mWWtqdTlfcGM1VUxOR3Z5SjRlNG9qTGZ1YUdkMWZ0QlBmSjc3VVNwRmRiM1lJNnY1b3lfWGdTUUt6R1ZsZlhqQzRVWTNOY1dCNEFqQUN5bWgxRjVQeE16Zw?oc=5",
+      "source": "Estadão",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-08-25T20:30:54Z",
+      "updatedAt": "2026-08-25T20:30:54Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
       "id": "funds-b147ce75c2ec7560d90332f9",
       "title": "Inter Invest Summit reúne Morgan Housel e outros nomes de peso do mercado financeiro",
       "summary": "Atualizacao de fundos capturada em Money Report.",
@@ -1374,6 +1366,24 @@
       ],
       "publishedAt": "2026-08-25T19:01:11Z",
       "updatedAt": "2026-08-25T19:01:11Z",
+      "premium": false,
+      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
+    },
+    {
+      "id": "funds-5c011a12e8340ec036d191a6",
+      "title": "Matosinhos: Entrega de 105 habitações municipais na Senhora da Hora representa investimento de 13 milhões",
+      "summary": "Atualizacao de fundos capturada em A Verdade.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSW1zRU5LLWJpcVNwZTRrb1lSMzVFbVllb0tjU2ZOSm1RUDcwa0l1NWlyeGtXNTdxX0l0aS05S0NHdjJ1U1M3OEVMYmlMOVhCRkE2bkJ2ZmkyYXozQlFZZEVva2ZPY3JUWGE3azFlNDN1WEpGRlcxSVdPQno2N3dHQS1SYWpWRU82WGs4ZUhRX1gyRGZTTGdmQmIzbGY5MjNiTU1DZVMwcFl0b3RTRVlzNUp6LW44ZUZQUWVJdi1zdXNNbXk2ZUNSbjZaSk5IUFhOcjhN?oc=5",
+      "source": "A Verdade",
+      "category": "funds",
+      "tags": [
+        "fundos",
+        "asset",
+        "fiis"
+      ],
+      "publishedAt": "2026-08-25T18:43:12Z",
+      "updatedAt": "2026-08-25T18:43:12Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     }
