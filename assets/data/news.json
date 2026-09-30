@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-30T01:28:56Z",
-  "generatedAt": "2026-09-30T01:28:56Z",
+  "updatedAt": "2026-09-30T07:12:32Z",
+  "generatedAt": "2026-09-30T07:12:32Z",
   "categories": [
     {
       "id": "all",
@@ -25,6 +25,10 @@
   ],
   "sources": [
     {
+      "id": "agrolink",
+      "label": "Agrolink"
+    },
+    {
       "id": "ag-ncia-brasil",
       "label": "Agência Brasil"
     },
@@ -33,16 +37,24 @@
       "label": "angola24horas.com"
     },
     {
-      "id": "apucarana-pr-gov-br",
-      "label": "apucarana.pr.gov.br"
+      "id": "auditoria-cidad-da-d-vida",
+      "label": "Auditoria Cidadã da Dívida"
     },
     {
-      "id": "auditoriacidada-org-br",
-      "label": "auditoriacidada.org.br"
+      "id": "bdm-bom-dia-mercado",
+      "label": "BDM - Bom Dia Mercado"
+    },
+    {
+      "id": "bol",
+      "label": "BOL"
     },
     {
       "id": "bra1-com-br",
       "label": "bra1.com.br"
+    },
+    {
+      "id": "broadcast-com-br",
+      "label": "broadcast.com.br"
     },
     {
       "id": "business-moment",
@@ -65,16 +77,16 @@
       "label": "Comex do Brasil"
     },
     {
-      "id": "correio-braziliense",
-      "label": "Correio Braziliense"
+      "id": "direito-e-ordem",
+      "label": "Direito e Ordem"
     },
     {
       "id": "es-brasil",
       "label": "ES Brasil"
     },
     {
-      "id": "estadao-com-br",
-      "label": "estadao.com.br"
+      "id": "estad-o",
+      "label": "Estadão"
     },
     {
       "id": "estrat-gia-concursos",
@@ -85,6 +97,10 @@
       "label": "Fiis.com.br"
     },
     {
+      "id": "folha-de-s-paulo",
+      "label": "Folha de S.Paulo"
+    },
+    {
       "id": "forbes-brasil",
       "label": "Forbes Brasil"
     },
@@ -93,12 +109,8 @@
       "label": "G1"
     },
     {
-      "id": "gpsbrasilia-com-br",
-      "label": "gpsbrasilia.com.br"
-    },
-    {
-      "id": "gzh",
-      "label": "GZH"
+      "id": "gps-bras-lia",
+      "label": "GPS Brasília"
     },
     {
       "id": "imprensa-24h",
@@ -109,6 +121,10 @@
       "label": "InfoMoney"
     },
     {
+      "id": "investidor-sardinha",
+      "label": "Investidor Sardinha"
+    },
+    {
       "id": "investidor10",
       "label": "Investidor10"
     },
@@ -117,20 +133,16 @@
       "label": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
     },
     {
-      "id": "jornal-o-sul",
-      "label": "Jornal O Sul"
-    },
-    {
       "id": "jornal-op-o",
       "label": "Jornal Opção"
     },
     {
-      "id": "kinvo",
-      "label": "Kinvo"
+      "id": "kinvo-com-br",
+      "label": "kinvo.com.br"
     },
     {
-      "id": "neofeed-com-br",
-      "label": "neofeed.com.br"
+      "id": "neofeed",
+      "label": "NeoFeed"
     },
     {
       "id": "not-cia-para-ba",
@@ -141,16 +153,12 @@
       "label": "O TEMPO"
     },
     {
-      "id": "paraibabusiness-com-br",
-      "label": "paraibabusiness.com.br"
+      "id": "para-ba-business",
+      "label": "Paraíba Business"
     },
     {
       "id": "por-dentro-de-tudo",
       "label": "Por Dentro de Tudo"
-    },
-    {
-      "id": "prefeitura-de-santar-m",
-      "label": "Prefeitura de Santarém"
     },
     {
       "id": "rede-brasil-de-televis-o",
@@ -165,20 +173,16 @@
       "label": "Seu Dinheiro"
     },
     {
+      "id": "sismmac",
+      "label": "Sismmac"
+    },
+    {
       "id": "suno-com-br",
       "label": "suno.com.br"
     },
     {
       "id": "terra",
       "label": "Terra"
-    },
-    {
-      "id": "tnonline",
-      "label": "TNOnline"
-    },
-    {
-      "id": "trademap-com-br",
-      "label": "trademap.com.br"
     },
     {
       "id": "transporte-moderno",
@@ -201,25 +205,271 @@
       "label": "UOL Notícias"
     },
     {
-      "id": "valor-globo-com",
-      "label": "valor.globo.com"
+      "id": "valor-econ-mico",
+      "label": "Valor Econômico"
     },
     {
-      "id": "vero-not-cias",
-      "label": "Vero Notícias"
+      "id": "veronoticias-com",
+      "label": "veronoticias.com"
     },
     {
       "id": "vietnam-vn",
       "label": "Vietnam.vn"
+    },
+    {
+      "id": "zm-not-cias",
+      "label": "ZM Notícias"
     }
   ],
   "items": [
     {
+      "id": "macro-e8e7e8397cfd2c3b112e217a",
+      "title": "PIB do Reino Unido no 2º tri revisado para alta de 0,5%",
+      "summary": "Atualizacao de macro capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
+      "details": "",
+      "url": "https://br.investing.com/news/economic-indicators/pib-do-reino-unido-no-2o-tri-revisado-para-alta-de-05-2078954",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-09-30T06:09:00Z",
+      "updatedAt": "2026-09-30T06:09:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-dda2b5df325bbd1aa17ff4d5",
+      "title": "Cenário reúne inflação alta e cautela nos juros",
+      "summary": "Agropecuária, Notícias, Cotações, Defensivos, Classificados, Tempo, Eventos",
+      "details": "Agropecuária, Notícias, Cotações, Defensivos, Classificados, Tempo, Eventos",
+      "url": "https://www.agrolink.com.br/noticias/categoria/agricultura/cenario-reune-inflacao-alta-e-cautela-nos-juros_519352.html",
+      "source": "Agrolink",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-09-30T05:30:00Z",
+      "updatedAt": "2026-09-30T05:30:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.agrolink.com.br/upload/imagens-resizes/5facbc89ec9f49aebc274362906a3642_858x483.jpg"
+    },
+    {
+      "id": "macro-d6cddaba19bbaf80782b2127",
+      "title": "Apostas em alta de juros do Fed para outubro caem com dados fracos",
+      "summary": "Candidatos questionam ações dos governos Bolsonaro e Lula para discutir finanças do estado",
+      "details": "Candidatos questionam ações dos governos Bolsonaro e Lula para discutir finanças do estado",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/tarcisio-e-haddad-nacionalizam-debate-sobre-controle-fiscal-e-emprego/",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-09-30T04:39:00Z",
+      "updatedAt": "2026-09-30T04:39:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/1-1-Debate-Tarcisio-e-Haddad.jpeg?w=819&h=544&crop=1"
+    },
+    {
+      "id": "macro-199cf7281b9418dc64cf1bee",
+      "title": "Inflação dos EUA testa tensão nos Treasuries",
+      "summary": "Atualizacao de macro capturada em BDM - Bom Dia Mercado.",
+      "details": "",
+      "url": "https://br.investing.com/news/economy-news/apostas-em-alta-de-juros-do-fed-para-outubro-caem-com-dados-fracos-2078923",
+      "source": "BDM - Bom Dia Mercado",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-09-30T04:37:17Z",
+      "updatedAt": "2026-09-30T04:37:17Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-d2acbbe152c5462d3bad969d",
+      "title": "Debate em SP: Tarcísio (Republicanos) pergunta a Haddad (PT) sobre emprego e ajuste fiscal",
+      "summary": "PCE, PIB e ADP calibram as apostas, após surpresa com Fed boy dovish",
+      "details": "PCE, PIB e ADP calibram as apostas, após surpresa com Fed boy dovish",
+      "url": "https://www.bomdiamercado.com.br/morning-call/inflacao-dos-eua-testa-tensao-nos-treasuries/",
+      "source": "G1",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-09-30T02:46:01Z",
+      "updatedAt": "2026-09-30T02:46:01Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://uploads.bomdiamercado.com.br/2024/10/MC-5aF.png"
+    },
+    {
+      "id": "latest-6701cb51ebe4beb835ad16f0",
+      "title": "Geraldine Weiss: tudo sobre a “Grande Dama dos Dividendos”",
+      "summary": "Debate em SP: Tarcísio (Republicanos) pergunta a Haddad (PT) sobre emprego e ajuste fiscal",
+      "details": "Debate em SP: Tarcísio (Republicanos) pergunta a Haddad (PT) sobre emprego e ajuste fiscal",
+      "url": "https://g1.globo.com/politica/eleicoes/2022/video/debate-em-sp-tarcisio-republicanos-pergunta-a-haddad-pt-sobre-emprego-e-ajuste-fiscal-15005616.ghtml",
+      "source": "Investidor Sardinha",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-09-30T02:21:02Z",
+      "updatedAt": "2026-09-30T02:21:02Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://s01.video.glbimg.com/x720/15005616.jpg"
+    },
+    {
+      "id": "macro-e89d938b8fffe440868c22ff",
+      "title": "Tarcísio e Haddad nacionalizam debate sobre controle fiscal e emprego",
+      "summary": "Geraldine Weiss foi uma grande investidora, muito a frente do seu tempo. Seus ensinamentos ainda estão frescos no mercado. Conheça sua história!",
+      "details": "Geraldine Weiss foi uma grande investidora, muito a frente do seu tempo. Seus ensinamentos ainda estão frescos no mercado. Conheça sua história!",
+      "url": "https://investidorsardinha.r7.com/biografias/geraldine-weiss/",
+      "source": "CNN Brasil",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-09-30T02:18:03Z",
+      "updatedAt": "2026-09-30T02:18:03Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-7b443bb48b04d8d330f1d292",
+      "title": "Debate PE: João Campos (PSB) pergunta sobre isenção fiscal a Ivan Moraes (PSOL)",
+      "summary": "Aumento representou despesa adicional de R$ 20 bilhões a mais por ano para o governo desde 2022",
+      "details": "Aumento representou despesa adicional de R$ 20 bilhões a mais por ano para o governo desde 2022",
+      "url": "https://www1.folha.uol.com.br/mercado/2026/09/emissao-de-precatorio-dispara-e-vai-de-meteoro-a-problema-fiscal-estrutural.shtml",
+      "source": "G1",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-09-30T02:09:22Z",
+      "updatedAt": "2026-09-30T02:09:22Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2023/09/02/169366472564f345d5e366b_1693664725_3x2_rt.jpg"
+    },
+    {
+      "id": "macro-c7b6c4dbbdc84f7948518b64",
+      "title": "Emissão de precatório dispara e vai de 'meteoro' a problema fiscal estrutural",
+      "summary": "Debate da TV Globo busca ampliar o espaço para a discussão de propostas e contribuir para que os eleitores conheçam os concorrentes. Foram convidados Ivan Moraes (PSOL), João Campos (PSB) e Raquel Lyra (PSD).",
+      "details": "Debate da TV Globo busca ampliar o espaço para a discussão de propostas e contribuir para que os eleitores conheçam os concorrentes. Foram convidados Ivan Moraes (PSOL), João Campos (PSB) e Raquel Lyra (PSD).",
+      "url": "https://g1.globo.com/politica/eleicoes/2022/video/debate-pe-joao-campos-psb-pergunta-sobre-isencao-fiscal-a-ivan-moraes-psol-15005543.ghtml",
+      "source": "Folha de S.Paulo",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-09-30T02:00:00Z",
+      "updatedAt": "2026-09-30T02:00:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://s04.video.glbimg.com/x720/15005543.jpg"
+    },
+    {
+      "id": "macro-f4d08d0bc62a26ab09d8a36c",
+      "title": "Inflação da Austrália sobe para 4% em agosto, abaixo das previsões",
+      "summary": "Atualizacao de macro capturada em Investing.com Brasil - Finanças, Câmbio e Investimentos.",
+      "details": "",
+      "url": "https://br.investing.com/news/economic-indicators/inflacao-da-australia-sobe-para-4-em-agosto-abaixo-do-esperado-2078895",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-09-30T01:56:00Z",
+      "updatedAt": "2026-09-30T01:56:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-b251a2f5e9cfee2346acf31a",
+      "title": "Tráfico e Bets agora entraram no PIB… Meu Deus",
+      "summary": "A Comissão de Orçamento, Finanças, Fiscalização Financeira e Tomada de Contas da Câmara Municipal de Nova Iguaçu (CMNI) realizou, nesta terça-feira (29), após a sessão ordinária, audiência pública para apresentação e análise do Relatório de Gestão Fiscal (RGF) referente ao segund",
+      "details": "A Comissão de Orçamento, Finanças, Fiscalização Financeira e Tomada de Contas da Câmara Municipal de Nova Iguaçu (CMNI) realizou, nesta terça-feira (29), após a sessão ordinária, audiência pública para apresentação e análise do Relatório de Gestão Fiscal (RGF) referente ao segundo quadrimestre de 2026 da cidade de Nova",
+      "url": "https://www.zmnoticias.com.br/comissao-de-orcamento-da-camara-de-nova-iguacu-realiza-audiencia-publica-para-apresentacao-do-relatorio-de-gestao-fiscal/",
+      "source": "Investidor Sardinha",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-09-30T01:35:45Z",
+      "updatedAt": "2026-09-30T01:35:45Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://www.zmnoticias.com.br/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-13.42.58.jpeg"
+    },
+    {
+      "id": "macro-9eb3d03176f71f5417b9a38a",
+      "title": "Escritório Carlos Sérgio de Carvalho Barros Advogados Associados elabora Manual do Fiscal para as eleições 2026",
+      "summary": "Obra concentra as regras de maior interesse prático para a fiscalização da votação. O escritório Car",
+      "details": "Obra concentra as regras de maior interesse prático para a fiscalização da votação. O escritório Car",
+      "url": "https://direitoeordem.com.br/escritorio-carlos-sergio-de-carvalho-barros-advogados-associados-elabora-manual-do-fiscal-para-as-eleicoes-2026/",
+      "source": "Direito e Ordem",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-09-30T01:20:35Z",
+      "updatedAt": "2026-09-30T01:20:35Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://direitoeordem.com.br/wp-content/uploads/2026/09/IMG-20260929-WA0003.jpg"
+    },
+    {
+      "id": "latest-13f0d73c0a9f9f02352c92f6",
+      "title": "Veículos eletrificados avançam no Brasil em 2026",
+      "summary": "Atualizacao de ultima hora capturada em broadcast.com.br.",
+      "details": "",
+      "url": "https://www.broadcast.com.br/knewin-dino/veiculos-eletrificados-avancam-no-brasil-em-2026/",
+      "source": "broadcast.com.br",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-09-30T00:59:43Z",
+      "updatedAt": "2026-09-30T00:59:43Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+    },
+    {
       "id": "latest-7d5a583201a12d4e43f6e19d",
       "title": "Com mercado de trabalho no foco, Bolsa volta a subir após quatro baixas",
-      "summary": "Atualizacao de ultima hora capturada em O TEMPO.",
-      "details": "",
-      "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/09/29/lula-inflacao-de-alimentos-ainda-esta-alta.htm",
+      "summary": "Nesta quarta-feira (30), o SISMMAC entrega a pauta econômica do magistério à Prefeitura, em ato unificado com os demais sindicatos de servidores públicos de Curitiba, que também vai cobrar o fim do confisco das aposentadorias. Durante a última reunião do Conselho de Representante",
+      "details": "Nesta quarta-feira (30), o SISMMAC entrega a pauta econômica do magistério à Prefeitura, em ato unificado com os demais sindicatos de servidores públicos de Curitiba, que também vai cobrar o fim do confisco das aposentadorias. Durante a última reunião do Conselho de Representantes (CR) do SISMMAC, o economista do Depar",
+      "url": "https://sismmac.org.br/sismmac-entrega-pauta-economica-nesta-quarta-30-e-cobra-a-educacao-e-prioridade-para-curitiba/",
       "source": "O TEMPO",
       "category": "latest",
       "tags": [
@@ -230,14 +480,51 @@
       "publishedAt": "2026-09-30T00:59:41Z",
       "updatedAt": "2026-09-30T00:59:41Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://sismmac.org.br/wp-content/uploads/2026/09/SISMMAC-entrega-pauta-economica-nesta-quarta-30-e-cobra-a-educacao-e-prioridade-para-Curitiba.jpg"
+    },
+    {
+      "id": "macro-556d45bb9aa5313fa7b31cb4",
+      "title": "Comissão de Orçamento da Câmara de Nova Iguaçu realiza audiência pública para apresentação do Relatório de Gestão Fiscal",
+      "summary": "Pode parecer bizarro e realmente é, mas é exatamente isso que você leu. O IBGE vai refazer o cálculo do Produto Interno Bruto e logo após a eleição, o...",
+      "details": "Pode parecer bizarro e realmente é, mas é exatamente isso que você leu. O IBGE vai refazer o cálculo do Produto Interno Bruto e logo após a eleição, o...",
+      "url": "https://investidorsardinha.r7.com/opiniao/trafico-e-bets-agora-entraram-no-pib-meu-deus/",
+      "source": "ZM Notícias",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-09-30T00:51:00Z",
+      "updatedAt": "2026-09-30T00:51:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+    },
+    {
+      "id": "macro-f3063886759439792acc55f4",
+      "title": "SISMMAC entrega pauta econômica nesta quarta (30) e cobra: a educação é prioridade para Curitiba?",
+      "summary": "Atualizacao de macro capturada em Sismmac.",
+      "details": "",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/09/29/lula-inflacao-de-alimentos-ainda-esta-alta.htm",
+      "source": "Sismmac",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-09-30T00:33:45Z",
+      "updatedAt": "2026-09-30T00:33:45Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "macro-736786fcf9bfcaa567bc2ea9",
       "title": "Lula: Inflação de alimentos ainda está alta",
-      "summary": "Um dia depois de o relatório de política monetária do Banco Central apontar maior pressão sobre os preços e projetar avanço de 0,65% para o IPCA de setembro, o IPCA-15 superou as expectativas e registrou alta de 0,7%. A deflação dos alimentos ficou para trás, enquanto os custos d",
-      "details": "Um dia depois de o relatório de política monetária do Banco Central apontar maior pressão sobre os preços e projetar avanço de 0,65% para o IPCA de setembro, o IPCA-15 superou as expectativas e registrou alta de 0,7%. A deflação dos alimentos ficou para trás, enquanto os custos de habitação…",
-      "url": "https://www.osul.com.br/o-comportamento-da-inflacao-brasileira-foi-benigno-nos-ultimos-dois-meses-mas-isso-parece-ja-ter-terminado/",
+      "summary": "Veja como se comportaram Ibovespa e dólar nesta terça-feira (29/9) e o que movimentou os ativos, impulsionados por dados de emprego e expectativas eleitorais",
+      "details": "Veja como se comportaram Ibovespa e dólar nesta terça-feira (29/9) e o que movimentou os ativos, impulsionados por dados de emprego e expectativas eleitorais",
+      "url": "https://www.otempo.com.br/economia/2026/9/29/com-mercado-de-trabalho-no-foco-bolsa-volta-a-subir-apos-quatro-baixas.amp",
       "source": "UOL Notícias",
       "category": "macro",
       "tags": [
@@ -249,33 +536,14 @@
       "updatedAt": "2026-09-30T00:27:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.osul.com.br/wp-content/uploads/2026/09/inflas.jpg"
-    },
-    {
-      "id": "macro-6c947842b7b3c575772a00ca",
-      "title": "O comportamento da inflação brasileira foi benigno nos últimos dois meses, mas isso parece já ter terminado",
-      "summary": "Veja como se comportaram Ibovespa e dólar nesta terça-feira (29/9) e o que movimentou os ativos, impulsionados por dados de emprego e expectativas eleitorais",
-      "details": "Veja como se comportaram Ibovespa e dólar nesta terça-feira (29/9) e o que movimentou os ativos, impulsionados por dados de emprego e expectativas eleitorais",
-      "url": "https://www.otempo.com.br/economia/2026/9/29/com-mercado-de-trabalho-no-foco-bolsa-volta-a-subir-apos-quatro-baixas",
-      "source": "Jornal O Sul",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-09-30T00:24:56Z",
-      "updatedAt": "2026-09-30T00:24:56Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
       "imageUrl": "https://www.otempo.com.br/content/dam/otempo/editorias/economia/2026/8/13/economia-ibovespa-bolsa_de_valores-b3-1786669310.png"
     },
     {
       "id": "macro-a6835ad9e8702b978d6bf657",
       "title": "E-Books Estratégia: Materiais gratuitos para sua preparação!",
-      "summary": "A credibilidade das contas públicas brasileiras está aos frangalhos, e o nível de endividamento do País já é um dos mais elevados entre os mercados emergentes",
-      "details": "A credibilidade das contas públicas brasileiras está aos frangalhos, e o nível de endividamento do País já é um dos mais elevados entre os mercados emergentes",
-      "url": "https://www.estadao.com.br/em-alta/economia/fabio-alves/o-eleito-recebera-como-fatura-um-ajuste-fiscal-voluntario-ou-pior-forcado-pelos-investidores/",
+      "summary": "E-Books Estratégia: Resumos objetivos e enxutos com os principais tópicos. Baixe esse material gratuito e aumente o nível dos seus estudos!",
+      "details": "E-Books Estratégia: Resumos objetivos e enxutos com os principais tópicos. Baixe esse material gratuito e aumente o nível dos seus estudos!",
+      "url": "https://www.estrategiaconcursos.com.br/blog/e-books-estrategia/",
       "source": "Estratégia Concursos",
       "category": "macro",
       "tags": [
@@ -287,15 +555,15 @@
       "updatedAt": "2026-09-30T00:02:02Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/LFJZIOPGY5JQJHCTPJ7LJX7VHY.png?quality=80&auth=664fe96dbcca169616b913de235d3d58c29b947ffff7af4b4e86c1c0827cecd0&width=1200&height=630&smart=true"
+      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2021/05/04155357/ebooks-estrategia.jpg"
     },
     {
-      "id": "macro-78ca218f312bd68482399e68",
+      "id": "macro-7dce75b6568a341571508180",
       "title": "Candidatos a deputado federal no Rio de Janeiro (RJ): veja número e nome na lista de 2026",
-      "summary": "Mercado financeiro eleva projeção da inflação e reduz expectativa de crescimento do PIB. Confira os impactos na economia nacional.",
-      "details": "Mercado financeiro eleva projeção da inflação e reduz expectativa de crescimento do PIB. Confira os impactos na economia nacional.",
-      "url": "https://imprensa24h.com.br/mercado-financeiro-inflacao-crescimento-economia/",
-      "source": "valor.globo.com",
+      "summary": "No Rio de Janeiro, há 12.857.000 eleitores aptos a votar e 46 vagas para deputado federal",
+      "details": "No Rio de Janeiro, há 12.857.000 eleitores aptos a votar e 46 vagas para deputado federal",
+      "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/09/29/candidatos-a-deputado-federal-no-rio-de-janeiro-rj-veja-numero-e-nome-na-lista-de-2026.ghtml",
+      "source": "Valor Econômico",
       "category": "macro",
       "tags": [
         "macro",
@@ -306,14 +574,14 @@
       "updatedAt": "2026-09-29T23:21:01Z",
       "premium": true,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://i0.wp.com/imprensa24h.com.br/wp-content/uploads/2024/01/nova-logo-imprensa-24h.png?fit=1066%2C1080&ssl=1"
+      "imageUrl": "https://s2-valor.glbimg.com/MYbfnwCKVFIT2VDaXKIDqWSkIM4=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/e/6/OchxzASRSKMXMsgnOqTg/tarja-federais.jpg"
     },
     {
       "id": "latest-1f93121b8095e77887aecd58",
       "title": "Mercado financeiro eleva projeção da inflação e reduz expectativa de crescimento econômico",
-      "summary": "No TAG Summit, Bruno Funchal, da Bradesco Asset, André Leite, da TAG, e Mauricio Moura, do fundo Zaftra, debatem as eleições 2026",
-      "details": "No TAG Summit, Bruno Funchal, da Bradesco Asset, André Leite, da TAG, e Mauricio Moura, do fundo Zaftra, debatem as eleições 2026",
-      "url": "https://neofeed.com.br/negocios/da-agenda-fiscal-vazia-ao-resultado-das-eleicoes-tres-gestores-analisam-os-cenarios-de-mercado/",
+      "summary": "Mercado financeiro eleva projeção da inflação e reduz expectativa de crescimento do PIB. Confira os impactos na economia nacional.",
+      "details": "Mercado financeiro eleva projeção da inflação e reduz expectativa de crescimento do PIB. Confira os impactos na economia nacional.",
+      "url": "https://imprensa24h.com.br/mercado-financeiro-inflacao-crescimento-economia/",
       "source": "Imprensa 24h",
       "category": "latest",
       "tags": [
@@ -325,15 +593,15 @@
       "updatedAt": "2026-09-29T23:12:11Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://neofeed.com.br/wp-content/uploads/2026/05/brasil-financas-investimento.jpg"
+      "imageUrl": "https://i0.wp.com/imprensa24h.com.br/wp-content/uploads/2024/01/nova-logo-imprensa-24h.png?fit=1066%2C1080&ssl=1"
     },
     {
-      "id": "macro-011da29e072018c27a5d46cb",
+      "id": "macro-e246f2324ee84536d8ad4f23",
       "title": "Opinião | O eleito receberá como fatura um ajuste fiscal voluntário ou, pior, forçado pelos investidores",
-      "summary": "E-Books Estratégia: Resumos objetivos e enxutos com os principais tópicos. Baixe esse material gratuito e aumente o nível dos seus estudos!",
-      "details": "E-Books Estratégia: Resumos objetivos e enxutos com os principais tópicos. Baixe esse material gratuito e aumente o nível dos seus estudos!",
-      "url": "https://www.estrategiaconcursos.com.br/blog/e-books-estrategia/",
-      "source": "estadao.com.br",
+      "summary": "Angola está a avançar para uma nova fase de internacionalização do mercado financeiro, com a abertura gradual do mercado local de títulos da Dívida Pública aos investidores não residentes, numa estratégia que pretende aumentar a liquidez, diversificar a base de investidores e apr",
+      "details": "Angola está a avançar para uma nova fase de internacionalização do mercado financeiro, com a abertura gradual do mercado local de títulos da Dívida Pública aos investidores não residentes, numa estratégia que pretende aumentar a liquidez, diversificar a base de investidores e aprofundar o mercado se...",
+      "url": "https://www.angola24horas.com/economia/item/35099-angola-abre-a-porta-do-mercado-da-divida-publica-aos-investidores-estrangeiros",
+      "source": "Estadão",
       "category": "macro",
       "tags": [
         "macro",
@@ -344,15 +612,15 @@
       "updatedAt": "2026-09-29T23:05:39Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://dhg1h5j42swfq.cloudfront.net/2021/05/04155357/ebooks-estrategia.jpg"
+      "imageUrl": "https://angola24horas.com/media/k2/items/cache/812281694bac4922eb1eee0f49da5e44_S.jpg"
     },
     {
-      "id": "macro-31e678a79be88ce86d9b9d10",
+      "id": "macro-aea10f573274e67738b492ee",
       "title": "Da agenda fiscal (vazia) ao resultado das eleições: três gestores analisam os cenários de mercado",
       "summary": "A credibilidade das contas públicas brasileiras está aos frangalhos, e o nível de endividamento do País já é um dos mais elevados entre os mercados emergentes",
       "details": "A credibilidade das contas públicas brasileiras está aos frangalhos, e o nível de endividamento do País já é um dos mais elevados entre os mercados emergentes",
-      "url": "https://www.estadao.com.br/economia/fabio-alves/o-eleito-recebera-como-fatura-um-ajuste-fiscal-voluntario-ou-pior-forcado-pelos-investidores/",
-      "source": "neofeed.com.br",
+      "url": "https://www.estadao.com.br/em-alta/economia/fabio-alves/o-eleito-recebera-como-fatura-um-ajuste-fiscal-voluntario-ou-pior-forcado-pelos-investidores/",
+      "source": "NeoFeed",
       "category": "macro",
       "tags": [
         "macro",
@@ -363,33 +631,14 @@
       "updatedAt": "2026-09-29T23:01:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/LFJZIOPGY5JQJHCTPJ7LJX7VHY.png?quality=80&auth=664fe96dbcca169616b913de235d3d58c29b947ffff7af4b4e86c1c0827cecd0&width=1200&height=630&focal=349,261"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/LFJZIOPGY5JQJHCTPJ7LJX7VHY.png?quality=80&auth=664fe96dbcca169616b913de235d3d58c29b947ffff7af4b4e86c1c0827cecd0&width=1200&height=630&smart=true"
     },
     {
-      "id": "macro-894552ccc9d3477c48235739",
-      "title": "O eleito receberá como fatura um ajuste fiscal voluntário ou, pior, forçado pelos investidores",
-      "summary": "Angola está a avançar para uma nova fase de internacionalização do mercado financeiro, com a abertura gradual do mercado local de títulos da Dívida Pública aos investidores não residentes, numa estratégia que pretende aumentar a liquidez, diversificar a base de investidores e apr",
-      "details": "Angola está a avançar para uma nova fase de internacionalização do mercado financeiro, com a abertura gradual do mercado local de títulos da Dívida Pública aos investidores não residentes, numa estratégia que pretende aumentar a liquidez, diversificar a base de investidores e aprofundar o mercado se...",
-      "url": "https://www.angola24horas.com/economia/item/35099-angola-abre-a-porta-do-mercado-da-divida-publica-aos-investidores-estrangeiros",
-      "source": "estadao.com.br",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-09-29T23:00:00Z",
-      "updatedAt": "2026-09-29T23:00:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://angola24horas.com/media/k2/items/cache/812281694bac4922eb1eee0f49da5e44_S.jpg"
-    },
-    {
-      "id": "latest-c59db7a3b0e84fdc781a956c",
+      "id": "latest-687763dd8c90ec72c0d5552b",
       "title": "Angola abre a porta do mercado da Dívida Pública aos investidores estrangeiros",
-      "summary": "No Rio de Janeiro, há 12.857.000 eleitores aptos a votar e 46 vagas para deputado federal",
-      "details": "No Rio de Janeiro, há 12.857.000 eleitores aptos a votar e 46 vagas para deputado federal",
-      "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/09/29/candidatos-a-deputado-federal-no-rio-de-janeiro-rj-veja-numero-e-nome-na-lista-de-2026.ghtml",
+      "summary": "O aumento dos pedidos de recuperação judicial no Brasil tem colocado em evidência a situação financeira de empresas que enfrentam dificuldades para manter as operações, pagar dívidas e preservar empregos. Entre os fatores apontados por especialistas estão a redução da demanda, os",
+      "details": "O aumento dos pedidos de recuperação judicial no Brasil tem colocado em evidência a situação financeira de empresas que enfrentam dificuldades para manter as operações, pagar dívidas e preservar empregos. Entre os fatores apontados por especialistas estão a redução da demanda, os juros elevados e as condições mais rest",
+      "url": "https://pordentrodetudo.com.br/empresas-brasileiras-pedem-socorro-diante-de-aumento-de-recuperacoes-judiciais/",
       "source": "angola24horas.com",
       "category": "latest",
       "tags": [
@@ -397,56 +646,18 @@
         "bolsa",
         "macro"
       ],
-      "publishedAt": "2026-09-29T22:41:15Z",
-      "updatedAt": "2026-09-29T22:41:15Z",
+      "publishedAt": "2026-09-29T22:52:44Z",
+      "updatedAt": "2026-09-29T22:52:44Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://s2-valor.glbimg.com/MYbfnwCKVFIT2VDaXKIDqWSkIM4=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/e/6/OchxzASRSKMXMsgnOqTg/tarja-federais.jpg"
-    },
-    {
-      "id": "macro-327d5942026d1ab59def6143",
-      "title": "Semana de Municipal de Educação Fiscal: Gestão Escolar marca os 20 anos de Educação Fiscal em Santarém",
-      "summary": "O aumento dos pedidos de recuperação judicial no Brasil tem colocado em evidência a situação financeira de empresas que enfrentam dificuldades para manter as operações, pagar dívidas e preservar empregos. Entre os fatores apontados por especialistas estão a redução da demanda, os",
-      "details": "O aumento dos pedidos de recuperação judicial no Brasil tem colocado em evidência a situação financeira de empresas que enfrentam dificuldades para manter as operações, pagar dívidas e preservar empregos. Entre os fatores apontados por especialistas estão a redução da demanda, os juros elevados e as condições mais rest",
-      "url": "https://pordentrodetudo.com.br/empresas-brasileiras-pedem-socorro-diante-de-aumento-de-recuperacoes-judiciais/",
-      "source": "Prefeitura de Santarém",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-09-29T22:40:00Z",
-      "updatedAt": "2026-09-29T22:40:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
       "imageUrl": "https://pordentrodetudo.com.br/wp-content/uploads/2026/09/empresas7-960x540-1.jpg"
-    },
-    {
-      "id": "macro-6afcd5efdc024c456be4a27e",
-      "title": "Pouco dinheiro por aluno, mas porcentagem alta do PIB para educação: o que importa mais?",
-      "summary": "Nos EUA, o governo avalia restringir exportações do combustível para ampliar a oferta interna",
-      "details": "Nos EUA, o governo avalia restringir exportações do combustível para ampliar a oferta interna",
-      "url": "https://veronoticias.com/economia/alta-do-diesel-amplia-pressao-sobre-inflacao-e-juros-nos-eua/",
-      "source": "G1",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-09-29T22:39:42Z",
-      "updatedAt": "2026-09-29T22:39:42Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://veronoticias.com/wp-content/uploads/2025/10/02-diesel-s500-aditivado-onpetro_-1.jpg"
     },
     {
       "id": "companies-4ae6557e6cfb5494bfb1ad2f",
       "title": "Empresas brasileiras pedem socorro diante de aumento de recuperações judiciais",
-      "summary": "Portal Oficial da Prefeitura de Apucarana. Serviços online, notícias, transparência, acesso à informação da Prefeitura de Apucarana.",
-      "details": "Portal Oficial da Prefeitura de Apucarana. Serviços online, notícias, transparência, acesso à informação da Prefeitura de Apucarana.",
-      "url": "https://www.apucarana.pr.gov.br/site/apucarana-apresenta-contas-do-segundo-quadrimestre-com-resultado-fiscal-positivo/",
+      "summary": "No TAG Summit, Bruno Funchal, da Bradesco Asset, André Leite, da TAG, e Mauricio Moura, do fundo Zaftra, debatem as eleições 2026",
+      "details": "No TAG Summit, Bruno Funchal, da Bradesco Asset, André Leite, da TAG, e Mauricio Moura, do fundo Zaftra, debatem as eleições 2026",
+      "url": "https://neofeed.com.br/negocios/da-agenda-fiscal-vazia-ao-resultado-das-eleicoes-tres-gestores-analisam-os-cenarios-de-mercado/",
       "source": "Por Dentro de Tudo",
       "category": "companies",
       "tags": [
@@ -458,50 +669,13 @@
       "updatedAt": "2026-09-29T22:30:00Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "http://www.apucarana.pr.gov.br/site/wp-content/uploads/2026/09/CAPA-4.jpeg"
-    },
-    {
-      "id": "macro-3fed36dc21af13e8047ff563",
-      "title": "Apucarana apresenta contas do segundo quadrimestre com resultado fiscal positivo",
-      "summary": "Atualizacao de macro capturada em apucarana.pr.gov.br.",
-      "details": "",
-      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/09/29/fechamento-do-mercado-financeiro.htm",
-      "source": "apucarana.pr.gov.br",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-09-29T22:04:15Z",
-      "updatedAt": "2026-09-29T22:04:15Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-6cf25a5818c4d520f20bbfad",
-      "title": "Alta do diesel amplia pressão sobre inflação e juros nos EUA",
-      "summary": "Relatório",
-      "details": "Relatório",
-      "url": "https://g1.globo.com/educacao/video/pouco-dinheiro-por-aluno-mas-porcentagem-alta-do-pib-para-educacao-o-que-importa-mais-15005032.ghtml",
-      "source": "Vero Notícias",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-09-29T21:58:52Z",
-      "updatedAt": "2026-09-29T21:58:52Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s01.video.glbimg.com/x720/15005032.jpg"
+      "imageUrl": "https://neofeed.com.br/wp-content/uploads/2026/05/brasil-financas-investimento.jpg"
     },
     {
       "id": "latest-c19ad5da10869146213f2c7c",
       "title": "Ibovespa volta a subir após 4 quedas; bancos salvam índice de tombo da Vale (VALE3)",
-      "summary": "O Ibovespa interrompeu uma sequência de quatro quedas e fechou esta terça-feira (29) em alta de 0,46%, aos 183.827,59 pontos, com ganho de 836,46 pontos. O índice passou a maior parte da sessão no vermelho e chegou aos 181.562,24 pontos na mínima, antes de virar na reta final e a",
-      "details": "O Ibovespa interrompeu uma sequência de quatro quedas e fechou esta terça-feira (29) em alta de 0,46%, aos 183.827,59 pontos, com ganho de 836,46 pontos. O índice passou a maior parte da sessão no vermelho e chegou aos 181.562,24 pontos na mínima, antes de virar na reta final e alcançar 183.951,05 pontos na máxima intr",
+      "summary": "Ibovespa sobe 0,46%, aos 183.827 pontos, após quatro quedas. Bancos sustentam recuperação, enquanto Vale recua mais de 2%",
+      "details": "Ibovespa sobe 0,46%, aos 183.827 pontos, após quatro quedas. Bancos sustentam recuperação, enquanto Vale recua mais de 2%",
       "url": "https://www.suno.com.br/noticias/ibovespa-hoje-29-setembro-bancos-vale-mt/",
       "source": "suno.com.br",
       "category": "latest",
@@ -514,14 +688,14 @@
       "updatedAt": "2026-09-29T21:55:18Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://files.sunoresearch.com.br/n/uploads/2022/06/Modelo2.jpg"
+      "imageUrl": "http://files.sunoresearch.com.br/n/uploads/2026/09/133_Close_de_gr_fico_fin_1_2026017_173147-2-jpg.webp"
     },
     {
       "id": "latest-0f2eed4453dbbd3396541820",
       "title": "Ibovespa fecha em alta de 0,46% e dólar comercial cai para R$ 5,2170",
-      "summary": "Evento direcionado a gestores escolares reafirma a importância dos profissionais para a formação de cidadãos capazes de compreender, participar e acompanhar a gestão dos recursos públicos.",
-      "details": "Evento direcionado a gestores escolares reafirma a importância dos profissionais para a formação de cidadãos capazes de compreender, participar e acompanhar a gestão dos recursos públicos.",
-      "url": "https://santarem.pa.gov.br/noticias/financas/semana-de-municipal-de-educacao-fiscal-gestao-escolar-consolida-os-20-anos-de-educacao-fiscal-em-santarem-0xsdak",
+      "summary": "Mercado encerrou o dia com avanço do principal índice da bolsa brasileira, recuo do dólar comercial e estabilidade do euro ante a moeda norte-americana.",
+      "details": "Mercado encerrou o dia com avanço do principal índice da bolsa brasileira, recuo do dólar comercial e estabilidade do euro ante a moeda norte-americana.",
+      "url": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-alta-de-046-e-dolar-comercial-cai-para-r-52170/",
       "source": "Canal Rural",
       "category": "latest",
       "tags": [
@@ -533,33 +707,14 @@
       "updatedAt": "2026-09-29T21:42:26Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://santarem.pa.gov.br/storage/posts/September2026/medium/segundo-dia-da-semana-da-educacao-fiscal-4-aWJLv4.jpg"
-    },
-    {
-      "id": "macro-23cd0f334f77937bcea77c02",
-      "title": "Sabatina da Gaúcha: Cláudio Diaz, vice de Marcelo Maranata, defende responsabilidade fiscal e critica \"vaidade\" de Leite",
-      "summary": "Mercado encerrou o dia com avanço do principal índice da bolsa brasileira, recuo do dólar comercial e estabilidade do euro ante a moeda norte-americana.",
-      "details": "Mercado encerrou o dia com avanço do principal índice da bolsa brasileira, recuo do dólar comercial e estabilidade do euro ante a moeda norte-americana.",
-      "url": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-alta-de-046-e-dolar-comercial-cai-para-r-52170/",
-      "source": "GZH",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-09-29T21:38:42Z",
-      "updatedAt": "2026-09-29T21:38:42Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
       "imageUrl": "https://imagens-cdn.canalrural.com.br/2026/06/ibovespa-fecha-em-alta-de-1-21-e-dolar-comercial-cai-para-r-5-1415-1200x675.png"
     },
     {
-      "id": "latest-a7a6c05d83e23fcba86b4fa8",
+      "id": "latest-342a65b05e0beab60a5ffa54",
       "title": "Às vésperas das eleições, mercado dita regras para manter o privilégio do sistema da dívida",
-      "summary": "Segundo candidato a vice-governador do RS a participar de série de entrevistas, tucano disse que foi convidado a reconstruir PSDB no RS após governador sair da legenda levando aliados",
-      "details": "Segundo candidato a vice-governador do RS a participar de série de entrevistas, tucano disse que foi convidado a reconstruir PSDB no RS após governador sair da legenda levando aliados",
-      "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/09/sabatina-da-gaucha-claudio-diaz-vice-de-marcelo-maranata-defende-responsabilidade-fiscal-e-critica-vaidade-de-leite-cmun75abd00u601744h1b8twv.html",
+      "summary": "Às vésperas das eleições, assistimos, de forma descarada, a pressão do mercado financeiro, visando pautar as campanhas eleitorais […]",
+      "details": "Às vésperas das eleições, assistimos, de forma descarada, a pressão do mercado financeiro, visando pautar as campanhas eleitorais […]",
+      "url": "https://iela.ufsc.br/as-vesperas-das-eleicoes-mercado-dita-regras-para-manter-o-privilegio-do-sistema-da-divida/",
       "source": "Universidade Federal de Santa Catarina (UFSC)",
       "category": "latest",
       "tags": [
@@ -567,18 +722,18 @@
         "bolsa",
         "macro"
       ],
-      "publishedAt": "2026-09-29T21:33:45Z",
-      "updatedAt": "2026-09-29T21:33:45Z",
+      "publishedAt": "2026-09-29T21:36:57Z",
+      "updatedAt": "2026-09-29T21:36:57Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://www.rbsdirect.com.br/filestore/6/7/3/7/9/1/6_e3def25484d2abe/6197376_7a3a799700df385.jpg?w=1024&h=512&a=c&version=1575255600"
+      "imageUrl": "http://iela.ufsc.br/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-12.31.49-rotated.jpeg"
     },
     {
       "id": "latest-fe92ee4944f990c13ab85bb7",
       "title": "Fechamento do mercado financeiro",
-      "summary": "Às vésperas das eleições, assistimos, de forma descarada, a pressão do mercado financeiro, visando pautar as campanhas eleitorais […]",
-      "details": "Às vésperas das eleições, assistimos, de forma descarada, a pressão do mercado financeiro, visando pautar as campanhas eleitorais […]",
-      "url": "https://iela.ufsc.br/as-vesperas-das-eleicoes-mercado-dita-regras-para-manter-o-privilegio-do-sistema-da-divida/",
+      "summary": "Atualizacao de ultima hora capturada em UOL Economia.",
+      "details": "",
+      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/09/29/fechamento-do-mercado-financeiro.htm",
       "source": "UOL Economia",
       "category": "latest",
       "tags": [
@@ -589,15 +744,14 @@
       "publishedAt": "2026-09-29T21:33:00Z",
       "updatedAt": "2026-09-29T21:33:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "http://iela.ufsc.br/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-12.31.49-rotated.jpeg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-f26a45441ff890fc5cd0e544",
       "title": "Índices do Mercado Fecham em Alta",
-      "summary": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
-      "details": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
-      "url": "https://www.tribunadoagreste.com.br/geral/2026/09/29/987727-indices-do-mercado-fecham-em-alta",
+      "summary": "Atualizacao de ultima hora capturada em Tribuna do Agreste.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbFV1cFVJU0pSSzI1WW1leUhTeXBJTXRDSzQxX2ZXSWlJZElMQWNkd3B6Z1ZjYjlRQWZ1c1lVZUJfSk9nUVREZXFtNWNoWFBmS2FWMzhrVzMwazJseGZkRXhqMTNxenk4MU84VXFWZXUwV25IclZLNUo0UUFKYVNsNXdfdDhpanNUX3RIVGx6WFhvRVhOeWNEZw?oc=5",
       "source": "Tribuna do Agreste",
       "category": "latest",
       "tags": [
@@ -608,16 +762,15 @@
       "publishedAt": "2026-09-29T21:33:00Z",
       "updatedAt": "2026-09-29T21:33:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://img.dhost.cloud/gzjfDtn5ltlZ9QmZrv6xAXFLoLs=/1200x630/smart/https://tdan.nyc3.digitaloceanspaces.com/images/8ffc1/239e2de11a69a1b696023600a3f7c5c8d2c.webp?name=indices-do-mercado-fecham-em-alta.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-b67195ea5b9f5c1f288f49c4",
+      "id": "latest-534c516ae885c3f37ece1881",
       "title": "Ibovespa sobe 0,46% com Petrobras e bancos; dólar cai a R$ 5,21",
-      "summary": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
-      "details": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência. Saiba tudo em tempo real aqui",
-      "url": "https://www.tribunadoagreste.com.br/geral/2026/09/29/987711-queda-das-taxas-de-juros-ignora-caged-e-se-alinha-a-falas-do-fed",
-      "source": "gpsbrasilia.com.br",
+      "summary": "Atualizacao de ultima hora capturada em GPS Brasília.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVm92eGZZb20xdC10NEhkQWIzenZKRzl6elpMZWthQm80Xzd0RkIzaFhUQ2ptVGcyU3pONHQxaHdEQzg5MW90WDRxeG92eXlnMHAxUXV3NlU3aUE0eGdTcjE0Q3oybDRVakZWXzV2NElDbGJieDFZeVpmSlp3YWNtbUlUQmdMZ290bjR4MHFsUQ?oc=5",
+      "source": "GPS Brasília",
       "category": "latest",
       "tags": [
         "mercado",
@@ -627,91 +780,14 @@
       "publishedAt": "2026-09-29T21:26:22Z",
       "updatedAt": "2026-09-29T21:26:22Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://img.dhost.cloud/A0gmR_0UkbA3dbvZXeRsf8RTeos=/1200x630/smart/https://tdan.nyc3.digitaloceanspaces.com/images/4ee2c/823cbd4fa6c445b9779f46a2146129123f0.webp?name=queda-das-taxas-de-juros-ignora-caged-e-se-alinha-a-falas-do-fed.webp"
-    },
-    {
-      "id": "macro-0c18aa1d216f826c446ee7e5",
-      "title": "Wall Street fecha em queda com receio de mais inflação nos EUA",
-      "summary": "Curva doméstica recuou mesmo após Caged acima do esperado; mercado acompanhou a moderação dos Treasuries ao longo da tarde",
-      "details": "Curva doméstica recuou mesmo após Caged acima do esperado; mercado acompanhou a moderação dos Treasuries ao longo da tarde",
-      "url": "https://www.canalrural.com.br/economia/juros-futuros-caem-na-b3-com-alivio-externo-apos-fala-de-dirigente-do-fed/",
-      "source": "CNN Brasil",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-09-29T21:22:09Z",
-      "updatedAt": "2026-09-29T21:22:09Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://imagens-cdn.canalrural.com.br/2026/08/juros-futuros-fecham-em-baixa-com-alivio-externo-e-pesquisa-eleitoral-1200x675.png"
-    },
-    {
-      "id": "macro-28c2ca67abfd2f895fb0b334",
-      "title": "Juros futuros caem na B3 com alívio externo após fala de dirigente do Fed",
-      "summary": "Mercado acompanhou eleições e dados de emprego",
-      "details": "Mercado acompanhou eleições e dados de emprego",
-      "url": "https://gpsbrasilia.com.br/ibovespa-sobe-046-com-petrobras-e-bancos-dolar-cai-a-r-521/",
-      "source": "Canal Rural",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-09-29T21:17:11Z",
-      "updatedAt": "2026-09-29T21:17:11Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://gpsbrasilia.com.br/wp-content/uploads/2023/12/dinheiro1-.jpg"
-    },
-    {
-      "id": "companies-a483beefbe94cd1dd0f26d0a",
-      "title": "Shopee lança plataforma de exportação para empresas brasileiras",
-      "summary": "Após uma fase de testes com 19 mil vendedores e 1,4 milhão de itens anunciados, o serviço será ampliado para 150 mil lojistas",
-      "details": "Após uma fase de testes com 19 mil vendedores e 1,4 milhão de itens anunciados, o serviço será ampliado para 150 mil lojistas",
-      "url": "https://veronoticias.com/economia/shopee-lanca-plataforma-de-exportacao-para-empresas-brasileiras/",
-      "source": "Vero Notícias",
-      "category": "companies",
-      "tags": [
-        "empresas",
-        "resultados",
-        "m&a"
-      ],
-      "publishedAt": "2026-09-29T21:11:39Z",
-      "updatedAt": "2026-09-29T21:11:39Z",
-      "premium": false,
-      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://veronoticias.com/wp-content/uploads/2025/05/Shopee-inaugura-seu-primeiro-centro-de-distribuicao-Fulfillment-no-Brasil.webp"
-    },
-    {
-      "id": "macro-c3e5c817f19328ed8e8f80cd",
-      "title": "Audiência pública apresenta execução orçamentária e fiscal de Alagoinhas na Câmara Municipal",
-      "summary": "A Prefeitura de Alagoinhas, por meio da Secretaria da Fazenda (Sefaz) e da Controladoria Geral do Município (Coger), realizou, na Câmara Municipa...",
-      "details": "A Prefeitura de Alagoinhas, por meio da Secretaria da Fazenda (Sefaz) e da Controladoria Geral do Município (Coger), realizou, na Câmara Municipa...",
-      "url": "https://rbtv.com.br/noticia/17375/audiencia-publica-apresenta-execucao-orcamentaria-e-fiscal-de-alagoinhas-na-camara-municipal",
-      "source": "REDE BRASIL DE TELEVISÃO",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-09-29T21:11:09Z",
-      "updatedAt": "2026-09-29T21:11:09Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://str1.lnmimg.net/img/2026/09/29/9080d3a51612c39d432c44b031809c45.webp"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-71a02a1ebce2d47ece861587",
       "title": "Queda das taxas de juros ignora Caged e se alinha a falas do Fed",
-      "summary": "Dow Jones caiu 0,25%, S&P 500 perdeu 0,16% e o Nasdaq teve baixa de 0,09%",
-      "details": "Dow Jones caiu 0,25%, S&P 500 perdeu 0,16% e o Nasdaq teve baixa de 0,09%",
-      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/wall-street-fecha-em-queda-com-receio-de-mais-inflacao-nos-eua/",
+      "summary": "Atualizacao de ultima hora capturada em Tribuna do Agreste.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN05rc2xpZ0ExQlZVdEY1VS03UEk4NkVaZkNjQldiUzZtQVJQYmlmb2lVblBhYzNsblNRM0t3V1ZWcjhSNTJEdHc4VXBJZ2xoVHF5cWRoS0toRGRJMmIwLTZyUWtXX1RaRzFnTG1ZRmNmcmd5b2lxX0U2R2JDNVQzSDI0V0E3MFFoQm5QU2g4QUJydHViSzNrdEhDLVFZMmFnSU9CVmpOSGhvRTA1QVBQbl95aE5TLXEyNUZtVzFDcm00QQ?oc=5",
       "source": "Tribuna do Agreste",
       "category": "latest",
       "tags": [
@@ -722,62 +798,25 @@
       "publishedAt": "2026-09-29T21:11:00Z",
       "updatedAt": "2026-09-29T21:11:00Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2026binary_LYNXMPEM1C0XX-BASEIMAGE.jpg?w=800&h=533&crop=1"
-    },
-    {
-      "id": "macro-657f41102cfd12a6578d3171",
-      "title": "Taxas de juros ignoram Caged e mostram queda firme, de olho em falas de membro do Fed",
-      "summary": "Atualizacao de macro capturada em UOL Economia.",
-      "details": "",
-      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/09/29/taxas-de-juros-ignoram-caged-e-mostram-queda-firme-de-olho-em-falas-de-membro-do-fed.htm",
-      "source": "UOL Economia",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-09-29T21:11:00Z",
-      "updatedAt": "2026-09-29T21:11:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "latest-126ad68516deecffd210dcc3",
-      "title": "Ibovespa sobe com dados de emprego e petróleo em queda",
-      "summary": "Atualizacao de ultima hora capturada em trademap.com.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBsTm1QN2h6Y2YyUnQwZERuNkY1TzNOaS1NTW10U3FhelhlRXJsRTRjc05OXzZNZmI2bnR4VDlxQkh1ekR3SFZfSmEyU2xObjZ2X0E3YVVuaDc?oc=5",
-      "source": "trademap.com.br",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-09-29T21:07:37Z",
-      "updatedAt": "2026-09-29T21:07:37Z",
-      "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "macro-dd47732a3ede3e71ede34577",
-      "title": "Apesar da queda da Selic, inadimplência e custo do crédito só aumentam",
-      "summary": "Atualizacao de macro capturada em Correio Braziliense.",
+      "id": "companies-28bd33cdcb80b816b51edd58",
+      "title": "Shopee lança plataforma de exportação para empresas brasileiras",
+      "summary": "Atualizacao de empresas capturada em veronoticias.com.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbjB1THQ2REMzbTAwN3AzZmtzYXpHR3VyQkx5MHZZWXA3bV9MZG1vc3RtVVVwbTFzS3lRdTNuWm16Y29Fa3U4TDBiODNrcDBsVGwzOENNaG9WRW02TmJZTzRZMVpJMkZpeWNxeFRUM0hJSTFPeVI0NlluaVNGRjRYYXNlVXlNc041NG45QnIyRXNxcXlYbmpsRS11eFJyZGE1ZjBnbEk5SFdwdlcxSE4wcnlOejNIdGsxY2piOHNoei1rdVdCaVRBc1JZdWVrZ2h5WjFz0gHYAUFVX3lxTE5VUVhuVDBUeEhhbmhyNlhyend3T0tJb1A1UEFvbUtBTVFiZndFRVRuS0lXZUNNN3c2eTlKNFQ2cU5ta3dkNVpuc1h2dWJYTFpYLVIycDhwR1V1Q25rb3Y0T2IwRE81UGdaUDBGOFlkRUxMUExMX18tbGNEMGFvbVhpQjh1bGN2Yjd0QmxHT0xRMmh2T2hEeHdQR21SY3BGN1ZpdzV6NnJCbl9YOXJBQVZtRnlSbnhXVENnVlNPMDl0WjZ5VDMwRjJHdWVxc0ZleXhyNWtCZFVkdw?oc=5",
-      "source": "Correio Braziliense",
-      "category": "macro",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMEdkeXRGbWJwWmp5QWt3NEFEbi1Famsxd2RoQkRGQWJwaWxYYmU4VjZnUzhuM1U1Q3hoWms4aFROUmNkeGVBa2JpSFB3TFh5aVFiOTd5OHZFSzZ6NkZMNDVJcnVncW10Y0xwdEhlclZqSE1lRUZuMHhxTmJ2VmZKZXNEcjg4WmYza1hGMFl4MmNObE8xY1lSeFNfTnpRSlE?oc=5",
+      "source": "veronoticias.com",
+      "category": "companies",
       "tags": [
-        "macro",
-        "juros",
-        "inflacao"
+        "empresas",
+        "resultados",
+        "m&a"
       ],
-      "publishedAt": "2026-09-29T21:06:00Z",
-      "updatedAt": "2026-09-29T21:06:00Z",
+      "publishedAt": "2026-09-29T21:07:13Z",
+      "updatedAt": "2026-09-29T21:07:13Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
+      "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
       "id": "latest-98a4bd37306453ccf1836f7f",
@@ -798,12 +837,12 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-d1e33e47f954bffff4f501cf",
+      "id": "latest-df7720c7bdfda1157a3f8af2",
       "title": "Aumenta a pressão do mercado financeiro por cortes nos investimentos sociais para o próximo ano",
-      "summary": "Atualizacao de ultima hora capturada em auditoriacidada.org.br.",
+      "summary": "Atualizacao de ultima hora capturada em Auditoria Cidadã da Dívida.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUzk5OE1rSVJxeFN4NHdPbkN2Q05GNTg0NkpqSkhZbGdIWnBrZWhnSzJXbmRqUFo3ZVNlV2Y4SXM1aEtBNFJ4QzJYUU1PbGdVdDduUnlDeC1uRHpka2VmZ3ZiVUNKWEtzWGlqcnVOczJxSVpGVlcyRU1RRFVjcjV4dXU3VnpodW4wYWJRaE9CWkFvVEdsNlB5NG4wSUU2WHBnUEtUTVF1Tm1sTmdYNDdZOHJSUVk3ejQ2RkdmLUs3dTU5Z2x2QTM4cXVDU2pLbjRSWmc?oc=5",
-      "source": "auditoriacidada.org.br",
+      "source": "Auditoria Cidadã da Dívida",
       "category": "latest",
       "tags": [
         "mercado",
@@ -816,12 +855,12 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-eae9d2e17e22c02505dd8606",
+      "id": "latest-9206de22301abb73cb7f3e85",
       "title": "Ibovespa vira e sobe mesmo com Vale em queda e bolsas de NY no vermelho",
-      "summary": "Atualizacao de ultima hora capturada em estadao.com.br.",
+      "summary": "Atualizacao de ultima hora capturada em Estadão.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQb2xISW9mN2t1OElXZGQ5WVY1S3A4QnBZbXBPU0FyR0FfdmF5WHpBcllWWW1URUx6TTZGMUxSUGFBNGl2WDM2aGNWaW50Y2tLa3hCUk5qTmk5YVA4anppVW5ZZWwwTTVON1NvM1RaLVYxRU8tbEMzQVh1dVBka1psMjk1SWdFempwbm1UNmxOTEhDeHV6cHhvNGlsWFQydjI5bXJGR2ZfQUxqTHZyc21MSkNVbmNFLVNZd1haMmxzdmVua0Q5RWhQd2JjRXU5UTFDZUJBaUpsWdIB3AFBVV95cUxQWVUxSkU3cGtEWk9odlBZU19od3JPSUhqWTVRYm5ENlRuNGFjTENyR1JqMzlabHctbUhqZFRpVkV1MVAyblF4dTVYSlRoQ2RxdHVCaHRYUW8teGgwVkY3djVsZjA5a3YzX2YxNVV0aElzV2ZrWVhGWkZSb1pmMFdNcnFnRlpld1VrTVFQcm0wN1N2dHQ1MU5YT3ZJN24wclpQTFdGNXFVMXJLajk5VTBIU1kwVVJaWlB3WnpZQzJ5LUFtX2VHSk9EdGdrd1dSUEVTUUpuUjU1Z2V3V3VT?oc=5",
-      "source": "estadao.com.br",
+      "source": "Estadão",
       "category": "latest",
       "tags": [
         "mercado",
@@ -870,12 +909,12 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-8d888f11b6c668ad3a915732",
-      "title": "Ibovespa engata alta com eleição no radar; ações cíclicas amparam avanço - TNOnline",
-      "summary": "Atualizacao de ultima hora capturada em TNOnline.",
+      "id": "latest-638a6ba37765a829b8daf1a0",
+      "title": "Ibovespa engata alta com eleição no radar; ações cíclicas amparam avanço",
+      "summary": "Atualizacao de ultima hora capturada em BOL.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOFpZWG43OFlJaG1WQjAwOFdybzlXN3cwWV85OGFMZ0FlOTNKOFBqR1VHOXdxTXozYzRMb3U0S1ZZNnE4Z0l1anY4dW5XeTVPOVEwT21XQmc0ODhrdkhnT0NQS2p4aG1ibHZkTm5zdE9HYXRHWDVEQ2dQbmJEMml5cG8zRVRKWEFDNE1PUWdOSGRUMUdSRVJsTFJRTnZ2MFZyRlVHdFZhb283dWNfa3k2ZjZSMnF0SmZQNDVGbGxWZW9OT3BuWjFFeW9SN1JHUdIBzgFBVV95cUxQOFpZWG43OFlJaG1WQjAwOFdybzlXN3cwWV85OGFMZ0FlOTNKOFBqR1VHOXdxTXozYzRMb3U0S1ZZNnE4Z0l1anY4dW5XeTVPOVEwT21XQmc0ODhrdkhnT0NQS2p4aG1ibHZkTm5zdE9HYXRHWDVEQ2dQbmJEMml5cG8zRVRKWEFDNE1PUWdOSGRUMUdSRVJsTFJRTnZ2MFZyRlVHdFZhb283dWNfa3k2ZjZSMnF0SmZQNDVGbGxWZW9OT3BuWjFFeW9SN1JHUQ?oc=5",
-      "source": "TNOnline",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWEtLTlNWQmJUUDhoREc2TXFlLXpPQk9rdy1PZ2tiMURzT1JnT0l1aWpiNzBZRzdXWTcxT1dwOFRPZktpSklESE1OUEotbUlkd2ItaVhHSWV0UEExd3ZKSFBDVzdXYjJaOFp1OEVFX2tRM3AyQnpVMGhXMGl5NnZnV01HUzgyR0dmbVV6WWdQVG4ydXQ1Ui1JUzMzQi16TEdDNktURXh0ejZNTHNrNU9aemg4aGtaUjR6aXYzcWd3QjZabkJs0gHEAUFVX3lxTE9YS0tOU1ZCYlRQOGhERzZNcWUtek9CT2t3LU9na2IxRHNPUmdPSXVpamI3MFlHN1dZNzFPV3A4VE9mS2lKSURITU5QSi1tSWR3Yi1pWEdJZXRQQTF3dkpIUENXN1diMlo4WnU4RUVfa1EzcDJCelUwaFcwaXk2dmdXTUdTODJHR2ZtVXpZZ1BUbjJ1dDVSLUlTMzNCLXpMR0M2S1RFeHR6Nk1Mc2s1T1p6aDhoa1pSNHppdjNxZ3dCNlpuQmw?oc=5",
+      "source": "BOL",
       "category": "latest",
       "tags": [
         "mercado",
@@ -888,30 +927,12 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-d4f027f2884f79b7ea6c572d",
-      "title": "Eleições e Ibovespa: o mercado já começou a tomar sua posição",
-      "summary": "Atualizacao de ultima hora capturada em estadao.com.br.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWno2MTdXbGhvRDV2VmY5d2tnVE53REdzSVNNQ3NSamRkM3E5WDJiWHpkZFFzT29VUE9LOEMzSjQwSXZVQjdNcG9LWmtIdmVBbkFtNDlRRElqQlpfNHd3YU9LMEoyVVpacVo1anRuZUJZWDNLRzBZcUV3bUJQN3hwb2hVRnFpSXY2X3lyaS1SQ2NCTzNmZ2JkZVkxblg4SkVpa2xOOU5DZEgxRWRTbWhhRnZ3Tm1yS1pNbVc3SGlrVQ?oc=5",
-      "source": "estadao.com.br",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-09-29T20:51:39Z",
-      "updatedAt": "2026-09-29T20:51:39Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "companies-b4eccf466bc83c536a1cd5d1",
+      "id": "companies-75246dc0055011cb061e5a89",
       "title": "Empresas brasileiras entram em 2027 sob pressão de juros, dívida e investimentos",
-      "summary": "Atualizacao de empresas capturada em paraibabusiness.com.br.",
+      "summary": "Atualizacao de empresas capturada em Paraíba Business.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcFhNSUw2LTYxMDgxMVNTSDllT0xNczFUY3NUd3duOEdIVGlBeWV5TmdSYllwN3VjckJuOUtZRmdpOEg5ZjRKbXc2Nkx5aGhJajZlU2N1clZ5dC1Remo4ZWxZbW4yV2dQak1sSnhYblh2WDV4eTluVTRrNGpmZVdmWUl5NTAzdkx0VlVzSXBrZG9TUnBQdnhKR0pJVWVjNVBOWUkzc2l5WVFiS2RmMGtFTQ?oc=5",
-      "source": "paraibabusiness.com.br",
+      "source": "Paraíba Business",
       "category": "companies",
       "tags": [
         "empresas",
@@ -942,7 +963,7 @@
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "companies-aeb26ebcbcbf127f2370991e",
+      "id": "companies-d517d1873d20dd9d3b9dd2ac",
       "title": "- Comex do Brasil",
       "summary": "Atualizacao de empresas capturada em Comex do Brasil.",
       "details": "",
@@ -954,13 +975,13 @@
         "resultados",
         "m&a"
       ],
-      "publishedAt": "2026-09-29T19:57:49Z",
-      "updatedAt": "2026-09-29T19:57:49Z",
+      "publishedAt": "2026-09-29T19:57:22Z",
+      "updatedAt": "2026-09-29T19:57:22Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
     {
-      "id": "companies-7d26a0a50c43f92a00adf982",
+      "id": "companies-3ce4fdcf7b09e080cc4cbd4b",
       "title": "Chile oferece 1,7 mil oportunidades para produtos brasileiros com tarifa zero, mostra estudo da ApexBrasil",
       "summary": "Atualizacao de empresas capturada em Comex do Brasil.",
       "details": "",
@@ -972,8 +993,8 @@
         "resultados",
         "m&a"
       ],
-      "publishedAt": "2026-09-29T19:45:40Z",
-      "updatedAt": "2026-09-29T19:45:40Z",
+      "publishedAt": "2026-09-29T19:47:23Z",
+      "updatedAt": "2026-09-29T19:47:23Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d"
     },
@@ -1284,12 +1305,12 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "funds-f27a87dc18f714d0e3158515",
+      "id": "funds-3cbc2e111c4f80525e053605",
       "title": "Citi eleva preço-alvo da XP e vê potencial de alta de quase 24%",
-      "summary": "Atualizacao de fundos capturada em estadao.com.br.",
+      "summary": "Atualizacao de fundos capturada em Estadão.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPektjdFlzWkdqSE1KdDB4RjhzQVBSSWd3SjN5QU94UXVQUmtvY3JjdE9MelUwdzR0WXZSZXBLZURfa2c2OXZsZlc0NWVpdU9venZkMFVhS2RIT2lnTlE2VDl0MTMzLU1pV00yUWFGRHhZbDRGT1pEMTNtVHNXVlVIbE5wZWhzbkdGcXJONVl6dEVvbnZMcUx2QVhQaWF6TzlKbjdwN3JLYU92ZGNIRng3VUZ4Vm4tTWgzMl8zRmVUeWRuczJIcVRyaVplLVRiQdIB0wFBVV95cUxQSF9wd0h3VFF0YjRqTTBLbzVqc2RvN3VyaDdIQWUxT0swTDJic1VYX1hZYXJCZTBaaW1aN1M3MlFuMHJURTJPZTY0c2FTTXFKUFZ3MW02clhnYzVZUU9xMDdPMzVKTnpOUEQ2SV9DdkJvWTNNWk8wc19oYWtNSG0tbC1YcTBhckFsVmdTZTR5ZE0zb0RKUGZpVktZWDhQRFViVUNNVlpsOGZZWEdmTTcxbkVzNmtWeWo1YXlJU0llNWNqd3ZVQVBjXzFlYm5MSjNqM240?oc=5",
-      "source": "estadao.com.br",
+      "source": "Estadão",
       "category": "funds",
       "tags": [
         "fundos",
@@ -1302,20 +1323,20 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "funds-74e5000183ead6c4d0142518",
+      "id": "funds-1e5b438d859209dec3871a02",
       "title": "‘Não será o fim da indústria’: CEO da Bradesco Asset vê espaço para fundos multimercados",
-      "summary": "Atualizacao de fundos capturada em estadao.com.br.",
+      "summary": "Atualizacao de fundos capturada em Estadão.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcnhrZnNySVVueE5vc3FPMGlwZ1F5NVpDM3JBaEhkQ3ZQYzdPYjIzMTA0TUpRcmNqZXVmQ3k3Qlh4TF9PeTUxRnpQRC03SzBPeDcxMmVNVzNFSGtpc3h6SS1LMFF5WjUxNmY4UTQzaVhrQ0FDc2VJWEwyWVdNR1pFZ0d1RnkxaHYzd1R2UVRpcGVGRjNxc2xaXzhEU3ZRLUVMNDVRZ0E2VVF4a2Z3dzFKSmtRX0tkcGRqV0hyNmFpek00VVlPaER0Q0szV1l6eTZlN1BRRkxhcmdZX19DWVJiVFRueXdkc1FVcEE?oc=5",
-      "source": "estadao.com.br",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMEVGYnZTWUFPUUp2RGlSWXF6SmlIQktSVFpJVWg2SjNEcFNGUnhQNGNQSXRUbExLZkVPNV8xQ1V5VGQzbWZ3LXBuZmZrdjhXMzdKMjVrR245a0Z2dHZ1SVU0WmtqcVdQVTZZNC1Xb2FjTVNIaEsyVW1BS2lMMXJ3QmxITzRKQWJqTlVNaXJac1RyWDdNeklnaG5xWk5IYzg5ZHhSdFBWNlNESmhzQVNSMGp0dTcyYXVubkxSUTlKMGNUc1B5YUx6MVRzbGZHTmo1QURwNFBYODJuWHoxWXJF0gHkAUFVX3lxTE9Pa0NEVmVGT1RyckJoM3hIVDFuVzk5MWJ5S1dyUW81d1g2dWJBYkQ1WE9YNFBLUHRLcEwwSlMtSWNWZzUtb01rYVFrVUQ4TlpEZFhibmZlbUdvN0NvQnhMN2g0aWJCMl9OZGFIWmFaQllBWFlxR2dWVnhIRE1zTHZFMmk4Nk9fNG9aNlNLQW02N1pxcHVVdlAyWGktelo1Rm81LWpCTXBaQ2pSOXkweEs1TWFJYXpDU19heUtOQ3NsTDRxTFFXOWtfNDg2alZDVG1aTzJsYXhhT01LdnZwYUtZV01NQQ?oc=5",
+      "source": "Estadão",
       "category": "funds",
       "tags": [
         "fundos",
         "asset",
         "fiis"
       ],
-      "publishedAt": "2026-09-29T16:22:39Z",
-      "updatedAt": "2026-09-29T16:22:39Z",
+      "publishedAt": "2026-09-29T15:59:15Z",
+      "updatedAt": "2026-09-29T15:59:15Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
@@ -1356,30 +1377,12 @@
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
     },
     {
-      "id": "funds-3c86523cd614d6faea529eb6",
-      "title": "Ganhos acima da inflação: por que investir em ETFs de IPCA+?",
-      "summary": "Atualizacao de fundos capturada em Terra.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU29oWWNWUE53YWJocmlZamxYWXdVcWZhMklPZnRjdXk3a3JoZVJfMllkX3ZFQzNqREZHVVJzZ3Z3Z1lLU3l0TFFfVXNBdGVqelpDMGliNDNGQ0RJQ1ZsbkRMcm9yYkJtVE9QTncyRmdUVzRZYnlJRXhyeld6aDVNNklVcG5KVlpjeFR5eFhQWDF5aWtyZlNvWVZyeDY3Z1N5Q3psWmR0dktSZWxuQk5KM3FndDhWaHVkLXRjRFF2bUd3RWZrR1hQNVdtQzd0cEhiLVlJ?oc=5",
-      "source": "Terra",
-      "category": "funds",
-      "tags": [
-        "fundos",
-        "asset",
-        "fiis"
-      ],
-      "publishedAt": "2026-09-29T15:21:00Z",
-      "updatedAt": "2026-09-29T15:21:00Z",
-      "premium": false,
-      "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d"
-    },
-    {
-      "id": "funds-d4c36a6b3c90cf327b82516c",
+      "id": "funds-15a000582de72df352e8bf78",
       "title": "Notícia Bradesco Asset: Selic pode ficar parada no início de 2027 com El Niño, mas tendência é de queda",
-      "summary": "Atualizacao de fundos capturada em Kinvo.",
+      "summary": "Atualizacao de fundos capturada em kinvo.com.br.",
       "details": "",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRndLU0ZwV0xvS3F0UU1aRUpUYzZsREN1MThUZGdMdWxDdzlxMDFMT3I4VXBqdGdsNm9PMExQRjVMLVhFS2hRZnlfVXRHZUY4MWRNNlJGenZzdC14ME84SzktWV9MelJvRkN0a3VBa1hxMFp2NmtkQ2ZGUzRRWjZ4TFRlcVdZZUtqTi1fcjdnQkkwX1U3NDVrT2dSWlVmbldERnplSXVfeVllU1RNWnA5WEZVd3VQbkQwckl5TUNiTQ?oc=5",
-      "source": "Kinvo",
+      "source": "kinvo.com.br",
       "category": "funds",
       "tags": [
         "fundos",
