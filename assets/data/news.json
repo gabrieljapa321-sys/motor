@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-17T22:50:44Z",
-  "generatedAt": "2026-10-17T22:50:44Z",
+  "updatedAt": "2026-10-18T00:35:31Z",
+  "generatedAt": "2026-10-18T00:35:31Z",
   "categories": [
     {
       "id": "all",
@@ -37,6 +37,10 @@
       "label": "Agora Litoral"
     },
     {
+      "id": "ag-ncia-brasil",
+      "label": "Agência Brasil"
+    },
+    {
       "id": "bitnot-cias",
       "label": "BitNotícias"
     },
@@ -59,10 +63,6 @@
     {
       "id": "bpmoney",
       "label": "BPMoney"
-    },
-    {
-      "id": "cbn",
-      "label": "CBN"
     },
     {
       "id": "cnn-brasil",
@@ -165,20 +165,12 @@
       "label": "Monitor Mercantil"
     },
     {
-      "id": "movimento-econ-mico",
-      "label": "Movimento Econômico"
-    },
-    {
       "id": "not-cia-para-ba",
       "label": "Notícia Paraíba"
     },
     {
       "id": "o-globo",
       "label": "O GLOBO"
-    },
-    {
-      "id": "o-petr-leo",
-      "label": "O Petróleo"
     },
     {
       "id": "portal-abc-do-abc",
@@ -197,16 +189,8 @@
       "label": "REDE BRASIL DE TELEVISÃO"
     },
     {
-      "id": "rep-rter-di-rio",
-      "label": "Repórter Diário"
-    },
-    {
       "id": "revista-turbo",
       "label": "Revista Turbo"
-    },
-    {
-      "id": "seu-dinheiro",
-      "label": "Seu Dinheiro"
     },
     {
       "id": "times-brasil-cnbc",
@@ -225,6 +209,10 @@
       "label": "TV Florida USA"
     },
     {
+      "id": "uol-economia",
+      "label": "UOL Economia"
+    },
+    {
       "id": "vero-not-cias",
       "label": "Vero Notícias"
     },
@@ -235,11 +223,106 @@
   ],
   "items": [
     {
+      "id": "latest-ba6bd22753f4b08c2089e5c8",
+      "title": "Ações de tecnologia recuam com dúvidas sobre o setor de IA",
+      "summary": "Wall Street registra queda após inflação elevada reforçar temores sobre juros mais altos nos Estados Unidos",
+      "details": "Wall Street registra queda após inflação elevada reforçar temores sobre juros mais altos nos Estados Unidos",
+      "url": "https://www.cnnbrasil.com.br/economia/money/inteligencia-artificial/acoes-de-tecnologia-recuam-com-duvidas-sobre-o-setor-de-ia/",
+      "source": "CNN Brasil",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-10-17T23:30:03Z",
+      "updatedAt": "2026-10-17T23:30:03Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2025binary_LYNXMPELAG0X1-BASEIMAGE.jpg?w=800&h=533&crop=1"
+    },
+    {
+      "id": "latest-71bc81b320dee2813f05764e",
+      "title": "Mercado de soja no Brasil enfrenta recuo de preços e foco no plantio",
+      "summary": "Acordo Mercosul-EFTA abre oportunidades para exportações brasileiras em quatro países europeus e prevê redução de tarifas para produtos nacionais também",
+      "details": "Acordo Mercosul-EFTA abre oportunidades para exportações brasileiras em quatro países europeus e prevê redução de tarifas para produtos nacionais também",
+      "url": "https://www.abcdoabc.com.br/acordo-mercosul-efta-amplia-as-exportacoes/",
+      "source": "boca.com.br",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-10-17T23:07:05Z",
+      "updatedAt": "2026-10-17T23:07:05Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://cdn-imgs.s3.sa-east-1.amazonaws.com/wp-content/uploads/2026/10/Acordo-Mercosul-EFTA-abre-mercados-para-exportacoes-brasileiras.webp"
+    },
+    {
+      "id": "latest-5dad40327488276b639664f0",
+      "title": "Ibovespa abre em alta com foco nas eleições deste mês",
+      "summary": "Ibovespa começa o dia em alta, atraindo atenção dos investidores por conta do cenário eleitoral.",
+      "details": "Ibovespa começa o dia em alta, atraindo atenção dos investidores por conta do cenário eleitoral.",
+      "url": "https://diariodoestadogo.com.br/ibovespa-abre-em-alta-com-foco-nas-eleicoes-deste-mes/",
+      "source": "Diário do Estado",
+      "category": "latest",
+      "tags": [
+        "mercado",
+        "bolsa",
+        "macro"
+      ],
+      "publishedAt": "2026-10-17T23:00:19Z",
+      "updatedAt": "2026-10-17T23:00:19Z",
+      "premium": false,
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/10/ibovespa-abre-em-alta-com-foco-nas-eleicoes-deste-mes.png"
+    },
+    {
+      "id": "macro-3a9fdc96affa0fd397e4950b",
+      "title": "Anthropic projeta PIB dos EUA de US$ 44 trilhões até 2030 com avanço da IA",
+      "summary": "Projeções de produção positiva mantêm comercialização em segundo plano.",
+      "details": "Projeções de produção positiva mantêm comercialização em segundo plano.",
+      "url": "https://boca.com.br/agronegocio/mercado-soja-brasil-recuo-precos-plantio",
+      "source": "Times Brasil | CNBC",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-10-17T22:59:00Z",
+      "updatedAt": "2026-10-17T22:59:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/81d46e0b44baff8d1869843cab9d285c_858x483.jpg"
+    },
+    {
+      "id": "macro-53f2d671d3023d523d271367",
+      "title": "Cofundador da Anthropic diz que PIB dos EUA pode atingir US$ 44 tri até 2030 com avanço da IA",
+      "summary": "O cofundador da Anthropic, Jack Clark, afirmou que projeções econômicas internas da empresa apontam para a possibilidade de o Produto Interno Bruto (PIB)",
+      "details": "O cofundador da Anthropic, Jack Clark, afirmou que projeções econômicas internas da empresa apontam para a possibilidade de o Produto Interno Bruto (PIB)",
+      "url": "https://timesbrasil.com.br/empresas-e-negocios/anthropic-projeta-pib-dos-eua-de-us-44-trilhoes-ate-2030-com-avanco-da-ia/",
+      "source": "UOL Economia",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-10-17T22:47:00Z",
+      "updatedAt": "2026-10-17T22:47:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/10/6c8ca280-anthropic.webp"
+    },
+    {
       "id": "macro-cc4ec0f4acc589b7426f9bf4",
       "title": "Junqueiro publica contrato jurídico de R$ 50 mil por mês para regularização fiscal",
-      "summary": "De Olho na Cidade",
-      "details": "De Olho na Cidade",
-      "url": "https://www.deolhonacidade.net/especialista-aponta-efeitos-do-cenario-eleitoral-sobre-os-investimentos-no-brasil",
+      "summary": "Atualizacao de macro capturada em Tribuna do Sertão.",
+      "details": "",
+      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/17/cofundador-da-anthropic-diz-que-pib-dos-eua-pode-atingir-us-44-tri-ate-2030-com-avanco-da-ia.htm",
       "source": "Tribuna do Sertão",
       "category": "macro",
       "tags": [
@@ -250,8 +333,7 @@
       "publishedAt": "2026-10-17T22:31:00Z",
       "updatedAt": "2026-10-17T22:31:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://gestor.deolhonacidade.net/assets/1af8fc78-3f90-4dc7-8a46-b5ff64293bff?width=800&quality=70"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-810c5bdd20273e0c3fc5e626",
@@ -275,9 +357,9 @@
     {
       "id": "companies-041a0f6b540c824bd8230612",
       "title": "Acordo Mercosul-EFTA abre mercados para exportações brasileiras",
-      "summary": "Acordo Mercosul-EFTA abre oportunidades para exportações brasileiras em quatro países europeus e prevê redução de tarifas para produtos nacionais também",
-      "details": "Acordo Mercosul-EFTA abre oportunidades para exportações brasileiras em quatro países europeus e prevê redução de tarifas para produtos nacionais também",
-      "url": "https://www.abcdoabc.com.br/acordo-mercosul-efta-amplia-as-exportacoes/",
+      "summary": "De Olho na Cidade",
+      "details": "De Olho na Cidade",
+      "url": "https://www.deolhonacidade.net/especialista-aponta-efeitos-do-cenario-eleitoral-sobre-os-investimentos-no-brasil",
       "source": "Portal ABC do ABC",
       "category": "companies",
       "tags": [
@@ -289,14 +371,14 @@
       "updatedAt": "2026-10-17T21:54:32Z",
       "premium": false,
       "sourceQuery": "empresas brasileiras OR balanco OR guidance OR fusao when:2d",
-      "imageUrl": "https://cdn-imgs.s3.sa-east-1.amazonaws.com/wp-content/uploads/2026/10/Acordo-Mercosul-EFTA-abre-mercados-para-exportacoes-brasileiras.webp"
+      "imageUrl": "https://gestor.deolhonacidade.net/assets/1af8fc78-3f90-4dc7-8a46-b5ff64293bff?width=800&quality=70"
     },
     {
       "id": "macro-9dc26e961988ece9f8746ffc",
       "title": "\"Pacote de bondades\" exige ajuste no orçamento de 2027, diz especialista",
-      "summary": "Segundo Lagarde, a alta dos preços da energia deve manter a inflação acima da meta de 2% até o primeiro semestre de 2027.",
-      "details": "Segundo Lagarde, a alta dos preços da energia deve manter a inflação acima da meta de 2% até o primeiro semestre de 2027.",
-      "url": "https://veronoticias.com/economia/lagarde-alerta-para-inflacao-alta-e-riscos-ao-crescimento-europeu/",
+      "summary": "Alexandre Andrade, diretor da Instituição Fiscal Independente (IFI), alerta que novas despesas não constam da proposta orçamentária já enviada ao Congresso",
+      "details": "Alexandre Andrade, diretor da Instituição Fiscal Independente (IFI), alerta que novas despesas não constam da proposta orçamentária já enviada ao Congresso",
+      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/pacote-de-bondades-exige-ajuste-no-orcamento-de-2027-diz-especialista/",
       "source": "CNN Brasil",
       "category": "macro",
       "tags": [
@@ -308,14 +390,14 @@
       "updatedAt": "2026-10-17T21:36:35Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://veronoticias.com/wp-content/uploads/2025/04/Christine_Lagarde.jpeg"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/10/dinheiro-IA-cnn.png?w=1200&h=630&crop=1"
     },
     {
       "id": "macro-2b57ef07c7d5ab4d1db79b93",
       "title": "Lagarde alerta para inflação alta e riscos ao crescimento europeu",
-      "summary": "Alexandre Andrade, diretor da Instituição Fiscal Independente (IFI), alerta que novas despesas não constam da proposta orçamentária já enviada ao Congresso",
-      "details": "Alexandre Andrade, diretor da Instituição Fiscal Independente (IFI), alerta que novas despesas não constam da proposta orçamentária já enviada ao Congresso",
-      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/pacote-de-bondades-exige-ajuste-no-orcamento-de-2027-diz-especialista/",
+      "summary": "Segundo Lagarde, a alta dos preços da energia deve manter a inflação acima da meta de 2% até o primeiro semestre de 2027.",
+      "details": "Segundo Lagarde, a alta dos preços da energia deve manter a inflação acima da meta de 2% até o primeiro semestre de 2027.",
+      "url": "https://veronoticias.com/economia/lagarde-alerta-para-inflacao-alta-e-riscos-ao-crescimento-europeu/",
       "source": "Vero Notícias",
       "category": "macro",
       "tags": [
@@ -327,7 +409,7 @@
       "updatedAt": "2026-10-17T21:30:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/10/dinheiro-IA-cnn.png?w=1200&h=630&crop=1"
+      "imageUrl": "https://veronoticias.com/wp-content/uploads/2025/04/Christine_Lagarde.jpeg"
     },
     {
       "id": "latest-9d78f16ea456a503cef78c15",
@@ -351,9 +433,9 @@
     {
       "id": "latest-5ef7a9507657cf77c6a767c9",
       "title": "Tem mais brasileiro no mercado de criptomoedas do que na bolsa, mas quase metade admite não entender o que comprou",
-      "summary": "Jack Clark, cofundador da Anthropic, diz que modelo interno projeta PIB dos EUA em US$44 trilhões até 2030 com avanço da IA.",
-      "details": "Jack Clark, cofundador da Anthropic, diz que modelo interno projeta PIB dos EUA em US$44 trilhões até 2030 com avanço da IA.",
-      "url": "https://bpmoney.com.br/economia/cofundador-anthropic-ia-pib-eua-44-trilhoes-2030/",
+      "summary": "Pesquisa da Skyscanner revela que 87% dos brasileiros pretendem viajar mais em 2027, com foco em custo-benefício e experiências.",
+      "details": "Pesquisa da Skyscanner revela que 87% dos brasileiros pretendem viajar mais em 2027, com foco em custo-benefício e experiências.",
+      "url": "https://bpmoney.com.br/mercado/turismo-em-alta-87-dos-brasileiros-planejam-viajar-igual-ou-mais-em-2027/",
       "source": "BitNotícias",
       "category": "latest",
       "tags": [
@@ -365,7 +447,7 @@
       "updatedAt": "2026-10-17T21:00:34Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://uploads.bpmoney.com.br/2026/05/claude_1200x800_melhorada.png"
+      "imageUrl": "https://uploads.bpmoney.com.br/2026/10/turismo-no-rio-de-janeiro-veja-o-que-visitar-na-cidade-maravilhosa-1024x683-1.jpg"
     },
     {
       "id": "macro-d17eaa4097af095c65ee605d",
@@ -389,9 +471,9 @@
     {
       "id": "latest-e11efa9643f1123785b27ab3",
       "title": "Brasil pode ultrapassar EUA em exportações agrícolas, mas desafios permanecem",
-      "summary": "Disputa pela liderança mundial ocorre em meio a dificuldades comerciais e geopolíticas.",
-      "details": "Disputa pela liderança mundial ocorre em meio a dificuldades comerciais e geopolíticas.",
-      "url": "https://boca.com.br/agronegocio/brasil-pode-ultrapassar-eua-em-exportacoes-agricolas",
+      "summary": "Jack Clark, cofundador da Anthropic, diz que modelo interno projeta PIB dos EUA em US$44 trilhões até 2030 com avanço da IA.",
+      "details": "Jack Clark, cofundador da Anthropic, diz que modelo interno projeta PIB dos EUA em US$44 trilhões até 2030 com avanço da IA.",
+      "url": "https://bpmoney.com.br/economia/cofundador-anthropic-ia-pib-eua-44-trilhoes-2030/",
       "source": "boca.com.br",
       "category": "latest",
       "tags": [
@@ -403,14 +485,14 @@
       "updatedAt": "2026-10-17T20:46:38Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/f40a431af09e55937851b05c74a2573e_858x483.jpg"
+      "imageUrl": "https://uploads.bpmoney.com.br/2026/05/claude_1200x800_melhorada.png"
     },
     {
       "id": "macro-763cf70fcaedc5a89bb9f284",
       "title": "FMI diz que situação fiscal da Colômbia é insustentável e cobra medidas",
-      "summary": "Em relatório publicado nesta sexta-feira (16), o FMI (Fundo Monetário Internacional) disse que a situação fiscal da Colômbia é “insustentável”. O órgão pediu que o...",
-      "details": "Em relatório publicado nesta sexta-feira (16), o FMI (Fundo Monetário Internacional) disse que a situação fiscal da Colômbia é “insustentável”. O órgão pediu que o...",
-      "url": "https://investidor10.com.br/amp/noticias/fmi-diz-que-situacao-fiscal-da-colombia-e-insustentavel-e-cobra-medidas-123319/",
+      "summary": "Disputa pela liderança mundial ocorre em meio a dificuldades comerciais e geopolíticas.",
+      "details": "Disputa pela liderança mundial ocorre em meio a dificuldades comerciais e geopolíticas.",
+      "url": "https://boca.com.br/agronegocio/brasil-pode-ultrapassar-eua-em-exportacoes-agricolas",
       "source": "Investidor10",
       "category": "macro",
       "tags": [
@@ -422,14 +504,14 @@
       "updatedAt": "2026-10-17T20:27:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://investidor10.com.br/storage/news/6ad3d98ecd72e.jpg"
+      "imageUrl": "https://images.boca.com.br/upload/imagens-resizes/f40a431af09e55937851b05c74a2573e_858x483.jpg"
     },
     {
       "id": "latest-b2b2e10ddf3882ce850c845a",
       "title": "Ibovespa abre em alta nesta sexta-feira com foco na eleição",
-      "summary": "Pesquisa da Skyscanner revela que 87% dos brasileiros pretendem viajar mais em 2027, com foco em custo-benefício e experiências.",
-      "details": "Pesquisa da Skyscanner revela que 87% dos brasileiros pretendem viajar mais em 2027, com foco em custo-benefício e experiências.",
-      "url": "https://bpmoney.com.br/mercado/turismo-em-alta-87-dos-brasileiros-planejam-viajar-igual-ou-mais-em-2027/",
+      "summary": "Em relatório publicado nesta sexta-feira (16), o FMI (Fundo Monetário Internacional) disse que a situação fiscal da Colômbia é “insustentável”. O órgão pediu que o...",
+      "details": "Em relatório publicado nesta sexta-feira (16), o FMI (Fundo Monetário Internacional) disse que a situação fiscal da Colômbia é “insustentável”. O órgão pediu que o...",
+      "url": "https://investidor10.com.br/amp/noticias/fmi-diz-que-situacao-fiscal-da-colombia-e-insustentavel-e-cobra-medidas-123319/",
       "source": "Diário do Estado",
       "category": "latest",
       "tags": [
@@ -441,14 +523,14 @@
       "updatedAt": "2026-10-17T20:00:20Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://uploads.bpmoney.com.br/2026/10/turismo-no-rio-de-janeiro-veja-o-que-visitar-na-cidade-maravilhosa-1024x683-1.jpg"
+      "imageUrl": "https://investidor10.com.br/storage/news/6ad3d98ecd72e.jpg"
     },
     {
       "id": "latest-47c7492552acc24aabc59a97",
       "title": "Brasileiros planejam viajar mais em 2027, aponta pesquisa da Skyscanner",
-      "summary": "A presidente do Banco Central Europeu (BCE), Christine Lagarde, afirmou que os riscos para o crescimento econômico da zona do euro seguem concentrados no",
-      "details": "A presidente do Banco Central Europeu (BCE), Christine Lagarde, afirmou que os riscos para o crescimento econômico da zona do euro seguem concentrados no",
-      "url": "https://timesbrasil.com.br/mundo/presidente-do-bce-alerta-para-riscos-de-menor-crescimento-e-inflacao-mais-alta-na-zona-do-euro/",
+      "summary": "O Ibovespa teve alta nos primeiros negócios de sexta-feira, devido ao cenário eleitoral entre Flávio Bolsonaro e Lula.",
+      "details": "O Ibovespa teve alta nos primeiros negócios de sexta-feira, devido ao cenário eleitoral entre Flávio Bolsonaro e Lula.",
+      "url": "https://diariodoestadogo.com.br/ibovespa-abre-em-alta-nesta-sexta-feira-com-foco-na-eleicao/",
       "source": "BPMoney",
       "category": "latest",
       "tags": [
@@ -460,14 +542,33 @@
       "updatedAt": "2026-10-17T20:00:00Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2024/12/euroskulptur-frankfurt-downtown-germany-scaled.jpg"
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/10/ibovespa-abre-em-alta-nesta-sexta-feira-com-foco-na-eleicao.png"
+    },
+    {
+      "id": "macro-4cf4dbc5cc7c56226ad79280",
+      "title": "Justiça Federal manda Meta restabelecer contas estudantis do RS",
+      "summary": "MPF alegou que a suspensão das contas configura censura e pode causar prejuízos à organização estudantil e ao acesso à assistência jurídica gratuita.",
+      "details": "MPF alegou que a suspensão das contas configura censura e pode causar prejuízos à organização estudantil e ao acesso à assistência jurídica gratuita.",
+      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/justica-federal-manda-meta-restabelecer-contas-estudantis-do-rs",
+      "source": "Agência Brasil",
+      "category": "macro",
+      "tags": [
+        "macro",
+        "juros",
+        "inflacao"
+      ],
+      "publishedAt": "2026-10-17T19:46:00Z",
+      "updatedAt": "2026-10-17T19:46:00Z",
+      "premium": false,
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
+      "imageUrl": "https://imagens.ebc.com.br/6V_PnIOBnhZ4bftmz-ImkI1DURs=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/aplicativo_0410211422.jpg?itok=RW6Om7dw"
     },
     {
       "id": "latest-a55ac1c6a3af8de5b159203a",
       "title": "Mercado de carros novos aposta em ofertas e juros baixos no ES",
-      "summary": "O Ibovespa teve alta nos primeiros negócios de sexta-feira, devido ao cenário eleitoral entre Flávio Bolsonaro e Lula.",
-      "details": "O Ibovespa teve alta nos primeiros negócios de sexta-feira, devido ao cenário eleitoral entre Flávio Bolsonaro e Lula.",
-      "url": "https://diariodoestadogo.com.br/ibovespa-abre-em-alta-nesta-sexta-feira-com-foco-na-eleicao/",
+      "summary": "Assista",
+      "details": "Assista",
+      "url": "https://g1.globo.com/google/amp/es/espirito-santo/videos-es1-regional/video/mercado-de-carros-novos-aposta-em-ofertas-e-juros-baixos-no-es-15098614.ghtml",
       "source": "G1",
       "category": "latest",
       "tags": [
@@ -479,14 +580,14 @@
       "updatedAt": "2026-10-17T19:25:44Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/10/ibovespa-abre-em-alta-nesta-sexta-feira-com-foco-na-eleicao.png"
+      "imageUrl": "https://s03.video.glbimg.com/x720/15098614.jpg"
     },
     {
       "id": "macro-3878c7e27b0ea4c69d35dbe8",
       "title": "Presidente do BCE alerta para riscos de menor crescimento e inflação mais alta na zona do euro",
-      "summary": "O primeiro SUV desenvolvido de raiz pela Mercedes-AMG é 100% elétrico. O GT 63 tem 1169 cv, bateria inspirada na Fórmula 1 e até 700 km de autonomia.",
-      "details": "O primeiro SUV desenvolvido de raiz pela Mercedes-AMG é 100% elétrico. O GT 63 tem 1169 cv, bateria inspirada na Fórmula 1 e até 700 km de autonomia.",
-      "url": "https://www.turbo.pt/novo-suv-eletrico-da-mercedes-amg-tem-1169-cv/",
+      "summary": "A presidente do Banco Central Europeu (BCE), Christine Lagarde, afirmou que os riscos para o crescimento econômico da zona do euro seguem concentrados no",
+      "details": "A presidente do Banco Central Europeu (BCE), Christine Lagarde, afirmou que os riscos para o crescimento econômico da zona do euro seguem concentrados no",
+      "url": "https://timesbrasil.com.br/mundo/presidente-do-bce-alerta-para-riscos-de-menor-crescimento-e-inflacao-mais-alta-na-zona-do-euro/",
       "source": "Times Brasil | CNBC",
       "category": "macro",
       "tags": [
@@ -498,14 +599,14 @@
       "updatedAt": "2026-10-17T18:51:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://asset.skoiy.com/tbowjqdgqpxirbte/tli0vqwhlstn.jpg"
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2024/12/euroskulptur-frankfurt-downtown-germany-scaled.jpg"
     },
     {
       "id": "funds-2f26fcaf2eb31b02e85bdca1",
       "title": "Novo SUV elétrico da Mercedes-AMG tem 1169 cv",
-      "summary": "Lagarde defendeu que o futuro da política monetária será guiado por uma avaliação abrangente dos dados, seguindo a função de reação da instituição",
-      "details": "Lagarde defendeu que o futuro da política monetária será guiado por uma avaliação abrangente dos dados, seguindo a função de reação da instituição",
-      "url": "https://www.infomoney.com.br/economia/lagarde-diz-que-choque-de-energia-e-grande-demais-para-ser-ignorado/",
+      "summary": "Gigante cervejeira registra salto expressivo de 27% na receita de produtos sem álcool no segundo trimestre deste ano.",
+      "details": "Gigante cervejeira registra salto expressivo de 27% na receita de produtos sem álcool no segundo trimestre deste ano.",
+      "url": "https://agoralitoral.com.br/2026/10/17/cerveja-sem-alcool-impulsiona-acoes-da-ab-inbev-no-mercado-global/",
       "source": "Revista Turbo",
       "category": "funds",
       "tags": [
@@ -517,14 +618,14 @@
       "updatedAt": "2026-10-17T18:07:22Z",
       "premium": false,
       "sourceQuery": "\"fundos de investimento\" OR \"fundo imobiliario\" OR asset when:2d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/10/Chistine-Lagarde-1.jpg"
+      "imageUrl": "https://agoralitoral.com.br/wp-content/uploads/2026/10/o-momento-coca-diet-da-ab-inbev-pode-dar-novo-impulso-as-acoes-1792256797.jpg"
     },
     {
       "id": "macro-3b8751bcab4e1ecc60583288",
       "title": "Lagarde diz que choque de energia é “grande demais para ser ignorado”",
-      "summary": "Assista",
-      "details": "Assista",
-      "url": "https://g1.globo.com/es/espirito-santo/videos-es1-regional/video/mercado-de-carros-novos-aposta-em-ofertas-e-juros-baixos-no-es-15098614.ghtml",
+      "summary": "Ibovespa registra alta em meio à disputa eleitoral. O índice chegou a 204.674,01 pontos às 10h11 desta sexta-feira, 16 de outubro.",
+      "details": "Ibovespa registra alta em meio à disputa eleitoral. O índice chegou a 204.674,01 pontos às 10h11 desta sexta-feira, 16 de outubro.",
+      "url": "https://diariodoestadogo.com.br/ibovespa-abre-em-alta-e-investidores-observam-cenario-eleitoral/",
       "source": "InfoMoney",
       "category": "macro",
       "tags": [
@@ -536,14 +637,14 @@
       "updatedAt": "2026-10-17T18:03:26Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://s03.video.glbimg.com/x720/15098614.jpg"
+      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/10/ibovespa-abre-em-alta-e-investidores-observam-cenario-eleitoral.png"
     },
     {
       "id": "latest-77d3871a52254cd77ee866ed",
       "title": "Ibovespa abre em alta e investidores observam cenário eleitoral",
-      "summary": "Ibovespa registra alta em meio à disputa eleitoral. O índice chegou a 204.674,01 pontos às 10h11 desta sexta-feira, 16 de outubro.",
-      "details": "Ibovespa registra alta em meio à disputa eleitoral. O índice chegou a 204.674,01 pontos às 10h11 desta sexta-feira, 16 de outubro.",
-      "url": "https://diariodoestadogo.com.br/ibovespa-abre-em-alta-e-investidores-observam-cenario-eleitoral/",
+      "summary": "Atualizacao de ultima hora capturada em Diário do Estado.",
+      "details": "",
+      "url": "https://exame.com/invest/mercados/magalu-smart-fit-e-raia-as-apostas-do-ubs-bb-apos-rali-de-20-no-varejo-com-eleicoes/",
       "source": "Diário do Estado",
       "category": "latest",
       "tags": [
@@ -554,15 +655,14 @@
       "publishedAt": "2026-10-17T18:00:18Z",
       "updatedAt": "2026-10-17T18:00:18Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/10/ibovespa-abre-em-alta-e-investidores-observam-cenario-eleitoral.png"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-dfe3543f2e5588f51097f57f",
       "title": "Brasil deve voltar ao grupo das oito maiores economias do mundo em 2027, projeta FMI",
-      "summary": "País deve alcançar PIB de US$ 2,8 trilhões e ultrapassar Itália e Rússia; em 2026, economia brasileira deve permanecer na décima posição",
-      "details": "País deve alcançar PIB de US$ 2,8 trilhões e ultrapassar Itália e Rússia; em 2026, economia brasileira deve permanecer na décima posição",
-      "url": "https://www.folhabv.com.br/cotidiano/brasil-deve-voltar-ao-grupo-das-oito-maiores-economias-do-mundo-em-2027-projeta-fmi/",
+      "summary": "Lagarde defendeu que o futuro da política monetária será guiado por uma avaliação abrangente dos dados, seguindo a função de reação da instituição",
+      "details": "Lagarde defendeu que o futuro da política monetária será guiado por uma avaliação abrangente dos dados, seguindo a função de reação da instituição",
+      "url": "https://www.infomoney.com.br/economia/lagarde-diz-que-choque-de-energia-e-grande-demais-para-ser-ignorado/",
       "source": "Folha BV",
       "category": "macro",
       "tags": [
@@ -574,14 +674,14 @@
       "updatedAt": "2026-10-17T18:00:00Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://uploads.folhabv.com.br/2026/10/2023.jpg"
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/10/Chistine-Lagarde-1.jpg"
     },
     {
       "id": "latest-c8aea4f04f208d1349ce36f1",
       "title": "Magalu, Smart Fit e Raia: as apostas do UBS BB após rali de 20% no varejo com eleições",
-      "summary": "Atualizacao de ultima hora capturada em Exame.",
-      "details": "",
-      "url": "https://exame.com/invest/mercados/magalu-smart-fit-e-raia-as-apostas-do-ubs-bb-apos-rali-de-20-no-varejo-com-eleicoes/",
+      "summary": "O primeiro SUV desenvolvido de raiz pela Mercedes-AMG é 100% elétrico. O GT 63 tem 1169 cv, bateria inspirada na Fórmula 1 e até 700 km de autonomia.",
+      "details": "O primeiro SUV desenvolvido de raiz pela Mercedes-AMG é 100% elétrico. O GT 63 tem 1169 cv, bateria inspirada na Fórmula 1 e até 700 km de autonomia.",
+      "url": "https://www.turbo.pt/novo-suv-eletrico-da-mercedes-amg-tem-1169-cv/",
       "source": "Exame",
       "category": "latest",
       "tags": [
@@ -592,7 +692,8 @@
       "publishedAt": "2026-10-17T17:58:56Z",
       "updatedAt": "2026-10-17T17:58:56Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
+      "imageUrl": "https://asset.skoiy.com/tbowjqdgqpxirbte/tli0vqwhlstn.jpg"
     },
     {
       "id": "macro-ffc617050e248f5929094408",
@@ -616,9 +717,9 @@
     {
       "id": "latest-895f706a815305f7b70feb7b",
       "title": "Cerveja sem álcool impulsiona ações da AB InBev no mercado global",
-      "summary": "Gigante cervejeira registra salto expressivo de 27% na receita de produtos sem álcool no segundo trimestre deste ano.",
-      "details": "Gigante cervejeira registra salto expressivo de 27% na receita de produtos sem álcool no segundo trimestre deste ano.",
-      "url": "https://agoralitoral.com.br/2026/10/17/cerveja-sem-alcool-impulsiona-acoes-da-ab-inbev-no-mercado-global/",
+      "summary": "País deve alcançar PIB de US$ 2,8 trilhões e ultrapassar Itália e Rússia; em 2026, economia brasileira deve permanecer na décima posição",
+      "details": "País deve alcançar PIB de US$ 2,8 trilhões e ultrapassar Itália e Rússia; em 2026, economia brasileira deve permanecer na décima posição",
+      "url": "https://www.folhabv.com.br/cotidiano/brasil-deve-voltar-ao-grupo-das-oito-maiores-economias-do-mundo-em-2027-projeta-fmi/",
       "source": "Agora Litoral",
       "category": "latest",
       "tags": [
@@ -630,14 +731,14 @@
       "updatedAt": "2026-10-17T17:08:40Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://agoralitoral.com.br/wp-content/uploads/2026/10/o-momento-coca-diet-da-ab-inbev-pode-dar-novo-impulso-as-acoes-1792256797.jpg"
+      "imageUrl": "https://uploads.folhabv.com.br/2026/10/2023.jpg"
     },
     {
       "id": "latest-88c1348986ab727c5d2fd0a0",
       "title": "FMI reduz previsão de crescimento do PIB do Brasil para 2,2% em 2026 e projeta inflação de 4,4%",
-      "summary": "Para além de inaugurar a contagem regressiva para o encerramento do exercício anual, este é o momento exato em que os dados acumulados dos primeiros nove meses já formam uma base estatística robusta e representativa",
-      "details": "Para além de inaugurar a contagem regressiva para o encerramento do exercício anual, este é o momento exato em que os dados acumulados dos primeiros nove meses já formam uma base estatística robusta e representativa",
-      "url": "https://www.agazeta.com.br/artigos/a-corrida-do-quarto-trimestre-por-que-outubro-define-o-futuro-fiscal-do-seu-negocio-1026",
+      "summary": "FMI reduz para 2,2% a previsão de crescimento do PIB do Brasil em 2026. Relatório também estima inflação de 4,4% e desemprego de 6,2% no fim do ano.",
+      "details": "FMI reduz para 2,2% a previsão de crescimento do PIB do Brasil em 2026. Relatório também estima inflação de 4,4% e desemprego de 6,2% no fim do ano.",
+      "url": "https://jornalgrandebahia.com.br/2026/10/fmi-reduz-previsao-de-crescimento-do-pib-do-brasil-para-22-em-2026-e-projeta-inflacao-de-44/",
       "source": "Jornal Grande Bahia",
       "category": "latest",
       "tags": [
@@ -649,14 +750,14 @@
       "updatedAt": "2026-10-17T17:00:04Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1790607113241_2019_12_04_3gpq24w0s9f.png"
+      "imageUrl": "https://i0.wp.com/jornalgrandebahia.com.br/wp-content/uploads/2026/10/FMI-reduz-previsao-de-crescimento-do-PIB-do-Brasil-20261015.jpg?fit=1200%2C800&quality=100&ssl=1"
     },
     {
       "id": "macro-3d6db7de8b343897f13bd7bd",
       "title": "A corrida do quarto trimestre: por que outubro define o futuro fiscal do seu negócio",
       "summary": "Atualizacao de macro capturada em A Gazeta.",
       "details": "",
-      "url": "https://jornaldr1.com.br/perdao-de-dividas-de-meis-tera-impacto-fiscal-de-r-304-bilhoes-mas-reduz-custos-de-cobranca/",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ18xMkllNmx3Skdmd01neVN1WGtaNTVRQVIwQVRxdG9ocjUyb3VCWTNWWDE4RmE3NjNfUlEtRG9qeGdsZHdRSjIzMGRBa3RPV292NFdpY1JleXNmNEhHRk9FYllVSWZybVZIc2xtakZadzgwa0Y1bjY0aWlQbHRyNENMQ2NMS3hzUkJ0U3MxU295M1FiZDgtVVMtMHdHX0dlakdVQ2dVNDFRUU13OGNzZFdhTlNJLVRpU2FWN3A3em4?oc=5",
       "source": "A Gazeta",
       "category": "macro",
       "tags": [
@@ -672,9 +773,9 @@
     {
       "id": "macro-906cc8ce176d8c33ad7d63d5",
       "title": "Perdão de dívidas de MEIs terá impacto fiscal de R$ 3,04 bilhões, mas reduz custos de cobrança",
-      "summary": "FMI reduz para 2,2% a previsão de crescimento do PIB do Brasil em 2026. Relatório também estima inflação de 4,4% e desemprego de 6,2% no fim do ano.",
-      "details": "FMI reduz para 2,2% a previsão de crescimento do PIB do Brasil em 2026. Relatório também estima inflação de 4,4% e desemprego de 6,2% no fim do ano.",
-      "url": "https://jornalgrandebahia.com.br/2026/10/fmi-reduz-previsao-de-crescimento-do-pib-do-brasil-para-22-em-2026-e-projeta-inflacao-de-44/",
+      "summary": "Atualizacao de macro capturada em Jornal DR1.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNalN0aFRPeTNlRm8zWjA2cWpqX0YyZnJ6MWdEOUQ0RTNsVVV4cVdBUHp4NUxRc0JSQnVFLVR2Rl9rRGtaOXZQM3FLeXAtM3NJZTNfakUtQzQ4U3BWSHFmUU5senBHUUQtc09Tal9OUklGc2xWelhOYm9YZTdtbkEyUG00anItY0pMRlRZdmFVTTRoZ2tzQm9FY2Z1Y2NPOGxvMVlwS1NrVHZlbXFfVXNpQnFrTWJMcTUx?oc=5",
       "source": "Jornal DR1",
       "category": "macro",
       "tags": [
@@ -685,15 +786,14 @@
       "publishedAt": "2026-10-17T17:00:00Z",
       "updatedAt": "2026-10-17T17:00:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://i0.wp.com/jornalgrandebahia.com.br/wp-content/uploads/2026/10/FMI-reduz-previsao-de-crescimento-do-PIB-do-Brasil-20261015.jpg?fit=1200%2C800&quality=100&ssl=1"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-4c9d7c4c97f54450fb68193f",
       "title": "Cade aprova união de Coinbase, Visa, Mastercard, Shopify e Stripe para lançar nova stablecoin global de Dólar",
-      "summary": "Projeto batizado de Open Standard promete infraestrutura neutra para o comércio eletrônico mundial, mas não deve vir ao Brasil agora.",
-      "details": "Projeto batizado de Open Standard promete infraestrutura neutra para o comércio eletrônico mundial, mas não deve vir ao Brasil agora.",
-      "url": "https://livecoins.com.br/cade-aprova-uniao-de-coinbase-visa-mastercard-shopify-e-stripe-para-lancar-nova-stablecoin-global-de-dolar/amp/",
+      "summary": "Atualizacao de ultima hora capturada em Livecoins.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORWYwandlY0paazRNOEZGM1pLd3hxRnNCOHBvdWFsbHVLdEhPUkNwV0dZM0s0dUYySllrRnYxd2xseVh1LUdCb19qa1J6OFZyM21RTjI2Y1p5djNic3UzMUl4bi1MUzI2SkpsU2lqSWhmUEZoNE9icHpWSlhNOFpPUUhGWlBhZnUzOEZYVlpUQmpoVEx5VlVib1p3Y1JrRDZTTFdSeXhkTnNNc3B3d2pXcGlGVlh4VDdEX1VfQ0ZKMklFb2Fvamk0MmpFVmhITkhlZXfSAdIBQVVfeXFMTkVmMGp3ZWNKWms0TThGRjNaS3d4cUZzQjhwb3VhbGx1S3RIT1JDcFdHWTNLNHVGMkpZa0Z2MXdsbHlYdS1HQm9famtSejhWcjNtUU4yNmNaeXYzYnN1MzFJeG4tTFMyNkpKbFNpakloZlBGaDRPYnB6VkpYTThaT1FIRlpQYWZ1MzhGWFZaVEJqaFRMeVZVYm9ad2NSa0Q2U0xXUnl4ZE5zTXNwd3dqV3BpRlZYeFQ3RF9VX0NGSjJJRW9hb2ppNDJqRVZoSE5IZWV3?oc=5",
       "source": "Livecoins",
       "category": "latest",
       "tags": [
@@ -704,15 +804,14 @@
       "publishedAt": "2026-10-17T16:59:52Z",
       "updatedAt": "2026-10-17T16:59:52Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://livecoins.com.br/wp-content/uploads/2026/10/Dolar-digital-verde.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "latest-34c9b8c04c9471bdeb0197f3",
       "title": "A PODRIDÃO do MERCADO FINANCEIRO BRASILEIRO",
-      "summary": "#tvflorida #tvfloridausa #cortestvfloridausa Se ainda não for inscrito, inscreva-se em nosso clube de membros, clicando em Compre agora o E-BOOK \"A AGENDA DA SUBVERSÃO\" por apenas $1.99 no link: BRASILEIROS NOS ESTADOS UNIDOS Seu próximo patrimônio começa com planejamento: Parcer",
-      "details": "#tvflorida #tvfloridausa #cortestvfloridausa Se ainda não for inscrito, inscreva-se em nosso clube de membros, clicando em Compre agora o E-BOOK \"A AGENDA DA SUBVERSÃO\" por apenas $1.99 no link: BRASILEIROS NOS ESTADOS UNIDOS Seu próximo patrimônio começa com planejamento: Parceria com a Auriverde Brasil @auriverdebras",
-      "url": "https://tvfloridausa.com/2026/10/17/a-podridao-do-mercado-financeiro-brasileiro/",
+      "summary": "Atualizacao de ultima hora capturada em TV Florida USA.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbHd5VjRMWU02RmpOQUFBd2VsZDA5NTRuNWFHNlFtODA5cFE4bGV3aEpjVElEM2toRTgtakFKZExZSWdma3l5OXRTRG42a2dNZDc1OU05Z1czOXRCLWlhdTF5RFVzZ1lOamxoVEk1SGFOUElaTHZvRFlXZDlGYzZ1Q3dlRktkOGs?oc=5",
       "source": "TV Florida USA",
       "category": "latest",
       "tags": [
@@ -723,15 +822,14 @@
       "publishedAt": "2026-10-17T16:53:07Z",
       "updatedAt": "2026-10-17T16:53:07Z",
       "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d",
-      "imageUrl": "https://tvfloridausa.com/wp-content/uploads/2026/10/1792255775_maxresdefault.jpg"
+      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
       "id": "macro-0b6374cc9d9be4077e7a0d06",
       "title": "Inflação, rixas internas e tarifas de Trump ameaçam republicanos nas midterms",
       "summary": "Atualizacao de macro capturada em Exame.",
       "details": "",
-      "url": "https://exame.com/mundo/inflacao-rixas-internas-e-tarifas-de-trump-ameacam-republicanos-nas-midterms/",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVUFLNnVxVWJUQ0Q1YnRMRXNHTVhNS2dLY2dKWTdjQmpmaG5DLWdNMXFLNXU5TTJoMDBKX0dMdlM4aXhsM01lNmY4QWdXaTNHbWFHRDRyWDBhUzVtV3l4SnZxdWpvTmtabFNmRnJOcS1QamgxSkJXSGx0WS1BSUhoblZUWFJUNUZxSWRyUmk3UElxZUZBaFZYcXk4dXlENW53SVRn?oc=5",
       "source": "Exame",
       "category": "macro",
       "tags": [
@@ -747,9 +845,9 @@
     {
       "id": "macro-657ef2bd2ce122dd535808b7",
       "title": "Cofundador da Anthropic diz que impacto da IA acelera e pode impulsionar PIB dos EUA",
-      "summary": "Clark disse ​que é necessária uma cooperação internacional para estabelecer “regras incomuns e rigorosas” para essa tecnologia transformadora",
-      "details": "Clark disse ​que é necessária uma cooperação internacional para estabelecer “regras incomuns e rigorosas” para essa tecnologia transformadora",
-      "url": "https://www.infomoney.com.br/mercados/cofundador-da-anthropic-diz-que-impacto-da-ia-acelera-e-pode-impulsionar-pib-dos-eua/",
+      "summary": "Atualizacao de macro capturada em InfoMoney.",
+      "details": "",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSTU3T3U2SnhyM2NaSDBSckszTG03VFhsRGJoMjFaVDhaSnVpSEo1X0xQYlY3ZWxWR2UwUnlmdURiZ2dtZ3oyM3dYSnJFNklnUVM0QVN5dFhxUUxWX2Z5ZnllYW5TeXUxT1pUalQ3TXlIXzM4eHFqVGlJUVcxRXNRRzlxQ0pySVFBUFFyaTlkQXZKMEExa01LTl9Sbm5wLUpYTjlMZDhnbjhsYVNCaE91TDhXcEcxMXlUZXB5QXdfNljSAcYBQVVfeXFMT2ZCMld6VGk3TmtjRHBNRUlMYWtObWNPQ2JlNU9kaXd3MllXYUFSRllFaFp4ZGJEQTNNdmtzOVcyUk1fQ0VxeGloWFk5TlpXenVycF9lRTNIZDZXT01mQ0N4TFozal9qT2hyYmVvbGl2V2ZwbDlrUUNTZE9aVllVWHVHVlpKSi1EdkNNQzFabnJVSU1Sd0t4MlFxdl9NU2QzMTdqWktYenVjY3lEcmNoT1VEblNkNkd2S0luRmFyaXhUdzRUNjZR?oc=5",
       "source": "InfoMoney",
       "category": "macro",
       "tags": [
@@ -760,8 +858,7 @@
       "publishedAt": "2026-10-17T16:34:00Z",
       "updatedAt": "2026-10-17T16:34:00Z",
       "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/06/457870763.jpg"
+      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
     {
       "id": "latest-c09d4e236b13b66a65fd6c50",
@@ -782,20 +879,20 @@
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
     {
-      "id": "latest-7f63c42033c4bf158e1863c1",
-      "title": "POMO4 cai 22,8% em 2026: Marcopolo ficou barata ou o mercado enxergou um problema?",
-      "summary": "Atualizacao de ultima hora capturada em O Petróleo.",
+      "id": "latest-3a49ef6ed62127fa399edc15",
+      "title": "Análise: Risco oculto cresce no mercado de títulos dos EUA",
+      "summary": "Atualizacao de ultima hora capturada em CNN Brasil.",
       "details": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNODVzMXBrejdDUnVObXlnVV8xRmp5UTJVNlQ3UEtyZDR3a2VSd2pSWjUwN1Y4b0RheHVjQ3dKaUVfMzRqdHV2aERYSVJ4WGZ5RFFCSGduRUJlbDNrUVhxanlpZDd1TGdHWl81QndNRjNfaVo3bzJnSlZjQURmNG9FOHZGZzMwMGd4eVZ3bDBJVHhkbWQzR1p3VGRVTVJqS3NPckVBY3VhQQ?oc=5",
-      "source": "O Petróleo",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTUNCYWtPN1RRQmhYTUNGQW1pU2g1VUtUTXYyT3NnX3hPRzktRnM3WFJZQktibVUyLWdaTnFVOEdDMHJJaDAxUUlqaEZvYWEtRXlDN2YyNVRDWXNGOW5mcFJPbGJHNFlmOElfWl9GNDRGTnoyWUFGUEJFLTNwR2RYUU5wZnRIVmRfRkNGdkM5OEV4UHBhNWxNbjJ5ZXBjekpKT1V6MzdwcmR2X2MyR2FZ?oc=5",
+      "source": "CNN Brasil",
       "category": "latest",
       "tags": [
         "mercado",
         "bolsa",
         "macro"
       ],
-      "publishedAt": "2026-10-17T15:35:06Z",
-      "updatedAt": "2026-10-17T15:35:06Z",
+      "publishedAt": "2026-10-17T15:46:32Z",
+      "updatedAt": "2026-10-17T15:46:32Z",
       "premium": false,
       "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
     },
@@ -832,114 +929,6 @@
       ],
       "publishedAt": "2026-10-17T15:28:00Z",
       "updatedAt": "2026-10-17T15:28:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "latest-28f149fec8b827c776d68e52",
-      "title": "Alckmin e ex-ministros se encontram em SP com nomes da política e mercado financeiro 'críticos ao PT'",
-      "summary": "Atualizacao de ultima hora capturada em CBN.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPaDlOcHhPdmNIdlZvZXBpVFRybk1MVWV2U1o2elg0U1hPUElSMlYwRXNLVnhYRGVIWWxibS1VREU4aWFFTkpiNGhMSU9WSzBiREdOMU9kTzUxZDdpLWw1Wi02UTRmV0hlZmJZVW9yVUFWS1V3eFdwQlp6a0FSU3NSaTJpMUFDWHl1clhVbXVMV0hFZTd5Zkh6UFN6UG1sTThlc1FwUWE5Wmo0UDdNUTkycTZOdXdpVVBfX3Z2SHBndjQwd09HRDNjWWo4dERKVFFiUXB2Y2diZEc5R3drRUJBODhaMTBBeW9kal9VanZ4OFhvZnhNcWVkeUlSOWJ1WDRQ0gGPAkFVX3lxTE1hOWRTeXIxT0JBX1l5ZENHZ21vMDlVWF81T2paQlRkWVlxb1dMTUVzdUhLdnBKNnNzZFB6ZU5aSks0TEk3Y2tVUzNoZGdFdVkzaUtFNXFZLTl0NmdqVTQ5c0Z3NUdwaWZpUlEybmVHWTl4MzByMXZWeldkbGJ4d3o0M3g3MUpsR1dld19Qc2RVMDBTUFdCV0M4SVRoNGdscUVPUzBkUTBJaUNFY3k0T0FUeWZIYklLZF9XMlJZQWhpMElLVHN0XzNGbjl6OTFNLWNZQ0lRcmF2eWhGbnJzMWEwSGpMTEJwOFE2bFdpN1hOYjlyLTZrWndRblpCQnlrc09WSGZBclJNbnNNbzNNZzA?oc=5",
-      "source": "CBN",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-10-17T15:19:48Z",
-      "updatedAt": "2026-10-17T15:19:48Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "latest-54526a2116010362c11571a7",
-      "title": "Estrangeiros despejam R$ 19 bilhões na bolsa em outubro; desafio agora é transformar aposta eleitoral em fluxo permanente",
-      "summary": "Atualizacao de ultima hora capturada em Seu Dinheiro.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPanFOWno5d1gtdG5YbTFNMVhrZWtiWWJZbzBsUDVaMGdOLVNYNms5WGt6Z182aTFTdVJhdVRqLUw2cUhiOElGTWlOZzY2WU5sT0dYTC1kWVNuT1pDREdVV2lOSTQwTFAxSFgtV1N0VkZpVElRd1VUc3NmMkNWUHcyek81OEU5b2FEaG9DMTBfQXdUQ2RabWxDWHhDRzBhX0NCRGJ2bnhhMUg?oc=5",
-      "source": "Seu Dinheiro",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-10-17T15:11:00Z",
-      "updatedAt": "2026-10-17T15:11:00Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "macro-47ac6e1a576372f9d3f5cf01",
-      "title": "Companhias aéreas preveem anos difíceis com alta de custos e temor de inflação",
-      "summary": "Atualizacao de macro capturada em Folha de S.Paulo.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcXdpaUJ6UlQ3RFBjUTlJeUpHSERSQjFPMXBvOUlnWEstUzRYdFdGOGdVWUZveVlLaG1DTFQzd01mYzk5bzk1UXdMQkxPMVpvU2VncC12aWo3d1BZZ1FvZDJJeWF4MmVzSlI1TkxJTTg1enFUWjdqSnlURGNNX0k3OFVhbDFhS2szbEw4WUozZW1Ga0Q3djRqeUtjRFNmLVFFUTZzeDhUcEpXTEZUNmtkaWdyWm0wWS1uWG1nMm1EVHNVV2h1R3Z0bS1B?oc=5",
-      "source": "Folha de S.Paulo",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-10-17T14:45:00Z",
-      "updatedAt": "2026-10-17T14:45:00Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "latest-83e8f42d7fb021c9a771d518",
-      "title": "Análise: \"Pacote de bondades\" pode pressionar juros",
-      "summary": "Atualizacao de ultima hora capturada em CNN Brasil.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR0FOalNjUEhvUjJSX080LUhqXzhtYW8wRlF0THRIMXFfSlhweG50VUhZcVVob0RpVncxMXY2YW5lb05pUHJsaGtFVEh5b2Nhb2VWTUI4LTliOFBFZldBVUl2R1kxRXNja3h6alQ2c21qS3VmbEh1b2QzNlNPYjlWbUxnQ191V0RWMnR4cXJlYUIwVzZqX1dXQXFLWnNySjVLRUJzLUZoTXhIUC1DU1hVeFFjbXBpb0RDb3ByeDBNZlNiYXFP?oc=5",
-      "source": "CNN Brasil",
-      "category": "latest",
-      "tags": [
-        "mercado",
-        "bolsa",
-        "macro"
-      ],
-      "publishedAt": "2026-10-17T14:25:47Z",
-      "updatedAt": "2026-10-17T14:25:47Z",
-      "premium": false,
-      "sourceQuery": "mercado financeiro OR ibovespa OR dolar OR juros when:1d"
-    },
-    {
-      "id": "macro-6e26cb56af686f5035746782",
-      "title": "Prospera MEI tem saldo positivo, mas gera alerta fiscal",
-      "summary": "Atualizacao de macro capturada em Repórter Diário.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbUk4RzM2SXJzaHVLTDlDUlBkN0dDeWV1RnlEdFRfWkRZLUZ6Ri1PS3cwenlKaVBCZG0wNXJxd2x6OER1MVhEMTB5STR1SDdVSlVpTVgxT05EYWhDRjF1ekN0Y2E4akdyT05uR0lhZ1NXWHlGRmlJU3RHOTBxNTdFYlRFUDdDYWVjTGFjczBZcEhYNkFsVENnYU42azIxcWVWNnRGZF8wS0hmNEQ0TTRkdUV5X0RiVWV2TnJIYW9uSGp0OTZt?oc=5",
-      "source": "Repórter Diário",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-10-17T14:25:19Z",
-      "updatedAt": "2026-10-17T14:25:19Z",
-      "premium": false,
-      "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
-    },
-    {
-      "id": "macro-046726dfae49e7fa841c3b68",
-      "title": "Ajuste fiscal e Banco Master dominam repercussão de entrevista de Flávio à Globo",
-      "summary": "Atualizacao de macro capturada em Movimento Econômico.",
-      "details": "",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMGZqR3FsM1pjQmdXOVA1OVNobmJfaGhWZVprQTFsUEFFT3NnU1ZjTUNleEJRWWJRaTFvUlQ2c3Q1RzhZNWZnYlREVGdVc01jSU9BWXlPeU04anhjSkJXUkZiVGsybkFuNlVXX3gzM2JOUWtscW0waVVQYjB3d0RMWE5JeHpVLWZGNUJ5cHFGLU1QVndVVGtMR2hpaTVfMEp3WjlwNXNTTENoM2VWYm1kNVJmaENjWGQta19yNXFmNEhYU0RqbDBYY1lCVE9FVmxsaE5CS2lxenRDc2FwOHlrbGd0dw?oc=5",
-      "source": "Movimento Econômico",
-      "category": "macro",
-      "tags": [
-        "macro",
-        "juros",
-        "inflacao"
-      ],
-      "publishedAt": "2026-10-17T13:36:32Z",
-      "updatedAt": "2026-10-17T13:36:32Z",
       "premium": false,
       "sourceQuery": "inflacao OR fiscal OR selic OR fed OR pib when:2d"
     },
